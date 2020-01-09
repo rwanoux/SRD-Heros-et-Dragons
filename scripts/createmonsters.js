@@ -384,7 +384,7 @@ Hooks.once("init", async function() {
 
     let bestiaire = {};
 
-    $.getJSON("/modules/monstres fr HD/bestiaire.json", function(data) {
+    $.getJSON("/modules/SRD heros et dragons/bestiaire.json", function(data) {
 
         bestiaire = data;
         console.log(bestiaire);
@@ -572,7 +572,7 @@ Hooks.once("init", async function() {
 
     //--------------------------------change logo
     var logo = document.getElementById("logo");
-    logo.setAttribute("src", "modules/monstres fr HD/img/logoHD.png");
+    logo.setAttribute("src", "modules/SRD heros et dragons/img/logoHD.png");
     document.body.childNodes.className = +"owl-carousel";
 });
 Hooks.on("renderChatMessage", function() {
