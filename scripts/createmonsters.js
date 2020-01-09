@@ -88,9 +88,9 @@ Hooks.once("init", async function() {
 
 
             setProperty(creature, "data.traits.languages.custom", creature.header.monster.languages);
-            setProperty(creature, "data.traits.traits.senses", creature.header.monster.senses);
+            setProperty(creature, "data.traits.senses", creature.header.monster.senses);
 
-            setProperty(creature, "data.traits.traits.size", 0);
+            setProperty(creature, "data.traits.size", 0);
             switch (creature.header.monster.size) {
                 case 'TP':
                     creature.data.traits.size = 'tiny'
@@ -135,80 +135,107 @@ Hooks.once("init", async function() {
             }
 
             //--------------------SKILLS
-            let skillsData = creature.header.monster.skills.split(",");
-            for (skill of skillsData) {
-                let skillName = skill.split(" ")[0];
+            let skillData = creature.header.monster.skills;
+
+            skillData = creature.header.monster.skills.split(",");
+
+
+
+            for (i = 0; i < skillData.length; i++) {
+                let skill = skillData[i]
+                let skillName = skill.slice(0, -3);
+                console.log(skillName);
                 switch (skillName) {
                     case "Acrobatie":
+                    case " Acrobatie":
                         setProperty(creature, "data.skills.acr.value", "1");
                         break;
                     case "Arcanes":
+                    case " Arcanes":
                         setProperty(creature, "data.skills.arc.value", "1");
                         break;
                     case "Athl\u00e9tisme":
+                    case " Athl\u00e9tisme":
                         setProperty(creature, "data.skills.ath.value", "1");
                         break;
                     case "Discr\u00e9tion":
+                    case " Discr\u00e9tion":
                         setProperty(creature, "data.skills.ste.value", "1");
                         break;
                     case "Escamotage":
+                    case " Escamotage":
                         setProperty(creature, "data.skills.slt.value", "1");
                         break;
                     case "Dressage":
+                    case " Dressage":
                         setProperty(creature, "data.skills.acr.value", "1");
                         break;
                     case "Histoire":
+                    case " Histoire":
                         setProperty(creature, "data.skills.his.value", "1");
                         break;
                     case "Intimidation":
+                    case " Intimidation":
                         setProperty(creature, "data.skills.itm.value", "1");
                         break;
                     case "Investigation":
+                    case " Investigation":
                         setProperty(creature, "data.skills.acr.value", "1");
                         break;
                     case "M\u00e9decine":
+                    case " M\u00e9decine":
                         setProperty(creature, "data.skills.med.value", "1");
                         break;
                     case "Nature":
+                    case " Nature":
                         setProperty(creature, "data.skills.nat.value", "1");
                         break;
                     case "Perception":
+                    case " Perception":
                         setProperty(creature, "data.skills.prc.value", "1");
                         break;
                     case "Perspicacit\u00e9":
+                    case " Perspicacit\u00e9":
                         setProperty(creature, "data.skills.ins.value", "1");
                         break;
                     case "Persuasion":
+                    case " Persuasion":
                         setProperty(creature, "data.skills.per.value", "1");
                         break;
                     case "Religion":
+                    case " Religion":
                         setProperty(creature, "data.skills.rel.value", "1");
                         break;
                     case "Repr\u00e9sentation":
+                    case " Repr\u00e9sentation":
                         setProperty(creature, "data.skills.prf.value", "1");
                         break;
                     case "Supercherie":
+                    case " Supercherie":
                         setProperty(creature, "data.skills.dec.value", "1");
                         break;
                     case "Survie":
+                    case " Survie":
                         setProperty(creature, "data.skills.sur.value", "1");
                         break;
 
 
                 }
 
+            };
 
-            }
-
-
-
-            console.log('----------------------' + creature.name + '------------------------------------------')
+            console.log('----------------------' + creature.name + '------------------------------------------');
             console.log(creature);
 
 
 
             pack.push(creature);
         };
+
+
+
+
+
 
     });
 
@@ -223,6 +250,10 @@ Hooks.once("ready", async function() {
          let actor = Actor.create(pack[i])
      };
      */
+    const result = pack.filter(obj => {
+        return obj.name === "Zombi"
+    })
+    console.log(result);
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
        .......................................
