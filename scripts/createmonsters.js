@@ -1,23 +1,27 @@
 let pack = [];
-
+/*
 Hooks.on("preCreateChatMessage", async function() {
     let order = "HDcreate";
     var log = document.getElementsByClassName("message-content");
-    mess = log[log.length - 1].innerText.split(" ")
+    let mess = JSON.stringify(ChatMessage[ChatMessage.length - 1]);
+    //mess = log[log.length - 1].innerText.split(" ")
+    console.log(mess);
+    
+        let zoum = ChatMessage.export();
+        console.log("------------------zoum--------" + zoum);
+
+        if (mess[0] == order) {
+            var name = mess[1];
+            console.log("creer-----------" + name)
 
 
 
-    if (mess[0] == order) {
-        var name = mess[1];
-        console.log("creer-----------" + name)
-
-
-
-    } else {
-        console.log("message brut_________________" + mess);
-    }
+        } else {
+            console.log("message brut_________________" + mess);
+        }
+        
 });
-
+*/
 Hooks.once("init", async function() {
     $.getJSON("/modules/SRD heros et dragons/creatures.json", function(bestiaire) {
         //const bestiaire = fetch("/modules/SRD heros et dragons./creature.json").then(resp => resp.json());
@@ -130,6 +134,74 @@ Hooks.once("init", async function() {
                 setProperty(creature, "data.traits.ci.custom", "none");
             }
 
+            //--------------------SKILLS
+            let skillsData = creature.header.monster.skills.split(",");
+            for (skill of skillsData) {
+                let skillName = skill.split(" ")[0];
+                switch (skillName) {
+                    case "Acrobatie":
+                        setProperty(creature, "data.skills.acr.value", "1");
+                        break;
+                    case "Arcanes":
+                        setProperty(creature, "data.skills.arc.value", "1");
+                        break;
+                    case "Athl\u00e9tisme":
+                        setProperty(creature, "data.skills.ath.value", "1");
+                        break;
+                    case "Discr\u00e9tion":
+                        setProperty(creature, "data.skills.ste.value", "1");
+                        break;
+                    case "Escamotage":
+                        setProperty(creature, "data.skills.slt.value", "1");
+                        break;
+                    case "Dressage":
+                        setProperty(creature, "data.skills.acr.value", "1");
+                        break;
+                    case "Histoire":
+                        setProperty(creature, "data.skills.his.value", "1");
+                        break;
+                    case "Intimidation":
+                        setProperty(creature, "data.skills.itm.value", "1");
+                        break;
+                    case "Investigation":
+                        setProperty(creature, "data.skills.acr.value", "1");
+                        break;
+                    case "M\u00e9decine":
+                        setProperty(creature, "data.skills.med.value", "1");
+                        break;
+                    case "Nature":
+                        setProperty(creature, "data.skills.nat.value", "1");
+                        break;
+                    case "Perception":
+                        setProperty(creature, "data.skills.prc.value", "1");
+                        break;
+                    case "Perspicacit\u00e9":
+                        setProperty(creature, "data.skills.ins.value", "1");
+                        break;
+                    case "Persuasion":
+                        setProperty(creature, "data.skills.per.value", "1");
+                        break;
+                    case "Religion":
+                        setProperty(creature, "data.skills.rel.value", "1");
+                        break;
+                    case "Repr\u00e9sentation":
+                        setProperty(creature, "data.skills.prf.value", "1");
+                        break;
+                    case "Supercherie":
+                        setProperty(creature, "data.skills.dec.value", "1");
+                        break;
+                    case "Survie":
+                        setProperty(creature, "data.skills.sur.value", "1");
+                        break;
+
+
+                }
+
+
+            }
+
+
+
             console.log('----------------------' + creature.name + '------------------------------------------')
             console.log(creature);
 
@@ -146,7 +218,7 @@ Hooks.once("init", async function() {
 
 
 Hooks.once("ready", async function() {
-    //  let actor = Actor.create(pack[45]);
+    let actor = Actor.create(pack[342]);
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
        .......................................
