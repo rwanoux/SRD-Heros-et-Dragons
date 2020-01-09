@@ -1,11 +1,21 @@
 let pack = [];
 
 Hooks.on("preCreateChatMessage", async function() {
-    let order = "/HDcreate";
-    var mess = JSON.stringify(Messages.content);
+    let order = "HDcreate";
+    var log = document.getElementsByClassName("message-content");
+    mess = log[log.length - 1].innerText.split(" ")
 
-    console.log(mess);
 
+
+    if (mess[0] == order) {
+        var name = mess[1];
+        console.log("creer-----------" + name)
+
+
+
+    } else {
+        console.log("message brut_________________" + mess);
+    }
 });
 
 Hooks.once("init", async function() {
