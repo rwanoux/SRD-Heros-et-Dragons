@@ -218,7 +218,11 @@ Hooks.once("init", async function() {
 
 
 Hooks.once("ready", async function() {
-    let actor = Actor.create(pack[342]);
+
+    /* for (let i = 0; i < pack.length; i++) {
+         let actor = Actor.create(pack[i])
+     };
+     */
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
        .......................................
