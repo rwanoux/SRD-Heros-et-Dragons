@@ -251,7 +251,7 @@ Hooks.once("ready", async function() {
      };
      */
     const result = pack.filter(obj => {
-        return obj.name === "Zombi"
+        return obj.name === "Succube/Incube"
     })
     console.log(result);
     console.log(`--------Heros et Dragons SRD Ready`);
