@@ -1,4 +1,5 @@
 let pack = [];
+
 /*
 Hooks.on("preCreateChatMessage", async function() {
     let order = "HDcreate";
@@ -23,7 +24,7 @@ Hooks.on("preCreateChatMessage", async function() {
 });
 */
 Hooks.once("init", async function() {
-    $.getJSON("\modules\srd-heros-et-dragons\scripts\createmonsters.js", function(bestiaire) {
+    $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
         console.log(bestiaire)
 
         for (let creature of bestiaire) {
@@ -299,5 +300,5 @@ Hooks.once("ready", async function() {
 
     //--------------------------------change logo
     var logo = document.getElementById("logo");
-    logo.setAttribute("src", "modules/SRD heros et dragons/img/logoHD.png");
+    logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
 });
