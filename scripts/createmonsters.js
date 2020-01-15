@@ -1,5 +1,4 @@
 let pack = [];
-
 /*
 Hooks.on("preCreateChatMessage", async function() {
     let order = "HDcreate";
@@ -24,6 +23,8 @@ Hooks.on("preCreateChatMessage", async function() {
 });
 */
 Hooks.once("init", async function() {
+
+
     $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
         console.log(bestiaire)
 
@@ -251,10 +252,10 @@ Hooks.once("ready", async function() {
     
      
     */
-    const result = pack.filter(obj => {
-        return obj.name === "Succube/Incube"
-    });
-    console.log(result);
+
+    console.log(pack[124]);
+    Actor.create(pack[124]);
+
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
        .......................................
