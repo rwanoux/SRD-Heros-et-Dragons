@@ -248,17 +248,9 @@ Hooks.once("ready", async function() {
     /* for (let i = 0; i < pack.length; i++) {
          let actor = Actor.create(pack[i])
      };
-     */
-    let compData = {
-        entity: "Actor",
-        label: "test3",
-        name: "test3",
-        package: "world",
-        path: "packs/test2.db"
-    }
-    let comp = new Compendium(compData);
-    console.log(comp);
-    Compendium.create(comp)
+    
+     
+    */
     const result = pack.filter(obj => {
         return obj.name === "Succube/Incube"
     });
