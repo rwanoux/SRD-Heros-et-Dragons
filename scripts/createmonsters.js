@@ -23,8 +23,7 @@ Hooks.on("preCreateChatMessage", async function() {
 });
 */
 Hooks.once("init", async function() {
-    $.getJSON("/modules/SRD heros et dragons/creatures.json", function(bestiaire) {
-        //const bestiaire = fetch("/modules/module-french-srd./creature.json").then(resp => resp.json());
+    $.getJSON("\modules\srd-heros-et-dragons\scripts\createmonsters.js", function(bestiaire) {
         console.log(bestiaire)
 
         for (let creature of bestiaire) {
