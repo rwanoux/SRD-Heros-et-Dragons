@@ -23,8 +23,8 @@ Hooks.on("preCreateChatMessage", async function() {
 });
 */
 Hooks.once("init", async function() {
-    $.getJSON("/modules/SRD heros et dragons/creatures.json", function(bestiaire) {
-        //const bestiaire = fetch("/modules/SRD heros et dragons./creature.json").then(resp => resp.json());
+    $.getJSON("/modules/module-french-srd/creatures.json", function(bestiaire) {
+        //const bestiaire = fetch("/modules/module-french-srd./creature.json").then(resp => resp.json());
         console.log(bestiaire)
 
         for (let creature of bestiaire) {
@@ -309,5 +309,5 @@ Hooks.once("ready", async function() {
 
     //--------------------------------change logo
     var logo = document.getElementById("logo");
-    logo.setAttribute("src", "modules/SRD heros et dragons/img/logoHD.png");
+    logo.setAttribute("src", "modules/module-french-srd/img/logoHD.png");
 });
