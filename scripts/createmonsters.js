@@ -77,16 +77,15 @@ Hooks.once("init", async function() {
             creature.data.attributes.hp.formula = creature.data.attributes.hp.formula.substring(0, creature.data.attributes.hp.formula.length - 1);
             setProperty(creature, "data.attributes.speed", creature.header.monster.speed);
 
-
+            //-------------------actor image--------------
             /*resultat aléatoire.... mais ça rempli quelques images tout de même
-           
             path = 'https://raw.githubusercontent.com/Nioux/AideDeJeu/master/Data/Monsters/' + creature.name.toLowerCase() + '.jpg';
              setProperty(creature, "img", path);
             */
+
+
+
             //------------------------------traits----------------------
-
-
-
             setProperty(creature, "data.traits.languages.custom", creature.header.monster.languages);
             setProperty(creature, "data.traits.senses", creature.header.monster.senses);
 
