@@ -24,11 +24,12 @@ Hooks.on("preCreateChatMessage", async function() {
 */
 Hooks.once("init", async function() {
 
-
     $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
-        console.log(bestiaire)
-
+        console.log(bestiaire);
+        //let exemple = $.getJSON("/modules/srd-heros-et-dragons/exemple.json");
         for (let creature of bestiaire) {
+
+            //let creature = Object.assign({}, list, exemple);
 
             setProperty(creature, "type", "npc");
             setProperty(creature, "name", creature.header.title);
@@ -111,35 +112,25 @@ Hooks.once("init", async function() {
                     creature.data.traits.size = 'grg'
                     break;
             };
+            /*
+                            if (creature.header.monster.hasOwnProperty('immunities')) {
+                                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
+                            }
 
-            if (creature.header.monster.hasOwnProperty('immunities')) {
-                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
-            } else {
-                setProperty(creature, "data.traits.di.custom", "none");
-            }
-            if (creature.header.monster.hasOwnProperty('resistances')) {
-                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
-            } else {
-                setProperty(creature, "data.traits.dr.custom", "none");
-            }
+                            if (creature.header.monster.hasOwnProperty('resistances')) {
+                                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
+                            }
 
-            if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
-                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
-            } else {
-                setProperty(creature, "data.traits.dv.custom", "none");
-            }
-            if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
-                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
-            } else {
-                setProperty(creature, "data.traits.ci.custom", "none");
-            }
 
+                            if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
+                                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
+                            }
+                            if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
+                                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
+                            }
+            */
             //--------------------SKILLS
-            let skillData = creature.header.monster.skills;
-
-            skillData = creature.header.monster.skills.split(",");
-
-
+            let skillData = creature.header.monster.skills.split(",");
 
             for (i = 0; i < skillData.length; i++) {
                 let skill = skillData[i]
@@ -148,19 +139,19 @@ Hooks.once("init", async function() {
                 switch (skillName) {
                     case "Acrobatie":
                     case " Acrobatie":
-                        setProperty(creature, "data.skills.acr.value", "1");
+                        setProperty(creature, "data.skills.acr.value", 1);
                         break;
                     case "Arcanes":
                     case " Arcanes":
-                        setProperty(creature, "data.skills.arc.value", "1");
+                        setProperty(creature, "data.skills.arc.value", 1);
                         break;
                     case "Athl\u00e9tisme":
                     case " Athl\u00e9tisme":
-                        setProperty(creature, "data.skills.ath.value", "1");
+                        setProperty(creature, "data.skills.ath.value", 1);
                         break;
                     case "Discr\u00e9tion":
                     case " Discr\u00e9tion":
-                        setProperty(creature, "data.skills.ste.value", "1");
+                        setProperty(creature, "data.skills.ste.value", 1);
                         break;
                     case "Escamotage":
                     case " Escamotage":
@@ -168,55 +159,55 @@ Hooks.once("init", async function() {
                         break;
                     case "Dressage":
                     case " Dressage":
-                        setProperty(creature, "data.skills.acr.value", "1");
+                        setProperty(creature, "data.skills.acr.value", 1);
                         break;
                     case "Histoire":
                     case " Histoire":
-                        setProperty(creature, "data.skills.his.value", "1");
+                        setProperty(creature, "data.skills.his.value", 1);
                         break;
                     case "Intimidation":
                     case " Intimidation":
-                        setProperty(creature, "data.skills.itm.value", "1");
+                        setProperty(creature, "data.skills.itm.value", 1);
                         break;
                     case "Investigation":
                     case " Investigation":
-                        setProperty(creature, "data.skills.acr.value", "1");
+                        setProperty(creature, "data.skills.acr.value", 1);
                         break;
                     case "M\u00e9decine":
                     case " M\u00e9decine":
-                        setProperty(creature, "data.skills.med.value", "1");
+                        setProperty(creature, "data.skills.med.value", 1);
                         break;
                     case "Nature":
                     case " Nature":
-                        setProperty(creature, "data.skills.nat.value", "1");
+                        setProperty(creature, "data.skills.nat.value", 1);
                         break;
                     case "Perception":
                     case " Perception":
-                        setProperty(creature, "data.skills.prc.value", "1");
+                        setProperty(creature, "data.skills.prc.value", 1);
                         break;
                     case "Perspicacit\u00e9":
                     case " Perspicacit\u00e9":
-                        setProperty(creature, "data.skills.ins.value", "1");
+                        setProperty(creature, "data.skills.ins.value", 1);
                         break;
                     case "Persuasion":
                     case " Persuasion":
-                        setProperty(creature, "data.skills.per.value", "1");
+                        setProperty(creature, "data.skills.per.value", 1);
                         break;
                     case "Religion":
                     case " Religion":
-                        setProperty(creature, "data.skills.rel.value", "1");
+                        setProperty(creature, "data.skills.rel.value", 1);
                         break;
                     case "Repr\u00e9sentation":
                     case " Repr\u00e9sentation":
-                        setProperty(creature, "data.skills.prf.value", "1");
+                        setProperty(creature, "data.skills.prf.value", 1);
                         break;
                     case "Supercherie":
                     case " Supercherie":
-                        setProperty(creature, "data.skills.dec.value", "1");
+                        setProperty(creature, "data.skills.dec.value", 1);
                         break;
                     case "Survie":
                     case " Survie":
-                        setProperty(creature, "data.skills.sur.value", "1");
+                        setProperty(creature, "data.skills.sur.value", 1);
                         break;
 
 
@@ -239,6 +230,7 @@ Hooks.once("init", async function() {
 
     });
 
+
 });
 
 
@@ -247,11 +239,11 @@ Hooks.once("init", async function() {
 Hooks.once("ready", async function() {
 
     /* for (let i = 0; i < pack.length; i++) {
-         let actor = Actor.create(pack[i])
-     };
+                 let actor = Actor.create(pack[i])
+             };
     
-     
-    */
+             
+            */
 
     console.log(pack[124]);
     Actor.create(pack[124]);

@@ -1,0 +1,351 @@
+{
+    "name": "exemple",
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            },
+            "dex": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            },
+            "con": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            },
+            "int": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            },
+            "wis": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            },
+            "cha": {
+                "value": 10,
+                "min": 3,
+                "proficient": 0,
+                "mod": 0,
+                "save": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "min": 0,
+                "value": 0
+            },
+            "hp": {
+                "value": 10,
+                "min": 0,
+                "max": 10,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": ""
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 0,
+                "prof": 0,
+                "total": 0
+            },
+            "speed": {
+                "value": "30 ft",
+                "special": ""
+            },
+            "spellcasting": "int",
+            "spellLevel": 0,
+            "prof": 2,
+            "spelldc": 10
+        },
+        "details": {
+            "alignment": "",
+            "biography": {
+                "value": "",
+                "public": ""
+            },
+            "race": "",
+            "type": "",
+            "environment": "",
+            "cr": 1,
+            "xp": {
+                "value": 200
+            },
+            "source": ""
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "arc": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "his": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "rel": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10
+            }
+        },
+        "traits": {
+            "size": "med",
+            "senses": "",
+            "languages": {
+                "value": [],
+                "custom": ""
+            },
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "perception": {
+                "_deprecated": true
+            }
+        },
+        "currency": {
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "spells": {
+            "spell0": {
+                "value": 0,
+                "max": 0
+            },
+            "spell1": {
+                "value": 0,
+                "max": 0
+            },
+            "spell2": {
+                "value": 0,
+                "max": 0
+            },
+            "spell3": {
+                "value": 0,
+                "max": 0
+            },
+            "spell4": {
+                "value": 0,
+                "max": 0
+            },
+            "spell5": {
+                "value": 0,
+                "max": 0
+            },
+            "spell6": {
+                "value": 0,
+                "max": 0
+            },
+            "spell7": {
+                "value": 0,
+                "max": 0
+            },
+            "spell8": {
+                "value": 0,
+                "max": 0
+            },
+            "spell9": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": "",
+            "rwak": "",
+            "msak": "",
+            "rsak": "",
+            "damage": "",
+            "abilityCheck": "",
+            "abilitySave": "",
+            "skillCheck": ""
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 400001,
+    "flags": {},
+    "token": {
+        "flags": {},
+        "displayName": 0,
+        "img": "icons/svg/mystery-man.svg",
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 0,
+        "brightSight": 0,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "actorId": "PuBgD91GVUfZEpxz",
+        "actorLink": false,
+        "actorData": {},
+        "disposition": -1,
+        "displayBars": 0,
+        "bar1": {},
+        "bar2": {},
+        "randomImg": false
+    },
+    "items": [],
+    "img": "icons/svg/mystery-man.svg"
+}
