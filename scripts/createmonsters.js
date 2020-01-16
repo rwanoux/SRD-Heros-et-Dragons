@@ -139,75 +139,75 @@ Hooks.once("init", async function() {
                 switch (skillName) {
                     case "Acrobatie":
                     case " Acrobatie":
-                        setProperty(creature, "data.skills.acr.value", 1);
+                        setProperty(creature, "data.skills.acr", 1);
                         break;
                     case "Arcanes":
                     case " Arcanes":
-                        setProperty(creature, "data.skills.arc.value", 1);
+                        setProperty(creature, "data.skills.arc", 1);
                         break;
                     case "Athl\u00e9tisme":
                     case " Athl\u00e9tisme":
-                        setProperty(creature, "data.skills.ath.value", 1);
+                        setProperty(creature, "data.skills.ath", 1);
                         break;
                     case "Discr\u00e9tion":
                     case " Discr\u00e9tion":
-                        setProperty(creature, "data.skills.ste.value", 1);
+                        setProperty(creature, "data.skills.ste", 1);
                         break;
                     case "Escamotage":
                     case " Escamotage":
-                        setProperty(creature, "data.skills.slt.value", "1");
+                        setProperty(creature, "data.skills.slt", 1);
                         break;
                     case "Dressage":
                     case " Dressage":
-                        setProperty(creature, "data.skills.acr.value", 1);
+                        setProperty(creature, "data.skills.acr", 1);
                         break;
                     case "Histoire":
                     case " Histoire":
-                        setProperty(creature, "data.skills.his.value", 1);
+                        setProperty(creature, "data.skills.his", 1);
                         break;
                     case "Intimidation":
                     case " Intimidation":
-                        setProperty(creature, "data.skills.itm.value", 1);
+                        setProperty(creature, "data.skills.itm", 1);
                         break;
                     case "Investigation":
                     case " Investigation":
-                        setProperty(creature, "data.skills.acr.value", 1);
+                        setProperty(creature, "data.skills.acr", 1);
                         break;
                     case "M\u00e9decine":
                     case " M\u00e9decine":
-                        setProperty(creature, "data.skills.med.value", 1);
+                        setProperty(creature, "data.skills.med", 1);
                         break;
                     case "Nature":
                     case " Nature":
-                        setProperty(creature, "data.skills.nat.value", 1);
+                        setProperty(creature, "data.skills.nat", 1);
                         break;
                     case "Perception":
                     case " Perception":
-                        setProperty(creature, "data.skills.prc.value", 1);
+                        setProperty(creature, "data.skills.prc", 1);
                         break;
                     case "Perspicacit\u00e9":
                     case " Perspicacit\u00e9":
-                        setProperty(creature, "data.skills.ins.value", 1);
+                        setProperty(creature, "data.skills.ins", 1);
                         break;
                     case "Persuasion":
                     case " Persuasion":
-                        setProperty(creature, "data.skills.per.value", 1);
+                        setProperty(creature, "data.skills.per", 1);
                         break;
                     case "Religion":
                     case " Religion":
-                        setProperty(creature, "data.skills.rel.value", 1);
+                        setProperty(creature, "data.skills.rel", 1);
                         break;
                     case "Repr\u00e9sentation":
                     case " Repr\u00e9sentation":
-                        setProperty(creature, "data.skills.prf.value", 1);
+                        setProperty(creature, "data.skills.prf", 1);
                         break;
                     case "Supercherie":
                     case " Supercherie":
-                        setProperty(creature, "data.skills.dec.value", 1);
+                        setProperty(creature, "data.skills.dec", 1);
                         break;
                     case "Survie":
                     case " Survie":
-                        setProperty(creature, "data.skills.sur.value", 1);
+                        setProperty(creature, "data.skills.sur", 1);
                         break;
 
 
