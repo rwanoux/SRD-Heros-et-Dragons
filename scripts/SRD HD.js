@@ -406,15 +406,15 @@ Hooks.once("init", async function() {
 
 Hooks.once("ready", async function() {
 
-    /* for (let i = 0; i < pack.length; i++) {
-                 let actor = Actor.create(pack[i])
-             };
-   
-             
-            */
+    for (let i = 0; i < pack.length; i++) {
+        let actor = Actor.create(pack[i], { displaySheet: false })
+    };
+
+
+
 
     // console.log(pack[259]);
-    // Actor.create(pack[259]);
+    //Actor.create(pack[259]);
 
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
