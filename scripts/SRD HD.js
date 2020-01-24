@@ -408,33 +408,6 @@ Hooks.once("init", async function() {
 Hooks.once("ready", async function() {
 
 
-    /*
-
-
-        let comp = await Compendium.create({ entity: "Actor", label: "HD" });
-
-        for (let creature of pack) {
-            Actor.create(creature, { temporary: true, displaySheet: false }).then((actor) => {
-                console.log(actor);
-                comp.createEntity(actor);
-            });
-        };
-
-    */
-
-
-
-
-    //  for (let creature of pack) {
-
-
-    //     let actor = Actor.create(creature, { displaySheet: false });
-    // };
-
-
-    // console.log(pack[259]);
-    //Actor.create(pack[259]);
-
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
       .......................................
@@ -481,4 +454,24 @@ Hooks.once("ready", async function() {
     //--------------------------------change logo
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
+
+
+
+
+
+    /*----------------problem here!!!!!-------------------
+
+
+        let comp = await Compendium.create({ entity: "Actor", label: "HD" });
+        console.log(comp);
+
+        for (let creature of pack) {
+            Actor.create(creature, { displaySheet: false }).then((actor) => {
+                console.log(actor);
+                comp.createEntity(actor);
+            });
+        };
+
+
+        */
 })
