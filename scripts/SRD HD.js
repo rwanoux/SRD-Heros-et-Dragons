@@ -34,7 +34,7 @@ Hooks.once("init", async function() {
             setProperty(creature, "data.attributes.init", {});
             setProperty(creature, "data.attributes.init.mod", "0");
 
-            +
+            console.log('-------initialize---------------' + creature.name + '------------------------------------------');
 
             //----------------------init skills-----------------------------------
 
@@ -207,30 +207,30 @@ Hooks.once("init", async function() {
                     creature.data.traits.size = 'grg'
                     break;
             };
-            /*
-                        if (creature.header.monster.hasOwnProperty('immunities')) {
-                            setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
-                        }
 
-                        if (creature.header.monster.hasOwnProperty('resistances')) {
-                            setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
-                        }
+            if (creature.header.monster.hasOwnProperty('immunities')) {
+                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
+            }
+
+            if (creature.header.monster.hasOwnProperty('resistances')) {
+                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
+            }
 
 
-                        if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
-                            setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
-                        }
-                        if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
-                            setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
-                        }
-            */
+            if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
+                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
+            }
+            if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
+                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
+            }
+
 
             //--------------------abilities saves profecience-----------------------
 
             let saveData = creature.header.monster.saves.split(",");
             for (let save of saveData) {
                 save = save.substring(0, 4);
-                console.log("--------------save = " + save)
+                console.log("maitrise de sauvegarde = " + save)
                 switch (save) {
                     case "For ":
                     case " For":
@@ -268,7 +268,7 @@ Hooks.once("init", async function() {
                 let skill = skillData[i]
                 let skillName = skill.slice(0, -3);
                 let skillMod = skill.slice(-3);
-                console.log(skillName + "avec bonus" + skillMod);
+                console.log("- maitrise en - " + skillName + skillMod);
                 switch (skillName) {
                     case "Acrobatie":
                     case " Acrobatie":
@@ -383,7 +383,7 @@ Hooks.once("init", async function() {
 
             };
 
-            console.log('----------------------' + creature.name + '------------------------------------------');
+
             console.log(creature);
 
 
@@ -398,19 +398,38 @@ Hooks.once("init", async function() {
 
     });
 
-
+    console.log(pack);
 });
+
 
 
 
 
 Hooks.once("ready", async function() {
 
-    for (let i = 0; i < pack.length; i++) {
-        let actor = Actor.create(pack[i], { displaySheet: false })
-    };
+
+    /*
 
 
+        let comp = await Compendium.create({ entity: "Actor", label: "HD" });
+
+        for (let creature of pack) {
+            Actor.create(creature, { temporary: true, displaySheet: false }).then((actor) => {
+                console.log(actor);
+                comp.createEntity(actor);
+            });
+        };
+
+    */
+
+
+
+
+    //  for (let creature of pack) {
+
+
+    //     let actor = Actor.create(creature, { displaySheet: false });
+    // };
 
 
     // console.log(pack[259]);
@@ -462,4 +481,4 @@ Hooks.once("ready", async function() {
     //--------------------------------change logo
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
-});
+})
