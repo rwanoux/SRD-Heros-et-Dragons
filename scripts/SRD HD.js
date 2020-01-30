@@ -1,27 +1,5 @@
-const pack = [];
-/*
-Hooks.on("preCreateChatMessage", async function() {
-    let order = "HDcreate";
-    var log = document.getElementsByClassName("message-content");
-    let mess = JSON.stringify(ChatMessage[ChatMessage.length - 1]);
-    //mess = log[log.length - 1].innerText.split(" ")
-    console.log(mess);
-    
-        let zoum = ChatMessage.export();
-        console.log("------------------zoum--------" + zoum);
+let pack = [];
 
-        if (mess[0] == order) {
-            var name = mess[1];
-            console.log("creer-----------" + name)
-
-
-
-        } else {
-            console.log("message brut_________________" + mess);
-        }
-        
-});
-*/
 Hooks.once("init", async function() {
 
     $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
