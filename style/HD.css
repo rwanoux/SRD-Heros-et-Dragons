@@ -1518,3 +1518,12 @@
             min-width: 700px;
             min-height: 658px;
         }
+        
+        #logo {
+            cursor: grab;
+        }
+        
+        #sidebar {
+            -webkit-box-shadow: 1px 0 15px 1px rgba(111, 0, 255, 0.97);
+            box-shadow: 1px 0 15px 1px rgba(111, 0, 255, 0.97);
+        }

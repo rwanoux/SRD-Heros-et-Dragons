@@ -35,7 +35,7 @@ Hooks.once("init", async function() {
             setProperty(creature, "data.attributes.init.mod", "0");
 
             console.log('-------initialize---------------' + creature.name + '------------------------------------------');
-
+            console.log(creature);
             //----------------------init skills-----------------------------------
 
 
@@ -208,20 +208,22 @@ Hooks.once("init", async function() {
                     break;
             };
 
+
+
             if (creature.header.monster.hasOwnProperty('immunities')) {
-                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
+                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities + ";  ");
             }
 
             if (creature.header.monster.hasOwnProperty('resistances')) {
-                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
+                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances + ";  ");
             }
 
 
             if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
-                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
+                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities + ";  ");
             }
             if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
-                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
+                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities + ";  ");
             }
 
 
@@ -263,118 +265,171 @@ Hooks.once("init", async function() {
 
             //--------------------SKILLS
             let skillData = creature.header.monster.skills.split(",");
-            for (i = 0; i < skillData.length; i++) {
-
-                let skill = skillData[i]
+            for (skill of skillData) {
                 let skillName = skill.slice(0, -3);
-                let skillMod = skill.slice(-3);
-                console.log("- maitrise en - " + skillName + skillMod);
+                let skillMod = parseInt(skill.slice(-2).replace('+', ''));
+                let skillAbil = 0;
+                let prof = Math.floor((Math.max(creature.data.details.cr, 1) + 7) / 4);
+                console.log("- maitrise en - " + skillName + "----" + skillMod);
                 switch (skillName) {
                     case "Acrobatie":
                     case " Acrobatie":
-                        creature.data.skills.acr.value = 1;
-                        creature.data.skills.acr.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.dex.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.acr.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.acr.value = 2; }
                         break;
                     case "Arcanes":
                     case " Arcanes":
-                        creature.data.skills.arc.value = 1;
-                        creature.data.skills.arc.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.int.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.arc.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.arc.value = 2; }
 
                         break;
                     case "Athl\u00e9tisme":
                     case " Athl\u00e9tisme":
-                        creature.data.skills.ath.value = 1;
-                        creature.data.skills.ath.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.str.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.ath.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.ath.value = 2; }
 
                         break;
                     case "Discr\u00e9tion":
                     case " Discr\u00e9tion":
-                        creature.data.skills.ste.value = 1;
-                        creature.data.skills.ste.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.dex.mod);
+                        console.log(skillAbil);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.ste.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.ste.value = 2; }
 
                         break;
                     case "Escamotage":
                     case " Escamotage":
-                        creature.data.skills.slt.value = 1;
-                        creature.data.skills.slt.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.dex.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.slt.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.slt.value = 2; }
 
                         break;
                     case "Dressage":
                     case " Dressage":
-                        creature.data.skills.ani.value = 1;
-                        creature.data.skills.ani.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.dex.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.ani.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.ani.value = 2; }
 
                         break;
                     case "Histoire":
                     case " Histoire":
-                        creature.data.skills.his.value = 1;
-                        creature.data.skills.his.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.int.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.his.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.his.value = 2; }
 
                         break;
                     case "Intimidation":
                     case " Intimidation":
-                        creature.data.skills.itm.value = 1;
-                        creature.data.skills.itm.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.cha.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.itm.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.itm.value = 2; }
 
                         break;
                     case "Investigation":
                     case " Investigation":
-                        creature.data.skills.inv.value = 1;
-                        creature.data.skills.inv.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.int.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.inv.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.inv.value = 2; }
 
                         break;
                     case "M\u00e9decine":
                     case " M\u00e9decine":
-                        creature.data.skills.med.value = 1;
-                        creature.data.skills.med.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.wis.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.med.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.med.value = 2; }
 
                         break;
                     case "Nature":
                     case " Nature":
-                        creature.data.skills.nat.value = 1;
-                        creature.data.skills.nat.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.int.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.nat.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.nat.value = 2; }
 
                         break;
                     case "Perception":
                     case " Perception":
-                        creature.data.skills.prc.value = 1;
-                        creature.data.skills.prc.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.wis.mod);
 
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.prc.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.prc.value = 2; }
                         break;
                     case "Perspicacit\u00e9":
                     case " Perspicacit\u00e9":
-                        creature.data.skills.ins.value = 1;
-                        creature.data.skills.ins.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.wis.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.ins.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.ins.value = 2; }
 
                         break;
                     case "Persuasion":
                     case " Persuasion":
-                        creature.data.skills.per.value = 1;
-                        creature.data.skills.per.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.cha.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.per.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.per.value = 2; }
 
                         break;
                     case "Religion":
                     case " Religion":
-                        creature.data.skills.rel.value = 1;
-                        creature.data.skills.rel.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.int.mod);
 
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.rel.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.rel.value = 2; }
                         break;
                     case "Repr\u00e9sentation":
                     case " Repr\u00e9sentation":
-                        creature.data.skills.prf.value = 1;
-                        creature.data.skills.prf.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.cha.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.prf.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.prf.value = 2; }
 
                         break;
                     case "Supercherie":
                     case " Supercherie":
-                        creature.data.skills.dec.value = 1;
-                        creature.data.skills.dec.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.cha.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.dec.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.dec.value = 2; }
 
                         break;
                     case "Survie":
                     case " Survie":
-                        creature.data.skills.sur.value = 1;
-                        creature.data.skills.sur.mod = skillMod;
+                        skillAbil = parseInt(creature.data.abilities.wis.mod);
+
+                        if (skillMod == skillAbil + prof) {
+                            creature.data.skills.sur.value = 1;
+                        } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.sur.value = 2; }
 
                         break;
 
@@ -406,7 +461,7 @@ Hooks.once("init", async function() {
 
 
 Hooks.once("ready", async function() {
-
+    //CONFIG.debug.hooks = true;
 
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
@@ -451,27 +506,23 @@ Hooks.once("ready", async function() {
       .............+.........................
       `);
 
-    //--------------------------------change logo
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
+    logo.setAttribute("title", "clickez pour créer les compendiums");
+    logo.addEventListener("click", comp);
+
+});
 
 
 
+async function comp() {
+    let srdMonst = await Compendium.create({ entity: "Actor", label: "choum" });
+    console.log(srdMonst)
+    for (creature of pack) {
+        let actor = Actor.create(creature, { displaySheet: false, temporary: true }).then((actor) => {
+            srdMonst.createEntity(actor);
 
-
-    /*----------------problem here!!!!!-------------------
-
-
-        let comp = await Compendium.create({ entity: "Actor", label: "HD" });
-        console.log(comp);
-
-        for (let creature of pack) {
-            Actor.create(creature, { displaySheet: false }).then((actor) => {
-                console.log(actor);
-                comp.createEntity(actor);
-            });
-        };
-
-
-        */
-})
+            console.log(actor);
+        });
+    };
+};
