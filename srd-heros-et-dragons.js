@@ -8,7 +8,7 @@ ___________________________________________________________________________*/
 
 
 let packMonsters = [];
-async function creaturesData() {
+async function prepareCreatureData() {
 
 
     $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
@@ -419,31 +419,17 @@ async function creaturesData() {
                         } else if (skillMod >= skillAbil + (prof * 2)) { creature.data.skills.sur.value = 2; }
 
                         break;
-
-
                 }
-
             };
-
-
-            console.log(creature);
-
-
-
+            // console.log(creature);
             packMonsters.push(creature);
         };
-
-
-
-
-
-
     });
 };
 
 
 
-/*_____________________________________________________________
+/*___________________________________________________________
 __________________________________________________________________
 
 
@@ -454,14 +440,14 @@ CREATION DES SORTS
 _____________________________________________________________________
 _____________________________________________________________
 
-
+*/
 
 let packSpell = [];
-async function spellsData() {
+async function prepareSpellData() {
     $.getJSON("/modules/srd-heros-et-dragons/grimoire.json", function(grimoire) {
         for (let spell of grimoire) {
 
-
+            setProperty(spell, "collection", "spell");
             setProperty(spell, "type", "spell");
             setProperty(spell, "name", spell.header.title);
             setProperty(spell, "data.description.value", spell.content);
@@ -472,20 +458,31 @@ async function spellsData() {
             setProperty(spell, "data.activation.cost", spell.header.spell.casting_time.split(" ")[0]);
             setProperty(spell, "data.duration.value", spell.header.spell.duration.split(" ")[0]);
             setProperty(spell, "data.duration.units", spell.header.spell.duration.split(" ")[1]);
-            setProperty(spell, "data.target.range.value", spell.header.spell.duration.split(" ")[1]);
+            setProperty(spell, "data.target.range.value", spell.header.spell.range.split(" ")[0]);
+            setProperty(spell, "data.target.range.unit", spell.header.spell.range.split(" ")[1]);
+            setProperty(spell, "data.preparation.prepared", false);
+
+
+            //-----------------pas fonctionnel tant que toutes les bonnes propriétés ne sont pas créées
+
+
+            console.log(spell);
+            packSpell.push(spell);
 
 
 
-            console.log(spell)
+
+
         };
+        console.log(packSpell[1])
 
 
     });
-}*/
+};
 Hooks.once("init", async function() {
 
-    creaturesData();
-    //  spellsData();
+    prepareCreatureData();
+    prepareSpellData();
 
 
 });
@@ -496,6 +493,8 @@ Hooks.once("init", async function() {
 
 Hooks.once("ready", async function() {
     //CONFIG.debug.hooks = true;
+
+
 
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
@@ -543,14 +542,14 @@ Hooks.once("ready", async function() {
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
     logo.setAttribute("title", "clickez pour créer les compendiums");
-    logo.addEventListener("click", compendiumCreation);
+    logo.addEventListener("click", monsterCreation);
 
 });
 
 
 
 
-async function compendiumCreation() {
+async function monsterCreation() {
 
     let srdMonst = await Compendium.create({ entity: "Actor", label: "Bestiaire_DRS_H&D" });
     console.log(srdMonst)
@@ -562,3 +561,14 @@ async function compendiumCreation() {
 
     };
 };
+
+/*-------tests en cours-------------
+
+
+async function spellCreation() {
+    let spell1 = await Item.create(packSpell[44])
+
+
+};
+
+*/
