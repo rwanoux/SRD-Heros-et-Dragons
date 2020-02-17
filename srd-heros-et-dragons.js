@@ -21,8 +21,6 @@ async function prepareCreatureData() {
             setProperty(creature, "data.attributes.init", {});
             setProperty(creature, "data.attributes.init.mod", "0");
 
-            console.log('-------initialize---------------' + creature.name + '------------------------------------------');
-            console.log(creature);
             //----------------------init skills-----------------------------------
 
 
@@ -176,24 +174,24 @@ async function prepareCreatureData() {
             setProperty(creature, "data.traits.size", 0);
             switch (creature.header.monster.size) {
                 case 'TP':
-                    creature.data.traits.size = 'tiny'
+                    creature.data.traits.size = 'tiny';
                     break;
                 case 'P':
-                    creature.data.traits.size = 'sm'
+                    creature.data.traits.size = 'sm';
                     break;
                 case 'M':
-                    creature.data.traits.size = 'med'
+                    creature.data.traits.size = 'med';
                     break;
                 case 'G':
-                    creature.data.traits.size = 'lg'
+                    creature.data.traits.size = 'lg';
                     break;
                 case 'TG':
-                    creature.data.traits.size = 'huge'
+                    creature.data.traits.size = 'huge';
                     break;
                 case 'Gig':
-                    creature.data.traits.size = 'grg'
+                    creature.data.traits.size = 'grg';
                     break;
-            };
+            }
 
 
 
@@ -219,7 +217,7 @@ async function prepareCreatureData() {
             let saveData = creature.header.monster.saves.split(",");
             for (let save of saveData) {
                 save = save.substring(0, 4);
-                console.log("maitrise de sauvegarde = " + save)
+
                 switch (save) {
                     case "For ":
                     case " For":
@@ -252,12 +250,12 @@ async function prepareCreatureData() {
 
             //--------------------SKILLS
             let skillData = creature.header.monster.skills.split(",");
-            for (skill of skillData) {
+            for (var skill of skillData) {
                 let skillName = skill.slice(0, -3);
                 let skillMod = parseInt(skill.slice(-2).replace('+', ''));
                 let skillAbil = 0;
                 let prof = Math.floor((Math.max(creature.data.details.cr, 1) + 7) / 4);
-                console.log("- maitrise en - " + skillName + "----" + skillMod);
+
                 switch (skillName) {
                     case "Acrobatie":
                     case " Acrobatie":
@@ -288,7 +286,7 @@ async function prepareCreatureData() {
                     case "Discr\u00e9tion":
                     case " Discr\u00e9tion":
                         skillAbil = parseInt(creature.data.abilities.dex.mod);
-                        console.log(skillAbil);
+
 
                         if (skillMod == skillAbil + prof) {
                             creature.data.skills.ste.value = 1;
@@ -420,12 +418,12 @@ async function prepareCreatureData() {
 
                         break;
                 }
-            };
+            }
             // console.log(creature);
             packMonsters.push(creature);
-        };
+        }
     });
-};
+}
 
 
 
@@ -455,12 +453,84 @@ async function prepareSpellData() {
 
             setProperty(spell, "data.source", spell.header.taxonomy.source);
             setProperty(spell, "data.activation.type", spell.header.spell.casting_time.split(" ")[1]);
+
+
+            /* "inst": "DND5E.TimeInst",
+  "turn": "DND5E.TimeTurn",
+  "round": "DND5E.TimeRound",
+  "minute": "DND5E.TimeMinute",
+  "hour": "DND5E.TimeHour",
+  "day": "DND5E.TimeDay",
+  "month": "DND5E.TimeMonth",
+  "year": "DND5E.TimeYear",
+  "perm": "DND5E.TimePerm",
+  "spec": "DND5E.Special"*/
+            let dur = spell.header.spell.duration;
+            if (dur == "instantan\u00e9e") {
+                setProperty(spell, "data.duration.units", "inst");
+            } else if (dur == "sp\u00e9ciale") {
+                setProperty(spell, "data.duration.units", "spec");
+            } else {
+                var duration = dur.split(" ");
+                for (var w of duration) {
+                    if (w == "heures" || w == "heure") {
+                        setProperty(spell, "data.duration.units", "hour");
+                        setProperty(spell, "data.duration.value", duration[duration.indexOf(w) - 1]);
+                    } else if (w == "minutes" || w == "minute") {
+                        setProperty(spell, "data.duration.units", "minute");
+                        setProperty(spell, "data.duration.value", duration[duration.indexOf(w) - 1]);
+                    } else if (w == "heures") {
+                        setProperty(spell, "data.duration.units", "hour");
+                        setProperty(spell, "data.duration.value", duration[duration.indexOf(w) - 1]);
+                    }
+                }
+            }
             setProperty(spell, "data.activation.cost", spell.header.spell.casting_time.split(" ")[0]);
-            setProperty(spell, "data.duration.value", spell.header.spell.duration.split(" ")[0]);
-            setProperty(spell, "data.duration.units", spell.header.spell.duration.split(" ")[1]);
             setProperty(spell, "data.target.range.value", spell.header.spell.range.split(" ")[0]);
             setProperty(spell, "data.target.range.unit", spell.header.spell.range.split(" ")[1]);
             setProperty(spell, "data.preparation.prepared", false);
+
+            setProperty(spell, "data.level", spell.header.taxonomy.spell_level[0]);
+
+            if (spell.header.taxonomy.spell_school[0] == "Abjuration") {
+                setProperty(spell, "data.school", "abj");
+            } else if (spell.header.taxonomy.spell_school[0] == "Invocation") {
+                setProperty(spell, "data.school", "con");
+            } else if (spell.header.taxonomy.spell_school[0] == "Divination") {
+                setProperty(spell, "data.school", "div");
+            } else if (spell.header.taxonomy.spell_school[0] == "Enchantement") {
+                setProperty(spell, "data.school", "enc");
+            } else if (spell.header.taxonomy.spell_school[0] == "\u00c9vocation") {
+                setProperty(spell, "data.school", "evo");
+            } else if (spell.header.taxonomy.spell_school[0] == "Illusion") {
+                setProperty(spell, "data.school", "ill");
+            } else if (spell.header.taxonomy.spell_school[0] == "N\u00e9cromancie") {
+                setProperty(spell, "data.school", "nec");
+            } else if (spell.header.taxonomy.spell_school[0] == "Transmutation") {
+                setProperty(spell, "data.school", "trs");
+            }
+
+
+            let comps = spell.header.spell.components.split("");
+            for (var comp of comps) {
+                if (comp === "V") {
+                    setProperty(spell, "data.components.vocal", true);
+                } else if (comp === "S") {
+                    setProperty(spell, "data.components.somatic", true);
+                } else if (comp === "M") {
+                    setProperty(spell, "data.components.material", true);
+                }
+            }
+            var mat = spell.header.spell.components.split("(")[1];
+
+            if (mat == null) {} else {
+                mat = mat.substring(0, mat.length - 1);
+                setProperty(spell, "data.materials.value", mat);
+            }
+
+
+
+
 
 
             //-----------------pas fonctionnel tant que toutes les bonnes propriétés ne sont pas créées
@@ -473,12 +543,12 @@ async function prepareSpellData() {
 
 
 
-        };
-        console.log(packSpell[1])
+        }
+
 
 
     });
-};
+}
 Hooks.once("init", async function() {
 
     prepareCreatureData();
@@ -542,7 +612,7 @@ Hooks.once("ready", async function() {
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
     logo.setAttribute("title", "clickez pour créer les compendiums");
-    logo.addEventListener("click", monsterCreation);
+    logo.addEventListener("click", spellsCreation());
 
 });
 
@@ -552,23 +622,18 @@ Hooks.once("ready", async function() {
 async function monsterCreation() {
 
     let srdMonst = await Compendium.create({ entity: "Actor", label: "Bestiaire_DRS_H&D" });
-    console.log(srdMonst)
-    for (creature of packMonsters) {
-        let actor = await Actor.create(creature, { displaySheet: false, temporary: true })
+
+    for (var creature of packMonsters) {
+        let actor = await Actor.create(creature, { displaySheet: false, temporary: true });
         srdMonst.createEntity(actor);
+    }
+}
 
-        console.log(actor);
-
-    };
-};
-
-/*-------tests en cours-------------
+/*-------tests en cours-------------*/
 
 
-async function spellCreation() {
-    let spell1 = await Item.create(packSpell[44])
+async function spellsCreation() {
+    let spell1 = await Item.create(packSpell[Math.floor(Math.random() * packSpell.length)])
 
 
 };
-
-*/
