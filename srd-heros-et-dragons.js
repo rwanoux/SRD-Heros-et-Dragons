@@ -465,6 +465,8 @@ async function prepareSpellData() {
   "year": "DND5E.TimeYear",
   "perm": "DND5E.TimePerm",
   "spec": "DND5E.Special"*/
+
+
             let dur = spell.header.spell.duration;
             if (dur == "instantan\u00e9e") {
                 setProperty(spell, "data.duration.units", "inst");
@@ -479,8 +481,8 @@ async function prepareSpellData() {
                     } else if (w == "minutes" || w == "minute") {
                         setProperty(spell, "data.duration.units", "minute");
                         setProperty(spell, "data.duration.value", duration[duration.indexOf(w) - 1]);
-                    } else if (w == "heures") {
-                        setProperty(spell, "data.duration.units", "hour");
+                    } else if (w == "jour" || w == "jours") {
+                        setProperty(spell, "data.duration.units", "day");
                         setProperty(spell, "data.duration.value", duration[duration.indexOf(w) - 1]);
                     }
                 }
@@ -613,7 +615,7 @@ Hooks.once("ready", async function() {
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
     logo.setAttribute("title", "clickez pour créer les compendiums");
     logo.addEventListener("click", spellsCreation());
-
+    logo.addEventListener("click", monsterCreation());
 });
 
 
@@ -627,13 +629,17 @@ async function monsterCreation() {
         let actor = await Actor.create(creature, { displaySheet: false, temporary: true });
         srdMonst.createEntity(actor);
     }
-}
+};
 
 /*-------tests en cours-------------*/
 
 
 async function spellsCreation() {
-    let spell1 = await Item.create(packSpell[Math.floor(Math.random() * packSpell.length)])
+    let srdSpell = await Compendium.create({ entity: "Item", label: "grimoire_DRS_H&D" });
 
+    for (var spell of packSpell) {
+        let spellItem = await Item.create(spell, { displaySheet: false, temporary: true });
+        srdSpell.createEntity(spellItem);
+    }
 
 };
