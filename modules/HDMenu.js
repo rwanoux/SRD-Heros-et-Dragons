@@ -5,8 +5,9 @@ import { packSpells } from './spells.js';
 import { prepareSpellData } from './spells.js';
 
 
-
-
+const updateShownSpells = async function() {
+    console.log(packSpells)
+}
 
 
 
@@ -33,9 +34,11 @@ export class HDMenu extends FormApplication {
     }
 
 
+
+
     getData() {
         let data = {
-
+            monsterType: ["truc", "machin"],
             packMonsters: packMonsters,
             packSpells: packSpells,
             shownSpells: [],
@@ -59,25 +62,7 @@ export class HDMenu extends FormApplication {
         let data = this.getData();
 
 
-        async function updateShownSpells() {
-            event.preventDefault();
-            let i = 0;
-            for (let spell of data.packSpells) {
-                for (let school of spell.header.taxonomy.spell_school) {
-                    if (data.spellFilters.schoolFilters.includes(school) == true) {
-                        data.shownSpells.push(spell.name);
-                        console.log(data.shownSpells);
-                        i++;
-                        console.log(spell.name + i);
-                    } else {
-                        data.shownSpells.splice(data.shownSpells.indexOf(spell.name), 1)
-                    }
-                }
-            }
 
-            let el = document.getElementById("shownSpells");
-            el.innerText = data.shownSpells.join()
-        }
 
 
 
@@ -122,6 +107,7 @@ export class HDMenu extends FormApplication {
                     }
                     return data
                 }
+                console.log(data.spellFilters);
                 updateShownSpells();
             });
 
@@ -139,6 +125,7 @@ export class HDMenu extends FormApplication {
                 }
                 return data.spellFilters
             });
+            console.log(data.spellFilters);
             updateShownSpells();
         }
         let concflt = document.getElementsByClassName("concFilter")[0];
@@ -148,6 +135,7 @@ export class HDMenu extends FormApplication {
             } else {
                 setProperty(data.spellFilters, "conc", false);
             }
+            console.log(data.spellFilters);
             updateShownSpells();
 
         })
@@ -158,6 +146,7 @@ export class HDMenu extends FormApplication {
             } else {
                 setProperty(data.spellFilters, "rit", false);
             }
+            console.log(data.spellFilters);
             updateShownSpells();
         });
 

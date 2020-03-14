@@ -101,16 +101,12 @@ Hooks.once("ready", async function() {
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
     logo.setAttribute("title", "clickez pour créer les compendiums");
+
     logo.addEventListener("click", function() {
-
         menuHD.render(true);
-
         console.log(packSpells)
     });
 
 
-    /*
-    logo.addEventListener("click", await spellsCreation());
-    logo.addEventListener("click", await monsterCreation());
-    */
+
 });

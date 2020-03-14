@@ -1,11 +1,11 @@
-<form autocomplete="off" class="{{cssClass}} " onsubmit="event.preventDefault();">
+<form autocomplete="on" class="{{cssClass}} " onsubmit="event.preventDefault();">
 
     <div class="left">
         {{#each monsterType as |type key|}}
         <li>
             <label class="checkbox">
                 <input type="checkbox" name="{{key}}"  {{checked choice.chosen}}>
-                {{type.label}}
+                {{type}}
             </label>
         </li>
         {{/each}}
@@ -75,10 +75,11 @@
             </div>
 
         </div>
-        <div id="shownSpells" style="max-width:150px"></div>
+        <div id="spellList" style="max-width:150px"></div>
         <div>
             <ol>{{#each data.shownSpells as |spell id|}}
                 <li>{{spell.name}}</li>
+                <li>{{spell.data.school}}</li>
                 {{/each}}</ol>
         </div>
 </form>
