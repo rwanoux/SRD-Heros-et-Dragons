@@ -11,6 +11,7 @@ import { prepareCreatureData } from './modules/monsters.js';
 import { packSpells } from './modules/spells.js';
 import { prepareSpellData } from './modules/spells.js';
 import { HDMenu } from './modules/HDMenu.js';
+export let menuHD = new HDMenu();
 
 Hooks.once("init", async function() {
 
@@ -50,7 +51,6 @@ Hooks.once("ready", async function() {
 
     // créer la fenetre de dialogue pour créer les compendiums
 
-    let menuHD = new HDMenu();
 
 
 

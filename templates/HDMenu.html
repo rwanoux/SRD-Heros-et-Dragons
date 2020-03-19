@@ -67,7 +67,7 @@
                         <input type="checkbox" class="ritFilter" /><span>rituel</span>
                     </div>
                     <div>
-                        <div class="field"><label class="label">Filtrer</label>
+                        <div class="field"><label class="label">Filtrer par nom</label>
                             <div class="control"><input type="text" placeholder="" name="{{data.spellFilters.nameFilter}}" class="filtres-sort-nom" value="{{data.spellFilters.nameFilter}}"></div>
                         </div>
                     </div>
@@ -75,11 +75,11 @@
             </div>
 
         </div>
-        <div id="spellList" style="max-width:150px"></div>
+        <div id="spellList" style="max-width:150px">filters : {{#each spellFilters as |filter id|}} {{id}} {{filter}} {{/each}}
+        </div>
+
         <div>
-            <ol>{{#each data.shownSpells as |spell id|}}
-                <li>{{spell.name}}</li>
-                <li>{{spell.data.school}}</li>
-                {{/each}}</ol>
+            {{#each shownSpells as |spell id|}}
+            <p title="{{spell.data.description.value}}">{{spell.name}} </p> {{/each}}
         </div>
 </form>

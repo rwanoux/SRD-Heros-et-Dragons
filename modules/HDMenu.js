@@ -3,11 +3,7 @@ import { packMonsters } from './monsters.js';
 import { prepareCreatureData } from './monsters.js';
 import { packSpells } from './spells.js';
 import { prepareSpellData } from './spells.js';
-
-
-const updateShownSpells = async function() {
-    console.log(packSpells)
-}
+import { menuHD } from '../srd-heros-et-dragons.js';
 
 
 
@@ -49,8 +45,9 @@ export class HDMenu extends FormApplication {
                 levelFilters: [],
                 conc: false,
                 rit: false,
-                nameFilter: ""
+                nameFilter: []
             },
+
             monsterFilter: {
 
             }
@@ -60,12 +57,6 @@ export class HDMenu extends FormApplication {
     activateListeners(html) {
         super.activateListeners(html);
         let data = this.getData();
-
-
-
-
-
-
 
         /*---------filters tags for spells*/
         let schfil = document.getElementsByClassName("schoolFilters");
@@ -79,12 +70,9 @@ export class HDMenu extends FormApplication {
                     SC.splice(SC.indexOf(e.name), 1)
                 }
                 setProperty(data.spellFilters, "schoolFilters", SC);
-
                 console.log(data.spellFilters);
                 updateShownSpells();
-
-
-
+                return data
             });
 
         };
@@ -95,17 +83,13 @@ export class HDMenu extends FormApplication {
                 if (e.checked == true) {
                     SC.push(e.name);
                     setProperty(data.spellFilters, "classFilters", SC);
-
-
                 } else {
                     SC.splice(SC.indexOf(e.name), 1);
                     setProperty(data.spellFilters, "classFilters", SC);
 
-
                     for (let spell of data.shownSpells) {
                         console.log(spell);
                     }
-                    return data
                 }
                 console.log(data.spellFilters);
                 updateShownSpells();
@@ -149,6 +133,33 @@ export class HDMenu extends FormApplication {
             console.log(data.spellFilters);
             updateShownSpells();
         });
+        let namefltr = document.getElementsByClassName("filtres-sort-nom")[0];
+        namefltr.addEventListener("change", function() {
+            setProperty(data.spellFilters, "nameFilter", namefltr.value.split(" "));
+            console.log(data.spellFilters.nameFilter)
+        });
+
+        async function updateShownSpells() {
+            for (let spl of packSpells) {
+                let search = data.spellFilters.nameFilter;
+                for (let n of search) {
+                    if (spl.name.split(" ").indexOf(n) !== -1) {
+                        return
+                    } else {
+                        data.shownSpells.push(spl)
+                    }
+                }
+            };
+            console.log(data.shownSpells);
+            return data
+
+        }
+
+    }
+    _updateObject(event, formData) {
+        let data = this.getData();
+        this.render(true);
+        return data
 
     }
 
