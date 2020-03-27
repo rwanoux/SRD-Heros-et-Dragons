@@ -1,26 +1,11 @@
 /*
 _________________création des objets javascript une fois intit
 */
-<<<<<<< HEAD
-=======
 
 
 
 
 
-import { packMonsters } from './modules/monsters.js';
-import { prepareCreatureData } from './modules/monsters.js';
-import { packSpells } from './modules/spells.js';
-import { prepareSpellData } from './modules/spells.js';
-import { HDMenu } from './modules/HDMenu.js';
-export let menuHD = new HDMenu();
->>>>>>> 4eea986205d9f2ec07b2c310c0825d99de5cdaad
-
-
-
-
-
-<<<<<<< HEAD
 import { packMonsters } from './modules/monsters.js';
 import { prepareCreatureData } from './modules/monsters.js';
 import { packSpells } from './modules/spells.js';
@@ -33,8 +18,6 @@ import { preloadTemplates } from './modules/preloadTemplates.js';
 
 
 
-=======
->>>>>>> 4eea986205d9f2ec07b2c310c0825d99de5cdaad
 async function monsterCreation() {
     let srdMonst = await Compendium.create({ entity: "Actor", label: "HD Bestiaire" });
     for (var creature of packMonsters) {
@@ -43,17 +26,12 @@ async function monsterCreation() {
     }
 };
 
-<<<<<<< HEAD
 /*-------tests en cours-------------*/
 
 
 async function spellCreation() {
     let srdSpell = await Compendium.create({ entity: "Item", label: "grimoire_DRS_H&D" });
 
-=======
-async function spellCreation() {
-    let srdSpell = await Compendium.create({ entity: "Item", label: "HD Grimoire" });
->>>>>>> 4eea986205d9f2ec07b2c310c0825d99de5cdaad
     for (var spell of packSpells) {
         let spellItem = await Item.create(spell, { displaySheet: false, temporary: true });
         srdSpell.createEntity(spellItem);
@@ -80,7 +58,6 @@ async function itemCreation() {
 
 Hooks.once("ready", async function() {
 
-<<<<<<< HEAD
     let d = new Dialog({
         title: "créer des compendium ?",
         content: "<p>choisissez les compendium à créer</p>",
@@ -104,14 +81,6 @@ Hooks.once("ready", async function() {
 
 
     });
-=======
-
-    // créer la fenetre de dialogue pour créer les compendiums
-
-
-
-
->>>>>>> 4eea986205d9f2ec07b2c310c0825d99de5cdaad
     //CONFIG.debug.hooks = true;
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
