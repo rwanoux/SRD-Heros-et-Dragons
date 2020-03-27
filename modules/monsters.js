@@ -3,7 +3,7 @@ export const prepareCreatureData = async function() {
 
 
     $.getJSON("/modules/srd-heros-et-dragons/creatures.json", function(bestiaire) {
-        console.log(bestiaire);
+
         for (let creature of bestiaire) {
 
 
@@ -411,9 +411,11 @@ export const prepareCreatureData = async function() {
                 }
             }
             // console.log(creature);
-            console.log(creature)
+
             packMonsters.push(creature);
-        }
+        };
+        console.log("___________________monstres H&D___________________");
+        console.log(packMonsters);
     });
 
 }

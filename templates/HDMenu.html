@@ -1,0 +1,85 @@
+<form autocomplete="on" class="{{cssClass}} " onsubmit="event.preventDefault();">
+
+    <div class="left">
+        {{#each monsterType as |type key|}}
+        <li>
+            <label class="checkbox">
+                <input type="checkbox" name="{{key}}"  {{checked choice.chosen}}>
+                {{type}}
+            </label>
+        </li>
+        {{/each}}
+    </div>
+
+    <div class="right">
+        <div id="filter-spell">
+            <div>
+                <div>
+                    <div><strong>Écoles de magie</strong></div>
+                    <div>
+
+                        <input class="schoolFilters" type="checkbox" name="Abjuration" /><span>Abjuration</span>
+                        <input class="schoolFilters" type="checkbox" name="Enchantement" /><span>Enchantement</span>
+                        <input class="schoolFilters" type="checkbox" name="Divination" /><span>Divination</span>
+                        <input class="schoolFilters" type="checkbox" name="Évocation" /><span>Évocation</span>
+                        <input class="schoolFilters" type="checkbox" name="Illusion" /><span>Illusion</span>
+                        <input class="schoolFilters" type="checkbox" name="Invocation" /><span>Invocation</span>
+                        <input class="schoolFilters" type="checkbox" name="Nécromancie" /><span>Nécromancie</span>
+                        <input class="schoolFilters" type="checkbox" name="Transmutation" /><span>Transmutation</span>
+                    </div>
+                </div>
+                <div>
+                    <div><strong>Classes</strong></div>
+                    <div class="filtres-sort-classe ">
+
+                        <input class="classFilters" type="checkbox" name="Barde" /><span>Barde</span>
+                        <input class="classFilters" type="checkbox" name="Clerc" /> <span>Clerc</span>
+                        <input class="classFilters" type="checkbox" name="Druide" /><span>Druide</span>
+                        <input class="classFilters" type="checkbox" name="Ensorceleur/Sorcelame" /><span>Ensorceleur/Sorcelame</span>
+                        <input class="classFilters" type="checkbox" name="Magicien" /> <span>Magicien</span>
+                        <input class="classFilters" type="checkbox" name="Ombrelame" /> <span>Ombrelame</span>
+                        <input class="classFilters" type="checkbox" name="Paladin" /> <span>Paladin</span>
+                        <input class="classFilters" type="checkbox" name="Rôdeur" /><span>Rôdeur</span>
+                        <input class="classFilters" type="checkbox" name="Sorcier" /><span>Sorcier</span>
+                    </div>
+                </div>
+                <div>
+                    <div><strong>Niveaux de sorts</strong></div>
+                    <div class="filtres-sort-niveau">
+
+                        <input class="levelFilters" type="checkbox" name="Tour&nbsp;de&nbsp;magie" /> <span>Tour&nbsp;de&nbsp;magie</span>
+                        <input class="levelFilters" type="checkbox" name="1" /><span>1</span>
+                        <input class="levelFilters" type="checkbox" name="2" /><span>2</span>
+                        <input class="levelFilters" type="checkbox" name="3" /><span>3</span>
+                        <input class="levelFilters" type="checkbox" name="4" /><span>4</span>
+                        <input class="levelFilters" type="checkbox" name="5" /><span>5</span>
+                        <input class="levelFilters" type="checkbox" name="6" /><span>6</span>
+                        <input class="levelFilters" type="checkbox" name="7" /><span>7</span>
+                        <input class="levelFilters" type="checkbox" name="8" /><span>8</span>
+                        <input class="levelFilters" type="checkbox" name="9" /><span>9</span>
+                    </div>
+
+                </div>
+                <div>
+                    <div><strong>Concentration et Rituel</strong></div>
+                    <div class="filtres-sort-autre">
+                        <input type="checkbox" class="concFilter" /><span>concentration</span>
+                        <input type="checkbox" class="ritFilter" /><span>rituel</span>
+                    </div>
+                    <div>
+                        <div class="field"><label class="label">Filtrer par nom</label>
+                            <div class="control"><input type="text" placeholder="" name="{{data.spellFilters.nameFilter}}" class="filtres-sort-nom" value="{{data.spellFilters.nameFilter}}"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="spellList" style="max-width:150px">filters : {{#each spellFilters as |filter id|}} {{id}} {{filter}} {{/each}}
+        </div>
+
+        <div>
+            {{#each shownSpells as |spell id|}}
+            <p title="{{spell.data.description.value}}">{{spell.name}} </p> {{/each}}
+        </div>
+</form>

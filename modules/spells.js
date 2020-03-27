@@ -9,7 +9,6 @@ export const prepareSpellData = async function() {
             setProperty(spell, "name", spell.header.title);
             setProperty(spell, "data.description.value", spell.content);
 
-
             setProperty(spell, "data.source", spell.header.taxonomy.source);
             setProperty(spell, "data.activation.type", spell.header.spell.casting_time.split(" ")[1]);
 
@@ -91,14 +90,16 @@ export const prepareSpellData = async function() {
             //-----------------pas fonctionnel tant que toutes les bonnes propriétés ne sont pas créées
 
 
-            console.log(spell);
+            //console.log(spell);
             packSpells.push(spell);
 
 
 
 
 
-        }
+        };
+        console.log("________________liste de sort H&D___________________");
+        console.log(packSpells);
     });
 
 }
