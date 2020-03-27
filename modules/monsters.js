@@ -1,4 +1,5 @@
 export var packMonsters = [];
+export var monsterType = [];
 export const prepareCreatureData = async function() {
 
 
@@ -413,9 +414,21 @@ export const prepareCreatureData = async function() {
             // console.log(creature);
 
             packMonsters.push(creature);
+<<<<<<< HEAD
         };
         console.log("___________________monstres H&D___________________");
         console.log(packMonsters);
+=======
+        }
+
+
+
+>>>>>>> 4eea986205d9f2ec07b2c310c0825d99de5cdaad
     });
 
 }
+Hooks.once("ready", async function() {
+
+    console.log(monsterType)
+
+});

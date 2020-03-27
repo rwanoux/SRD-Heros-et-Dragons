@@ -7,6 +7,14 @@
         /*  Flexbox                                  */
         /* ----------------------------------------- */
         
+        .left {
+            float: left;
+        }
+        
+        .right {
+            float: right;
+        }
+        
         .flexrow {
             display: flex;
             flex-direction: row;
@@ -96,6 +104,10 @@
         .dnd5e select:disabled:focus,
         .dnd5e textarea:disabled:focus {
             box-shadow: none !important;
+        }
+        
+        .buttons {
+            display: inline-block
         }
         
         .dnd5e button {
