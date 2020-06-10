@@ -26,7 +26,7 @@ async function monsterCreation() {
     }
 };
 
-/*-------tests en cours-------------*/
+
 
 
 async function spellCreation() {
@@ -38,6 +38,8 @@ async function spellCreation() {
     }
 
 };
+
+/*-------tests en cours-------------*/
 async function itemCreation() {
     let srdItem = await Compendium.create({ entity: "Item", label: "objets magiques_DRS_H&D" });
 
@@ -45,6 +47,10 @@ async function itemCreation() {
         let MG = await Item.create(magItem, { displaySheet: false, temporary: true });
         srdItem.createEntity(MG);
     }
+
+};
+async function openSRD() {
+    var windowObjectReference = window.open("https://heros-et-dragons.fr/", "_blank");
 
 };
 
@@ -60,7 +66,7 @@ Hooks.once("ready", async function() {
 
     let d = new Dialog({
         title: "créer des compendium ?",
-        content: "<p>choisissez les compendium à créer</p>",
+        content: "<p>que voulez-vous faire</p>",
         buttons: {
             one: {
                 icon: '<i class="fas fa-check"></i>',
@@ -76,6 +82,11 @@ Hooks.once("ready", async function() {
                 icon: '<i class="fas fa-check"></i>',
                 label: "créer le compendium d'objets magique--travail en cours--",
                 callback: () => itemCreation()
+            },
+            four: {
+                icon: '<i class="fas fa-check"></i>',
+                label: "consulter le srd",
+                callback: () => openSRD()
             }
         }
 
@@ -140,10 +151,7 @@ Hooks.once("ready", async function() {
 
     });
 
-    logo.addEventListener("click", function() {
-        menuHD.render(true);
-        console.log(packSpells)
-    });
+
 
 
 
