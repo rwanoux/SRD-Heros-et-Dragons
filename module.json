@@ -4,13 +4,33 @@
     "description": "intègre le srd de héros et dragons ",
     "version": "0.4.2",
 
-    "minimumCoreVersion": "0.4.4",
-    "author": "Rwanoux",
+    "minimumCoreVersion": "0.5",
+    "author": "Rwanoux, Rodskin",
     "esmodules": [
         "./srd-heros-et-dragons.js"
     ],
     "styles": ["/style/HD.css"],
-    "packs": [
+    "packs": [{
+            "name": "h-d-dons",
+            "label": "H&D-dons",
+            "path": "packs/h-d-dons.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-grimoire",
+            "label": "H&D - Grimoire",
+            "path": "packs/h-d-grimoire.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-bestaire",
+            "label": "H&D - Bestaire",
+            "path": "packs/h-d-bestiaire.db",
+            "entity": "Actor",
+            "module": "srd-heros-et-dragons"
+        }
 
     ],
 
