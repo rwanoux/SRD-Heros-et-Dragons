@@ -1,6 +1,6 @@
 # SRD pour héros et dragon
 
-## soyez vigilant,
+## soyez vigilant
 
 
 
