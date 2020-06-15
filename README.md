@@ -11,6 +11,10 @@
 #  pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk
 
 
+# nouveautés V0.6
+
+## ajout du compendium des races
+
 # nouveautés V0.5
--les compendiums sont automatiquement créés,
--ajout du compendium des dons
+## les compendiums sont automatiquement créés,
+ ## ajout du compendium des dons
