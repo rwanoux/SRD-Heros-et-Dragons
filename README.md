@@ -10,6 +10,10 @@
 
 #  pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk
 
+# nouveautés V0.8
+correction CSS pour compatibilité avec system DnD5 v0.93
+
+
 # nouveautés V0.7
 
  ajout du compendium des traits raciaux
