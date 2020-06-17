@@ -80,11 +80,8 @@ Hooks.once("ready", async function() {
 
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
-    logo.setAttribute("title", "clickez pour créer les compendiums");
+    logo.setAttribute("title", "acceder au srd en ligne");
     logo.addEventListener("click", function() {
-
-
-
 
         d.render(true);
 

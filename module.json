@@ -2,13 +2,14 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons ",
-    "version": "0.8",
+    "version": "0.9",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.6.2",
     "author": "Rwanoux, Rodskin, Elfenduil",
     "esmodules": [
-        "./srd-heros-et-dragons.js"
+        "./srd-heros-et-dragons.js",
+        "./objMag.js"
     ],
     "styles": ["/style/HD.css"],
     "packs": [{
@@ -43,6 +44,13 @@
             "name": "h-d-traits-raciaux",
             "label": "H&D - traits raciaux",
             "path": "packs/h-d-traits-raciaux.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-capacités-du-bestiaire",
+            "label": "H&D - capacités du bestiaire",
+            "path": "packs/h-d-capacites-du-bestiaire.db",
             "entity": "Item",
             "module": "srd-heros-et-dragons"
         }
