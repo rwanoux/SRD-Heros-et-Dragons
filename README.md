@@ -12,13 +12,13 @@
 
 # nouveautés V0.7
 
-## ajout du compendium des traits raciaux
-## compendiums races modifié pour pointer vers les traits raciaux
+ ajout du compendium des traits raciaux
+ compendiums races modifié pour pointer vers les traits raciaux
 
 # nouveautés V0.6
 
-## ajout du compendium des races 
+ ajout du compendium des races 
 
 # nouveautés V0.5
-## les compendiums sont automatiquement créés,
- ## ajout du compendium des dons
+ les compendiums sont automatiquement créés,
+ ajout du compendium des dons
