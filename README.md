@@ -10,6 +10,9 @@
 
 #  pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk
 
+# nouveautés V0.9.2
+amélioration de compendiums ; grimoire et capacités du bestiaire
+
 # nouveautés V0.9
 ajout compendium capacité du bestiaire
 

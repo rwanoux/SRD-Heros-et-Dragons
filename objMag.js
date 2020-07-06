@@ -1,5 +1,8 @@
-/*Hooks.once("ready", async function() {
-    var packObj = [];
+Hooks.once("ready", async function() {
+
+
+
+    /* var packObj = [];
     var objType = [];
 
     const pack = game.packs.get("world.handd-objets-magiques");
@@ -68,7 +71,6 @@
 
             };
 
-            console.log(objType)
 
 
 
@@ -80,3 +82,4 @@
     }
 })
 */
+})
