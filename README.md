@@ -10,6 +10,10 @@
 
 #  pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk
 
+# nouveautés V0.9.3
+corrections css : les images des joueurs sont entièrement visible dans la fiche de perso
+ajout d'une police de caractère qui reconnait les accents
+
 # nouveautés V0.9.2
 amélioration de compendiums ; grimoire et capacités du bestiaire
 
