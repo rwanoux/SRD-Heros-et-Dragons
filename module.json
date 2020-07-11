@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons ",
-    "version": "0.9.3",
+    "version": "0.9.4",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.6.2",
@@ -48,7 +48,7 @@
             "module": "srd-heros-et-dragons"
         },
         {
-            "name": "h-d-capacités-du-bestiaire__'en cours'",
+            "name": "h-d-capacités-du-bestiaire",
             "label": "H&D - capacités du bestiaire",
             "path": "packs/h-d-capacites-du-bestiaire.db",
             "entity": "Item",
@@ -59,6 +59,13 @@
             "name": "h-d-historiques",
             "label": "H&D - historiques",
             "path": "packs/h-d-historiques.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-équipement-aventurier",
+            "label": "H&D - équipement d'aventurier",
+            "path": "packs/h-d-equipement-aventurier.db",
             "entity": "Item",
             "module": "srd-heros-et-dragons"
         }
