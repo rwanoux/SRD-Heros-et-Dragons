@@ -1,9 +1,9 @@
 # SRD pour héros et dragon
 
 ## soyez vigilant
-
+pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on trouve toujours des petites boulettes
  les valeurs des compétences ne sont pas toujours respectées pour les monstres....
- les actions et feat des monstres ne sont pas créées mais leur description est renseignée dans l'onglet "biographie".
+ 
  
 
 ## voilà !
