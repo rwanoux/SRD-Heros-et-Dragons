@@ -1,8 +1,8 @@
 {
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
-    "description": "intègre le srd de héros et dragons ",
-    "version": "0.9.5",
+    "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
+    "version": "0.9.6",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7",
@@ -81,6 +81,20 @@
             "label": "H&D - classes et spécialisations",
             "path": "packs/h-d-classes-et-specialisations.db",
             "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-tables-de-rencontres-aleatoires",
+            "label": "H&D - tables-de-rencontres-aleatoires",
+            "path": "packs/h-d-tables-de-rencontres-aleatoires.db",
+            "entity": "RollTable",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-tables-d'evenements-aleatoires",
+            "label": "H&D - tables-d'évènements-aleatoires",
+            "path": "packs/h-d-tables-d'evenements-aleatoires.db",
+            "entity": "RollTable",
             "module": "srd-heros-et-dragons"
         }
 

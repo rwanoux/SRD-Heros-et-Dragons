@@ -11,7 +11,12 @@
 **pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 
 
-# nouveautés V0.9.4
+# nouveautés V0.9.6
+ajout compendium de tables aléatoire : les rencontres, 
+ajout compendium de tables aléatoire : les évènements, 
+
+
+# nouveautés V0.9.5
 ajout compendium de spécialisation de classe, 
 ajout compendium de objets magiques et trésors,
 complément compendium équippement d'aventurier 
