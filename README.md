@@ -10,6 +10,12 @@
 
 **pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 
+
+# nouveautés V0.9.4
+ajout compendium de spécialisation de classe, 
+ajout compendium de objets magiques et trésors,
+complément compendium équippement d'aventurier 
+
 # nouveautés V0.9.4
 ajout compendium d'équipement d'aventurier
 
