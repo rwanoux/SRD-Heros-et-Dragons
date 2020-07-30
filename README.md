@@ -9,6 +9,12 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 **pour le support vous pouvez me trouver sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 
+
+### nouveautés V0.9.8
+
+modif d'apparence des bouttons de maps ; modif de la font pour afficher le personnage s'exprimant dans le chat
+
+
 ### nouveautés V0.9.7
 
 correction compendium de traits raciaux

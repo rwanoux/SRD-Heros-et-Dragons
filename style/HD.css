@@ -5,6 +5,11 @@
     src: url("../font/Agincourt Std Regular.otf");
 }
 
+@font-face {
+    font-family: "zelda";
+    src: url("../font/TheWildBreathOfZelda-15Lv.ttf");
+}
+
 
 /* Deprecated vars */
 
@@ -38,7 +43,31 @@
 }
 
 
-/* ----------------------------------------- */
+/* ---------------modifs map activ----------------- */
+
+a.scene-name {
+    font-family: "Agincourt Std Regular";
+    text-transform: uppercase;
+    background-image: url("../img/parchemin.png") repeat;
+    border: none;
+}
+
+#navigation #scene-list .scene {
+    background-color: #2d4969be;
+    background-image: url();
+}
+
+#navigation #scene-list .scene.gm {
+    background-color: #472328da;
+}
+
+#navigation #scene-list .scene.active {
+    background-color: #357a44da;
+}
+
+#navigation #scene-list .scene.view {
+    background-color: #23472bd7;
+}
 
 
 /*  All D&D5e Apps                           */
@@ -1503,6 +1532,8 @@
 .message-sender {
     color: rgb(8, 8, 8);
     text-shadow: 0px 0px 15px #5800fc;
+    font-family: "zelda";
+    text-transform: uppercase;
 }
 
 #sidebar-tabs>.item.active {
