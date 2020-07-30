@@ -46,27 +46,29 @@
 /* ---------------modifs map activ----------------- */
 
 a.scene-name {
-    font-family: "Agincourt Std Regular";
+    font-family: "zelda";
     text-transform: uppercase;
-    background-image: url("../img/parchemin.png") repeat;
     border: none;
 }
 
 #navigation #scene-list .scene {
     background-color: #2d4969be;
-    background-image: url();
+    border: 1px solid rgb(0, 4, 255);
 }
 
 #navigation #scene-list .scene.gm {
     background-color: #472328da;
+    border: 1px solid #ae0000;
 }
 
 #navigation #scene-list .scene.active {
     background-color: #357a44da;
+    border: 1px solid #1dae00;
 }
 
 #navigation #scene-list .scene.view {
     background-color: #23472bd7;
+    box-shadow: 0 0 10px #0f7729;
 }
 
 
