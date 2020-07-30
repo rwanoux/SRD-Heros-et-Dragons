@@ -1,5 +1,5 @@
 /*
-_________________création des objets javascript une fois intit
+-----------les liens externes
 */
 
 
@@ -27,7 +27,11 @@ async function openSupport() {
 
 Hooks.once("ready", async function() {
 
-    let d = new Dialog({
+
+    //----------le menu liens externes
+
+
+    let liensExt = new Dialog({
         title: "acceder au SRD ?",
         content: "<p>que voulez-vous faire</p>",
         buttons: {
@@ -46,6 +50,11 @@ Hooks.once("ready", async function() {
         }
     });
     //CONFIG.debug.hooks = true;
+
+
+    //------------message et logo dans console 
+
+
     console.log(`--------Heros et Dragons SRD Ready`);
     console.log(`
       .......................................
@@ -89,13 +98,18 @@ Hooks.once("ready", async function() {
       .............+.........................
       `);
 
+
+
+    //----logo image
     var logo = document.getElementById("logo");
     logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
-    logo.setAttribute("title", "acceder au srd en ligne");
+
+
+    //--------------ouvrir le menu lien sur click logo
+
+    logo.setAttribute("title", "liens externes");
     logo.addEventListener("click", function() {
-
-        d.render(true);
-
+        liensExt.render(true);
     });
 
 
