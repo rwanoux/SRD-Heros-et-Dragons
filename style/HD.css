@@ -322,6 +322,11 @@ a.scene-name {
     background: none;
 }
 
+.charname::first-letter {
+    font-family: Agincourt Std Regular;
+    font-size: 50px;
+}
+
 .dnd5e.sheet .sheet-header {
     flex: 0 0 100px;
     border-bottom: 2px groove #eeede0;
