@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "0.9.8",
+    "version": "0.9.9",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7",
@@ -95,6 +95,27 @@
             "label": "H&D - tables-d'évènements-aleatoires",
             "path": "packs/h-d-tables-d'evenements-aleatoires.db",
             "entity": "RollTable",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-poisons-et-maladies",
+            "label": "H&D - poisons et maladies",
+            "path": "packs/h-d-poisons-et-maladies.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-folies",
+            "label": "H&D - folies",
+            "path": "packs/h-d-folies.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-pieges",
+            "label": "H&D - pièges",
+            "path": "packs/h-d-pieges.db",
+            "entity": "Actor",
             "module": "srd-heros-et-dragons"
         }
 

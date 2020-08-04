@@ -49,7 +49,7 @@ Hooks.once("ready", async function() {
 
         }
     });
-    //CONFIG.debug.hooks = true;
+    CONFIG.debug.hooks = true;
 
 
     //------------message et logo dans console 
@@ -117,3 +117,29 @@ Hooks.once("ready", async function() {
 
 
 });
+
+//------------remettre les compétence en ordre alphabétique fr------------- 
+
+
+async function trieAlphabFR() {
+    const list = document.getElementsByClassName("skills-list")[0];
+    const competences = list.childNodes;
+    let complist = [];
+    for (let sk of competences) {
+        if (sk.innerText) {
+            complist.push(sk);
+        }
+    }
+    complist.sort(function(a, b) {
+        return (a.innerText > b.innerText) ? 1 : -1;
+    });
+    for (let sk of complist) {
+        list.appendChild(sk)
+    }
+}
+Hooks.on("renderActorSheet5eCharacter", async function() {
+    trieAlphabFR()
+});
+Hooks.on("renderActorSheet5eNPC", async function() {
+    trieAlphabFR()
+})
