@@ -12,7 +12,9 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### nouveautés V0.9.9
 
-ajouts de compendiums, folies, poisons et maladies, pièges ; les compétences apparaissent maintenant par ordre alphabétique fr
+ajouts de compendiums, folies, poisons et maladies, pièges,
+ les compétences apparaissent maintenant par ordre alphabétique fr,
+ 
 **les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
 
 ### nouveautés V0.9.8
@@ -33,6 +35,7 @@ ajout compendium de tables aléatoire : les évènements,
 
 ajout compendium de spécialisation de classe,  
 ajout compendium de objets magiques et trésors,
+
 complément compendium équippement d'aventurier  
 
 ### nouveautés V0.9.4
