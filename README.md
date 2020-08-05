@@ -8,12 +8,21 @@ il propose :
 * des compendiums : toutes les données techniques figurant dans le srd, monstres, sorts, aptitudes, etc ... 17 compendiums au total.
 * une légère modification graphique pour coller à la charte graphique de Héros et Dragons
 
-## soyez vigilant
+## pour jouer entièrement dans la langue de Patrick Sébastien
+
+vous pouvez installer la liste de module suivant :
+
+* fr-FR : permet la trazduction des interfaces de foundryVTT
+* dnd5e_fr-FR : permet la traduction du system dnd5e
+* babele permet la traduction des compendiums du systeme DnD5e
+
+
+### soyez vigilant
 
 pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on trouve toujours des petites boulettes
  les valeurs des compétences ne sont pas toujours respectées pour les monstres....
 
-## voilà
+### voilà
 
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
