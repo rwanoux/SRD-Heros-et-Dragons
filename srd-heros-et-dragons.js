@@ -18,13 +18,8 @@ async function openSupport() {
 };
 
 
-
-/*
----------------une foi ready 
-*/
-
-
-
+/*-- -- -- -- -- -- -- - une foi ready
+ */
 Hooks.once("ready", async function() {
 
 
@@ -111,8 +106,6 @@ Hooks.once("ready", async function() {
     logo.addEventListener("click", function() {
         liensExt.render(true);
     });
-
-
 
 
 

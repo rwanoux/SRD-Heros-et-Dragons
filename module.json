@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "0.9.9",
+    "version": "1",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7",
@@ -108,7 +108,7 @@
             "name": "h-d-folies",
             "label": "H&D - folies",
             "path": "packs/h-d-folies.db",
-            "entity": "Item",
+            "entity": "RollTable",
             "module": "srd-heros-et-dragons"
         },
         {

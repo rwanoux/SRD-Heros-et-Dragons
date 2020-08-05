@@ -1,5 +1,13 @@
 # SRD pour héros et dragon
 
+## que propose ce module :
+
+le module srd-heros et dragons s'utilise sur le logiciel FoundryVTT, avec le system DnD5e.
+il propose :
+
+* des compendiums : toutes les données techniques figurant dans le srd, monstres, sorts, aptitudes, etc ... 17 compendiums au total.
+* une légère modification graphique pour coller à la charte graphique de Héros et Dragons
+
 ## soyez vigilant
 
 pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on trouve toujours des petites boulettes
@@ -13,14 +21,23 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 ### nouveautés V0.9.9
 
 ajouts de compendiums, folies, poisons et maladies, pièges,
- les compétences apparaissent maintenant par ordre alphabétique fr,
+
+les compétences apparaissent maintenant par ordre alphabétique fr,
  
 **les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
 
+
+### release V1
+
+correction du compendium de table de folies,
+
+correction du compendium bestiaire,
+
 ### nouveautés V0.9.8
 
-modif d'apparence des bouttons de maps ; modif de la font pour afficher le personnage s'exprimant dans le chat
+modif d'apparence des bouttons de maps
 
+ modif de la font pour afficher le personnage s'exprimant dans le chat
 
 ### nouveautés V0.9.7
 
@@ -29,11 +46,13 @@ correction compendium de traits raciaux
 ### nouveautés V0.9.6
 
 ajout compendium de tables aléatoire : les rencontres,  
+
 ajout compendium de tables aléatoire : les évènements,  
 
 ### nouveautés V0.9.5
 
 ajout compendium de spécialisation de classe,  
+
 ajout compendium de objets magiques et trésors,
 
 complément compendium équippement d'aventurier  
@@ -45,11 +64,14 @@ ajout compendium d'équipement d'aventurier
 ### nouveautés V0.9.3
 
 corrections css : les images des joueurs sont entièrement visible dans la fiche de perso
+
 ajout d'une police de caractère qui reconnait les accents
 
 ### nouveautés V0.9.2
 
-amélioration de compendiums ; grimoire et capacités du bestiaire
+amélioration de compendiums ;
+
+ grimoire et capacités du bestiaire
 
 ### nouveautés V0.9
 
@@ -62,6 +84,7 @@ correction CSS pour compatibilité avec system DnD5 v0.93
 ### nouveautés V0.7
 
  ajout du compendium des traits raciaux
+
  compendiums races modifié pour pointer vers les traits raciaux
 
 ### nouveautés V0.6
@@ -71,5 +94,5 @@ correction CSS pour compatibilité avec system DnD5 v0.93
 ### nouveautés V0.5
 
  les compendiums sont automatiquement créés,
- ajout du compendium des dons
- 
+
+ajout du compendium des dons
