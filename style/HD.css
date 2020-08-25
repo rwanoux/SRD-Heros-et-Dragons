@@ -1503,7 +1503,7 @@
     .dialog-button,
     button,
     select {
-        color: #6c5b88;
+        color: #bcb1ce;
         background-image: url(../img/fondApp.png);
     }
     
@@ -1517,6 +1517,13 @@
     form .form-group .form-fields,
     input[type="text"] {
         color: rgb(145, 141, 158)
+    }
+    
+    form .form-group span.units {
+        flex: 0;
+        line-height: 28px;
+        font-size: 12px;
+        color: #7678a5;
     }
     
     .window-app .window-content {
@@ -1575,4 +1582,10 @@
         width: 110px;
         border-right: 12px solid transparent;
         border-image: url(../img/DÇcoupe\ image\ 2.png) 400 stretch;
+    }
+    
+    #module-management .package-list .package-title,
+    #module-management .package-list .package-metadata,
+    #module-management .package-list .package-description {
+        color: #adaa9e;
     }
