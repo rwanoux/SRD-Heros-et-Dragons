@@ -1,6 +1,6 @@
 # SRD pour héros et dragon
 
-## que propose ce module :
+## que propose ce module
 
 le module srd-heros et dragons s'utilise sur le logiciel FoundryVTT, avec le system DnD5e.
 il propose :
@@ -16,7 +16,6 @@ vous pouvez installer la liste de module suivant :
 * dnd5e_fr-FR : permet la traduction du system dnd5e
 * babele permet la traduction des compendiums du systeme DnD5e
 
-
 ### soyez vigilant
 
 pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on trouve toujours des petites boulettes
@@ -27,20 +26,23 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
-### nouveautés V0.9.9
+### release V1.1
 
-ajouts de compendiums, folies, poisons et maladies, pièges,
-
-les compétences apparaissent maintenant par ordre alphabétique fr,
- 
-**les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
-
+habillage graphique
 
 ### release V1
 
 correction du compendium de table de folies,
 
 correction du compendium bestiaire,
+
+### nouveautés V0.9.9
+
+ajouts de compendiums, folies, poisons et maladies, pièges,
+
+les compétences apparaissent maintenant par ordre alphabétique fr,
+
+**les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
 
 ### nouveautés V0.9.8
 

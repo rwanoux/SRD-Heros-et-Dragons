@@ -2,14 +2,14 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "1",
+    "version": "1.1",
 
     "minimumCoreVersion": "0.5",
-    "compatibleCoreVersion": "0.7",
+    "compatibleCoreVersion": "0.7.1",
     "author": "Rwanoux, Rodskin, Elfenduil, Hara",
     "esmodules": [
         "./srd-heros-et-dragons.js",
-        "./objMag.js"
+
     ],
     "styles": ["/style/HD.css"],
     "packs": [{
