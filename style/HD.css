@@ -9,6 +9,11 @@
         font-family: "zelda";
         src: url("../font/TheWildBreathOfZelda-15Lv.ttf");
     }
+    
+    @font-face {
+        font-family: "Friz";
+        src: url("../font/Friz Quadrata Std Medium.otf");
+    }
     /* Deprecated vars */
     /* ----------------------------------------- */
     /* ----------------------------------------- */
@@ -24,6 +29,11 @@
     
     .right {
         float: right;
+    }
+    
+    body {
+        font-family: "Friz", sans-serif;
+        font-size: 14px;
     }
     /*---------------scrollbar----------------*/
     
@@ -1528,6 +1538,7 @@
     select {
         color: #bcb1ce;
         background-image: url(../img/fondApp.png);
+        font-family: "Friz";
     }
     
     form .form-header {
@@ -1582,16 +1593,17 @@
     }
     
     #hotbar {
-        border-top: 12px solid transparent;
         border-bottom: 12px solid transparent;
         border-image: url(../img/DÇcoupe\ image\ 3.png) 300 stretch;
-        border-top-left-radius: 80px;
+        border-radius: 10px;
         width: 610px;
         height: 82px;
+        background-image: url("../img/fondApp.png");
+        background-size: cover;
     }
     
     #hotbar .macro.inactive {
-        box-shadow: 0 0 5px #444 inset;
+        box-shadow: 0 0 5px rgb(235, 229, 229) inset;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 60px;
     }
@@ -1623,10 +1635,7 @@
         box-shadow: 0 0 10px #a100ff;
     }
     
-    #controls .scene-control.active,
-    #controls .control-tool.active {
-        -webkit-transform: scaleX(1.2) scaleY(1.2);
-        transform: scaleX(1.2) scaleY(1.2);
-        -webkit-transform-origin: 50% 50% 0;
-        transform-origin: 50% 50% 0;
+    #players {
+        background-image: url("../img/fondApp.png");
+        background-size: cover;
     }
