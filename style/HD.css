@@ -77,6 +77,22 @@ body {
 }
 
 
+/*---------------resize-handler----------------*/
+
+.window-app .window-resizable-handle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: #604fc1;
+    padding: 2px;
+    border: 1px solid #fffcfc;
+    border-radius: 4px 0 0 0;
+    z-index: 1000;
+}
+
+
 /*---------------compendium----------------*/
 
 .hdlogo {
@@ -1441,6 +1457,7 @@ a.scene-name {
     background: rgba(0, 0, 0, 0.05);
     padding: 1px 3px;
     margin: 0 6px;
+    font-size: 10px;
 }
 
 .dnd5e.sheet.actor.character .attributes .resource .attribute-name {
@@ -1451,6 +1468,10 @@ a.scene-name {
     height: 20px;
     margin: 2px 0 -2px;
     line-height: 24px;
+}
+
+input.speed {
+    font-size: 10px;
 }
 
 .dnd5e.sheet.actor.character .attributes .resource label.checkbox {
@@ -1662,7 +1683,7 @@ form .form-group span.units {
 
 .window-app .window-content {
     max-height: 100%;
-    background-image: url(../img/fondApp.png);
+    background-image: url("../img/fondApp.png");
     border-radius: 5px;
     box-shadow: 0 0 20px #000;
     margin: 3px 0;
@@ -1696,35 +1717,64 @@ form .form-group span.units {
     border-bottom: 12px solid transparent;
     border-image: url(../img/DÇcoupe\ image\ 3.png) 300 stretch;
     border-radius: 10px;
-    width: 610px;
+    width: 590px;
     height: 82px;
     background-image: url("../img/fondApp.png");
     background-size: cover;
 }
 
+#hotbar #action-bar {
+    flex: 1;
+    height: 55px;
+    pointer-events: all;
+    margin-top: 10px;
+}
+
+#hotbar #hotbar-directory-controls {
+    pointer-events: all;
+    height: 80px;
+}
+
+#hotbar #macro-list {
+    flex: 0 0 505px;
+    height: 100%;
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    border: 0px
+}
+
+
+}
+#hotbar .bar-controls {
+    flex: 0 0 30px;
+    height: 50px;
+    text-align: center;
+    color: #c9c7b8;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fdfcfc;
+    box-shadow: 0 0 3px #f7efef inset;
+    border-radius: 3px;
+}
 #hotbar .macro.inactive {
     box-shadow: 0 0 5px rgb(235, 229, 229) inset;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 60px;
 }
-
 #navigation {
     border-bottom: 12px solid transparent;
     border-image: url(../img/DÇcoupe\ image\ 4.png) 400 stretch;
 }
-
 #controls {
     width: 110px;
     border-right: 12px solid transparent;
     border-image: url(../img/DÇcoupe\ image\ 2.png) 400 stretch;
 }
-
 #module-management .package-list .package-title,
 #module-management .package-list .package-metadata,
 #module-management .package-list .package-description {
     color: #adaa9e;
 }
-
 #controls .scene-control.active,
 #controls .control-tool.active,
 #controls .scene-control:hover,
@@ -1734,8 +1784,20 @@ form .form-group span.units {
     border-bottom: 2px solid #ffffff;
     box-shadow: 0 0 10px #a100ff;
 }
-
 #players {
     background-image: url("../img/fondApp.png");
     background-size: cover;
+}
+.sidebar-popout {
+    background-image: url("../img/fondApp.png");
+}
+.window-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: absolute;
+    box-shadow: 0 0 8px #d3e4f1;
+    padding: 0;
+    z-index: 100;
+    max-height: 820px;
 }
