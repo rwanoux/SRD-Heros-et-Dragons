@@ -145,8 +145,9 @@ async function trieAlphabFR() {
 
 Hooks.on("renderActorSheet5eCharacter", async function() {
     trieAlphabFR();
-    classLevel()
+
 });
 Hooks.on("renderActorSheet5eNPC", async function() {
-    trieAlphabFR()
+    trieAlphabFR();
+
 })
