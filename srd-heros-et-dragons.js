@@ -18,8 +18,11 @@ async function openSupport() {
 };
 
 
-/*-- -- -- -- -- -- -- - une foi ready
- */
+/*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
+ ----------------une foi ready--------------------
+ -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
+
+
 Hooks.once("ready", async function() {
 
 
@@ -44,6 +47,10 @@ Hooks.once("ready", async function() {
 
         }
     });
+
+
+    //----------console debug
+
     CONFIG.debug.hooks = true;
 
 
@@ -130,8 +137,15 @@ async function trieAlphabFR() {
         list.appendChild(sk)
     }
 }
+
+
+
+
+
+}
 Hooks.on("renderActorSheet5eCharacter", async function() {
-    trieAlphabFR()
+    trieAlphabFR();
+    classLevel()
 });
 Hooks.on("renderActorSheet5eNPC", async function() {
     trieAlphabFR()
