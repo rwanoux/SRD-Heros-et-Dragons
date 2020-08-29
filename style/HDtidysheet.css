@@ -5,6 +5,15 @@
     background-image: url(../img/fondApp.png);
 }
 
+.tidy5eDark .window-content form {
+    background-image: url(../img/fondApp.png) !important;
+}
+
+.tidy5eDark #actor-flags.app.dnd5e .form-header {
+    color: grey;
+    font-family: "Friz", sans-serif;
+}
+
 .tidy5e {
     font-family: "Friz", sans-serif;
 }
