@@ -123,12 +123,6 @@ a.scene-name {
 
 /* ----------------------------------------- */
 
-.window-app .window-content {
-    background-image: url("../img/parchemin.png") repeat;
-    font-size: 13px;
-    color: #2e1f49;
-}
-
 .dnd5e input[type="text"],
 .dnd5e select {
     height: calc(100% - 2px);
@@ -1631,8 +1625,7 @@ body {
 }
 
 .dialog-button,
-button,
-select {
+button {
     color: #bcb1ce;
     background-image: url(../img/fondApp.png);
     font-family: "Friz";
@@ -1846,4 +1839,48 @@ form .form-group span.units {
     padding: 5px;
     border: 1px solid #444;
     background: rgba(171, 102, 102, 0.28);
+}
+
+a.entity-link,
+a.inline-roll {
+    background: #DDD;
+    padding: 1px 4px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    white-space: nowrap;
+    word-break: break-all;
+    background-color: #2f086e;
+    color: white
+}
+
+a.entity-link.broken {
+    background: rgba(255, 0, 0, 0.05);
+    border: 1px dashed red;
+    background-color: #6e1408a9;
+}
+
+.journal-sheet .window-content {
+    overflow-y: hidden;
+    padding: 5px;
+    background: url(../img/fond.jpg) repeat;
+    font-size: 13px;
+    color: #2e1f49;
+}
+
+.journal-sheet form input[name="name"] {
+    font-family: "Agincourt Std Regular";
+    font-size: 40px;
+    color: rgb(66, 64, 64);
+    text-shadow: 0 0 6px #9160b69f;
+    text-align: center;
+    border: none
+}
+
+.journal-sheet form input[name="name"]:hover,
+.journal-sheet form input[name="name"]:focus {
+    background-color: #2e1f4965;
+}
+
+.journal-sheet form button {
+    color: black
 }
