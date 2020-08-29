@@ -28,6 +28,12 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### release V1.2 à 1.4
 
+corrections d'affichages
+
+intégration des fiches tidy sheet, et better npc sheet
+
+### release V1.2 à 1.4
+
 habillage graphique
 
 correction de la disparition de la classe et du niveau au dessus de l'expérience

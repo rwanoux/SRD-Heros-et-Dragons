@@ -1,0 +1,30 @@
+.tidy5eDark .tidy5e-sheet {
+    /* background-color: #121212; */
+    /* background-color: rgba(0,0,0,.91); */
+    font-family: "Friz", sans-serif;
+    background-image: url(../img/fondApp.png);
+}
+
+.tidy5e {
+    font-family: "Friz", sans-serif;
+}
+
+.tidy5e h1.char-name,
+.tidy5eDark h1.char-name {
+    font-size: 35px;
+}
+
+.tidy5e h1.char-name::first-letter {
+    font-size: 40px;
+    text-shadow: 0 0 3px #9100ff;
+    font-family: Agincourt Std Regular;
+    font-size: 50px;
+}
+
+.tidy5eDark h1.char-name::first-letter {
+    font-size: 40px;
+    text-shadow: 0 0 6px #6500fb;
+    font-family: Agincourt Std Regular;
+    font-size: 50px;
+    color: white;
+}

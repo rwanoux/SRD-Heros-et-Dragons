@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "1.4.5",
+    "version": "1.5",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7.1",
@@ -12,7 +12,11 @@
 
     ],
 
-    "styles": ["/style/HD.css"],
+    "styles": [
+        "/style/HD.css",
+        "/style/HDbetterNPC.css",
+        "/style/HDtidysheet.css"
+    ],
     "packs": [{
             "name": "h-d-dons",
             "label": "H&D-dons",
