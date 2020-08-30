@@ -59,6 +59,12 @@ body {
     width: 6px;
 }
 
+.macro-sheet .form-group.command textarea {
+    height: calc(100% - 24px);
+    resize: none;
+    color: white;
+}
+
  ::-webkit-scrollbar-track {
     box-shadow: 0 0 1px #999 inset;
     border-radius: 4px;
@@ -1628,6 +1634,15 @@ form .form-group span.units {
 #sidebar {
     -webkit-box-shadow: 1px 0 15px 1px rgba(111, 0, 255, 0.97);
     box-shadow: 1px 0 15px 1px rgba(227, 206, 255, 0.97);
+}
+
+
+/*------------macro window--------------*/
+
+.macro-sheet .form-group.command textarea {
+    height: calc(100% - 24px);
+    resize: none;
+    color: white;
 }
 
 
