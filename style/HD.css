@@ -1105,7 +1105,7 @@ a.scene-name {
 
 .dnd5e.sheet.item .sheet-body .tab {
     padding: 0 5px;
-    overflow: hidden;
+    overflow: hidden scroll;
 }
 
 .dnd5e.sheet.item .sheet-body .item-properties {
@@ -1113,6 +1113,7 @@ a.scene-name {
     margin: 5px 5px 5px 0;
     padding-right: 5px;
     border-right: 2px groove #eeede0;
+    overflow: hidden scroll;
 }
 
 .dnd5e.sheet.item .sheet-body .item-properties .form-group {
@@ -1610,7 +1611,7 @@ form .form-group span.units {
 }
 
 .window-app .window-content {
-    max-height: 100%;
+    /*max-height: 100%;*/
     background-image: url("../img/fondApp.png");
     border-radius: 5px;
     box-shadow: 0 0 20px #000;
@@ -1761,7 +1762,6 @@ form .form-group span.units {
     box-shadow: 0 0 8px #d3e4f1;
     padding: 0;
     z-index: 100;
-    max-height: 820px;
 }
 
 
