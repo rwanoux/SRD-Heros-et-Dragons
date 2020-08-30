@@ -907,7 +907,7 @@ a.scene-name {
 .dnd5e.sheet.actor .inventory-list .inventory-header {
     margin: 2px 0;
     padding: 0;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgb(255 99 99 / 38%);
     border: 2px groove #eeede0;
     font-weight: bold;
     line-height: 24px;
@@ -1483,6 +1483,23 @@ input.speed {
     padding-right: 10px;
 }
 
+.dnd5e.sheet.actor.npc {
+    min-width: 600px;
+    min-height: 658px;
+}
+
+.dnd5e.sheet .sheet-navigation .item {
+    height: fit-content;
+    line-height: 32px;
+    margin: 0 24px;
+    border-bottom: 3px solid #8a338c
+}
+
+.dnd5e.sheet.actor.npc {
+    min-width: 700px;
+    min-height: 658px;
+}
+
 
 /* ----------------------------------------- */
 
@@ -1491,11 +1508,6 @@ input.speed {
 
 
 /* ----------------------------------------- */
-
-.dnd5e.sheet.actor.npc {
-    min-width: 600px;
-    min-height: 658px;
-}
 
 #chat-log .message {
     color: black;
@@ -1567,7 +1579,8 @@ form .form-group,
 p.notes,
 form .form-group .form-fields,
 form .form-group .form-fields select,
-input[type="text"] {
+input[type="text"],
+form .form-group select {
     color: rgb(119, 107, 158)
 }
 
@@ -1587,18 +1600,6 @@ form .form-group span.units {
     padding: 0.5em;
     color: #ffffff;
     z-index: 30;
-}
-
-.dnd5e.sheet .sheet-navigation .item {
-    height: fit-content;
-    line-height: 32px;
-    margin: 0 24px;
-    border-bottom: 3px solid #8a338c
-}
-
-.dnd5e.sheet.actor.npc {
-    min-width: 700px;
-    min-height: 658px;
 }
 
 #logo {
@@ -1797,6 +1798,9 @@ a.entity-link.broken {
     background-color: #6e1408a9;
 }
 
+
+/*-----------journal-------------*/
+
 .journal-sheet .window-content {
     overflow-y: hidden;
     padding: 5px;
@@ -1822,6 +1826,9 @@ a.entity-link.broken {
 .journal-sheet form button {
     color: black
 }
+
+
+/*------combat tracker------------*/
 
 #combat li.combatant.hidden {
     color: grey;

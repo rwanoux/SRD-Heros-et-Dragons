@@ -37,3 +37,36 @@
     font-size: 50px;
     color: white;
 }
+
+
+/*----------journal----------*/
+
+.tidy5eDark .journal-sheet .window-content {
+    overflow-y: hidden;
+    padding: 5px;
+    background: url(../img/fond.jpg) repeat;
+    font-size: 13px;
+    color: #d7cbec;
+}
+
+.tidy5eDark .journal-sheet form input[name="name"] {
+    font-family: "Agincourt Std Regular";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px #9160b69f;
+    text-align: center;
+    border: none
+}
+
+.tidy5eDark .journal-sheet form input[name="name"]:hover,
+.tidy5eDark .journal-sheet form input[name="name"]:focus {
+    background-color: #27768a65;
+}
+
+.tidy5eDark .journal-sheet form button {
+    color: rgb(255, 255, 255)
+}
+
+.tidy5eDark .journal-sheet form select {
+    color: #d7cbec;
+}
