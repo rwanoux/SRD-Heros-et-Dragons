@@ -16,7 +16,25 @@
 }
 
 
-/*  Flexbox                                  */
+/* ------------- animations ------------------*/
+
+@keyframes sunnyControl {
+    from {
+        box-shadow: 0 0 30px #ebecb6;
+    }
+    to {
+        box-shadow: 0 0 10px #a100ff;
+    }
+}
+
+@keyframes sunnyCombat {
+    from {
+        box-shadow: 0 0 3px #ebecb6 inset;
+    }
+    to {
+        box-shadow: 0 0 0px #ebecb6 inset;
+    }
+}
 
 
 /* ----------------------------------------- */
@@ -1611,6 +1629,9 @@ form .form-group span.units {
     box-shadow: 1px 0 15px 1px rgba(227, 206, 255, 0.97);
 }
 
+
+/*---------macro bar---------*/
+
 #hotbar {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -1692,16 +1713,19 @@ form .form-group span.units {
     border-image: url(../img/DÇcoupe\ image\ 4.png) 400 stretch;
 }
 
-#controls {
-    width: 110px;
-    border-right: 12px solid transparent;
-    border-image: url(../img/DÇcoupe\ image\ 2.png) 400 stretch;
-}
-
 #module-management .package-list .package-title,
 #module-management .package-list .package-metadata,
 #module-management .package-list .package-description {
     color: #adaa9e;
+}
+
+
+/*---------controls right------------*/
+
+#controls {
+    width: 110px;
+    border-right: 12px solid transparent;
+    border-image: url(../img/DÇcoupe\ image\ 2.png) 400 stretch;
 }
 
 #controls .scene-control.active,
@@ -1717,16 +1741,7 @@ form .form-group span.units {
 #controls .scene-control.active,
 #controls .control-tool.active {
     animation-duration: 0.8s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        box-shadow: 0 0 30px #fcff61;
-    }
-    to {
-        box-shadow: 0 0 10px #a100ff;
-    }
+    animation-name: sunnyControl;
 }
 
 #players {
@@ -1748,6 +1763,9 @@ form .form-group span.units {
     z-index: 100;
     max-height: 820px;
 }
+
+
+/*--------------compendium list----------*/
 
 #compendium li.compendium-pack {
     display: flex;
@@ -1836,6 +1854,8 @@ a.entity-link.broken {
 }
 
 #combat li.combatant.active {
+    animation-duration: 0.3s;
+    animation-name: sunnyCombat;
     color: rgb(72, 148, 104);
     background: rgba(2, 255, 10, 0.034);
 }
@@ -1843,4 +1863,9 @@ a.entity-link.broken {
 #combat li.combatant.defeated {
     color: rgb(230, 98, 98);
     background-color: #ff000011;
+}
+
+#combat li.combatant.hover {
+    animation-duration: 0.3s;
+    animation-name: sunnyCombat;
 }
