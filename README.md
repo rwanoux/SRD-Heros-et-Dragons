@@ -26,11 +26,22 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+
+### release V1.5.7
+
+nouveau compendium : aptitudes d'historique
+
+correction compendium : historiques. dans la description des historiques les aptitudes d'historiques sont en liens avec le compendium
+
+corrections d'affichages
+
+compatibilité pour midi QOL, les boutons d'actions rapide deviennent lisible.
+
 ### release V1.2 à 1.4
 
 corrections d'affichages
 
-intégration des fiches tidy sheet, et better npc sheet
+compatibilité pour les fiches tidy5e, et better npc sheet
 
 ### release V1.2 à 1.4
 

@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "1.5.6",
+    "version": "1.5.7",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7.1",
@@ -20,7 +20,8 @@
     "styles": [
         "/style/HD.css",
         "/style/HDbetterNPC.css",
-        "/style/HDtidysheet.css"
+        "/style/HDtidysheet.css",
+        "/style/HDmidiqol.css"
     ],
     "packs": [{
             "name": "h-d-dons",
@@ -126,6 +127,13 @@
             "label": "H&D - pièges",
             "path": "packs/h-d-pieges.db",
             "entity": "Actor",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-aptitudes-historiques",
+            "label": "H&D - aptitudes d'historiques",
+            "path": "packs/h-d-aptitudes-historiques.db",
+            "entity": "Item",
             "module": "srd-heros-et-dragons"
         }
 
