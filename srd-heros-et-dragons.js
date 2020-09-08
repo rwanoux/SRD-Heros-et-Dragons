@@ -161,4 +161,11 @@ Hooks.on("renderActorSheet5eCharacter", async function() {
 Hooks.on("renderActorSheet5eNPC", async function() {
     trieAlphabFR();
 
+});
+Hooks.on("renderedTidy5eSheet", async function() {
+    trieAlphabFR();
+
+});
+Hooks.on("renderTidy5eNPC ", async function() {
+    trieAlphabFR();
 })

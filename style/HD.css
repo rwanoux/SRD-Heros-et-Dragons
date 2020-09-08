@@ -350,7 +350,7 @@ a.scene-name {
 
 .dnd5e.sheet .window-content form {
     height: 100%;
-    overflow: hidden;
+    overflow: overlay;
 }
 
 .dnd5e.sheet .window-content .tab {
