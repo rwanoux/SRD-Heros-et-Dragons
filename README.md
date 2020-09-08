@@ -28,7 +28,7 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### release V1.5.7
 
-
+refonte du compendium classe et spécialisation
 compatibilité pour les fiches Obsidain, la barre de scroll redevient visible.
 
 ### release V1.5.7
