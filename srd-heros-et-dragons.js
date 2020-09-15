@@ -115,7 +115,7 @@ Hooks.once("ready", async function() {
     //------------message et logo dans console 
 
 
-    console.log(`--------Heros et Dragons SRD Ready`);
+    console.log(`--------Heros et Dragons SRD Ready--------------------------------`);
     console.log(`
       .......................................
 
