@@ -21,17 +21,64 @@ async function openSupport() {
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
-Hooks.once("ready", async function() {
+
+/*-------------appliquer le css-----------------*/
+
+Hooks.once("init", async function() {
+    game.settings.register('srd-heros-et-dragons', 'HDstyle', {
+        name: "appliquer le style",
+        hint: "applique une surchouche graphique au jeu",
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: x => window.location.reload()
+    });
 
 
-})
+    console.log(game.settings.get('srd-heros-et-dragons', 'HDstyle'))
+    if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
+
+        // Create new link Element 
+        var styleHD = document.createElement('link');
+        // set the attributes for link element 
+        styleHD.rel = 'stylesheet';
+        styleHD.type = 'text/css';
+        styleHD.href = '/modules/srd-heros-et-dragons/style/HD.css';
+        styleHD.media = 'all';
+        document.getElementsByTagName('HEAD')[0].appendChild(styleHD);
 
 
+        // Create new link Element 
+        var styleHDbetterNPC = document.createElement('link');
+        // set the attributes for link element 
+        styleHDbetterNPC.rel = 'stylesheet';
+        styleHDbetterNPC.type = 'text/css';
+        styleHDbetterNPC.href = '/modules/srd-heros-et-dragons/style/HDbetterNPC.css';
+        styleHDbetterNPC.media = 'all';
+        document.getElementsByTagName('HEAD')[0].appendChild(styleHDbetterNPC);
+
+        // Create new link Element 
+        var styleHDmidiqol = document.createElement('link');
+        // set the attributes for link element 
+        styleHDmidiqol.rel = 'stylesheet';
+        styleHDmidiqol.type = 'text/css';
+        styleHDmidiqol.href = '/modules/srd-heros-et-dragons/style/HDmidiqol.css';
+        styleHDmidiqol.media = 'all';
+        document.getElementsByTagName('HEAD')[0].appendChild(styleHDmidiqol);
+
+        // Create new link Element 
+        var styleHDtidysheet = document.createElement('link');
+        // set the attributes for link element 
+        styleHDtidysheet.rel = 'stylesheet';
+        styleHDtidysheet.type = 'text/css';
+        styleHDtidysheet.href = '/modules/srd-heros-et-dragons/style/tidysheet.css';
+        styleHDtidysheet.media = 'all';
+        document.getElementsByTagName('HEAD')[0].appendChild(styleHDtidysheet);
+    }
+});
 
 
-/*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
- ----------------une foi ready--------------------
- -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
 
 Hooks.once("ready", async function() {
@@ -150,8 +197,11 @@ async function trieAlphabFR() {
 }
 
 
+Hooks.on("renderActorSheet", async function() {
+    trieAlphabFR();
 
-
+});
+/*
 
 
 Hooks.on("renderActorSheet5eCharacter", async function() {
@@ -166,6 +216,7 @@ Hooks.on("renderedTidy5eSheet", async function() {
     trieAlphabFR();
 
 });
-Hooks.on("renderTidy5eNPC ", async function() {
+Hooks.on("renderTidy5eNPC", async function() {
     trieAlphabFR();
 })
+*/
