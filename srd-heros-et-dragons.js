@@ -72,7 +72,7 @@ Hooks.once("init", async function() {
         // set the attributes for link element 
         styleHDtidysheet.rel = 'stylesheet';
         styleHDtidysheet.type = 'text/css';
-        styleHDtidysheet.href = '/modules/srd-heros-et-dragons/style/tidysheet.css';
+        styleHDtidysheet.href = '/modules/srd-heros-et-dragons/style/HDtidysheet.css';
         styleHDtidysheet.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDtidysheet);
     }
