@@ -17,14 +17,41 @@ async function openSupport() {
 
 };
 
+
+//------------remettre les compétence en ordre alphabétique fr------------- 
+
+
+async function trieAlphabFR() {
+    const list = document.getElementsByClassName("skills-list")[0];
+    const competences = list.childNodes;
+    let complist = [];
+    for (let sk of competences) {
+        if (sk.innerText) {
+            complist.push(sk);
+        }
+    }
+    complist.sort(function(a, b) {
+        return (a.innerText > b.innerText) ? 1 : -1;
+    });
+    for (let sk of complist) {
+        list.appendChild(sk)
+    }
+}
+
+
+
+
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
 
-/*-------------appliquer le css-----------------*/
+
 
 Hooks.once("init", async function() {
+
+
+
     game.settings.register('srd-heros-et-dragons', 'HDstyle', {
         name: "appliquer le style",
         hint: "applique une surchouche graphique au jeu",
@@ -34,9 +61,18 @@ Hooks.once("init", async function() {
         type: Boolean,
         onChange: x => window.location.reload()
     });
+    game.settings.register('srd-heros-et-dragons', 'consoleDebug', {
+        name: "console Debug",
+        hint: "activer le debugage console (pour dev)",
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: x => window.location.reload()
+    });
 
 
-    console.log(game.settings.get('srd-heros-et-dragons', 'HDstyle'))
+
     if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
 
         // Create new link Element 
@@ -76,10 +112,12 @@ Hooks.once("init", async function() {
         styleHDtidysheet.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDtidysheet);
     }
+    if (game.settings.get('srd-heros-et-dragons', 'consoleDebug')) {
+        CONFIG.debug.hooks = true;
+    };
+
+
 });
-
-
-
 
 Hooks.once("ready", async function() {
 
@@ -107,9 +145,9 @@ Hooks.once("ready", async function() {
     });
 
 
-    //----------console debug
 
-    CONFIG.debug.hooks = true;
+
+
 
 
     //------------message et logo dans console 
@@ -176,47 +214,9 @@ Hooks.once("ready", async function() {
 
 });
 
-//------------remettre les compétence en ordre alphabétique fr------------- 
-
-
-async function trieAlphabFR() {
-    const list = document.getElementsByClassName("skills-list")[0];
-    const competences = list.childNodes;
-    let complist = [];
-    for (let sk of competences) {
-        if (sk.innerText) {
-            complist.push(sk);
-        }
-    }
-    complist.sort(function(a, b) {
-        return (a.innerText > b.innerText) ? 1 : -1;
-    });
-    for (let sk of complist) {
-        list.appendChild(sk)
-    }
-}
 
 
 Hooks.on("renderActorSheet", async function() {
     trieAlphabFR();
 
 });
-/*
-
-
-Hooks.on("renderActorSheet5eCharacter", async function() {
-    trieAlphabFR();
-
-});
-Hooks.on("renderActorSheet5eNPC", async function() {
-    trieAlphabFR();
-
-});
-Hooks.on("renderedTidy5eSheet", async function() {
-    trieAlphabFR();
-
-});
-Hooks.on("renderTidy5eNPC", async function() {
-    trieAlphabFR();
-})
-*/
