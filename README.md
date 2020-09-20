@@ -26,12 +26,18 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+### release V1.6.4
+
+ajout du compendium des capacitées de classes.
+ajout d'une option pour activer le debugage console.
+ajout graphique : les compendium H&D s'affiche en vert ; le srd DND5e en rouge.
+correction du trie des compétences par ordre alphabétique : avant cela ne s'appliquait qu'à la première fiche de perso ouverte, maintenant cela s'effectue même si plusieurs fiches sont ouvertes.
+
 ### release V1.6
 
 la surcharge du css (style graphique) est optionnel. c'est activable depuis "gérer le options/modules"
 
-
-### release V1.5.7
+### release V1.5.8
 
 refonte du compendium classe et spécialisation
 compatibilité pour les fiches Obsidain, la barre de scroll redevient visible.
@@ -46,7 +52,7 @@ corrections d'affichages
 
 compatibilité pour midi QOL, les boutons d'actions rapide deviennent lisible.
 
-### release V1.2 à 1.4
+### release V1.5
 
 corrections d'affichages
 

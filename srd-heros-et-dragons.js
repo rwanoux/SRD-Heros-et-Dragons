@@ -22,19 +22,21 @@ async function openSupport() {
 
 
 async function trieAlphabFR() {
-    const list = document.getElementsByClassName("skills-list")[0];
-    const competences = list.childNodes;
-    let complist = [];
-    for (let sk of competences) {
-        if (sk.innerText) {
-            complist.push(sk);
+    const lists = document.getElementsByClassName("skills-list");
+    for (let list of lists) {
+        const competences = list.childNodes;
+        let complist = [];
+        for (let sk of competences) {
+            if (sk.innerText) {
+                complist.push(sk);
+            }
         }
-    }
-    complist.sort(function(a, b) {
-        return (a.innerText > b.innerText) ? 1 : -1;
-    });
-    for (let sk of complist) {
-        list.appendChild(sk)
+        complist.sort(function(a, b) {
+            return (a.innerText > b.innerText) ? 1 : -1;
+        });
+        for (let sk of complist) {
+            list.appendChild(sk)
+        }
     }
 }
 
@@ -211,7 +213,21 @@ Hooks.once("ready", async function() {
     });
 
 
+    //---------------------compendium color---visibité des compendium H&D 
 
+    var comps = document.getElementsByClassName("pack-title");
+    for (let comp of comps) {
+        let indexHD = comp.innerText.indexOf("H&D");
+        let indexDND = comp.innerText.indexOf("SRD");
+        if (indexHD !== -1) {
+            comp.style.color = "LightGreen";
+            comp.nextElementSibling.style.color = "LightGreen";
+        }
+        if (indexDND !== -1) {
+            comp.style.color = "IndianRed";
+            comp.nextElementSibling.style.color = "IndianRed";
+        }
+    }
 });
 
 

@@ -2,7 +2,7 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "1.6.3",
+    "version": "1.6.4",
 
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7.1",
@@ -24,6 +24,13 @@
             "name": "h-d-dons",
             "label": "H&D-dons",
             "path": "packs/h-d-dons.db",
+            "entity": "Item",
+            "module": "srd-heros-et-dragons"
+        },
+        {
+            "name": "h-d-capacites-de-classes",
+            "label": "H&D-Capacités de Classes",
+            "path": "packs/h-d-capacites-de-classes.db",
             "entity": "Item",
             "module": "srd-heros-et-dragons"
         },
