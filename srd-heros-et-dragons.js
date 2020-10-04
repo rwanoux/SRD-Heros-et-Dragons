@@ -27,7 +27,7 @@ async function trieAlphabFR() {
         const competences = list.childNodes;
         let complist = [];
         for (let sk of competences) {
-            if (sk.innerText) {
+            if (sk.innerText && sk.tagName == "LI") {
                 complist.push(sk);
             }
         }
@@ -37,9 +37,27 @@ async function trieAlphabFR() {
         for (let sk of complist) {
             list.appendChild(sk)
         }
+
     }
 }
+//---------------------compendium color---visibité des compendium H&D 
 
+async function compendiumColor() {
+
+    var comps = document.getElementsByClassName("pack-title");
+    for (let comp of comps) {
+        let indexHD = comp.innerText.indexOf("H&D");
+        let indexDND = comp.innerText.indexOf("SRD");
+        if (indexHD !== -1) {
+            comp.style.color = "LightGreen";
+            comp.nextElementSibling.style.color = "LightGreen";
+        }
+        if (indexDND !== -1) {
+            comp.style.color = "IndianRed";
+            comp.nextElementSibling.style.color = "IndianRed";
+        }
+    }
+}
 
 
 
@@ -146,12 +164,6 @@ Hooks.once("ready", async function() {
         }
     });
 
-
-
-
-
-
-
     //------------message et logo dans console 
 
 
@@ -212,27 +224,13 @@ Hooks.once("ready", async function() {
         liensExt.render(true);
     });
 
-
-    //---------------------compendium color---visibité des compendium H&D 
-
-    var comps = document.getElementsByClassName("pack-title");
-    for (let comp of comps) {
-        let indexHD = comp.innerText.indexOf("H&D");
-        let indexDND = comp.innerText.indexOf("SRD");
-        if (indexHD !== -1) {
-            comp.style.color = "LightGreen";
-            comp.nextElementSibling.style.color = "LightGreen";
-        }
-        if (indexDND !== -1) {
-            comp.style.color = "IndianRed";
-            comp.nextElementSibling.style.color = "IndianRed";
-        }
-    }
 });
 
 
 
 Hooks.on("renderActorSheet", async function() {
     trieAlphabFR();
-
+});
+Hooks.on("renderSidebarTab", async function() {
+    compendiumColor();
 });
