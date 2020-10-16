@@ -77,7 +77,7 @@ Collège bardique [Barde] : Rien à coder
 Comme une anguille [Puissance des Profondeurs] : Rien à coder
 Communion [Barbare des esprits] : Rien à coder
 Compétence hors pair [collège du savoir] : Rien à coder
-- Contact purifiant [Paladin] : coder nombre d'utilisation (Pouvoir mettre une formule dans le nombre d'utilisation)
+Contact purifiant [Paladin] : coder nombre d'utilisation (Pouvoir mettre une formule dans le nombre d'utilisation)
 Contre charme [Barde] :  Rien à coder
 Corps Vide [Moine] :  Rien à coder
 (*) Coup bas [Brute] : attaque/dégats codé (à adapter selon le niveau)
