@@ -1,4 +1,4 @@
-## Modification SRD Héros & Dragon - Compendium H&D - Capacités de Classe
+# Modification SRD Héros & Dragon - Compendium H&D - Capacités de Classe
 
 - Ajout des couts d'activation pour les compétences qui le nécéssitait
 - Ajout des effet de compétence quand c'est possible (compétence précédé d'une (*))
@@ -26,7 +26,7 @@ Amis des fées [Cercle des fées] : -Rien à coder
 
 (*) Analyse des faiblesses [Guide Spirituel] : -JdS codé
 
-Ancêtre céleste [Lignée céleste] : -PB codage de la fiche : -Trait Langes personnalisé / Trait Langes 
+Ancêtre céleste [Lignée céleste] : -PB codage de la fiche : -Trait Langes personnalisé / Trait Langes
 
 Ancêtre dragon [Lignée draconique] : -PB codage de la fiche : -Trait Langes personnalisé / Trait Langes
 
@@ -134,7 +134,7 @@ Charge héroïque [Serment d'Obédience] : -Rien à coder
 
 Charme intense [Lignée féerique] : -Coder Avantage contre sorts, charme et enchantement
 
-(*) Châtiment divin [Paladin] : -dégats lvl 1 codé 
+(*) Châtiment divin [Paladin] : -dégats lvl 1 codé
 
 Chevalier émérite [Serment de Perfection] : -Rien à coder
 
@@ -150,7 +150,7 @@ Communion [Barbare des esprits] : -Rien à coder
 
 Compétence hors pair [collège du savoir] : -Rien à coder
 
-Contact purifiant [Paladin] : -coder nombre d'utilisation (Pouvoir mettre une formule dans le nombre 
+Contact purifiant [Paladin] : -coder nombre d'utilisation (Pouvoir mettre une formule dans le nombre
 d'utilisation)
 
 Contre charme [Barde] : - Rien à coder
@@ -207,7 +207,7 @@ Domaine divin [Clerc] : -Rien à coder
 
 Don pour les langues [Espion] : -Rien à coder
 
-(*) Drain d'énergie [Sorcelame] : -Ajout Jet de sauvegarde + Zone d'effet + dégats 
+(*) Drain d'énergie [Sorcelame] : -Ajout Jet de sauvegarde + Zone d'effet + dégats
 
 Druidique [Druide] : -Rien à coder
 
@@ -285,13 +285,11 @@ Feinte [Bretteur] : -Rien à coder
 
 Flèche arcanique [Archer Arcanique] : -Rien à coder
 
-Flèche infaillible [Archer Arcanique] : -Rien à coder (sauf nombre d'utilisation par repos long, 
-formule dans Utilisation limité)
+Flèche infaillible [Archer Arcanique] : -Rien à coder (sauf nombre d'utilisation par repos long,formule dans Utilisation limité)
 
-Flèche Intangible [Archer Arcanique] : -Rien à coder (sauf nombre d'utilisation par repos long, 
-formule dans Utilisation limité)
+Flèche Intangible [Archer Arcanique] : -Rien à coder (sauf nombre d'utilisation par repos long, formule dans Utilisation limité)
 
-(*) Flèche tueuse [Archer Arcanique] : -dégats et Jet de sauvegarde codé  (sauf nombre d'utilisation 
+(*) Flèche tueuse [Archer Arcanique] : -dégats et Jet de sauvegarde codé  (sauf nombre d'utilisation
 par repos long, formule dans Utilisation limité)
 
 Flexibilité incantatoire [Ensorceleur] : -Rien à coder
@@ -310,7 +308,7 @@ Forme monstrueuse [Cercle des profondeurs] : -Rien à coder
 
 Forme sauvage [Druide] : -Rien à coder
 
-Frappe chirurgicale [Bretteur] : -Rien à coder 
+Frappe chirurgicale [Bretteur] : -Rien à coder
 
 Frappe de Ki [Moine] : -Rien à coder
 
@@ -371,7 +369,6 @@ Imposition des mains [Paladin] : -Coder pts de soins disponibles / utilisés. R�
 Imposture [Éminence grise] : - Rien à coder
 
 Incantation animale [Druide] : - Rien à coder
-
 
 Incantation discrète [Éminence grise] : - Rien à coder
 
@@ -547,16 +544,15 @@ Parade de la grue [Voie des Cinq Animaux] : -Rien à coder
 
 (*) Parade de Projectiles [Moine] : -Jet de réduction des dégats codé
 
-
 Parangon héroïque [Serment de Perfection] : -Rien à coder
 
-(*) Paume frémissante [Voie de la Main ouverte] : -Jet de sauvegarde et dégats si JdS échoué codé. 
+(*) Paume frémissante [Voie de la Main ouverte] : -Jet de sauvegarde et dégats si JdS échoué codé.
 
 Perfection [Moine] : -Rien à coder
 
 Persécuter [Brute] : -Rien à coder
 
-(*)Pièges [Traqueur] : -dégats du piege lethal et JdS Dextérité codé (devrait rajouter le test de 
+(*)Pièges [Traqueur] : -dégats du piege lethal et JdS Dextérité codé (devrait rajouter le test de
 détection et le choix JdS Force ou Dextérité pour le piège immobilisant)
 
 Pisteur : -Rôdeur alternatif [Pisteur] : -Rien à coder
@@ -819,4 +815,4 @@ Vitesse du léopard [Voie des Cinq Animaux] : -Rien à coder
 
 Voie primitive [Barbare] : -Rien à coder
 
-Voir l'invisible [Cercle des fées] : -Rien à coder
+Voir l'invisible [Cercle des fées] : -Rien à coder.

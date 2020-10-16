@@ -23,7 +23,7 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### voilà
 
-**vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
+**vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
 ### release V1.6.6
@@ -84,7 +84,7 @@ ajouts de compendiums, folies, poisons et maladies, pièges,
 
 les compétences apparaissent maintenant par ordre alphabétique fr,
 
-**les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
+### les pièges sont créés comme des actors afin de pouvoir les glisser déposer sur les cartes, leurs effets sont dans leurs aptitudes**
 
 ### nouveautés V0.9.8
 
