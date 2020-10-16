@@ -50,11 +50,9 @@ async function compendiumColor() {
         let indexDND = comp.innerText.indexOf("SRD");
         if (indexHD !== -1) {
             comp.style.color = "LightGreen";
-            comp.nextElementSibling.style.color = "LightGreen";
         }
         if (indexDND !== -1) {
             comp.style.color = "IndianRed";
-            comp.nextElementSibling.style.color = "IndianRed";
         }
     }
 }

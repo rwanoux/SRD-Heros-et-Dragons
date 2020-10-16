@@ -26,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le discord francophone de foundryVTT https://discord.gg/pPSDNJk**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+### release V1.6.6
+
+ajustement du compendium de capacité de classe par Cimeryl, [les détails de son travail](https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/blob/master/avanceCapaClasse.md)
+
 ### release V1.6.4
 
 ajout du compendium des capacitées de classes.
