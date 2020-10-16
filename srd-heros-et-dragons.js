@@ -56,7 +56,17 @@ async function compendiumColor() {
         }
     }
 }
+async function hideDD5Compendium() {
 
+    var comps = document.getElementsByClassName("pack-title");
+    for (let comp of comps) {
+        let indexDND = comp.innerText.indexOf("SRD");
+
+        if (indexDND !== -1) {
+            comp.parentElement.style.display = "none";
+        }
+    }
+}
 
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
@@ -73,6 +83,24 @@ Hooks.once("init", async function() {
     game.settings.register('srd-heros-et-dragons', 'HDstyle', {
         name: "appliquer le style",
         hint: "applique une surchouche graphique au jeu",
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: x => window.location.reload()
+    });
+    game.settings.register('srd-heros-et-dragons', 'HDcompendiumColor', {
+        name: "couleur des compendium H&D et DD5",
+        hint: "affiche les compendium H&D en vert, DD5 en rouge",
+        scope: "world",
+        config: true,
+        default: true,
+        type: Boolean,
+        onChange: x => window.location.reload()
+    });
+    game.settings.register('srd-heros-et-dragons', 'HDhideDD5Compendium', {
+        name: "masquer les compendium DD5",
+        hint: "masque les compendium issus du system DD5",
         scope: "world",
         config: true,
         default: false,
@@ -230,5 +258,12 @@ Hooks.on("renderActorSheet", async function() {
     trieAlphabFR();
 });
 Hooks.on("renderSidebarTab", async function() {
-    compendiumColor();
+    if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
+        compendiumColor();
+    };
+
+    if (game.settings.get('srd-heros-et-dragons', 'HDhideDD5Compendium')) {
+
+        hideDD5Compendium();
+    }
 });
