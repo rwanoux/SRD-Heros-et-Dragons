@@ -252,11 +252,23 @@ Hooks.once("ready", async function() {
 
 });
 
-
+//-------------action sur feuille de perso---------
+//-------------------------------------------------
 
 Hooks.on("renderActorSheet", async function() {
+
+    //---trie alphabétique
     trieAlphabFR();
+
+    //----check race-----
+
+
 });
+
+
+
+
+
 Hooks.on("renderSidebarTab", async function() {
     if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
         compendiumColor();
