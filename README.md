@@ -26,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+### release 1.7
+
+ajout d'un raccourci in-game pour un résumeé des règles de combat
+
 ### release V1.6.7
 
 nouvelles options du module : afficher les compendiums en couleur, masquer les compendium dd5
