@@ -26,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+### release 1.7.3
+
+correction du compendium classe et spécialisation, les spécialisations sont bien de type "feat" et les classes de type "class"
+
 ### release 1.7.2
 
 correction graphique, la couleur des inputs dans les form-group redevient lisible
