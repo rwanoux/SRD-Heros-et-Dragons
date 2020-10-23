@@ -1619,6 +1619,10 @@ form .form-group select {
     color: rgb(119, 107, 158)
 }
 
+.form-group input[type="number"] {
+    color: #a09f9f;
+}
+
 form .form-group span.units {
     flex: 0;
     line-height: 28px;
