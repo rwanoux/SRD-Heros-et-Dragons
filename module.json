@@ -13,12 +13,14 @@
 
 
     "esmodules": [
-        "./srd-heros-et-dragons.js"
+        "./srd-heros-et-dragons.js",
+        "./ressources_class.js"
 
     ],
 
     "styles": [
-        "./style/aideRegles.css"
+        "./style/aideRegles.css",
+        "./style/ressources_class.css"
     ],
     "packs": [{
             "name": "h-d-dons",
@@ -142,6 +144,13 @@
         }
 
     ],
+    "languages": [
+		{
+			"lang": "fr",
+			"name": "Français",
+			"path": "lang/fr.json"
+		}
+	],
 
     "url": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons.git",
     "manifest": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/raw/master/module.json",
