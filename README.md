@@ -50,7 +50,7 @@ corrections des tables de rencontres aléatoire
 
 ### release V1.6.6
 
-ajustement du compendium de capacité de classe par Cimeryl, [les détails de son travail](https://gitlab.com/lemaire.erw/srd_heros_et_dragons/-/blob/master/avanceCapaClasse.md)
+ajustement du compendium de capacité de classe par Cimeryl, [les détails de son travail](https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/blob/master/avanceCapaClasse.md)
 
 ### release V1.6.4
 

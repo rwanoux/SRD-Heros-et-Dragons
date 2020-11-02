@@ -11,7 +11,7 @@ export class aidejeu extends Application {
             width: 1310,
             height: 980,
             left: 100,
-            template: "modules/srd_heros_et_dragons/templates/aidejeu.html",
+            template: "modules/srd-heros-et-dragons/templates/aidejeu.html",
             id: "aide de jeu",
             title: "aide de jeu",
 

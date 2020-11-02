@@ -19,7 +19,7 @@ Hooks.once("init", async function() {
     //---------déclaration des settings
 
 
-    game.settings.register('srd_heros_et_dragons', 'HDstyle', {
+    game.settings.register('srd-heros-et-dragons', 'HDstyle', {
         name: "appliquer le style",
         hint: "applique une surchouche graphique au jeu",
         scope: "world",
@@ -28,7 +28,7 @@ Hooks.once("init", async function() {
         type: Boolean,
         onChange: x => window.location.reload()
     });
-    game.settings.register('srd_heros_et_dragons', 'HDcompendiumColor', {
+    game.settings.register('srd-heros-et-dragons', 'HDcompendiumColor', {
         name: "couleur des compendium H&D et DD5",
         hint: "affiche les compendium H&D en vert, DD5 en rouge",
         scope: "world",
@@ -37,7 +37,7 @@ Hooks.once("init", async function() {
         type: Boolean,
         onChange: x => window.location.reload()
     });
-    game.settings.register('srd_heros_et_dragons', 'HDhideDD5Compendium', {
+    game.settings.register('srd-heros-et-dragons', 'HDhideDD5Compendium', {
         name: "masquer les compendium DD5",
         hint: "masque les compendium issus du system DD5",
         scope: "world",
@@ -46,7 +46,7 @@ Hooks.once("init", async function() {
         type: Boolean,
         onChange: x => window.location.reload()
     });
-    game.settings.register('srd_heros_et_dragons', 'consoleDebug', {
+    game.settings.register('srd-heros-et-dragons', 'consoleDebug', {
         name: "console Debug",
         hint: "activer le debugage console (pour dev)",
         scope: "world",
@@ -61,14 +61,14 @@ Hooks.once("init", async function() {
 
     //appliquer css
 
-    if (game.settings.get('srd_heros_et_dragons', 'HDstyle')) {
+    if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
 
         // Create new link Element 
         var styleHD = document.createElement('link');
         // set the attributes for link element 
         styleHD.rel = 'stylesheet';
         styleHD.type = 'text/css';
-        styleHD.href = '/modules/srd_heros_et_dragons/style/HD.css';
+        styleHD.href = '/modules/srd-heros-et-dragons/style/HD.css';
         styleHD.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHD);
 
@@ -78,7 +78,7 @@ Hooks.once("init", async function() {
         // set the attributes for link element 
         styleHDbetterNPC.rel = 'stylesheet';
         styleHDbetterNPC.type = 'text/css';
-        styleHDbetterNPC.href = '/modules/srd_heros_et_dragons/style/HDbetterNPC.css';
+        styleHDbetterNPC.href = '/modules/srd-heros-et-dragons/style/HDbetterNPC.css';
         styleHDbetterNPC.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDbetterNPC);
 
@@ -87,7 +87,7 @@ Hooks.once("init", async function() {
         // set the attributes for link element 
         styleHDmidiqol.rel = 'stylesheet';
         styleHDmidiqol.type = 'text/css';
-        styleHDmidiqol.href = '/modules/srd_heros_et_dragons/style/HDmidiqol.css';
+        styleHDmidiqol.href = '/modules/srd-heros-et-dragons/style/HDmidiqol.css';
         styleHDmidiqol.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDmidiqol);
 
@@ -96,14 +96,14 @@ Hooks.once("init", async function() {
         // set the attributes for link element 
         styleHDtidysheet.rel = 'stylesheet';
         styleHDtidysheet.type = 'text/css';
-        styleHDtidysheet.href = '/modules/srd_heros_et_dragons/style/HDtidysheet.css';
+        styleHDtidysheet.href = '/modules/srd-heros-et-dragons/style/HDtidysheet.css';
         styleHDtidysheet.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDtidysheet);
     }
 
     //console debug
 
-    if (game.settings.get('srd_heros_et_dragons', 'consoleDebug')) {
+    if (game.settings.get('srd-heros-et-dragons', 'consoleDebug')) {
         CONFIG.debug.hooks = true;
     };
 
@@ -112,10 +112,10 @@ Hooks.once("init", async function() {
 //----setting compendiums
 
 Hooks.on("renderSidebarTab", async function() {
-    if (game.settings.get('srd_heros_et_dragons', 'HDcompendiumColor')) {
+    if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
         compendiumColor();
     };
-    if (game.settings.get('srd_heros_et_dragons', 'HDhideDD5Compendium')) {
+    if (game.settings.get('srd-heros-et-dragons', 'HDhideDD5Compendium')) {
         hideDD5Compendium();
     }
 });
@@ -201,7 +201,7 @@ Hooks.once("ready", async function() {
 
     //----logo image
     var logo = document.getElementById("logo");
-    logo.setAttribute("src", "modules/srd_heros_et_dragons/img/logoHD.png");
+    logo.setAttribute("src", "modules/srd-heros-et-dragons/img/logoHD.png");
 
 
     //--------------ouvrir le menu lien sur click logo
@@ -216,7 +216,7 @@ Hooks.once("ready", async function() {
 
 
     let zoneAide = document.createElement('div');
-    renderTemplate("modules/srd_heros_et_dragons/templates/menuAide.html").then(html => {
+    renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
 
         zoneAide.id = "openAide";
         zoneAide.innerHTML = html;;

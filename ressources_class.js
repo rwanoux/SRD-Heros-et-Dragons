@@ -3,7 +3,7 @@ import { darkSheetCompat } from "./compat/darksheetCompat.js";
 
 // Setting to always show resources
 Hooks.on("init", function () {
-  game.settings.register("srd_heros_et_dragons", "RessClassAll", {
+  game.settings.register("srd-heros-et-dragons", "RessClassAll", {
     name: "montrer toutes les ressources",
     hint: "montrer toutes les ressources spécifique aux classes.",
     scope: "client",
@@ -32,7 +32,7 @@ Hooks.on("init", function () {
   const originalGetData = game.dnd5e.applications.ActorSheet5eCharacter.prototype.getData;
   if (typeof libWrapper === "function") {
     libWrapper.register(
-      "srd_heros_et_dragons",
+      "srd-heros-et-dragons",
       "game.dnd5e.applications.ActorSheet5eCharacter.prototype.getData",
       function (wrapper, ...args) {
         const sheetData = originalGetData.call(this);

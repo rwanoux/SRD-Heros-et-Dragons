@@ -1,8 +1,7 @@
 {
-    "name": "srd_heros_et_dragons",
-    "title": "srd_heros_et_dragons",
-    "description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e <p>
-    <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
+    "name": "srd-heros-et-dragons",
+    "title": "srd-heros-et-dragons",
+    "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e",
     "version": "1.8.1",
 
     "minimumCoreVersion": "0.5",
@@ -14,7 +13,7 @@
 
 
     "esmodules": [
-        "./srd_heros_et_dragons.js",
+        "./srd-heros-et-dragons.js",
         "./ressources_class.js"
 
     ],
@@ -28,49 +27,49 @@
             "label": "H&D-dons",
             "path": "packs/h-d-dons.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-capacites-de-classes",
             "label": "H&D-Capacités de Classes",
             "path": "packs/h-d-capacites-de-classes.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-grimoire",
             "label": "H&D - Grimoire",
             "path": "packs/h-d-grimoire.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-bestaire",
             "label": "H&D - Bestaire",
             "path": "packs/h-d-bestiaire.db",
             "entity": "Actor",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-races",
             "label": "H&D - Races",
             "path": "packs/h-d-races.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-traits-raciaux",
             "label": "H&D - traits raciaux",
             "path": "packs/h-d-traits-raciaux.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-capacités-du-bestiaire",
             "label": "H&D - capacités du bestiaire",
             "path": "packs/h-d-capacites-du-bestiaire.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
 
         {
@@ -78,70 +77,70 @@
             "label": "H&D - historiques",
             "path": "packs/h-d-historiques.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-équipement-aventurier",
             "label": "H&D - équipement d'aventurier",
             "path": "packs/h-d-equipement-aventurier.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-objets-magiques-et-trésors",
             "label": "H&D - objets magiques et trésors",
             "path": "packs/h-d-objets-magiques-et-tresors.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-classes-et-spécialisations",
             "label": "H&D - classes et spécialisations",
             "path": "packs/h-d-classes-et-specialisations.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-tables-de-rencontres-aleatoires",
             "label": "H&D - tables-de-rencontres-aleatoires",
             "path": "packs/h-d-tables-de-rencontres-aleatoires.db",
             "entity": "RollTable",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-tables-d'evenements-aleatoires",
             "label": "H&D - tables-d'évènements-aleatoires",
             "path": "packs/h-d-tables-d'evenements-aleatoires.db",
             "entity": "RollTable",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-poisons-et-maladies",
             "label": "H&D - poisons et maladies",
             "path": "packs/h-d-poisons-et-maladies.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-folies",
             "label": "H&D - folies",
             "path": "packs/h-d-folies.db",
             "entity": "RollTable",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-pieges",
             "label": "H&D - pièges",
             "path": "packs/h-d-pieges.db",
             "entity": "Actor",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         },
         {
             "name": "h-d-aptitudes-historiques",
             "label": "H&D - aptitudes d'historiques",
             "path": "packs/h-d-aptitudes-historiques.db",
             "entity": "Item",
-            "module": "srd_heros_et_dragons"
+            "module": "srd-heros-et-dragons"
         }
 
     ],
@@ -153,9 +152,9 @@
 		}
 	],
 
-    "url": "https://gitlab.com/lemaire.erw/srd_heros_et_dragons.git",
-    "manifest": "https://gitlab.com/lemaire.erw/srd_heros_et_dragons/-/raw/master/module.json",
-    "download": "https://gitlab.com/lemaire.erw/srd_heros_et_dragons/-/archive/master/srd_heros_et_dragons-master.zip"
+    "url": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons.git",
+    "manifest": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/raw/master/module.json",
+    "download": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/archive/master/srd-heros-et-dragons-master.zip"
 
 
 }
