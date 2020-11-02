@@ -1,5 +1,6 @@
 import { aidejeu } from './modules/aidejeu.js';
 import { openSRD } from './modules/openSRD.js';
+import { openWiki } from './modules/openWiki.js';
 import { openSupport } from './modules/openSupport.js';
 import { trieAlphabFR } from './modules/trieAlpha.js';
 import { compendiumColor } from './modules/compendiums.js';
@@ -139,6 +140,11 @@ Hooks.once("ready", async function() {
                 icon: '<i class="fas fa-check"></i>',
                 label: "joindre le support du module sur discord",
                 callback: () => openSupport()
+            },
+            three: {
+                icon: '<i class="fas fa-check"></i>',
+                label: "accéder au wiki francophone dédié",
+                callback: () => openWiki()
             }
 
         }

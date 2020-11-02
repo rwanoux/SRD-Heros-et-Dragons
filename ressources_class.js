@@ -109,13 +109,22 @@ Hooks.on("init", function () {
     }
   });
 });
-Hooks.on("renderActorSheet", function (dndSheet) {
-  if (
-    dndSheet.constructor.name == "MonsterBlock5e"
-  ) return;
+
+
+
+Hooks.on("renderActorSheet", function (app,html,data) {
+
   // Get all html elements that are resources
-  var list = document.getElementsByClassName("attribute resource");
-  //var classes =dndSheet.data.items.type["class"];
-  //console.log(classes);
+ 
+  let resslist = document.getElementsByClassName("attribute resource");
+  let classes=data.items.filter(it=>it.type=="class")
+  console.log(data.items.filter(it=>it.type=="class"));
+
+  
+console.log(resslist);
+for (let ress in resslist){
+  
+  }
+
 })
 
