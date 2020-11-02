@@ -755,11 +755,10 @@ select {
 }
 
 .dnd5e.sheet.actor .counters .counter h4 {
-    flex: auto;
+    FONT-WEIGHT: 100;
     margin: 0;
     font-family: "Agincourt Std Regular";
-    font-size: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dnd5e.sheet.actor .counters .counter .counter-value {
@@ -1466,6 +1465,7 @@ select {
 
 .dnd5e.sheet.actor.character .attributes .resource .attribute-name {
     margin: 0 8px;
+    font-size: 12px;
 }
 
 .dnd5e.sheet.actor.character .attributes .resource .attribute-name input[type="text"] {
@@ -1546,7 +1546,7 @@ input.speed {
 
 #chat-log .message {
     color: black;
-    background-image: url("/modules/srd-heros-et-dragons/img/fondmess.jpg");
+    background-image: url("/modules/srd_heros_et_dragons/img/fondmess.jpg");
     background-size: cover;
 }
 
