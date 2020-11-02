@@ -115,16 +115,42 @@ Hooks.on("init", function () {
 Hooks.on("renderActorSheet", function (app,html,data) {
 
   // Get all html elements that are resources
- 
-  let resslist = document.getElementsByClassName("attribute resource");
-  let classes=data.items.filter(it=>it.type=="class")
-  console.log(data.items.filter(it=>it.type=="class"));
+  let classes=data.items.filter(it=>it.type=="class");
+  let resslist = $("li.resource").find("input[type='text']");
+  for (let i=3;i<resslist.length;i++){
+    resslist[i].disabled="disabled";
+    
+    resslist[i].parentNode.parentNode.style.display="none"
 
-  
-console.log(resslist);
-for (let ress in resslist){
-  
+
   }
+  for (let cl of classes){
+    switch(cl.name){
+      case "Barbare":resslist[3].parentNode.parentNode.style.display="block";break;
+      case "Barde":resslist[4].parentNode.parentNode.style.display="block";break;
+      case "Clerc":resslist[5].parentNode.parentNode.style.display="block";break;
+      case "Druide":resslist[9].parentNode.parentNode.style.display="block";break;
+      case "Ensorceleur":resslist[6].parentNode.parentNode.style.display="block";break;
+      case "Guerrier":resslist[6].parentNode.parentNode.style.display="block";break;
+      case "Magicien":break;
+      case "Moine":resslist[7].parentNode.parentNode.style.display="block";break;
+      case "Paladin":resslist[5].parentNode.parentNode.style.display="block";resslist[10].parentNode.parentNode.style.display="block";break;
+      case "Rôdeur":break;
+      case "Roublard":resslist[6].parentNode.parentNode.style.display="block";break;
+      case "Sorcier":resslist[6].parentNode.parentNode.style.display="block";break;
+    }
+    
+  }
+ 
+ 
+
+
+
+
+ 
+  
+
+
 
 })
 

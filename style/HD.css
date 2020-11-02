@@ -755,11 +755,10 @@ select {
 }
 
 .dnd5e.sheet.actor .counters .counter h4 {
-    flex: auto;
+    FONT-WEIGHT: 100;
     margin: 0;
     font-family: "Agincourt Std Regular";
-    font-size: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dnd5e.sheet.actor .counters .counter .counter-value {
