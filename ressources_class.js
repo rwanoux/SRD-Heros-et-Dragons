@@ -108,7 +108,7 @@ Hooks.on("renderActorSheet", function (app,html,data) {
   // récupérer les classes
   let classes=data.items.filter(it=>it.type==="class");
 //récupérer les éléments de ressources et les rendre invivibles
-  let resBlock=$("li.resource").css({"display": "none"});
+  let resBlock=html.find("li.resource").css({"display": "none"});
 //rendre les 3 premières ressources visible
    resBlock.slice(0,3).css({"display": "block"})
    //récup les input des noms de ressources
@@ -122,7 +122,8 @@ Hooks.on("renderActorSheet", function (app,html,data) {
         
       }
   }
-
+//afficher les bonnes ressources selon la classe
+// à faire : afficher aussi selon les spécialisation de classe
   for (let cl of classes){
     switch(cl.name){
       case "Barbare":resBlock[3].style.display="block";break;
