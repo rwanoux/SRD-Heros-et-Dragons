@@ -224,38 +224,31 @@ export const ClassFeaturesHD = {
        "features": {}
      }
    },
-   "features": {},
+   "features": {
+
+   },
  },
  "rôdeur": {
    "subclasses": {
-     "beast-master": {
-       "label": "Beast Master",
-       "source": "PHB pg. 93",
+     "Chasseur": {
+       "label": "Chasseur",
        "features": {}
      },
-     "gloom-stalker": {
-       "label": "Gloom Stalker",
-       "source": "XGE pg. 41",
+     "Archer arcanique": {
+       "label": "Archer arcanique",
        "features": {}
      },
-     "horizon-walker": {
-       "label": "Horizon Walker",
-       "source": "XGE pg. 42",
+     "Exilé": {
+       "label": "Exilé",
        "features": {}
      },
-     "hunter": {
-       "label": "Hunter",
-       "source": "PHB pg. 93",
+     "Traqueur": {
+       "label": "Traqueur",
        "features": {
-         "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.wrxIW5sDfmGr3u5s"],
-         "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.WgQrqjmeyMqDzVt3"],
-         "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7zlTRRXT1vWSBGjX"],
-         "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.a0Sq88dgnREcIMfl"]
        }
      },
-     "monster-slayer": {
-       "label": "Monster Slayer",
-       "source": "XGE pg. 43",
+     "Pisteur": {
+       "label": "Pisteur",
        "features": {}
      }
    },
@@ -273,46 +266,23 @@ export const ClassFeaturesHD = {
  },
  "roublard": {
    "subclasses": {
-     "arcane-trickster": {
-       "label": "Arcane Trickster",
-       "source": "PHB pg. 97",
+     "Voleur": {
+       "label": "Voleur",
        "features": {}
      },
-     "assassin": {
-       "label": "Assassin",
-       "source": "PHB pg. 97",
+     "Brute": {
+       "label": "Brute",
        "features": {}
      },
-     "inquisitive": {
-       "label": "Inquisitive",
-       "source": "XGE pg. 45",
+     "Espion": {
+       "label": "Espion",
        "features": {}
      },
-     "mastermind": {
-       "label": "Mastermind",
-       "source": "XGE pg. 46; SCAG pg. 135",
+     "Ombrelame": {
+       "label": "Ombrelame",
        "features": {}
-     },
-     "scout": {
-       "label": "Scout",
-       "source": "XGE pg. 47",
-       "features": {}
-     },
-     "swashbuckler": {
-       "label": "Swashbuckler",
-       "source": "XGE pg. 47; SCAG pg. 135",
-       "features": {}
-     },
-     "thief": {
-       "label": "Thief",
-       "source": "PHB pg. 97",
-       "features": {
-         "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.ga3dt2zrCn2MHK8R", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.FGrbXs6Ku5qxFK5G"],
-         "9": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Ei1Oh4UAA2E30jcD"],
-         "13": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.NqWyHE7Rpw9lyKWu"],
-         "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.LhRm1EeUMvp2EWhV"]
-       }
      }
+     
    },
    "features": {
      "1": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.3sYPftQKnbbVnHrh", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.DPN2Gfk8yi1Z5wp7", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.ohwfuwnvuoBWlSQr"],
@@ -329,44 +299,20 @@ export const ClassFeaturesHD = {
  },
  "ensorceleur": {
    "subclasses": {
-     "draconic-bloodline": {
-       "label": "Draconic Bloodline",
-       "source": "PHB pg. 102",
-       "features": {
-         "1": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.EZsonMThTNLZq35j", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.MW1ExvBLm8Hg82aA"],
-         "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.x6eEZ9GUsuOcEa3G"],
-         "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.3647zjKSE9zFwOXc"],
-         "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Gsha4bl0apxqspFy"]
-       }
-     },
-     "divine-soul": {
-       "label": "Divine Soul",
-       "source": "XGE pg. 50",
+     "Lignée draconique": {
+       "label": "Lignée draconique",
        "features": {}
      },
-     "pyromancer": {
-       "label": "Pyromancer",
-       "source": "PS:K pg. 9",
+     "Lignée céleste": {
+       "label": "Lignée céleste",
        "features": {}
      },
-     "runechild": {
-       "label": "Runechild",
-       "source": "TCS pg. 103",
+     "Lignée féerique": {
+       "label": "Lignée féerique",
        "features": {}
      },
-     "shadow-magic": {
-       "label": "Shadow Magic",
-       "source": "XGE pg. 50",
-       "features": {}
-     },
-     "storm-sorcery": {
-       "label": "Storm Sorcery",
-       "source": "XGE pg. 51; SCAG pg. 137",
-       "features": {}
-     },
-     "wild-magic": {
-       "label": "Wild Magic",
-       "source": "PHB pg. 103",
+     "Lignée infernale": {
+       "label": "Lignée infernale",
        "features": {}
      }
    },
@@ -379,39 +325,21 @@ export const ClassFeaturesHD = {
  },
  "sorcier": {
    "subclasses": {
-     "the-archfey": {
-       "label": "The Archfey",
-       "source": "PHB pg. 108",
+     "Le fiélon": {
+       "label": "Le fiélon",
        "features": {}
      },
-     "the-celestial": {
-       "label": "The Celestial",
-       "source": "XGE pg. 54",
-       "features": {}
+     "Le seigneur immortel": {
+       "label": "Le seigneur immortel",
+      "features": {}
      },
-     "the-fiend": {
-       "label": "The Fiend",
-       "source": "PHB pg. 109",
+     "La puissance des profondeurs": {
+       "label": "La puissance des profondeurs",
        "features": {
-         "1": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Jv0zu4BtUi8bFCqJ"],
-         "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.OQSb0bO1yDI4aiMx"],
-         "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.9UZ2WjUF2k58CQug"],
-         "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.aCUmlnHlUPHS0rdu"]
        }
      },
-     "the-hexblade": {
-       "label": "The Hexblade",
-       "source": "XGE pg. 55",
-       "features": {}
-     },
-     "the-oldone": {
-       "label": "The Great Old One",
-       "source": "PHB pg. 109",
-       "features": {}
-     },
-     "the-undying": {
-       "label": "The Undying",
-       "source": "SCAG pg. 139",
+     "L'entité extra-dimensionnelle": {
+       "label": "L'entité extra-dimensionnelle",
        "features": {}
      }
    },
@@ -428,72 +356,27 @@ export const ClassFeaturesHD = {
  },
  "magicien": {
    "subclasses": {
-     "school-of-abjuration": {
-       "label": "School of Abjuration",
-       "source": "PHB pg. 115",
+     "Académicien": {
+       "label": "Académicien",
        "features": {}
      },
-     "school-of-bladesinging": {
-       "label": "School of Bladesinging",
-       "source": "SCAG pg. 141",
+     "Arpenteur": {
+       "label": "Arpenteur",
        "features": {}
      },
-     "school-of-chronurgy-magic": {
-       "label": "School of Chronurgy Magic",
-       "source": "EGW pg. 185",
+     "Élémentaliste": {
+       "label": "Élémentaliste",
        "features": {}
      },
-     "school-of-conjuration": {
-       "label": "School of Conjuration",
-       "source": "PHB pg. 116",
+     "Éminence grise": {
+       "label": "Éminence grise",
        "features": {}
      },
-     "school-of-divination": {
-       "label": "School of Divination",
-       "source": "PHB pg. 116",
-       "features": {}
-     },
-     "school-of-enchantment": {
-       "label": "School of Enchantment",
-       "source": "PHB pg. 117",
-       "features": {}
-     },
-     "school-of-evocation": {
-       "label": "School of Evocation",
-       "source": "PHB pg. 117",
-       "features": {
-         "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7uzJ2JkmsdRGLra3", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.6VBXkjjBgjSpNElh"],
-         "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.evEWCpE5MYgr5RRW"],
-         "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7O85kj6uDEG5NzUE"],
-         "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.VUtSLeCzFubGXmGx"]
-       }
-     },
-     "school-of-graviturgy-magic": {
-       "label": "School of Graviturgy Magic",
-       "source": "EGW pg. 185",
-       "features": {}
-     },
-     "school-of-illusion": {
-       "label": "School of Illusion",
-       "source": "PHB pg. 118",
-       "features": {}
-     },
-     "school-of-necromancy": {
-       "label": "School of Necromancy",
-       "source": "PHB pg. 118",
-       "features": {}
-     },
-     "school-of-transmutation": {
-       "label": "School of Transmutation",
-       "source": "PHB pg. 119",
-       "features": {}
-     },
-     "school-of-war-magic": {
-       "label": "School of War Magic",
-       "source": "XGE pg. 59",
+     "École d'évocation": {
+       "label": "École d'évocation",
        "features": {}
      }
-   },
+    },
    "features": {
      "1": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.gbNo5eVPaqr8IVKL", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.e0uTcFPpgxjIyUW9"],
      "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.AEWr9EMxy5gj4ZFT"],
