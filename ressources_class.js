@@ -112,7 +112,7 @@ Hooks.on("renderActorSheet", function (app,html,data) {
 //rendre les 3 premières ressources visible
    resBlock.slice(0,3).css({"display": "block"})
    //récup les input des noms de ressources
-  let ressName = $("li.resource").find(".attribute-name").find("input");
+  let ressName = html.find("li.resource").find(".attribute-name").find("input");
   // rendre les noms de ressources de classes inchangeable et les styler
   for (let i=3;i<ressName.length;i++){
     if (ressName[i].placeholder){
