@@ -12,15 +12,6 @@ Hooks.on("init", function () {
     type: Boolean,
     onChange: x => window.location.reload()
   });
-
-
-
-
-
-
-  // check migration
-
-
   // Init resource list + resource counter
   var sheetResources = ["primary", "secondary", "tertiary", "Rage", "Inspiration", "Canalisation", "Sorcellerie", "Ki", "Lien", "Formes", "Imposition"];
 
@@ -114,30 +105,38 @@ Hooks.on("init", function () {
 
 Hooks.on("renderActorSheet", function (app,html,data) {
 
-  // Get all html elements that are resources
-  let classes=data.items.filter(it=>it.type=="class");
-  let resslist = $("li.resource").find("input[type='text']");
-  for (let i=3;i<resslist.length;i++){
-    resslist[i].disabled="disabled";
-    
-    resslist[i].parentNode.parentNode.style.display="none"
-
-
+  // récupérer les classes
+  let classes=data.items.filter(it=>it.type==="class");
+//récupérer les éléments de ressources et les rendre invivibles
+  let resBlock=$("li.resource").css({"display": "none"});
+//rendre les 3 premières ressources visible
+   resBlock.slice(0,3).css({"display": "block"})
+   //récup les input des noms de ressources
+  let ressName = $("li.resource").find(".attribute-name").find("input");
+  // rendre les noms de ressources de classes inchangeable et les styler
+  for (let i=3;i<ressName.length;i++){
+    if (ressName[i].placeholder){
+      ressName[i].value=ressName[i].placeholder;
+         ressName[i].disabled="disabled";
+         ressName[i].style.borderBottom = "3px solid #8a338c";
+        
+      }
   }
+
   for (let cl of classes){
     switch(cl.name){
-      case "Barbare":resslist[3].parentNode.parentNode.style.display="block";break;
-      case "Barde":resslist[4].parentNode.parentNode.style.display="block";break;
-      case "Clerc":resslist[5].parentNode.parentNode.style.display="block";break;
-      case "Druide":resslist[9].parentNode.parentNode.style.display="block";break;
-      case "Ensorceleur":resslist[6].parentNode.parentNode.style.display="block";break;
-      case "Guerrier":resslist[6].parentNode.parentNode.style.display="block";break;
+      case "Barbare":resBlock[3].style.display="block";break;
+      case "Barde":resBlock[4].style.display="block";break;
+      case "Clerc":resBlock[5].style.display="block";break;
+      case "Druide":resBlock[9].style.display="block";break;
+      case "Ensorceleur":resBlock[6].style.display="block";break;
+      case "Guerrier":resBlock[6].style.display="block";break;
       case "Magicien":break;
-      case "Moine":resslist[7].parentNode.parentNode.style.display="block";break;
-      case "Paladin":resslist[5].parentNode.parentNode.style.display="block";resslist[10].parentNode.parentNode.style.display="block";break;
+      case "Moine":resBlock[7].style.display="block";break;
+      case "Paladin":resBlock[5].style.display="block";resBlock[10].style.display="block";break;
       case "Rôdeur":break;
-      case "Roublard":resslist[6].parentNode.parentNode.style.display="block";break;
-      case "Sorcier":resslist[6].parentNode.parentNode.style.display="block";break;
+      case "Roublard":resBlock[6].style.display="block";break;
+      case "Sorcier":resBlock[6].style.display="block";break;
     }
     
   }
