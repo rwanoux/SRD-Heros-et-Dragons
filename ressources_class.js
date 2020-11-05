@@ -126,7 +126,7 @@ Hooks.on("renderActorSheet", function (app,html,data) {
 // à faire : afficher aussi selon les spécialisation de classe
   for (let cl of classes){
     switch(cl.name){
-      case "Barbare":resBlock[3].style.display="block";break;
+      case "Barbare":resBlock[3].style.display="block";resBlock[8].style.display="block";break;
       case "Barde":resBlock[4].style.display="block";break;
       case "Clerc":resBlock[5].style.display="block";break;
       case "Druide":resBlock[9].style.display="block";break;
