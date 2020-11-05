@@ -1,0 +1,37 @@
+#openAide {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    right: 320px;
+    bottom: -15px;
+    overflow: hidden;
+    line-height: 36px;
+    background: rgb(58, 57, 57);
+    box-shadow: 0 0 10px #000;
+    margin: 0 0 8px;
+    color: #BBB;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+#openAide:hover {
+    border: 1px solid #fbfbfb;
+    border-bottom: 2px solid #ffffff;
+    box-shadow: 0 0 10px #a100ff;
+}
+
+#openAide>span {
+    position: absolute;
+    right: 10%;
+    bottom: 3%;
+}

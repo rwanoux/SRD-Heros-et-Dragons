@@ -1,83 +1,22 @@
-/*
------------les liens externes
-*/
+import { aidejeu } from './modules/aidejeu.js';
+import { openSRD } from './modules/openSRD.js';
+import { openWiki } from './modules/openWiki.js';
+import { openSupport } from './modules/openSupport.js';
+import { trieAlphabFR } from './modules/trieAlpha.js';
+import { compendiumColor } from './modules/compendiums.js';
+import { hideDD5Compendium } from './modules/compendiums.js';
+import { levelUp } from './modules/levelup.js'; //----WIP---
 
 
-
-
-async function openSRD() {
-    ui.notifications.info("votre navigateur va ouvrir le site du SRD");
-    var windowObjectReference = window.open("https://heros-et-dragons.fr/", "_blank");
-
-
-};
-async function openSupport() {
-    ui.notifications.info("votre navigateur va ouvrir le discord francophone de foundryVTT, vous y trouverez un salon Héros et dragons (hnd)");
-    var windowObjectReference = window.open("https://discord.gg/8Az2uUu", "_blank");
-
-};
-
-
-//------------remettre les compétence en ordre alphabétique fr------------- 
-
-
-async function trieAlphabFR() {
-    const lists = document.getElementsByClassName("skills-list");
-    for (let list of lists) {
-        const competences = list.childNodes;
-        let complist = [];
-        for (let sk of competences) {
-            if (sk.innerText && sk.tagName == "LI") {
-                complist.push(sk);
-            }
-        }
-        complist.sort(function(a, b) {
-            return (a.innerText > b.innerText) ? 1 : -1;
-        });
-        for (let sk of complist) {
-            list.appendChild(sk)
-        }
-
-    }
-}
-//---------------------compendium color---visibité des compendium H&D 
-
-async function compendiumColor() {
-
-    var comps = document.getElementsByClassName("pack-title");
-    for (let comp of comps) {
-        let indexHD = comp.innerText.indexOf("H&D");
-        let indexDND = comp.innerText.indexOf("SRD");
-        if (indexHD !== -1) {
-            comp.style.color = "LightGreen";
-        }
-        if (indexDND !== -1) {
-            comp.style.color = "IndianRed";
-        }
-    }
-}
-async function hideDD5Compendium() {
-
-    var comps = document.getElementsByClassName("pack-title");
-    for (let comp of comps) {
-        let indexDND = comp.innerText.indexOf("SRD");
-
-        if (indexDND !== -1) {
-            comp.parentElement.style.display = "none";
-        }
-    }
-}
 
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-
-
-
-
 Hooks.once("init", async function() {
 
+
+    //---------déclaration des settings
 
 
     game.settings.register('srd-heros-et-dragons', 'HDstyle', {
@@ -118,6 +57,9 @@ Hooks.once("init", async function() {
     });
 
 
+    //-------------------action des settings
+
+    //appliquer css
 
     if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
 
@@ -158,11 +100,24 @@ Hooks.once("init", async function() {
         styleHDtidysheet.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDtidysheet);
     }
+
+    //console debug
+
     if (game.settings.get('srd-heros-et-dragons', 'consoleDebug')) {
         CONFIG.debug.hooks = true;
     };
 
 
+});
+//----setting compendiums
+
+Hooks.on("renderSidebarTab", async function() {
+    if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
+        compendiumColor();
+    };
+    if (game.settings.get('srd-heros-et-dragons', 'HDhideDD5Compendium')) {
+        hideDD5Compendium();
+    }
 });
 
 Hooks.once("ready", async function() {
@@ -185,10 +140,16 @@ Hooks.once("ready", async function() {
                 icon: '<i class="fas fa-check"></i>',
                 label: "joindre le support du module sur discord",
                 callback: () => openSupport()
+            },
+            three: {
+                icon: '<i class="fas fa-check"></i>',
+                label: "accéder au wiki francophone dédié",
+                callback: () => openWiki()
             }
 
         }
     });
+
 
     //------------message et logo dans console 
 
@@ -250,6 +211,27 @@ Hooks.once("ready", async function() {
         liensExt.render(true);
     });
 
+
+    //------------ajout bouton aide de regles
+
+
+    let zoneAide = document.createElement('div');
+    renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
+
+        zoneAide.id = "openAide";
+        zoneAide.innerHTML = html;;
+        document.body.append(zoneAide);
+    });
+
+    let aideApp = new aidejeu;
+    zoneAide.addEventListener("click", function() {
+
+        aideApp.render(true);
+    });
+
+
+
+
 });
 
 //-------------action sur feuille de perso---------
@@ -263,19 +245,4 @@ Hooks.on("renderActorSheet", async function() {
     //----check race-----
 
 
-});
-
-
-
-
-
-Hooks.on("renderSidebarTab", async function() {
-    if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
-        compendiumColor();
-    };
-
-    if (game.settings.get('srd-heros-et-dragons', 'HDhideDD5Compendium')) {
-
-        hideDD5Compendium();
-    }
 });

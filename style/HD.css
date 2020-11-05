@@ -755,11 +755,10 @@ select {
 }
 
 .dnd5e.sheet.actor .counters .counter h4 {
-    flex: auto;
+    FONT-WEIGHT: 100;
     margin: 0;
     font-family: "Agincourt Std Regular";
-    font-size: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .dnd5e.sheet.actor .counters .counter .counter-value {
@@ -1466,6 +1465,7 @@ select {
 
 .dnd5e.sheet.actor.character .attributes .resource .attribute-name {
     margin: 0 8px;
+    font-size: 12px;
 }
 
 .dnd5e.sheet.actor.character .attributes .resource .attribute-name input[type="text"] {
@@ -1617,6 +1617,10 @@ form .form-group .form-fields select,
 input[type="text"],
 form .form-group select {
     color: rgb(119, 107, 158)
+}
+
+.form-group input[type="number"] {
+    color: #a09f9f;
 }
 
 form .form-group span.units {
@@ -1773,6 +1777,12 @@ form .form-group span.units {
 #players {
     background-image: url("../img/fondApp.png");
     background-size: cover;
+}
+
+#player-config label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #969695;
 }
 
 .sidebar-popout {

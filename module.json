@@ -1,24 +1,26 @@
 {
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
-    "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e ",
-    "version": "1.6.7",
+    "description": "intègre le srd de héros et dragons, s'utilise avec le system DnD5e",
+    "version": "1.8.3",
 
     "minimumCoreVersion": "0.5",
-    "compatibleCoreVersion": "0.7.4",
+    "compatibleCoreVersion": "0.7.5",
 
     "systems": ["dnd5e"],
 
-    "author": "Rwanoux, Rodskin, Elfenduil, Hara",
+    "author": "Rwanoux, Rodskin, Elfenduil, Hara,C",
 
 
     "esmodules": [
-        "./srd-heros-et-dragons.js"
+        "./srd-heros-et-dragons.js",
+        "./ressources_class.js"
 
     ],
 
     "styles": [
-
+        "./style/aideRegles.css",
+        "./style/ressources_class.css"
     ],
     "packs": [{
             "name": "h-d-dons",
@@ -142,6 +144,13 @@
         }
 
     ],
+    "languages": [
+		{
+			"lang": "fr",
+			"name": "Français",
+			"path": "lang/fr.json"
+		}
+	],
 
     "url": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons.git",
     "manifest": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/raw/master/module.json",
