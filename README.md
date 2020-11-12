@@ -26,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
 
+### release 1.8.5
+
+corrections pour foundry 0.7.6 et system dnd5 1.1.1
+
 ### release 1.8.2+1.8.3
 
 débug des affichages de ressources +compatibilité tidysheet

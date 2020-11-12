@@ -3,15 +3,7 @@ import { darkSheetCompat } from "./compat/darksheetCompat.js";
 
 // Setting to always show resources
 Hooks.on("init", function () {
-  game.settings.register("srd-heros-et-dragons", "RessClassAll", {
-    name: "montrer toutes les ressources",
-    hint: "montrer toutes les ressources spécifique aux classes.",
-    scope: "client",
-    config: true,
-    default: false,
-    type: Boolean,
-    onChange: x => window.location.reload()
-  });
+  
   // Init resource list + resource counter
   var sheetResources = ["primary", "secondary", "tertiary", "Rage", "Inspiration", "Canalisation", "Sorcellerie", "Ki", "Lien", "Formes", "Imposition"];
 
