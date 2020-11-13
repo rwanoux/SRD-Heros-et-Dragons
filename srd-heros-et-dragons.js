@@ -1,3 +1,5 @@
+
+//fonctions et class déportées
 import { aidejeu } from './modules/aidejeu.js';
 import { openSRD } from './modules/openSRD.js';
 import { openWiki } from './modules/openWiki.js';
@@ -7,6 +9,7 @@ import { compendiumColor } from './modules/compendiums.js';
 import { hideDD5Compendium } from './modules/compendiums.js';
 import { ClassFeaturesHD } from './modules/classFeatures.js'; //----WIP---
 import { giveSubClass } from './modules/giveSubClass.js'; //----WIP---
+//import { Actor5e } from '../../systems/dnd5e/module/actor/entity.js'; //----WIP---
 
 
 
