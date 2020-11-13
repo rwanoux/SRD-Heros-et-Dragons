@@ -5,7 +5,7 @@ import { openSupport } from './modules/openSupport.js';
 import { trieAlphabFR } from './modules/trieAlpha.js';
 import { compendiumColor } from './modules/compendiums.js';
 import { hideDD5Compendium } from './modules/compendiums.js';
-import { ClassFeaturesHD } from './modules/ClassFeatures.js'; //----WIP---
+import { ClassFeaturesHD } from './modules/classFeatures.js'; //----WIP---
 import { giveSubClass } from './modules/giveSubClass.js'; //----WIP---
 
 
