@@ -7,6 +7,7 @@ il propose :
 
 * des compendiums : toutes les données techniques figurant dans le srd, monstres, sorts, aptitudes, etc ... 17 compendiums au total.
 * une légère modification graphique pour coller à la charte graphique de Héros et Dragons
+* une modification du system dnd5 pour permettre le gain automatique de capacité en fonction du niveau et de la classe des personnages.
 
 ## pour jouer entièrement dans la langue de Patrick Sébastien
 
@@ -25,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
+
+### release 1.8.7
+
+normalisation des labels des compendiums
 
 ### release 1.8.5
 

@@ -7,19 +7,24 @@ import { openSupport } from './modules/openSupport.js';
 import { trieAlphabFR } from './modules/trieAlpha.js';
 import { compendiumColor } from './modules/compendiums.js';
 import { hideDD5Compendium } from './modules/compendiums.js';
+import { levelUp } from './modules/levelup.js'; //----WIP---
 import { ClassFeaturesHD } from './modules/classFeatures.js'; //----WIP---
 import { giveSubClass } from './modules/giveSubClass.js'; //----WIP---
 //import { Actor5e } from '../../systems/dnd5e/module/actor/entity.js'; //----WIP---
 
-
-
-
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-Hooks.once("init", async function() {
+Hooks.on("renderItemSheet5e", async function(sheet,html,data){
+console.log("---------------");
+console.log(sheet.object.data._id);
+console.log("---------------")
 
+})
 
+Hooks.once("init", async function () {
+
+   
     //---------déclaration des settings
 
 
@@ -117,25 +122,24 @@ Hooks.once("init", async function() {
 
     if (game.settings.get('srd-heros-et-dragons', 'consoleDebug')) {
         CONFIG.debug.hooks = true;
-    }else{
+    } else {
         CONFIG.debug.hooks = false;
     };
 
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
-       // CONFIG.DND5E.classFeatures=ClassFeaturesHD
-       CONFIG.DND5E.classFeatures={};// solution temporaire
-    }else{
-        CONFIG.DND5E.classFeatures={};
+        CONFIG.DND5E.classFeatures=ClassFeaturesHD
+    } else {
+        CONFIG.DND5E.classFeatures = {};
     };
-console.log(CONFIG.DND5E.classFeatures)
-    
+    console.log(CONFIG.DND5E.classFeatures)
+
 });
 
 //--------------------------------------
 //----setting compendiums
 //--------------------------------------
-Hooks.on("renderSidebarTab", async function() {
+Hooks.on("renderSidebarTab", async function () {
     if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
         compendiumColor();
     };
@@ -146,11 +150,11 @@ Hooks.on("renderSidebarTab", async function() {
 
 
 
-Hooks.once("ready", async function() {
+Hooks.once("ready", async function () {
     //----------le menu liens externes
     let liensExt = new Dialog({
-        title: "acceder au SRD ?",
-        content: "<p>que voulez-vous faire</p>",
+        title: "liens externes en lien avec Héros et Dragons",
+        content: "<p>où souhaites-tu te rendre ?</p>",
         buttons: {
 
             one: {
@@ -227,7 +231,7 @@ Hooks.once("ready", async function() {
 
     //--------------ouvrir le menu lien sur click logo
     logo.setAttribute("title", "liens externes");
-    logo.addEventListener("click", function() {
+    logo.addEventListener("click", function () {
         liensExt.render(true);
     });
 
@@ -240,25 +244,28 @@ Hooks.once("ready", async function() {
     });
 
     let aideApp = new aidejeu;
-    zoneAide.addEventListener("click", function() {
+    zoneAide.addEventListener("click", function () {
 
         aideApp.render(true);
     });
 
 
-   
+
 
 });
 
 //-------------action sur feuille de perso---------
 //-------------------------------------------------
 
-Hooks.on("renderActorSheet", async function (app,html,data)  {
+Hooks.on("renderActorSheet5e", async function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
+    //--ajout boutton pour monter un niveau de classe
+    levelUp(html,data);
 });
-Hooks.on("createOwnedItem", async function (actor,item,sheet,id)  {
-    //---trie alphabétique
-   giveSubClass(actor,item);
-   return actor
+
+Hooks.on("createOwnedItem", async function (actor, item, sheet, id) {
+    /*
+    giveSubClass(actor, item);
+    */
 });
