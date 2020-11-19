@@ -6,9 +6,11 @@ export async function levelUp(html, data) {
 
   //---création de l'élément button "monter un niveau"
   let subClassList = html.find("div.item-detail.player-class");
+
   let buttonUp = document.createElement("a");
   buttonUp.innerText = "monter un niveau";
   buttonUp.classList.add("item-control", "classUp");
+  console.log(buttonUp);
 
 
   //------coller le bouton dans la ligne des items class
@@ -92,7 +94,7 @@ console.log(targetClass.name,newlvl,subClass)
               for (let sc in scList) {
                 console.log(ClassFeaturesHD[cl].subclasses[sc].label);
                 if (ClassFeaturesHD[cl].subclasses[sc].label == selectedSubClass) {
-                  itemId = ClassFeaturesHD[cl].subclasses[sc].itemId
+                  itemId = ClassFeaturesHD[cl].subclasses[sc].itemId.value
                 }
               };
               //donne l'item sous-classe depuis le compendium
