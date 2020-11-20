@@ -10,8 +10,6 @@ export async function levelUp(html, data) {
   let buttonUp = document.createElement("a");
   buttonUp.innerText = "monter un niveau";
   buttonUp.classList.add("item-control", "classUp");
-  console.log(buttonUp);
-
 
   //------coller le bouton dans la ligne des items class
   for (let subClass of subClassList) {

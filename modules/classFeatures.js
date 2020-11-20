@@ -1,5 +1,4 @@
 /*
-
 barbare ok
 barde ok
 clerc juste les feat de classes,//// trop de domaines
@@ -12,9 +11,6 @@ rôdeur//////sousclasse chasseur : chaque feat est un choix
 roublard ok
 sorcier/////trop de choix *protectecteur *pactes
 magicien /// academicien,élémentaliste trop de choix//
-
-
-
 
 */
 
@@ -388,7 +384,8 @@ export const ClassFeaturesHD = {
 
   },
   "moine": {
-    "subclasses": {
+    "subclasses": { 
+     
       "voie-de-la-main-ouverte": {
         "label": "voie de la main ouverte",
         itemId:"97UMdKZ3BOaUGdzb",
