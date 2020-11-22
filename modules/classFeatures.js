@@ -18,9 +18,9 @@ export const ClassFeaturesHD = {
   "barbare": {
     "subclasses": {
 
-      "voie-du-berzerker": {
+      "voie-du-berserker": {
         itemId: "Rhpqwrfuv0CqCnpO",
-        "label": "voie du berzerker",
+        "label": "voie du berserker",
         "features": {
           "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.yJDgYCU2WriZpZlw"],
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.liQaLdiheNXIxt1s"],
