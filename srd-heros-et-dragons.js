@@ -1,30 +1,64 @@
-
 //fonctions et class déportées
-import { aidejeu } from './modules/aidejeu.js';
-import { openSRD } from './modules/openSRD.js';
-import { openWiki } from './modules/openWiki.js';
-import { openSupport } from './modules/openSupport.js';
-import { trieAlphabFR } from './modules/trieAlpha.js';
-import { compendiumColor } from './modules/compendiums.js';
-import { hideDD5Compendium } from './modules/compendiums.js';
-import { levelUp } from './modules/levelup.js'; //----WIP---
-import { ClassFeaturesHD } from './modules/classFeatures.js'; //----WIP---
-import { giveSubClass } from './modules/giveSubClass.js'; //----WIP---
+import {
+    aidejeu
+} from './modules/aidejeu.js';
+import {
+    openSRD
+} from './modules/openSRD.js';
+import {
+    openWiki
+} from './modules/openWiki.js';
+import {
+    openSupport
+} from './modules/openSupport.js';
+import {
+    trieAlphabFR
+} from './modules/trieAlpha.js';
+import {
+    compendiumColor
+} from './modules/compendiums.js';
+import {
+    hideDD5Compendium
+} from './modules/compendiums.js';
+import {
+    levelUp
+} from './modules/levelup.js'; //----WIP---
+import {
+    ClassFeaturesHD
+} from './modules/classFeatures.js'; //----WIP---
+import {
+    giveSubClass
+} from './modules/giveSubClass.js';
+import {
+    diceHD
+} from './modules/diceH&D.js'; //----WIP---
 //import { Actor5e } from '../../systems/dnd5e/module/actor/entity.js'; //----WIP---
+/*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
+ ----------------dice so nice--------------------
+ -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
+
+Hooks.once('diceSoNiceReady',  async function (dice3d){
+    diceHD(dice3d);
+
+});
+
+
+
+
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-Hooks.on("renderItemSheet5e", async function(sheet,html,data){
-console.log("---------------");
-console.log(sheet.object.data._id);
-console.log("---------------")
+Hooks.on("renderItemSheet5e", async function (sheet, html, data) {
+    console.log("---------------");
+    console.log(sheet.object.data._id);
+    console.log("---------------")
 
 })
 
 Hooks.once("init", async function () {
 
-   
+
     //---------déclaration des settings
 
 
@@ -128,7 +162,7 @@ Hooks.once("init", async function () {
 
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
-        CONFIG.DND5E.classFeatures=ClassFeaturesHD
+        CONFIG.DND5E.classFeatures = ClassFeaturesHD
     } else {
         CONFIG.DND5E.classFeatures = {};
     };
@@ -261,7 +295,7 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
     //--ajout boutton pour monter un niveau de classe
-    levelUp(html,data);
+    levelUp(html, data);
 });
 
 Hooks.on("createOwnedItem", async function (actor, item, sheet, id) {
