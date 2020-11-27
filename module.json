@@ -14,6 +14,7 @@
 
     "esmodules": [
         "./srd-heros-et-dragons.js",
+        "./modules/aidecrea/initSuivi.js",
         "./ressources_class.js"
         
 
@@ -95,7 +96,7 @@
             "module": "srd-heros-et-dragons"
         },
         {
-            "name": "h-d-classes-et-spécialisations",
+            "name": "h-d-classes-et-specialisations",
             "label": "H&D - Classes et spécialisations",
             "path": "packs/h-d-classes-et-specialisations.db",
             "entity": "Item",

@@ -52,7 +52,9 @@ body {
     font-size: 14px;
 }
 
-
+.HDclickable:hover{
+    text-shadow: 0 0 8px red;
+}
 /*---------------scrollbar----------------*/
 
  ::-webkit-scrollbar {

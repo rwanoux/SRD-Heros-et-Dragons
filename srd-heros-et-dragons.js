@@ -1,5 +1,8 @@
 //fonctions et class déportées
 import {
+    evolution
+} from './modules/evolution.js';
+import {
     aidejeu
 } from './modules/aidejeu.js';
 import {
@@ -26,9 +29,7 @@ import {
 import {
     ClassFeaturesHD
 } from './modules/classFeatures.js'; //----WIP---
-import {
-    giveSubClass
-} from './modules/giveSubClass.js';
+
 import {
     diceHD
 } from './modules/diceH&D.js'; //----WIP---
@@ -37,7 +38,7 @@ import {
  ----------------dice so nice--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
-Hooks.once('diceSoNiceReady',  async function (dice3d){
+Hooks.once('diceSoNiceReady',  function (dice3d){
     diceHD(dice3d);
 
 });
@@ -49,14 +50,14 @@ Hooks.once('diceSoNiceReady',  async function (dice3d){
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-Hooks.on("renderItemSheet5e", async function (sheet, html, data) {
+Hooks.on("renderItemSheet5e", function (sheet) {
     console.log("---------------");
     console.log(sheet.object.data._id);
     console.log("---------------")
 
 })
 
-Hooks.once("init", async function () {
+Hooks.once("init", function () {
 
 
     //---------déclaration des settings
@@ -69,7 +70,7 @@ Hooks.once("init", async function () {
         config: true,
         default: false,
         type: Boolean,
-        onChange: x => window.location.reload()
+        onChange: () => window.location.reload()
     });
     game.settings.register('srd-heros-et-dragons', 'HDcompendiumColor', {
         name: "couleur des compendium H&D et DD5",
@@ -78,7 +79,7 @@ Hooks.once("init", async function () {
         config: true,
         default: true,
         type: Boolean,
-        onChange: x => window.location.reload()
+        onChange: () => window.location.reload()
     });
     game.settings.register('srd-heros-et-dragons', 'HDhideDD5Compendium', {
         name: "masquer les compendium DD5",
@@ -87,7 +88,7 @@ Hooks.once("init", async function () {
         config: true,
         default: false,
         type: Boolean,
-        onChange: x => window.location.reload()
+        onChange: () => window.location.reload()
     });
     game.settings.register('srd-heros-et-dragons', 'consoleDebug', {
         name: "console Debug",
@@ -96,7 +97,7 @@ Hooks.once("init", async function () {
         config: true,
         default: false,
         type: Boolean,
-        onChange: x => window.location.reload()
+        onChange: () => window.location.reload()
     });
 
     game.settings.register('srd-heros-et-dragons', 'levelUp', {
@@ -106,7 +107,7 @@ Hooks.once("init", async function () {
         config: true,
         default: false,
         type: Boolean,
-        onChange: x => window.location.reload()
+        onChange: () => window.location.reload()
     });
 
 
@@ -158,14 +159,14 @@ Hooks.once("init", async function () {
         CONFIG.debug.hooks = true;
     } else {
         CONFIG.debug.hooks = false;
-    };
+    }
 
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
         CONFIG.DND5E.classFeatures = ClassFeaturesHD
     } else {
         CONFIG.DND5E.classFeatures = {};
-    };
+    }
     console.log(CONFIG.DND5E.classFeatures)
 
 });
@@ -173,10 +174,10 @@ Hooks.once("init", async function () {
 //--------------------------------------
 //----setting compendiums
 //--------------------------------------
-Hooks.on("renderSidebarTab", async function () {
+Hooks.on("renderSidebarTab", function () {
     if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
         compendiumColor();
-    };
+    }
     if (game.settings.get('srd-heros-et-dragons', 'HDhideDD5Compendium')) {
         hideDD5Compendium();
     }
@@ -184,7 +185,7 @@ Hooks.on("renderSidebarTab", async function () {
 
 
 
-Hooks.once("ready", async function () {
+Hooks.once("ready", function () {
     //----------le menu liens externes
     let liensExt = new Dialog({
         title: "liens externes en lien avec Héros et Dragons",
@@ -273,7 +274,7 @@ Hooks.once("ready", async function () {
     let zoneAide = document.createElement('div');
     renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
         zoneAide.id = "openAide";
-        zoneAide.innerHTML = html;;
+        zoneAide.innerHTML = html;
         document.body.append(zoneAide);
     });
 
@@ -291,15 +292,17 @@ Hooks.once("ready", async function () {
 //-------------action sur feuille de perso---------
 //-------------------------------------------------
 
-Hooks.on("renderActorSheet5e", async function (app, html, data) {
+Hooks.on("renderActorSheet5e", function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
     //--ajout boutton pour monter un niveau de classe
     levelUp(html, data);
+    
 });
 
-Hooks.on("createOwnedItem", async function (actor, item, sheet, id) {
+Hooks.on("createOwnedItem", function (actor, item, sheet, id) {
     /*
     giveSubClass(actor, item);
     */
+    evolution(actor, item, sheet, id);
 });
