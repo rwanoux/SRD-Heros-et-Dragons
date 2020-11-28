@@ -604,7 +604,9 @@ select {
     margin: 5px 0 0;
     padding: 0;
 }
-
+.dnd5e.sheet.actor ul.attributes li.attribute.resource {
+max-width:115px;
+}
 .dnd5e.sheet.actor ul.attributes li.attribute {
     height: 70px;
     margin: 0 5px;

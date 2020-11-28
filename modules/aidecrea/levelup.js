@@ -1,4 +1,4 @@
-import { ClassFeaturesHD } from "./classFeatures.js";
+import { ClassFeaturesHD } from "../classFeatures.js";
 
 export async function levelUp(html, data) {
   //---recurpérer l'actor cible
@@ -96,7 +96,8 @@ console.log(targetClass.name,newlvl,subClass)
                 }
               };
               //donne l'item sous-classe depuis le compendium
-              let pack = game.packs.get("srd-heros-et-dragons.h-d-classes-et-spécialisations");
+              let pack = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
+              console.log({pack});
               pack.getEntity(itemId).then(s => targetActor.createOwnedItem(s));
               //update l'item de classe
               update.data.subclass = selectedSubClass;

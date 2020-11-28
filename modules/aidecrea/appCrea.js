@@ -1,16 +1,19 @@
 import {
     HDSRD
 } from './getSRD.js';
-
+import {
+    levelUp
+} from './levelup.js'; //----WIP---
 export class creaPersoApp extends FormApplication {
 
 
 
-    constructor(data, options = {}) {
+    constructor(data, html, options = {}) {
         super(options);
         this.data = data;
         this.HDSRD = HDSRD;
         this.choix = {};
+        this.html = html
     }
 
     static get defaultOptions() {
@@ -22,7 +25,9 @@ export class creaPersoApp extends FormApplication {
             id: 'creaPerso',
             title: 'création de personnage',
             width: 600,
-            height: 900
+            height: 900,
+            left: 20,
+            top: 20
         });
     }
 
@@ -30,6 +35,7 @@ export class creaPersoApp extends FormApplication {
         return {
             HDSRD: this.HDSRD,
             data: this.data,
+            html: this.html
         }
 
     }
@@ -44,7 +50,7 @@ export class creaPersoApp extends FormApplication {
 
         let initValid = new Dialog({
             title: "ré-initialiser ce personnage ?",
-            content: "<p>ré-initialisé ce personnage remettra toutes ses caractéristiques à 0, et lui fera perdre tous ces item. </p><h2>ceci est irrémédiable</h2>",
+            content: "<p>ré-initialisé ce personnage remettra toutes ses caractéristiques à 0, et lui fera perdre tous ses items. </p><h2>ceci est irrémédiable</h2>",
             buttons: {
 
                 one: {
@@ -70,17 +76,20 @@ export class creaPersoApp extends FormApplication {
 
             let abilities = duplicate(target.data.data.abilities);
             for (let ab in abilities) {
-                abilities[ab].value = 8
+                abilities[ab].value = 0
             }
-
             let items = [];
-
             target.update({
-                "data.abilities": abilities
-            });
-            target.update({
+                "data.abilities": abilities,
                 "items": items
             });
+            target.setFlag("srd-heros-et-dragons", "race", '');
+            target.setFlag("srd-heros-et-dragons", "historique", '');
+            target.setFlag("srd-heros-et-dragons", "classe", '');
+            target.setFlag("srd-heros-et-dragons", "sous-classe", '');
+            target.setFlag("srd-heros-et-dragons", "choix-sous-classe", '');
+
+
 
         }
 
@@ -105,7 +114,7 @@ export class creaPersoApp extends FormApplication {
             packRace.getEntity(race._id).then(r =>
                 target.createOwnedItem(r)
             );
-            target.setFlag("srd-heros-et-dragons", "race", race.name);
+            target.setFlag("srd-heros-et-dragons", "race.label", race.name);
             choix.race = {
                 label: race.name
             };
@@ -116,11 +125,13 @@ export class creaPersoApp extends FormApplication {
             packTrRaciaux.getIndex().then(index => {
                 traitsRaciaux = index;
                 for (let trait of traitsRaciaux) {
-                    console.log(trait);
                     let indexTrait = trait.name.indexOf(racename);
                     if (indexTrait !== -1) {
                         traitsRacOk.push(trait);
-                        packTrRaciaux.getEntity(trait._id).then(trait => target.createOwnedItem(trait))
+                        packTrRaciaux.getEntity(trait._id).then(trait => {
+                            target.createOwnedItem(trait);
+
+                        })
                     }
                     switch (racename) {
                         case "Elfe d'Aether":
@@ -177,8 +188,11 @@ export class creaPersoApp extends FormApplication {
                     }
 
                 }
-                console.log(traitsRacOk);
-
+                let flagsTraitsRac = []
+                for (let t of traitsRacOk) {
+                    flagsTraitsRac.push(t.name)
+                }
+                target.setFlag("srd-heros-et-dragons", "race.traits", flagsTraitsRac);
 
             });
 
@@ -202,7 +216,7 @@ export class creaPersoApp extends FormApplication {
             packHist.getEntity(historique._id).then(h =>
                 target.createOwnedItem(h)
             );
-            target.setFlag("srd-heros-et-dragons", "historique", historique.name);
+            target.setFlag("srd-heros-et-dragons", "historique.label", historique.name);
 
             //récupérer et donner les aptitudes d'historique
             let aptHist = [];
@@ -216,12 +230,17 @@ export class creaPersoApp extends FormApplication {
                         packAptHist.getEntity(apt._id).then(apt => target.createOwnedItem(apt))
                     }
                 }
+                let flagsAptHist = [];
+                for (let a of aptHistOK) {
+                    flagsAptHist.push(a.name)
+                }
+                target.setFlag("srd-heros-et-dragons", "historique.aptitudes", flagsAptHist);
 
             });
 
 
-
         }
+        //-------selecteur de classe------------------
 
         let classeEl = html.find('select.classe')[0];
         console.log(classeEl)
@@ -231,24 +250,17 @@ export class creaPersoApp extends FormApplication {
 
         async function changeClasse() {
             let classeName = classeEl.value;
-            let packClass = await game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
-            let cl = await packClass.index.find(c => c.name == classeName);
-            const update = {
-                    _id: "",
-                    data: {
-                        levels: ""
-                    }
-                };
+            const packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations")
+            packClass.getIndex().then(i => {
+                let cl = packClass.index.find(c => c.name === classeName);
                 console.log(packClass);
-            packClass.getEntity(cl._id).then(c =>{
-                target.createOwnedItem(c);
-                update._id=c._id;
-                update.data.level=2;
-               target.updateEmbeddedEntity("OwnedItem", update);
-            });
-
-            
-            target.setFlag("srd-heros-et-dragons", "historique", classeName.name);
+                packClass.getEntity(cl._id).then(c => {
+                    target.sheet._onDropItemCreate(c);
+                    target.setFlag("srd-heros-et-dragons", "classe", c.name);
+                    target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
+                });
+                
+            })
         }
     }
 }

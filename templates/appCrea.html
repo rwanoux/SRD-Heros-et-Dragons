@@ -2,41 +2,52 @@
     <h1 class="char-name">Création de perso pour {{data.actor.name}}</h1>
 
     <a class="reset HDclickable " title="attention, irreversible !">ré-initialiser le personnage</a>
-    <ol class=flexcol>
-        <li>
-            <h2>choix de la race</h2>
-            <select name="race" class="race">
-                {{#select actor.flags.srd-heros-et-dragons.race}}
-                <option value="none">--choix de race--</option>
-                {{#each HDSRD.races}}
-                <option value="{{this}}">{{this}}</option>
-                {{/each}}
-                {{/select}}
-            </select>
-            <p>{{data.actor.srd-heros-et-dragons.race}}</p>
-        </li>
-        <li>
-            <h2>choix de l'historique</h2>
-            <select class="historique">
-                {{#select actor.flags.srd-heros-et-dragons.historique}}
-                <option value="none">--choix d'historique--</option>
-                {{#each HDSRD.historiques}}
-                <option value="{{this}}">{{this}}</option>
-                {{/each}}
-                {{/select}}
-            </select>
-        </li>
-        <li>
-            <h2>choix de la classe</h2>
-            <select class="classe">
-                {{#select actor.flags.srd-heros-et-dragons.historique}}
-                <option value="none">--choix de classe--</option>
-                {{#each HDSRD.classes as |cl key|}}
-                <option value="{{cl.label}}">{{cl.label}}</option>
-                {{/each}}
-                {{/select}}
-            </select>
-        </li>
+    <div class="flex">
+        <div class="flexrow">
+            <ol>
+                <li>
+                    <h2>choix de la race</h2>
+                    <select name="race" class="race">
+                        {{#select actor.flags.srd-heros-et-dragons.race}}
+                        <option value="none">--choix de race--</option>
+                        {{#each HDSRD.races}}
+                        <option value="{{this}}">{{this}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                    <p>{{data.actor.srd-heros-et-dragons.race}}</p>
+                </li>
+                <li>
+                    <h2>choix de l'historique</h2>
+                    <select class="historique">
+                        {{#select actor.flags.srd-heros-et-dragons.historique}}
+                        <option value="none">--choix d'historique--</option>
+                        {{#each HDSRD.historiques}}
+                        <option value="{{this}}">{{this}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </li>
+                <li>
+                    <h2>choix de la classe</h2>
+                    <select class="classe">
+                        {{#select actor.flags.srd-heros-et-dragons.historique}}
+                        <option value="none">--choix de classe--</option>
+                        {{#each HDSRD.classes as |cl key|}}
+                        <option value="{{cl.label}}">{{cl.label}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </li>
 
-    </ol>
+            </ol>
+        </div>
+        <div class="flexrow">
+            <ol>
+                petit essai de truc
+            </ol>
+        </div>
+    </div>
+
+
 </form>

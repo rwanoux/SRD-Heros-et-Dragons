@@ -1,19 +1,15 @@
 import {
     creaPersoApp
 } from './appCrea.js';
+import{
+    levelUp
+}from './levelUp.js'
 
 
-Hooks.once('init',  function () {
-    console.log("-------------initi suivi de personnage");
-});
-
-Hooks.on("renderActorSheet", (app, html, data) => {
-    console.log(html);
+Hooks.on("renderActorSheet5e", (app, html, data) => {
+    levelUp(html,data);
     //-----crée l'app de suivi en fonction des data de la fiche de perso: 
     let crea = new creaPersoApp(data)
-     
-
-
     if (data.isCharacter && data.owner) {
         if (document.getElementById('HDcrea') === null) {
             //création du bouton

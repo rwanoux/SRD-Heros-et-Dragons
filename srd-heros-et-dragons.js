@@ -23,9 +23,7 @@ import {
 import {
     hideDD5Compendium
 } from './modules/compendiums.js';
-import {
-    levelUp
-} from './modules/levelup.js'; //----WIP---
+
 import {
     ClassFeaturesHD
 } from './modules/classFeatures.js'; //----WIP---
@@ -33,7 +31,9 @@ import {
 import {
     diceHD
 } from './modules/diceH&D.js'; //----WIP---
-//import { Actor5e } from '../../systems/dnd5e/module/actor/entity.js'; //----WIP---
+
+
+
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------dice so nice--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
@@ -50,6 +50,8 @@ Hooks.once('diceSoNiceReady',  function (dice3d){
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
+
+ //----ceci est juste une aide pour récup les id des items
 Hooks.on("renderItemSheet5e", function (sheet) {
     console.log("---------------");
     console.log(sheet.object.data._id);
@@ -296,7 +298,7 @@ Hooks.on("renderActorSheet5e", function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
     //--ajout boutton pour monter un niveau de classe
-    levelUp(html, data);
+
     
 });
 

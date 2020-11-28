@@ -49,6 +49,9 @@ HDSRD.classes={
       label:"Magicien",
 
     },
+    moine:{
+      label:"Moine",
+    },
     paladin:{
       label:"Paladin",
 

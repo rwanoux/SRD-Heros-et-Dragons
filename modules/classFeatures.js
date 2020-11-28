@@ -15,6 +15,7 @@ magicien /// academicien,élémentaliste trop de choix//
 */
 
 export const ClassFeaturesHD = {
+
   "barbare": {
     "subclasses": {
 
@@ -385,7 +386,6 @@ export const ClassFeaturesHD = {
   },
   "moine": {
     "subclasses": { 
-     
       "voie-de-la-main-ouverte": {
         "label": "voie de la main ouverte",
         itemId:"97UMdKZ3BOaUGdzb",
