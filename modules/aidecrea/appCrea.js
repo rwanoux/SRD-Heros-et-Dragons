@@ -32,6 +32,7 @@ export class creaPersoApp extends FormApplication {
     }
 
     getData() {
+        super.getData();
         return {
             HDSRD: this.HDSRD,
             data: this.data,
@@ -259,8 +260,9 @@ export class creaPersoApp extends FormApplication {
                     target.setFlag("srd-heros-et-dragons", "classe", c.name);
                     target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
                 });
-                
+
             })
         }
     }
 }
+

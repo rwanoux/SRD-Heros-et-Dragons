@@ -2,7 +2,7 @@
     <h1 class="char-name">Création de perso pour {{data.actor.name}}</h1>
 
     <a class="reset HDclickable " title="attention, irreversible !">ré-initialiser le personnage</a>
-    <div class="flex">
+    <div class="flexrow">
         <div class="flexrow">
             <ol>
                 <li>
@@ -15,7 +15,7 @@
                         {{/each}}
                         {{/select}}
                     </select>
-                    <p>{{data.actor.srd-heros-et-dragons.race}}</p>
+
                 </li>
                 <li>
                     <h2>choix de l'historique</h2>
@@ -39,15 +39,31 @@
                         {{/select}}
                     </select>
                 </li>
+                <li>
+                    <h2>calcul des caractéristiques</h2>
+                </li>
 
             </ol>
         </div>
         <div class="flexrow">
-            <ol>
-                petit essai de truc
-            </ol>
+            <div>
+                <p>
+                    <h3>race actuelle</h3>
+                    {{data.actor.flags.srd-heros-et-dragons.race.label}}
+               
+                </p>
+                <p>
+                    <h4>race actuelle</h4>
+                    {{#each data.actor.flags.srd-heros-et-dragons.race.trait}}
+                    {{data.actor.flags.srd-heros-et-dragons.race.label}}
+              {{/each}}
+                </p>
+            </div>
         </div>
     </div>
+
+
+
 
 
 </form>
