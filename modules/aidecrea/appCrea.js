@@ -115,7 +115,7 @@ export class creaPersoApp extends FormApplication {
             packRace.getEntity(race._id).then(r =>
                 target.createOwnedItem(r)
             );
-            target.setFlag("srd-heros-et-dragons", "race.label", race.name);
+            target.setFlag("srd-heros-et-dragons", "race", race.name);
             choix.race = {
                 label: race.name
             };

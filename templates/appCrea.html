@@ -11,7 +11,7 @@
                         {{#select actor.flags.srd-heros-et-dragons.race}}
                         <option value="none">--choix de race--</option>
                         {{#each HDSRD.races}}
-                        <option value="{{this}}">{{this}}</option>
+                        <option value="{{this.name}}">{{this.name}}</option>
                         {{/each}}
                         {{/select}}
                     </select>
@@ -41,6 +41,13 @@
                 </li>
                 <li>
                     <h2>calcul des caractéristiques</h2>
+                    
+                        <ul>
+                            {{#each HDSRD.rules.scoresCarac.methode as |met id|}}
+                            <li>methode {{id}} <input type="checkbox" name="HDSRD.rules.scoresCarac.methode.{{id}}.selected" value="{{met.selected}}"/>
+                            {{/each}}
+                        </ul>
+                    
                 </li>
 
             </ol>
@@ -50,13 +57,13 @@
                 <p>
                     <h3>race actuelle</h3>
                     {{data.actor.flags.srd-heros-et-dragons.race.label}}
-               
+
                 </p>
                 <p>
                     <h4>race actuelle</h4>
                     {{#each data.actor.flags.srd-heros-et-dragons.race.trait}}
                     {{data.actor.flags.srd-heros-et-dragons.race.label}}
-              {{/each}}
+                    {{/each}}
                 </p>
             </div>
         </div>

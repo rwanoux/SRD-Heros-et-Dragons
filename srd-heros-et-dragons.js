@@ -169,7 +169,6 @@ Hooks.once("init", function () {
     } else {
         CONFIG.DND5E.classFeatures = {};
     }
-    console.log(CONFIG.DND5E.classFeatures)
 
 });
 
