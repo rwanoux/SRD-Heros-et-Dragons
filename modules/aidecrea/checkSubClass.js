@@ -12,10 +12,6 @@ export async function checkSubClass(html, data) {
     for (let cl of classes) {
         subClass.push(cl.data.data.subclass)
     }
-    console.log(targetActor);
-    console.log(classes);
-    console.log(subClass)
-
     let subClassChoix = false;
 
     for (let classe of classes) {
@@ -54,7 +50,7 @@ export async function checkSubClass(html, data) {
         }
 
         //--------si choix de sous-classe open dialog
-        if (subClassChoix === true && classe.data.data.subclass==="") {
+        if (subClassChoix === true && classe.data.data.subclass === "") {
             //----config du dialog
             let sbclCfg = {
                 "targetActor": targetActor,
@@ -63,37 +59,50 @@ export async function checkSubClass(html, data) {
             };
             const sbclTempl = 'modules/srd-heros-et-dragons/templates/choixSubClass.html';
             //----rendu du dialog
-            const cont=await renderTemplate(sbclTempl, sbclCfg)
+            const cont = await renderTemplate(sbclTempl, sbclCfg)
 
-                let subclassDialog = new Dialog({
-                    title: "monté de niveau",
-                    content: cont,
-                    buttons: {
-                        one: {
-                            label: "monter de niveau",
-                            callback: cont => giveSubClass(cont[0].querySelector("select").value)
-                        },
-                        two: {
-                            label: "fermer",
-                        }
+            let subclassDialog = new Dialog({
+                title: "monté de niveau",
+                content: cont,
+                buttons: {
+                    one: {
+                        label: "valider la sous-classe",
+                        callback: cont => giveSubClass(cont[0].querySelector("select").value)
                     },
-                    default: "one",
-                    close: () => {}
-                }).render(true);
-                //-----udater la classe avec la sous classe
-                function giveSubClass(newsbcl) {
-                    const update = {
-                        _id: classe._id,
-                        data: {
-                          subclass: newsbcl,
-                  
-                        },
-                      };
-                      targetActor.updateEmbeddedEntity("OwnedItem", update);
+                    two: {
+                        label: "fermer",
+                    }
+                },
+                default: "one",
+                close: () => {}
+            }).render(true);
 
+            async function giveSubClass(newsbcl) {
+                //-----udater la classe avec la sous classe 
+                const update = {
+                    _id: classe._id,
+                    data: {
+                        subclass: newsbcl,
+                        levels: classe.data.data.levels
 
-                }
-            
+                    },
+                };
+                targetActor.updateEmbeddedEntity("OwnedItem", update);
+
+                //-------donner l'item feat de sous-classe
+                let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
+                function strUcFirst(a) {
+                    return (a + '').charAt(0).toUpperCase() + a.substr(1)
+                };
+                let sbcItem = "[" + classe.name + "] " + strUcFirst(newsbcl);
+                let subcl = packClass.index.find(sc => sc.name == sbcItem);
+                packClass.getEntity(subcl._id).then(sbc =>
+                    targetActor.createOwnedItem(sbc)
+                );
+                targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
+
+            }
+
 
         }
     }

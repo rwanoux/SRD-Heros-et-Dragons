@@ -1,7 +1,8 @@
 <form>
-    <h1 class="char-name">Création de perso pour {{data.actor.name}}</h1>
+    <a class="reset HDclickable right" title="attention, irreversible !">ré-initialiser le personnage</a>
 
-    <a class="reset HDclickable " title="attention, irreversible !">ré-initialiser le personnage</a>
+    <h1 class="charname">{{data.actor.name}}</h1>
+
     <div class="flexrow">
         <div class="flexrow">
             <ol>
@@ -52,25 +53,11 @@
 
             </ol>
         </div>
-        <div class="flexrow">
-            <div>
-                <p>
-                    <h3>race actuelle</h3>
-                    {{data.actor.flags.srd-heros-et-dragons.race.label}}
-
-                </p>
-                <p>
-                    <h4>race actuelle</h4>
-                    {{#each data.actor.flags.srd-heros-et-dragons.race.trait}}
-                    {{data.actor.flags.srd-heros-et-dragons.race.label}}
-                    {{/each}}
-                </p>
-            </div>
-        </div>
+        
     </div>
 
 
-
+<button id="validCrea">valider cette création</button>
 
 
 </form>

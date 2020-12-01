@@ -24,9 +24,9 @@ export class creaPersoApp extends FormApplication {
             template: `modules/srd-heros-et-dragons/templates/appCrea.html`,
             id: 'creaPerso',
             title: 'création de personnage',
-            width: 600,
+            width: 400,
             height: 900,
-            left: 20,
+            left: 3,
             top: 20
         });
     }
