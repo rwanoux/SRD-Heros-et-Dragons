@@ -1,6 +1,4 @@
-import {
-  ClassFeaturesHD
-} from "../classFeatures.js";
+
 
 export async function levelUp(html, data) {
  
@@ -18,10 +16,10 @@ export async function levelUp(html, data) {
   for (let Class of ClassList) {
     let b = buttonUp.cloneNode(true);
     Class.parentNode.insertBefore(b, Class);
+
     //--récupérer nom de class et item class
     let clName = b.previousElementSibling.lastElementChild.innerText;
     let targetClass=data.actor.items.find(cl=>cl.name==clName);
-    console.log(targetClass);
     let newlvl=targetClass.data.levels+1
 
 //------dialog de valid
@@ -50,9 +48,9 @@ export async function levelUp(html, data) {
     });
   };
 
-  //----------sinon
+ 
 
-
+//-----update de l'item classe
   function classUp(targetActor, targetClass) {
     const update = {
       _id: targetClass._id,
@@ -62,6 +60,6 @@ export async function levelUp(html, data) {
       },
     };
     targetActor.updateEmbeddedEntity("OwnedItem", update);
-    ui.notifications.info(targetActor.name + " passe un niveau dans sa classe " + targetClass.name);
+    ui.notifications.info(targetActor.name + " passe au niveau "+update.data.levels+"  dans sa classe " + targetClass.name);
   }
 }
