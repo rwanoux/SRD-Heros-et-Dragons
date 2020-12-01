@@ -8,14 +8,14 @@ export async function checkSubClass(html, data) {
     let targetActor = game.actors.get(data.actor._id);
     let classes = targetActor.items.filter(cl => cl.type === "class");
 
-    let subClass = [];
-    for (let cl of classes) {
-        subClass.push(cl.data.data.subclass)
-    }
+    
     let subClassChoix = false;
 
     for (let classe of classes) {
-
+        let subClass = classe.data.data.subclass;
+        
+            
+       
         let clName = classe.name.toLowerCase();
         let scList = ClassFeaturesHD[clName].subclasses;
 
@@ -30,19 +30,19 @@ export async function checkSubClass(html, data) {
             case "rôdeur":
             case "roublard":
             case "sorcier":
-                if (classe.data.data.levels == 3) {
+                if (classe.data.data.levels == 3  && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
             case "druide":
             case "magicien":
-                if (classe.data.data.levels == 2) {
+                if (classe.data.data.levels == 2  && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
             case "clerc":
             case "ensorceleur":
-                if (classe.data.data.levels == 1) {
+                if (classe.data.data.levels == 1  && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
@@ -50,7 +50,7 @@ export async function checkSubClass(html, data) {
         }
 
         //--------si choix de sous-classe open dialog
-        if (subClassChoix === true && classe.data.data.subclass === "") {
+        if (subClassChoix === true) {
             //----config du dialog
             let sbclCfg = {
                 "targetActor": targetActor,
@@ -86,24 +86,25 @@ export async function checkSubClass(html, data) {
                         levels: classe.data.data.levels
 
                     },
+
                 };
-                targetActor.updateEmbeddedEntity("OwnedItem", update);
-
-                //-------donner l'item feat de sous-classe
-                let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
-                function strUcFirst(a) {
-                    return (a + '').charAt(0).toUpperCase() + a.substr(1)
-                };
-                let sbcItem = "[" + classe.name + "] " + strUcFirst(newsbcl);
-                let subcl = packClass.index.find(sc => sc.name == sbcItem);
-                packClass.getEntity(subcl._id).then(sbc =>
-                    targetActor.createOwnedItem(sbc)
-                );
-                targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
-
-            }
-
-
+                targetActor.updateEmbeddedEntity("OwnedItem", update).then(cl => {
+                    subClassChoix = false;
+                    
+                    //-------donner l'item feat de sous-classe
+                    let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
+                    let sbcItem = "[" + classe.name.toLowerCase().replace("'","") + "] " + newsbcl.toLowerCase();
+                    console.log({sbcItem})
+                    let subcl = packClass.index.find(sc => sc.name.toLowerCase() === sbcItem);
+                    console.log(subcl);
+                    packClass.getEntity(subcl._id).then(sbc => {
+                        targetActor.createOwnedItem(sbc)
+                    });
+                    targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
+                });
+            };
         }
+
+
     }
 }
