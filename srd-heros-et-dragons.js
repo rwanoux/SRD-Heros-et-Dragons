@@ -31,8 +31,12 @@ import {
 import {
     diceHD
 } from './modules/diceH&D.js'; //----WIP---
-
-
+import{
+    levelUp
+}from './modules/aidecrea/levelUp.js'
+import{
+    checkSubClass
+}from './modules/aidecrea/checkSubClass.js'
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------dice so nice--------------------
@@ -296,8 +300,8 @@ Hooks.once("ready", function () {
 Hooks.on("renderActorSheet5e", function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
-    //--ajout boutton pour monter un niveau de classe
-
+    levelUp(html,data);
+    checkSubClass(html,data);
     
 });
 

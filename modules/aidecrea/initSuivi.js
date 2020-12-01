@@ -1,13 +1,11 @@
 import {
     creaPersoApp
 } from './appCrea.js';
-import{
-    levelUp
-}from './levelUp.js'
+
 
 
 Hooks.on("renderActorSheet5e", (app, html, data) => {
-    levelUp(html,data);
+
     //-----crée l'app de suivi en fonction des data de la fiche de perso: 
     let crea = new creaPersoApp(data)
     if (data.isCharacter && data.owner) {
