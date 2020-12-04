@@ -8,14 +8,14 @@ export async function checkSubClass(html, data) {
     let targetActor = game.actors.get(data.actor._id);
     let classes = targetActor.items.filter(cl => cl.type === "class");
 
-    
+
     let subClassChoix = false;
 
     for (let classe of classes) {
         let subClass = classe.data.data.subclass;
-        
-            
-       
+
+
+
         let clName = classe.name.toLowerCase();
         let scList = ClassFeaturesHD[clName].subclasses;
 
@@ -30,19 +30,19 @@ export async function checkSubClass(html, data) {
             case "rôdeur":
             case "roublard":
             case "sorcier":
-                if (classe.data.data.levels == 3  && classe.data.data.subclass === "") {
+                if (classe.data.data.levels == 3 && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
             case "druide":
             case "magicien":
-                if (classe.data.data.levels == 2  && classe.data.data.subclass === "") {
+                if (classe.data.data.levels == 2 && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
             case "clerc":
             case "ensorceleur":
-                if (classe.data.data.levels == 1  && classe.data.data.subclass === "") {
+                if (classe.data.data.levels == 1 && classe.data.data.subclass === "") {
                     subClassChoix = true
                 };
                 break;
@@ -90,21 +90,28 @@ export async function checkSubClass(html, data) {
                 };
                 targetActor.updateEmbeddedEntity("OwnedItem", update).then(cl => {
                     subClassChoix = false;
-                    
+
                     //-------donner l'item feat de sous-classe
                     let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
-                    let sbcItem = "[" + classe.name.toLowerCase().replace("'","") + "] " + newsbcl.toLowerCase();
-                    console.log({sbcItem})
+                    let sbcItem = "[" + classe.name.toLowerCase().replace("'", "") + "] " + newsbcl.toLowerCase();
                     let subcl = packClass.index.find(sc => sc.name.toLowerCase() === sbcItem);
-                    console.log(subcl);
                     packClass.getEntity(subcl._id).then(sbc => {
                         targetActor.createOwnedItem(sbc)
                     });
+                    //--------mettre le flag de sous-classe
                     targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
+
+                    //---------récupérer la config de sous-classe
+                    let subConfig=CONFIG.DND5E.classFeatures[classe.name.toLowerCase()].subclasses;
+                    let newFeats=[];
+                    for (let [sub,subData] of Object.entries(subConfig)){
+                       
+                        if (subData.label==newsbcl){
+                            console.log(subData.features);
+                        }
+                    }
                 });
             };
         }
-
-
     }
 }
