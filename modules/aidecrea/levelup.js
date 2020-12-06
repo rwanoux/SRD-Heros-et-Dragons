@@ -18,9 +18,13 @@ export async function levelUp(html, data) {
     Class.parentNode.insertBefore(b, Class);
 
     //--récupérer nom de class et item class
-    let clName = b.previousElementSibling.lastElementChild.innerText;
+    
+    let clName = b.previousElementSibling.lastElementChild.innerText.replace(/\s/g,""); 
+    console.log({clName});
+
     let targetClass=data.actor.items.find(cl=>cl.name==clName);
-    let newlvl=targetClass.data.levels+1
+    let newlvl=targetClass.data.levels+1;
+   
 
 //------dialog de valid
     let levelUpDialog = new Dialog({

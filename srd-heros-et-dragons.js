@@ -30,13 +30,15 @@ import {
 
 import {
     diceHD
-} from './modules/diceH&D.js'; //----WIP---
+} from './modules/diceH&D.js'; 
 import{
     levelUp
 }from './modules/aidecrea/levelUp.js'
 import{
     checkSubClass
 }from './modules/aidecrea/checkSubClass.js'
+import Actor5e from '../../systems/dnd5e/module/actor/entity.js'
+import getClassfeaturesHD from './modules/getClassFeaturesHD.js'
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------dice so nice--------------------
@@ -64,8 +66,11 @@ Hooks.on("renderItemSheet5e", function (sheet) {
 })
 
 Hooks.once("init", function () {
+console.log(Actor5e.getClassFeatures);
+Actor5e.getClassFeatures=getClassfeaturesHD
+console.log(Actor5e.getClassFeatures);
 
-
+  
     //---------déclaration des settings
 
 
@@ -191,6 +196,7 @@ Hooks.on("renderSidebarTab", function () {
 
 
 Hooks.once("ready", function () {
+
     //----------le menu liens externes
     let liensExt = new Dialog({
         title: "liens externes en lien avec Héros et Dragons",
@@ -302,7 +308,6 @@ Hooks.on("renderActorSheet5e", function (app, html, data) {
     trieAlphabFR();
     levelUp(html,data);
     checkSubClass(html,data);
-    
 });
 
 Hooks.on("createOwnedItem", function (actor, item, sheet, id) {
