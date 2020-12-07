@@ -41,5 +41,7 @@
              preparation.prepared = true;
          }
      }
+     console.log({features})
      return features;
+
  }

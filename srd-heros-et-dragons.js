@@ -307,7 +307,6 @@ Hooks.on("renderActorSheet5e", function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
     levelUp(html,data);
-    checkSubClass(html,data);
 });
 
 Hooks.on("createOwnedItem", function (actor, item, sheet, id) {
