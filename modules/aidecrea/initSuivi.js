@@ -13,7 +13,7 @@ Hooks.on("renderActorSheet5e", (app, html, data) => {
             //création du bouton
             let bar = html[0].firstElementChild;
             let butonCrea = document.createElement("a")
-            butonCrea.innerHTML = '<i class="fas fa-cog"></i>création de perso';
+            butonCrea.innerHTML = '<i class="fas fa-cog"></i>aide créa';
             butonCrea.id = "HDcrea";
             butonCrea.style.marginRight="20px";
         

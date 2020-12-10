@@ -70,10 +70,10 @@ export const ClassFeaturesHD = {
       "9": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YtC14zNw7yydsm6U"],
       "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.tLEY6GZkaKCnpv47"],
       "12": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.LoK5iiRkkd8HoHih"],
-      "13": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YtC14zNw7yydsm6U"],
+      "13": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UL82GQ2k8g957iiw"],
       "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.JStk5D7MjTo7oF8O"],
       "16": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.aBv67TM2Pj93RgDF"],
-      "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YtC14zNw7yydsm6U"],
+      "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.MMgokuib5wpvwQED"],
       "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.m0CHbudLQbNg64wA"],
       "19": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.4RWJmIdNYumTcgma"],
       "20": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.NhtnlwvpPoStHhNO"]

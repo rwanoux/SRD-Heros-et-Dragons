@@ -1,9 +1,7 @@
 import {
     HDSRD
 } from './getSRD.js';
-import {
-    levelUp
-} from './levelup.js'; //----WIP---
+ //----WIP---
 export class creaPersoApp extends FormApplication {
 
 
@@ -23,9 +21,9 @@ export class creaPersoApp extends FormApplication {
             closeOnSubmit: true,
             template: `modules/srd-heros-et-dragons/templates/appCrea.html`,
             id: 'creaPerso',
-            title: 'création de personnage',
+            title: 'aide à la création',
             width: 400,
-            height: 900,
+            height: 500,
             left: 3,
             top: 20
         });
