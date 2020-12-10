@@ -1,7 +1,5 @@
 //fonctions et class déportées
-import {
-    evolution
-} from './modules/evolution.js';
+
 import {
     aidejeu
 } from './modules/aidejeu.js';
@@ -33,7 +31,7 @@ import {
 } from './modules/diceH&D.js'; 
 import{
     levelUp
-}from './modules/aidecrea/levelUp.js'
+}from './modules/aidecrea/levelup.js'
 import{
     checkSubClass
 }from './modules/aidecrea/checkSubClass.js'
@@ -303,15 +301,14 @@ Hooks.once("ready", function () {
 //-------------action sur feuille de perso---------
 //-------------------------------------------------
 
-Hooks.on("renderActorSheet5e", function (app, html, data) {
+Hooks.on("renderActorSheet5e", async function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
-    levelUp(html,data);
+    await levelUp(html,data);
 });
 
 Hooks.on("createOwnedItem", function (actor, item, sheet, id) {
     /*
     giveSubClass(actor, item);
     */
-    evolution(actor, item, sheet, id);
 });

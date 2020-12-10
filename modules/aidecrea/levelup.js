@@ -2,13 +2,11 @@ import {
   checkSubClass
 } from './checkSubClass.js'
 
-export async function levelUp(html, data) {
-
-
-
+export  function levelUp(html, data) {
 
   //---recurpérer l'actor cible
   let targetActor = game.actors.getName(data.actor.name);
+
   //---création de l'élément button "monter un niveau"
   let ClassList = html.find("div.item-detail.player-class");
   let buttonUp = document.createElement("a");
@@ -31,14 +29,18 @@ export async function levelUp(html, data) {
 
 
     //------dialog de valid
+
     let levelUpDialog = new Dialog({
       title: "monté de niveau",
       content: `voulez-vous monter ${targetClass.name} niveau ${newlvl}`,
       buttons: {
         one: {
           label: "monter de niveau",
-          callback: (html) =>
+          callback: (html) => {
+            // preClassUp()
             classUp(targetActor, targetClass)
+
+          }
         },
         two: {
           label: "fermer",
@@ -56,20 +58,26 @@ export async function levelUp(html, data) {
     });
   };
 
+  async function ApplyClassUp(targetActor, targetClass) {
+    const update = {
+      _id: targetClass._id,
+      data: {
+        levels: targetClass.data.levels + 1,
+
+      },
+    };
+    await targetActor.updateEmbeddedEntity("OwnedItem", update);
+    ui.notifications.info(targetActor.name + " passe au niveau " + update.data.levels + "  dans sa classe " + targetClass.name);
+  }
+
+  
   //-----update de l'item classe
   async function classUp(targetActor, targetClass) {
     //vérif sous classe ?
-     await checkSubClass(html, data);
-      const update = {
-        _id: targetClass._id,
-        data: {
-          levels: targetClass.data.levels + 1,
+    await checkSubClass(html,data, targetClass);
+    if (!checkSubClass) {
+      this.ApplyClassUp(targetActor, targetClass)
+    }
 
-        },
-      };
-      targetActor.updateEmbeddedEntity("OwnedItem", update);
-      ui.notifications.info(targetActor.name + " passe au niveau " + update.data.levels + "  dans sa classe " + targetClass.name);
-
-   
   }
 }
