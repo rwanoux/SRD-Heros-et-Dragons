@@ -74,10 +74,10 @@ export  function levelUp(html, data) {
   //-----update de l'item classe
   async function classUp(targetActor, targetClass) {
     //vérif sous classe ?
-    await checkSubClass(html,data, targetClass);
-    if (!checkSubClass) {
-      this.ApplyClassUp(targetActor, targetClass)
-    }
+    let verif=await checkSubClass(targetActor, targetClass);
+    if (verif==false) {
+      ApplyClassUp(targetActor, targetClass)
+    }else stop;
 
   }
 }

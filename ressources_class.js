@@ -99,6 +99,12 @@ Hooks.on("renderActorSheet", function (app,html,data) {
 
   // récupérer les classes
   let classes=data.items.filter(it=>it.type==="class");
+  let subclasses=[];
+  for (let cl of classes){
+    if(cl.data.subclass!=""){
+      subclasses.push(cl.data.subclass)
+    }
+  }
 //récupérer les éléments de ressources et les rendre invivibles
   let resBlock=html.find("li.resource").css({"display": "none"});
 //rendre les 3 premières ressources visible
@@ -114,21 +120,33 @@ Hooks.on("renderActorSheet", function (app,html,data) {
         
       }
   }
+ // ["primary", "secondary", "tertiary", "Rage", "Inspiration", "Canalisation",
+ // "Sorcellerie", "Ki", "Lien", "Formes", "Imposition"];
+
+
 //afficher les bonnes ressources selon la classe
 // à faire : afficher aussi selon les spécialisation de classe
+
+for (let sb of subclasses){
+  switch(sb){
+    case "voie des esprits":resBlock[8].style.display="block";break;
+    case "sorcelame":resBlock[6].style.display="block";break;
+    case "ombrelame":resBlock[6].style.display="block";break;
+
+  }
+console.log(sb)
+}
   for (let cl of classes){
     switch(cl.name){
-      case "Barbare":resBlock[3].style.display="block";resBlock[8].style.display="block";break;
+      case "Barbare":resBlock[3].style.display="block";break;
       case "Barde":resBlock[4].style.display="block";break;
       case "Clerc":resBlock[5].style.display="block";break;
       case "Druide":resBlock[9].style.display="block";break;
       case "Ensorceleur":resBlock[6].style.display="block";break;
-      case "Guerrier":resBlock[6].style.display="block";break;
       case "Magicien":break;
       case "Moine":resBlock[7].style.display="block";break;
       case "Paladin":resBlock[5].style.display="block";resBlock[10].style.display="block";break;
       case "Rôdeur":break;
-      case "Roublard":resBlock[6].style.display="block";break;
       case "Sorcier":resBlock[6].style.display="block";break;
     }
     

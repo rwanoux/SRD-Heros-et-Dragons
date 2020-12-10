@@ -46,7 +46,11 @@ Hooks.once('diceSoNiceReady',  function (dice3d){
     diceHD(dice3d);
 
 });
-
+Hooks.on('createOwnedItem',function (targetActor,targetItem,option,id){
+    if (targetItem.name=="Clerc" ||targetItem.name=="Ensorceleur"){
+        checkSubClass(targetActor,targetItem);
+    }
+})
 
 
 
@@ -65,8 +69,7 @@ Hooks.on("renderItemSheet5e", function (sheet) {
 
 Hooks.once("init", function () {
 console.log(Actor5e.getClassFeatures);
-Actor5e.getClassFeatures=getClassfeaturesHD
-console.log(Actor5e.getClassFeatures);
+Actor5e.getClassFeatures=getClassfeaturesHD;
 
   
     //---------déclaration des settings
@@ -289,7 +292,6 @@ Hooks.once("ready", function () {
 
     let aideApp = new aidejeu;
     zoneAide.addEventListener("click", function () {
-
         aideApp.render(true);
     });
 

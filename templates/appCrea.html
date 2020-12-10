@@ -40,16 +40,7 @@
                         {{/select}}
                     </select>
                 </li>
-                <li>
-                    <h2>calcul des caractéristiques</h2>
-                    
-                        <ul>
-                            {{#each HDSRD.rules.scoresCarac.methode as |met id|}}
-                            <li>methode {{id}} <input type="checkbox" name="HDSRD.rules.scoresCarac.methode.{{id}}.selected" value="{{met.selected}}"/>
-                            {{/each}}
-                        </ul>
-                    
-                </li>
+               
 
             </ol>
         </div>
@@ -57,7 +48,6 @@
     </div>
 
 
-<button id="validCrea">valider cette création</button>
 
 
 </form>
