@@ -25,7 +25,12 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 ### voilà
 
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
-***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums***
+***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
+
+### release 1.9.8
+
+intégrations des sous-classes de la Gazette
+intégration de l'aide à la création de personnage
 
 ### release 1.8.7
 
