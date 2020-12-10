@@ -49,7 +49,7 @@ export class creaPersoApp extends FormApplication {
 
         let initValid = new Dialog({
             title: "ré-initialiser ce personnage ?",
-            content: "<p>ré-initialisé ce personnage remettra toutes ses caractéristiques à 0, et lui fera perdre tous ses items. </p><h2>ceci est irrémédiable</h2>",
+            content: "<p>ré-initialisé ce personnage remettra toutes ses caractéristiques à 0, et lui fera perdre tous ses items. </p><h2 style='text-align:right'>ceci est irrémédiable</h2>",
             buttons: {
 
                 one: {
