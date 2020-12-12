@@ -1,8 +1,7 @@
  export default async function getClassFeaturesHD({
      className = "",
      subclassName = "",
-     level = 1,
-     priorLevel = 0
+          priorLevel = 0
  } = {}) {
 
 

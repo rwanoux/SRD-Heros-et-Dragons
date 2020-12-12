@@ -73,8 +73,7 @@ Hooks.on("renderItemSheet5e", function (sheet) {
 })
 
 Hooks.once("init", function () {
-    console.log(Actor5e.getClassFeatures);
-    Actor5e.getClassFeatures = getClassfeaturesHD;
+   
 
 
     //---------déclaration des settings
