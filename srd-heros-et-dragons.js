@@ -81,7 +81,7 @@ Hooks.once("init", function () {
 
     game.settings.register('srd-heros-et-dragons', 'ressourcesClass', {
         name: "ressources de classes",
-        hint: "ahouter les ressources spécifiques aux classes et sous-classes",
+        hint: "ajouter les ressources spécifiques aux classes et sous-classes (point de sorcelleries, impositions des mains, inspirations bardiques etc...",
         scope: "world",
         config: true,
         default: false,

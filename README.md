@@ -27,6 +27,12 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 1.9.9
+
+débug pour compatibilité Libwrapper
+l'affichage des ressources spécifique aux classes dépend maintenant d'une option du module
+les ressources spéciales ne sont plus sous-lignées
+
 ### release 1.9.8
 
 intégrations des sous-classes de la Gazette
