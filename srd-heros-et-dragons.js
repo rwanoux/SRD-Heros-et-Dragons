@@ -1,5 +1,10 @@
 //fonctions et class déportées
-
+import {
+    initRessourcesClass
+} from './ressources_class.js';
+import {
+    showRessourcesClass
+} from './ressources_class.js';
 import {
     aidejeu
 } from './modules/aidejeu.js';
@@ -28,13 +33,13 @@ import {
 
 import {
     diceHD
-} from './modules/diceH&D.js'; 
-import{
+} from './modules/diceH&D.js';
+import {
     levelUp
-}from './modules/aidecrea/levelup.js'
-import{
+} from './modules/aidecrea/levelup.js'
+import {
     checkSubClass
-}from './modules/aidecrea/checkSubClass.js'
+} from './modules/aidecrea/checkSubClass.js'
 import Actor5e from '../../systems/dnd5e/module/actor/entity.js'
 import getClassfeaturesHD from './modules/getClassFeaturesHD.js'
 
@@ -42,13 +47,13 @@ import getClassfeaturesHD from './modules/getClassFeaturesHD.js'
  ----------------dice so nice--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
-Hooks.once('diceSoNiceReady',  function (dice3d){
+Hooks.once('diceSoNiceReady', function (dice3d) {
     diceHD(dice3d);
 
 });
-Hooks.on('createOwnedItem',function (targetActor,targetItem,option,id){
-    if (targetItem.name=="Clerc" ||targetItem.name=="Ensorceleur"){
-        checkSubClass(targetActor,targetItem);
+Hooks.on('createOwnedItem', function (targetActor, targetItem, option, id) {
+    if (targetItem.name == "Clerc" || targetItem.name == "Ensorceleur") {
+        checkSubClass(targetActor, targetItem);
     }
 })
 
@@ -59,7 +64,7 @@ Hooks.on('createOwnedItem',function (targetActor,targetItem,option,id){
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
- //----ceci est juste une aide pour récup les id des items
+//----ceci est juste une aide pour récup les id des items
 Hooks.on("renderItemSheet5e", function (sheet) {
     console.log("---------------");
     console.log(sheet.object.data._id);
@@ -68,13 +73,21 @@ Hooks.on("renderItemSheet5e", function (sheet) {
 })
 
 Hooks.once("init", function () {
-console.log(Actor5e.getClassFeatures);
-Actor5e.getClassFeatures=getClassfeaturesHD;
+    console.log(Actor5e.getClassFeatures);
+    Actor5e.getClassFeatures = getClassfeaturesHD;
 
-  
+
     //---------déclaration des settings
 
-
+    game.settings.register('srd-heros-et-dragons', 'ressourcesClass', {
+        name: "ressources de classes",
+        hint: "ahouter les ressources spécifiques aux classes et sous-classes",
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: () => window.location.reload()
+    });
     game.settings.register('srd-heros-et-dragons', 'HDstyle', {
         name: "appliquer le style",
         hint: "applique une surchouche graphique au jeu",
@@ -122,8 +135,9 @@ Actor5e.getClassFeatures=getClassfeaturesHD;
         onChange: () => window.location.reload()
     });
 
-
-
+    if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
+        initRessourcesClass();
+    }
     //appliquer css selon les options de config du module
     if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
 
@@ -304,9 +318,16 @@ Hooks.once("ready", function () {
 //-------------------------------------------------
 
 Hooks.on("renderActorSheet5e", async function (app, html, data) {
+
+
     //---trie alphabétique
     trieAlphabFR();
-    await levelUp(html,data);
+    //bouton montée de niveau
+    await levelUp(html, data);
+    // ressources de classes
+    if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
+        showRessourcesClass(app, html, data);
+    };
 });
 
 Hooks.on("createOwnedItem", function (actor, item, sheet, id) {

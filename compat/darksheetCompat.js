@@ -10,7 +10,7 @@ export function darkSheetCompat(sheetResources) {
       // Set class
       const ActorSheet5eCharacter = imported.ActorSheet5eCharacter;
 
-      var globalLimit = game.settings.get("resourcesplus", "globalLimit") || 20;
+      var globalLimit = game.settings.get("srd-heros-et-dragons", "globalLimit") || 20;
 
       // Monkeypatch original function
       var originalGetData = ActorSheet5eCharacter.prototype.getData;
