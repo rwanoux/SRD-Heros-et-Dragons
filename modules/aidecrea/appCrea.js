@@ -133,6 +133,15 @@ export class creaPersoApp extends FormApplication {
                         })
                     }
                     switch (racename) {
+                        case "Homme serpent Kubea ghinduk":
+                        case "Homme serpent Kubea ssyere":
+                        
+                            indexTrait = trait.name.indexOf("(Homme serpent)");
+                            if (indexTrait !== -1) {
+                                traitsRacOk.push(trait);
+                                packTrRaciaux.getEntity(trait._id).then(trait => target.createOwnedItem(trait))
+                            }
+                            break;
                         case "Elfe d'Aether":
                         case "Elfe de Fer":
                         case "Elfe des Sylves":
