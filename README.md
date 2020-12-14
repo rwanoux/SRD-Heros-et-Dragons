@@ -27,6 +27,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 2.0.1
+
+débug pour les montées de niveaux avec ajout de capacitées automatiques
+
 ### release 1.9.9
 
 débug pour compatibilité Libwrapper
