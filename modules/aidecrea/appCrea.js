@@ -1,7 +1,7 @@
 import {
     HDSRD
 } from './getSRD.js';
- //----WIP---
+//----WIP---
 export class creaPersoApp extends FormApplication {
 
 
@@ -257,10 +257,10 @@ export class creaPersoApp extends FormApplication {
                     target.sheet._onDropItemCreate(c);
                     target.setFlag("srd-heros-et-dragons", "classe", c.name);
                     target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
-                });
+                    target.updateEmbeddedEntity("OwnedItem", c);
 
+                });
             })
         }
     }
 }
-

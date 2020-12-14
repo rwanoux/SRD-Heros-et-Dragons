@@ -103,7 +103,7 @@ export async function checkSubClass(targetActor, targetClass) {
             let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
             let sbcItem = "[" + targetClass.name.toLowerCase().replace("'", "") + "] " + newsbcl.toLowerCase();
             let subcl = packClass.index.find(sc => sc.name.toLowerCase() === sbcItem);
-            await packClass.getEntity(subcl._id).then(sbc => {
+             packClass.getEntity(subcl._id).then(sbc => {
                 targetActor.createOwnedItem(sbc);
             });
             //--------mettre le flag de sous-classe
