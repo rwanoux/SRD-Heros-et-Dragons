@@ -29,7 +29,9 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### release 2.0.1
 
-débug pour les montées de niveaux avec ajout de capacitées automatiques
+débug pour les montées de niveaux avec ajout de capacitées automatiques;
+ajout de la lignée protéenne et des ses capacitées
+ajout des variantes Homme serpent Kubea ghinduk, et Homme serpent Kubea ssyere et leurs capacitées
 
 ### release 1.9.9
 
