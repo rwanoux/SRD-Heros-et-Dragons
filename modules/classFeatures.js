@@ -272,6 +272,17 @@ export const ClassFeaturesHD = {
   },
   "ensorceleur": {
     "subclasses": {
+      "lignee-proteenne": {
+        itemId: "33ar4DFLcNHP2FP0",
+        "label": "lignée protéenne",
+        "features": {
+          "1": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.V7vqxZrMW4SNYV2I", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.XTixp3hMSeqjXUQw"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.XLZmgtoLmANSq1AH"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UV1rDodfEfwDIrok"],
+          "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.wzVxW41Cf0FA8PzV","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.2AnTBo793YV2VZce"]
+
+        }
+      },
       "lignee-draconique": {
         itemId: "Sa1pN5RhJ0BmiAs5",
         "label": "lignée draconique",
@@ -341,6 +352,17 @@ export const ClassFeaturesHD = {
           "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.srIXFySix4xxjMAo"],
           "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.CCXDCzOvK1OYDWza"],
           "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.2IQx8fnaiOIxJWj0"]
+        }
+      },
+      "kal-thori": {
+        itemId: "e9UsQNCSVrBbJnie",
+        "label": "kal thori",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.F4cE7mjJA6aKV0wu"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.bKvKX5C7KtyEvECT"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.gJEmYZQw00TYW6yg"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.3Pd7veHgy9ICvaxF"],
+          "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.E8WAO0WmdkgdootW"]
         }
       },
       "bretteur": {

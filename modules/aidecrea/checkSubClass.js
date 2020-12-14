@@ -86,7 +86,7 @@ export async function checkSubClass(targetActor, targetClass) {
         async function giveSubClass(newsbcl) {
             //-----udater la classe avec la sous classe 
             console.log({
-                targetClass
+                newsbcl
             })
             const update = {
                 _id: targetClass._id,
@@ -101,8 +101,8 @@ export async function checkSubClass(targetActor, targetClass) {
 
             //-------donner l'item feat de sous-classe
             let packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");
-            let sbcItem = "[" + targetClass.name.toLowerCase().replace("'", "") + "] " + newsbcl.toLowerCase();
-            let subcl = packClass.index.find(sc => sc.name.toLowerCase() === sbcItem);
+            let sbcItem = "[" + targetClass.name.toLowerCase().replace("'", "") + "] " + newsbcl;
+            let subcl = packClass.index.find(sc => sc.name.slugify() === sbcItem.slugify());
              packClass.getEntity(subcl._id).then(sbc => {
                 targetActor.createOwnedItem(sbc);
             });
