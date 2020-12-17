@@ -1,10 +1,10 @@
 export function diceHD (dice3d){
-    
+    /*
     dice3d.addSystem({
         id: "heros et dragons",
         name: "heros et dragons"
-    }, true);
-
+    });
+*/
     dice3d.addTexture("heros et dragons", {
             name: "heros et dragons",
             composite: "source-over",
