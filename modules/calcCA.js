@@ -2,7 +2,7 @@ export function calcCA(app, html, data) {
     let equipement = data.items.filter(eq => eq.type == "equipment");
     let armures = equipement.filter(arm => arm.data.armor.type == "light" ||arm.data.armor.type == "medium" ||arm.data.armor.type == "heavy" );
     let boucliers = equipement.filter(arm => arm.data.armor.type == "shield")
-
+    let equippedBouclier = boucliers.filter(b => b.data.equipped == true);
     let equipedArmures = armures.filter(arm => arm.data.equipped == true);
     if (equipedArmures.length > 1) {
         ui.notifications.error("vous portez plusieurs armures");
@@ -15,10 +15,10 @@ export function calcCA(app, html, data) {
     let newCA = 0;
 
     if (equipedArmures.length < 1) {
-        if (data.items.find(i=>i.name=="Défense sans armure [Barbare]")){
+        if (data.items.find(i=>i.name=="Défense sans armure [Barbare]")&& equippedBouclier.length<1){
             newCA = dexMod + 10 + conMod;
         }
-        else if(data.items.find(i=>i.name=="Défense sans Armure [Moine]")){
+        else if(data.items.find(i=>i.name=="Défense sans Armure [Moine]")&& equippedBouclier.length<1){
             newCA = dexMod + 10 + sagMod;
         }
         else{
@@ -45,7 +45,7 @@ export function calcCA(app, html, data) {
     };
     if (boucliers.length > 0) {
 
-        let equippedBouclier = boucliers.filter(b => b.data.equipped == true);
+        
         if (equippedBouclier.length > 0) {
             if (equippedBouclier.length > 1) {
                 ui.notifications.warn("vous avez plusieurs boucliers équippés");
