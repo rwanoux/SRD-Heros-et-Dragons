@@ -8,7 +8,7 @@ Hooks.on("renderActorSheet5e", (app, html, data) => {
 
     //-----crée l'app de suivi en fonction des data de la fiche de perso: 
     let crea = new creaPersoApp(data)
-    if (data.isCharacter && data.owner) {
+    if (game.user.isGM) {
         if (document.getElementById('HDcrea') === null) {
             //création du bouton
             let bar = html[0].firstElementChild;

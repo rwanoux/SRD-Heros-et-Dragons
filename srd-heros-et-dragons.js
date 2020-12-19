@@ -1,5 +1,8 @@
 //fonctions et class déportées
 import {
+    calcCA
+} from './modules/calcCA.js';
+import {
     initRessourcesClass
 } from './ressources_class.js';
 import {
@@ -77,7 +80,15 @@ Hooks.once("init", function () {
 
 
     //---------déclaration des settings
-
+    game.settings.register('srd-heros-et-dragons', 'calcCA', {
+        name: "calcul de la CA",
+        hint: "calculer automatiquement la classe d'armure en fonction de l'armure équipée ",
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: () => window.location.reload()
+    });
     game.settings.register('srd-heros-et-dragons', 'ressourcesClass', {
         name: "ressources de classes",
         hint: "ajouter les ressources spécifiques aux classes et sous-classes (point de sorcelleries, impositions des mains, inspirations bardiques etc...",
@@ -322,10 +333,13 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     //---trie alphabétique
     trieAlphabFR();
     //bouton montée de niveau
-    await levelUp(html, data);
+    levelUp(html, data);
     // ressources de classes
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         showRessourcesClass(app, html, data);
+    };
+    if (game.settings.get('srd-heros-et-dragons', 'calcCA')) {
+        calcCA(app, html, data);
     };
 });
 
