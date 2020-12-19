@@ -41,7 +41,7 @@ export class creaPersoApp extends FormApplication {
 
 
     activateListeners(html) {
-        
+
         let choix = this.choix;
         super.activateListeners(html);
         let target = game.actors.get(this.data.actor._id);
@@ -259,18 +259,7 @@ export class creaPersoApp extends FormApplication {
         //--------------change classe-------------
         async function changeClasse() {
             let classeName = classeEl.value;
-            const packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations")
-            packClass.getIndex().then(i => {
-                let cl = packClass.index.find(c => c.name === classeName);
-                console.log(packClass);
-                packClass.getEntity(cl._id).then(c => {
-                    target.sheet._onDropItemCreate(c);
-                    target.setFlag("srd-heros-et-dragons", "classe", c.name);
-                    target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
-                });
-            });
 
-            //--------donner les feats de class niv1
             let classConfig = CONFIG.DND5E.classFeatures[classeName.toLowerCase()];
             let ids = [];
             for (let [l, f] of Object.entries(classConfig.features || {})) {
@@ -290,6 +279,20 @@ export class creaPersoApp extends FormApplication {
                     target.createOwnedItem(f)
                 );
             }
+
+            const packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations")
+            packClass.getIndex().then(i => {
+                let cl = packClass.index.find(c => c.name === classeName);
+                console.log(packClass);
+                packClass.getEntity(cl._id).then(c => {
+                    target.sheet._onDropItemCreate(c);
+                    target.setFlag("srd-heros-et-dragons", "classe", c.name);
+                    target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
+                });
+            });
+
+            //--------donner les feats de class niv1
+
         };
     }
 

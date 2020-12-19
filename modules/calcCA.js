@@ -10,11 +10,20 @@ export function calcCA(app, html, data) {
     };
     let equipedArm = equipedArmures[0];
     let dexMod = data.data.abilities.dex.mod;
-
+    let conMod = data.data.abilities.con.mod;
+    let sagMod=data.data.abilities.wis.mod;
     let newCA = 0;
 
     if (equipedArmures.length < 1) {
+        if (data.items.find(i=>i.name=="Défense sans armure [Barbare]")){
+            newCA = dexMod + 10 + conMod;
+        }
+        else if(data.items.find(i=>i.name=="Défense sans Armure [Moine]")){
+            newCA = dexMod + 10 + sagMod;
+        }
+        else{
         newCA = dexMod + 10
+        }
     } else {
         let armor = equipedArm.data.armor.value;
         let maxDex = equipedArm.data.armor.dex;
