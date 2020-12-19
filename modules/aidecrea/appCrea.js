@@ -41,6 +41,7 @@ export class creaPersoApp extends FormApplication {
 
 
     activateListeners(html) {
+        
         let choix = this.choix;
         super.activateListeners(html);
         let target = game.actors.get(this.data.actor._id);
@@ -135,7 +136,7 @@ export class creaPersoApp extends FormApplication {
                     switch (racename) {
                         case "Homme serpent Kubea ghinduk":
                         case "Homme serpent Kubea ssyere":
-                        
+
                             indexTrait = trait.name.indexOf("(Homme serpent)");
                             if (indexTrait !== -1) {
                                 traitsRacOk.push(trait);
@@ -255,7 +256,7 @@ export class creaPersoApp extends FormApplication {
         classeEl.addEventListener("change", () => {
             changeClasse()
         });
-
+        //--------------change classe-------------
         async function changeClasse() {
             let classeName = classeEl.value;
             const packClass = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations")
@@ -266,10 +267,30 @@ export class creaPersoApp extends FormApplication {
                     target.sheet._onDropItemCreate(c);
                     target.setFlag("srd-heros-et-dragons", "classe", c.name);
                     target.setFlag("srd-heros-et-dragons", "sous-classe", c.data.subclass);
-                    target.updateEmbeddedEntity("OwnedItem", c);
-
                 });
-            })
-        }
+            });
+
+            //--------donner les feats de class niv1
+            let classConfig = CONFIG.DND5E.classFeatures[classeName.toLowerCase()];
+            let ids = [];
+            for (let [l, f] of Object.entries(classConfig.features || {})) {
+                l = parseInt(l);
+                if (l == 1) {
+                    ids = f;
+                }
+            }
+            for (let id of ids) {
+                let mod = id.split(".")[1];
+                let pckName = id.split(".")[1] + "." + id.split(".")[2];
+                let idF = id.split(".")[3];
+                console.log(pckName)
+                let packfeat = game.packs.get(pckName);
+                let feat = packfeat.index.find(f => f._id == idF);
+                packfeat.getEntity(idF).then(f =>
+                    target.createOwnedItem(f)
+                );
+            }
+        };
     }
+
 }

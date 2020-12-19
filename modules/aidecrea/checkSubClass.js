@@ -116,10 +116,6 @@ export async function checkSubClass(targetActor, targetClass) {
             let subConfig = CONFIG.DND5E.classFeatures[targetClass.name.toLowerCase()].subclasses[newsbcl.slugify()];
             let ids = [];
 
-            console.log({
-                subConfig
-            })
-
             for (let [l, f] of Object.entries(subConfig.features || {})) {
                 console.log(newlvl);
                 l = parseInt(l);
