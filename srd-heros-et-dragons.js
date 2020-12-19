@@ -338,7 +338,8 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         showRessourcesClass(app, html, data);
     };
-    if (game.settings.get('srd-heros-et-dragons', 'calcCA')) {
+    console.log(data)
+    if (game.settings.get('srd-heros-et-dragons', 'calcCA')&& data.isCharacter==true) {
         calcCA(app, html, data);
     };
 });

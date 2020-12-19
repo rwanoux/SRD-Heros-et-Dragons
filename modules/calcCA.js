@@ -2,7 +2,7 @@ export function calcCA(app, html, data) {
     console.log("--------calcul ca");
     console.log(data);
     let equipement = data.items.filter(eq => eq.type == "equipment");
-    let armures = equipement.filter(arm => arm.data.armor.type != "shield");
+    let armures = equipement.filter(arm => arm.data.armor.type == "light" ||arm.data.armor.type == "medium" ||arm.data.armor.type == "heavy" );
     let boucliers = equipement.filter(arm => arm.data.armor.type == "shield")
 
     let equipedArmures = armures.filter(arm => arm.data.equipped == true);
