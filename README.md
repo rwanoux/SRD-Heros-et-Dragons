@@ -29,7 +29,8 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 ### release 2.0.6
 
-correction à l'aide à la création : les capacité de classe niv1 sont données
+correction à l'aide à la création : les capacité de classe niv1 sont données;
+prise en compte de capacité défense sans armure des barbares et moines pour le calcul de CA
 
 ### release 2.0.5
 
