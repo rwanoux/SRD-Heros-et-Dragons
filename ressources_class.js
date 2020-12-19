@@ -150,7 +150,6 @@ export function  showRessourcesClass (app, html, data) {
         break;
 
     }
-    console.log(sb)
   }
   for (let cl of classes) {
     switch (cl.name) {

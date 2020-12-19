@@ -181,8 +181,4 @@ Hooks.once("ready", function () {
   game.packs.get("srd-heros-et-dragons.h-d-historiques").getIndex().then(index =>
     getHist(index)
   );
-
-
-  console.log(HDSRD)
-
 })

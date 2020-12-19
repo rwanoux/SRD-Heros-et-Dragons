@@ -20,9 +20,6 @@ export  function levelUp(html, data) {
     //--récupérer nom de class et item class
 
     let clName = b.previousElementSibling.lastElementChild.innerText.replace(/\s/g, "");
-    console.log({
-      clName
-    });
 
     let targetClass = targetActor.data.items.find(cl => cl.name == clName);
     let newlvl = targetClass.data.levels + 1;

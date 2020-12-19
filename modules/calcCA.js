@@ -1,6 +1,4 @@
 export function calcCA(app, html, data) {
-    console.log("--------calcul ca");
-    console.log(data);
     let equipement = data.items.filter(eq => eq.type == "equipment");
     let armures = equipement.filter(arm => arm.data.armor.type == "light" ||arm.data.armor.type == "medium" ||arm.data.armor.type == "heavy" );
     let boucliers = equipement.filter(arm => arm.data.armor.type == "shield")
@@ -11,7 +9,6 @@ export function calcCA(app, html, data) {
         return
     };
     let equipedArm = equipedArmures[0];
-    console.log(equipedArm);
     let dexMod = data.data.abilities.dex.mod;
 
     let newCA = 0;
@@ -37,11 +34,9 @@ export function calcCA(app, html, data) {
             newCA = armor
         }
     };
-    console.log(newCA)
     if (boucliers.length > 0) {
 
         let equippedBouclier = boucliers.filter(b => b.data.equipped == true);
-        console.log(equippedBouclier)
         if (equippedBouclier.length > 0) {
             if (equippedBouclier.length > 1) {
                 ui.notifications.warn("vous avez plusieurs boucliers équippés");
@@ -50,14 +45,9 @@ export function calcCA(app, html, data) {
             };
         };
     }
-    console.log(newCA)
     let target = game.actors.get(data.actor._id);
-    console.log("--------")
     target.update({
         "data.attributes.ac.value": newCA
-    })
-    console.log({
-        target
     })
 
 }

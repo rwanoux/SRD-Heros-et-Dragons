@@ -82,7 +82,7 @@ Hooks.once("init", function () {
     //---------déclaration des settings
     game.settings.register('srd-heros-et-dragons', 'calcCA', {
         name: "calcul de la CA",
-        hint: "calculer automatiquement la classe d'armure en fonction de l'armure équipée ",
+        hint: "calculer automatiquement la classe d'armure en fonction de l'armure équipée, uniquement sur les personnage joueurs ",
         scope: "world",
         config: true,
         default: false,
@@ -130,7 +130,7 @@ Hooks.once("init", function () {
         hint: "activer le debugage console (pour dev)",
         scope: "world",
         config: true,
-        default: false,
+        default: true,
         type: Boolean,
         onChange: () => window.location.reload()
     });
@@ -338,7 +338,6 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         showRessourcesClass(app, html, data);
     };
-    console.log(data)
     if (game.settings.get('srd-heros-et-dragons', 'calcCA')&& data.isCharacter==true) {
         calcCA(app, html, data);
     };
