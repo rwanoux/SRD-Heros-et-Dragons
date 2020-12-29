@@ -34,8 +34,7 @@ export function calcCA(app, html, data) {
         }
 
         if (equipedArm.data.armor.type != "heavy") {
-            if (dexMod > maxDex) {
-                newCA = maxDex + armor
+            if ((equipedArm.data.armor.type == "medium") && (dexMod > maxDex)) {                newCA = maxDex + armor
             } else {
                 newCA = dexMod + armor
             }

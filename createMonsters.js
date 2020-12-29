@@ -1,196 +1,558 @@
-Hooks.once("init", async function() {
-    let pack = [];
-    $.getJSON("/modules/srd-heros-et-dragons/monstresLDM.json", function(bestiaire) {
-        console.log(bestiaire)
-
-        for (let creature of bestiaire) {
-
-            setProperty(creature, "type", "npc");
-            setProperty(creature, "name", creature.header.title);
+export async function createLDM() {
+  const pack = [];
 
 
-            //-----------------------------------------abilities---------------------------------------------
+  $.getJSON("/modules/srd-heros-et-dragons/monstresLDM.json", function (bestiaire) {
 
-            setProperty(creature, "data.abilities.str.value", parseInt(creature.header.monster.str));
-            setProperty(creature, "data.abilities.dex.value", parseInt(creature.header.monster.dex));
-            setProperty(creature, "data.abilities.con.value", parseInt(creature.header.monster.con));
-            setProperty(creature, "data.abilities.int.value", parseInt(creature.header.monster.int));
-            setProperty(creature, "data.abilities.wis.value", parseInt(creature.header.monster.wis));
-            setProperty(creature, "data.abilities.cha.value", parseInt(creature.header.monster.cha));
+    //for (let creature of bestiaire) {
+    let randomCreature = Math.floor(Math.random() * bestiaire.length);
+    let creature = bestiaire[randomCreature];
+    console.log({
+      creature
+    })
+    //-----------fonction de parse spécifiques
 
+    let regCarac = /[()]/;
 
+    function parseCarac(carac) {
+      return parseInt(creature.header.monster[carac].split(regCarac)[0])
+    };
 
-            //------------------------abil_mod------------------
-            setProperty(creature, "data.abilities.str.mod", creature.header.monster.str.split("(")[1]);
-            setProperty(creature, "data.abilities.dex.mod", creature.header.monster.dex.split("(")[1]);
-            setProperty(creature, "data.abilities.con.mod", creature.header.monster.con.split("(")[1]);
-            setProperty(creature, "data.abilities.int.mod", creature.header.monster.int.split("(")[1]);
-            setProperty(creature, "data.abilities.wis.mod", creature.header.monster.wis.split("(")[1]);
-            setProperty(creature, "data.abilities.cha.mod", creature.header.monster.cha.split("(")[1]);
-            creature.data.abilities.str.mod = creature.data.abilities.str.mod.substring(0, creature.data.abilities.str.mod.length - 1);
-            creature.data.abilities.dex.mod = creature.data.abilities.dex.mod.substring(0, creature.data.abilities.dex.mod.length - 1);
-            creature.data.abilities.con.mod = creature.data.abilities.con.mod.substring(0, creature.data.abilities.con.mod.length - 1);
-            creature.data.abilities.int.mod = creature.data.abilities.int.mod.substring(0, creature.data.abilities.int.mod.length - 1);
-            creature.data.abilities.wis.mod = creature.data.abilities.wis.mod.substring(0, creature.data.abilities.wis.mod.length - 1);
-            creature.data.abilities.cha.mod = creature.data.abilities.cha.mod.substring(0, creature.data.abilities.cha.mod.length - 1);
+    function parseSave(text, carac) {
+      if (text.indexOf(carac) > -1) {
+        return 1
+      } else {
+        return 0
+      }
+    }
 
-
-            //--------------------------details---------------
-            setProperty(creature, "data.details.cr", creature.header.monster.challenge);
-            setProperty(creature, "data.details.alignment", creature.header.monster.alignment);
-            setProperty(creature, "data.details.xp.value", creature.header.monster.px);
-            setProperty(creature, "data.details.biography.value", creature.content);
-            setProperty(creature, "data.details.type", creature.truetype);
-            setProperty(creature, "data.details.environment", creature.environment);
-            setProperty(creature, "data.details.source", creature.header.taxonomy.source);
-
-
-            //----------------------attributes--------------
-            setProperty(creature, "data.attributes.ac.value", parseInt(creature.header.monster.ac));
-            setProperty(creature, "data.attributes.hp.value", parseInt(creature.header.monster.hp));
-            setProperty(creature, "data.attributes.hp.max", parseInt(creature.header.monster.hp));
-            setProperty(creature, "data.attributes.hp.formula", creature.header.monster.hp.split("(")[1]);
-            creature.data.attributes.hp.formula = creature.data.attributes.hp.formula.substring(0, creature.data.attributes.hp.formula.length - 1);
-            setProperty(creature, "data.attributes.speed", creature.header.monster.speed);
-
-
-            /*resultat aléatoire.... mais ça rempli quelques images tout de même
-           
-            path = 'https://raw.githubusercontent.com/Nioux/AideDeJeu/master/Data/Monsters/' + creature.name.toLowerCase() + '.jpg';
-             setProperty(creature, "img", path);
-            */
-            //------------------------------traits----------------------
-
-
-
-            setProperty(creature, "data.traits.languages.custom", creature.header.monster.languages);
-            setProperty(creature, "data.traits.traits.senses", creature.header.monster.senses);
-
-            setProperty(creature, "data.traits.traits.size", 0);
-            switch (creature.header.monster.size) {
-                case 'TP':
-                    creature.data.traits.size = 'tiny'
-                    break;
-                case 'P':
-                    creature.data.traits.size = 'sm'
-                    break;
-                case 'M':
-                    creature.data.traits.size = 'med'
-                    break;
-                case 'G':
-                    creature.data.traits.size = 'lg'
-                    break;
-                case 'TG':
-                    creature.data.traits.size = 'huge'
-                    break;
-                case 'Gig':
-                    creature.data.traits.size = 'grg'
-                    break;
-            };
-
-            if (creature.header.monster.hasOwnProperty('immunities')) {
-                setProperty(creature, "data.traits.di.custom", creature.header.monster.immunities);
-            } else {
-                setProperty(creature, "data.traits.di.custom", "none");
-            }
-            if (creature.header.monster.hasOwnProperty('resistances')) {
-                setProperty(creature, "data.traits.dr.custom", creature.header.monster.resistances);
-            } else {
-                setProperty(creature, "data.traits.dr.custom", "none");
-            }
-
-            if (creature.header.monster.hasOwnProperty('vulnerabilities')) {
-                setProperty(creature, "data.traits.dv.custom", creature.header.monster.vulnerabilities);
-            } else {
-                setProperty(creature, "data.traits.dv.custom", "none");
-            }
-            if (creature.header.monster.hasOwnProperty('immunities_debilities')) {
-                setProperty(creature, "data.traits.ci.custom", creature.header.monster.immunities_debilities);
-            } else {
-                setProperty(creature, "data.traits.ci.custom", "none");
-            }
-
-            //--------------------SKILLS
-            if (creature.header.monster.skills){
-            let skillsData = creature.header.monster.skills.split(",");
-            for (let skill of skillsData) {
-                let skillName = skill.split(" ")[0];
-                switch (skillName) {
-                    case "Acrobatie":
-                        setProperty(creature, "data.skills.acr.value", "1");
-                        break;
-                    case "Arcanes":
-                        setProperty(creature, "data.skills.arc.value", "1");
-                        break;
-                    case "Athl\u00e9tisme":
-                        setProperty(creature, "data.skills.ath.value", "1");
-                        break;
-                    case "Discr\u00e9tion":
-                        setProperty(creature, "data.skills.ste.value", "1");
-                        break;
-                    case "Escamotage":
-                        setProperty(creature, "data.skills.slt.value", "1");
-                        break;
-                    case "Dressage":
-                        setProperty(creature, "data.skills.acr.value", "1");
-                        break;
-                    case "Histoire":
-                        setProperty(creature, "data.skills.his.value", "1");
-                        break;
-                    case "Intimidation":
-                        setProperty(creature, "data.skills.itm.value", "1");
-                        break;
-                    case "Investigation":
-                        setProperty(creature, "data.skills.acr.value", "1");
-                        break;
-                    case "M\u00e9decine":
-                        setProperty(creature, "data.skills.med.value", "1");
-                        break;
-                    case "Nature":
-                        setProperty(creature, "data.skills.nat.value", "1");
-                        break;
-                    case "Perception":
-                        setProperty(creature, "data.skills.prc.value", "1");
-                        break;
-                    case "Perspicacit\u00e9":
-                        setProperty(creature, "data.skills.ins.value", "1");
-                        break;
-                    case "Persuasion":
-                        setProperty(creature, "data.skills.per.value", "1");
-                        break;
-                    case "Religion":
-                        setProperty(creature, "data.skills.rel.value", "1");
-                        break;
-                    case "Repr\u00e9sentation":
-                        setProperty(creature, "data.skills.prf.value", "1");
-                        break;
-                    case "Supercherie":
-                        setProperty(creature, "data.skills.dec.value", "1");
-                        break;
-                    case "Survie":
-                        setProperty(creature, "data.skills.sur.value", "1");
-                        break;
-
-
-                }
-            
-
-            }
+    function parseSpeed(speed) {
+      let mov = {
+        "burrow": parseInt(speed.split("fouissement", 3)[1]),
+        "climb": parseInt(speed.split("escalade", 3)[1]),
+        "fly": parseInt(speed.split("vol", 3)[1]),
+        "swim": parseInt(speed.split("nage", 3)[1]),
+        "walk": speed.split(" ")[0],
+        "units": "m",
+        "hover": false
+      };
+      for (let t in mov) {
+        if (t == null) {
+          t = 0
         }
+      }
+      return mov
+    };
+
+    function parseSkill(skills) {
+      let skillsToCreate = {
+        "acr": {
+          "value": 0,
+          "ability": "dex"
+        },
+        "ani": {
+          "value": 0,
+          "ability": "wis"
+        },
+        "arc": {
+          "value": 0,
+          "ability": "int"
+        },
+        "ath": {
+          "value": 0,
+          "ability": "str"
+        },
+        "dec": {
+          "value": 0,
+          "ability": "cha"
+        },
+        "his": {
+          "value": 0,
+          "ability": "int"
+        },
+        "ins": {
+          "value": 0,
+          "ability": "wis"
+        },
+        "itm": {
+          "value": 0,
+          "ability": "cha"
+        },
+        "inv": {
+          "value": 0,
+          "ability": "int"
+        },
+        "med": {
+          "value": 0,
+          "ability": "wis"
+        },
+        "nat": {
+          "value": 0,
+          "ability": "int"
+        },
+        "prc": {
+          "value": 0,
+          "ability": "wis"
+        },
+        "prf": {
+          "value": 0,
+          "ability": "cha"
+        },
+        "per": {
+          "value": 0,
+          "ability": "cha"
+        },
+        "rel": {
+          "value": 0,
+          "ability": "int"
+        },
+        "slt": {
+          "value": 0,
+          "ability": "dex"
+        },
+        "ste": {
+          "value": 0,
+          "ability": "dex"
+        },
+        "sur": {
+          "value": 0,
+          "ability": "wis"
+        }
+      };
+      let skilList = {
+        "Acrobaties": "acr",
+        "Arcanes": "arc",
+        "Athl\u00e9tisme": "ath",
+        "Discr\u00e9tion": "ste",
+        "Dressage": "ani",
+        "Escamotage": "slt",
+        "Histoire": "his",
+        "Intimidation": "itm",
+        "Investigation": "inv",
+        "M\u00e9decine": "med",
+        "Nature": "nat",
+        "Perception": "prc",
+        "Persuasion": "per",
+        "Religion": "rel",
+        "Repr\u00e9sentation": "prf",
+        "Survie": "sur",
+        "Tromperie": "dec"
+      };
+      for (let [skLabel, skKey] of Object.entries(skilList)) {
+        if (skills.indexOf(skLabel) > -1) {
+          let bonus = parseInt(skills.split(skLabel)[1].split(",")[0]);
+          console.log(skLabel);
+//--------plantage...prendre en compte le bonus de maitrise
+          function mod(b, carac) {
+            console.log(b+"----"+carac);
+            let reg=/[()]/;
+            let val = parseInt(creature.header.monster[carac].split(" ")[1].replace(reg,""));
+            console.log({val})
+            let mod=0
+   
+            if (b == val) {
+              mod= 0
+            }
+            if (b > val && b==val* 2) {
+              mod=  1
+            }
+            if (b == val * 3||b>val*3) {
+              mod=  2
+            }
+            if (b == val * 0.5) {
+              mod=  0.5
+            }
+            return mod
+          }
+          switch (skLabel) {
+            case "Acrobaties":
+              skillsToCreate[skKey].value = mod(bonus, "dex")
+              break;
+            case "Athl\u00e9tisme":
+              skillsToCreate[skKey].value = mod(bonus, "str")
+              break;
+            case "Discr\u00e9tion":
+              skillsToCreate[skKey].value = mod(bonus, "dex")
+              break;
+            case "Dressage":
+              skillsToCreate[skKey].value = mod(bonus, "wis")
+              break;
+            case "Escamotage":
+              skillsToCreate[skKey].value = mod(bonus, "dex")
+              break;
+            case "Histoire":
+              skillsToCreate[skKey].value = mod(bonus, "int")
+              break;
+            case "Intimidation":
+              skillsToCreate[skKey].value = mod(bonus, "cha")
+              break;
+
+            case "Investigation":
+              skillsToCreate[skKey].value = mod(bonus, "int")
+              break;
+
+            case "M\u00e9decine":
+              skillsToCreate[skKey].value = mod(bonus, "int")
+              break;
+            case "Nature":
+              skillsToCreate[skKey].value = mod(bonus, "int")
+              break;
+            case "Perception":
+              skillsToCreate[skKey].value = mod(bonus, "wis")
+              break;
+            case "Persuasion":
+              skillsToCreate[skKey].value = mod(bonus, "cha")
+              break;
+            case "Religion":
+              skillsToCreate[skKey].value = mod(bonus, "int")
+              break;
+            case "Repr\u00e9sentation":
+              skillsToCreate[skKey].value = mod(bonus, "cha")
+              break;
+            case "Survie":
+              skillsToCreate[skKey].value = mod(bonus, "wis")
+              break;
+            case "Tromperie":
+              skillsToCreate[skKey].value = mod(bonus, "cha")
+              break;
+          }
 
 
 
-            console.log('----------------------' + creature.name + '------------------------------------------')
-            console.log(creature);
+        };
+      }
+      console.log(skillsToCreate);
 
+      return skillsToCreate
+    }
 
+    function parseSense(senses) {
+      let sensToCreate = {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      };
+      let sensConf = {
+        "vision dans le noir": "darkvision",
+        "vision aveugle": "blindsight",
+        "Perception des vibrations": "tremorsense",
+        "Vision véritable": "truesight",
 
-            pack.push(creature);
-            Actor.create(creature);
+      };
+      for (let [slabel, skey] of Object.entries(sensConf)) {
+        let sensList = senses.split(", ")
+        for (let s of sensList) {
+          if (s.indexOf(slabel) > -1) {
+            console.log(s.split(slabel)[1])
+            sensToCreate[skey] = parseInt(s.split(slabel)[1])
+          };
+        }
+      }
+      return sensToCreate
+    }
+
+    function parseLang(langages) {
+      let langtoCreate = {
+        "value": [],
+        "custom": ""
+      };
+      let langConf = {
+        "common": "commun",
+        "aarakocra": "aarakocra",
+        "abyssal": "abyssal",
+        "aquan": "aquatique",
+        "auran": "a\u00e9rien",
+        "celestial": "DND5E.c\u00e9leste",
+        "deep": "profond",
+        "draconic": "draconique",
+        "druidic": "DND5E.LanguagesDruidic",
+        "dwarvish": "nain",
+        "elvish": "elfique",
+        "giant": "g\u00e9ant",
+        "gith": "gith",
+        "gnomish": "gnome",
+        "goblin": "gobelin",
+        "gnoll": "gnoll",
+        "halfling": "halfelin",
+        "ignan": "ign\u00e9",
+        "infernal": "infernal",
+        "orc": "orc",
+        "primordial": "primordial",
+        "sylvan": "sylvestre",
+        "terran": "terran",
+        "cant": "argot des voleurs",
+        "undercommon": "commun des profondeurs"
+
+      };
+      if (langages.split(", ")) {
+        let reg = /[,;]/;
+        let space = /[\s]/
+        for (let lang of langages.split(reg)) {
+          for (let [key, label] of Object.entries(langConf)) {
+            if (lang.replace(space, "") == label) {
+              langtoCreate.value.push(key);
+            } else if (lang.replace(space, "") != label && langtoCreate.custom.indexOf(lang) < 0) {
+              langtoCreate.custom = langtoCreate.custom + lang + ";"
+            }
+          }
+        }
+      }
+      return langtoCreate
+    };
+
+    function parseSize(size) {
+      switch (size) {
+        case "M":
+          return "med";
+          break;
+        case "G":
+          return "lg";
+          break;
+        case "TG":
+          return "huge"
+          break;
+        case "P":
+          return "sm"
+          break;
+        case "Gig":
+          return "grg"
+          break;
+        case "TP":
+          return "tiny"
+          break;
+      };
+
+    }
+
+    function parseDgt(dgtText) {
+      if (dgtText) {
+        let dgt = {
+          "value": [],
+          "custom": ""
+        };
+        let reg = /et|,/;
+        let DamageType = {
+          "acid": "d'acide",
+          "bludgeoning": "contondants",
+          "cold": "de froid",
+          "fire": "de feu",
+          "force": "de force",
+          "lightning": "de foudre",
+          "necrotic": "n\u00e9crotiques",
+          "piercing": "perforants",
+          "poison": "de poison",
+          "psychic": "psychiques",
+          "radiant": "radiants",
+          "slashing": "tranchants",
+          "thunder": "de tonnerre"
+        };
+        if (dgtText.split(";")[1]) {
+          dgt.custom = dgtText.split(";")[1]
+        }
+        let regularDgt = dgtText.split(";")[0];
+        for (let l of regularDgt.split(reg)) {
+          for (let [key, label] of Object.entries(DamageType)) {
+            if (l == label) {
+              dgt.value.push(key)
+            }
+          }
+        }
+        return dgt
+      }
+    };
+
+    function parseEtats(etats) {
+      if (etats) {
+        let etat = {
+          "value": [],
+          "custom": ""
+        }
+        let etatConf = {
+          "blinded": "aveugl\u00e9",
+          "charmed": "charm\u00e9",
+          "deafened": "assourdi",
+          "diseased": "malade",
+          "exhaustion": "\u00e9puis\u00e9",
+          "frightened": "terroris\u00e9",
+          "grappled": "Agripp\u00e9",
+          "incapacitated": "Incapable d'agir",
+          "invisible": "invisible",
+          "paralyzed": "paralys\u00e9",
+          "petrified": "p\u00e9trifi\u00e9",
+          "poisoned": "empoisonn\u00e9",
+          "prone": "\u00e0 terre",
+          "restrained": "entrav\u00e9",
+          "stunned": "\u00e9tourdi",
+          "unconscious": "inconscient"
         };
 
-    });
+        for (let e of etats) {
+          console.log(e);
+          for (let [key, label] of Object.entries(etatConf)) {
+            if (e == label) {
+              etat.value.push(key)
+            }
+          }
+        }
+        return etat
+      }
+
+    };
+
+    //----------modèle à créé-----------
+    let toCreate = {
+      "_id": "",
+      "name": creature.header.title,
+      "type": "npc",
+      "data": {
+        "abilities": {
+          "str": {
+            "value": parseCarac("str"),
+            "proficient": parseSave(creature.header.monster.saves, "For")
+          },
+          "dex": {
+            "value": parseCarac("dex"),
+            "proficient": parseSave(creature.header.monster.saves, "Dex")
+          },
+          "con": {
+            "value": parseCarac("con"),
+            "proficient": parseSave(creature.header.monster.saves, "Con")
+          },
+          "int": {
+            "value": parseCarac("int"),
+            "proficient": parseSave(creature.header.monster.saves, "Int")
+          },
+          "wis": {
+            "value": parseCarac("wis"),
+            "proficient": parseSave(creature.header.monster.saves, "Sag")
+          },
+          "cha": {
+            "value": parseCarac("cha"),
+            "proficient": parseSave(creature.header.monster.saves, "Cha")
+          }
+        },
+        "attributes": {
+          "ac": {
+            "value": parseCarac("ac")
+          },
+          "hp": {
+            "value": parseCarac("hp"),
+            "min": 0,
+            "max": parseCarac("hp"),
+            "temp": 0,
+            "tempmax": 0,
+            "formula": creature.header.monster.hp.split(regCarac)[1],
+          },
+          "init": {
+            "value": 0,
+            "bonus": 0
+          },
+          "movement": parseSpeed(creature.header.monster.speed),
+          "senses": parseSense(creature.header.monster.senses),
+          "spellcasting": "int"
+        },
+        "details": {
+          "biography": {
+            "value": "",
+            "public": ""
+          },
+          "alignment": creature.header.monster.alignment,
+          "race": creature.header.monster.subtype,
+          "type": creature.header.taxonomy.monster_type,
+          "environment": creature.header.taxonomy.monster_environnement,
+          "cr": creature.header.taxonomy.monster_challenge,
+          "spellLevel": 0,
+          "xp": {
+            "value": creature.header.taxonomy.monster_challenge
+          },
+          "source": creature.header.taxonomy.source[0] + " page " + creature.header.source_page
+        },
+        "traits": {
+          "size": parseSize(creature.header.monster.size),
+          "di": parseDgt(creature.header.monster.immunities),
+          "dr": parseDgt(creature.header.monster.resistances),
+          "dv": parseDgt(creature.header.monster.vulnerabilities),
+          "ci": parseEtats(creature.header.monster.immunities_debilities),
+          "languages": parseLang(creature.header.monster.languages),
+
+          "currency": {
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+          }
+        },
+        "skills": parseSkill(creature.header.monster.skills),
+        "spells": {},
+        "bonuses": {
+          "mwak": {
+            "attack": "",
+            "damage": ""
+          },
+          "rwak": {
+            "attack": "",
+            "damage": ""
+          },
+          "msak": {
+            "attack": "",
+            "damage": ""
+          },
+          "rsak": {
+            "attack": "",
+            "damage": ""
+          },
+          "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+          },
+          "spell": {
+            "dc": ""
+          }
+        },
+        "resources": {
+          "legact": {
+            "value": 0,
+            "max": 0
+          },
+          "legres": {
+            "value": 0,
+            "max": 0
+          },
+          "lair": {
+            "value": 0,
+            "initiative": 0
+          }
+        }
+      },
+      "sort": 100001,
+      "flags": {
+        "exportSource": {
+          "world": "test-hd",
+          "system": "dnd5e",
+          "coreVersion": "0.7.9",
+          "systemVersion": "1.2.0"
+        }
+      },
+      "items": [],
+      "effects": [],
+    }
 
 
-});
 
+
+    console.log('----------------------' + toCreate.name + '------------------------------------------');
+    console.log(toCreate);
+
+
+
+    pack.push(toCreate);
+
+    //};
+    Actor.create(pack[0]);
+  });
+}

@@ -1,5 +1,9 @@
 //fonctions et class déportées
 import {
+    createLDM
+} from './createMonsters.js';
+
+import {
     calcCA
 } from './modules/calcCA.js';
 import {
@@ -20,6 +24,9 @@ import {
 import {
     openSupport
 } from './modules/openSupport.js';
+import {
+    openTipee
+} from './modules/openTipee.js';
 import {
     trieAlphabFR
 } from './modules/trieAlpha.js';
@@ -69,16 +76,41 @@ Hooks.on('createOwnedItem', function (targetActor, targetItem, option, id) {
 
 //----ceci est juste une aide pour récup les id des items
 Hooks.on("renderItemSheet5e", function (sheet) {
-    console.log("---------------");
+    console.log(`----${sheet.object.data.name}------`);
     console.log(sheet.object.data._id);
     console.log("---------------")
 
 })
 
 Hooks.once("init", function () {
-   
+   // createLDM();
+    /*
+        CUB.enhancedConditions.settings.system = "Héros & Dragons",
+            CUB.enhancedConditions.settings.maps.HD = [
+                ["Aveuglé", "modules/combat-utility-belt/icons/blinded.svg", ""]
+                ["Charmé", "modules/combat-utility-belt/icons/charmed.svg", ""]
+                ["Concentration", "modules/combat-utility-belt/icons/concentrating.svg", ""]
+                ["Assourdi", "modules/combat-utility-belt/icons/deafened.svg", ""]
+                ["Epuisement 1", "modules/combat-utility-belt/icons/exhaustion1.svg", ""]
+                ["Epuisement 2", "modules/combat-utility-belt/icons/exhaustion2.svg", ""]
+                ["Epuisement 3", "modules/combat-utility-belt/icons/exhaustion3.svg", ""]
+                ["Epuisement 4", "modules/combat-utility-belt/icons/exhaustion4.svg", ""]
+                ["Epuisement 5", "modules/combat-utility-belt/icons/exhaustion5.svg", ""]
+                ["Effrayé", "modules/combat-utility-belt/icons/frightened.svg", ""]
+                ["Aggrippé", "modules/combat-utility-belt/icons/grappled.svg", ""]
+                ["Neutralisé", "modules/combat-utility-belt/icons/incapacitated.svg", ""]
+                ["Invisible", "modules/combat-utility-belt/icons/invisible.svg", ""]
+                ["Paralysé", "modules/combat-utility-belt/icons/paralyzed.svg", ""]
+                ["Petrifié", "modules/combat-utility-belt/icons/petrified.svg", ""]
+                ["Poisoned", "modules/combat-utility-belt/icons/poisoned.svg", ""]
+                ["A terre", "modules/combat-utility-belt/icons/prone.svg", ""]
+                ["Entravé", "modules/combat-utility-belt/icons/restrained.svg", ""]
+                ["Etourdi", "modules/combat-utility-belt/icons/stunned.svg", ""]
+                ["Inconscient", "icons/svg/unconscious.svg", ""]
+            ]
 
 
+    */
     //---------déclaration des settings
     game.settings.register('srd-heros-et-dragons', 'calcCA', {
         name: "calcul de la CA",
@@ -242,6 +274,11 @@ Hooks.once("ready", function () {
                 icon: '<i class="fas fa-check"></i>',
                 label: "accéder au wiki francophone dédié",
                 callback: () => openWiki()
+            },
+            four: {
+                icon: '<i class="fas fa-check"></i>',
+                label: "accéder à la page tipee",
+                callback: () => openTipee()
             }
 
         }
@@ -338,13 +375,8 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         showRessourcesClass(app, html, data);
     };
-    if (game.settings.get('srd-heros-et-dragons', 'calcCA')&& data.isCharacter==true) {
+    if (game.settings.get('srd-heros-et-dragons', 'calcCA') && data.isCharacter == true) {
         calcCA(app, html, data);
     };
 });
 
-Hooks.on("createOwnedItem", function (actor, item, sheet, id) {
-    /*
-    giveSubClass(actor, item);
-    */
-});

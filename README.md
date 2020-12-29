@@ -27,6 +27,11 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 2.0.7
+
+correction calcul de la CA;
+lien vers le tipee
+
 ### release 2.0.6
 
 correction à l'aide à la création : les capacité de classe niv1 sont données;
