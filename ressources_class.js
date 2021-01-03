@@ -17,30 +17,10 @@ export async function initRessourcesClass(){
 
 
   const originalGetData = game.dnd5e.applications.ActorSheet5eCharacter.prototype.getData;
-  if (typeof libWrapper === "function") {
-    
-        libWrapper.register(
-          "srd-heros-et-dragons",
-          "game.dnd5e.applications.ActorSheet5eCharacter.prototype.getData",
-          function (wrapper, ...args) {
-            const sheetData = originalGetData.call(this);
-            sheetData["resources"] = sheetResources.reduce((arr, r) => {
-              const res = sheetData.data.resources[r] || {};
-              res.name = r;
-              res.placeholder = game.i18n.localize("DND5E.Resource" + r.titleCase());
-
-              if (res && res.name === "count" && res.value === null) res.value = 3;
-              if (res && res.name === "count" && res.value > globalLimit) res.value = globalLimit;
-              return arr.concat([res]);
-            }, []);
-            wrapper.apply(this, args);
-            return sheetData;
-          },
-          "WRAPPER"
-        );
+  
         
     
-  } else {
+ 
     game.dnd5e.applications.ActorSheet5eCharacter.prototype.getData = function () {
       const sheetData = originalGetData.call(this);
 
@@ -72,7 +52,7 @@ export async function initRessourcesClass(){
       sheetData["disableExperience"] = game.settings.get("dnd5e", "disableExperienceTracking");
 
       return sheetData;
-    };
+    
   }
   /** @type {string[]} */
   var itemResources = [];
