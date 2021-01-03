@@ -63,6 +63,7 @@ export  function levelUp(html, data) {
 
       },
     };
+    console.log({update})
     await targetActor.updateEmbeddedEntity("OwnedItem", update);
     ui.notifications.info(targetActor.name + " passe au niveau " + update.data.levels + "  dans sa classe " + targetClass.name);
   }

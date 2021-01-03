@@ -1,3 +1,4 @@
+import { ClassFeaturesHD } from '../classFeatures.js';
 import {
     HDSRD
 } from './getSRD.js';
@@ -260,7 +261,7 @@ export class creaPersoApp extends FormApplication {
         async function changeClasse() {
             let classeName = classeEl.value;
 
-            let classConfig = CONFIG.DND5E.classFeatures[classeName.toLowerCase()];
+            let classConfig = ClassFeaturesHD[classeName.toLowerCase()];
             let ids = [];
             for (let [l, f] of Object.entries(classConfig.features || {})) {
                 l = parseInt(l);
