@@ -1,7 +1,10 @@
 export function calcCA(app, html, data) {
     let equipement = data.items.filter(eq => eq.type == "equipment");
     let armures = equipement.filter(arm => arm.data.armor.type == "light" ||arm.data.armor.type == "medium" ||arm.data.armor.type == "heavy" );
-    let boucliers = equipement.filter(arm => arm.data.armor.type == "shield")
+    let boucliers = equipement.filter(arm => arm.data.armor.type == "shield");
+    let bab = equipement.filter(arm => arm.data.armor.type == "trinket");
+
+    let equippedBab = bab.filter(arm => arm.data.equipped == true);
     let equippedBouclier = boucliers.filter(b => b.data.equipped == true);
     let equipedArmures = armures.filter(arm => arm.data.equipped == true);
     if (equipedArmures.length > 1) {
@@ -43,8 +46,6 @@ export function calcCA(app, html, data) {
         }
     };
     if (boucliers.length > 0) {
-
-        
         if (equippedBouclier.length > 0) {
             if (equippedBouclier.length > 1) {
                 ui.notifications.warn("vous avez plusieurs boucliers équippés");
@@ -52,6 +53,13 @@ export function calcCA(app, html, data) {
                 newCA += 2;
             };
         };
+    }
+    if (equippedBab.length>0){
+        for (let b of equippedBab){
+            if (b.data.armor.value>0){
+                newCA+=b.data.armor.value
+            }
+        }
     }
     let target = game.actors.get(data.actor._id);
     target.update({
