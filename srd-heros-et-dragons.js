@@ -27,6 +27,9 @@ import {
 import {
     openTipee
 } from './modules/openTipee.js';
+import{
+openIssue
+} from './modules/openIssue.js';
 import {
     trieAlphabFR
 } from './modules/trieAlpha.js';
@@ -261,28 +264,40 @@ Hooks.once("ready", function () {
         buttons: {
 
             one: {
-                icon: '<i class="fas fa-check"></i>',
-                label: "acceder au srd dans le navigateur",
+                icon: '<i class="fas fa-expand-arrows-alt"style="font-size:24px"></i>',
+                label: "<p>acceder au srd dans le navigateur</p>",
                 callback: () => openSRD()
             },
             two: {
-                icon: '<i class="fas fa-check"></i>',
-                label: "joindre le support du module sur discord",
+                icon: '<i class="fab fa-discord"style="font-size:24px"></i>',
+                label: "<p>joindre le support du module sur discord</p>",
                 callback: () => openSupport()
             },
             three: {
-                icon: '<i class="fas fa-check"></i>',
-                label: "accéder au wiki francophone dédié",
+                icon: '<i class="fab fa-wikipedia-w"style="font-size:24px"></i>',
+                label: "<p>accéder au wiki francophone dédié</p>",
                 callback: () => openWiki()
             },
             four: {
-                icon: '<i class="fas fa-check"></i>',
-                label: "accéder à la page tipee",
+                icon: '<i class="fas fa-hand-holding-usd"style="font-size:24px"></i>',
+                label: "<p>accéder à la page tipee</p>",
                 callback: () => openTipee()
+            },
+            five:{
+                icon: '<i class="fas fa-bug" style="font-size:24px"></i>',
+                label: "<p>signaler un bug ou proposer une amélioration</p>",
+                callback: () => openIssue()
             }
 
         }
-    });
+    },
+        {
+            width: 600,
+            height: 250,
+            left: 100,
+            top: 20
+        }
+    );
 
 
     //------------message et logo dans console 
