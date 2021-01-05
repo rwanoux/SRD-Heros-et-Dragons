@@ -382,6 +382,9 @@ export class creaPersoApp extends FormApplication {
 
                     break;
                 case "répartition":
+                while (caracNiv.nextElementSibling) {
+                    caracNiv.parentElement.removeChild(caracNiv.parentElement.lastChild)
+                }
                     scores = [8, 8, 8, 8, 8, 8];
                     switch (caracNiv.value) {
                         case "none":
