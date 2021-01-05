@@ -1,6 +1,7 @@
 import {
     ClassFeaturesHD
 } from "../classFeatures.js";
+import { HDSRD } from "./getSRD.js";
 import {
     levelUp
 } from "./levelup.js";
@@ -110,24 +111,17 @@ export async function checkSubClass(targetActor, targetClass) {
             await targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
 
             //---------récupérer la config de sous-classe
-            
-            console.log(newsbcl.slugify())
-
-            let subConfig = CONFIG.DND5E.classFeatures[targetClass.name.toLowerCase()].subclasses[newsbcl.slugify()];
+            let subConfig = ClassFeaturesHD[targetClass.name.toLowerCase()].subclasses[newsbcl.slugify()];
             let ids = [];
 
             for (let [l, f] of Object.entries(subConfig.features || {})) {
-                console.log(newlvl);
                 l = parseInt(l);
                 if (l== newlvl) {
                     ids=f;
                 }
             }
-           // const features = await Promise.all(ids.map(id => fromUuid(id)));
 
-            console.log(
-                ids
-            )
+           
             for (let id of ids){
               
                 let mod=id.split(".")[1];
