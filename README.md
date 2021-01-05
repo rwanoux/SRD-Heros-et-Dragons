@@ -27,6 +27,12 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 3.0.1
+
+ajout sur l'app de créa :
+-des boutons pour valider les choix
+-le calcul de caractéristiques
+
 ### release 2.0.9
 
 les babioles équippées qui ont un score en ca donne automatiquement leur bonus;

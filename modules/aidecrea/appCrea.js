@@ -26,7 +26,7 @@ export class creaPersoApp extends FormApplication {
             id: 'creaPerso',
             title: 'aide à la création',
             width: 400,
-            height: 500,
+            height: 600,
             left: 3,
             top: 20
         });
