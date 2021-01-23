@@ -1,5 +1,5 @@
 # SRD pour héros et dragon
-test
+
 ## que propose ce module
 
 le module srd-heros et dragons s'utilise sur le logiciel FoundryVTT, avec le system DnD5e.
@@ -26,6 +26,10 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
+
+### release 3.0.2
+
+ajout du Collège des Rêves de Pangé dans les compendiums classes et capacitées de classes. (merci Angor de Redjak)
 
 ### release 3.0.1
 
