@@ -1,6 +1,6 @@
 export function calcCA(app, html, data) {
     let equipement = data.items.filter(eq => eq.type == "equipment");
-    let armures = equipement.filter(arm => arm.data.armor.type == "light" ||arm.data.armor.type == "medium" ||arm.data.armor.type == "heavy" );
+    let armures = equipement.filter(arm => arm.data.armor.type == "light" || arm.data.armor.type == "medium" || arm.data.armor.type == "heavy");
     let boucliers = equipement.filter(arm => arm.data.armor.type == "shield");
     let bab = equipement.filter(arm => arm.data.armor.type == "trinket");
 
@@ -14,18 +14,18 @@ export function calcCA(app, html, data) {
     let equipedArm = equipedArmures[0];
     let dexMod = data.data.abilities.dex.mod;
     let conMod = data.data.abilities.con.mod;
-    let sagMod=data.data.abilities.wis.mod;
+    let sagMod = data.data.abilities.wis.mod;
     let newCA = 0;
 
     if (equipedArmures.length < 1) {
-        if (data.items.find(i=>i.name=="Défense sans armure [Barbare]")&& equippedBouclier.length<1){
+        if (data.items.find(i => i.name == "Défense sans armure [Barbare]") ) {
             newCA = dexMod + 10 + conMod;
-        }
-        else if(data.items.find(i=>i.name=="Défense sans Armure [Moine]")&& equippedBouclier.length<1){
+        } else if (data.items.find(i => i.name == "Défense sans Armure [Moine]") ) {
             newCA = dexMod + 10 + sagMod;
-        }
-        else{
-        newCA = dexMod + 10
+        } else if (data.items.find(i => i.name == "Résistance draconique [Lignée draconique]") ) {
+            newCA = dexMod + 13 ;
+        } else {
+            newCA = dexMod + 10
         }
     } else {
         let armor = equipedArm.data.armor.value;
@@ -37,7 +37,8 @@ export function calcCA(app, html, data) {
         }
 
         if (equipedArm.data.armor.type != "heavy") {
-            if ((equipedArm.data.armor.type == "medium") && (dexMod > maxDex)) {                newCA = maxDex + armor
+            if ((equipedArm.data.armor.type == "medium") && (dexMod > maxDex)) {
+                newCA = maxDex + armor
             } else {
                 newCA = dexMod + armor
             }
@@ -54,10 +55,10 @@ export function calcCA(app, html, data) {
             };
         };
     }
-    if (equippedBab.length>0){
-        for (let b of equippedBab){
-            if (b.data.armor.value>0){
-                newCA+=b.data.armor.value
+    if (equippedBab.length > 0) {
+        for (let b of equippedBab) {
+            if (b.data.armor.value > 0) {
+                newCA += b.data.armor.value
             }
         }
     }
