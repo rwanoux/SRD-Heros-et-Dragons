@@ -139,8 +139,6 @@ export async function checkSubClass(targetActor, targetClass) {
             }
         };
     }
-    console.log({
-        subClassChoix
-    })
+
     return subClassChoix
 }
