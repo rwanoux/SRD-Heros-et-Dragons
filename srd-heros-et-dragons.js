@@ -42,7 +42,7 @@ import {
 
 import {
     ClassFeaturesHD
-} from './modules/classFeatures.js'; //----WIP---
+} from './modules/classFeatures.js'; 
 
 import {
     diceHD
@@ -64,6 +64,8 @@ Hooks.once('diceSoNiceReady', function (dice3d) {
     diceHD(dice3d);
 
 });
+
+//----déclenchent du check de sous classe dès le premier niveau si clerc ou ensorceleur
 Hooks.on('createOwnedItem', function (targetActor, targetItem, option, id) {
     if (targetItem.name == "Clerc" || targetItem.name == "Ensorceleur") {
         checkSubClass(targetActor, targetItem);
@@ -73,10 +75,7 @@ Hooks.on('createOwnedItem', function (targetActor, targetItem, option, id) {
 
 
 
-/*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
- ----------------INIT--------------------
- -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-
+/*
 //----ceci est juste une aide pour récup les id des items
 Hooks.on("renderItemSheet5e", function (sheet) {
     console.log(`----${sheet.object.data.name}------`);
@@ -84,36 +83,15 @@ Hooks.on("renderItemSheet5e", function (sheet) {
     console.log("---------------")
 
 })
+*/
 
+
+/*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
+ ----------------INIT--------------------
+ -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 Hooks.once("init", function () {
-   // createLDM();
-    /*
-        CUB.enhancedConditions.settings.system = "Héros & Dragons",
-            CUB.enhancedConditions.settings.maps.HD = [
-                ["Aveuglé", "modules/combat-utility-belt/icons/blinded.svg", ""]
-                ["Charmé", "modules/combat-utility-belt/icons/charmed.svg", ""]
-                ["Concentration", "modules/combat-utility-belt/icons/concentrating.svg", ""]
-                ["Assourdi", "modules/combat-utility-belt/icons/deafened.svg", ""]
-                ["Epuisement 1", "modules/combat-utility-belt/icons/exhaustion1.svg", ""]
-                ["Epuisement 2", "modules/combat-utility-belt/icons/exhaustion2.svg", ""]
-                ["Epuisement 3", "modules/combat-utility-belt/icons/exhaustion3.svg", ""]
-                ["Epuisement 4", "modules/combat-utility-belt/icons/exhaustion4.svg", ""]
-                ["Epuisement 5", "modules/combat-utility-belt/icons/exhaustion5.svg", ""]
-                ["Effrayé", "modules/combat-utility-belt/icons/frightened.svg", ""]
-                ["Aggrippé", "modules/combat-utility-belt/icons/grappled.svg", ""]
-                ["Neutralisé", "modules/combat-utility-belt/icons/incapacitated.svg", ""]
-                ["Invisible", "modules/combat-utility-belt/icons/invisible.svg", ""]
-                ["Paralysé", "modules/combat-utility-belt/icons/paralyzed.svg", ""]
-                ["Petrifié", "modules/combat-utility-belt/icons/petrified.svg", ""]
-                ["Poisoned", "modules/combat-utility-belt/icons/poisoned.svg", ""]
-                ["A terre", "modules/combat-utility-belt/icons/prone.svg", ""]
-                ["Entravé", "modules/combat-utility-belt/icons/restrained.svg", ""]
-                ["Etourdi", "modules/combat-utility-belt/icons/stunned.svg", ""]
-                ["Inconscient", "icons/svg/unconscious.svg", ""]
-            ]
-
-
-    */
+   // createLDM(); // .........en attente ....
+    
     //---------déclaration des settings
     game.settings.register('srd-heros-et-dragons', 'calcCA', {
         name: "calcul de la CA",
@@ -234,8 +212,8 @@ Hooks.once("init", function () {
 
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
-        CONFIG.DND5E.classFeatures = Object.assign(CONFIG.DND5E.classFeatures,ClassFeaturesHD);
-    } 
+        CONFIG.DND5E.classFeatures = ClassFeaturesHD;
+    } else{CONFIG.DND5E.classFeatures = {}}
 
 });
 
@@ -252,7 +230,9 @@ Hooks.on("renderSidebarTab", function () {
 });
 
 
-
+//--------------------------------------
+//----modif des éléments de l'ui
+//--------------------------------------
 Hooks.once("ready", function () {
 
     //----------le menu liens externes
@@ -388,6 +368,7 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         showRessourcesClass(app, html, data);
     };
+    // calcul de CA
     if (game.settings.get('srd-heros-et-dragons', 'calcCA') && data.isCharacter == true) {
         calcCA(app, html, data);
     };
