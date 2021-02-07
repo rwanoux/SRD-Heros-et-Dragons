@@ -31,6 +31,7 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 
 correction des compendiums classes, et capa de classes.
 correction du level up qui pouvait redonner des feats des compendiums dnd5 au lieu des compendiums H&D
+correction en lot de tous les liens pointant vers heros-et-dragons.fr
 
 ### release 3.0.2
 
