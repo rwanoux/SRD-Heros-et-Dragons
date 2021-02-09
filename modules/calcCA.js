@@ -1,14 +1,14 @@
 export function calcCA(app, html, data) {
-    let equipement = data.items.filter(eq => eq.type == "equipment");
-    let armures = equipement.filter(arm => arm.data.armor.type == "light" || arm.data.armor.type == "medium" || arm.data.armor.type == "heavy");
-    let boucliers = equipement.filter(arm => arm.data.armor.type == "shield");
-    let bab = equipement.filter(arm => arm.data.armor.type == "trinket");
+    let equipement = data.items.filter(eq => eq.type == 'equipment');
+    let armures = equipement.filter(arm => arm.data.armor.type == 'light' || arm.data.armor.type == 'medium' || arm.data.armor.type == 'heavy');
+    let boucliers = equipement.filter(arm => arm.data.armor.type == 'shield');
+    let bab = equipement.filter(arm => arm.data.armor.type == 'trinket');
 
     let equippedBab = bab.filter(arm => arm.data.equipped == true);
     let equippedBouclier = boucliers.filter(b => b.data.equipped == true);
     let equipedArmures = armures.filter(arm => arm.data.equipped == true);
     if (equipedArmures.length > 1) {
-        ui.notifications.error("vous portez plusieurs armures");
+        ui.notifications.error('vous portez plusieurs armures');
         return
     };
     let equipedArm = equipedArmures[0];
@@ -18,11 +18,11 @@ export function calcCA(app, html, data) {
     let newCA = 0;
 
     if (equipedArmures.length < 1) {
-        if (data.items.find(i => i.name == "Défense sans armure [Barbare]") ) {
+        if (data.items.find(i => i.name == 'Défense sans armure [Barbare]') ) {
             newCA = dexMod + 10 + conMod;
-        } else if (data.items.find(i => i.name == "Défense sans Armure [Moine]") ) {
+        } else if (data.items.find(i => i.name == 'Défense sans Armure [Moine]') ) {
             newCA = dexMod + 10 + sagMod;
-        } else if (data.items.find(i => i.name == "Résistance draconique [Lignée draconique]") ) {
+        } else if (data.items.find(i => i.name == 'Résistance draconique [Lignée draconique]') ) {
             newCA = dexMod + 13 ;
         } else {
             newCA = dexMod + 10
@@ -31,13 +31,13 @@ export function calcCA(app, html, data) {
         let armor = equipedArm.data.armor.value;
         let maxDex = equipedArm.data.armor.dex;
         if (equipedArm.data.strength > data.data.abilities.str.value) {
-            ui.notifications.error("vous score de force ne vous permet pas de porter cette armure");
+            ui.notifications.error('vous score de force ne vous permet pas de porter cette armure');
             return
 
         }
 
-        if (equipedArm.data.armor.type != "heavy") {
-            if ((equipedArm.data.armor.type == "medium") && (dexMod > maxDex)) {
+        if (equipedArm.data.armor.type != 'heavy') {
+            if ((equipedArm.data.armor.type == 'medium') && (dexMod > maxDex)) {
                 newCA = maxDex + armor
             } else {
                 newCA = dexMod + armor
@@ -49,7 +49,7 @@ export function calcCA(app, html, data) {
     if (boucliers.length > 0) {
         if (equippedBouclier.length > 0) {
             if (equippedBouclier.length > 1) {
-                ui.notifications.warn("vous avez plusieurs boucliers équippés");
+                ui.notifications.warn('vous avez plusieurs boucliers équippés');
             } else if (equippedBouclier.length = 1) {
                 newCA += 2;
             };
@@ -64,7 +64,7 @@ export function calcCA(app, html, data) {
     }
     let target = game.actors.get(data.actor._id);
     target.update({
-        "data.attributes.ac.value": newCA
+        'data.attributes.ac.value': newCA
     })
 
 }
