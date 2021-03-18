@@ -27,6 +27,16 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 3.1.0
+
+ajout de feats "listes de sorts", par classe et niveau, disponibles dans le compendium "grimoire"
+ajout de la sous-classe Passeur pour les rôdeurs
+ajout d'historiques
+
+les liens externes sont maintenant ouvert depuis foundry et non plus un nouvel onglet de navigateur (quand cela est possible)
+
+tous les liens de "points de règles" issus d'une fiche et pointant vers le site 5e DRS français sont ouvert en petite fenetre dans le coin de foundry
+
 ### release 3.0.4
 
 correction numero de version pour avoir le bon dépot sur Forge

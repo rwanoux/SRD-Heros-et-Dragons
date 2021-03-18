@@ -366,7 +366,7 @@ await createLDM();
 
 Hooks.on("renderActorSheet5e", async function (app, html, data) {
 
-    redirectInIFrame(html)
+    await redirectInIFrame(html)
     //---trie alphabétique
     trieAlphabFR();
     //bouton montée de niveau
@@ -379,5 +379,9 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
     if (game.settings.get('srd-heros-et-dragons', 'calcCA') && data.isCharacter == true) {
         calcCA(app, html, data);
     };
+});
+Hooks.on("renderItemSheet5e", async function (app, html, data) {
+    await redirectInIFrame(html)
+
 });
 
