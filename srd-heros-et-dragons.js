@@ -2,6 +2,9 @@
 import {
     createLDM
 } from './createMonsters.js';
+import {
+    redirectInIFrame
+} from './modules/redirectInIFrame.js';
 
 import {
     calcCA
@@ -233,7 +236,7 @@ Hooks.on("renderSidebarTab", function () {
 //--------------------------------------
 //----modif des éléments de l'ui
 //--------------------------------------
-Hooks.once("ready", function () {
+Hooks.once("ready",async  function () {
 
     //----------le menu liens externes
     let liensExt = new Dialog({
@@ -349,6 +352,10 @@ Hooks.once("ready", function () {
         aideApp.render(true);
     });
 
+//livre des monstres
+/*
+await createLDM();
+*/
 
 
 
@@ -359,7 +366,7 @@ Hooks.once("ready", function () {
 
 Hooks.on("renderActorSheet5e", async function (app, html, data) {
 
-
+    redirectInIFrame(html)
     //---trie alphabétique
     trieAlphabFR();
     //bouton montée de niveau
