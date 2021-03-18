@@ -30,7 +30,7 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 ### release 3.1.0
 
 ajout de feats "listes de sorts", par classe et niveau, disponibles dans le compendium "grimoire"
-ajout de la sous-classe Passeur pour les rôdeurs
+ajout de la sous-classe Passeur pour les rôdeurs (avec les aptitudes auto à la montée de niveau)
 ajout d'historiques
 
 les liens externes sont maintenant ouvert depuis foundry et non plus un nouvel onglet de navigateur (quand cela est possible)
