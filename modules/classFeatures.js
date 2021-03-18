@@ -555,6 +555,17 @@ export const ClassFeaturesHD = {
   },
   "rôdeur": {
     "subclasses": {
+
+      "passeur":{
+        itemId:"qf2TU9kLBk8gsmxl",
+        "label": "passeur",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.gSiJGCF8uoDEvuhO","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.rQZwm6LzLAJSOt4f"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.0sJt9xIDsSVowHco","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.d7MMbJGmPfNVZM9o"],
+          "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YfUmytCouk0MQfzx"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.qysbPKK03NhRgEHc"]
+        }
+      },
       
       "chasseur": {
         itemId:"LGewF5gdQsYBBOtN",
