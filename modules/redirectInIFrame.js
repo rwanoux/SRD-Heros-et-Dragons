@@ -2,7 +2,7 @@ export async function redirectInIFrame(html) {
   // for links directly displayed
   let links = html.find("a");
   for (let a of links) {
-    if (a.href.indexOf("https://5e-drs.fr") !== -1) {
+    if ((a.href.indexOf("https://5e-drs.fr") !== -1)|| (a.href && a.href.indexOf("https://heros-et-dragons.fr") !== -1)) {
       changeHref(a);
     }
   }
@@ -17,7 +17,7 @@ export async function redirectInIFrame(html) {
         if (child.classList.contains("item-summary")) {
           for (let subchild of child.children) {
             for (let a of subchild.children)
-              if (a.href && a.href.indexOf("https://5e-drs.fr") !== -1) {
+              if ((a.href && a.href.indexOf("https://5e-drs.fr") !== -1 )|| (a.href && a.href.indexOf("https://heros-et-dragons.fr") !== -1)) {
                 changeHref(a);
               }
           }
