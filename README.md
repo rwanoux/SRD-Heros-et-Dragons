@@ -20,12 +20,16 @@ vous pouvez installer la liste de module suivant :
 ### soyez vigilant
 
 pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on trouve toujours des petites boulettes
- les valeurs des compétences ne sont pas toujours respectées pour les monstres....
+ les valeurs des compétences dues aux maitrises ne sont pas toujours respectées pour les monstres....
 
 ### voilà
 
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
+
+### release 3.1.2
+
+ajout des dons issus de Pangée 2, l'âge du changement (merci Angor de Redjak)
 
 ### release 3.1.0
 
