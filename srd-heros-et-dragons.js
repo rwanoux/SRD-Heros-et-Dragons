@@ -30,8 +30,8 @@ import {
 import {
     openTipee
 } from './modules/openTipee.js';
-import{
-openIssue
+import {
+    openIssue
 } from './modules/openIssue.js';
 import {
     trieAlphabFR
@@ -45,7 +45,7 @@ import {
 
 import {
     ClassFeaturesHD
-} from './modules/classFeatures.js'; 
+} from './modules/classFeatures.js';
 
 import {
     diceHD
@@ -56,8 +56,6 @@ import {
 import {
     checkSubClass
 } from './modules/aidecrea/checkSubClass.js'
-import Actor5e from '../../systems/dnd5e/module/actor/entity.js'
-import getClassfeaturesHD from './modules/getClassFeaturesHD.js'
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------dice so nice--------------------
@@ -93,8 +91,8 @@ Hooks.on("renderItemSheet5e", function (sheet) {
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 Hooks.once("init", function () {
-   // createLDM(); // .........en attente ....
-    
+    // createLDM(); // .........en attente ....
+
     //---------déclaration des settings
     game.settings.register('srd-heros-et-dragons', 'calcCA', {
         name: "calcul de la CA",
@@ -216,7 +214,7 @@ Hooks.once("init", function () {
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
         CONFIG.DND5E.classFeatures = ClassFeaturesHD;
-    } else{CONFIG.DND5E.classFeatures = {}}
+    } else { CONFIG.DND5E.classFeatures = {} }
 
 });
 
@@ -236,7 +234,7 @@ Hooks.on("renderSidebarTab", function () {
 //--------------------------------------
 //----modif des éléments de l'ui
 //--------------------------------------
-Hooks.once("ready",async  function () {
+Hooks.once("ready", async function () {
 
     //----------le menu liens externes
     let liensExt = new Dialog({
@@ -264,7 +262,7 @@ Hooks.once("ready",async  function () {
                 label: "<p>accéder à la page tipee</p>",
                 callback: () => openTipee()
             },
-            five:{
+            five: {
                 icon: '<i class="fas fa-bug" style="font-size:24px"></i>',
                 label: "<p>signaler un bug ou proposer une amélioration</p>",
                 callback: () => openIssue()
@@ -352,10 +350,10 @@ Hooks.once("ready",async  function () {
         aideApp.render(true);
     });
 
-//livre des monstres
-/*
-await createLDM();
-*/
+    //livre des monstres
+    /*
+    await createLDM();
+    */
 
 
 
