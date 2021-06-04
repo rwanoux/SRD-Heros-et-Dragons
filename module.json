@@ -2,30 +2,23 @@
     "name": "srd-heros-et-dragons",
     "title": "srd-heros-et-dragons",
     "description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e<p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
-    "version": "3.1.2",
-
+    "version": "3.1.3",
     "minimumCoreVersion": "0.5",
     "compatibleCoreVersion": "0.7.9",
-
-    "systems": ["dnd5e"],
-
+    "systems": [
+        "dnd5e"
+    ],
     "author": "Rwanoux, Rodskin, Elfenduil, Hara, Cimeryl, Ombreloup,Angor de Redjak",
-
-
     "esmodules": [
         "./srd-heros-et-dragons.js",
         "./modules/aidecrea/initSuivi.js",
         "./ressources_class.js"
-
-
     ],
-
     "styles": [
         "./style/aideRegles.css",
         "./style/ressources_class.css"
     ],
     "packs": [
-        
         {
             "name": "h-d-tables-de-tresors",
             "label": "H&D - Tables de trésors",
@@ -89,7 +82,6 @@
             "entity": "Item",
             "module": "srd-heros-et-dragons"
         },
-
         {
             "name": "h-d-historiques",
             "label": "H&D - Historiques",
@@ -160,14 +152,16 @@
             "entity": "Item",
             "module": "srd-heros-et-dragons"
         }
-
     ],
-    "languages": [{
-        "lang": "fr",
-        "name": "Français",
-        "path": "lang/fr.json"
-    }],
-    "dependencies": [{
+    "languages": [
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        }
+    ],
+    "dependencies": [
+        {
             "name": "babele",
             "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/-/blob/master/module/module.json",
             "version": "1.20"
@@ -182,10 +176,7 @@
             "type": "system"
         }
     ],
-
     "url": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons.git",
     "manifest": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/raw/master/module.json",
     "download": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/archive/master/srd-heros-et-dragons-master.zip"
-
-
 }
