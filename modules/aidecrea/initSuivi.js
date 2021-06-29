@@ -6,7 +6,9 @@ import {
 
 Hooks.on("renderActorSheet5e", (app, html, data) => {
 
-    //-----crée l'app de suivi en fonction des data de la fiche de perso: 
+    if (!game.settings.get('srd-heros-et-dragons', 'boutonCrea')) return;
+
+    //-----crée l'app de suivi en fonction des data de la fiche de perso:
     let crea = new creaPersoApp(data)
     console.log(data);
     if (game.user.isGM && data.isCharacter) {
@@ -17,7 +19,7 @@ Hooks.on("renderActorSheet5e", (app, html, data) => {
             butonCrea.innerHTML = '<i class="fas fa-cog"></i>aide créa';
             butonCrea.id = "HDcrea";
             butonCrea.style.marginRight="20px";
-        
+
             //
             butonCrea.addEventListener("click", () => {
                 crea.render(true);
