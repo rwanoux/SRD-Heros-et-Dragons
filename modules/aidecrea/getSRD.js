@@ -166,6 +166,7 @@ HDSRD.rules.scoresCarac = {
 
 Hooks.once("ready", function () {
 
+  console.log("----------------------------------------------------------------------------------------")
   const packRace = game.packs.get("srd-heros-et-dragons.h-d-races");
   const packTrRaciaux = game.packs.get("srd-heros-et-dragons.h-d-traits-raciaux");
   const packClasse = game.packs.get("srd-heros-et-dragons.h-d-classes-et-specialisations");

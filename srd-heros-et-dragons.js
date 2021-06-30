@@ -67,25 +67,11 @@ Hooks.once('diceSoNiceReady', function (dice3d) {
 });
 
 //----déclenchent du check de sous classe dès le premier niveau si clerc ou ensorceleur
-Hooks.on('createOwnedItem', function (targetActor, targetItem, option, id) {
-    if (targetItem.name == "Clerc" || targetItem.name == "Ensorceleur") {
-        checkSubClass(targetActor, targetItem);
+Hooks.on('createItem', function (item) {
+    if (item.name == "Clerc" || item.name == "Ensorceleur") {
+        checkSubClass(item.actor, item);
     }
 })
-
-
-
-
-/*
-//----ceci est juste une aide pour récup les id des items
-Hooks.on("renderItemSheet5e", function (sheet) {
-    console.log(`----${sheet.object.data.name}------`);
-    console.log(sheet.object.data._id);
-    console.log("---------------")
-
-})
-*/
-
 
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
@@ -159,35 +145,15 @@ Hooks.once("init", function () {
         onChange: () => window.location.reload()
     });
 
-    game.settings.register('srd-heros-et-dragons', 'aideJeu', {
-        name: "aide de jeu",
-        hint: "affiche un bouton permettant d'accéder à une aide de jeu",
-        scope: "world",
-        config: true,
-        default: true,
-        type: Boolean,
-        onChange: () => window.location.reload()
-    });
-
-    game.settings.register('srd-heros-et-dragons', 'boutonCrea', {
-        name: "bouton de création",
-        hint: "affiche un bouton sur la feuille de personnage permettant d'accéder à la création de personnage",
-        scope: "world",
-        config: true,
-        default: true,
-        type: Boolean,
-        onChange: () => window.location.reload()
-    });
-
     if (game.settings.get('srd-heros-et-dragons', 'ressourcesClass')) {
         initRessourcesClass();
     }
     //appliquer css selon les options de config du module
     if (game.settings.get('srd-heros-et-dragons', 'HDstyle')) {
 
-        // Create new link Element
+        // Create new link Element 
         var styleHD = document.createElement('link');
-        // set the attributes for link element
+        // set the attributes for link element 
         styleHD.rel = 'stylesheet';
         styleHD.type = 'text/css';
         styleHD.href = '/modules/srd-heros-et-dragons/style/HD.css';
@@ -195,27 +161,27 @@ Hooks.once("init", function () {
         document.getElementsByTagName('HEAD')[0].appendChild(styleHD);
 
 
-        // Create new link Element
+        // Create new link Element 
         var styleHDbetterNPC = document.createElement('link');
-        // set the attributes for link element
+        // set the attributes for link element 
         styleHDbetterNPC.rel = 'stylesheet';
         styleHDbetterNPC.type = 'text/css';
         styleHDbetterNPC.href = '/modules/srd-heros-et-dragons/style/HDbetterNPC.css';
         styleHDbetterNPC.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDbetterNPC);
 
-        // Create new link Element
+        // Create new link Element 
         var styleHDmidiqol = document.createElement('link');
-        // set the attributes for link element
+        // set the attributes for link element 
         styleHDmidiqol.rel = 'stylesheet';
         styleHDmidiqol.type = 'text/css';
         styleHDmidiqol.href = '/modules/srd-heros-et-dragons/style/HDmidiqol.css';
         styleHDmidiqol.media = 'all';
         document.getElementsByTagName('HEAD')[0].appendChild(styleHDmidiqol);
 
-        // Create new link Element
+        // Create new link Element 
         var styleHDtidysheet = document.createElement('link');
-        // set the attributes for link element
+        // set the attributes for link element 
         styleHDtidysheet.rel = 'stylesheet';
         styleHDtidysheet.type = 'text/css';
         styleHDtidysheet.href = '/modules/srd-heros-et-dragons/style/HDtidysheet.css';
@@ -234,8 +200,7 @@ Hooks.once("init", function () {
     //modif des évolution de classes depuis ./modules/classFeatures.js
     if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
         CONFIG.DND5E.classFeatures = ClassFeaturesHD;
-    } else { CONFIG.DND5E.classFeatures = {} }
-
+    }
 });
 
 //--------------------------------------
@@ -299,7 +264,7 @@ Hooks.once("ready", async function () {
     );
 
 
-    //------------message et logo dans console
+    //------------message et logo dans console 
 
 
     console.log(`--------Heros et Dragons SRD Ready--------------------------------`);
@@ -307,41 +272,41 @@ Hooks.once("ready", async function () {
       .......................................
 
       .....................:*=#=+-...........
-
+      
       ..................-=##=-...............
-
+      
       ................-=####*:*=#######*:....
-
+      
       ...........-:..*#############*:........
-
+      
       ..........=#####################=*-....
-
+      
       .........*##########################=-.
-
+      
       ........-########################*-::+-
-
+      
       ...-...+###########=-..+##########=-...
-
+      
       ..+#:+=#######:=##:.....-###########=..
-
+      
       .-##########=-:##+......+########+.*#+.
-
+      
       .+#####=+....-=#=......*########=....:.
-
+      
       .:#=+-..-*##====:....+##########*......
-
+      
       ..-..-++:-........-=###########=.......
-
+      
       ...............-=#############=........
-
+      
       .............-=#############*..........
-
+      
       ............+##########=+-.............
-
+      
       ............######=+-..................
-
+      
       ............=##=:......................
-
+      
       .............+.........................
       `);
 
@@ -358,19 +323,17 @@ Hooks.once("ready", async function () {
     });
 
     //------------ajout bouton aide de regles
-    if (game.settings.get('srd-heros-et-dragons', 'aideJeu')) {
-        let zoneAide = document.createElement('div');
-        renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
-            zoneAide.id = "openAide";
-            zoneAide.innerHTML = html;
-            document.body.append(zoneAide);
-        });
+    let zoneAide = document.createElement('div');
+    renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
+        zoneAide.id = "openAide";
+        zoneAide.innerHTML = html;
+        document.body.append(zoneAide);
+    });
 
-        let aideApp = new aidejeu;
-        zoneAide.addEventListener("click", function () {
-            aideApp.render(true);
-        });
-    }
+    let aideApp = new aidejeu;
+    zoneAide.addEventListener("click", function () {
+        aideApp.render(true);
+    });
 
     //livre des monstres
     /*

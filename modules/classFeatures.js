@@ -208,9 +208,9 @@ export const ClassFeaturesHD = {
   },
   "druide": {
     "subclasses": {
-      "cercle-de-la-terre ": {
+      "cercle-de-la-terre": {
         itemId: "5FjOBU7dmTaasv5E",
-        "label": "cercle de la terre ",
+        "label": "cercle de la terre",
         "source": "",
         "features": {
           "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.1fw44VkbSv8pycQj", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YrRVAnsAw20XAm3i"],
