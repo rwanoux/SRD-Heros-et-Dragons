@@ -104,6 +104,7 @@ export async function checkSubClass(targetActor, targetClass) {
             //--------mettre le flag de sous-classe
             await targetActor.setFlag("srd-heros-et-dragons", "subclasse.label", subcl.name);
 
+            /*
             //---------récupérer la config de sous-classe
             let subConfig = ClassFeaturesHD[targetClass.name.toLowerCase()].subclasses[newsbcl.slugify()];
             let ids = [];
@@ -125,7 +126,7 @@ export async function checkSubClass(targetActor, targetClass) {
                 let packfeat = game.packs.get(pckName);
                 let featDocument = await packfeat.getDocument(idF)
                 await targetActor.createEmbeddedDocuments('Item', [featDocument.data])
-            }
+            }*/
         };
     }
 
