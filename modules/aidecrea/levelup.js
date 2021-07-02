@@ -63,7 +63,6 @@ export  function levelUp(html, data) {
 
       },
     }];
-    console.log({update})
     await targetActor.updateEmbeddedDocuments("Item", update);
     ui.notifications.info(targetActor.name + " passe au niveau " + update[0].data.levels + "  dans sa classe " + targetClass.name);
   }

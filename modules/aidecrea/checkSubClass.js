@@ -1,11 +1,6 @@
 import {
     ClassFeaturesHD
 } from "../classFeatures.js";
-import { HDSRD } from "./getSRD.js";
-import {
-    levelUp
-} from "./levelup.js";
-
 export async function checkSubClass(targetActor, targetClass) {
     //récupérer la classe et son niveau
     console.log({

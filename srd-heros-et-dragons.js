@@ -197,10 +197,8 @@ Hooks.once("init", function () {
         CONFIG.debug.hooks = false;
     }
 
-    //modif des évolution de classes depuis ./modules/classFeatures.js
-    if (game.settings.get('srd-heros-et-dragons', 'levelUp')) {
-        CONFIG.DND5E.classFeatures = ClassFeaturesHD;
-    }
+      //Merge both dnd5e and hnd class features
+      CONFIG.DND5E.classFeatures = {...ClassFeaturesHD, ...CONFIG.DND5E.classFeatures};
 });
 
 //--------------------------------------
