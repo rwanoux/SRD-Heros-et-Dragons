@@ -27,6 +27,14 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 3.1.4
+* Ajout de la compatibilité 0.8.X de foundry
+* Ajout d'un parametre afin d'activer ou non l'aide de jeu
+* Ajout d'un parametre afin d'activer ou non l'aide a la creation
+* L'ajout des competence est as present gerer par le module dnd5e.
+
+
+
 ### release 3.1.3
 
 correction d'un import inutile et bloquant sur forge-vtt.com
