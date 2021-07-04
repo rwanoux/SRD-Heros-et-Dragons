@@ -80,6 +80,28 @@ Hooks.once("init", function () {
     // createLDM(); // .........en attente ....
 
     //---------déclaration des settings
+
+    game.settings.register('srd-heros-et-dragons', 'aideJeu', {
+        name: "aide de jeu",
+        hint: "affiche un bouton permettant d'accéder à une aide de jeu",
+        scope: "world",
+        config: true,
+        default: true,
+        type: Boolean,
+        onChange: () => window.location.reload()
+    });
+
+    game.settings.register('srd-heros-et-dragons', 'boutonCrea', {
+        name: "bouton de création",
+        hint: "affiche un bouton sur la feuille de personnage permettant d'accéder à la création de personnage",
+        scope: "world",
+        config: true,
+        default: true,
+        type: Boolean,
+        onChange: () => window.location.reload()
+    });
+
+
     game.settings.register('srd-heros-et-dragons', 'calcCA', {
         name: "calcul de la CA",
         hint: "calculer automatiquement la classe d'armure en fonction de l'armure équipée, uniquement sur les personnage joueurs ",
@@ -321,17 +343,20 @@ Hooks.once("ready", async function () {
     });
 
     //------------ajout bouton aide de regles
-    let zoneAide = document.createElement('div');
-    renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
-        zoneAide.id = "openAide";
-        zoneAide.innerHTML = html;
-        document.body.append(zoneAide);
-    });
+    if (game.settings.get('srd-heros-et-dragons', 'aideJeu')) {
+        let zoneAide = document.createElement('div');
+        renderTemplate("modules/srd-heros-et-dragons/templates/menuAide.html").then(html => {
+            zoneAide.id = "openAide";
+            zoneAide.innerHTML = html;
+            document.body.append(zoneAide);
+        });
 
-    let aideApp = new aidejeu;
-    zoneAide.addEventListener("click", function () {
-        aideApp.render(true);
-    });
+        let aideApp = new aidejeu;
+        zoneAide.addEventListener("click", function () {
+            aideApp.render(true);
+        });
+    }
+
 
     //livre des monstres
     /*

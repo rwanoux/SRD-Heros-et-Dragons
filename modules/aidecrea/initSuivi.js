@@ -6,6 +6,7 @@ import {
 
 Hooks.on("renderActorSheet5e", (app, html, data) => {
 
+    if (!game.settings.get('srd-heros-et-dragons', 'boutonCrea')) return;
     //-----crée l'app de suivi en fonction des data de la fiche de perso: 
     let crea = new creaPersoApp(data)
     console.log(data);
