@@ -27,6 +27,16 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 3.1.6
+Ajout des spécialisation de classes venant des gazettes : 
+Magicien - maître d'étude, 
+Barde - Collège des Taromanciens, 
+Guerrier - Officier, 
+Barbare - Voie des steppes
+
+### release 3.1.5
+* Changement des unité de mesure ft => m,  mi => km
+
 ### release 3.1.4
 * Ajout de la compatibilité 0.8.X de foundry
 * Ajout d'un parametre afin d'activer ou non l'aide de jeu
