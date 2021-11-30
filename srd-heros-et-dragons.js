@@ -58,13 +58,13 @@ import {
  ----------------dice so nice--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
 
-Hooks.once('diceSoNiceReady', function (dice3d) {
+Hooks.once('diceSoNiceReady', function(dice3d) {
     diceHD(dice3d);
 
 });
 
 //----déclenchent du check de sous classe dès le premier niveau si clerc ou ensorceleur
-Hooks.on('createItem', function (item) {
+Hooks.on('createItem', function(item) {
     if (item.name == "Clerc" || item.name == "Ensorceleur") {
         checkSubClass(item.actor, item);
     }
@@ -73,7 +73,7 @@ Hooks.on('createItem', function (item) {
 /*-- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -
  ----------------INIT--------------------
  -- -- -- -- -- --- -- -- --- -- -- -- -- -- -- -*/
-Hooks.once("init", function () {
+Hooks.once("init", function() {
     // createLDM(); // .........en attente ....
 
     //---------déclaration des settings
@@ -196,14 +196,14 @@ Hooks.once("init", function () {
         CONFIG.debug.hooks = false;
     }
 
-      //Merge both dnd5e and hnd class features
-      CONFIG.DND5E.classFeatures = {...ClassFeaturesHD, ...CONFIG.DND5E.classFeatures};
+    //Merge both dnd5e and hnd class features
+    CONFIG.DND5E.classFeatures = {...ClassFeaturesHD, ...CONFIG.DND5E.classFeatures };
 });
 
 //--------------------------------------
 //----setting compendiums
 //--------------------------------------
-Hooks.on("renderSidebarTab", function () {
+Hooks.on("renderSidebarTab", function() {
     if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
         compendiumColor();
     }
@@ -216,7 +216,7 @@ Hooks.on("renderSidebarTab", function () {
 //--------------------------------------
 //----modif des éléments de l'ui
 //--------------------------------------
-Hooks.once("ready", async function () {
+Hooks.once("ready", async function() {
 
     //----------le menu liens externes
     let liensExt = new Dialog({
@@ -239,26 +239,20 @@ Hooks.once("ready", async function () {
                 label: "<p>accéder au wiki francophone dédié</p>",
                 callback: () => openWiki()
             },
+
             four: {
-                icon: '<i class="fas fa-hand-holding-usd"style="font-size:24px"></i>',
-                label: "<p>accéder à la page tipee</p>",
-                callback: () => openTipee()
-            },
-            five: {
                 icon: '<i class="fas fa-bug" style="font-size:24px"></i>',
                 label: "<p>signaler un bug ou proposer une amélioration</p>",
                 callback: () => openIssue()
             }
 
         }
-    },
-        {
-            width: 600,
-            height: 250,
-            left: 100,
-            top: 20
-        }
-    );
+    }, {
+        width: 600,
+        height: 250,
+        left: 100,
+        top: 20
+    });
 
 
     //------------message et logo dans console 
@@ -315,7 +309,7 @@ Hooks.once("ready", async function () {
 
     //--------------ouvrir le menu lien sur click logo
     logo.setAttribute("title", "liens externes");
-    logo.addEventListener("click", function () {
+    logo.addEventListener("click", function() {
         liensExt.render(true);
     });
 
@@ -329,7 +323,7 @@ Hooks.once("ready", async function () {
         });
 
         let aideApp = new aidejeu;
-        zoneAide.addEventListener("click", function () {
+        zoneAide.addEventListener("click", function() {
             aideApp.render(true);
         });
     }
@@ -347,10 +341,10 @@ Hooks.once("ready", async function () {
 //-------------action sur feuille de perso---------
 //-------------------------------------------------
 
-Hooks.on("renderActorSheet5e", async function (app, html, data) {
+Hooks.on("renderActorSheet5e", async function(app, html, data) {
 
     await redirectInIFrame(html)
-    //---trie alphabétique
+        //---trie alphabétique
     trieAlphabFR();
     //bouton montée de niveau
     levelUp(html, data);
@@ -359,8 +353,7 @@ Hooks.on("renderActorSheet5e", async function (app, html, data) {
         showRessourcesClass(app, html, data);
     };
 });
-Hooks.on("renderItemSheet5e", async function (app, html, data) {
+Hooks.on("renderItemSheet5e", async function(app, html, data) {
     await redirectInIFrame(html)
 
 });
-
