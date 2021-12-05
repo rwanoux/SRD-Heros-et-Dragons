@@ -27,6 +27,29 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+
+### release 3.1.9
+## Objets magiques et trésors
+* Mise à jour des types d'objets magiques
+* Mise à jour des harmonisations
+* Mise à jour de la rareté
+* Suppression de quelques doublons
+* Modification des noms d'objets "à 2 mains" en "à deux mains"
+* Correction de quelques tailles/poids de certains conteneurs
+## Équipement d'aventurier
+* Mise à jour des types d'arme
+* Mise à jour des types d'armure
+* Mise à jour des types d'outil (avec la nomenclature D&D car la nomenclature H&D n'est pas disponible)
+* Rajout des dégâts et de la propriété "Polyvalente (1d8)" sur tous les bâtons (même les focalisateurs)
+* Toutes les munitions ont maintenant une portée de 1.5 mètres (car c'est l'arme qui gère la portée) et retrait des dégâts (l'arme de base qui gère cela également)
+* Mise à jour de quelques portées qui étaient restées en pieds
+* Mise à jour de la vitesse des véhicules
+* Traduction de quelques textes restés en anglais
+## Bestiaire 
+* Mise a jour du type de créatures.
+* Mise a jour des sens. 
+
+
 ### release 3.1.8
 * Ajout des classes de pangée
 * Ajout des races de pangée. 
