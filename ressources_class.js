@@ -1,7 +1,4 @@
 import {
-  monkeypatchSheet
-} from "./lib/itemSheet5e.js";
-import {
   darkSheetCompat
 } from "./compat/darksheetCompat.js";
 
@@ -65,7 +62,7 @@ export async function initRessourcesClass(){
 
 
   // Monkeypatch item sheet list so it shows up under the resources for items/spells
-  monkeypatchSheet(itemResources);
+  //monkeypatchSheet(itemResources);
 
   // Compatibility
   game.modules.forEach((module) => {

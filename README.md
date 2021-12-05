@@ -27,6 +27,32 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+### release 3.1.8
+* Ajout des classes de pangée
+* Ajout des races de pangée. 
+
+### release 3.1.7
+* Correction de la feuille d'objet concernant la consommation des ressources quand les "ressources de classes" sont activés.
+* Suppression de l'option du calcul auto de la CA et de l'option de l'ajout auto des compétences ( ces deux options sont à présent gérées par le module Dnd5e)
+
+### release 3.1.6
+* Ajout des spécialisation de classes venant des gazettes : 
+* Magicien - maître d'étude, 
+* Barde - Collège des Taromanciens, 
+* Guerrier - Officier, 
+* Barbare - Voie des steppes
+
+### release 3.1.5
+* Changement des unité de mesure ft => m,  mi => km
+
+### release 3.1.4
+* Ajout de la compatibilité 0.8.X de foundry
+* Ajout d'un parametre afin d'activer ou non l'aide de jeu
+* Ajout d'un parametre afin d'activer ou non l'aide a la creation
+* L'ajout des competence est as present gerer par le module dnd5e.
+
+
+
 ### release 3.1.3
 
 correction d'un import inutile et bloquant sur forge-vtt.com

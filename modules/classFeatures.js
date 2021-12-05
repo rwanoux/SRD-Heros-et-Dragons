@@ -28,7 +28,16 @@ export const ClassFeaturesHD = {
 
   "barbare": {
     "subclasses": {
-
+      "voie-des-steppes":{
+        itemId: "OlLC19OLTobi9qa8",
+        "label": "voie des steppes",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.xcqo6dwfjT0szRWX"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.nALYptgvEnQC5MNH", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.tlHq78VZ3oYdFI7T"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.JqJl4SbfdJq7UPFK"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.1ZnFOTpPeUVpnQOY"]
+        }
+      },
       "voie-du-berserker": {
         itemId: "Rhpqwrfuv0CqCnpO",
         "label": "voie du berserker",
@@ -37,6 +46,26 @@ export const ClassFeaturesHD = {
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.liQaLdiheNXIxt1s"],
           "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.EYyuiTdtJOQWDJD8"],
           "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.6ceqA7YX7ImkZgIw"]
+        }
+      },
+      "voie-de-la-bete": {
+        itemId: "hNidHrjR4w7S8dea",
+        "label": "Voie de la bête",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.f7nDe4ZEY4g8GZ0y", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.zVREmcA5hsF8aNv7"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.p0uqHDfgO7TATjy0"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.lRWhSvQ7H42g5e6Q"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.5QeW0J8gHvZTYjSm"]
+        }
+      },
+      "voie-des-glaces": {
+        itemId: "ryYSWKUbAbHNtagj",
+        "label": "Voie des glaces",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.xaRjQ6138mPZERhx", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.957MxwWr1DT64y6e"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.5ywGscTy0ZzSm0j8"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.hJGUe3JsfRrTYZlv"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.sabwvcqfTtqdCpr8"]
         }
       },
       "voie-des-esprits": {
@@ -91,6 +120,16 @@ export const ClassFeaturesHD = {
   },
   "barde": {
     "subclasses": {
+      "college-des-taromanciens": {
+        itemId: "TWK4ms4wCX1ej8GF",
+        "label": "collège des taromanciens",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.i41FpgX7aHmnrJvb", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.VJmkBelww9OrEfG0", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.SO4PBDnAdruZDyMq"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.kFIBvQtGdl9KvXMd", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.I9cocZBLRIJ8bGEN"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.eKpB9VaJZY16r1Cj"]
+
+        }
+      },
       "college-du-savoir": {
         itemId: "pKBJS25gOBsREigY",
         "label": "collège du savoir",
@@ -98,6 +137,16 @@ export const ClassFeaturesHD = {
           "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YdtPZbHMmiAq6l8I", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.CdvbauIcKegO8ML4"],
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.w96a1KwKm8nrI1lE"],
           "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.0HwCqSXlgqK1WarN"]
+
+        }
+      },
+      "college-des-reves": {
+        itemId: "AlHynzOhLMb7OxTd",
+        "label": "Collège des rêves",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.6CbTzZdPLYgP08Zd", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.IQApPx1gWzFV4u1H"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7Ap5zgUTyuWMYECt", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.0x5mSKLdxBGwc0Ul"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.9u9SahXSzjH7QMcB"]
 
         }
       },
@@ -157,10 +206,32 @@ export const ClassFeaturesHD = {
   },
   "clerc": {
     "subclasses": {
-      "gardien-des-traditions": {
-        itemId: "hNiEM4kbaCDucPZx",
-        "label": "gardien des traditions",
+      "mortifie": {
+        itemId: "PcH8VEzODF6TgVEM",
+        "label": "Mortifié",
         "source": "PS:A pg. 27",
+        "features": {  
+          "1" : ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.2wCpb2Pbu7PPjOMr", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.gUeeahnla8iJs8om"],        
+          "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.ijpj2LytrghQL0UV"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.nzYKLKlviKUnn3Qa"],
+          "8": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.tOzQQR7yxJ96MinG", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.LsSqYVzpWQxsO0IV"],
+          "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.9VgGXFlaR54raYZm"]}
+      },
+      "oracle": {
+        itemId: "9Vkx6yx2LNRZGena",
+        "label": "Oracle",
+        "source": "Pangée",
+        "features": {  
+          "1" : ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.FdLP1L0YZB8phPtx", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.58IRhsRlop5ZzVnI"],        
+          "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UfYvhk2jijQ0cosZ"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.eJNhduLiSS6f7ZuZ"],
+          "8": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.uMMO8mGyjyld5Avp"],
+          "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.1ALPVFn6FgGsUJIS"]}
+      },
+      "guide-spirituel": {
+        itemId: "Gs9nZNUP0qi1k0fE",
+        "label": "guide spirituel",
+        "source": "SCAG pg. 125",
         "features": {}
       },
       "guide-spirituel": {
@@ -209,6 +280,18 @@ export const ClassFeaturesHD = {
   "druide": {
     "subclasses": {
       "cercle-de-la-terre": {
+        itemId: "5FjOBU7dmTaasv5E",
+        "label": "cercle de la terre",
+        "source": "",
+        "features": {
+          "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.1fw44VkbSv8pycQj", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YrRVAnsAw20XAm3i"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.wn0sYsBRMmgfoqs5"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.fL0zYqsCeLlmKWqj"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.genLZykjKNTd58r0"]
+
+        }
+      },
+            "cercle-de-la-terre": {
         itemId: "5FjOBU7dmTaasv5E",
         "label": "cercle de la terre",
         "source": "",
@@ -343,6 +426,28 @@ export const ClassFeaturesHD = {
   },
   "guerrier": {
     "subclasses": {
+      "officier" : {
+        itemId: "YoWBrgmDLuymqiwZ",
+        "label": "officier",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.vjZcFHASKBMnt15O", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.nsxeJfivn7RxSfGN"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.b6AbaqeRJ9Mp9dPi"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.17E7hV0SyUABVzK0", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YV83v0Zwi2qtieSe"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.vMc7MtISYn56KsKg"],
+          "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.O9AjCJ7qBRYlJ6vD"]
+        }
+      },
+      "philaxien": {
+        itemId: "QEq5GuliJJ8rjnzL",
+        "label": "Philaxien",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.DS69sYXOJGdiwM0M", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.otX3O7l121jmIdiJ"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.57CRJeA9nAiMIjEI"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.dcRsvdPcSkpKdD9t"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.3cT5IMWLUf32sm1g"],
+          "18": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.JqStHk4gDFsLvsp7"]
+        }
+      },
       "champion": {
         itemId: "Vz01jw91zE5h0d9e",
         "label": "champion",
@@ -428,6 +533,17 @@ export const ClassFeaturesHD = {
 
         }
       },
+      "voie-des-fleurs": {
+        "label": "voie des fleurs",
+        itemId:"SXsOfh64ngEmMT4S",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Mb9pvR1Luu9ORnaa", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.hJDxBqRriU3QrueZ"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.M6KdJlQVNAYR8hC6"],
+          "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Hny6PHaNtbDITD6V"],
+          "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.W7iuXqe9KNmCdech"]
+
+        }
+      },
       "voie-des-cinq-animaux": {
         itemId:"2BYeY61vjDh1SeRk",
         "label": "voie des cinq animaux",
@@ -491,6 +607,17 @@ export const ClassFeaturesHD = {
           "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Srs63LSxcKxjlouB"],
           "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.xpicqm5IrtAQpcOe"],
           "20": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.sHA7eF6Geia4lz21"]
+
+        }
+      },
+      "serment-d-alienation": {  
+        itemId:"C7pMWAgxrVbK1p2p",
+        "label": "serment d'aliénation",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.OQncZ63jKEZ4W1gH","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.zutZprUm78YazBE2","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.cSuv7kbOR2PICZF2","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.1tAp58zRiINJZ5lO"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.xepmvuUX5A8aQikb"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.FteXpLsGsoQe5A9g"],
+          "20": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.K6CtcqiHWdOvko0x"]
 
         }
       },
@@ -564,6 +691,16 @@ export const ClassFeaturesHD = {
           "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.0sJt9xIDsSVowHco","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.d7MMbJGmPfNVZM9o"],
           "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YfUmytCouk0MQfzx"],
           "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.qysbPKK03NhRgEHc"]
+        }
+      },
+      "ombrelin":{
+        itemId:"qf2TU9kLBk8gsmxl",
+        "label": "ombrelin",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.6a1DcNBlOEfsZola","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.KS19qEGJpDWSanu1"],
+          "7": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.9VcMPDISJfTuXdJ1"],
+          "11": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.xzCKGfjeSmJEZpsO"],
+          "15": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.l4Fz6JaRPIfBMkJR", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.V9MvT4qVROi8yoaT"]
         }
       },
       
@@ -656,6 +793,28 @@ export const ClassFeaturesHD = {
 
         }
       },
+      "mistheos": {
+        itemId:"mTJDtj7FXjciKesZ",
+        "label": "Mistheos",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.kO3g0h4WX0zCaqVx","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.MrobimF8RGeYD3n4"],
+          "9": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.XKGWSYi982iNNIiV", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.mX5ckMrqpB2dafMM"],
+          "13": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.kOxCAL5vE2JcnZql", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.KPmcd70TUSVTVBqL"],
+          "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.EjhAjGkgcNllGotc"],
+
+        }
+      },
+      "kalanthe": {
+        itemId:"mTJDtj7FXjciKesZ",
+        "label": "Kalanthe",
+        "features": {
+          "3": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Cltspym3oOfketff","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.cj1EfNeB2P35USt7"],
+          "9": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.TMSHEbEbvhV8W9iR", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.S9hHTC7e8wuCvkJD"],
+          "13": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7Zb6foFmN6HRyZMu"],
+          "17": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Yz9DYYzRicyIUf2c"],
+
+        }
+      },
       "espion": {
         itemId:"VOI1lMJfEDuJ8RDd",
         "label": "espion",
@@ -718,6 +877,11 @@ export const ClassFeaturesHD = {
         "features": {
         }
       },
+      "le-seigneur-deux-visages": {
+        itemId:"T7bzqck8ceDOBzL9",
+        "label": "le seigneur deux-visages",
+        "features": {}
+      },
       "l-entite-extra-dimensionnelle": {
         itemId:"rYm5b2xiSVmCeiRo",
         "label": "l'entité extra dimensionnelle",
@@ -734,6 +898,28 @@ export const ClassFeaturesHD = {
   },
   "magicien": {
     "subclasses": {
+      "maitre-d-etude" : {
+        itemId:"ljfq4hLKMlvSO73P",
+        "label" : "maître d étude",
+        "features": {
+          "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7qgGe7Xz1arLEj7W","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.WPDA9GTMF1psqknU"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.kHDJ5Ks9X7ZyBMob"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.zEY3NIoT3QjiN2YZ"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.ieAqJ3ZzJaZOYJO8"]
+
+        }
+      },
+      "mage-de-guerre" : {
+        itemId:"Mru8AD8CS0vSPxSN",
+        "label" : "Mage de guerre",
+        "features": {
+          "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.7ljb5b5M1fUrPt8J","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.5VNnuDp3gKy50K2d"],
+          "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UJrmaI8wtDC0xjVp", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.CB5dpMdbFjq5zfVi"],
+          "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.va5K0NW1zFjM9U0d"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.QWHgt0jEAfz4fih5", "Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Bgys0yxczgoimiWd"]
+
+        }
+      },
       "academicien": {
         itemId:"JoXpAGvr1NcT2rWK",
         "label": "académicien",
@@ -741,7 +927,7 @@ export const ClassFeaturesHD = {
           "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.DtIApEucRughBwNE","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.JGzjbBTucngqVKUw"],
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.YjXVwzCilA9MnMLj"],
           "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.ABfJIT9WnpcBHzoE"],
-          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UhKCDf0G39WkHSLe"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UhKCDf0G39WkHSLe"]
 
         }
       },
@@ -752,7 +938,7 @@ export const ClassFeaturesHD = {
           "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.27dJNNk7X889wNXD"],
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Mp5pWksmn8Xv0uca"],
           "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.UNumwRGp7DsQehTr","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.G0R4uq1i2I4jlUTJ"],
-          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.782PA8u02h1qf5rH"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.782PA8u02h1qf5rH"]
 
         }
       },
@@ -771,7 +957,7 @@ export const ClassFeaturesHD = {
           "2": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.2oA6bQOfv5zDxD4B","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.taQ3pFYFknYgXPgC"],
           "6": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.kk4gEypoRPRaYiIO","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.Z5SW9uqtlmIO5ooQ"],
           "10": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.BVeiss8ir17B5dd0","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.mft4E1Kfr2ZZqb9l"],
-          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.py54MvmZFHragxP4","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.57RSavG87vrOxHfx"],
+          "14": ["Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.py54MvmZFHragxP4","Compendium.srd-heros-et-dragons.h-d-capacites-de-classes.57RSavG87vrOxHfx"]
 
         }
       },
