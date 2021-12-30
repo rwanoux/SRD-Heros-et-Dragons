@@ -28,6 +28,9 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
 
+## release 3.2
+* Module is now compatible with v9.
+
 ## release 3.1.9
 ### Objets magiques et trésors
 * Mise à jour des types d'objets magiques
