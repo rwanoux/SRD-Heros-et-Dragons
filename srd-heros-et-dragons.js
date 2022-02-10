@@ -1,8 +1,5 @@
 //fonctions et class déportées
 import {
-    createLDM
-} from './createMonsters.js';
-import {
     redirectInIFrame
 } from './modules/redirectInIFrame.js';
 
@@ -24,9 +21,6 @@ import {
 import {
     openSupport
 } from './modules/openSupport.js';
-import {
-    openTipee
-} from './modules/openTipee.js';
 import {
     openIssue
 } from './modules/openIssue.js';
