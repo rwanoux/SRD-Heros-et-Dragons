@@ -27,6 +27,11 @@ pensez à vérifier les caracs des monstres, on fait du mieux qu'on peut mais on
 **vous pouvez retrouver les contributeurs et remonter les erreurs/bugs/propositions sur le [discord francophone de foundryVTT](https://discord.gg/pPSDNJk)**
 ***Rwanoux, Rodskin, Elfenduil, Hara aka la machine à faire des compendiums, Cimeryl, et toute la team Héros et Dragons du discord***
 
+## release 3.3
+* Ajout des images sur les tokens
+* Ajustement de la CA des creatures
+* Ajustement de la perception passive des creatures
+* Ajustement des deplacement des creatures
 
 ## release 3.2
 * Module is now compatible with v9.
