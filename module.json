@@ -2,9 +2,11 @@
 	"id": "srd-heros-et-dragons",
 	"title": "srd-heros-et-dragons",
 	"description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e<p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
-	"authors": [{
-		"name": "Rwanoux"
-	}],
+	"authors": [
+		{
+			"name": "Rwanoux"
+		}
+	],
 	"version": "10",
 	"compatibility": {
 		"minimum": "10",
@@ -14,7 +16,8 @@
 	"esmodules": [
 		"srd-heros-et-dragons.js"
 	],
-	"packs": [{
+	"packs": [
+		{
 			"name": "HnD-tables-de-tresors",
 			"label": "HnD. Tables de trésors",
 			"path": "packs/HnD-tables-de-tresors.db",
@@ -168,21 +171,23 @@
 		}
 	],
 	"relationships": {
-		"systems": [{
-			"id": "dnd5e",
-			"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-			"compatibility": {
-				"minimum": "2.0.1",
-				"verified": "2.0.1",
-				"maximum": "2.0.3"
+		"systems": [
+			{
+				"id": "dnd5e",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"minimum": "2.0.1",
+					"verified": "2.0.1",
+					"maximum": "2.0.3"
+				}
 			}
-		}],
-		"socket": false,
-		"url": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons.git",
-		"manifest": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/raw/master/module.json",
-		"download": "https://gitlab.com/lemaire.erw/srd-heros-et-dragons/-/archive/rls-10.0.0/srd-heros-et-dragons-rls-10.0.0.zip",
-		"protected": false,
-		"coreTranslation": false,
-		"library": false
-	}
+		]
+	},
+	"socket": false,
+	"url": "replace at release",
+	"manifest": "replace at release",
+	"download": "replace at release",
+	"protected": false,
+	"coreTranslation": false,
+	"library": false
 }
