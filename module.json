@@ -170,6 +170,50 @@
 			"system": "dnd5e"
 		}
 	],
+	"packFolders": [
+		{
+			"name": "HnD",
+			"sorting": "m",
+			"color": "#3C8633",
+			"packs": [
+			],
+			"folders": [
+				{
+					"name": "Personnages",
+					"sorting": "m",
+					"color": "#377C2E",
+					"packs": [
+						"HnD-dons",
+						"HnD-capacites-de-classes",
+						"HnD-grimoire",
+						"HnD-races",
+						"HnD-traits-raciaux",
+						"HnD-équipement-aventurier",
+						"HnD-historiques",
+						"HnD-Classes-spécialisations",
+						"HnD-aptitudes-historiques"
+					]
+				},
+				{
+					"name": "Regles",
+					"sorting": "m",
+					"color": "#306C29",
+					"packs": [
+						"HnD-tables-de-tresors",
+						"HnD-conditions",
+						"HnD-bestaire",
+						"HnD-capacités-du-bestiaire",
+						"HnD-objets-magiques-et-trésors",
+						"HnD-tables-de-rencontres-aleatoires",
+						"HnD-tables-d'evenements-aleatoires",
+						"HnD-poisons-et-maladies",
+						"HnD-folies",
+						"HnD-pieges"
+					]
+				}
+			]
+		}
+	],
 	"relationships": {
 		"systems": [
 			{
