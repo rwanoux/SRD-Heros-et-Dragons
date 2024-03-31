@@ -2,7 +2,11 @@
 	"id": "srd-heros-et-dragons",
 	"title": "srd-heros-et-dragons",
 	"description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e<p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
-	"version": "11.0.0",
+	"version": "4.2.0",
+	"socket": false,
+	"protected": false,
+	"coreTranslation": false,
+	"library": false,
 	"authors": [
 		{
 			"name": "Rwanoux"
@@ -13,9 +17,18 @@
 		"verified": "10.282",
 		"maximum": "11"
 	},
-	"esmodules": [
-		"srd-heros-et-dragons.js"
-	],
+	"languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "languages/de.json"
+        }
+    ],
 	"packs": [
 		{
 			"name": "HnD-tables-de-tresors",
@@ -214,6 +227,21 @@
 			]
 		}
 	],
+    "esmodules": ["module.js"],
+    "styles": [],
+    "compatibility": {
+        "minimum": 11,
+        "verified": 11,
+        "maximum": 11
+    },
+    "manifestPlusVersion": "1.2.1",
+    "url": "https://github.com/rwanoux/SRD-Heros-et-Dragons",
+    "manifest": "https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/4.2.0/module.json",
+    "download": "https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/4.2.0/module.zip",
+    "readme": "https://github.com/rwanoux/SRD-Heros-et-Dragons/blob/master/README.md",
+    "changelog": "https://github.com/rwanoux/SRD-Heros-et-Dragons/blob/master/CHANGELOG.md",
+    "bugs": "https://github.com/rwanoux/SRD-Heros-et-Dragons/issues",
+    "allowBugReporter": true,
 	"relationships": {
 		"systems": [
 			{
@@ -225,13 +253,12 @@
 					"maximum": "3.1.0"
 				}
 			}
-		]
-	},
-	"socket": false,
-	"url": "replace at release",
-	"manifest": "replace at release",
-	"download": "replace at release",
-	"protected": false,
-	"coreTranslation": false,
-	"library": false
+		],
+		"recommended": [
+            {
+                "id": "compendium-themer",
+                "type": "module"
+            }
+        ]
+	}
 }
