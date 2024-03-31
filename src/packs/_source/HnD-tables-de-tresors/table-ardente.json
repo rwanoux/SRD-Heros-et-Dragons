@@ -1,0 +1,114 @@
+{
+  "_id": "8DRU6lYTfBsGGwPJ",
+  "name": "Table Ardente",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 4400000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "26RphXfwyIvFeWEp",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Cimeterre ardent",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/fire_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "hVgYpadnpvkDkeEi",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!8DRU6lYTfBsGGwPJ.26RphXfwyIvFeWEp"
+    },
+    {
+      "_id": "YcoQY3aHJaB3R5BZ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée courte ardente",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/fire_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "n2Pkq9UkPhEjAPO3",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!8DRU6lYTfBsGGwPJ.YcoQY3aHJaB3R5BZ"
+    },
+    {
+      "_id": "bfQPlasnUliqob0t",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue ardente",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/fire_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "qSAzcmOsil67BDCI",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!8DRU6lYTfBsGGwPJ.bfQPlasnUliqob0t"
+    },
+    {
+      "_id": "DgCt2zwZvtFgth0j",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Rapière ardente",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/fire_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "2kPOdZ38irEbmKKA",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!8DRU6lYTfBsGGwPJ.DgCt2zwZvtFgth0j"
+    }
+  ],
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!8DRU6lYTfBsGGwPJ"
+}

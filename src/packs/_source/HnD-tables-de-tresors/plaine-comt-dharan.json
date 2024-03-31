@@ -1,0 +1,87 @@
+{
+  "_id": "OvRk42mAIHaZkOpy",
+  "name": "Plaine Comté d'Haran",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "8Oz6FRw9EDevrDa4",
+  "sort": 100000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "none",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Rencontre aléatoire",
+  "results": [
+    {
+      "_id": "p2C79kXPDcoK8v3v",
+      "flags": {},
+      "type": 0,
+      "text": "Rien",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        70
+      ],
+      "drawn": false,
+      "_key": "!tables.results!OvRk42mAIHaZkOpy.p2C79kXPDcoK8v3v"
+    },
+    {
+      "_id": "fNKHNcnIqXa3KC7q",
+      "flags": {},
+      "type": 2,
+      "text": "Gobelin",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/cowled.svg",
+      "collection": "srd-heros-et-dragons.HnD-bestaire",
+      "resultId": "mwfrQRYlnXas0NSb",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_key": "!tables.results!OvRk42mAIHaZkOpy.fNKHNcnIqXa3KC7q"
+    },
+    {
+      "_id": "GqQgx56IfH9nRvb3",
+      "flags": {},
+      "type": 2,
+      "text": "Sanglier",
+      "img": "systems/dnd5e/tokens/beast/Boar.png",
+      "collection": "dnd5e.monsters",
+      "resultId": "lZR4lhNmYSf89s4Q",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_key": "!tables.results!OvRk42mAIHaZkOpy.GqQgx56IfH9nRvb3"
+    },
+    {
+      "_id": "9TUFvHD9VNI4ziZP",
+      "flags": {},
+      "type": 2,
+      "text": "Serpent venimeux",
+      "img": "systems/dnd5e/tokens/beast/PoisonousSnake.png",
+      "collection": "dnd5e.monsters",
+      "resultId": "D5rwVIxmfFrdyyxT",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "_key": "!tables.results!OvRk42mAIHaZkOpy.9TUFvHD9VNI4ziZP"
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!OvRk42mAIHaZkOpy"
+}

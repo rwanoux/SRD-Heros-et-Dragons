@@ -1,0 +1,136 @@
+{
+  "_id": "hYeWSFf5XgUkjj8y",
+  "name": "Table Baton OM5",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 6900000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "HFEZCjZXi6skdpsI",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Bâton d'envoûtement",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-green.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "xXKxbU2wuyCCzk9F",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hYeWSFf5XgUkjj8y.HFEZCjZXi6skdpsI"
+    },
+    {
+      "_id": "FV616mL5cWVKDI5K",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Bâton de flétrissement",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-skull.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "lrdO3nVw2cVWYLu0",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hYeWSFf5XgUkjj8y.FV616mL5cWVKDI5K"
+    },
+    {
+      "_id": "LugeZKKrvRXWnPiO",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Bâton de guérison",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-green.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "OSNw0qvj9byJMfFL",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hYeWSFf5XgUkjj8y.LugeZKKrvRXWnPiO"
+    },
+    {
+      "_id": "XaYB9n2EpRRJ33Vm",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Bâton des forêts",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-vine.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "8z7yV5RgCnP6D0Hb",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hYeWSFf5XgUkjj8y.XaYB9n2EpRRJ33Vm"
+    },
+    {
+      "_id": "iOS5IK55gmF6DGGC",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Bâton du grand essaim",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-vine.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "Kryu6yOnL87VoRzR",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hYeWSFf5XgUkjj8y.iOS5IK55gmF6DGGC"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!hYeWSFf5XgUkjj8y"
+}

@@ -1,0 +1,114 @@
+{
+  "_id": "j1Y9zkFpFwhUExVX",
+  "name": "Table Voleuse de vie",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 4200000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "AnGbL3PWK1iB0D18",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée à 2 mains Voleuse de vies",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/shadow_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "QPXWp5KGPiRo7B8D",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!j1Y9zkFpFwhUExVX.AnGbL3PWK1iB0D18"
+    },
+    {
+      "_id": "CuUV5nZ8r4qFNiF5",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée courte Voleuse de vies",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/shadow_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "HSLzoxzRwmeNx5Ym",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!j1Y9zkFpFwhUExVX.CuUV5nZ8r4qFNiF5"
+    },
+    {
+      "_id": "7LOLk9SJRwME99a1",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue Voleuse de vies",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/shadow_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "R3klWapWkiqrXJJn",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!j1Y9zkFpFwhUExVX.7LOLk9SJRwME99a1"
+    },
+    {
+      "_id": "2fYDs3F9n8xG2iDv",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Rapière Voleuse de vies",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/shadow_13.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "VB5TgEWmiHu3a1io",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!j1Y9zkFpFwhUExVX.2fYDs3F9n8xG2iDv"
+    }
+  ],
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!j1Y9zkFpFwhUExVX"
+}
