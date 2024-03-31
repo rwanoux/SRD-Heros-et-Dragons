@@ -1,0 +1,131 @@
+{
+  "_id": "wC9Ap2bgEtQVLcON",
+  "name": "Catalepsie",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous placez une créature vivante consentante en état cataleptique qu'il est impossible de distinguer d'un véritable état de mort par des moyens normaux.</p>\n<p>Le sujet est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#aveuglé\"><em>aveuglé</em></a> et <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#inconscient\"><em>inconscient</em></a>, incapable de bouger. Il ne ressent aucune blessure ou autre mauvais traitement et aucune réaction corporelle ne se produit, comme si le sujet était réellement mort. Toutefois, les dégâts sont encaissés normalement. Si la cible était malade ou <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#empoisonné\"><em>empoisonnée</em></a> au moment de l'incantation, ou si un poison est introduit dans son corps durant l'action du sort, le poison est retardé pour la durée du sort. Le poison ou la maladie fera à nouveau pleinement effet à la fin du sort.</p>\n<p><strong>À plus haut niveau</strong>. Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau supérieur, sa durée augmente et le sort s'apparente alors à une longue hibernation (la cible ne vieillit plus pendant cette période) : un jour au niveau 4, une semaine au niveau 5, un mois au niveau 6, un an au niveau 7, dix ans au niveau 8 et enfin jusqu'à un siècle au niveau 9. Lorsqu'elle sort de catalepsie, la cible subit un niveau d'épuisement par niveau du sort au-delà du niveau 3 (jusqu'à un maximum de 5). Au niveau 9, la cible doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de constitution difficulté 8 + 1 tous les dix ans écoulés lorsqu'elle sort du sommeil, ou mourir immédiatement.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Un petit morceau de linceul",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688225,
+    "modifiedTime": 1663923689514,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!wC9Ap2bgEtQVLcON"
+}

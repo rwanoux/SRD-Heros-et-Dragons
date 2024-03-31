@@ -1,0 +1,92 @@
+{
+  "_id": "bpBh9mKcjCsNc7tn",
+  "name": "Sceptre de vigilance",
+  "type": "consumable",
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce sceptre à la tête en collerette possède les propriétés suivantes.</p>\n<p><strong>Vigilance</strong>. Tant que vous tenez le sceptre en main, vous obtenez l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors des tests de Sagesse (Perception) et des jets d'initiative.</p>\n<p><strong>Sorts</strong>. Tant que vous tenez le sceptre en main, vous pouvez utiliser une action pour lancer un des sorts suivants par son biais :&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-de-la-magie/\">détection de la magie</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien/\">détection du mal et du bien</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-du-poison-et-des-maladies/\">détection du poison et des maladies</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/voir-l-invisible/\">voir l'invisible</a>.</p>\n<p><strong>Aura protectrice</strong>. Par une action, vous pouvez planter le manche du sceptre dans le sol pour que sa tête diffuse une lumière vive sur un rayon de 18 mètres et une lumière faible sur 18 mètres au-delà. Vous et les créatures amicales envers vous situés dans la zone vivement éclairée bénéficient d'un bonus de +1 à la CA et aux jets de sauvegarde. Vous et ces mêmes créatures pouvez également percevoir la position d'éventuelles créatures hostiles et&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible\">invisibles</a>&nbsp;qui se tiennent elles aussi dans la zone vivement éclairée.</p>\n<p>La lumière diffusée par la tête du sceptre s'éteint et l'effet prend fin au bout de 10 minutes ou quand une créature utilise une action pour déplanter le sceptre. Il faut attendre l'aube suivante avant de pouvoir réutiliser cette propriété.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2.5,
+    "price": 25000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Le sceptre doit être planté dans le sol (Aura protectrice)."
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": 18,
+      "long": 36,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "rod",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701286,
+    "modifiedTime": 1663923702679,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!bpBh9mKcjCsNc7tn"
+}

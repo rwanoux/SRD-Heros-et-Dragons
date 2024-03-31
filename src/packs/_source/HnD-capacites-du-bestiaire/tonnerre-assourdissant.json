@@ -1,0 +1,89 @@
+{
+  "name": "Tonnerre Assourdissant",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/lightning/bolt-strike-blue.webp",
+  "_id": "qKR6ZPUunTjz5kjL",
+  "system": {
+    "description": {
+      "value": "<p><strong>Tonnerre assourdissant.</strong> Une vague sonore assourdissante émane du dragon dans la direction de son choix, sur 3 mètre de large et 6 mètre de long. Toute créature qui n'est pas son allié doit réussir un jet de sauvegarde de Constitution, sous peine de quoi elle est assourdie pendant 1 round, subit 2d6 dégâts de tonnerre, et est bousculée de 3 mètres dans la direction opposée au dragon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 3,
+      "width": null,
+      "units": "m",
+      "type": "line"
+    },
+    "range": {
+      "value": 6,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "repoussé de 3 mètres.",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon de Bronze (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698974,
+    "modifiedTime": 1663923700229,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!qKR6ZPUunTjz5kjL"
+}

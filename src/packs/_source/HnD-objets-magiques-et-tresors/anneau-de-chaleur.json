@@ -1,0 +1,108 @@
+{
+  "_id": "5TIZGoTSaRbdZXIA",
+  "name": "Anneau de chaleur",
+  "type": "equipment",
+  "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Vous bénéficiez d'une résistance contre les dégâts de froid tant que vous portez cet anneau au doigt. De plus, vous et tout l'équipement que vous portez êtes protégés contre les températures extrêmement basses (jusque -10 degrés Celsius).</span></span></span></span></p>\n<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Harmonisation requise.</span></span></span></span></p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 1000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "trinket",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701032,
+    "modifiedTime": 1663923701861,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5TIZGoTSaRbdZXIA"
+}

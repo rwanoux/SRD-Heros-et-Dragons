@@ -1,0 +1,86 @@
+{
+  "_id": "uqtub49rQMT7XHsC",
+  "name": "solidatrité populaire (Villageois)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/magic/nature/tree-roots-glow-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les gens du commun se reconnaissent facilement entre eux et se serrent les coudes. Dans n'importe quelle communauté rurale, vous recevez facilement le gîte et le couvert chez l'habitant, souvent en échange de menus travaux. De plus, quand vous en avez besoin, vous trouvez toujours une tâche pouvant vous rapporter quelques pièces durement gagnées dans une ferme des environs. vous savez aussi reconnaître des signes indiquant la proximité d'une ferme, d'un village ou d'un hameau à quelques kilomètres à la ronde, et pouvez le trouver sans effort</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "villageois",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703921,
+    "modifiedTime": 1663923704014,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!uqtub49rQMT7XHsC"
+}

@@ -1,0 +1,166 @@
+{
+  "_id": "EplFqMSYSHjnE9pS",
+  "name": "Rapière",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {
+        "finesse": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "1662086b-2ad5-4acc-97fe-3ed2bffefc3f",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "ae267442-f954-4fd9-8679-937d3ba73fb9",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "9b6911bd-d5e7-451b-989c-af8eb252fd21",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 8,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "prc",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Une lame métallique mince et résistante, légère mais de longue portée, conçue pour des attaques rapides afin de cibler les points faibles des défenses ennemies avec une rapidité fulgurante.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 1,
+    "price": 25,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "rapier",
+    "properties": {
+      "fin": true,
+      "two": false,
+      "rch": false,
+      "lod": false,
+      "fir": false,
+      "foc": false,
+      "thr": false,
+      "lgt": false,
+      "hvy": false,
+      "amm": false,
+      "ver": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700575,
+    "modifiedTime": 1663923700575,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EplFqMSYSHjnE9pS"
+}

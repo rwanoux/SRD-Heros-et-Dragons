@@ -1,0 +1,118 @@
+{
+  "_id": "WLWEHhFw6KFqw0hE",
+  "name": "Corrosif",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/earth/orb-stone-smoke-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Corrosif. </strong>Un &ecirc;tre qui touche la cr&eacute;ature ou qui r&eacute;ussit une attaque au corps &agrave; corps contre elle &agrave; une distance maximale de 1,50 m&egrave;tre subit des d&eacute;g&acirc;ts d'acide. Les armes non-magiques en m&eacute;tal ou en bois qui entrent en contact avec la cr&eacute;ature se corrodent. Apr&egrave;s avoir inflig&eacute; ses d&eacute;g&acirc;ts, une arme de ce type subit un malus permanent et cumulatif de -1 aux jets de d&eacute;g&acirc;ts. L'arme est d&eacute;truite si le malus cumul&eacute; atteint -5. Les munitions non-magiques en m&eacute;tal ou en bois qui entrent en contact avec le pouding sont d&eacute;truites apr&egrave;s avoir inflig&eacute; leurs d&eacute;g&acirc;ts. La cr&eacute;ature peut ronger une &eacute;paisseur de 5 centim&egrave;tres de bois non-magique en 1 round.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": "",
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": ""
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698856,
+    "modifiedTime": 1663923699743,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!WLWEHhFw6KFqw0hE"
+}

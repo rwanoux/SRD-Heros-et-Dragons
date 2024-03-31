@@ -1,0 +1,84 @@
+{
+  "name": "Lenteur",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/tools/navigation/watch-simple-blue.webp",
+  "_id": "iVRReShtyh9wGNev",
+  "system": {
+    "description": {
+      "value": "<p><strong>Lenteur (Recharge 5-6).</strong> Le golem cible une ou plusieurs créatures situées dans son champ de vision à 3 mètres ou moins de lui. Les cibles doivent chacune effectuer un jet de sauvegarde de Sagesse DD 17 contre cette magie. En cas de jet de sauvegarde raté, une cible ne peut plus effectuer de réaction, sa vitesse est réduite de moitié et elle ne peut pas effectuer plus d'une attaque lors de son tour. De plus, la cible peut effectuer soit une action, soit une action bonus lors de son tour, mais pas les deux. Ces effets durent 1 minute. Une cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours et mettre fin à l'effet dont elle est victime en cas de réussite.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 3,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 17,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698947,
+    "modifiedTime": 1663923700120,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!iVRReShtyh9wGNev"
+}

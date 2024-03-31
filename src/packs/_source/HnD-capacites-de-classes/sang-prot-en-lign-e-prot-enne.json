@@ -1,0 +1,170 @@
+{
+  "_id": "V7vqxZrMW4SNYV2I",
+  "name": "Sang protéen [Lignée Protéenne]",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": false
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": false
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Sang prot&eacute;en</strong></h3>\n<p>D&egrave;s le niveau 1, la magie qui coule dans vos veines vous permet d&rsquo;augmenter la puissance de vos sorts. H&eacute;las, vous n&rsquo;avez pas encore acc&egrave;s &agrave; la formidable source de puissance qui sommeille en vous et subissez de terribles br&ucirc;lures de magie lorsque vous y faites appel.</p>\n<p>Lorsque vous lancez un sort que vous avez appris via la classe d&rsquo;ensorceleur, vous pouvez utiliser une action bonus pour sacrifiez 1d6 PV afin d&rsquo;augmenter l&rsquo;emplacement de sort que vous utilisez d&rsquo;un niveau (ce qui correspond &agrave; la rubrique &laquo; &Agrave; plus haut niveau &raquo; de certains sorts). Vous ne pouvez pas lancer un sort de niveau sup&eacute;rieur mais seulement augmenter le niveau auquel le sort est lanc&eacute; (il est possible de d&eacute;passer le niveau d&rsquo;emplacement du sort auquel vous avez normalement acc&egrave;s de cette fa&ccedil;on).</p>\n<p>Par exemple, si vous sacrifiez 1d6 PV sur un sort de @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BO8EamopfMTbkd54]{Projectile magique}, vous lancez deux fl&eacute;chettes qui infligent 1d4+1 d&eacute;g&acirc;ts au lieu d&rsquo;une seule (vous avez alors lanc&eacute; le sort comme si vous aviez utilis&eacute; un emplacement de sort de niveau 2).</p>\n<p>Vous pouvez augmenter le niveau de l&rsquo;emplacement de sort d&rsquo;un maximum &eacute;gal &agrave; votre bonus de ma&icirc;trise.</p>\n<p>Par exemple, au niveau 1, vous pouvez lancer trois @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BO8EamopfMTbkd54]{Projectile magique} pour un total de 3d4+3 d&eacute;g&acirc;ts en vous infligeant 2d6 d&eacute;g&acirc;ts (emplacement de sort de niveau 1 plus bonus de ma&icirc;trise de +2). Ce qui est probablement suffisant pour vous tuer.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée l'âge des héros",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685416,
+    "modifiedTime": 1678387958581,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!V7vqxZrMW4SNYV2I"
+}

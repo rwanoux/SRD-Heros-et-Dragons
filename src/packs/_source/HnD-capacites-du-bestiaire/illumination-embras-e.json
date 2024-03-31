@@ -1,0 +1,118 @@
+{
+  "name": "Illumination Embrasée",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "details"
+  },
+  "img": "icons/magic/fire/explosion-mushroom-nuke-orange.webp",
+  "_id": "5zDcwSoSIzBaMnvK",
+  "system": {
+    "description": {
+      "value": "<p><strong>Illumination embrasée.</strong> Par une action bonus, la créature peut s'embraser ou étouffer ses flammes. Tant qu'il est en feu, la créature diffuse une lumière vive sur un rayon de 3 mètres et une lumière faible sur un rayon de 3 mètres supplémentaires.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698751,
+    "modifiedTime": 1663923699307,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5zDcwSoSIzBaMnvK"
+}

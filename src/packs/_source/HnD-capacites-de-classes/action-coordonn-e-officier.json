@@ -1,0 +1,100 @@
+{
+  "name": "Action coordonnée [Officier]",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake-gray.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_id": "O9AjCJ7qBRYlJ6vD",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 18, lorsque vous utilisez votre sursaut d'activité, désignez un allié dans un rayon de 18 m. Ce dernier doit être capable de vous entendre et de vous comprendre. Utilisez votre réaction et dépensez deux dés de commandement. Votre allié bénéficie aussi des effets de la capacité @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5C1yFuTrJyvHLbBp]{Sursaut d'activité [Guerrier]}. Cependant, il lui est impossible de lancer un sort grâce aux effets du sursaut d'activité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette Role'n Play #7",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "ally"
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Guerrier / Officier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685377,
+    "modifiedTime": 1678407521470,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!O9AjCJ7qBRYlJ6vD"
+}

@@ -1,0 +1,123 @@
+{
+  "_id": "PbpbAUqxp6llFD7e",
+  "name": "Inspirer la bravoure [Collège des Hérauts]",
+  "type": "feat",
+  "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"inspirer-la-bravoure\"><strong>Inspirer la bravoure</strong></h3>\n<p>Au niveau 14, sur un champ de bataille, votre simple pr&eacute;sence assure les protagonistes que leurs exploits ne seront pas oubli&eacute;s, les poussant &agrave; toujours plus de bravoure ! Durant un combat, vous pouvez d&eacute;penser une@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]} et utiliser une action bonus pour permettre &agrave; tous vos alli&eacute;s &agrave; moins de 18 m&egrave;tres de lancer un d&eacute; d'inspiration bardique et d'ajouter le r&eacute;sultat &agrave; l'un de leurs jets d'attaque avant votre prochain tour. Ils peuvent aussi ajouter ce r&eacute;sultat &agrave; tous les jets de sauvegarde contre l'effet <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise\">terroris&eacute;</a> pour la m&ecirc;me dur&eacute;e.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "turn"
+    },
+    "target": {
+      "value": 18,
+      "width": null,
+      "units": "ft",
+      "type": "ally"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685385,
+    "modifiedTime": 1663923686759,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PbpbAUqxp6llFD7e"
+}

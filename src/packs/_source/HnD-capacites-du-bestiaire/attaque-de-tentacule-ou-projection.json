@@ -1,0 +1,89 @@
+{
+  "name": "Attaque de tentacule ou Projection",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/tentacles/tentacles-thing-green.webp",
+  "_id": "OlU8hGeKX1Cbrli5",
+  "system": {
+    "description": {
+      "value": "<p><strong>Attaque de tentacule ou Projection.</strong> La créature effectue une attaque de tentacule ou utilise sa Projection.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d6+@mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Kraken",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698819,
+    "modifiedTime": 1663923699596,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!OlU8hGeKX1Cbrli5"
+}

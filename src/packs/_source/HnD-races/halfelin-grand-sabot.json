@@ -1,0 +1,150 @@
+{
+  "_id": "MtDEqYCUGmOxmlnv",
+  "name": "Halfelin Grand-sabot",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traits-des-halfelins\">Traits des halfelins</h2>\n        <p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Dextérité augmente de 2.</p>\n        <hr>\n        <p><strong>Âge</strong>. Un halfelin atteint la maturité vers 20 ans et vit généralement 150 ans.</p>\n        <hr>\n        <p><strong>Alignement</strong>. La majorité des halfelins est d'alignement Loyal Bon. Ce sont par nature des êtres qui ont un bon cœur et qui sont affables. Ils détestent voir les autres créatures souffrir et ne tolèrent pas l'oppression. Ils sont aussi très organisés et respectueux des traditions. Ils se reposent beaucoup sur leur communauté et le confort apporté par leurs coutumes.</p>\n        <hr>\n        <p><strong>Taille.</strong> D'une taille moyenne de 90 centimètres, les halfelins pèsent environ 20 kg. Ils sont de petite taille.</p>\n        <hr>\n        <p><strong>Vitesse</strong>. Votre vitesse au sol de base est de 7,50 mètres.</p>\n        <hr>\n        <p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"d3hwaVPYE0Cp0iNH\"><i class=\"fas fa-suitcase\"></i> Chanceux (Halfelin)</a></p>\n        <hr>\n        <p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"NFnf56IeYL3pCCeP\"><i class=\"fas fa-suitcase\"></i> Brave (Halfelin)</a></p>\n        <hr>\n        <p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"ZUz7A6r6dTCQSOvf\"><i class=\"fas fa-suitcase\"></i> Agilité halfeline (Halfelin)</a></p>\n        <hr>\n        <p><strong>Langues</strong>. Vous pouvez parler, lire et écrire en commun et en halfelin. Bien que la langue des halfelins n'ait rien d'un secret, ils n'aiment pas l'apprendre aux autres. Ils écrivent très peu et n'ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, une langue dont ils partagent l'alphabet, ce qui leur permet de converser avec les gens qui habitent sur les mêmes territoires qu'eux ou dont ils traversent les terres.</p>\n        <p>&nbsp;</p>\n        <h3 id=\"halfelin-grand-sabot\"><strong>Halfelin grand-sabot</strong></h3>\n        <p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Constitution augmente de 1.</p>\n        <hr>\n        <p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"CaJK6HutGG3k78b1\"><i class=\"fas fa-suitcase\"></i> Esprit pragmatique (Halfelin Grand-sabot)</a></p>\n        <hr>\n        <p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"LGrKfhhEowYC9e0z\"><i class=\"fas fa-suitcase\"></i> Travailleur acharné (Halfelin Grand-sabot)</a></p>\n        <p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923697909,
+    "modifiedTime": 1663923698020,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MtDEqYCUGmOxmlnv"
+}

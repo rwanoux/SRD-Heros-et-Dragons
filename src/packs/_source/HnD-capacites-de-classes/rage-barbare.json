@@ -1,0 +1,120 @@
+{
+  "_id": "pUzecWUR9I8m0Ytv",
+  "name": "Rage [Barbare]",
+  "type": "feat",
+  "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "entityorder": {
+      "order": 204
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"rage\"><strong>Rage</strong></h3>\n<p>Quand vous vous retrouvez au cœur de la bataille, vous êtes animé d'une férocité animale. Lors de votre tour, vous pouvez utiliser une action bonus pour être pris de rage. Tant que vous êtes enragé, et si vous ne portez pas d'armure lourde, vous obtenez les bénéfices suivants :</p>\n<ul>\n<li>Vous bénéficiez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> sur les tests de Force et les jets de sauvegarde de Force.</li>\n<li>Quand vous utilisez une arme de corps-à-corps, vous gagnez un bonus aux jet de dégâts. Ce bonus augmente en même temps que votre niveau (voir le tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.JsgSKJQJyxqRDNW9]{Barbare}, colonne dégâts de rage).</li>\n<li>Vous devenez résistant aux dégâts contondants, perforants et tranchants.</li>\n</ul>\n<p>Par contre, tant que vous êtes enragé, vous ne pouvez pas lancer de sort ou vous concentrer sur des sorts, même si vous en avez normalement la capacité.</p>\n<p>Votre rage dure 1 minute (10 rounds). Cet état prend fin plus tôt si vous êtes inconscient ou si votre tour se termine et que vous n'avez pas attaqué de créature hostile ou subi de dégât depuis la fin de votre dernier tour. Vous pouvez aussi utiliser une action bonus pour mettre fin à cet état pendant votre tour.</p>\n<p>Une fois que vous êtes entré en état de rage le nombre de fois permis par votre niveau (voir le tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.JsgSKJQJyxqRDNW9]{Barbare}, colonne rages), vous devez terminer un repos long avant de pouvoir entrer de nouveau en rage</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": "",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685637,
+    "modifiedTime": 1678402377106,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pUzecWUR9I8m0Ytv"
+}

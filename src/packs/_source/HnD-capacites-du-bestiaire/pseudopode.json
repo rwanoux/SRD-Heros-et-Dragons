@@ -1,0 +1,139 @@
+{
+  "name": "Pseudopode",
+  "type": "weapon",
+  "flags": {},
+  "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+  "_id": "3Bqd7tlNTf4tT79c",
+  "system": {
+    "description": {
+      "value": "<p><strong>Pseudopode.</strong> Attaque d'arme au corps à corps sur une cible. Allonge 1,50 m. Dégâts en fonction du type de créature. Des effets supplémentaires peuvent s'ajouter en fonction de la créature.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "quantity": null,
+    "weight": null,
+    "price": null,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": false,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "xd6 + @mod",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "",
+    "properties": {
+      "value": "",
+      "amm": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "hvy": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false
+    },
+    "proficient": false,
+    "recharge": {
+      "value": null,
+      "charged": null
+    },
+    "time": {
+      "value": "",
+      "_deprecated": null
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698734,
+    "modifiedTime": 1663923699234,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!3Bqd7tlNTf4tT79c"
+}

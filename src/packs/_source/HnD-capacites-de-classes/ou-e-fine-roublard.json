@@ -1,0 +1,120 @@
+{
+  "_id": "Mi2VtUYjFpE0qKkV",
+  "name": "Ouïe Fine [Roublard]",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "details",
+    "entityorder": {
+      "order": 150
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"ouie-fine\"><strong>Ouïe fine</strong></h3><p>À partir du niveau 14, tant que vous pouvez entendre ce qui se passe autour de vous, vous êtes en mesure de déterminer la position de toute créature <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible\">invisible</a> ou cachée qui se trouve dans un rayon de 3 mètres.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": 3,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685369,
+    "modifiedTime": 1678414459860,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Mi2VtUYjFpE0qKkV"
+}

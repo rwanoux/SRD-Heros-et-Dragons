@@ -1,0 +1,84 @@
+{
+  "_id": "xvrjTRH55qQxzxwV",
+  "name": "Monture Magique",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/tools/smithing/horseshoe-steel-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Monture magique.</strong> La créature étend sa résistance aux dégâts nécrotique à toute personne qui le monte De plus il peut utiliser, sur lui-même uniquement, le sort marche sur l'eau. Il doit terminer un repos court avant de pouvoir à nouveau utiliser cette capacité. La créature n'accepte de servir de monture que pour des créatures d'alignement Loyal Bon, Neutre Bon ou Loyal Neutre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions.",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923699008,
+    "modifiedTime": 1663923700342,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!xvrjTRH55qQxzxwV"
+}

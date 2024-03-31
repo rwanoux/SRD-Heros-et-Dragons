@@ -1,0 +1,84 @@
+{
+  "_id": "Bb75PEV5CzvxLZ3i",
+  "name": "Maîtrise - Évocation [Académicien]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&Eacute;vocation</span></strong></h3>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong>Sorts puissants</strong> : Vous ajoutez votre bonus de ma&icirc;trise aux d&eacute;g&acirc;ts des sorts d'&eacute;vocation. Si votre sort affecte plusieurs cibles, votre bonus de ma&icirc;trise ne s'applique qu'&agrave; une seule cible de votre choix. Si votre sort inflige des d&eacute;g&acirc;ts durant plusieurs rounds, votre bonus de d&eacute;g&acirc;t ne s'applique qu'au premier round.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuels de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685230,
+    "modifiedTime": 1663923686317,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Bb75PEV5CzvxLZ3i"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Brumes Nauséabondes",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/fog-gas-smoke-green.webp",
+  "_id": "eIoVN8VU07UxHsGP",
+  "system": {
+    "description": {
+      "value": "<p><strong>Brumes nauséabondes.</strong> L'humidité se manifeste aussi par une brume quasi-permanente, dont émane une forte odeur de pourriture. Hormis le dragon et ses alliés, à chaque heure passée dans le rayon d'effet, une créature doit réussir un jet de sauvegarde de Constitution ou subir 1d6 dégâts de poison.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Noir (Effets Régionaux) ",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698926,
+    "modifiedTime": 1663923700033,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!eIoVN8VU07UxHsGP"
+}

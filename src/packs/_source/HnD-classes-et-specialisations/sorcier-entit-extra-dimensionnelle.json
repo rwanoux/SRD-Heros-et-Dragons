@@ -1,0 +1,93 @@
+{
+  "_id": "VkBjumrifrjpPnic",
+  "name": "[Sorcier] Entité extra-dimensionnelle",
+  "type": "subclass",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"protecteurs-d-outre-monde\"><strong>Protecteurs d'outre-monde</strong></h2>\n<h3 id=\"l-entite-extra-dimensionnelle\"><strong>L'entité extra-dimensionnelle</strong></h3>\n<h4> </h4>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0igbbEg28HyP6Agz]{Liste de sorts étendue [Entité extra-dimensionnelle]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E8zNqBnGBkQ6B4F9]{Apparence trompeuses [Entité extra-dimensionnelle]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NRzHZ2Fpq0IsmNpP]{Duo-dimension [Entité extra-dimensionnelle]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dlC4QSoQtxqnwdmS]{Magie extra-dimensionnelle [Entité extra-dimensionnelle]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.r1zzQciWi3GHpYrS]{Bond temporel [Entité extra-dimensionnelle]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "entite-extra-dimensionnelle",
+    "classIdentifier": "sorcier",
+    "advancement": [
+      {
+        "_id": "phuadmhjj3ak04nj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.r1zzQciWi3GHpYrS"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "cvcttwich8d6orfd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dlC4QSoQtxqnwdmS"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "qdmqv6d948b0s0ya",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NRzHZ2Fpq0IsmNpP"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "vi0bhihepjgyzpd6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0igbbEg28HyP6Agz",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E8zNqBnGBkQ6B4F9"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703411,
+    "modifiedTime": 1663923703595,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!VkBjumrifrjpPnic"
+}

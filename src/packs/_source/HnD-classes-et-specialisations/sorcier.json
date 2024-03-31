@@ -1,0 +1,267 @@
+{
+  "name": "Sorcier",
+  "type": "class",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "HD": {
+      "compendium": "classes"
+    }
+  },
+  "_id": "g2JGAWGzWL7KNTEQ",
+  "system": {
+    "description": {
+      "value": "<h2 id=\"evolution-du-sorcier\"><strong>Évolution du sorcier</strong> </h2>\n<div>\n<table style=\"width:540px\">\n<thead>\n<tr>\n<th>Niveau</th>\n<th>Bonus de maîtrise</th>\n<th>Aptitudes</th>\n<th>Tours de magie connus</th>\n<th>Sorts connus</th>\n<th>Emplacements de sorts</th>\n<th>Niveau des emplacements</th>\n<th>Invocations occultes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s7PCn4Xa8vGqcFck]{Protecteur de l'Outre-Monde [Sorcier]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0of85vnO6BoYDcxq]{Magie de pacte [Sorcier]}</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.j9gdzPlfbAZ8uJh0]{Invocations occultes [Sorcier]}</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>3</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nBKKTdN5qzcdNdj9]{Pacte [Sorcier]}</td>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv]{Amélioration de caractéristiques niv4}</td>\n<td>3</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5</td>\n<td>+3</td>\n<td>-</td>\n<td>3</td>\n<td>6</td>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n</tr>\n<tr>\n<td>6</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.z1XlHj3rOkKsY0KV]{Aptitude du Protecteur de l'Outre-Monde [Sorcier]}</td>\n<td>3</td>\n<td>7</td>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7</td>\n<td>+3</td>\n<td>-</td>\n<td>3</td>\n<td>8</td>\n<td>2</td>\n<td>4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>8</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni]{Amélioration de caractéristiques niv8}</td>\n<td>3</td>\n<td>9</td>\n<td>2</td>\n<td>4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9</td>\n<td>+4</td>\n<td>-</td>\n<td>3</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.z1XlHj3rOkKsY0KV]{Aptitude du Protecteur de l'Outre-Monde [Sorcier]}</td>\n<td>4</td>\n<td>10</td>\n<td>2</td>\n<td>5</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J]{Arcanum Mystique [Sorcier]}</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih]{Amélioration de caractéristiques niv12}</td>\n<td>4</td>\n<td>11</td>\n<td>3</td>\n<td>5</td>\n<td>6</td>\n</tr>\n<tr>\n<td>13</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J]{Arcanum Mystique [Sorcier]}</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n<td>6</td>\n</tr>\n<tr>\n<td>14</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.z1XlHj3rOkKsY0KV]{Aptitude du Protecteur de l'Outre-Monde [Sorcier]}</td>\n<td>4</td>\n<td>12</td>\n<td>3</td>\n<td>5</td>\n<td>6</td>\n</tr>\n<tr>\n<td>15</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J]{Arcanum Mystique [Sorcier]}</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n<td>7</td>\n</tr>\n<tr>\n<td>16</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF]{Amélioration de caractéristiques niv16}</td>\n<td>4</td>\n<td>13</td>\n<td>3</td>\n<td>5</td>\n<td>7</td>\n</tr>\n<tr>\n<td>17</td>\n<td>+6</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J]{Arcanum Mystique [Sorcier]}</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n<td>7</td>\n</tr>\n<tr>\n<td>18</td>\n<td>+6</td>\n<td>-</td>\n<td>4</td>\n<td>14</td>\n<td>4</td>\n<td>5</td>\n<td>8</td>\n</tr>\n<tr>\n<td>19</td>\n<td>+6</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma]{Amélioration de caractéristiques niv19}</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n<td>8</td>\n</tr>\n<tr>\n<td>20</td>\n<td>+6</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V0VhaeanrMvNb5DA]{Maître de l'occulte [Sorcier]}</td>\n<td>4</td>\n<td>15</td>\n<td>4</td>\n<td>5</td>\n<td>8</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h2 id=\"aptitudes-de-classe\"><strong>Aptitudes de classe</strong></h2>\n<p>En tant que sorcier, vous bénéficiez des aptitudes de classe suivantes.</p>\n<h3 id=\"points-de-vie\"><strong>Points de vie</strong></h3>\n<p>Dés de vie : 1d8 par niveau de sorcier<br />Points de vie au niveau 1 : 8 + votre modificateur de Constitution<br />Points de vie aux niveaux supérieurs : 1d8 (ou 5) + votre modificateur de Constitution par niveau de sorcier après le niveau 1</p>\n<h3 id=\"maitrises\"><strong>Maîtrises</strong></h3>\n<p>Armures : armures légères<br />Armes : armes courantes<br />Outils : aucun<br />Jets de sauvegarde : Sagesse, Charisme<br />Compétences : choisissez deux compétences parmi les suivantes : Arcanes, Histoire, Intimidation, Investigation, Nature, Religion et Supercherie</p>\n<h3 id=\"equipement\"><strong>Équipement</strong></h3>\n<p>Vous commencez avec l'équipement suivant, en plus de celui accordé par votre historique :</p>\n<ul>\n<li>(a) une @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Y2E8mBK8VRjtXv8g]{Arbalète légère}, un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.3cyNyFVEdYoKYKrt]{Étui à carreaux} et vingt @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.BbrrZQCfU2FeYTes]{Carreaux d'arbalète} ou (b) n'importe quelle arme courante</li>\n<li>(a) une @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.f8Kjbo0TpSVsWWbr]{Sacoche à composantes} ou (b) un focaliseur arcanique</li>\n<li>(a) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.yU4PPToiZotOyicE]{Paquetage d'érudit} ou (b) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Dm2ycg6r2SrNacn1]{Paquetage d'exploration souterraine}</li>\n<li>une armure de @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.tqUyJMj5PvXTEiEN]{Cuir}, n'importe quelle arme courante et deux @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.xaO8XKPranRxWLeO]{Dague}</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "identifier": "sorcier",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "0hcfiztp2so5nv13",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "acng3c1ky1squpjq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s7PCn4Xa8vGqcFck",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0of85vnO6BoYDcxq"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "4aqkd8g3503v4m0b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.j9gdzPlfbAZ8uJh0"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "wf5sau7ymadomfgu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nBKKTdN5qzcdNdj9"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "m07mrkm4rcrkepk9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 4,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "cgckmqwb32lgs1wb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "t6rnb96qysb7gux3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "nmraubhcuf0z2xo2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 12,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "8ef8zu6r083m9tlz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "t6nq9eroc0irijs1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "x01hz2qkbwadid0z",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 16,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "5xch6hlad9bdn6d0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yxo69FSyFJrHOz8J"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "hkplw8x06yahtfc1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 19,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "odvgj8ll0ymmx4ik",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V0VhaeanrMvNb5DA"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      }
+    ],
+    "saves": [
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "arc",
+        "his",
+        "itm",
+        "inv",
+        "nat",
+        "rel",
+        "dec"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "cha"
+    },
+    "subclass": ""
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703420,
+    "modifiedTime": 1663923703633,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!g2JGAWGzWL7KNTEQ"
+}

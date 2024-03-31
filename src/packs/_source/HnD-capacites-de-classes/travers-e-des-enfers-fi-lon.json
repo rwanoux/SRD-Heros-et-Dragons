@@ -1,0 +1,89 @@
+{
+  "_id": "9AIVWISHevsilpKs",
+  "name": "Traversée des Enfers [Fiélon]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"traversee-des-enfers\"><strong>Travers&eacute;e des Enfers</strong></h3>\n<p>&Agrave; partir du niveau 14, quand vous r&eacute;ussissez &agrave; atteindre une cr&eacute;ature avec une attaque, vous pouvez utiliser cette aptitude pour la transporter instantan&eacute;ment jusqu'aux plans inf&eacute;rieurs. La cr&eacute;ature dispara&icirc;t et est projet&eacute;e &agrave; travers un paysage cauchemardesque.</p>\n<p>&Agrave; la fin de votre prochain tour, la cible r&eacute;appara&icirc;t &agrave; l'endroit qu'elle occupait pr&eacute;c&eacute;demment ou sur l'emplacement libre le plus proche. Si la cible n'est pas un fi&eacute;lon, elle subit 10d10 de d&eacute;g&acirc;ts psychiques caus&eacute;s par son horrible exp&eacute;rience.</p>\n<p>Une fois que vous avez utilis&eacute; cette aptitude, vous devez attendre d'avoir termin&eacute; un repos long avant de pouvoir l'utiliser de nouveau.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "Pas de dégats sur les Fiélons",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685214,
+    "modifiedTime": 1663923686257,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9AIVWISHevsilpKs"
+}

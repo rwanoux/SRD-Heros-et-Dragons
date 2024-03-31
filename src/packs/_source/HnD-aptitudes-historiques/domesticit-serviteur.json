@@ -1,0 +1,86 @@
+{
+  "_id": "FIzOiC3vCfYt8NHK",
+  "name": "domesticité (Serviteur)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez l'habitude du fonctionnement général des maisons avec domestiques. De ce fait, vous êtes capable de dénicher facilement certaines informations à propos de la maîtresse ou du maître de maison sans alerter qui que ce soit sur vos intentions. De plus, dans votre région d'origine et le milieu social dans lequel vous travailliez, vous connaissez la plupart des individus importants, au moins de nom</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "serviteur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703909,
+    "modifiedTime": 1663923703958,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!FIzOiC3vCfYt8NHK"
+}

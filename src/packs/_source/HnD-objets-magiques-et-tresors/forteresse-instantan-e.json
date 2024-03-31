@@ -1,0 +1,97 @@
+{
+  "_id": "8cRSUuu2Eg9pRE6a",
+  "name": "Forteresse instantanée",
+  "type": "consumable",
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Vous pouvez utiliser une action pour poser ce tube de métal de 2,5 centimètres à terre et prononcer son mot de commande. Il grandit rapidement pour se muer en forteresse. Il reste sous cette forme jusqu'à ce que vous dépensiez une action pour prononcer le mot de commande permettant de la révoquer (ce qui fonctionne uniquement si elle est vide).</p>\n<p>La forteresse est une tour carrée de 6 mètres de côté pour 9 mètres de haut. Tous ses murs sont percés de meurtrières et couronnés de créneaux. L'intérieur se divise en deux étages, reliés par une échelle courant le long d'un mur. Elle se termine sur une trappe donnant sur le toit. Quand vous activez la tour, elle apparaît avec une petite porte en face de vous. Elle s'ouvre uniquement sur votre ordre, quand vous prononcez le mot de commande par une action bonus. Elle est immunisée contre le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/deblocage/\">déblocage</a>&nbsp;et les magies similaires, comme celle d'un&nbsp;<a href=\"https://5e-drs.fr/liste-objets-magiques/carillon-d-ouverture/\">carillon d'ouverture</a>.</p>\n<p>Chaque créature qui se trouve dans la zone lorsque la forteresse se déploie doit faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Dextérité DD 15. Celles qui échouent subissent 10d10 dégâts contondants, les autres la moitié seulement. Dans les deux cas, la créature est repoussée dans un emplacement inoccupé situé hors de la zone que recouvre la forteresse, mais adjacente à elle. Les objets présents dans la zone subissent automatiquement des dégâts et sont repoussés, à moins qu'ils ne soient équipés ou transportés par quelqu'un.</p>\n<p>La tour est faite en adamantium et sa magie empêche qu'une force extérieure la renverse. Le toit, la porte et les murs ont tous 100 points de vie et sont immunisés contre les dégâts des armes non-magiques, mais pas contre ceux des armes de siège. Ils sont résistants contre tous les autres types de dégâts. Il est impossible de réparer la forteresse, à moins de recourir au sort de&nbsp;<a href=\"https://5e-drs.fr/grimoire/souhait/\">souhait</a>&nbsp;(cette utilisation est assimilée à une copie d'un sort de niveau 8 ou inférieur). Chaque&nbsp;<a href=\"https://5e-drs.fr/grimoire/souhait/\">souhait</a>&nbsp;ainsi utilisé rend 50 points de vie au toit, à la porte ou à un mur</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.1,
+    "price": 75000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Mot de commande."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": 20,
+      "width": null,
+      "units": "m",
+      "type": "square"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701046,
+    "modifiedTime": 1663923701917,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!8cRSUuu2Eg9pRE6a"
+}

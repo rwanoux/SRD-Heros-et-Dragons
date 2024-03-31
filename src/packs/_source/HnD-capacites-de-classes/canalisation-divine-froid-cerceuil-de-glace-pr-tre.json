@@ -1,0 +1,84 @@
+{
+  "_id": "C88xjJxKdighDB21",
+  "name": "Canalisation divine : Froid - Cerceuil de glace [Prêtre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-orange-small.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p><strong>Canalisation d'&eacute;nergie divine : Froid - Cerceuil de glace</strong></p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Choisissez jusqu'&agrave; une cible de votre choix par point de bonus de ma&icirc;trise, situ&eacute;es &agrave; moins de 9 m&egrave;tres de vous et dans votre champ de vision. Chaque cible doit r&eacute;ussir un&nbsp;</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&nbsp;de Force, sans quoi elle est&nbsp;</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\">entrav&eacute;e</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&nbsp;pendant 1 minute. &Agrave; la fin de chacun de vos tours, chaque cible a droit &agrave; un nouveau&nbsp;</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"> de Force. Si elle le r&eacute;ussit, les effets de la canalisation d'&eacute;nergie divine se terminent en ce qui la concerne.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": 9,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "JdS Echec - Les cibles sont entravées - Un JdS à la fin de chaque round du clerc",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685234,
+    "modifiedTime": 1663923686332,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!C88xjJxKdighDB21"
+}

@@ -1,0 +1,110 @@
+{
+  "_id": "gjajg0rfVyJ2nQBy",
+  "name": "Allié planaire",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">Vous demandez de l'aide à une entité appartenant à un autre monde. Vous devez connaître cet être, que ce soit un dieu, un primordial, un prince démoniaque ou une autre créature à la puissance cosmique. L'entité vous envoie un céleste, un élémentaire ou un fiélon qui lui est loyal. Cette créature apparaît dans un emplacement libre à portée. Si vous connaissez le nom d'une créature spécifique, vous pouvez le mentionner lors de l'incantation pour demander à ce que ce soit elle que l'entité vous envoie, bien qu'elle puisse tout de même vous envoyer un autre émissaire (c'est au MJ de décider).</p>\n<p style=\"margin-bottom: 0cm; border: none; padding: 0cm;\">Quand la créature apparaît, elle n'a aucune obligation de se comporter d'une manière particulière. Vous pouvez lui demander d'accomplir un service rémunéré, mais elle n'est pas obligée d'accepter. Votre requête peut être très simple (<em>nous faire passer en volant au-dessus de ce précipice</em>,&nbsp;<em>nous aider à livrer un combat</em>...) ou plus complexe (<em>espionner nos ennemis</em>,&nbsp;<em>nous protéger lors de l'exploration de ce donjon</em>...). Pour négocier un service, vous devez être en mesure de communiquer avec la créature.</p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">Le paiement peut se faire sous diverses formes. Un céleste peut demander une importante donation en or ou en objets magiques à un temple allié, tandis qu'un fiélon peut exiger un sacrifice vivant ou un trésor. Certaines créatures monnayent leurs services contre une quête à accomplir de votre côté.</p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">En règle générale, une tâche qui s'accomplit en quelques minutes se paie 100 po la minute. Une tâche qui demande plusieurs heures coûte 1000 po de l'heure, et une tâche effectuée sur plusieurs jours (10 au maximum) vaut 10000 po la journée. Le MJ peut modifier le montant en fonction des circonstances dans lesquelles vous lancez le sort. Si la tâche à accomplir s'accorde avec l'éthique de la créature, elle peut réduire son salaire de moitié ou même y renoncer. Les tâches qui ne présentent aucun risque coûtent souvent la moitié du prix indiqué précédemment, tandis que les missions particulièrement dangereuses valent parfois bien plus cher. Une créature accepte rarement une tâche visiblement suicidaire.</p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">Une fois que la créature a accompli la tâche demandée ou quand la durée de service décidée est arrivée à son terme, elle retourne sur son plan d'origine après vous avoir fait son rapport, si la tâche l'exige et qu'elle est en mesure de le faire.</p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">Si vous êtes incapable de vous mettre d'accord avec la créature sur le prix de ses services, elle retourne immédiatement sur son plan natal.</p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm;\">Une telle créature enrôlée dans votre groupe compte comme un membre à part entière et reçoit sa part de points d'expérience.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "space"
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 6,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688154,
+    "modifiedTime": 1663923689255,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!gjajg0rfVyJ2nQBy"
+}

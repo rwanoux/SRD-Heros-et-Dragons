@@ -1,0 +1,155 @@
+{
+  "_id": "pPbesWgASIEowHJx",
+  "name": "Second souffle [Guerrier]",
+  "type": "feat",
+  "img": "icons/magic/life/heart-glowing-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "midi-qol": {
+      "effectActivation": false
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "rollOther": false,
+      "critOther": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      },
+      "quickOther": {
+        "context": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"second-souffle\"><strong>Second souffle</strong></h3>\n<p>Vous jouissez d'une r&eacute;serve limit&eacute;e d'endurance dans laquelle vous pouvez puiser afin de vous prot&eacute;ger. Lors de votre tour, vous pouvez utiliser une action bonus pour regagner un nombre de points de vie &eacute;gal &agrave; 1d10 + votre niveau de guerrier. Une fois que vous avez utilis&eacute; cette aptitude, vous devez finir un repos court ou un repos long avant de l'utiliser de nouveau.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @classes.guerrier.levels",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": 0,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685636,
+    "modifiedTime": 1678407312122,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pPbesWgASIEowHJx"
+}

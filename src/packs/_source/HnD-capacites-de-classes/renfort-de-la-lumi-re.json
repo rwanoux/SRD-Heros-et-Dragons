@@ -1,0 +1,100 @@
+{
+  "name": "Renfort de la lumière",
+  "type": "feat",
+  "img": "icons/magic/life/cross-flared-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 9, si vous réduisez un ennemi à 0 points de vie avec des dégâts radiants, choisissez l'une des options suivantes :</p><ul><li><p>Vous gagnez des points de vie temporaires égaux à deux fois votre niveau de roublard.</p></li><li><p>Vous mettez fin à un état qui vous affecte. L'état peut être <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle\">aveuglé</a>, <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#assourdi\">assourdi</a> ou <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne\">empoisonné</a>.</p></li><li><p>Vous mettez fin à une malédiction qui vous affecte.</p></li><li><p>Vous mettez fin à une maladie qui vous affecte</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Warlock Grimoire - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Aubelame",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678364304901,
+    "modifiedTime": 1678425134698,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "OoJUXpdm7nYIvGcK",
+  "_key": "!items!OoJUXpdm7nYIvGcK"
+}

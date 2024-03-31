@@ -1,0 +1,136 @@
+{
+  "_id": "WaQatasFQMRxK2gA",
+  "name": "Table Dansante",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 8000000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "liR6cMteUzjBN5NJ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Cimeterre Dansant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/weapon_11.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "I6AJGPIwFhiXTSq3",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!WaQatasFQMRxK2gA.liR6cMteUzjBN5NJ"
+    },
+    {
+      "_id": "5xFlLBzNS5quwD36",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée à deux mains Dansante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/weapon_11.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "JSN82xMYfqhU0gWQ",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!WaQatasFQMRxK2gA.5xFlLBzNS5quwD36"
+    },
+    {
+      "_id": "iSs1EPXJ3UKQ6u8N",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée courte Dansante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/weapon_11.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "mx8E2CMsFKGlNc87",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!WaQatasFQMRxK2gA.iSs1EPXJ3UKQ6u8N"
+    },
+    {
+      "_id": "h21OeRmmm8RxxNeB",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue Dansante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/weapon_11.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "U0axca2dWNovEdNb",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!WaQatasFQMRxK2gA.h21OeRmmm8RxxNeB"
+    },
+    {
+      "_id": "x8Lfg2Xz1FrdvR3o",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Rapière dansante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/weapon_11.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "sXx5MNKYOxYvCA8c",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!WaQatasFQMRxK2gA.x8Lfg2Xz1FrdvR3o"
+    }
+  ],
+  "formula": "1d5",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!WaQatasFQMRxK2gA"
+}

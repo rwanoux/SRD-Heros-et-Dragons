@@ -1,0 +1,84 @@
+{
+  "_id": "IDoHotNonn3WL20G",
+  "name": "Tranquillité [Voie de la Main ouverte]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/orb-beams-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"tranquillite\"><strong>Tranquillit&eacute;</strong></h3>\n<p>&Agrave; partir du niveau 11, vous pouvez entrer dans un &eacute;tat sp&eacute;cial de m&eacute;ditation qui vous nimbe d'une aura de paix. &Agrave; la fin d'un repos long, vous gagnez les effets d'un sort de @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.PN7ncM2wxoYIL8Ur]{Sanctuaire}&nbsp;qui dure jusqu'au d&eacute;but de votre prochain repos long (l'effet du sort peut &ecirc;tre rompu de mani&egrave;re anticip&eacute;e, comme indiqu&eacute; dans le descriptif du sort). Le DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a> du sort est &eacute;gal &agrave; 8 + votre modificateur de Sagesse + votre bonus de ma&icirc;trise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685278,
+    "modifiedTime": 1663923686521,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IDoHotNonn3WL20G"
+}

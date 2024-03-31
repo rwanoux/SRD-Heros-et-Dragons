@@ -1,0 +1,100 @@
+{
+  "_id": "6ufNwhNeoNw5gwQp",
+  "name": "Serment de Dévotion [Paladin]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Serment de D&eacute;votion</strong></h3>\n<p>Quand vous atteignez le niveau 3, vous pr&ecirc;tez un serment qui vous engage &agrave; tout jamais. Jusqu'&agrave; ce moment-l&agrave;, vous &eacute;tiez encore &agrave; un stade pr&eacute;paratoire, engag&eacute; dans la voie, mais sans vous y &ecirc;tre enti&egrave;rement d&eacute;vou&eacute;.&nbsp;</p>\n<p>Votre choix vous permet d'avoir acc&egrave;s &agrave; des aptitudes particuli&egrave;res aux niveaux 3, 7, 15 et 20. Parmi ces aptitudes se trouvent les sorts de serment et la canalisation d'&eacute;nergie divine.</p>\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.j7n1IX8jFzsXTSRC]{Pr&eacute;ceptes de d&eacute;votion [Serment de D&eacute;votion]}</p>\n<p>&nbsp;</p>\n<p><strong>Niveau 3 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p0CBPluBukUKTdKn]{Sorts de serment [Serment de D&eacute;votion]}</p>\n<p><strong>Niveau 3 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.H3SesHqf0nN1P6g3]{Canalisation d'&eacute;nergie divine [Serment de D&eacute;votion] Arme sacr&eacute;e} @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s9dpRQgRyfDuXycV]{Canalisation d'&eacute;nergie divine [Serment de D&eacute;votion] Renvoi des impies}</p>\n<p><strong>Niveau 7 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Srs63LSxcKxjlouB]{Aura de d&eacute;votion [Serment de D&eacute;votion]}</p>\n<p><strong>Niveau 15 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xpicqm5IrtAQpcOe]{Puret&eacute; de l'esprit [Serment de D&eacute;votion]}</p>\n<p><strong>Niveau 20 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sHA7eF6Geia4lz21]{Halo sacr&eacute; [Serment de D&eacute;votion]}</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685194,
+    "modifiedTime": 1678413019447,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!6ufNwhNeoNw5gwQp"
+}

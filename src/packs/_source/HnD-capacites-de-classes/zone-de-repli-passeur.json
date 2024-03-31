@@ -1,0 +1,104 @@
+{
+  "name": "Zone de repli [Passeur]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
+  "effects": [],
+  "_id": "qysbPKK03NhRgEHc",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 15, vous apprenez à mettre en place des zones sécurisées. Vous pouvez passer une heure à tracer des symboles mystiques sur le sol d'un lieu que vous avez choisi. Ces symboles ne peuvent être dissimulés et recouverts sous peine de devenir inactifs.</p><p>À tout moment durant les prochaines 24 heures, vous pouvez utiliser votre action pour vous transporter instantanément dans ce lieu, vous et un nombre d'alliés de votre choix égal à votre <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#bonus-de-maitrise\">bonus de maîtrise</a> au maximum dans un rayon de 9 mètres autour de vous, tant que vous vous trouvez dans les 10 kilomètres de la zone – ou 20 si vous êtes sur votre terrain de prédilection.</p><p>Une fois la capacité activée et le retour dans la zone sécurisée effectuée, les symboles s'effacent. Vous devez alors attendre d'avoir effectué un repos court ou long afin de pouvoir tracer de nouveau symboles et réutiliser cette capacité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette Role'n Play #5",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rodeur Passeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685642,
+    "modifiedTime": 1678413696272,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!qysbPKK03NhRgEHc"
+}

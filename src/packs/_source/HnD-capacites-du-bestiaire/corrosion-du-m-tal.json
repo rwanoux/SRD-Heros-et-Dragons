@@ -1,0 +1,118 @@
+{
+  "_id": "oVE0gegM55jKqMdg",
+  "name": "Corrosion du métal",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/earth/orb-stone-smoke-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Corrosion du métal. </strong>Les armes non-magiques en métal rouillent lorsqu'elles entrent en contact avec la créature. Après avoir infligé ses dégâts, une arme de ce type subit un malus permanent et cumulatif de -1 aux jets de dégâts. L'arme est détruite si le malus cumulé atteint -5. Les munitions non-magiques en métal qui entrent en contact avec la créature sont détruites après avoir infligé leurs dégâts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": "",
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": ""
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698969,
+    "modifiedTime": 1663923700207,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!oVE0gegM55jKqMdg"
+}

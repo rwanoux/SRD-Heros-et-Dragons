@@ -1,0 +1,108 @@
+{
+  "_id": "pb9CU8DoyECtKVkm",
+  "name": "Regard charmeur",
+  "type": "equipment",
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>Ces lentilles de cristal se portent sur les yeux et poss&egrave;dent trois charges. Tant que vous les portez, vous pouvez d&eacute;penser une charge pour lancer le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/charme-personne/\">charme-personne</a>&nbsp;(DD 13) sur un humano&iuml;de situ&eacute; dans un rayon de 9 m&egrave;tres, &agrave; condition que vous voyiez la cible et qu'elle vous voie. Chaque jour &agrave; l'aube, les lentilles r&eacute;g&eacute;n&egrave;rent toutes les charges d&eacute;pens&eacute;es.</div>\n<div>Harmonisation requise.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.01,
+    "price": 3000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Vous devez voir la cible humanoïde et elle doit vous voir.."
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "day",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "type": "trinket",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701373,
+    "modifiedTime": 1663923703037,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pb9CU8DoyECtKVkm"
+}

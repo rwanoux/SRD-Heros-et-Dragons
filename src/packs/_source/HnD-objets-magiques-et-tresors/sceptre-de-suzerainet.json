@@ -1,0 +1,92 @@
+{
+  "_id": "57PxmGXyPnwXdnxD",
+  "name": "Sceptre de suzeraineté",
+  "type": "consumable",
+  "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>Vous pouvez utiliser une action pour présenter le sceptre et exiger l'obéissance des créatures de votre choix situées à 36 mètres ou moins dans votre champ de vision. Les créatures doivent chacune réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Sagesse DD 15 pour ne pas être&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#charme\">charmées</a>&nbsp;par vous pendant 8 heures. Une fois charmées de cette façon, les créatures vous considèrent comme un chef fiable. Une cible n'est plus charmée par ce biais si vous ou vos compagnons lui nuisent ou lui ordonnent d'accomplir quelque chose de contraire à sa nature. Le sceptre n'est réutilisable qu'à l'aube suivante.</div>\n<div>Harmonisation requise.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2.5,
+    "price": 16000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "consumableType": "rod",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701030,
+    "modifiedTime": 1663923701853,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!57PxmGXyPnwXdnxD"
+}

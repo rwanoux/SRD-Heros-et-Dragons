@@ -1,0 +1,114 @@
+{
+  "_id": "nBKKTdN5qzcdNdj9",
+  "name": "Pacte [Sorcier]",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3><strong>Pacte</strong></h3>\n<p>Au niveau 3, votre protecteur d'outre-monde vous accorde un cadeau en r&eacute;compense de vos loyaux services. Vous gagnez au choix l'une des trois aptitudes suivantes :</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0MDQECEw4J23bJ68]{Pacte de la cha&icirc;ne [Sorcier]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6EFoOWdNmf2wVZOe]{Pacte de la lame [Sorcier]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.J4EfynrXxvloxkDd]{Pacte du grimoire [Sorcier]}</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685618,
+    "modifiedTime": 1678417782938,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!nBKKTdN5qzcdNdj9"
+}

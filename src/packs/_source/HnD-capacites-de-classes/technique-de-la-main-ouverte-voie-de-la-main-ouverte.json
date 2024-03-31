@@ -1,0 +1,84 @@
+{
+  "_id": "Osuk5DNb4Hc2MPHH",
+  "name": "Technique de la main ouverte [Voie de la Main ouverte]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/orbs-hand-gray.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"technique-de-la-main-ouverte\"><strong>Technique de la main ouverte</strong></h3>\n<p>D&egrave;s que vous choisissez de suivre cette tradition au niveau 3, vous apprenez &agrave; manipuler le ki de votre ennemi en m&ecirc;me temps que le v&ocirc;tre. D&egrave;s que vous touchez une cr&eacute;ature gr&acirc;ce &agrave; une des attaques permises par votre @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rndn4SqSaiSbq93P]{Ki - D&eacute;luge de coups [Moine]}, celle-ci subit l'un des effets suivants selon votre choix :</p>\n<ul>\n<li>Elle doit r&eacute;ussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Dext&eacute;rit&eacute; ou se retrouver&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre\">&agrave; terre</a>.</li>\n<li>Elle doit faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Force. Si elle &eacute;choue, vous pouvez la repousser jusqu'&agrave; 4,50 m&egrave;tres de vous.</li>\n<li>Elle ne peut pas utiliser de r&eacute;action jusqu'&agrave; la fin de votre prochain tour.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685381,
+    "modifiedTime": 1663923686744,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Osuk5DNb4Hc2MPHH"
+}

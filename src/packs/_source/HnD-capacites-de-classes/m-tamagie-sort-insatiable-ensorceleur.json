@@ -1,0 +1,89 @@
+{
+  "name": "Métamagie - Sort insatiable [Ensorceleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sort-distant\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">Sort insatiable</strong></span></h3><p style=\"box-sizing:border-box;user-select:text;text-align:justify\">Quand vous lancez un sort sur une créature immunisée contre les dégâts ou les effets du sort, vous pouvez dépenser 5 points de sorcellerie pour contourner l'immunité de la créature pour cette incantation. </p><p style=\"box-sizing:border-box;user-select:text;text-align:justify\">La créature est affectée par le sort comme si elle n'était pas immunisée contre les dégâts ou les effets du sort et doit effectuer les jets de sauvegarde autorisés par le sort comme d'habitude.</p><h3 id=\"invocation-prudente\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685208,
+    "modifiedTime": 1680512187825,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "fQO9ShwoI5Ztf5HD",
+  "_key": "!items!fQO9ShwoI5Ztf5HD"
+}

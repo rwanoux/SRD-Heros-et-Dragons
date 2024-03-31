@@ -1,0 +1,84 @@
+{
+  "_id": "aJM9V3dzEmAmjcs3",
+  "name": "Puissance de la nature [Cercle des Châtiments]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/leaf-glow-maple-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Puissance de la nature</strong></h3>\n<p>Au niveau 14, vous pouvez utiliser une utilisation de votre forme sauvage afin de lancer le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.p36wiEfy6QGsbGTj]{Invoquer une f&eacute;e} ou @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bWVBf3kDdWrEQaZ5]{Invoquer un &eacute;l&eacute;mentaire} &agrave; son niveau normal, et ce m&ecirc;me si vous n&rsquo;avez pas pr&eacute;par&eacute; ces sorts.</p>\n<p>Au niveau 20, vous ne pouvez le faire que trois fois entre deux repos courts ou longs.</p>\n<p>De plus vous avez d&eacute;sormais l'avantage &agrave; vos jets de sauvegarde pour garder votre concentration.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette R'n P #4",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685453,
+    "modifiedTime": 1663923687055,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!aJM9V3dzEmAmjcs3"
+}

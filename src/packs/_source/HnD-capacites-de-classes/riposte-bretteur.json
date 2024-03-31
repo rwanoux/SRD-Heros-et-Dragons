@@ -1,0 +1,84 @@
+{
+  "_id": "IDxGFhqGG0uKsSYb",
+  "name": "Riposte [Bretteur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"riposte\"><strong>Riposte</strong></h3>\n<p>&Agrave; partir du niveau 18, une fois par round, lorsque vous utilisez avec succ&egrave;s votre aptitude de parade ou qu'un adversaire vous rate avec une attaque de corps &agrave; corps, vous pouvez lui infliger les d&eacute;g&acirc;ts de l'arme que vous avez en main comme si vous aviez r&eacute;ussi une attaque contre lui (cette arme doit &ecirc;tre dot&eacute;e de la propri&eacute;t&eacute; finesse).</p>\n<p>De plus, &agrave; chaque fois que vous utilisez votre aptitude de @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tyJpEG3htPcakkGE]{Frappe chirurgicale [Bretteur]}, vous pouvez choisir d'ignorer la r&eacute;sistance qui s'appliquait aux d&eacute;g&acirc;ts de votre attaque au lieu d'ajouter votre bonus de ma&icirc;trise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685279,
+    "modifiedTime": 1663923686525,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IDxGFhqGG0uKsSYb"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "kvYSO21KQ30aXUtv",
+  "name": "position d'autorité (Militaire-officier)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les soldats « amis » reconnaissent votre autorité et votre expérience, et ont tendance à accepter tout naturellement vos ordres et vos directives. En cas de nécessité, dans une ville de votre région d'origine, vous êtes capable de réunir rapidement un petit groupe d'anciens soldats prêts à vous rendre service</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "militaire",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703918,
+    "modifiedTime": 1663923704002,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!kvYSO21KQ30aXUtv"
+}

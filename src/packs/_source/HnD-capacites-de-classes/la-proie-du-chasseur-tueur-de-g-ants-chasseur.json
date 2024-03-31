@@ -1,0 +1,84 @@
+{
+  "_id": "hMthADnWUD3GFQrE",
+  "name": "La proie du chasseur - Tueur de géants [Chasseur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Tueur de g&eacute;ants</strong></h3>\n<h3><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Quand une cr&eacute;ature de taille grande ou sup&eacute;rieure qui se trouve dans un rayon de 1,50 m&egrave;tre de vous et que vous pouvez voir vous cible avec une attaque, que cette attaque soit r&eacute;ussie ou rat&eacute;e, vous pouvez utiliser votre r&eacute;action pour effectuer une attaque contre cette cr&eacute;ature.</span></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685573,
+    "modifiedTime": 1663923687316,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hMthADnWUD3GFQrE"
+}

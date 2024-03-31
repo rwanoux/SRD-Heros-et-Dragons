@@ -1,0 +1,694 @@
+{
+  "_id": "8xPkcbsV4Kzjhfeb",
+  "name": "Ascenseur soporifique",
+  "type": "npc",
+  "img": "systems/dnd5e/icons/skills/light_01.jpg",
+  "items": [
+    {
+      "_id": "YWbNDtTGkYZyPcnc",
+      "name": "Ascenseur soporifique",
+      "type": "feat",
+      "sort": 300000,
+      "flags": {},
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Le piège combine un gaz soporifique à la force de gravité. Une cage en métal sert d'ascenseur pour monter à l'étage supérieur dans un conduit de 15 mètres de hauteur (plus, pour des dégâts supérieurs). L'ascenseur fonctionne à la force des bras, en tirant sur une corde placée dans la cage et reliée à une poulie à l'étage du dessus. Faire monter l'ascenseur de 5 m demande un test de Force DD 10+5 par créature supplémentaire dans la cage. Il est possible de tirer sur la corde à plusieurs, donnant +3 au test par créature supplémentaire qui tire. Un test de Sagesse (Perception) DD 10 permet de se rendre compte que la cage est abîmée.</p>\n<p>À l'étage supérieur, l'air est chargé d'un gaz soporifique (naturel ou non, en fonction de l'environnement et du lieu). Au fur et à mesure que l'ascenseur monte, l'air entraîne un endormissement de plus en plus intense et rapide. Entre 5 et 10 mètres au-dessus du sol, les créatures doivent réussir un test de sauvegarde de Constitution DD 10 ou tomber&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconscientes</a>. Entre 10 et 15 mètres, le test est à DD 15 et ainsi de suite tous les 5 m du conduit. Les créatures peuvent suspecter la présence d'un gaz avec ses premiers effets secondaires (une hilarité, une faiblesse des jambes, un tremblement, des mains moites...) avec un test d'Intelligence (Nature) ou de Sagesse (Médecine) DD 15.</p>\n<p>Si la (ou les) créature(s) tenant la corde s'endorme(nt), la cage tombe. Les créatures reçoivent 1d6 dégâts contondants de chute par tranche de 3 mètres. Une créature éveillée et à proximité de celui qui tenait la corde peut la retenir avec un test de Dextérité DD 10 puis de Force DD 10+5 par créature dans la cage.</p>\n<p>Tout type de gaz peut être utilisé, en fonction de l'effet souhaité (par exemple, il peut s'agir d'un gaz provoquant une frénésie ou une phobie). Le gaz peut se trouver uniquement dans une poche d'air au milieu du conduit afin de conserver l'étage sain.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 10,
+          "scaling": "flat"
+        },
+        "requirements": "Ascenseur soporifique",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8xPkcbsV4Kzjhfeb.YWbNDtTGkYZyPcnc"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {},
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "prof": 2,
+      "spelldc": 10,
+      "encumbrance": {
+        "value": 0,
+        "max": 75,
+        "pct": 0,
+        "encumbered": false
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"ascenseur-soporifique\">Ascenseur soporifique</h2>\n<h2><strong>Piège mécanique</strong></h2>\n<p>&nbsp;</p>\n<p>Le piège combine un gaz soporifique à la force de gravité. Une cage en métal sert d'ascenseur pour monter à l'étage supérieur dans un conduit de 15 mètres de hauteur (plus, pour des dégâts supérieurs). L'ascenseur fonctionne à la force des bras, en tirant sur une corde placée dans la cage et reliée à une poulie à l'étage du dessus. Faire monter l'ascenseur de 5 m demande un test de Force DD 10+5 par créature supplémentaire dans la cage. Il est possible de tirer sur la corde à plusieurs, donnant +3 au test par créature supplémentaire qui tire. Un test de Sagesse (Perception) DD 10 permet de se rendre compte que la cage est abîmée.</p>\n<p>&nbsp;</p>\n<p>À l'étage supérieur, l'air est chargé d'un gaz soporifique (naturel ou non, en fonction de l'environnement et du lieu). Au fur et à mesure que l'ascenseur monte, l'air entraîne un endormissement de plus en plus intense et rapide. Entre 5 et 10 mètres au-dessus du sol, les créatures doivent réussir un test de sauvegarde de Constitution DD 10 ou tomber&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconscientes</a>. Entre 10 et 15 mètres, le test est à DD 15 et ainsi de suite tous les 5 m du conduit. Les créatures peuvent suspecter la présence d'un gaz avec ses premiers effets secondaires (une hilarité, une faiblesse des jambes, un tremblement, des mains moites...) avec un test d'Intelligence (Nature) ou de Sagesse (Médecine) DD 15.</p>\n<p>&nbsp;</p>\n<p>Si la (ou les) créature(s) tenant la corde s'endorme(nt), la cage tombe. Les créatures reçoivent 1d6 dégâts contondants de chute par tranche de 3 mètres. Une créature éveillée et à proximité de celui qui tenait la corde peut la retenir avec un test de Dextérité DD 10 puis de Force DD 10+5 par créature dans la cage.</p>\n<p>&nbsp;</p>\n<p>Tout type de gaz peut être utilisé, en fonction de l'effet souhaité (par exemple, il peut s'agir d'un gaz provoquant une frénésie ou une phobie). Le gaz peut se trouver uniquement dans une poche d'air au milieu du conduit afin de conserver l'étage sain.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "custom",
+        "subtype": "",
+        "swarm": "",
+        "custom": "Pièges"
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 200
+      },
+      "source": "Créatures et Oppostions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Ascenseur soporifique",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "systems/dnd5e/icons/skills/light_01.jpg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923504408,
+    "modifiedTime": 1663923703803,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!8xPkcbsV4Kzjhfeb"
+}

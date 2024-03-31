@@ -1,0 +1,99 @@
+{
+  "name": "Tripes d'acier [Domaine de la bière] (Copy)",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"canalisation-d-energie-divine-preserver-la-vie\"><strong>Tripes d'acier</strong></h3><p>Au niveau 17, vous gagnez la résistance aux dégâts de froid, de poison et psychiques.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Deep Magic et Midgard Heroes Handbook - Kobold Press",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": 9,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "(@classes.clerc.levels) * 5",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685660,
+    "modifiedTime": 1679679976909,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "sqO90EsbdJzIBf9G",
+  "_key": "!items!sqO90EsbdJzIBf9G"
+}

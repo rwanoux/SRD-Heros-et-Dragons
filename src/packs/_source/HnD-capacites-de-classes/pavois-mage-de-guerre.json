@@ -1,0 +1,84 @@
+{
+  "name": "Pavois [Mage de guerre]",
+  "type": "feat",
+  "img": "icons/equipment/shield/wardoor-wooden-boss-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "5VNnuDp3gKy50K2d",
+  "system": {
+    "description": {
+      "value": "<p>Également au niveau 2, lorsque vous lancez le sort de @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ySkKyl3Z09OU9Dvk]{Bouclier}, vous pouvez étendre sa durée à un round complet par point de bonus de maîtrise.</p>\n<p>Vous devez prendre un repos court avant de pouvoir à nouveau utiliser cette aptitude sans vous épuiser. Si vous utilisez à nouveau cette aptitude sans avoir pris un repos court, vous subissez un niveau d'épuisement.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685182,
+    "modifiedTime": 1663923686144,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5VNnuDp3gKy50K2d"
+}

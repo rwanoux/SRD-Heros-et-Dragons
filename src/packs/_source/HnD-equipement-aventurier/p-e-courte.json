@@ -1,0 +1,167 @@
+{
+  "_id": "4J4TiQ5ydThIUQ8v",
+  "name": "Épée courte",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {
+        "finesse": true,
+        "light": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "51ade7d7-329b-4796-9b85-ff5553da9692",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "bbbc91ec-f718-42c6-bba1-0f520f4cd623",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "b973215b-7918-4d66-9080-087a24c15430",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 6,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "prc",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p> lame de taille moyenne avec une garde croisée ferme et un manche gainé de cuir. Une arme qui compense en polyvalence ce qui lui manque en termes de portée.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 1,
+    "price": 10,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "",
+    "properties": {
+      "fin": true,
+      "lgt": true,
+      "amm": false,
+      "hvy": false,
+      "fir": false,
+      "foc": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700549,
+    "modifiedTime": 1663923700549,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!4J4TiQ5ydThIUQ8v"
+}

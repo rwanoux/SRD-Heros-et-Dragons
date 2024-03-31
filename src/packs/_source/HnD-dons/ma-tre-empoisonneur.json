@@ -1,0 +1,96 @@
+{
+  "_id": "1AVzPWPngTF3drk5",
+  "name": "Maître empoisonneur",
+  "type": "feat",
+  "img": "modules/srd-heros-et-dragons/assets/icons/maitre-empoisonneur.jpg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Vous &ecirc;tes pass&eacute; ma&icirc;tre dans l'utilisation de ce que certains appellent l'arme des l&acirc;ches.</p>\n<p>&nbsp;</p>\n<ul>\n<li>Vous obtenez un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage\"><em>avantage</em></a> &agrave; tous les tests pour reconna&icirc;tre, utiliser, appliquer ou soigner les poisons.</li>\n<li>Vous obtenez un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage\"><em>avantage</em></a> &agrave; vos jets de sauvegarde contre le poison ou pour r&eacute;sister &agrave; l'&eacute;tat <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#empoisonn%C3%A9\"><em>empoisonn&eacute;</em></a>.</li>\n<li>Une fois par repos court, vous pouvez utiliser votre action pour enduire de poison une arme l&eacute;g&egrave;re tranchante ou per&ccedil;ante, ou un projectile. La premi&egrave;re cr&eacute;ature bless&eacute;e par cette arme doit faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution dont le DD est 8 + votre bonus de ma&icirc;trise + votre modificateur d'intelligence. En cas d'&eacute;chec, elle est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#empoisonn%C3%A9\"><em>empoisonn&eacute;e</em></a> pendant 1 minute. Le poison perd son efficacit&eacute; 1 heure apr&egrave;s avoir &eacute;t&eacute; appliqu&eacute;.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923684987,
+    "modifiedTime": 1663923684987,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!1AVzPWPngTF3drk5"
+}

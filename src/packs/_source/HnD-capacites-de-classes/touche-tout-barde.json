@@ -1,0 +1,120 @@
+{
+  "_id": "GN34Vuz5WQiV9IRO",
+  "name": "Touche-à-tout [Barde]",
+  "type": "feat",
+  "img": "icons/commodities/tech/cog-steel.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "entityorder": {
+      "order": 222
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"touche-a-tout\"><strong>Touche-&agrave;-tout</strong></h3>\n<p>&Agrave; partir du niveau 2, vous pouvez ajouter la moiti&eacute; de votre bonus de ma&icirc;trise (arrondi au chiffre inf&eacute;rieur) &agrave; tous vos&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">tests de caract&eacute;ristiques</a> qui ne prennent pas d&eacute;j&agrave; en compte votre bonus de ma&icirc;trise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685265,
+    "modifiedTime": 1678402124694,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!GN34Vuz5WQiV9IRO"
+}

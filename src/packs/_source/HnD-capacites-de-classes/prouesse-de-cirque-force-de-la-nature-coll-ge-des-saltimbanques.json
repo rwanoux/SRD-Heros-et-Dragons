@@ -1,0 +1,84 @@
+{
+  "_id": "rsFSWh0zShaGU95z",
+  "name": "Prouesse de Cirque - Force de la nature [Collège des Saltimbanques]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/ranged/shuriken-thrown-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Prouesse de Cirque -&nbsp;Force de la nature</strong></h3>\n<p>&nbsp;</p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Vous pouvez utiliser une action bonus pour d&eacute;penser une @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]}&nbsp;et ajouter le r&eacute;sultat du d&eacute; &agrave; tous vos tests de Force du round et aux d&eacute;g&acirc;ts d'une attaque &agrave; votre tour. Le r&eacute;sultat est doubl&eacute; lorsque vous utilisez une arme de corps-&agrave;-corps contondante.&nbsp;</span></p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685649,
+    "modifiedTime": 1663923687584,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!rsFSWh0zShaGU95z"
+}

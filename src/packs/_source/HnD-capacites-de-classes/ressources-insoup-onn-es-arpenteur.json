@@ -1,0 +1,84 @@
+{
+  "_id": "782PA8u02h1qf5rH",
+  "name": "Ressources insoupçonnées [Arpenteur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"ressources-insoupconnees\"><strong>Ressources insoup&ccedil;onn&eacute;es</strong></h3>\n<p>Vous &ecirc;tes toujours capable de r&eacute;cup&eacute;rer quelques forces pour pratiquer la magie, pour peu que vous ayez un peu de temps pour vous reposer.</p>\n<p>D&egrave;s le niveau 14, apr&egrave;s avoir termin&eacute; un repos court, si vous n'avez plus aucun sort disponible, vous obtenez cinq niveaux de sorts. Vous pouvez d&eacute;penser ces niveaux en un ou plusieurs sorts selon n'importe quelle combinaison de sorts dont la somme des niveaux ne d&eacute;passe pas cinq.</p>\n<p>Vous obtenez la ma&icirc;trise d'une nouvelle comp&eacute;tence de la liste propos&eacute;e au niveau 2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685195,
+    "modifiedTime": 1663923686194,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!782PA8u02h1qf5rH"
+}

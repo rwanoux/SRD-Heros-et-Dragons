@@ -1,0 +1,89 @@
+{
+  "name": "Yeux affamés",
+  "type": "feat",
+  "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:justify\">Au niveau 1, vous pouvez sentir quand une créature est proche de la mort. Vous savez si une créature que vous pouvez voir et qui n'est pas un mort-vivant ou une créature artificielle dans un rayon de 9 mètres autour de vous est en dessous de la moitié de son maximum de points de vie. </p><p style=\"text-align:justify\">Vos attaques de sorts ignorent les abris partiels et les abris importants quand vous ciblez des créatures que vous percevez grâce à cette capacité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Affamé",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680509732165,
+    "modifiedTime": 1680509820882,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "iHt70p7CUnSHfhT5",
+  "_key": "!items!iHt70p7CUnSHfhT5"
+}

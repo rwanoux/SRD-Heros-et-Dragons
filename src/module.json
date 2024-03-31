@@ -90,7 +90,7 @@
 			"system": "dnd5e"
 		},
 		{
-			"name": "HnD-capacités-du-bestiaire",
+			"name": "HnD-capacites-du-bestiaire",
 			"label": "HnD. Capacités du bestiaire",
 			"path": "packs/HnD-capacites-du-bestiaire",
 			"type": "Item",
@@ -106,7 +106,7 @@
 			"system": "dnd5e"
 		},
 		{
-			"name": "HnD-équipement-aventurier",
+			"name": "HnD-equipement-aventurier",
 			"label": "HnD. Equipement d'aventurier",
 			"path": "packs/HnD-equipement-aventurier",
 			"type": "Item",
@@ -114,7 +114,7 @@
 			"system": "dnd5e"
 		},
 		{
-			"name": "HnD-objets-magiques-et-trésors",
+			"name": "HnD-objets-magiques-et-tresors",
 			"label": "HnD. Objets magiques et trésors",
 			"path": "packs/HnD-objets-magiques-et-tresors",
 			"type": "Item",
@@ -122,7 +122,7 @@
 			"system": "dnd5e"
 		},
 		{
-			"name": "HnD-Classes-spécialisations",
+			"name": "HnD-classes-et-specialisations",
 			"label": "HnD. Classes et spécialisations",
 			"path": "packs/HnD-classes-et-specialisations",
 			"type": "Item",
@@ -207,7 +207,8 @@
 					"sorting": "m",
 					"color": "#377C2E",
 					"packs": [
-						
+						"HnD-objets-magiques-et-trésors",
+						"HnD-poisons-et-maladies"
 					]
 				},
 				{
@@ -219,10 +220,8 @@
 						"HnD-conditions",
 						"HnD-bestaire",
 						"HnD-capacités-du-bestiaire",
-						"HnD-objets-magiques-et-trésors",
 						"HnD-tables-de-rencontres-aleatoires",
 						"HnD-tables-d'evenements-aleatoires",
-						"HnD-poisons-et-maladies",
 						"HnD-folies",
 						"HnD-pieges"
 					]

@@ -1,0 +1,104 @@
+{
+  "name": "Avatar de l'ordre parfait [Serment de Justice]",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Avatar de l'ordre parfait</strong></h3><p>Au niveau 20, vous pouvez prendre l'aspect de la justice elle-même. Au prix d'une action, vous vous enveloppez d'un voile de lumière froide. Pendant 1 minute, vous bénéficiez des effets suivants :</p><ul><li><p>Vous êtes immunisé contre les dégâts contondants, perforants et tranchants.</p></li><li><p>Vous pouvez utiliser votre capacité @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zBQ5lZoZGaMYSQHL]{ Célérité du justicier} sans dépenser une utilisation de Canalisation d'énergie divine.</p></li><li><p>Lorsqu'une créature que vous pouvez voir entreprend l'action Attaquer ou Lancer un sort, vous pouvez utiliser votre réaction pour l'obliger à effectuer un jet de sauvegarde de Sagesse. En cas d'échec, elle doit effectuer une action différente de votre choix à la place.</p></li></ul><p>Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678366622444,
+    "modifiedTime": 1678424538000,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "OrnfP9jvE3a9ZB8i",
+  "_key": "!items!OrnfP9jvE3a9ZB8i"
+}

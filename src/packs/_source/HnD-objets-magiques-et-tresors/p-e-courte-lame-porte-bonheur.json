@@ -1,0 +1,125 @@
+{
+  "_id": "jbug8H1RrMNAuwkA",
+  "name": "Épée courte Lame porte-bonheur",
+  "type": "weapon",
+  "img": "icons/magic/light/projectile-beam-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>Vous gagnez un bonus de +1 aux jets d'attaque et de dégâts avec cette arme magique. Tant qu'elle se trouve en votre possession, vous gagnez un bonus de +1 aux jets de sauvegarde.</p>\n<p>Chance. Si l'épée se trouve sur votre personne, vous pouvez faire appel à sa chance (sans faire d'action) pour relancer un jet d'attaque, un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">test de caractéristique</a>&nbsp;ou un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;qui vous déplaît. Vous devez conserver le résultat du second jet. Il faut attendre l'aube suivante avant de pouvoir se servir de nouveau de cette propriété.</p>\n<p>Souhait. L'épée dispose de 1d4-1 charges. Tant qu'elle se trouve en votre possession, vous pouvez utiliser une action pour dépenser une charge et lancer le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/souhait/\">souhait</a>. Il est impossible de se servir de nouveau de cette propriété avant l'aube suivante. L'épée perd ce pouvoir si elle n'a plus de charge.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1,
+    "price": 210000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "charges",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 +@mod +1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "shortsword",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": true,
+      "fir": false,
+      "foc": false,
+      "lgt": true,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701333,
+    "modifiedTime": 1663923702884,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jbug8H1RrMNAuwkA"
+}

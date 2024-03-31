@@ -1,0 +1,84 @@
+{
+  "name": "Par la voix, les esprits [Mortifié]",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "LsSqYVzpWQxsO0IV",
+  "system": {
+    "description": {
+      "value": "<p>Également au niveau 8, votre zèle et votre rigueur spirituelle vous rapprochent du royaume des morts.</p>\n<p>Désormais vous bénéficiez de l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> à tous vos tests de Charisme ou de Sagesse lorsque vous tentez de communiquer avec un mort ou un mort-vivant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685362,
+    "modifiedTime": 1663923686673,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LsSqYVzpWQxsO0IV"
+}

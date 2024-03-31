@@ -1,0 +1,170 @@
+{
+  "_id": "tipmwD0YzYr5tEBG",
+  "name": "Hache à deux mains",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-double.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {
+        "heavy": true,
+        "twohanded": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "9125da2d-2de9-492a-88e0-06ee1698118e",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "933f1bbb-a063-48f4-833f-81df84b64716",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "5cf2cdd0-037b-4eb2-a05c-c97675b70de8",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 12,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "slh",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "Cette énorme hache comporte deux lames en double croissant montées de chaque côté d'un grand arbre à pointes. Conçue pour être maniée à deux mains et pour fendre les ennemis en deux",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 3.5,
+    "price": 30,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12 + @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "greataxe",
+    "properties": {
+      "hvy": true,
+      "two": true,
+      "amm": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700671,
+    "modifiedTime": 1663923700671,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!tipmwD0YzYr5tEBG"
+}

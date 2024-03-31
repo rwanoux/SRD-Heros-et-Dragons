@@ -1,0 +1,84 @@
+{
+  "_id": "GhAmS91YLmEdwi4L",
+  "name": "Relique [Seigneur Immortel]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/commodities/gems/gem-rough-square-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"relique\"><strong>Relique</strong></h3>\n<p>L'&eacute;l&eacute;ment fondateur de votre pacte avec un seigneur immortel est une relique que vous obtenez d&egrave;s le premier niveau. Cette relique peut &ecirc;tre un simple fragment d'os ou une main enti&egrave;re momifi&eacute;e, un &oelig;il pr&eacute;serv&eacute; par sorcellerie ou un cr&acirc;ne grima&ccedil;ant au complet, un anneau magique lui ayant appartenu ou le linceul dans lequel il fut envelopp&eacute; &agrave; sa mort.</p>\n<p>Choisissez un tour de magie et un sort de niveau 1 qui correspondent &agrave; la personnalit&eacute; ou &agrave; l'histoire de votre protecteur. Tant que vous portez la relique sur vous, vous pouvez utiliser ces sorts comme si vous les connaissiez. Ils ne comptent pas dans le nombre de sorts que vous connaissez.</p>\n<p>Alternativement, si votre protecteur &eacute;tait r&eacute;put&eacute; pour ses prouesses martiales ou militaires, tant que vous portez la relique sur vous, vous devenez comp&eacute;tent avec les armes de guerre et les armures interm&eacute;diaires.</p>\n<p>Si votre relique est perdue ou vol&eacute;e, vous pouvez la rappeler &agrave; vous par un rituel de 10 minutes &agrave; la fin d'un repos long. Si elle est d&eacute;truite, vous pouvez l'invoquer de nouveau par un rituel d'une journ&eacute;e, mais pas avant d'avoir atteint le niveau suivant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685268,
+    "modifiedTime": 1663923686478,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!GhAmS91YLmEdwi4L"
+}

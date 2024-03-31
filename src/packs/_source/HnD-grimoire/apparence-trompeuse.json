@@ -1,0 +1,131 @@
+{
+  "_id": "yg0YV4fHAAmveOYv",
+  "name": "Apparence trompeuse",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/air/air-burst-spiral-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ce sort vous permet de modifier l'apparence d'autant de créatures que vous voulez, à condition qu'elles se trouvent à portée et dans votre champ de vision. Vous donnez à chacune d'entre elles une nouvelle apparence illusoire. Une cible non consentante peut faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Charisme. Si elle le réussit, le sort ne l'affecte pas.</p>\n<p>Ce sort change l'apparence physique, mais aussi les vêtements, les armures, les armes et le reste de l'équipement. Vous pouvez faire croire que chaque créature affectée est plus petite ou plus grande de 30 centimètres maximum qu'en réalité, lui donner l'air grosse, maigre ou de corpulence normale. Vous ne pouvez pas changer le type de son corps, et vous devez choisir une forme possédant la même conformation qu'elle au niveau des membres. En dehors de cela, les détails de l'illusion sont laissés à votre imagination. Le sort persiste pendant toute sa durée ou jusqu'à ce que vous utilisiez une action pour le révoquer.</p>\n<p>Les changements apportés par le sort ne résistent pas à un examen physique. Par exemple, si vous l'utilisez pour ajouter un chapeau à la tenue de la cible, les objets passent au travers et toute personne qui essaie de le toucher ne sentira que de l'air ou des cheveux et un crâne. Si vous utilisez le sort pour la faire paraître plus mince qu'en réalité, la main de quelqu'un qui tente de la toucher se heurtera à son corps alors que, visuellement, elle semble encore dans le vide.</p>\n<p>Une créature peut utiliser son action pour examiner une cible et faire un test d'Intelligence (Investigation) contre le DD du <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> du sort. Si elle le réussit, elle comprend que la cible est déguisée.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 8,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "range": {
+        "value": "9",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688234,
+    "modifiedTime": 1663923689545,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!yg0YV4fHAAmveOYv"
+}

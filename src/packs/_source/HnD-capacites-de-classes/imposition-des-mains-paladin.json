@@ -1,0 +1,142 @@
+{
+  "_id": "zPDuqUUpAs1qnir6",
+  "name": "Imposition des mains [Paladin]",
+  "type": "feat",
+  "img": "icons/magic/light/orbs-hand-gray.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"imposition-des-mains\"><strong>Imposition des mains</strong></h3>\n<p>Votre contact b&eacute;ni peut gu&eacute;rir les blessures. Vous avez une r&eacute;serve de gu&eacute;rison qui se r&eacute;g&eacute;n&egrave;re quand vous terminez un repos long. Gr&acirc;ce &agrave; celle-ci, vous pouvez restaurer un nombre de points de vie &eacute;gal &agrave; cinq fois votre niveau de paladin.</p>\n<p>Vous pouvez utiliser une action pour toucher une cr&eacute;ature et puiser dans votre r&eacute;serve afin de gu&eacute;rir cette cr&eacute;ature en lui redonnant un certain nombre de points de vie, qui ne peut pas d&eacute;passer le nombre de points restant dans votre r&eacute;serve.</p>\n<p>Vous pouvez aussi choisir de puiser 5 points de vie dans cette r&eacute;serve de gu&eacute;rison pour soigner la victime d'une maladie ou neutraliser un poison. Vous pouvez gu&eacute;rir plusieurs maladies ou neutraliser plusieurs poisons gr&acirc;ce &agrave; une seule imposition des mains, tant que vous payez s&eacute;par&eacute;ment le coup de chaque soin.</p>\n<p>Cette aptitude n'a aucun effet sur les morts-vivants ou les cr&eacute;atures artificielles.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 5,
+      "max": "5*@classes.paladin.levels",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685708,
+    "modifiedTime": 1678412768926,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!zPDuqUUpAs1qnir6"
+}
