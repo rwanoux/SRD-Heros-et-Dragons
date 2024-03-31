@@ -1,0 +1,103 @@
+{
+  "name": "Détection des vivants",
+  "type": "spell",
+  "img": "icons/environment/people/group.webp",
+  "system": {
+    "description": {
+      "value": "<p>Pendant toute la durée du sort, vous pouvez sentir l'emplacement de toute créature qui n'est pas une créature artificielle ou un mort-vivant dans un rayon de 9 mètres autour de vous, sans tenir compte des entraves à vos autres sens. </p><p>Ce sort ne détecte pas les créatures mortes. Une créature qui tente de vous cacher sa force vitale peut effectuer un jet de sauvegarde de Charisme. </p><p>En cas de succès, vous ne pouvez pas sentir la créature avec ce sort. Si vous lancez à nouveau le sort, la créature doit refaire son jet de sauvegarde pour rester cachée à vos sens.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Underworld Player's Guide - Kobold Press",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "cover": null,
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "div",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "un morceau de quartz immaculé",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680511037475,
+    "modifiedTime": 1680511150814,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "B5Do0lqan4plNqZa",
+  "_key": "!items!B5Do0lqan4plNqZa"
+}

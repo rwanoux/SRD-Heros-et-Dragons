@@ -1,0 +1,96 @@
+{
+  "_id": "EztgnBTnt0W04xrc",
+  "name": "Baguette des entraves",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Cette baguette contient 7 charges en ce qui concerne les propriétés suivantes. Elle récupère 1d6+1 charges dépensées chaque jour, à l'aube. Lancez un d20 si vous dépensez la dernière charge. Sur un 1, elle est détruite et tombe en cendres.</p>\n<p><strong>Sorts</strong>. Avec cette baguette en main, vous pouvez utiliser une action pour dépenser certaines de ses charges et lancer un des sorts suivants (DD des jets de sauvegarde 17) :&nbsp;<a href=\"https://5e-drs.fr/grimoire/immobiliser-un-monstre/\">immobiliser un monstre</a>&nbsp;(5 charges) ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/immobiliser-un-humanoide/\">immobiliser un humanoïde</a>&nbsp;(2 charges).</p>\n<p><strong>Évasion facilitée</strong>. Avec cette baguette en main, vous pouvez utiliser votre réaction et vous obtenez l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;effectué pour ne pas vous retrouver&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#paralyse\">paralysé</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\">entravé</a>. Vous pouvez aussi dépenser 1 charge de cette façon pour obtenir l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors d'un test effectué pour éviter de vous retrouver&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne\">empoigné</a>.</p>\n<p>Harmonisation avec un lanceur de sorts exigée.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 10000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "wis",
+      "dc": 17,
+      "scaling": "flat"
+    },
+    "consumableType": "wand",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701083,
+    "modifiedTime": 1663923702059,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EztgnBTnt0W04xrc"
+}

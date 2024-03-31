@@ -1,0 +1,95 @@
+{
+  "_id": "2QkDgCpnMN6p3BFD",
+  "name": "Puits portatif",
+  "type": "consumable",
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Cette mince étoffe noire, aussi douce que de la soie, est repliée pour tenir aussi peu de place qu'un mouchoir. Dépliée, elle se présente sous forme d'un disque de 1,80 mètre de diamètre.</p>\n<p>Vous pouvez utiliser une action pour déplier le&nbsp;puits portatif&nbsp;et le poser sur ou contre une surface solide, où il crée un trou extradimensionnel de 3 mètres de profondeur. L'espace cylindrique qui forme le trou existe sur un autre plan, il est donc impossible de se servir du puits pour créer un passage. Si une créature se trouve dans le&nbsp;puits portatif&nbsp;alors qu'il est ouvert, il lui suffit d'escalader la paroi pour en sortir.</p>\n<p>Vous pouvez dépenser une action pour fermer le puits en attrapant les bords du tissu avant de replier ce dernier. Une fois le trou fermé, les créatures et les objets qu'il contient sont piégés dans son espace extradimensionnel. Le puits ne pèse presque rien, peu importe ce qui se trouve à l'intérieur.</p>\n<p>Si le puits est refermé et qu'une créature se trouve dans son espace extradimensionnel, elle peut utiliser une action pour faire un test de Force DD 10. Si elle réussit, elle se fraie de force un chemin hors du puits et apparaît dans un rayon de 1,50 mètre autour du&nbsp;puits portatif&nbsp;ou de la créature qui le transporte. Une créature qui a besoin de respirer et se trouve dans un puits refermé y survit jusqu'à 10 minutes, ensuite, elle commence à suffoquer.</p>\n<p>Si l'on place un&nbsp;puits portatif&nbsp;dans l'espace extradimensionnel né d'un&nbsp;<a href=\"https://5e-drs.fr/liste-objets-magiques/havresac-magique/\">havresac magique</a>, d'un&nbsp;<a href=\"https://5e-drs.fr/liste-objets-magiques/sac-sans-fond/\">sac sans fond</a>&nbsp;ou d'un objet similaire, les deux objets sont instantanément détruits et un portail s'ouvre vers le plan Astral. Il apparaît là où l'on a placé le premier objet dans le second et toutes les créatures situées dans un rayon de 3 mètres autour de ce portail sont emportées vers un endroit aléatoire du plan Astral. Le portail se referme ensuite, sachant qu'il est à sens unique et qu'il est impossible de le rouvrir.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 8000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "minute"
+    },
+    "target": {
+      "value": 3,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "abil",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    },
+    "details": {
+      "description": "<p><em>Wondrous item</em></p>\n<p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p>\n<p>You can use an action to unfold a Portable Hole and place it on or against a solid surface, whereupon the Portable Hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open Portable Hole can exit the hole by climbing out of it.</p>\n<p>You can use an action to close a Portable Hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.</p>\n<p>If the hole is folded up, a creature within the hole's extradimensional space can use an action to make a DC 10 Strength check. On a successful check, the creature forces its way out and appears within 5 feet of the portable hole or the creature carrying it. A breathing creature within a closed Portable Hole can survive for up to 10 minutes, after which time it begins to suffocate.</p>\n<p>Placing a portable hole inside an extradimensional space created by a @Compendium[dnd5e.items.aDHRuUs29SrumWfq]{Bag of Holding}, @Compendium[dnd5e.items.7vqs5AqI4VCmuszx]{Handy Haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701009,
+    "modifiedTime": 1663923701790,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!2QkDgCpnMN6p3BFD"
+}

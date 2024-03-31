@@ -1,0 +1,89 @@
+{
+  "name": "Liste Rôdeur niv 3",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
+  "effects": [],
+  "_id": "ewsSqZfcEl6IM9J0",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Rôdeur niveau 3</strong></h3><p> </p><ul><li><p>Abjuration</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl]{Non-détection}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.adB2GwSHzktgDOYo]{Protection contre les énergies}</li></ul></li><li><p>Divination</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.B5Do0lqan4plNqZa]{Détection des vivants}</li></ul></li><li><p>Évocation</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.XZzgZLepwTwmQGrs]{Lumière du jour}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.8l7Y79aTsNILt5PU]{Mur de vent}</li></ul></li><li><p>Invocation</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.OZVOFgvaOF6CkEjH]{Invoquer des animaux}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.XUAtODFAwr7broz3]{Pluie de projectiles}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g3orwo4uwbtpegP4]{Projectile toxique}</li></ul></li><li><p> Transmutation</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.KVqhCgoiO9fuXQqx]{Communication avec les plantes}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.z3FLlKNK0xBlc2Lw]{Croissance végétale}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.J3j8fZnbaGhwKcX0]{Marche sur l'eau}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kNpSusSUUmpWHeyM]{Respiration aquatique}</li></ul></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923688140,
+    "modifiedTime": 1680511420908,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ewsSqZfcEl6IM9J0"
+}

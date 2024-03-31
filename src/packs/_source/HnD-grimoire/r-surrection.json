@@ -1,0 +1,130 @@
+{
+  "_id": "Iy0LUCNQ4wexkAzt",
+  "name": "Résurrection",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/light/explosion-star-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous touchez le cadavre d'une créature décédée depuis 100 ans au maximum, qui n'est pas morte de vieillesse et qui n'est pas un mort-vivant. Si son âme est libre et consentante, la cible ressuscite avec tous ses points de vie.</p>\n<p>Ce sort neutralise les poisons et maladies ordinaires qui affectaient éventuellement la cible à sa mort, mais il ne guérit pas les maladies magiques, les malédictions et autres effets de même type. Il faut en débarrasser la cible avant de la ressusciter, sans quoi ils l'affligent de nouveau dès qu'elle revient à la vie.</p>\n<p>Ce sort referme les blessures mortelles et restaure les parties de corps éventuellement manquantes.</p>\n<p>Le retour d'entre les morts est une rude épreuve qui se traduit par un malus de -4 aux jets d'attaque et de sauvegarde ainsi qu'aux tests de caractéristique. À chaque fois que la cible termine un repos long, ce malus se réduit de 1 jusqu'à disparaître.</p>\n<p>Si ce sort est destiné à une créature décédée depuis un an ou plus, son incantation est extrêmement éprouvante. Après cela, vous ne pouvez plus lancer de sort et vous souffrez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors des jets d'attaque et de sauvegarde et des tests de caractéristique jusqu'à ce que vous ayez terminé un repos long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "creature",
+      "range": {
+        "value": "contact"
+      }
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Un diamant d'une valeur minimale de 1000 po, que le sort consume",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688006,
+    "modifiedTime": 1663923688797,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Iy0LUCNQ4wexkAzt"
+}

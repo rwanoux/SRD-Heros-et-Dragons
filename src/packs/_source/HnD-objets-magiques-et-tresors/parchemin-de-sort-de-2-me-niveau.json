@@ -1,0 +1,92 @@
+{
+  "_id": "DaOXPfeozYSWDY01",
+  "name": "Parchemin de sort de 2ème niveau",
+  "type": "consumable",
+  "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Sur un&nbsp;parchemin magique&nbsp;est inscrite la formule d'un unique sort, rédigée tel un message mystique crypté. Si le sort est présent dans la liste de sorts de votre classe de personnage, vous pouvez utiliser une action pour lire le parchemin et lancer le sort qu'il contient sans devoir fournir aucune de ses composantes. Sinon, le sort est incompréhensible.</p>\n<p>Si le sort est présent dans la liste de sorts de votre classe de personnage mais d'un niveau supérieur à ceux que vous êtes normalement capable de lancer, vous devez effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">test de caractéristique</a>&nbsp;en utilisant votre caractéristique d'incantation pour déterminer si vous parvenez à le lancer. Le DD est égal à 10 + le niveau du sort. En cas de test raté, le sort disparaît du parchemin sans produire d'effet.</p>\n<p>Une fois le sort lancé, la formule disparaît de la surface du parchemin qui tombe ensuite en poussière.</p>\n<p>DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;: 13<br>Bonus à l'attaque&nbsp;: +5</p>\n<p>Un sort de magicien inscrit sur un&nbsp;parchemin magique&nbsp;peut être recopié, tout comme on recopie les sorts dans un grimoire. Quand un sort est recopié depuis un&nbsp;parchemin magique, celui qui s'y adonne doit réussir un test d'Intelligence (Arcanes) contre un DD égal à 10 + le niveau du sort. En cas de réussite sur ce test, le sort est recopié avec succès. Le&nbsp;parchemin magique&nbsp;est détruit quel que la soit le résultat du test.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 120,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Le sort doit être présent dans la liste de sorts de votre classe de personnage."
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": "5",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "consumableType": "scroll",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701075,
+    "modifiedTime": 1663923702031,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!DaOXPfeozYSWDY01"
+}

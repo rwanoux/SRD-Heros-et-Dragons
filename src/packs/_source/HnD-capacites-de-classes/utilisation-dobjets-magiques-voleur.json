@@ -1,0 +1,84 @@
+{
+  "_id": "B1dmTprCFSZDcGZi",
+  "name": "Utilisation d'objets magiques [Voleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"utilisation-d-objets-magiques\"><strong>Utilisation d'objets magiques</strong></h3>\n<p>Au niveau 13, vous avez appris assez de choses sur le fonctionnement de la magie pour improviser et utiliser des objets magiques, m&ecirc;me s'ils ne vous sont pas destin&eacute;s. Vous ignorez toutes les conditions d'utilisation de classe, de race et de niveau concernant l'utilisation des objets magiques.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685226,
+    "modifiedTime": 1663923686301,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!B1dmTprCFSZDcGZi"
+}

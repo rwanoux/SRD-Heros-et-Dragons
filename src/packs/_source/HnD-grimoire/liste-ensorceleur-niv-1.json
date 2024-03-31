@@ -1,0 +1,84 @@
+{
+  "name": "Liste Ensorceleur niv 1",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "effects": [],
+  "_id": "C8QyT6eHGGtBBpN9",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Ensorceleur/Sorcelame niveau 1</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Abjuration\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.lebzBItGh48POCUX]{Armure du mage}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ySkKyl3Z09OU9Dvk]{Bouclier}</li>\n</ul>\n</li>\n<li>Enchantement\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u]{Charme-personne}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kEHtYXCZeiLyrkI3]{Sommeil}</li>\n</ul>\n</li>\n<li>Divination\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jjL4S9upbFC0B8aR]{Compr&eacute;hension des langues}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.pX5A4OAMYOYotCMP]{D&eacute;tection de la magie}</li>\n</ul>\n</li>\n<li>&Eacute;vocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.B1bohXlQ6UTwEGdS]{Geyser d'&eacute;nergie}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.xYBSOrbsz3VR32Hf]{Mains br&ucirc;lantes}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BO8EamopfMTbkd54]{Projectile magique}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.caB6HvhWaE7s0yUM]{Vague tonnante}</li>\n</ul>\n</li>\n<li>Illusion\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.MdN2EAUA8L7bWYQ9]{Couleurs dansantes}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Isc5VZPyWaLUtuAl]{D&eacute;guisement}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.e4GUjnHspRcEhAmP]{Image silencieuse}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.DuuPeHavEjF5642F]{Nappe de brouillard}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.sID5kdurDivOQAGp]{Strangulation}</li>\n</ul>\n</li>\n<li>N&eacute;cromancie\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AzBZS7QYUiITYGN5]{Sang du d&eacute;mon}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.c4mQpfdz2aPgHcSN]{Simulacre de vie}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g8jRZr5Q44ugR8fB]{L&eacute;ger comme une plume}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vJvC0KtYVJJm5AZM]{Repli exp&eacute;ditif}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ovCf7Oy5qS217nvD]{Saut}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur / Sorcelame",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687977,
+    "modifiedTime": 1663923688700,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!C8QyT6eHGGtBBpN9"
+}

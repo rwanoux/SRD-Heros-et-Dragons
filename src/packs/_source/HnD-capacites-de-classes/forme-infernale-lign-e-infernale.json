@@ -1,0 +1,84 @@
+{
+  "_id": "p4AoxGxhiaDQYRgA",
+  "name": "Forme infernale [Lignée infernale]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"forme-infernale\"><strong>Forme infernale</strong></h3>\n<p>&Agrave; partir du niveau 18, vous pouvez d&eacute;penser des points de sorcellerie et votre action pour prendre une forme infernale. Cette aptitude est &eacute;quivalente au sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.mTNUbqBuOiNbtrDR]{Changement de forme} (avec la n&eacute;cessit&eacute; de maintenir sa concentration), mais vous ne pouvez prendre la forme que de diables ou de d&eacute;mons.</p>\n<p>En fonction de votre lign&eacute;e, vous devez choisir entre les diables et les d&eacute;mons au moment de l'acquisition de l'aptitude.</p>\n<p>La transformation vous co&ucirc;te un nombre de points de sorcellerie &eacute;gal &agrave; l'indice de dangerosit&eacute; du d&eacute;mon ou du diable choisi. Chaque fois que vous souhaitez changer de forme, vous devez &agrave; nouveau payer le co&ucirc;t en points de sorcellerie. Vous ne pouvez pas utiliser l'aptitude magie du sang lorsque vous &ecirc;tes sous les effets de forme infernale.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685633,
+    "modifiedTime": 1663923687516,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!p4AoxGxhiaDQYRgA"
+}

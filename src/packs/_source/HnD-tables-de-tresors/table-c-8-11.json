@@ -1,0 +1,173 @@
+{
+  "_id": "FON8Rdls0AAIg6Gz",
+  "name": "Table C 8 à 11",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 800000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "2d6*1000 [sp], 6d6*100 [gp], 3d6*10 [pp]",
+      "loot-actor-name": "Coffre",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "ZSsS2fsd8bUgH107",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Aucun trésor",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.ZSsS2fsd8bUgH107"
+    },
+    {
+      "_id": "PU6CVHDlBmsVDIuo",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Objet précieux @price[750] @quantity[1] @weight[0.1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Objet%20pr%C3%A9cieux.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        3,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.PU6CVHDlBmsVDIuo"
+    },
+    {
+      "_id": "ZCj7c16rDPFthLZn",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Gemme @price[50] @quantity[1d4] @weight[0.1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Gemme.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        6,
+        9
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.ZCj7c16rDPFthLZn"
+    },
+    {
+      "_id": "bTKHfKNqKqV4dcSC",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Objet précieux @price[750] @quantity[1d4] @weight[0.1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Objet%20pr%C3%A9cieux.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        10,
+        13
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.bTKHfKNqKqV4dcSC"
+    },
+    {
+      "_id": "MJO8IEbZUQhx74qY",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Opale @price[50] @quantity[2d6] @weight[0.1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Opale.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        14,
+        16
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.MJO8IEbZUQhx74qY"
+    },
+    {
+      "_id": "gkEW3tbtJbhTwTS0",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Objet précieux @price[750] @quantity[2d4] @weight[1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Objet%20pr%C3%A9cieux.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        17,
+        19
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.gkEW3tbtJbhTwTS0"
+    },
+    {
+      "_id": "NNhaEBcU7zMUzsRK",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Diamant @price[100] @quantity[3d6] @weight[0.1]",
+      "img": "https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Diamant.png",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FON8Rdls0AAIg6Gz.NNhaEBcU7zMUzsRK"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!FON8Rdls0AAIg6Gz"
+}

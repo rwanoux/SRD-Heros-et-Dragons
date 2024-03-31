@@ -1,0 +1,89 @@
+{
+  "name": "Retour de flammes",
+  "type": "feat",
+  "img": "icons/magic/fire/projectile-wave-arrow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "jzXMlSzo474cJsZU",
+  "system": {
+    "description": {
+      "value": "<p>Lorsque qu'une attaque d'arme au corps à corps vous touche, vous pouvez utiliser votre réaction afin de faire jaillir autour de vous une aura de flammes qui touche toutes les créatures dans un rayon de 1,50 mètre autour de vous.</p>\n<p>Les créatures subissent automatiquement 1d4 points de dégâts. Ces dégâts augmentent avec les niveaux : 1d6 au niveau 5, 1d8 au niveau 9, 1d10 au niveau 13 et 2d6 au niveau 17. Vous devez effectuer un repos long avant de pouvoir réutiliser cette capacité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1.5,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Tieffelin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698213,
+    "modifiedTime": 1663923698561,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jzXMlSzo474cJsZU"
+}

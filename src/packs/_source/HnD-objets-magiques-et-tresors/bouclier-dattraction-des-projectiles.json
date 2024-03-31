@@ -1,0 +1,108 @@
+{
+  "_id": "r7SoiPqbv0DkjvNz",
+  "name": "Bouclier d'attraction des projectiles",
+  "type": "equipment",
+  "img": "icons/equipment/shield/oval-wooden-boss-steel.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Tant que vous tenez ce bouclier, vous bénéficiez d'une résistance contre les dégâts infligés par les attaques d'armes à distance.</p>\n<p><strong>Malédiction.</strong> Ce bouclier est maudit. L'harmonisation avec ce bouclier vous maudit jusqu'à ce que vous soyez la cible du sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/lever-une-malediction/\">lever une malédiction</a>&nbsp;ou d'une magie similaire. Se débarrasser du bouclier ne met pas fin à la malédiction qui pèse sur vous. Chaque fois qu'une attaque d'arme à distance est effectuée contre une cible située à 3 mètres ou moins de vous, la malédiction intervient pour que vous soyez la cible de l'attaque à la place de la cible initiale.</p>\n<p>Harmonisation requise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 3,
+    "price": 6000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": "Chaque fois qu'une attaque d'arme à distance est effectuée contre une cible située à 3 mètres ou moins de vous."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": 3,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 2,
+      "type": "shield",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701425,
+    "modifiedTime": 1663923703117,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!r7SoiPqbv0DkjvNz"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "XzBsolABEDoPXDXO",
+  "name": "Table Sceptre OM7",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9000000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "tpKcI3VRZUETboac",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Sceptre d'absorption",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_15.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "FX2oJ9lE3p35VRN5",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!XzBsolABEDoPXDXO.tpKcI3VRZUETboac"
+    },
+    {
+      "_id": "L7GVaKNhQIg9ghnX",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Sceptre de sécurité",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/blue_18.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "OhcLzecUJFiVpYLt",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!XzBsolABEDoPXDXO.L7GVaKNhQIg9ghnX"
+    },
+    {
+      "_id": "NR1qSjmMdao3O9wh",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Sceptre de vigilance",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/violet_03.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "bpBh9mKcjCsNc7tn",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!XzBsolABEDoPXDXO.NR1qSjmMdao3O9wh"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!XzBsolABEDoPXDXO"
+}

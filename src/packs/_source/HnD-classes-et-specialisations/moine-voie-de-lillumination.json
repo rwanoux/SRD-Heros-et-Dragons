@@ -1,0 +1,122 @@
+{
+  "_id": "u0Xwq1Tqxp8Qun0y",
+  "name": "[Moine] Voie de l'illumination",
+  "type": "subclass",
+  "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traditions-monacales\"><strong>Traditions monacales</strong></h2>\n<h3 id=\"voie-de-l-illumination\"><strong>Voie de l'illumination</strong></h3>\n<h4> </h4>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JcQbW67Sghc13Ha1]{Prières [Voie de l'illumination]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DlRVYqGi6KNojL2q]{Magie universelle [Voie de l'illumination]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "voie-de-lillumination",
+    "classIdentifier": "moine",
+    "advancement": [
+      {
+        "_id": "1kx01cykx0gywgt2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JcQbW67Sghc13Ha1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "6rnupyfvo5bjpr8k",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DlRVYqGi6KNojL2q"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "b0c9z8fio6dxvv6y",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.WulW9U4Lf5rh1nJN",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.g6PEhEFxoKoangxJ",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.13hegp2WlfHG1VMS",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.kNpSusSUUmpWHeyM",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.XfPLgaMusOnrw38q"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "edn7fb9gvgenwyvy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.aqM9MEQauxglCV9n",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.ynTJBCm8B99LOqq4",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.VDiUTdRBbERIvQV0",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.l4VPktMLaUOSFAEI"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "3rosi9waghcfaazd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.ySkKyl3Z09OU9Dvk",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.CarbMJ73FtMTsJZw",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.kEHtYXCZeiLyrkI3",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.caB6HvhWaE7s0yUM"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703435,
+    "modifiedTime": 1663923703683,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!u0Xwq1Tqxp8Qun0y"
+}

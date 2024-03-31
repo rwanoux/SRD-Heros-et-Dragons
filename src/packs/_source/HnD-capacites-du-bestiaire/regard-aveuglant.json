@@ -1,0 +1,84 @@
+{
+  "name": "Regard Aveuglant",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "_id": "QQTteTZLiLUfcHEL",
+  "system": {
+    "description": {
+      "value": "<p><strong>Regard aveuglant.</strong> La créature cible une autre créature. La cible doit réussir un jet de sauvegarde pour ne pas être aveuglée jusqu'à ce qu'un effet magique, tel que celui produit par un sort de restauration inférieure, dissipe l'aveuglement.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 3,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "requirements": "Ange (Solar) ",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698825,
+    "modifiedTime": 1663923699620,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!QQTteTZLiLUfcHEL"
+}

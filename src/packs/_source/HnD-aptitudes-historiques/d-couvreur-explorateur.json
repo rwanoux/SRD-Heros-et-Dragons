@@ -1,0 +1,86 @@
+{
+  "_id": "lpEUNtFWt86qhMSB",
+  "name": "découvreur (Explorateur)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Même dans une région qui vous est inconnue, vous êtes capable de déterminer la meilleure route à suivre pour relier un point à un autre, en fonction du climat et du terrain. Toutefois, vos choix ne tiennent pas forcément compte des particularités locales, comme des prédateurs ou des tribus hostiles. Dans un territoire déjà visité, vous êtes capable de dénicher une solution de transport qui vous permet de rallier votre destination. Selon les cas, il peut s'agir d'une caravane, d'un bateau, ou d'un simple chariot emprunté à un paysan. Ce ne sera pas forcément la solution la plus rapide ou la plus confortable, mais elle sera généralement sûre et vous mènera à bon port</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "explorateur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703918,
+    "modifiedTime": 1663923704004,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lpEUNtFWt86qhMSB"
+}

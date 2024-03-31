@@ -1,0 +1,104 @@
+{
+  "name": "Bouclier de lames [Collège des taromanciens]",
+  "type": "feat",
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_id": "I9cocZBLRIJ8bGEN",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Bouclier de lames</strong></h3><p>Également au niveau 6, lorsqu'une attaque devrait vous toucher, vous pouvez utiliser votre réaction afin de positionner une ou plusieurs lames entre vous et votre adversaire afin d'éviter l'attaque. Pour chaque lame dépensée, vous augmentez votre CA de 1. Si votre CA dépasse l'attaque de l'adversaire, l'attaque ne vous touche pas. Ces lames sont détruites dans le processus, jusqu'à ce que votre jeu se régénère.</p><p>Vous pouvez utiliser cette capacité une fois entre deux repos courts ou longs.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette Role'n Play #7",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barde / taromancien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685276,
+    "modifiedTime": 1678423934137,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!I9cocZBLRIJ8bGEN"
+}

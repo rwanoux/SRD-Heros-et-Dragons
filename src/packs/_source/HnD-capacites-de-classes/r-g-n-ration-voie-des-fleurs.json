@@ -1,0 +1,84 @@
+{
+  "name": "Régénération [Voie des fleurs]",
+  "type": "feat",
+  "img": "icons/magic/life/cross-beam-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "W7iuXqe9KNmCdech",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 17, vous pouvez régénérer votre énergie vitale en laissant l'énergie du sol remonter à travers vos pieds et circuler en vous, à la façon dont un arbre fait repousser les branches taillées lorsque le printemps arrive.</p>\n<p>En dépensant 6 points de Ki, vous pouvez lancer le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.sAikSaD9j0EhrsS1]{Régénération} sur vous-même tant que vous avez les pieds en contact avec la terre.</p>\n<p>Le sort cesse de faire effet si vous vous déplacez.</p>\n<p>Vous pouvez utiliser cette aptitude une fois entre deux repos longs.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 6
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685425,
+    "modifiedTime": 1663923686938,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!W7iuXqe9KNmCdech"
+}

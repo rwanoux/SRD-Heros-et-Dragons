@@ -1,0 +1,108 @@
+{
+  "_id": "exfQL7YxdBXontLk",
+  "name": "Amulette de cicatrisation",
+  "type": "equipment",
+  "img": "icons/equipment/neck/pendant-faceted-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Tant que vous portez ce pendentif, vous vous stabilisez automatiquement au d&eacute;but de votre tour si vous &ecirc;tes mourant. De plus, &agrave; chaque fois que vous lancez un d&eacute; de vie pour r&eacute;cup&eacute;rer des points de vie, vous doublez le nombre de points de vie rendus. </span></span></span></span></p>\n<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Harmonisation requise.</span></span></span></span></p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.01,
+    "price": 5000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "trinket",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701310,
+    "modifiedTime": 1663923702779,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!exfQL7YxdBXontLk"
+}

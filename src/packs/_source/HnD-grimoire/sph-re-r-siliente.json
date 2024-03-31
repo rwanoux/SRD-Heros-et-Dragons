@@ -1,0 +1,131 @@
+{
+  "_id": "AqhXRtgcjc3jGhWk",
+  "name": "Sphère résiliente",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/water/orb-ice-opaque.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une sphère de force scintillante englobe une créature ou un objet de taille G ou inférieure situés à portée. Si la cible n'est pas consentante, elle a droit à un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité. Si elle le rate, elle est enfermée dans la sphère pour toute la durée du sort.</p>\n<p>Rien ne peut franchir la barrière que forme la sphère : ni les objets physiques, ni l'énergie, ni les effets des autres sorts. En revanche, une créature qui se trouve au sein de la sphère y respire sans mal. La sphère est immunisée contre tous les types de dégâts. De plus, les attaques et les effets originaires de l'extérieur de la sphère ne peuvent pas blesser la créature ou l'objet qu'elle abrite. De même, une créature au sein de la sphère est incapable d'endommager ce qui se trouve à l'extérieur.</p>\n<p>La sphère ne pèse rien et elle est tout juste assez grande pour contenir la créature ou l'objet qu'elle renferme. Une créature enfermée dans la sphère peut utiliser son action pour exercer une poussée sur la paroi de la sphère et la faire rouler à la moitié de sa vitesse habituelle. De même, une tierce personne peut ramasser la sphère ou la déplacer.</p>\n<p>Un sort de <em>désintégration</em> visant la sphère la détruit sans endommager ce qu'elle contient.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "9",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un bout de cristal transparent hémisphérique et son équivalent en gomme arabique",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687971,
+    "modifiedTime": 1663923688676,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!AqhXRtgcjc3jGhWk"
+}

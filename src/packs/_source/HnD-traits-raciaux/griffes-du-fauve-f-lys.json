@@ -1,0 +1,84 @@
+{
+  "_id": "IZhMBJBv4kLaeuda",
+  "name": "Griffes du fauve (Félys)",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Griffes du fauve</strong>. Vous possédez de petites griffes rétractiles. Vos dommages à mains nues peuvent être tranchants ou contondants, selon ce que vous préférez. Vous devez choisir avant d'effectuer votre jet de dé d'attaque.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Félys",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698175,
+    "modifiedTime": 1663923698417,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IZhMBJBv4kLaeuda"
+}

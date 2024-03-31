@@ -1,0 +1,84 @@
+{
+  "_id": "sBxgQeGbLHt7Nm8u",
+  "name": "Maître des traditions [Gardien des Traditions]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"maitre-des-traditions\"><strong>Ma&icirc;tre des traditions</strong></h3>\n<p>Au niveau 17, vous obtenez deux points de caract&eacute;ristiques suppl&eacute;mentaires que vous pouvez ajouter au choix en Sagesse ou en Charisme. Vous pouvez choisir de r&eacute;partir un point en Sagesse et l'autre en Charisme. Votre maximum pour ces deux valeurs est &agrave; pr&eacute;sent de 22.</p>\n<p>D&eacute;sormais, vous &ecirc;tes capable de lancer le sort@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1]{Soin des blessures de groupe} en utilisant une action bonus et @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.EE8nPIyioWTbfpUG]{Mot de gu&eacute;rison de groupe}&nbsp;en utilisant une r&eacute;action (donc en dehors de votre propre tour).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685654,
+    "modifiedTime": 1663923687601,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!sBxgQeGbLHt7Nm8u"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "6ceqA7YX7ImkZgIw",
+  "name": "Représailles [Voie du Berserker]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"represailles\"><strong>Repr&eacute;sailles</strong></h3>\n<p>&Agrave; partir du niveau 14, quand vous subissez des d&eacute;g&acirc;ts de la part d'une cr&eacute;ature qui se trouve dans un rayon de 1,50 m&egrave;tre autour de vous, vous pouvez utiliser votre r&eacute;action pour faire une attaque de corps-&agrave;-corps visant cette cr&eacute;ature en repr&eacute;sailles.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685193,
+    "modifiedTime": 1663923686185,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!6ceqA7YX7ImkZgIw"
+}

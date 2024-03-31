@@ -1,0 +1,89 @@
+{
+  "name": "Charme prédateur",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous maîtrisez la compétence Persuasion. </p><p>De plus, si vous passez au moins 1 minute à converser ou à interagir avec un humanoïde que vous ou vos alliés n'avez pas attaqué au cours des dernières 24 heures, vous avez l'avantage sur votre prochain test de Charisme contre cet humanoïde. </p><p>Quel que soit le résultat, vous ne pouvez plus utiliser votre charme prédateur sur cet humanoïde avant que 24 heures ne se soient écoulées. </p><p>Si vous obtenez un 20 sur le d20 du test de Charisme, l'humanoïde est une cible consentante pour votre attaque de morsure.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Midgard Heroes Handbook - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Dhampyr",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680507036792,
+    "modifiedTime": 1680507133470,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "oOVvgqaFbXhgIHsX",
+  "_key": "!items!oOVvgqaFbXhgIHsX"
+}

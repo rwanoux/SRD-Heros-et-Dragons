@@ -1,0 +1,84 @@
+{
+  "name": "Détecter",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/targeting/target-strike-triple-blue.webp",
+  "_id": "ATv8d5UpiaJQhqeu",
+  "system": {
+    "description": {
+      "value": "<p><strong>Détecter.</strong> La créature effectue un test de Sagesse (Perception) pour détecter une présence.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Aboleth & Dragons (tous)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698768,
+    "modifiedTime": 1663923699372,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ATv8d5UpiaJQhqeu"
+}

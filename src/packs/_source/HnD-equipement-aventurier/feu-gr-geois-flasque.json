@@ -1,0 +1,97 @@
+{
+  "_id": "MrBaS2Rsssqpokcn",
+  "name": "Feu grégeois (flasque)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Ce liquide gluant et collant s'enflamme au contact de l'air. Vous pouvez utiliser une action pour lancer la flasque jusqu'à une distance de 6 mètres. La flasque se brise à l'impact. Il s'agit d'une attaque à distance contre une créature ou un objet, et vous devez considérer le feu grégeois comme une arme improvisée. Si vous touchez votre cible, celle-ci subit 1d4 dégâts de feu au début de chacun de ses tours. La cible peut mettre fin à cet effet et tenter d'éteindre les flammes en utilisant son action pour faire un test de Dextérité DD 10.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 50,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 6,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "improvised weapon",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "consumableType": "potion",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700591,
+    "modifiedTime": 1663923700591,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MrBaS2Rsssqpokcn"
+}

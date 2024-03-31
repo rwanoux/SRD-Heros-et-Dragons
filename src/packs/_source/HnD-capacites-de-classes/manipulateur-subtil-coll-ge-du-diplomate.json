@@ -1,0 +1,84 @@
+{
+  "_id": "BrOkcJeEvIEDhmO2",
+  "name": "Manipulateur Subtil [Collège du Diplomate]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"manipulateur-subtil\"><strong>Manipulateur subtil</strong></h3>\n<p>Au niveau 14, lorsqu'un de vos sorts de l'&eacute;cole d'enchantement cesse de faire effet, vous pouvez choisir de d&eacute;penser un d&eacute; d'@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]} pour que les victimes ne se rappellent pas avoir &eacute;t&eacute; sous l'effet de votre magie et que leur attitude &agrave; votre &eacute;gard n'en soit pas alt&eacute;r&eacute;e.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685233,
+    "modifiedTime": 1663923686325,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!BrOkcJeEvIEDhmO2"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "eXQ6Ntb5Fhu3ls20",
+  "name": "Guérisseur béni [Domaine de la vie]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/heart-cross-strong-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"guerisseur-beni\"><strong>Gu&eacute;risseur b&eacute;ni</strong></h3>\n<p>&Agrave; partir du niveau 6, les sorts de soins que vous lancez sur d'autres cr&eacute;atures vous soignent aussi. Quand vous lancez un sort de niveau 1 ou plus qui redonne des points de vie &agrave; une cr&eacute;ature diff&eacute;rente de vous, vous regagnez un nombre de points de vie &eacute;gal &agrave; 2 + le niveau du sort.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Héros & Dragons DRS",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685484,
+    "modifiedTime": 1663923687182,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!eXQ6Ntb5Fhu3ls20"
+}

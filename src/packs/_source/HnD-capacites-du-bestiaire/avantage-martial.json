@@ -1,0 +1,148 @@
+{
+  "_id": "MVjjA7FPoB70qJW6",
+  "name": "Avantage martial",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description",
+    "obsidian": {
+      "source": {
+        "type": "other"
+      },
+      "effects": [
+        {
+          "name": "",
+          "uuid": "cfd4ab14-6857-4aa8-a059-47a177b88e41",
+          "components": [
+            {
+              "type": "damage",
+              "uuid": "ae29342f-ed34-4794-828d-79a62e0d331b",
+              "calc": "formula",
+              "ndice": 2,
+              "die": 6,
+              "ability": "",
+              "bonus": 0,
+              "damage": "",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Avantage martial.</strong> Une fois par tour, le hobgobelin peut infliger 2d6 d&eacute;g&acirc;ts suppl&eacute;mentaires &agrave; une cr&eacute;ature contre laquelle il r&eacute;ussit une attaque d'arme, si cette cr&eacute;ature se trouve &agrave; 1,50 m&egrave;tre ou moins d'un alli&eacute; du hobgobelin et si cet alli&eacute; n'est pas neutralis&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698809,
+    "modifiedTime": 1663923699547,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MVjjA7FPoB70qJW6"
+}

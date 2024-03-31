@@ -1,0 +1,131 @@
+{
+  "_id": "s02MyVMbQ1AFNnYL",
+  "name": "Modification de mémoire",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous tentez de remodeler les souvenirs d'autrui. Une créature située dans votre champ de vision doit effectuer un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse. Si vous combattez cette créature, elle a l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors du jet. Si elle échoue, elle est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#charmé\"><em>charmée</em></a> par vous pendant toute la durée du sort. Elle est alors <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé\"><em>neutralisée</em></a> et n'a plus conscience de ce qui l'entoure, mais elle vous entend toujours. Le sort se termine si elle subit le moindre dégât ou si elle est la cible d'un autre sort, auquel cas ses souvenirs restent tous intacts.</p>\n<p>Tant que le sort persiste, vous pouvez influer sur les souvenirs de la cible liés à un événement qui s'est déroulé dans les 24 heures précédentes et qui n'a pas duré plus de 10 minutes. Vous pouvez éliminer définitivement tout souvenir de cet événement, permettre à la cible de s'en souvenir parfaitement dans les moindres détails, modifier les détails dont elle se souvient ou créer un souvenir décrivant un tout autre événement.</p>\n<p>Vous devez parler à votre cible pour décrire comment ses souvenirs sont affectés et, pour que les nouveaux souvenirs s'implantent dans sa mémoire, elle doit être à même de comprendre votre langue. Son esprit se charge de combler les manques dans votre description. Si le sort se termine avant que vous ayez fini de décrire les souvenirs modifiés, la mémoire de la cible ne subit aucune modification. Sinon, elle tient compte des modifications qui lui ont été apportées dès que le sort se termine.</p>\n<p>Les souvenirs modifiés ne changent pas forcément l'attitude de la créature, surtout s'ils entrent en contradiction avec ses penchants naturels, son alignement ou ses croyances. Un souvenir modifié illogique sera ignoré : par exemple, si la cible se souvient combien elle a aimé se baigner dans de l'acide, elle prendra cela pour un mauvais rêve. Le MJ peut estimer qu'un souvenir est modifié de manière tellement insensée qu'il n'affecte pas la cible de manière significative.</p>\n<p>Un sort <em>lever une malédiction</em> ou <em>restauration supérieure</em> permet à la cible de retrouver ses véritables souvenirs.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 6 ou supérieur, vous pouvez modifier les souvenirs d'un événement remontant à 7 jours (niveau 6), 30 jours (niveau 7), 1 an (niveau 8) ou issus de n'importe quelle période du passé de la cible (niveau 9).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "9",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688206,
+    "modifiedTime": 1663923689442,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!s02MyVMbQ1AFNnYL"
+}

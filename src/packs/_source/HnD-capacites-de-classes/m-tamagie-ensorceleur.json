@@ -1,0 +1,104 @@
+{
+  "_id": "qtQNJ14cIFC2f6nr",
+  "name": "Métamagie [Ensorceleur]",
+  "type": "feat",
+  "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"metamagie\"><strong>Métamagie</strong></h3><p>Au niveau 3, vous gagnez la capacité de modifier vos sorts pour les adapter à vos besoins. Vous gagnez deux options de métamagie de votre choix parmi les suivantes. Vous en gagnerez une nouvelle au niveau 10 et une dernière au niveau 17.</p><p>Vous ne pouvez appliquer qu'une seule option de métamagie à un sort quand vous le lancez, sauf mention contraire.</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.oUknhysqmuKIt8qU]{Métamagie - Invocation prudente [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8jHSRqZqpSL9DLH8]{Métamagie - Sort distant [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.yxyTWgjqYP0lKt4E]{Métamagie - Sort accéléré [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0r7wXmQaJubFUiC5]{Métamagie - Sort étendu [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SBy7VjH5DPSR32l2]{Métamagie - Sort intense [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.e8ZULU8aynEKLFAA]{Métamagie - Sort jumeau [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.bjG7HT6BEcKdxCwQ]{Métamagie - Sort puissant [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.atU758FWdTHA7xVM]{Métamagie - Sort subtil [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sFFa2XmicDYluenl]{Métamagie - Sort affamé [Ensorceleur]}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OkJoqB1NumiVTayH]{Métamagie - Sort de faim partagée [Ensorceleur]}</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685642,
+    "modifiedTime": 1680512253788,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!qtQNJ14cIFC2f6nr"
+}

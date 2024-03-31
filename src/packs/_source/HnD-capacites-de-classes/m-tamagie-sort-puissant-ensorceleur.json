@@ -1,0 +1,84 @@
+{
+  "_id": "bjG7HT6BEcKdxCwQ",
+  "name": "Métamagie - Sort puissant [Ensorceleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sort-puissant\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sort puissant</strong></h3>\n<p style=\"box-sizing: border-box; user-select: text;\">Quand vous lancez les d&eacute;s de d&eacute;g&acirc;ts d'un sort, vous pouvez d&eacute;penser 1 point de sorcellerie pour annuler les r&eacute;sultats d'un nombre de d&eacute;s de d&eacute;g&acirc;ts inf&eacute;rieur ou &eacute;gal &agrave; votre modificateur de Charisme (avec un minimum de un) et les relancer. Vous devez utiliser les r&eacute;sultats du nouveau lancer.</p>\n<p style=\"box-sizing: border-box; user-select: text;\">Vous pouvez utiliser sort puissant m&ecirc;me si vous avez d&eacute;j&agrave; utilis&eacute; une autre option de m&eacute;tamagie pour modifier ce sort.</p>\n<h3 id=\"invocation-prudente\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685463,
+    "modifiedTime": 1663923687096,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!bjG7HT6BEcKdxCwQ"
+}

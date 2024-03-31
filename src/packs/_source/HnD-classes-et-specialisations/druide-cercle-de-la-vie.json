@@ -1,0 +1,110 @@
+{
+  "_id": "nPNmJnUKHMgv9lOL",
+  "name": "[Druide] Cercle de la Vie",
+  "type": "subclass",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h1 id=\"cercles-druidiques\"><strong>Cercles druidiques</strong></h1>\n<h2 id=\"cercle-des-saisons\"><strong>Cercle de la Vie</strong></h2>\n<h3> </h3>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OZVeYrB2Dxyzvcja]{Pacifiste [Cercle de la Vie]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kOCDaMSafDcQvCRs]{Guérisseur émérite [Cercle de la Vie]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3iWqmSvIDBhrP8vI]{Sorts de Vie [Cercle de Vie]}</p>\n<p style=\"font-size:14px\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.G9oEW9JViSXDcPYI]{Aide Précieuse [Cercle de la Vie]}</p>\n<p style=\"font-size:14px\">Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E7ltJtz4EFjaZRXD]{Réaction rapide [Cercle de la Vie]}</p>\n<p style=\"font-size:14px\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cNiDcZh8GcFZe4G2]{Esprit Apaisé [Cercle de la Vie]}</p>\n<p style=\"font-size:14px\">Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IMAD3bZa3nabKZnH]{Esprit de Vie [Cercle de la Vie]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "cercle-de-la-vie",
+    "classIdentifier": "druide",
+    "advancement": [
+      {
+        "_id": "6dps9y2rqm8stib5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IMAD3bZa3nabKZnH"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "j2ob711uo9at5b17",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cNiDcZh8GcFZe4G2"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "byjx9xoqqlmipd80",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E7ltJtz4EFjaZRXD"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "i8bwn2ujyio1c8tt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.G9oEW9JViSXDcPYI"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "vi06ysthzudug4ac",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OZVeYrB2Dxyzvcja",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kOCDaMSafDcQvCRs",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3iWqmSvIDBhrP8vI"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703426,
+    "modifiedTime": 1663923703653,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!nPNmJnUKHMgv9lOL"
+}

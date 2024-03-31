@@ -1,0 +1,92 @@
+{
+  "_id": "9B4MALNxKUrUAs7C",
+  "name": "Gemme élémentaire de feu",
+  "type": "consumable",
+  "img": "icons/commodities/gems/gem-rough-cushion-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">Cette gemme contient une particule d'&eacute;nergie &eacute;l&eacute;mentaire. Quand vous brisez la gemme par une action, un &eacute;l&eacute;mentaire appara&icirc;t, comme si vous l'aviez invoqu&eacute; avec un sort d'<a href=\"https://5e-drs.fr/grimoire/invoquer-un-elementaire/\">invoquer un &eacute;l&eacute;mentaire</a>&nbsp;et la gemme perd toute magie. Le type d'&eacute;l&eacute;mentaire invoqu&eacute; d&eacute;pend de la gemme utilis&eacute;e.<br />\n<table>\n<tbody>\n<tr>\n<th>Gemme</th>\n<th>&Eacute;l&eacute;mentaire invoqu&eacute;</th>\n</tr>\n<tr>\n<td>Saphir bleu</td>\n<td>&Eacute;l&eacute;mentaire de l'air</td>\n</tr>\n<tr>\n<td>Diamant jaune</td>\n<td>&Eacute;l&eacute;mentaire de la terre</td>\n</tr>\n<tr>\n<td>Corindon rouge</td>\n<td>&Eacute;l&eacute;mentaire du feu</td>\n</tr>\n<tr>\n<td>&Eacute;meraude</td>\n<td>&Eacute;l&eacute;mentaire de l'eau</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 960,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "m",
+      "type": "square"
+    },
+    "range": {
+      "value": 27,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701048,
+    "modifiedTime": 1663923701930,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9B4MALNxKUrUAs7C"
+}

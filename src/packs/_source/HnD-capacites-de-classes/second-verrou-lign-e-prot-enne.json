@@ -1,0 +1,155 @@
+{
+  "_id": "UV1rDodfEfwDIrok",
+  "name": "Second verrou [Lignée Protéenne]",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": {
+          "use": true,
+          "resource": true,
+          "charge": false
+        },
+        "altValue": {
+          "use": true,
+          "resource": true,
+          "charge": false
+        }
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickPrompt": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      }
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-orange-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Second verrou</strong></h3>\n<p>&Agrave; partir du niveau 14, vous devenez capable de nourrir votre &eacute;nergie int&eacute;rieure par votre vitalit&eacute;. Vous pouvez utiliser une action bonus pour r&eacute;cup&eacute;rer autant de point de sorcellerie que vous le d&eacute;sirez. Vous subissez imm&eacute;diatement autant de d6 de d&eacute;g&acirc;ts que le nombre de points de sorcellerie r&eacute;cup&eacute;r&eacute;s. Vous ne pouvez pas d&eacute;passer le nombre maximal de points de sorcellerie fix&eacute; par votre niveau d&rsquo;ensorceleur de cette fa&ccedil;on.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée l'âge des héros",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685412,
+    "modifiedTime": 1663923686880,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!UV1rDodfEfwDIrok"
+}

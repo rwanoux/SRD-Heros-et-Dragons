@@ -1,0 +1,84 @@
+{
+  "name": "Trompettes Élyséennes",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/tools/instruments/horn-red-brown.webp",
+  "_id": "69Y6m6CgSRkLmtMw",
+  "system": {
+    "description": {
+      "value": "<p><strong>Trompettes élyséennes.</strong> Le son d'instruments illusoires se fait entendre pour une cible située à 36 mètres ou moins de lacréature. La cible doit réussir un jet de sauvegarde de Sagesse ou être absorbée par la musique. Elle est considérée comme charmée par la créature et paralysée, jusqu'à la première attaque qui lui inflige des dégâts. Le son s'arrête à la fin du round.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": ""
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "int",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon de Cuivre (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698752,
+    "modifiedTime": 1663923699310,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!69Y6m6CgSRkLmtMw"
+}

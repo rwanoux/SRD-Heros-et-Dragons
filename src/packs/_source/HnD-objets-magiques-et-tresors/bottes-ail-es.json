@@ -1,0 +1,112 @@
+{
+  "_id": "7yKXVugBT6HERl7v",
+  "name": "Bottes ailées",
+  "type": "equipment",
+  "img": "icons/equipment/feet/boots-collared-simple-leather.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Tant que vous portez ces bottes aux pieds, vous disposez d'une vitesse de d&eacute;placement en vol &eacute;gale &agrave; votre vitesse au sol. Vous pouvez utiliser les bottes pour voler pendant un maximum de 4 heures d'affil&eacute;e ou lors de vols plus courts. Toutefois, chaque utilisation d&eacute;pense au minimum 1 minute de cette dur&eacute;e. Si vous volez au moment o&ugrave; cette dur&eacute;e prend fin, vous descendez &agrave; une vitesse de 9 m&egrave;tres par round jusqu'&agrave; toucher le sol.</p>\n<p>Les bottes r&eacute;cup&egrave;rent 2 heures de capacit&eacute; de vol pour chaque p&eacute;riode de 12 heures pass&eacute;es sans &ecirc;tre utilis&eacute;es.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 8000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 4,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "clothing",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701043,
+    "modifiedTime": 1663923701909,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!7yKXVugBT6HERl7v"
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "kOCDaMSafDcQvCRs",
+  "name": "Guérisseur émérite [Cercle de la Vie]",
+  "type": "feat",
+  "img": "icons/magic/life/cross-worn-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3><strong>Gu&eacute;risseur &eacute;m&eacute;rite</strong></h3>\n<p>Toujours au niveau 2, vous obtenez la ma&icirc;trise de la comp&eacute;tence M&eacute;decine. Si vous l&rsquo;avez d&eacute;j&agrave;, vous doublez votre bonus de ma&icirc;trise quand vous l&rsquo;utilisez.</p>\n<p>Vous pouvez d&eacute;penser une de vos m&eacute;tamorphoses afin de lancer le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin des blessures}. Il est consid&eacute;r&eacute; comme &eacute;tant lanc&eacute; avec un emplacement d&rsquo;un niveau &eacute;gal &agrave; la moiti&eacute; de votre bonus de ma&icirc;trise, arrondi &agrave; l&rsquo;inf&eacute;rieur.</p>\n<p>Enfin, quand vous lancez un sort de soins, vous ajoutez votre bonus de ma&icirc;trise au nombre de points de vie que vous rendez.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette R'n P #3",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685604,
+    "modifiedTime": 1663923687405,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!kOCDaMSafDcQvCRs"
+}

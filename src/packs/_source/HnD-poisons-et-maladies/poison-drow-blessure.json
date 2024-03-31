@@ -1,0 +1,88 @@
+{
+  "_id": "t3HqiTFQJhi5hZY4",
+  "name": "Poison drow (blessure)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>En règle générale, les drows sont les seuls à fabriquer ce poison et seulement en des lieux très éloignés de la lumière du soleil. Une créature soumise à ce poison doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 13 ou se trouver&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne\">empoisonnée</a>&nbsp;pendant 1 heure. Si elle rate son jet de 5 ou plus, elle est&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconsciente</a>&nbsp;tout le temps que dure l'empoisonnement. Elle se réveille si elle subit des dégâts ou si une tierce personne utilise son action pour la réveiller en la secouant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "quantity": 1,
+    "weight": 0.2,
+    "price": 200,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "consumableType": "poison"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703742,
+    "modifiedTime": 1663923703742,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!t3HqiTFQJhi5hZY4"
+}

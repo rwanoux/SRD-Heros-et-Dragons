@@ -1,0 +1,89 @@
+{
+  "_id": "w9q6GMjk2rDpoPFe",
+  "name": "Attaque en meute [Brute]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"attaque-en-meute\"><strong>Attaque en meute</strong></h3>\n<p>Lorsque vous atteignez le niveau 13, vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;au&nbsp;<a href=\"https://5e-drs.fr/combattre/#jets-d-attaque\">jet d'attaque</a>&nbsp;lorsque vous attaquez une cible qui se trouve &agrave; moins de 1,50 m&egrave;tre d'un alli&eacute; non&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise\">neutralis&eacute;</a>.</p>\n<p>D&eacute;sormais, si vous b&eacute;n&eacute;ficiez d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lorsque vous utilisez l'aptitude coup bas et que votre attaque &agrave; mains nue ou improvis&eacute;e inflige des d&eacute;g&acirc;ts, votre cible doit r&eacute;ussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution (DD = 8 + votre modificateur de Force + votre bonus de ma&icirc;trise) ou &ecirc;tre&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\">entrav&eacute;e</a> par la douleur jusqu'au d&eacute;but de votre prochain tour. Les morts-vivants, les &eacute;l&eacute;mentaires, les vases, les plantes et les cr&eacute;atures artificielles sont immunis&eacute;es &agrave; cet effet.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "entravée par la douleur jusqu'au début de votre prochain tour",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "str"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685686,
+    "modifiedTime": 1663923687749,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!w9q6GMjk2rDpoPFe"
+}

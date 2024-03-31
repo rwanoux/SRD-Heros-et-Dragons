@@ -1,0 +1,84 @@
+{
+  "_id": "WbjwRMB32frtu812",
+  "name": "Foi élargie [Gardien des Traditions]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/orbs-hand-gray.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"foi-elargie\"><strong>Foi &eacute;largie</strong></h3>\n<p>&Agrave; partir du niveau 1 &eacute;galement, votre lien avec de nombreuses divinit&eacute;s ou des esprits vous permet de pr&eacute;parer une liste de sorts plus importante qu'un autre clerc de m&ecirc;me niveau. Vous ajoutez votre bonus de ma&icirc;trise au nombre de sorts que vous pouvez pr&eacute;parer (normalement &eacute;gale &agrave; modificateur de Sagesse + niveau de clerc). En revanche, la liste des sorts de domaine auxquels vous avez acc&egrave;s est plus limit&eacute;e.</p>\n<p>Par exemple, un gardien des traditions de premier niveau avec un modificateur de Sagesse de +2 peut pr&eacute;parer cinq sorts diff&eacute;rents au lieu de trois : niveau (1) + modificateur de Sagesse (2) + bonus de ma&icirc;trise (2). Au niveau 17, il pourra pr&eacute;parer vingt-cinq sorts au lieu de dix-neuf.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685431,
+    "modifiedTime": 1663923686966,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!WbjwRMB32frtu812"
+}

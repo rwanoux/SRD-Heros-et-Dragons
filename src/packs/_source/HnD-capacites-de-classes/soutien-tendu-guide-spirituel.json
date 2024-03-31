@@ -1,0 +1,84 @@
+{
+  "_id": "2PqI4sqDIl5IHYQ2",
+  "name": "Soutien étendu [Guide Spirituel]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/control/energy-stream-link-spiral-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"soutien-etendu\"><strong>Soutien &eacute;tendu</strong></h3>\n<p>Au niveau 6, lorsque vous lancez le tour de magie @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ET8WtXuEifdjbtp8]{Assistance}, la cible du sort peut appliquer l'effet &agrave; un&nbsp;<a href=\"https://5e-drs.fr/combattre/#jets-d-attaque\">jet d'attaque</a>, et lorsque vous lancez le tour de magie @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.djoMzjTA610GQAv4]{R&eacute;sistance}, elle peut appliquer l'effet &agrave; sa CA contre une attaque.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685161,
+    "modifiedTime": 1663923686061,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!2PqI4sqDIl5IHYQ2"
+}

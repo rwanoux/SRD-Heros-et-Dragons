@@ -1,0 +1,92 @@
+{
+  "_id": "vKZMg2UlVuq7m0pm",
+  "name": "Table Vorpale",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9400000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "vXWuWQ3j710kYIij",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Cimeterre vorpal",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_16.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "zei7g7cOcFUKDM2j",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!vKZMg2UlVuq7m0pm.vXWuWQ3j710kYIij"
+    },
+    {
+      "_id": "6AUK1yBuP0QKVFNI",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée à 2 mains vorpale",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_16.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "tbvHXRVRb7hDmFK0",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!vKZMg2UlVuq7m0pm.6AUK1yBuP0QKVFNI"
+    },
+    {
+      "_id": "JtIJ6YT2dwFzhdqy",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue vorpale",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_16.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "HnXNOZbpPRaRKLk6",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!vKZMg2UlVuq7m0pm.JtIJ6YT2dwFzhdqy"
+    }
+  ],
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!vKZMg2UlVuq7m0pm"
+}

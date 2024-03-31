@@ -1,0 +1,84 @@
+{
+  "_id": "EDHMMhN0PZY6H3E0",
+  "name": "Prouesse de Cirque - Bouffon [Collège des Saltimbanques]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/ranged/shuriken-thrown-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Prouesse de Cirque - Bouffon</strong></h3>\n<p>&nbsp;</p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&nbsp;&Agrave; votre tour, vous pouvez d&eacute;penser une @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]} et utiliser une action bonus pour tenter de d&eacute;concentrer une cible qui maintient un sort. La cible doit r&eacute;ussir un </span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"> de Charisme ND (8 +bonus de ma&icirc;trise + modificateur de Charisme) ou perdre sa concentration. D'autre part, lorsque vous utilisez le tour de magie @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.7OUpKrBlt4Jfz0xu]{Moquerie cruelle}, vous ajoutez votre d&eacute; d'inspiration bardique aux d&eacute;g&acirc;ts inflig&eacute;s.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685247,
+    "modifiedTime": 1663923686387,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EDHMMhN0PZY6H3E0"
+}

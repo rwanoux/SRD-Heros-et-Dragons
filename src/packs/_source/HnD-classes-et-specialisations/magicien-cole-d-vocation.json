@@ -1,0 +1,95 @@
+{
+  "_id": "Wl01RHUeHfkI2vHq",
+  "name": "[Magicien] École d'évocation",
+  "type": "subclass",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traditions-arcaniques\"><strong>Traditions arcaniques</strong></h2>\n<h3 id=\"ecole-d-evocation\"><strong>École d'évocation</strong></h3>\n<p> </p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZnEW4GTkesafBzSy]{Évocateur érudit [École d'Évocation]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Hqk4yzeaJL0uFLEt]{Façonneur de Sorts [École d'Évocation]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PiF3R7y5taWTeTy3]{Tour de magie puissant [École d'Évocation]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KcwCaZhR34PAsvsj]{Évocation améliorée [École d'Évocation]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qXXCye30fDCPoR21]{Surcharge magique [École d'Évocation]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "ecole-devocation",
+    "classIdentifier": "magicien",
+    "advancement": [
+      {
+        "_id": "otxn2dm438nwpnmn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qXXCye30fDCPoR21"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "1jn0e6vx6nt1m3xp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KcwCaZhR34PAsvsj"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "ygttcf0h92nm60l0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PiF3R7y5taWTeTy3"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "8abcjc5zfy649st4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZnEW4GTkesafBzSy",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Hqk4yzeaJL0uFLEt"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703413,
+    "modifiedTime": 1663923703604,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Wl01RHUeHfkI2vHq"
+}

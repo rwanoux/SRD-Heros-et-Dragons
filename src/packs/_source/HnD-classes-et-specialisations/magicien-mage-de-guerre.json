@@ -1,0 +1,97 @@
+{
+  "_id": "MUKtiEA81Ed2yEzZ",
+  "name": "[Magicien] Mage de guerre",
+  "type": "subclass",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traditions-arcaniques\"><strong>Traditions arcaniques</strong></h2>\n<h3 id=\"eminence-grise\"><strong>Mage de guerre</strong></h3>\n<p>Le mage de guerre a reçu une formation tout entière tournée vers l'efficacité brute. Sur le champ de bataille, son objectif est double : tuer le plus d'ennemis possible, mais aussi soutenir ses propres troupes. Considéré comme une arme de grande valeur, il a aussi pour mis\u0002sion prioritaire de se protéger lui-même. Toutefois, à la guerre, le sacrifice est parfois nécessaire, c'est pourquoi le mage de guerre est capable de lancer des sorts avec toute énergie qu'il peut mobiliser</p>\n<p> </p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7ljb5b5M1fUrPt8J]{Puissance de feu [Mage de guerre]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5VNnuDp3gKy50K2d]{Pavois [Mage de guerre]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UJrmaI8wtDC0xjVp]{Artillerie lourde [Mage de guerre]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CB5dpMdbFjq5zfVi]{Soutien [Mage de guerre]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.va5K0NW1zFjM9U0d]{Dominer le terrain [Mage de guerre]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QWHgt0jEAfz4fih5]{Chair à canon [Mage de guerre]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Bgys0yxczgoimiWd]{Sacrifice ultime [Mage de guerre]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "mage-de-guerre",
+    "classIdentifier": "magicien",
+    "advancement": [
+      {
+        "_id": "gw3axtu8nbrxtg7a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QWHgt0jEAfz4fih5",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Bgys0yxczgoimiWd"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "1zdx942qefqniwl0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.va5K0NW1zFjM9U0d"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "2n6k9zc6aputt10c",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UJrmaI8wtDC0xjVp",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CB5dpMdbFjq5zfVi"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "lwbjkxjytrn4d5ye",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7ljb5b5M1fUrPt8J",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5VNnuDp3gKy50K2d"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703405,
+    "modifiedTime": 1663923703572,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MUKtiEA81Ed2yEzZ"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Consulter Deux-visages [Le seigneur Deux-visages]",
+  "type": "feat",
+  "img": "icons/commodities/currency/coin-engraved-sun-smile-copper.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "1SmfdzA4NR3g7P5L",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 10, vous pouvez vous en remettre à votre pièce pour décider de faire ou de ne pas faire une action.</p>\n<p>Les termes employés doivent définir une action claire et précise : tuer X ou sauver Y, enfoncer une porte (mais pas devenir plus fort).</p>\n<p>Prenez une pièce et lancez la (ou utilisez un dé de votre choix : pile = pair, face = impair).</p>\n<p>Si vous obtenez pile, vous bénéficiez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> à tous les tests servant à faire cette action jusqu'à votre prochain repos long.</p>\n<p>Si vous obtenez face, vous souffrez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a> si vous persistez tout de même dans ce projet.</p>\n<p>Vous devez terminer un repos long avant de pouvoir à nouveau utiliser cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d2",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685153,
+    "modifiedTime": 1663923686028,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!1SmfdzA4NR3g7P5L"
+}

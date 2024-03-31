@@ -1,0 +1,84 @@
+{
+  "_id": "L56IgpldhmDwjfBH",
+  "name": "Canalisation divine : Protection - Résistance [Prêtre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-orange-small.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Canalisation d'&eacute;nergie divine : Protection - R&eacute;sistance</strong></h3>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Vous obtenez une r&eacute;sistance &agrave; tous les types de d&eacute;g&acirc;ts pendant 1 round par point de bonus de ma&icirc;trise. Vous pouvez choisir d'utiliser cette aptitude sur un alli&eacute; situ&eacute; dans votre champ de vision &agrave; moins de 9 m&egrave;tres en m&ecirc;me temps que sur vous-m&ecirc;me.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "turn"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "ft",
+      "type": "ally"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685357,
+    "modifiedTime": 1663923686653,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!L56IgpldhmDwjfBH"
+}

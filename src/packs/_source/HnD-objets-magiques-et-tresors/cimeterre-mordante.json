@@ -1,0 +1,125 @@
+{
+  "_id": "FC4Nbv3c60gJnfwN",
+  "name": "Cimeterre mordante",
+  "type": "weapon",
+  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>Seul un repos court ou long permet de récupérer les points de vie perdus à cause des dégâts infligés par cette arme. Ni la régénération, ni la magie, ni aucun autre moyen ne peuvent soigner ces points de vie perdus.</p>\n<p>Une fois par tour, lorsque vous réussissez une attaque contre une créature avec cette arme magique, vous pouvez inciser la cible. Au début de chacun des tours de la créature ainsi incisée, celle-ci subit 1d4 dégâts nécrotiques pour chaque attaque d'incision réussie à son encontre. Elle peut ensuite effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 15 et mettre fin à l'effet de la totalité des incisions dont elle est victime en cas de réussite. Par ailleurs, une créature incisée, ou une autre créature située à 1,50 mètre ou moins d'elle, peut utiliser une action pour effectuer un test de Sagesse (Médecine) DD 15 et mettre fin à l'effet des incisions dont elle est victime en cas de réussite.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 2000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d4",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "scimitar",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": true,
+      "fir": false,
+      "foc": false,
+      "lgt": true,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701086,
+    "modifiedTime": 1663923702070,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!FC4Nbv3c60gJnfwN"
+}

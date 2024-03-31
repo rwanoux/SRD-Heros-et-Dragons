@@ -1,0 +1,84 @@
+{
+  "_id": "LpCxPPqaxi6tMbrB",
+  "name": "Griffe du tigre [Voie des Cinq Animaux]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/abilities/paw-print-orange.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"griffe-du-tigre\"><strong>Griffe du tigre</strong></h3>\n<p>Vous faites l'acquisition de cette technique au niveau 3.</p>\n<p>La griffe du tigre vous permet d'infliger des d&eacute;g&acirc;ts tranchants au lieu de contondants lorsque vous faites une attaque &agrave; mains nues si vous le souhaitez.</p>\n<p>De plus, en d&eacute;pensant 1 point de ki, vous obtenez automatiquement le r&eacute;sultat maximum sur votre d&eacute; de d&eacute;g&acirc;ts lors d'une attaque &agrave; mains nues r&eacute;ussie.</p>\n<p>Si vous d&eacute;pensez 2 points de ki, vous obtenez le maximum de d&eacute;g&acirc;ts sur toutes vos attaques &agrave; mains nues lors de votre tour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685362,
+    "modifiedTime": 1663923686670,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LpCxPPqaxi6tMbrB"
+}

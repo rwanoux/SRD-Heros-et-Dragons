@@ -1,0 +1,105 @@
+{
+  "_id": "LfpVM4V5JogtrRRw",
+  "name": "Armure d'Invulnérabilité",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-size: 10pt; font-family: Roboto, sans-serif;\">Tant que vous portez cette armure, vous résistez aux dégâts non-magiques. De plus, vous pouvez dépenser une action pour vous immuniser contre les dégâts non-magiques pendant 10 minutes ou jusqu'à ce que vous ne portiez plus l'armure. Une fois que vous avez utilisé cette action spéciale, vous ne pouvez plus vous en servir avant l'aube suivante.</span></p>\n<p><span style=\"font-size: 10pt; font-family: Roboto, sans-serif;\">Harmonisation requise.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 32.5,
+    "price": 18000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 18,
+      "type": "heavy",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "plate",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 15,
+    "stealth": true,
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701132,
+    "modifiedTime": 1663923702222,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LfpVM4V5JogtrRRw"
+}

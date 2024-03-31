@@ -1,0 +1,95 @@
+{
+  "_id": "EXCzy8yV2gQYOOW0",
+  "name": "[Magicien] Arpenteur",
+  "type": "subclass",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traditions-arcaniques\"><strong>Traditions arcaniques</strong></h2>\n<h3 id=\"arpenteur\"><strong>Arpenteur</strong></h3>\n<p> </p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.27dJNNk7X889wNXD]{Endurci [Arpenteur]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Mp5pWksmn8Xv0uca]{Aguerri [Arpenteur]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UNumwRGp7DsQehTr]{Incantation réflexe [Arpenteur]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.G0R4uq1i2I4jlUTJ]{Magie confinée [Arpenteur]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.782PA8u02h1qf5rH]{Ressources insoupçonnées [Arpenteur]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "arpenteur",
+    "classIdentifier": "magicien",
+    "advancement": [
+      {
+        "_id": "4kob1h0njueb48gz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.782PA8u02h1qf5rH"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "xvhj2zvqbab6qzqa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UNumwRGp7DsQehTr",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.G0R4uq1i2I4jlUTJ"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "nvil9t19nm2qx9pt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Mp5pWksmn8Xv0uca"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "77x38kvtamrdri4x",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.27dJNNk7X889wNXD"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703396,
+    "modifiedTime": 1663923703537,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EXCzy8yV2gQYOOW0"
+}

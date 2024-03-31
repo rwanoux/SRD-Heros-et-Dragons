@@ -1,0 +1,167 @@
+{
+  "_id": "mx8E2CMsFKGlNc87",
+  "name": "Épée courte Dansante",
+  "type": "weapon",
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": []
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Vous pouvez utiliser une action bonus pour lancer cette &eacute;p&eacute;e magique en l'air et prononcer son mot de commande. Elle se met alors &agrave; flotter et s'envole &agrave; une distance maximum de 9 m&egrave;tres, attaquant la cr&eacute;ature de votre choix situ&eacute;e dans un rayon de 1,50 m&egrave;tre autour d'elle. L'&eacute;p&eacute;e utilise votre jet d'attaque et votre modificateur de caract&eacute;ristique aux jets de d&eacute;g&acirc;ts.</p>\n<p>Tant que l'&eacute;p&eacute;e flotte dans les airs, vous pouvez utiliser une action bonus pour l'envoyer voler sur une distance maximum de 9 m&egrave;tres jusqu'&agrave; un emplacement situ&eacute; dans un rayon de 9 m&egrave;tres autour de vous. Lors de cette action bonus, vous pouvez demander &agrave; l'&eacute;p&eacute;e d'attaquer une cr&eacute;ature situ&eacute;e dans un rayon de 1,50 m&egrave;tre autour d'elle.</p>\n<p>Une fois que l'&eacute;p&eacute;e a attaqu&eacute; pour la quatri&egrave;me fois, elle vole sur un maximum de 9 m&egrave;tres et tente de retourner dans votre main. Si vous avez les deux mains prises, elle tombe &agrave; vos pieds. Si l'&eacute;p&eacute;e ne dispose d'aucun chemin d'acc&egrave;s pour vous rejoindre, elle se rapproche de vous autant que possible et tombe &agrave; terre. Elle cesse &eacute;galement de flotter dans les airs si vous l'attrapez ou si vous vous &eacute;loignez &agrave; plus de 9 m&egrave;tres d'elle.</p>\n<p>Harmonisation requise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1,
+    "price": 2000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "Mot de commande."
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "shortsword",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": true,
+      "fir": false,
+      "foc": false,
+      "lgt": true,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": true,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701360,
+    "modifiedTime": 1663923702983,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!mx8E2CMsFKGlNc87"
+}

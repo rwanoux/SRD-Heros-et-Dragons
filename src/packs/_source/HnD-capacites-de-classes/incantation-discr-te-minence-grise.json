@@ -1,0 +1,84 @@
+{
+  "_id": "57RSavG87vrOxHfx",
+  "name": "Incantation discrète [Éminence grise]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/fog-gas-smoke-gray.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"incantation-discrete\"><strong>Incantation discr&egrave;te</strong></h3>\n<p>Enfin, &eacute;galement au niveau 14, vous devenez capable de lancer des sorts sans vous faire remarquer. Vous pouvez supprimer la composante vocale ou/et somatique d'une incantation d'une dur&eacute;e inf&eacute;rieure ou &eacute;gale &agrave; une action. Vous devez utiliser un emplacement de sort d'un niveau au-dessus du sort par composante supprim&eacute;e.</p>\n<p>Vous pouvez lancer vos quatre sorts privil&eacute;gi&eacute;s (@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jjL4S9upbFC0B8aR]{Compr&eacute;hension des langues}, @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Isc5VZPyWaLUtuAl]{D&eacute;guisement}, @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fnPMtbIOldgP9mjJ]{Apaisement des &eacute;motions} et @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl]{Non-d&eacute;tection}) sans composante vocale ni somatique sans augmenter le niveau du sort utilis&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685177,
+    "modifiedTime": 1663923686124,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!57RSavG87vrOxHfx"
+}

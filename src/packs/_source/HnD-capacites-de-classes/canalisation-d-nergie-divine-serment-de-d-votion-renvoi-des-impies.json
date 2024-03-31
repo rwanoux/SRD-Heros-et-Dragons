@@ -1,0 +1,84 @@
+{
+  "_id": "s9dpRQgRyfDuXycV",
+  "name": "Canalisation d'énergie divine [Serment de Dévotion] Renvoi des impies",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-2\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Canalisation d'&eacute;nergie divine</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Quand vous pr&ecirc;tez serment au niveau 3, vous pouvez d&eacute;cliner votre aptitude canalisation d'&eacute;nergie divine de deux fa&ccedil;ons diff&eacute;rentes.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Renvoi des impies</strong>. Vous pouvez utiliser une action pour utiliser l'aptitude canalisation d'&eacute;nergie divine et, en brandissant votre symbole sacr&eacute;, prononcer une pri&egrave;re contre les fi&eacute;lons et les morts-vivants. Dans un rayon de 9 m&egrave;tres autour de vous, chaque fi&eacute;lon et mort-vivant qui peut vous voir ou vous entendre doit faire un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Sagesse. Si une cr&eacute;ature &eacute;choue &agrave; son jet de sauvegarde, elle est&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#repousse\">repouss&eacute;e</a>&nbsp;pendant 1 minute ou jusqu'&agrave; ce qu'elle subisse des d&eacute;g&acirc;ts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "JdS Echec : Repoussée pendant 1 minutes ou jusqu'à ce qu'elle subisse des dégâts",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685652,
+    "modifiedTime": 1663923687597,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!s9dpRQgRyfDuXycV"
+}

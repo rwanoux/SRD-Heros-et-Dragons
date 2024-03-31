@@ -1,0 +1,131 @@
+{
+  "_id": "E0q7KfRK88ZeiUvp",
+  "name": "Motif hypnotique",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/air/wind-vortex-swirl-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous tissez dans les airs un motif aux couleurs mouvantes dans un cube de 9 mètres d'arête situé à portée. Le motif apparaît pendant un bref instant avant de s'évanouir. Chaque créature qui se trouve dans la zone et voit le motif doit faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse. Celles qui échouent sont charmées pendant la durée du sort. Tant qu'une créature est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#charmé\"><em>charmée</em></a> par ce sort, elle est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé\"><em>neutralisée</em></a> et a une vitesse de 0.</p>\n<p>Le sort se termine pour une créature donnée si elle subit le moindre dégât ou si quelqu'un d'autre utilise son action pour la secouer et la sortir de sa torpeur.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "cube",
+      "range": {
+        "value": "36",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un bâtonnet d'encens incandescent ou une fiole de cristal remplie d'une matière phosphorescente",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687988,
+    "modifiedTime": 1663923688739,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!E0q7KfRK88ZeiUvp"
+}

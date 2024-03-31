@@ -1,0 +1,84 @@
+{
+  "_id": "AWNw82r8IAkDMnUF",
+  "name": "Maîtrise supplémentaire [Domaine de la vie]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"maitrise-supplementaire\"><strong>Ma&icirc;trise suppl&eacute;mentaire</strong></h3>\n<p>Quand vous choisissez ce domaine au niveau 1, vous obtenez la ma&icirc;trise des armures lourdes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Héros & Dragons DRS",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685224,
+    "modifiedTime": 1663923686295,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!AWNw82r8IAkDMnUF"
+}

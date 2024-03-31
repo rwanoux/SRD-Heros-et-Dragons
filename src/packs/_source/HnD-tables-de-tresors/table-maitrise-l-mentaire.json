@@ -1,0 +1,114 @@
+{
+  "_id": "hlPXCm9sw4pXAuRU",
+  "name": "Table Maitrise élémentaire",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9800000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "kTWR0fIuWsC60dJK",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Anneau de maîtrise élémentaire de l'air",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-silver.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "EStiqtRCeSas50Rl",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hlPXCm9sw4pXAuRU.kTWR0fIuWsC60dJK"
+    },
+    {
+      "_id": "H1ZfU3zBLypHgaZK",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Anneau de maîtrise élémentaire de l'eau",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-orb.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "HJSpWmqTt7tEQ6YY",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hlPXCm9sw4pXAuRU.H1ZfU3zBLypHgaZK"
+    },
+    {
+      "_id": "xOxsOcqVCUntpAsV",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Anneau de maîtrise élémentaire de la terre",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-iron.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "g0y50RuQJmloJzyw",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hlPXCm9sw4pXAuRU.xOxsOcqVCUntpAsV"
+    },
+    {
+      "_id": "okisYIOYAHAuv0fU",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Anneau de maîtrise élémentaire du feu",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-red.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "yE4zK7HX0Li8qTvb",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!hlPXCm9sw4pXAuRU.okisYIOYAHAuv0fU"
+    }
+  ],
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!hlPXCm9sw4pXAuRU"
+}

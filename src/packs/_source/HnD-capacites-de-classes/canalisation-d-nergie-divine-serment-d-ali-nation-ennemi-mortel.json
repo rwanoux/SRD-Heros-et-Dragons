@@ -1,0 +1,84 @@
+{
+  "name": "Canalisation d'énergie divine [Serment d'aliénation] Ennemi mortel",
+  "type": "feat",
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "1tAp58zRiINJZ5lO",
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-4\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Canalisation d'énergie divine</strong></h4>\n<p style=\"box-sizing:border-box;user-select:text\">Quand vous prêtez votre serment au niveau 3, vous accédez aux deux options suivantes de canalisation d'énergie divine.</p>\n<p style=\"box-sizing:border-box;user-select:text\"><span style=\"color:#2e1f49;font-family:Friz, sans-serif\"><span style=\"font-size:13px\"><strong>Ennemi mortel : </strong>En utilisant votre action bonus et en dépensant votre canalisation d'énergie divine, vous pouvez désigner une cible que vous voyez située au plus à 9 mètres et en faire l'ennemi mortel de votre Sire. Vous avez désormais l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> à toutes vos attaques contre cette créature. Ce pouvoir prend fin au bout d'une minute, si vous tombez à 0 point de vie ou <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconscient</a>.</span></span></p>\n<h4 id=\"canalisation-d-energie-divine-2\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"></h4>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685156,
+    "modifiedTime": 1663923686042,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!1tAp58zRiINJZ5lO"
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "z28QMXpBhOKYrwK1",
+  "name": "Possession",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/death/projectile-skull-fire-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre corps tombe en catatonie tandis que votre âme le quitte et pénètre dans le réceptacle utilisé comme composante de sort. Tant qu'elle se trouve là, vous percevez votre environnement comme si votre corps occupait le même espace que le réceptacle. En revanche, vous ne pouvez pas bouger ni utiliser de réaction. Vous ne pouvez accomplir qu'une action : projeter votre âme dans un rayon de 30 mètres au maximum autour du réceptacle, soit pour retourner dans votre corps (ce qui met fin au sort), soit pour prendre possession d'un autre corps humanoïde.</p>\n<p>Vous pouvez tenter de prendre possession de n'importe quel humanoïde situé dans votre champ de vision et dans un rayon de 30 mètres (sachant que les créatures protégées par une <em>protection contre le mal et le bien</em> ou par un <em>cercle magique</em> sont immunisées contre la possession). La cible doit faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Charisme. Si elle échoue, votre âme s'installe dans son corps et la sienne est prisonnière du réceptacle. Si elle réussit son test, elle résiste à votre tentative de possession et vous ne pouvez plus essayer de la posséder pendant 24 heures.</p>\n<p>Une fois que vous avez pris possession du corps d'une autre créature, vous le contrôlez totalement. Votre profil technique est remplacé par celui de cette créature, bien que vous conserviez votre alignement et vos valeurs d'Intelligence, de Sagesse et de Charisme. Vous conservez aussi vos aptitudes de classe. Si votre cible possède des niveaux de classe, vous n'avez pas accès aux aptitudes correspondantes.</p>\n<p>Pendant ce temps, l'âme de la créature possédée perçoit ce qui se passe autour du réceptacle grâce à ses propres sens, mais elle ne peut pas se déplacer ni effectuer la moindre action.</p>\n<p>Tant que vous possédez le corps d'autrui, vous pouvez utiliser votre action pour le quitter et regagner le réceptacle s'il se trouve à 30 mètres de vous ou moins. L'âme de votre hôte retourne alors dans son propre corps. Si le corps de l'hôte périt alors que vous l'occupez, l'hôte meurt et vous devez faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Charisme contre votre propre DD d'incantation. Si vous réussissez, vous regagnez le réceptacle, à condition qu'il se trouve dans un rayon de 30 mètres. Sinon, vous mourez.</p>\n<p>Si le réceptacle est détruit ou que le sort se termine, votre âme regagne immédiatement votre corps, à moins qu'il ne se trouve à plus de 30 mètres d'elle ou qu'il ait succombé, auquel cas vous périssez. Si l'âme d'une autre créature occupe le réceptacle au moment où il est détruit, cette âme retourne immédiatement dans son corps, à condition qu'il se trouve dans un rayon de 30 mètres et soit encore en vie. Sinon, elle meurt.</p>\n<p>Le réceptacle est détruit quand le sort se termine.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "m",
+      "type": "radius",
+      "range": {
+        "value": "personnelle"
+      }
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 6,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "une gemme, un cristal, un reliquaire ou un autre réceptacle ornemental d'une valeur minimale de 500 po",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688238,
+    "modifiedTime": 1663923689558,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!z28QMXpBhOKYrwK1"
+}

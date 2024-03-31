@@ -1,0 +1,84 @@
+{
+  "name": "Rugissement",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/equipment/head/mask-tiger-silver.webp",
+  "_id": "9aSfv6zo8feMEoTX",
+  "system": {
+    "description": {
+      "value": "<p><strong>Rugissement.</strong> La créature pousse un rugissement magique. Chaque fois qu'elle rugit avant de terminer une période de repos long, le volume sonore du rugissement est plus important et l'effet est différent (comme expliqué ci-dessous). Les cibles situées à 150 mètres ou moins de la créature et qui peuvent entendre le rugissement doivent chacune effectuer un jet de sauvegarde.</p>\n<ul>\n<li>Premier rugissement. Les cibles qui ratent un jet de sauvegarde de Sagesse sont terrorisées pendant 1 minute. Une cible terrorisée peut retenter le jet de sauvegarde à la fin de chacun de ses tours et mettre fin à l'effet dont elle est victime en cas de réussite.</li>\n<li>Deuxième rugissement. Les cibles qui ratent un jet de sauvegarde de Sagesse sont assourdies et terrorisées pendant 1 minute. Une cible terrorisée est paralysée et peut retenter le jet de sauvegarde à la fin de chacun de ses tours et mettre fin à l'effet dont elle est victime en cas de réussite.</li>\n<li>Troisième rugissement. Les cibles effectuent chacune un jet de sauvegarde de Constitution. En cas de jet de sauvegarde raté, une cible subit des dégâts de tonnerre et tombe à terre. En cas de jet de sauvegarde réussi, la créature subit la moitié seulement des dégâts et ne tombe pas à terre.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698764,
+    "modifiedTime": 1663923699355,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9aSfv6zo8feMEoTX"
+}

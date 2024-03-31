@@ -1,0 +1,84 @@
+{
+  "_id": "yGewuslyHs9Q0FjZ",
+  "name": "Faille Défensive",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Faille défensive</strong>. Lorsque la créature utilise son attaque ou son incantation innée, elle réprime ses pouvoirs de zone d'absorption de la magie et de résistance à la magie jusqu'au début de son tour suivant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923699010,
+    "modifiedTime": 1663923700348,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!yGewuslyHs9Q0FjZ"
+}

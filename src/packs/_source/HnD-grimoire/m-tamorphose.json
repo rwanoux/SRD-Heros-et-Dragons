@@ -1,0 +1,136 @@
+{
+  "_id": "VkcPoqLVzdtm0kxc",
+  "name": "Métamorphose",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/commodities/biological/wing-insect-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ce sort change la forme d'une créature située à portée et dans votre champ de vision. Une créature non consentante doit faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse pour éviter cet effet. Le sort n'a aucun effet sur un métamorphe ou une créature à 0 point de vie.</p>\n<p>La transformation persiste pendant toute la durée du sort ou jusqu'à ce que la cible tombe à 0 point de vie ou meure. Vous pouvez donner comme nouvelle forme celle de n'importe quelle bête dont l'indice de dangerosité est égal ou inférieur à celui de la cible (ou à son niveau, si elle n'a pas d'indice de dangerosité). Le profil technique de la cible, y compris ses valeurs de caractéristique mentales, est remplacé par celui de la bête choisie. Elle conserve en revanche son alignement et sa personnalité.</p>\n<p>La cible possède les points de vie correspondant à sa nouvelle forme. Quand elle reprend sa forme initiale, elle se retrouve avec le nombre de points de vie qui était le sien avant la transformation. Si elle reprend sa forme initiale parce qu'elle est tombée à 0 point de vie, les éventuels dégâts en excès sont déduits des points de vie de sa forme d'origine. Tant que les dégâts en excès ne réduisent pas les points de vie normaux de la créature à 0, elle n'est pas <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#inconscient\"><em>inconsciente</em></a>.</p>\n<p>La nouvelle forme de la créature limite les actions qu'elle peut entreprendre et elle ne peut ni parler, ni lancer de sorts, ni effectuer une action qui nécessite de parler ou de se servir de ses mains.</p>\n<p>L'équipement de la cible fusionne avec sa nouvelle forme, mais elle ne peut pas activer, utiliser ni manier la moindre pièce d'équipement et ne peut pas non plus bénéficier de ses effets.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un cocon de chenille",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688050,
+    "modifiedTime": 1663923688967,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!VkcPoqLVzdtm0kxc"
+}

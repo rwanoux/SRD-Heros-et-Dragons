@@ -1,0 +1,84 @@
+{
+  "_id": "tyJpEG3htPcakkGE",
+  "name": "Frappe chirurgicale [Bretteur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"frappe-chirurgicale\"><strong>Frappe chirurgicale</strong></h3>\n<p>Au niveau 10, vous &ecirc;tes pass&eacute; ma&icirc;tre dans l'art de viser les points vitaux de vos adversaires. Lorsque vous r&eacute;ussissez une attaque de corps-&agrave;-corps, pour laquelle vous aviez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>, avec une arme qui dispose de la propri&eacute;t&eacute; finesse, vous pouvez ajouter votre bonus de ma&icirc;trise aux d&eacute;g&acirc;ts inflig&eacute;s par cette attaque.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685671,
+    "modifiedTime": 1663923687683,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!tyJpEG3htPcakkGE"
+}

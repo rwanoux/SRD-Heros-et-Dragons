@@ -1,0 +1,108 @@
+{
+  "_id": "Pzqt5A4OS7bDgWtE",
+  "name": "[Guerrier] Bretteur",
+  "type": "subclass",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2><strong>Bretteur</strong></h2>\n<h3> </h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XOPILRg6Yk3dwrXc]{Jeu de jambes [Bretteur]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Re7kuaWbt3jeoHJn]{Feinte [Bretteur]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tyJpEG3htPcakkGE]{Frappe chirurgicale [Bretteur]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.oWNucLJo9gXwVEzK]{Parade [Bretteur]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IDxGFhqGG0uKsSYb]{Riposte [Bretteur]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "bretteur",
+    "classIdentifier": "guerrier",
+    "advancement": [
+      {
+        "_id": "83brk10ftu7fng86",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IDxGFhqGG0uKsSYb"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "takae28wodke0033",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.oWNucLJo9gXwVEzK"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "ssvqjdxtm6uq8xxd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tyJpEG3htPcakkGE"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "zvgxczqrqufxgpbc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Re7kuaWbt3jeoHJn"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "phl842dl0kfetex9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XOPILRg6Yk3dwrXc"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703409,
+    "modifiedTime": 1663923703585,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Pzqt5A4OS7bDgWtE"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Brume Illusoire",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/fog-gas-smoke-swirling-white.webp",
+  "_id": "iUliar3X1GtAO9vm",
+  "system": {
+    "description": {
+      "value": "<p><strong>Brume illusoire.</strong> Un nuage de brume de 6 mètres de côté apparaît à 36 mètres ou moins et à portée de vue du dragon. Le nuage se répand en contournant les angles. Il disparaît si le dragon meurt ou utilise à nouveau cet effet.</p>\n<p>Les créatures dans le nuage commencent à avoir des visions étranges, mélange d'illusions et de suggestions. Chaque créature entièrement englobée dans le nuage au début de son tour doit réussir un jet de sauvegarde de Sagesse ou être charmée par le dragon pour ce round. Un vent modéré (au moins 15 km/h) disperse le nuage après 4 rounds. Un vent fort (au moins 30 km/h) le disperse au bout de seulement 1 round.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 6,
+      "width": null,
+      "units": "m",
+      "type": "square"
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Vert (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698946,
+    "modifiedTime": 1663923700118,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!iUliar3X1GtAO9vm"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "e0dEadwLv5JocwMd",
+  "name": "Expert en Religion",
+  "type": "feat",
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Pr&eacute;requis </em>: ma&icirc;trise de la comp&eacute;tence Religion.</p>\n<p>Vous &ecirc;tes devenu ma&icirc;tre dans la connaissance des religions mais aussi des pouvoirs que les divinit&eacute;s procurent &agrave; leurs adeptes. Choisissez trois b&eacute;n&eacute;fices parmi les cinq pr&eacute;sent&eacute;s :</p>\n<ul>\n<li>vous augmentez votre valeur d&rsquo;Intelligence de +1 ;</li>\n<li>vous gagnez l&rsquo;expertise dans cette comp&eacute;tence (votre bonus de ma&icirc;trise est doubl&eacute; lorsque vous utilisez cette comp&eacute;tence). Vous ne pouvez pas choisir ce b&eacute;n&eacute;fice si vous avez d&eacute;j&agrave; l&rsquo;expertise ;</li>\n<li>lorsque vous fa&icirc;tes un test de cette comp&eacute;tence, vous pouvez choisir de remplacer le r&eacute;sultat du d20 par la valeur 10, m&ecirc;me apr&egrave;s avoir vu le r&eacute;sultat du d&eacute;. Si vous avez lanc&eacute; deux d&eacute;s (avantage ou d&eacute;savantage), vous remplacez seulement le r&eacute;sultat d&rsquo;un d&eacute;. Vous devez terminer un repos long avant de pouvoir utiliser &agrave; nouveau cet effet ;</li>\n<li>vous gagnez l&rsquo;avantage sur un jet de sauvegarde contre un sort de magie divine. Vous devez terminer un repos court ou long avant de pouvoir b&eacute;n&eacute;ficier &agrave; nouveau de cet effet ;</li>\n<li>vous apprenez un tour de magie de votre choix issu de la liste des sorts de clerc. Vous pouvez le lancer une seule fois apr&egrave;s chaque repos court ou long. Votre caract&eacute;ristique d&rsquo;incantation pour ce sort est la Sagesse.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée 2 : l'âge du changement",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685014,
+    "modifiedTime": 1663923685014,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!e0dEadwLv5JocwMd"
+}

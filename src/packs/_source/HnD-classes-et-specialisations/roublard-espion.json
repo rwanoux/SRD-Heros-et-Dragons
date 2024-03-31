@@ -1,0 +1,97 @@
+{
+  "_id": "GglWXuuzty7cL1Bt",
+  "name": "[Roublard] Espion",
+  "type": "subclass",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"espion\"><strong>Espion</strong></h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sjeiwSolihJXUIhw]{Spécialiste [Espion]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EqFAAPdtLvD9E17d]{Don pour les langues [Espion]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UJpcy1WsNylCx6w7]{Lire sur les lèvres [Espion]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JMyHAEpmgLDVzuAS]{Séducteur hors pair [Espion]}</p>\n<p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5raS2ZtS6Bzag97x]{Esprit obscur [Espion]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uZNN3gGfxQkkrBq1]{Agent très spécial [Espion]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.srNDmPXpglsdRinv]{Incassable [Espion]}</p>\n<h4 id=\"specialiste\"></h4>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "espion",
+    "classIdentifier": "roublard",
+    "advancement": [
+      {
+        "_id": "35l0s5ctqm87o2fd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uZNN3gGfxQkkrBq1",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.srNDmPXpglsdRinv"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "dezd36t1v9eh5l76",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5raS2ZtS6Bzag97x"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "hsaezgy8c7e32ijy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UJpcy1WsNylCx6w7",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JMyHAEpmgLDVzuAS"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "lcv3o11r0lot5zsg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sjeiwSolihJXUIhw",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EqFAAPdtLvD9E17d"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703399,
+    "modifiedTime": 1663923703549,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!GglWXuuzty7cL1Bt"
+}

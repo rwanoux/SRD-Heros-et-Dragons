@@ -1,0 +1,136 @@
+{
+  "_id": "lkS3AWe98Si9nNMZ",
+  "name": "Tempête vengeresse",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/light/projectiles-star-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>De menaçantes nuées orageuses se forment en un point situé dans votre champ de vision et s'étendent dans un rayon de 110 mètres. Des éclairs strient la zone, le tonnerre gronde et un vent fort se lève. Chaque créature située sous le nuage lors de son apparition (mais pas à plus de 1500 mètres au-dessous) doit faire un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution. Celles qui échouent subissent 2d6 dégâts de tonnerre et sont <em>assourdies</em> pendant 5 minutes.</p>\n<p>À chaque round où vous continuez à vous concentrer sur ce sort, il génère des effets supplémentaires à votre tour.</p>\n<p><strong>Round 2</strong>. Une pluie acide se met à tomber. Les créatures et les objets situés sous le nuage subissent 1d6 dégâts d'acide.</p>\n<p><strong>Round 3</strong>. Vous appelez six éclairs qui s'abattent du nuage sur six créatures ou objets de votre choix situés sous la nuée. Une même créature ou un même objet ne peut pas être la cible de plusieurs éclairs. Une créature frappée par la foudre doit effectuer un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité. Si elle échoue, elle subit 10d6 dégâts de foudre, la moitié seulement si elle réussit.</p>\n<p><strong>Round 4</strong>. La grêle se met à tomber. Chaque créature située sous le nuage subit 2d6 dégâts contondants.</p>\n<p><strong>Rounds 5 à 10</strong>. Des bourrasques et une pluie glacée balaient la zone sous le nuage et la transforment en terrain difficile où la visibilité est nulle. Chaque créature qui s'y trouve subit 1d6 dégâts de froid. Il est impossible d'effectuer une attaque avec une arme à distance dans la zone. Le vent et la pluie fonctionnent comme une distraction sévère quand il s'agit de se concentrer sur un sort. Enfin, des bourrasques de vent fort (de 30 à 75 kilomètres par heure) dispersent automatiquement le brouillard, la brume et les phénomènes similaires stagnant dans la zone, qu'ils soient d'origine ordinaire ou magique.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 110,
+      "width": null,
+      "units": "m",
+      "type": "radius",
+      "range": {
+        "value": "champ",
+        "unit": "de"
+      }
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "spec"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "10d6",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688180,
+    "modifiedTime": 1663923689345,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lkS3AWe98Si9nNMZ"
+}

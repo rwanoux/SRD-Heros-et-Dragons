@@ -1,0 +1,96 @@
+{
+  "_id": "QRDJdSxZnwPgRsFW",
+  "name": "Baguette de paralysie",
+  "type": "consumable",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Cette baguette contient 7 charges. Avec cette baguette en main, vous pouvez utiliser une action pour dépenser 1 de ses charges et projeter un fin rayon bleu de l'extrémité de la baguette vers une créature située à 18 mètres ou moins dans votre champ de vision. La cible doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 15 pour ne pas être&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#paralyse\">paralysée</a>&nbsp;pendant 1 minute. À la fin de chacun des tours de la cible, elle peut retenter le&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;et mettre fin à l'effet dont elle est victime en cas de réussite.</p>\n<p>La baguette récupère 1d6+1 charges dépensées chaque jour, à l'aube. Lancez un d20 si vous dépensez la dernière charge. La baguette est détruite et tombe en cendres sur un résultat de 1.</p>\n<p>Harmonisation avec un lanceur de sorts exigée.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 16000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 7,
+      "max": "7",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "1d4 +1"
+    },
+    "formula": "1d6 +1",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "consumableType": "wand",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701160,
+    "modifiedTime": 1663923702323,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!QRDJdSxZnwPgRsFW"
+}

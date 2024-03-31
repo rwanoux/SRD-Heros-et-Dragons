@@ -1,0 +1,100 @@
+{
+  "name": "Rage froide [Voie des glaces]",
+  "type": "feat",
+  "img": "icons/magic/water/tendrils-ice-growth.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_id": "957MxwWr1DT64y6e",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Rage froide</strong></h3><p>Au niveau 3 également, vous pouvez maintenir votre rage sur sa durée totale (1 minute) même si vous n'avez pas attaqué de créature ou subi de dégât lors de ce tour.</p><p>De plus, lorsque vous êtes en rage vous obtenez la résistance à tous les dégâts de froid.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685212,
+    "modifiedTime": 1678423435701,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!957MxwWr1DT64y6e"
+}

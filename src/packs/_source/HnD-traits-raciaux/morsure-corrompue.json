@@ -1,0 +1,89 @@
+{
+  "name": "Morsure corrompue",
+  "type": "feat",
+  "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:justify\"> L'attaque de souffle inhérente à votre héritage draconique est corrompue par l'énergie nécrotique de votre nouvelle forme darakhul. </p><p style=\"text-align:justify\">Au lieu de former une ligne ou un cône, votre souffle suinte maintenant de votre gueule macabre. Vous pouvez utiliser votre action bonus pour répandre de l'énergie nécrotique sur vos crocs et effectuez une attaque de morsure. Si l'attaque touche, elle inflige des dégâts nécrotiques supplémentaires égaux à votre niveau. Vous ne pouvez plus utiliser ce trait avant d'avoir terminé un repos long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Darakhul",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680509289549,
+    "modifiedTime": 1680509370617,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "S28ct5vzgMQ6FZaI",
+  "_key": "!items!S28ct5vzgMQ6FZaI"
+}

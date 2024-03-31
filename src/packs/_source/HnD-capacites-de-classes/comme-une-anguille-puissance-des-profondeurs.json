@@ -1,0 +1,89 @@
+{
+  "_id": "ovFZH6HeVIZGY0za",
+  "name": "Comme une anguille [Puissance des Profondeurs]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/creatures/slimes/slime-movement-dripping-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"comme-une-anguille\"><strong>Comme une anguille</strong></h3>\n<p>&Agrave; partir du niveau 6, votre protecteur et les cr&eacute;atures des profondeurs vous inspirent une magie qui vous permet de r&eacute;sister aux pressions insoutenables et aux choses qui tentent de vous agripper. Vous obtenez la r&eacute;sistance aux d&eacute;g&acirc;ts contondants inflig&eacute;s par des effets de constriction, d'&eacute;crasement ou de compression, et vous b&eacute;n&eacute;ficiez d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;&agrave; tous les tests d'empoignade ainsi que pour r&eacute;sister aux &eacute;tats&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne\">empoign&eacute;</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\">entrav&eacute;</a>, ou pour &eacute;chapper &agrave; des liens.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685631,
+    "modifiedTime": 1663923687509,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ovFZH6HeVIZGY0za"
+}

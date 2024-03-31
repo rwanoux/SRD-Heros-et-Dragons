@@ -1,0 +1,84 @@
+{
+  "name": "Insondable",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "_id": "UuJsz994WWQ9iSYP",
+  "system": {
+    "description": {
+      "value": "<p><strong>Insondable.&nbsp;</strong> La créature est immunisée contre les effets succeptibles de percevoir ses émotions ou de lire ses pensées, ainsi qu'aux sorts de divination qu'elle refuse. Les tests de Sagesse ( Perspicacité ) effectués pour déterminer les intentions ou la sincérité de la créature subissent un désavantage.&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698850,
+    "modifiedTime": 1663923699722,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!UuJsz994WWQ9iSYP"
+}

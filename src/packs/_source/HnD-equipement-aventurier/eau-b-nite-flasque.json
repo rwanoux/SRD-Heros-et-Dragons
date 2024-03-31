@@ -1,0 +1,94 @@
+{
+  "_id": "Si2Cs0c4xuvbfEcM",
+  "name": "Eau bénite (flasque)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Vous pouvez utiliser une action pour asperger d'eau bénite une créature qui se trouve dans un rayon de 1,50 mètre autour de vous, ou lancer la flasque jusqu'à 6 mètres de vous. La flasque se brise à l'impact. Dans les deux cas, il s'agit d'une attaque à distance contre une créature, et l'eau bénite doit être considérée comme une arme improvisée. Si votre cible est un fiélon ou un mort-vivant, elle subit 2d6 dégâts radiants.</p>\n<p>Un clerc ou un paladin peut créer de l'eau bénite, de quoi remplir une flasque, en accomplissant un rituel spécifique. Ce rituel dure 1 heure, consomme pour 25 po de poudre d'argent et requiert du lanceur de sort qu'il utilise un emplacement de sort de niveau 1.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 25,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Target must be a fiend or undead."
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 1.5,
+      "long": 6,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "potion"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700606,
+    "modifiedTime": 1663923700606,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Si2Cs0c4xuvbfEcM"
+}

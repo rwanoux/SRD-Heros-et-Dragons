@@ -1,0 +1,118 @@
+{
+  "name": "Repousse des piquants caudaux",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "details"
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
+  "_id": "TzmRU3ATbwhNJyNu",
+  "system": {
+    "description": {
+      "value": "<p><strong>Repousse des piquants caudaux.</strong> La créature dispose de piquants caudaux. Les piquants utilisés repoussent après une période de repos long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": "",
+      "units": ""
+    },
+    "uses": {
+      "value": 24,
+      "max": 24,
+      "per": "",
+      "recovery": "",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": ""
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698845,
+    "modifiedTime": 1663923699702,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!TzmRU3ATbwhNJyNu"
+}

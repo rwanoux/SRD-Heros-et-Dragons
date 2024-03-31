@@ -1,0 +1,109 @@
+{
+  "_id": "g2vNNXioRXTplYzY",
+  "name": "Résistance draconique [Lignée draconique]",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"resistance-draconique\"><strong>R&eacute;sistance draconique</strong></h3>\n<p>Avec le temps, la magie qui parcourt vos veines fait &eacute;merger certains traits physiques de vos anc&ecirc;tres dragons. Au niveau 1, votre maximum de points de vie augmente de 1, puis encore de 1 &agrave; chaque fois que vous gagnez un niveau dans cette classe.</p>\n<p>De plus, votre peau est partiellement couverte d'une fine couche d'&eacute;cailles ressemblant &agrave; celle des dragons. Quand vous ne portez pas d'armure, votre CA est &eacute;gale &agrave; 13 + votre modificateur de Dext&eacute;rit&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685493,
+    "modifiedTime": 1663923687215,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!g2vNNXioRXTplYzY"
+}

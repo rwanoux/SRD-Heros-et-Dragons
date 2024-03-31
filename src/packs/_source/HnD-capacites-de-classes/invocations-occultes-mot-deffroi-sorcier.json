@@ -1,0 +1,84 @@
+{
+  "_id": "Mgv5CWFoMG1gvB4F",
+  "name": "Invocations occultes - Mot d'effroi [Sorcier]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"mot-d-effroi\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><strong>Mot d'effroi</strong></h3>\n<h3 id=\"mauvais-presage\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><em><span style=\"font-size: 13px;\"><strong>Pr&eacute;requis&nbsp;</strong>: niveau 7</span></em></h3>\n<h3 style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><br style=\"box-sizing: border-box; user-select: text; font-size: 13px;\" /><span style=\"font-size: 13px;\">Vous pouvez lancer @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.A0CLNbvrSJt91EK6]{Confusion} </span><span style=\"font-size: 13px;\">en utilisant un emplacement de sort de sorcier. Vous devez finir un repos long avant de pouvoir utiliser cette invocation de nouveau.</span></h3>\n<h3 id=\"masque-des-mille-visages\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"maitre-des-mille-formes\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lenteur-de-l-esprit\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lance-occulte\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lame-assoiffee\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"explosion-insoutenable\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"chaines-de-carceres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"buveuse-de-vie\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"armure-des-ombres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685368,
+    "modifiedTime": 1663923686694,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Mgv5CWFoMG1gvB4F"
+}
