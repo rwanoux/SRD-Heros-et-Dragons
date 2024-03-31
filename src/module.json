@@ -21,7 +21,7 @@
     "languages": [
 =======
 	"id": "srd-heros-et-dragons",
-	"title": "srd-heros-et-dragons",
+	"title": "Héros et Dragons",
 	"description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e<p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
 	"version": "4.2.0",
 	"socket": false,
@@ -44,6 +44,7 @@
             "lang": "en",
             "name": "English",
             "path": "languages/en.json"
+<<<<<<< HEAD
 <<<<<<< HEAD
         }
     ],
@@ -254,13 +255,15 @@
             "lang": "de",
             "name": "Deutsch",
             "path": "languages/de.json"
+=======
+>>>>>>> b4a57a4 (update packs from nedb to leveldb)
         }
     ],
 	"packs": [
 		{
 			"name": "HnD-tables-de-tresors",
 			"label": "HnD. Tables de trésors",
-			"path": "packs/HnD-tables-de-tresors.db",
+			"path": "packs/HnD-tables-de-tresors",
 			"type": "RollTable",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -268,7 +271,7 @@
 		{
 			"name": "HnD-conditions",
 			"label": "HnD. Conditions",
-			"path": "packs/HnD-conditions.db",
+			"path": "packs/HnD-conditions",
 			"type": "JournalEntry",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -276,7 +279,7 @@
 		{
 			"name": "HnD-dons",
 			"label": "HnD. Dons",
-			"path": "packs/HnD-dons.db",
+			"path": "packs/HnD-dons",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -284,7 +287,7 @@
 		{
 			"name": "HnD-capacites-de-classes",
 			"label": "HnD. Capacités de Classes",
-			"path": "packs/HnD-capacites-de-classes.db",
+			"path": "packs/HnD-capacites-de-classes",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -292,7 +295,7 @@
 		{
 			"name": "HnD-grimoire",
 			"label": "HnD. Grimoire",
-			"path": "packs/HnD-grimoire.db",
+			"path": "packs/HnD-grimoire",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -300,7 +303,7 @@
 		{
 			"name": "HnD-bestaire",
 			"label": "HnD. Bestaire",
-			"path": "packs/HnD-bestiaire.db",
+			"path": "packs/HnD-bestiaire",
 			"type": "Actor",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -308,7 +311,7 @@
 		{
 			"name": "HnD-races",
 			"label": "HnD. Races",
-			"path": "packs/HnD-races.db",
+			"path": "packs/HnD-races",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -316,7 +319,7 @@
 		{
 			"name": "HnD-traits-raciaux",
 			"label": "HnD. Traits raciaux",
-			"path": "packs/HnD-traits-raciaux.db",
+			"path": "packs/HnD-traits-raciaux",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -324,7 +327,7 @@
 		{
 			"name": "HnD-capacités-du-bestiaire",
 			"label": "HnD. Capacités du bestiaire",
-			"path": "packs/HnD-capacites-du-bestiaire.db",
+			"path": "packs/HnD-capacites-du-bestiaire",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -332,7 +335,7 @@
 		{
 			"name": "HnD-historiques",
 			"label": "HnD. Historiques",
-			"path": "packs/HnD-historiques.db",
+			"path": "packs/HnD-historiques",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -340,7 +343,7 @@
 		{
 			"name": "HnD-équipement-aventurier",
 			"label": "HnD. Equipement d'aventurier",
-			"path": "packs/HnD-equipement-aventurier.db",
+			"path": "packs/HnD-equipement-aventurier",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -348,7 +351,7 @@
 		{
 			"name": "HnD-objets-magiques-et-trésors",
 			"label": "HnD. Objets magiques et trésors",
-			"path": "packs/HnD-objets-magiques-et-tresors.db",
+			"path": "packs/HnD-objets-magiques-et-tresors",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -356,7 +359,7 @@
 		{
 			"name": "HnD-Classes-spécialisations",
 			"label": "HnD. Classes et spécialisations",
-			"path": "packs/HnD-classes-et-specialisations.db",
+			"path": "packs/HnD-classes-et-specialisations",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -364,15 +367,15 @@
 		{
 			"name": "HnD-tables-de-rencontres-aleatoires",
 			"label": "HnD. Tables-de-rencontres-aleatoires",
-			"path": "packs/HnD-tables-de-rencontres-aleatoires.db",
+			"path": "packs/HnD-tables-de-rencontres-aleatoires",
 			"type": "RollTable",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
 		},
 		{
-			"name": "HnD-tables-d'evenements-aleatoires",
+			"name": "HnD-tables-d_evenements-aleatoires",
 			"label": "HnD. Tables-d'évènements-aleatoires",
-			"path": "packs/HnD-tables-d'evenements-aleatoires.db",
+			"path": "packs/HnD-tables-d_evenements-aleatoires",
 			"type": "RollTable",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -380,7 +383,7 @@
 		{
 			"name": "HnD-poisons-et-maladies",
 			"label": "HnD. Poisons et maladies",
-			"path": "packs/HnD-poisons-et-maladies.db",
+			"path": "packs/HnD-poisons-et-maladies",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -388,7 +391,7 @@
 		{
 			"name": "HnD-folies",
 			"label": "HnD. Folies",
-			"path": "packs/HnD-folies.db",
+			"path": "packs/HnD-folies",
 			"type": "RollTable",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -396,7 +399,7 @@
 		{
 			"name": "HnD-pieges",
 			"label": "HnD. Pièges",
-			"path": "packs/HnD-pieges.db",
+			"path": "packs/HnD-pieges",
 			"type": "Actor",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -404,7 +407,7 @@
 		{
 			"name": "HnD-aptitudes-historiques",
 			"label": "HnD. Aptitudes d'historiques",
-			"path": "packs/HnD-aptitudes-historiques.db",
+			"path": "packs/HnD-aptitudes-historiques",
 			"type": "Item",
 			"module": "srd-heros-et-dragons",
 			"system": "dnd5e"
@@ -432,6 +435,14 @@
 						"HnD-historiques",
 						"HnD-Classes-spécialisations",
 						"HnD-aptitudes-historiques"
+					]
+				},
+				{
+					"name": "Article",
+					"sorting": "m",
+					"color": "#377C2E",
+					"packs": [
+						
 					]
 				},
 				{
@@ -493,7 +504,7 @@
 				"compatibility": {
 					"minimum": "2.0.1",
 					"verified": "2.0.1",
-					"maximum": "3.1.0"
+					"maximum": "3.1.1"
 				}
 			}
 		],
