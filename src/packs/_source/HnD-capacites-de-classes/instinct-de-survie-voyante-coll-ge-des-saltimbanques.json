@@ -1,0 +1,84 @@
+{
+  "_id": "37fcj4wqjkUo0036",
+  "name": "Instinct de Survie - Voyante [Collège des Saltimbanques]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Instinct de Survie - Voyante</strong></h3>\n<p>&nbsp;</p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Pr&eacute;monition. Votre don de voyance vous permet de pr&eacute;voir les attaques ennemies. Vous pouvez d&eacute;penser votre r&eacute;action pour utiliser une @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]}&nbsp;et imposer un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">d&eacute;savantage</a>&nbsp;aux attaques adverses effectu&eacute;es contre vous jusqu'&agrave; votre prochain tour.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685166,
+    "modifiedTime": 1663923686077,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!37fcj4wqjkUo0036"
+}

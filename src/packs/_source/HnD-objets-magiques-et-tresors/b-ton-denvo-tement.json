@@ -1,0 +1,125 @@
+{
+  "_id": "xXKxbU2wuyCCzk9F",
+  "name": "Bâton d'envoûtement",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Tant que vous tenez ce b&acirc;ton en main, vous pouvez utiliser une action pour d&eacute;penser 1 des 10 charges qu'il contient et lancer&nbsp;<a href=\"https://5e-drs.fr/grimoire/charme-personne/\">charme-personne</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/injonction/\">injonction</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/comprehension-des-langues/\">compr&eacute;hension des langues</a>&nbsp;par son biais en appliquant le DD des jets de sauvegarde contre vos sorts. On peut &eacute;galement manier ce b&acirc;ton comme une arme magique.</p>\n<p>Si vous tenez le b&acirc;ton en main et ratez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre un sort d'enchantement qui vous prend vous, et uniquement vous, pour cible, vous pouvez transformer votre&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;rat&eacute; en r&eacute;ussite. Vous ne pourrez plus utiliser cette propri&eacute;t&eacute; du b&acirc;ton jusqu'&agrave; l'aube suivante. Si vous r&eacute;ussissez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre un sort d'enchantement qui vous prend vous, et uniquement vous, pour cible, avec ou sans l'intervention du b&acirc;ton, vous pouvez utiliser votre r&eacute;action pour d&eacute;penser 1 charge du b&acirc;ton et renvoyer le sort, comme si vous l'aviez vous-m&ecirc;me lanc&eacute;, vers son exp&eacute;diteur.</p>\n<p>Le b&acirc;ton r&eacute;cup&egrave;re 1d8+2 charges d&eacute;pens&eacute;es chaque jour, &agrave; l'aube. Si vous d&eacute;pensez la derni&egrave;re charge, lancez un d20. La magie du b&acirc;ton dispara&icirc;t sur un r&eacute;sultat de 1.</p>\n<p>Le b&acirc;ton r&eacute;cup&egrave;re 1d8 + 2 charges d&eacute;pens&eacute;es chaque jour au lever du soleil. Si vous d&eacute;pensez la derni&egrave;re charge, lancez un d20. Sur un r&eacute;sultat de 1, le b&acirc;ton devient une simple arme non magique. </p>\n<p>Harmonisation avec un barde, un clerc, un druide, un encorceleur, un magicien ou un sorcier exig&eacute;e.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2,
+    "price": 12000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 10,
+      "max": "10",
+      "per": "charges",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod"
+    },
+    "formula": "1d8 +2",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": true,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701471,
+    "modifiedTime": 1663923703282,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!xXKxbU2wuyCCzk9F"
+}

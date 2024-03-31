@@ -1,0 +1,84 @@
+{
+  "_id": "PAeRZ1honqHHY1NX",
+  "name": "Invocations occultes - Mauvais présage [Sorcier]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"mauvais-presage\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><strong>Mauvais pr&eacute;sage</strong></h3>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><em>Pr&eacute;requis&nbsp;: niveau 5</em></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><br style=\"box-sizing: border-box; user-select: text;\" />Vous pouvez lancer @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4LMNf30LRWV28pFs]{Jeter une mal&eacute;diction} en utilisant un emplacement de sort de sorcier. Vous devez terminer un repos long avant de pouvoir utiliser cette invocation une nouvelle fois.</p>\n<h3 id=\"masque-des-mille-visages\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"maitre-des-mille-formes\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lenteur-de-l-esprit\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lance-occulte\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"lame-assoiffee\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"explosion-insoutenable\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"chaines-de-carceres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"buveuse-de-vie\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"armure-des-ombres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685381,
+    "modifiedTime": 1663923686746,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PAeRZ1honqHHY1NX"
+}

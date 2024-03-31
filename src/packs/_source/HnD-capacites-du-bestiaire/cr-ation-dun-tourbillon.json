@@ -1,0 +1,118 @@
+{
+  "name": "Création d'un Tourbillon",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
+  "_id": "vTtFf8grXp2EmBOT",
+  "system": {
+    "description": {
+      "value": "<p><strong>Création d'un tourbillon.</strong> Un cylindre d'air tourbillonnant de 1,50 mètre de rayon et de 9 mètres de haut apparaît à un point situé à 36 mètres ou moins du djinn dans son champ de vision. Le tourbillon dure tant que le djinn reste concentré (comme s'il se concentrait sur un sort). Toutes les créatures (à l'exception du djinn) qui entrent dans le tourbillon doivent réussir un jet de sauvegarde de Force DD 18 pour ne pas être entravées par ce phénomène. Le djinn peut déplacer le tourbillon sur une distance maximale de 18 mètres par une action et les créatures entravées par le tourbillon se déplacent avec lui. Le tourbillon disparaît s'il sort du champ de vision du djinn.</p>\n<p>Une créature peut consacrer une action à dégager une créature entravée par le tourbillon, elle-même y compris, en réussissant un test de Force DD 18. Si le test est réussi, la créature n'est plus entravée et se déplace vers l'emplacement le plus proche à l'extérieur du tourbillon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "spec"
+    },
+    "target": {
+      "value": 1.5,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 18,
+      "scaling": "flat",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": 4,
+      "charged": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698997,
+    "modifiedTime": 1663923700309,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!vTtFf8grXp2EmBOT"
+}

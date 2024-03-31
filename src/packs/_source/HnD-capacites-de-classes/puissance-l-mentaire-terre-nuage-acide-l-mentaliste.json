@@ -1,0 +1,89 @@
+{
+  "_id": "WEal8DXpQuj9o5vB",
+  "name": "Puissance élémentaire Terre Nuage acide [Élémentaliste]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/earth/volcano-explosion-lava-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"puissance-elementaire\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Puissance &eacute;l&eacute;mentaire</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&Eacute;galement &agrave; partir du niveau 2, vous pouvez invoquer l'&eacute;nergie de votre &eacute;l&eacute;ment de pr&eacute;dilection pour cr&eacute;er un effet magique. Choisissez une seule aptitude parmi les deux propos&eacute;s pour chaque &eacute;l&eacute;ment. Vous devez terminer un repos court ou long avant de pouvoir &agrave; nouveau utiliser votre pouvoir &eacute;l&eacute;mentaire.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Terre</strong></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Vous gagnez le pouvoir surnaturel nuage acide ou secousse sismique.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Nuage acide</strong>. En utilisant une action, vous cr&eacute;ez un nuage de vapeurs acides de 1,50 m&egrave;tre de rayon centr&eacute; sur un point &agrave; 12 m&egrave;tres ou moins de vous. Chaque cr&eacute;ature qui se trouve dans le nuage au d&eacute;but ou &agrave; la fin de son tour doit r&eacute;ussir un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution. En cas d'&eacute;chec, la cr&eacute;ature subit 1d6 d&eacute;g&acirc;ts d'acide et se retrouve&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne\">empoisonn&eacute;e</a>. Une r&eacute;ussite permet d'annuler l'&eacute;tat&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne\">empoisonn&eacute;</a>&nbsp;et de r&eacute;duire les d&eacute;g&acirc;ts de moiti&eacute;. Ce nuage persiste jusqu'au d&eacute;but de votre tour suivant.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Les d&eacute;g&acirc;ts augmentent de 1d6 lorsque vous atteignez le niveau 5 (2d6), le niveau 11 (3d6) et le niveau 17 (4d6).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "turn"
+    },
+    "target": {
+      "value": 1.5,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": 12,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "JdS Echec : 1d6 dégats acide et créature empoisonnée - JdS Réussi : 1/2 dégats, pas d'empoisonnement",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "acid"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685428,
+    "modifiedTime": 1663923686948,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!WEal8DXpQuj9o5vB"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Canalisation d'énergie divine [Serment de Justice]  Célérité de justicier",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      }
+    }
+  },
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"canalisation-d-energie-divine-3\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"box-sizing:border-box;user-select:text\"><span style=\"font-family:Friz, sans-serif\"><strong>Canalisation d'énergie divine</strong></span></span></h3><p style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\"><strong>Célérité de justicier. </strong></span></p><p style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\">Vous pouvez utiliser votre canalisation d'énergie divine pour réagir au danger à la vitesse de l'éclair. </span></p><p style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\">Lorsqu'une créature que vous pouvez voir est attaquée, vous pouvez utiliser votre réaction pour vous déplacer à votre vitesse. Si vous terminez votre déplacement adjacent à l'attaquant, vous pouvez effectuer une attaque de corps-à-corps unique contre lui dans le cadre de cette réaction. Si vous terminez votre déplacement adjacent à la cible attaquée, vous pouvez devenir la cible de l'attaque dans le cadre de cette réaction.</span></p><p style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\">Vous pouvez utiliser cette capacité après avoir vu le jet d'attaque de l'attaquant, mais avant que le MJ ne dise s'il a touché ou raté.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          "lightning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685283,
+    "modifiedTime": 1678424295084,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "zBQ5lZoZGaMYSQHL",
+  "_key": "!items!zBQ5lZoZGaMYSQHL"
+}

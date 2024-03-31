@@ -1,0 +1,136 @@
+{
+  "_id": "FK6H5iNTSHJ5f8jJ",
+  "name": "Table Mordante",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 4300000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "9fFNhlBJv4SaziEI",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Cimeterre mordante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/affliction_01.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "FC4Nbv3c60gJnfwN",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FK6H5iNTSHJ5f8jJ.9fFNhlBJv4SaziEI"
+    },
+    {
+      "_id": "1xfdBHveGAN73Uto",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée à 2 mains mordante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/affliction_01.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "18oX6o1cde5CONpm",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FK6H5iNTSHJ5f8jJ.1xfdBHveGAN73Uto"
+    },
+    {
+      "_id": "p5OZtUb8NTDsR6jq",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée courte mordante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/affliction_01.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "gz6DGT4WgjEINs1p",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FK6H5iNTSHJ5f8jJ.p5OZtUb8NTDsR6jq"
+    },
+    {
+      "_id": "OqYagYFfZiobuOvH",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue mordante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/affliction_01.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "t3mMNuYNpZYjkOAY",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FK6H5iNTSHJ5f8jJ.OqYagYFfZiobuOvH"
+    },
+    {
+      "_id": "sCmK4RsFnxi379Qu",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Rapière mordante",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/affliction_01.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "zW09w5S6SCTfhY9x",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!FK6H5iNTSHJ5f8jJ.sCmK4RsFnxi379Qu"
+    }
+  ],
+  "formula": "1d5",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!FK6H5iNTSHJ5f8jJ"
+}

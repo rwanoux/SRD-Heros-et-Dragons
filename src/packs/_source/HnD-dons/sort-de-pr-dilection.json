@@ -1,0 +1,96 @@
+{
+  "_id": "TOp1Y7HHlV1EiYno",
+  "name": "Sort de prédilection",
+  "type": "feat",
+  "img": "modules/srd-heros-et-dragons/assets/icons/sort-predilection.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Vous avez lanc&eacute; le m&ecirc;me sort encore et encore, jusqu'&agrave; ce que l'utiliser devienne pour vous d'une facilit&eacute; d&eacute;concertante. Choisissez un sort (mais pas un tour de magie) que vous &ecirc;tes capable de lancer, dont le niveau est inf&eacute;rieur ou &eacute;gal &agrave; la moiti&eacute; de votre bonus de ma&icirc;trise et dont le temps d'incantation est &eacute;gal &agrave; une action.</p>\n<ul>\n<li>Vous pouvez le lancer en utilisant une action bonus en d&eacute;pensant un emplacement de sort d'un niveau au dessus.</li>\n<li>Vous pouvez le lancer sans d&eacute;penser d'emplacement de sort une fois apr&egrave;s chaque repos court.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Vous pouvez choisir ce don plusieurs fois, mais &agrave; chaque fois pour un sort de pr&eacute;dilection diff&eacute;rent.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685009,
+    "modifiedTime": 1663923685009,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!TOp1Y7HHlV1EiYno"
+}

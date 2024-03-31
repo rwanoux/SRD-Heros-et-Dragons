@@ -1,0 +1,84 @@
+{
+  "_id": "NRzHZ2Fpq0IsmNpP",
+  "name": "Duo-dimension [Entité extra-dimensionnelle]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"duo-dimension\"><strong>Duo-dimension</strong></h3>\n<p>&Agrave; partir du niveau 6, votre compr&eacute;hension sup&eacute;rieure de la g&eacute;om&eacute;trie de l'univers vous permet d'utiliser l'aptitude de duo-dimension une fois apr&egrave;s chaque repos court ou long. D&eacute;pensez votre action &agrave; ce tour pour transporter en partie votre corps dans un espace extra-dimensionnel. Votre corps mat&eacute;riel est alors remplac&eacute; par une image en deux dimensions. Tant que vous maintenez votre concentration, ou jusqu'&agrave; 1 minute, vous &ecirc;tes consid&eacute;r&eacute; comme r&eacute;sistant &agrave; tous les types de d&eacute;g&acirc;ts. Vous b&eacute;n&eacute;ficiez aussi d'un abri important (+5 &agrave; la CA et aux jets de sauvegarde de Dext&eacute;rit&eacute;). Sous cette forme, vous pouvez vous d&eacute;placer &agrave; votre vitesse normale et passer dans des interstices &eacute;troits : sous les portes, le long des murs, etc. En revanche, vous ne pouvez ni attaquer, ni lancer de sort, ni vous saisir d'un objet. Vous avez en outre besoin de respirer normalement. Vous pouvez ressortir de l'espace extra-dimensionnel et reprendre votre forme originale en utilisant une action bonus.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685374,
+    "modifiedTime": 1663923686714,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NRzHZ2Fpq0IsmNpP"
+}

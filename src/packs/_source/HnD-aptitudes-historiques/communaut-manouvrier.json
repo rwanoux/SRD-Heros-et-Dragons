@@ -1,0 +1,86 @@
+{
+  "_id": "5ElInC5cIXmhLcAL",
+  "name": "communauté (Manouvrier)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/environment/settlement/stone-stairs.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les manouvriers et journaliers forment une communauté soudée qui se serre les coudes en période de vaches maigres, et qui sait que les quelques pièces obtenues du travail d'une journée peuvent parfois faire la différence entre la vie et la mort. En cas de besoin, vous savez faire appel à la solidarité de vos anciens collègues pour obtenir des informations, un peu d'aide ou l'hospitalité</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "manouvrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703906,
+    "modifiedTime": 1663923703949,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5ElInC5cIXmhLcAL"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "f6XLL1Dvhtpny2mU",
+  "name": "Études académiques [Clerc Théurge]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/equipment/back/mantle-collared-black.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"etudes-academiques\"><strong>&Eacute;tudes acad&eacute;miques</strong></h3>\n<p>Le temps que vous avez pass&eacute; &agrave; prier, &agrave; m&eacute;diter et &agrave; compulser des grimoires ne vous a pas permis d'apprendre &agrave; ma&icirc;triser les armures interm&eacute;diaires. Contrairement aux autres clercs, vous d&eacute;butez avec seulement la ma&icirc;trise des armures l&eacute;g&egrave;res. En revanche, vous ajoutez Arcanes &agrave; la liste de comp&eacute;tences parmi lesquelles vous pouvez choisir vos comp&eacute;tences initiales.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685486,
+    "modifiedTime": 1663923687189,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!f6XLL1Dvhtpny2mU"
+}

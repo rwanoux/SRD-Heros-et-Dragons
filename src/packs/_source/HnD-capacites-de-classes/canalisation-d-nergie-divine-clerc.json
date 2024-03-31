@@ -1,0 +1,124 @@
+{
+  "_id": "YPB3V1aHqsW5fj8W",
+  "name": "Canalisation d'énergie divine [Clerc]",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "entityorder": {
+      "order": 129
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"canalisation-d-energie-divine\"><strong>Canalisation d'&eacute;nergie divine</strong></h3>\n<p>Au niveau 2, vous gagnez la capacit&eacute; de canaliser directement l'&eacute;nergie divine qui &eacute;mane de votre d&eacute;it&eacute; et vous pouvez utiliser cette &eacute;nergie pour alimenter vos effets magiques. Vous d&eacute;butez avec deux effets de ce type : renvoi des morts-vivants et un effet d&eacute;termin&eacute; par votre domaine. Certains domaines vous permettent d'acqu&eacute;rir des effets suppl&eacute;mentaires &agrave; certains niveaux. Cela est alors indiqu&eacute; dans la section les d&eacute;taillant.</p>\n<p>Quand vous utilisez canalisation d'&eacute;nergie divine, vous choisissez quel effet vous souhaitez produire. Apr&egrave;s avoir utilis&eacute; une fois cette aptitude, vous devez finir un repos court ou un repos long pour pouvoir l'utiliser de nouveau.</p>\n<p>Certains effets de la canalisation d'&eacute;nergie divine impliquent des jets de sauvegarde. Quand vous utilisez un tel effet avec un personnage de cette classe, vous devez utiliser un DD &eacute;gal au DD des jets de sauvegarde de vos sorts de clerc.</p>\n<p>&Agrave; partir du niveau 6, vous pouvez utiliser l'aptitude canalisation d'&eacute;nergie divine deux fois entre chaque repos court ou long, puis trois fois &agrave; partir du niveau 18.</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685438,
+    "modifiedTime": 1678403898825,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!YPB3V1aHqsW5fj8W"
+}

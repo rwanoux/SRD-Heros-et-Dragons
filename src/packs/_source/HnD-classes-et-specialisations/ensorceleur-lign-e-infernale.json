@@ -1,0 +1,93 @@
+{
+  "_id": "lhIw65uwi5Mh2lsq",
+  "name": "[Ensorceleur] Lignée Infernale",
+  "type": "subclass",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h1 id=\"lignee-infernale\"><strong>Lignée infernale</strong></h1>\n<h3> </h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6S2sY22CUUNzPSMF]{Ancêtre Fiélon [Lignée infernale]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TWlht2RaAxU7afjE]{Résistance des fiélons [Lignée infernale]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.agSPT0asQEl2fOk7]{Magie du sang [Lignée infernale]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dca1yAK6QZ1ypaHD]{Résistance supérieure [Lignée infernale]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p4AoxGxhiaDQYRgA]{Forme infernale [Lignée infernale]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "lignee-infernale",
+    "classIdentifier": "ensorceleur",
+    "advancement": [
+      {
+        "_id": "fhmpd7seplsph1oa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p4AoxGxhiaDQYRgA"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "gylvgxj4z1gqsixy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dca1yAK6QZ1ypaHD"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "gf1xp6z1t9qxnuat",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.agSPT0asQEl2fOk7"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "btqb2c9mgta5ni3z",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6S2sY22CUUNzPSMF",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TWlht2RaAxU7afjE"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703424,
+    "modifiedTime": 1663923703643,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lhIw65uwi5Mh2lsq"
+}

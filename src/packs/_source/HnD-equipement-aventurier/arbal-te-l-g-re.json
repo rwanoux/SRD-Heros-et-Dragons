@@ -1,0 +1,167 @@
+{
+  "_id": "Y2E8mBK8VRjtXv8g",
+  "name": "Arbalète légère",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "simple",
+      "type": "ranged",
+      "mode": "melee",
+      "tags": {
+        "twohanded": true,
+        "loading": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "f21aa526-1fd7-4f43-bfa2-7641566f76bb",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "f9960447-536f-4831-9673-9f57fd249cb9",
+              "attack": "ranged",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "f3da80bc-21f7-4756-a82e-85dbd7028058",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 8,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "prc",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Une petite arbalète avec un manche en bois et une corde tendue qui est capable de tirer un seul coup qui peut perforer même les armures lourdes à bout portant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 2.5,
+    "price": 25,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 24,
+      "long": 96,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "baseItem": "lightcrossbow",
+    "properties": {
+      "lgt": false,
+      "two": true,
+      "amm": true,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "ver": false,
+      "lod": true,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700619,
+    "modifiedTime": 1663923700619,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Y2E8mBK8VRjtXv8g"
+}

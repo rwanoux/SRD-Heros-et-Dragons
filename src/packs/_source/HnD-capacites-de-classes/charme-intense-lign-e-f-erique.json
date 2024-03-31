@@ -1,0 +1,89 @@
+{
+  "_id": "6OB2sX83EpMAyx9i",
+  "name": "Charme intense [Lignée féerique]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/fire/projectile-meteor-salvo-strong-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"charme-intense\"><strong>Charme intense</strong></h3>\n<p>Au niveau 14, lorsque vous lancez un sort de l'&eacute;cole d'enchantement, vous pouvez utiliser votre r&eacute;action pour obtenir 1 point de sorcellerie que vous devez obligatoirement d&eacute;penser sur ce sort. Vous pouvez y ajouter d'autres points de sorcellerie que vous d&eacute;pensez de fa&ccedil;on ordinaire par une action bonus.</p>\n<p>De plus, vous b&eacute;n&eacute;ficiez d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> aux jets de sauvegarde contre tous les sorts et les pouvoirs de charme ou d'enchantement.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685190,
+    "modifiedTime": 1663923686173,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!6OB2sX83EpMAyx9i"
+}

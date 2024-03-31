@@ -1,0 +1,131 @@
+{
+  "_id": "G2Bpigga59KRkjXq",
+  "name": "Table A 8 à 11",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 600000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "BtNHQpct54YlCOuk",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "{5d6*100 [cp],1d6*10 [ep]}",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!G2Bpigga59KRkjXq.BtNHQpct54YlCOuk"
+    },
+    {
+      "_id": "aXFOHcuyCgHpe4as",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "{6d6*10 [sp],1d6*10 [gp]}",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false,
+      "_key": "!tables.results!G2Bpigga59KRkjXq.aXFOHcuyCgHpe4as"
+    },
+    {
+      "_id": "4v3HrmbJ6fCBSMXL",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "{3d6*10 [gp],1d6*10 [ep]}",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        11,
+        14
+      ],
+      "drawn": false,
+      "_key": "!tables.results!G2Bpigga59KRkjXq.4v3HrmbJ6fCBSMXL"
+    },
+    {
+      "_id": "HqPaG5uGxkHvZDWh",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "{4d6*10 [gp],1d6*10 [sp]}",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        15,
+        18
+      ],
+      "drawn": false,
+      "_key": "!tables.results!G2Bpigga59KRkjXq.HqPaG5uGxkHvZDWh"
+    },
+    {
+      "_id": "POwWC7HaSTWwb4Z1",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "{4d6 [pp],1d6*10 [gp]}",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!G2Bpigga59KRkjXq.POwWC7HaSTWwb4Z1"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!G2Bpigga59KRkjXq"
+}

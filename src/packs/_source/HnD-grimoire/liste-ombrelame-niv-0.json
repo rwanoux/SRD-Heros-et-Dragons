@@ -1,0 +1,84 @@
+{
+  "_id": "jXsIfUVKwXBnACrJ",
+  "name": "Liste Ombrelame niv 0",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Ombrelame niveau 0</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Enchantement\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.RwVfsTSlWVCsg0et]{Aura du h&eacute;ros}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.7OUpKrBlt4Jfz0xu]{Moquerie cruelle}</li>\n</ul>\n</li>\n<li>&Eacute;vocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vz3lDHs9hMpubKDD]{Lumi&egrave;re}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fy22nn4nsF0Dwxw7]{Lumi&egrave;res dansantes}</li>\n</ul>\n</li>\n<li>Illusion\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.PU9BgKG9Yqk1rj98]{Illusion mineure}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.i1C5cjPugQLWBi01]{Main du mage}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.EJdkAZTfxwg4fAVK]{Message}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jlMCBuxAhhlQu5FX]{Prestidigitation}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ombrelame",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688166,
+    "modifiedTime": 1663923689295,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jXsIfUVKwXBnACrJ"
+}

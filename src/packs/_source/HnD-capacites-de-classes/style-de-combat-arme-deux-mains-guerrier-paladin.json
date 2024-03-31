@@ -1,0 +1,91 @@
+{
+  "_id": "yBp0Htz1pey4dhBq",
+  "name": "Style de combat : Arme à deux mains [Guerrier - Paladin]",
+  "type": "feat",
+  "flags": {
+    "entityorder": {
+      "order": 197
+    }
+  },
+  "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"armes-a-deux-mains\"><strong>Armes &agrave; deux mains</strong></h3>\n<p>Quand vous faites 1 ou 2 avec un d&eacute; de d&eacute;g&acirc;ts pour une attaque avec une arme de corps-&agrave;-corps tenue &agrave; deux mains, vous pouvez lancer de nouveau le d&eacute; et vous devez utiliser ce second r&eacute;sultat, m&ecirc;me s'il s'agit encore d'un 1 ou d'un 2. L'arme doit avoir la propri&eacute;t&eacute; &agrave; deux mains ou poss&eacute;der la propri&eacute;t&eacute; polyvalente pour que vous puissiez b&eacute;n&eacute;ficier de cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "Guerrier / Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685700,
+    "modifiedTime": 1663923687805,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!yBp0Htz1pey4dhBq"
+}

@@ -1,0 +1,125 @@
+{
+  "_id": "vWhsfoHCU7hVNiCB",
+  "name": "Encensoir de contrôle des élémentaires de l'air",
+  "type": "consumable",
+  "img": "icons/commodities/treasure/goblet-worn-gold.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Tant que de l'encens brûle dans cet encensoir, vous pouvez utiliser une action pour prononcer son mot de commande et invoquer un élémentaire de l'air, comme si vous aviez lancé le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/invoquer-un-elementaire/\">invoquer un élémentaire</a>. Ensuite, il faut attendre l'aube suivante avant de pouvoir réutiliser ainsi l'encensoir.</p>\n<div>L'encensoir ressemble à un calice de 15 centimètres de large pour 30 centimètres de haut fermé d'un couvercle ornementé. Il pèse 0,5 kilo.&nbsp;</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 8000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Mot de commande."
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "m",
+      "type": "square"
+    },
+    "range": {
+      "value": 27,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701454,
+    "modifiedTime": 1663923703231,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!vWhsfoHCU7hVNiCB"
+}

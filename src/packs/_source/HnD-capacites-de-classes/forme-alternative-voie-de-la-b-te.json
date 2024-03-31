@@ -1,0 +1,100 @@
+{
+  "name": "Forme alternative [Voie de la bête]",
+  "type": "feat",
+  "img": "icons/creatures/fish/squid-kraken-teal.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_id": "p0uqHDfgO7TATjy0",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 6, vous devenez capable de communiquer avec plusieurs esprits totems ; vous êtes également capable de prendre une nouvelle forme animale dont l'indice de dangerosité ne dépasse pas 1. Enfin, vous pouvez conserver une forme animale pendant un maximum de 10 minutes par utilisation.</p>\n<p> </p>\n<p>Désormais, il vous est possible d'utiliser votre capacité de transformation animale plus d'une fois entre deux repos courts, mais si vous le faites, vous subissez un niveau d'épuisement après chaque utilisation au-delà de la première.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685632,
+    "modifiedTime": 1678419793508,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!p0uqHDfgO7TATjy0"
+}

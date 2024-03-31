@@ -1,0 +1,123 @@
+{
+  "_id": "pIsjCsVe08fuvcGI",
+  "name": "Filet +1",
+  "type": "weapon",
+  "img": "icons/tools/fishing/net-simple-tan.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "system": {
+    "description": {
+      "value": "<p>Vous bénéficiez d'un bonus de +1 aux jets d'attaque et de dégâts effectués avec cette arme magique.</p>\n<p><strong>Special.</strong></p>\n<p style=\"widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Une créature de taille G ou moins contre qui vous réussissez une attaque avec un filet se retrouve&nbsp;</span></span></span></span><em><a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\"><span style=\"background: transparent;\">entravée</span></span></span></span></span></a></em><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">&nbsp;jusqu'à ce qu'elle soit libérée. Un filet n'a aucun effet sur les créatures sans forme ou les créatures de taille TG ou supérieure. Une créature peut utiliser son action pour faire un test de Force DD 10 afin de tenter de se libérer ou de libérer une autre créature qui se trouve à sa portée. Il est aussi possible de libérer une créature sans la blesser en infligeant 5 dégâts tranchants au filet. Le filet est détruit et son effet prend alors fin.</span></span></span></span></p>\n<p style=\"margin-bottom: 0.42cm; border: none; padding: 0cm; font-style: normal; font-weight: normal; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\">Quand vous utilisez une action, une action bonus ou une réaction pour attaquer à l'aide d'un filet, vous ne pouvez faire qu'une seule attaque, peu importe le nombre d'attaques que vous pouvez normalement faire.</span></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 200,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": 4.5,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "baseItem": "net",
+    "properties": {
+      "spc": true,
+      "thr": true,
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "two": false,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701371,
+    "modifiedTime": 1663923703031,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pIsjCsVe08fuvcGI"
+}

@@ -1,0 +1,122 @@
+{
+  "_id": "jEJMmbYkQeTUggZx",
+  "name": "Sens divin [Paladin]",
+  "type": "feat",
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sens-divin\"><strong>Sens divin</strong></h3>\n<p>Vous ressentez le mal comme une odeur naus&eacute;abonde, tandis que le bien r&eacute;sonne comme une musique c&eacute;leste &agrave; vos oreilles. Vous pouvez utiliser une action pour mettre vos sens en &eacute;veil afin de d&eacute;tecter de telles forces. Jusqu'&agrave; la fin de votre prochain tour, vous savez o&ugrave; se trouve toute cr&eacute;ature c&eacute;leste, fi&eacute;lonne ou mort-vivante qui n'est pas cach&eacute;e derri&egrave;re un abri total dans un rayon de 18 m&egrave;tres autour de vous. Vous connaissez le type (c&eacute;leste, fi&eacute;lon ou mort-vivant) de chaque &ecirc;tre dont vous ressentez la pr&eacute;sence, mais vous n'en savez pas plus sur cette cr&eacute;ature. Dans le m&ecirc;me rayon, vous d&eacute;tectez aussi la pr&eacute;sence de tout lieu ou objet qui a &eacute;t&eacute; consacr&eacute; ou profan&eacute;, comme cela peut &ecirc;tre fait avec un sort comme @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.DQBsULyvpqYxic99]{Sanctification}.</p>\n<p>Entre deux repos longs, vous pouvez utiliser cette aptitude un nombre de fois &eacute;gal &agrave; 1 + votre modificateur de Charisme.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": 18,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685597,
+    "modifiedTime": 1678412525137,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jEJMmbYkQeTUggZx"
+}

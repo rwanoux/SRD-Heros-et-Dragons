@@ -1,0 +1,84 @@
+{
+  "_id": "rl2s7R3uWekMvLFY",
+  "name": "Présence angélique [Lignée céleste]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"presence-angelique\"><strong>Pr&eacute;sence ang&eacute;lique&nbsp;</strong></h3>\n<p>&Agrave; partir du niveau 18, vous pouvez invoquer la pr&eacute;sence apaisante de votre anc&ecirc;tre c&eacute;leste, redonnant courage et moral aux alli&eacute;s qui vous entourent. Vous pouvez utiliser une action et d&eacute;penser 5 points de sorcellerie afin de puiser dans ce pouvoir et d&eacute;gager une aura de paix dans un rayon de 18 m&egrave;tres. Pendant 1 minute ou jusqu'&agrave; ce que vous perdiez votre concentration (avec les m&ecirc;mes r&egrave;gles que si vous lanciez un sort requ&eacute;rant votre concentration), tous les alli&eacute;s qui d&eacute;butent leur tour dans la zone d'effet ne peuvent &ecirc;tre&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#charme\">charm&eacute;s</a>,&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise\">terroris&eacute;s</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne\">empoisonn&eacute;s</a> jusqu'&agrave; ce que l'aura se dissipe. De plus, tant que vous &ecirc;tes sous l'effet de cette aura, vous pouvez lancer le tour de magie @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Y2RqdNOa7WAGAIVU]{Flamme sacr&eacute;e}&nbsp;en action bonus en d&eacute;pensant 1 point de sorcellerie.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "minute"
+    },
+    "target": {
+      "value": 18,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 5
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685647,
+    "modifiedTime": 1663923687576,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!rl2s7R3uWekMvLFY"
+}

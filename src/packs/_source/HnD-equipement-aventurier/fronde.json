@@ -1,0 +1,168 @@
+{
+  "_id": "DmOL8j2PN4c0otmP",
+  "name": "Fronde",
+  "type": "weapon",
+  "img": "icons/weapons/slings/slingshot-wood.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "obsidian": {
+      "category": "simple",
+      "type": "ranged",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "416f9fd1-2d1c-4666-bf38-1498562a06f7",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "ac317a00-42ca-4f1e-a98d-d18cf3780875",
+              "attack": "ranged",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "a6e2488c-8a62-41a8-86c5-b9de165d2414",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 4,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "blg",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Une lanière de cuir flexible fixée à un manche en bois qui est capable de projeter des pierres ou des balles métalliques à une vitesse mortelle.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0.1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 9,
+      "long": 36,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "baseItem": "",
+    "properties": {
+      "amm": true,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700569,
+    "modifiedTime": 1663923700569,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!DmOL8j2PN4c0otmP"
+}

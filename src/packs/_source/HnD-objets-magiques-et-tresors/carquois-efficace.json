@@ -1,0 +1,55 @@
+{
+  "_id": "lDU8Gqjfr8ys1tji",
+  "name": "Carquois efficace",
+  "type": "backpack",
+  "img": "icons/containers/ammunition/arrows-quiver-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce carquois dispose de trois compartiments, chacun étant relié à un espace extradimensionnel qui lui permet de contenir de nombreux objets sans jamais peser plus de 1 kilo. Le compartiment le plus court peut accueillir jusqu'à soixante flèches, carreaux ou objets similaires. Le compartiment de taille intermédiaire peut recevoir jusqu'à dix-huit javelines ou objets similaires et le plus long peut contenir six objets tout en longueur, comme des arcs, des bâtons ou des lances.</p>\n<p>Vous pouvez tirer ces objets du carquois comme vous le feriez avec un carquois ou un fourreau ordinaire.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1,
+    "price": 1000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "capacity": {
+      "type": "items",
+      "value": 60,
+      "weightless": true
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "attributes": {
+      "spelldc": 10
+    },
+    "damage": {
+      "parts": []
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701349,
+    "modifiedTime": 1663923702947,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lDU8Gqjfr8ys1tji"
+}

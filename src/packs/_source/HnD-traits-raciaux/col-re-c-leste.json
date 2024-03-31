@@ -1,0 +1,89 @@
+{
+  "name": "Colère céleste",
+  "type": "feat",
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "267rqwmXzGJZhpQ2",
+  "system": {
+    "description": {
+      "value": "<p>Vous êtes capable de canaliser votre colère dans un coup terrifiant.</p>\n<p>Lorsque vous effectuez l'action attaquer, vous pouvez utiliser votre réaction afin d'infliger votre colère céleste.</p>\n<p>Vous ajoutez alors aux dégâts de votre attaque 1d4 dégâts radiants.</p>\n<p>Votre capacité à infliger des dégâts augmente avec votre niveau. Au niveau 5, vous infligez 2d4 dégâts radiants, 3d4 au niveau 9, 4d4 au niveau 13 et 5d4 au niveau 17.</p>\n<p>Vous pouvez déclarer que vous utilisez cette capacité après avoir su que votre attaque touchait. Néanmoins, vous ne pouvez combiner ces dégâts dans la même attaque qu'une autre capacité octroyant des dégâts supplémentaires, comme un châtiment divin ou une attaque sournoise, par exemple.</p>\n<p>Vous devez effectuer un repos long avant de pouvoir réutiliser cette capacité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Aasimar",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698153,
+    "modifiedTime": 1663923698327,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!267rqwmXzGJZhpQ2"
+}

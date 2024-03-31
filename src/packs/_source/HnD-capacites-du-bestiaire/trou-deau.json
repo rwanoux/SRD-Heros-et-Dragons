@@ -1,0 +1,84 @@
+{
+  "name": "Trou d'Eau",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/water/pseudopod-swirl-blue.webp",
+  "_id": "MlupGRW3PiQb9tut",
+  "system": {
+    "description": {
+      "value": "<p><strong>Trou d'eau.</strong> Le sol devient spongieux et marécageux dans une zone de 9 mètres de long et 3 mètres de large. Toute créature qui débute son tour dans la zone visée et qui rate un jet de sauvegarde de Force est entravée. De plus, chaque mètre de déplacement à travers la zone coûte un mètre de déplacement supplémentaire. L'effet s'arrête si la créature utilise à nouveau cet effet.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "special",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "line"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "spec"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Noir (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698812,
+    "modifiedTime": 1663923699563,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MlupGRW3PiQb9tut"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Souffle glacial",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
+  "_id": "WAFIS2Nig4LRgrsn",
+  "system": {
+    "description": {
+      "value": "<p><strong>Souffle glacial(Recharge 5-6).</strong> Le loup exhale un souffle de vent glacial dans un cône de 4,50 mètres. Toute créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité DD 12, subissant 4d8 dégâts de froid en cas d'échec, ou la moitié de ces dégâts en cas de réussite</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 15,
+      "width": null,
+      "units": "m",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "con",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "cold"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat",
+      "value": "con"
+    },
+    "requirements": "Loup Arctique",
+    "recharge": {
+      "value": 5,
+      "charged": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698855,
+    "modifiedTime": 1663923699738,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!WAFIS2Nig4LRgrsn"
+}

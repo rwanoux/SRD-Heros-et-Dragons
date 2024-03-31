@@ -1,0 +1,93 @@
+{
+  "_id": "4H818iIlRphEYZHq",
+  "name": "Ascendance infernale (Tieffelin)",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "img": "icons/magic/fire/explosion-mushroom-nuke-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Ascendance infernale.</strong> Vous connaissez le tour de magie thaumaturgie. Quand vous atteignez le niveau 3, vous pouvez lancer une fois le sort représailles infernales comme sort de niveau 2 grâce à ce trait. Pour pouvoir lancer de nouveau ce sort, vous devez terminer un repos long. À partir du niveau 5, vous pouvez lancer une fois le sort ténèbres grâce à ce trait. Pour pouvoir lancer de nouveau ce sort, vous devez finir un repos long. Votre caractéristique d'incantation pour lancer ces sorts est le Charisme.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Tieffelin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698157,
+    "modifiedTime": 1663923698342,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!4H818iIlRphEYZHq"
+}

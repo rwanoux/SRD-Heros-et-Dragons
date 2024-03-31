@@ -1,0 +1,108 @@
+{
+  "_id": "yVK2GIhCQuAYNw6k",
+  "name": "Heaume scintillant",
+  "type": "equipment",
+  "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce heaume éblouissant est serti de 1d10 diamants, 2d10 rubis, 3d10 opales de feu et 4d10 opales. Toute gemme arrachée au heaume tombe en poussière. Le heaume perd ses pouvoirs magiques une fois que toutes ses gemmes ont été détruites ou arrachées.</p>\n<p>Tant que vous portez le heaume, vous bénéficiez des avantages suivants :</p>\n<ul>\n<li>Vous pouvez utiliser une action pour lancer l'un des sorts suivants (DD 18) en utilisant une gemme du type indiqué comme composante :&nbsp;<a href=\"https://5e-drs.fr/grimoire/lumiere-du-jour/\">lumière du jour</a>&nbsp;(opale),&nbsp;<a href=\"https://5e-drs.fr/grimoire/boule-de-feu/\">boule de feu</a>&nbsp;(opale de feu),&nbsp;<a href=\"https://5e-drs.fr/grimoire/embruns-prismatiques/\">embruns prismatiques</a>&nbsp;(diamant) ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/mur-de-feu/\">mur de feu</a>&nbsp;(rubis). La gemme est détruite au moment de l'incantation et disparaît.</li>\n</ul>\n<p>Tant que le heaume possède encore au moins un diamant, il émet une faible lumière dans un rayon de 9 mètres quand il y a au moins un mort-vivant dans ce même rayon. Tout mort-vivant qui débute son tour dans cette zone subit 1d6 dégâts radiants.</p>\n<p>Tant qu'il reste au moins un rubis sur le heaume, vous êtes résistant aux dégâts de feu.</p>\n<p>Tant que le heaume possède au moins une opale de feu, vous pouvez utiliser une action pour prononcer le mot de commande et enflammer une arme actuellement dans votre main. Les flammes émettent une vive lumière dans un rayon de 3 mètres et une faible lumière dans un rayon de 3 mètres de plus. Les flammes ne causent aucun dégât à votre personne ni à votre arme, en revanche, quand vous attaquez avec l'arme enflammée et touchez votre cible, vous lui infligez 1d6 dégâts de feu supplémentaires. Les flammes persistent jusqu'à ce que vous utilisiez une action bonus pour prononcer de nouveau le mot de commande ou que vous lâchiez l'arme ou la rengainiez.</p>\n<p>Lancez 1d20 si vous portez le heaume et subissez des dégâts de feu à cause d'un échec à un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre un sort. Sur un 1, les gemmes encore présentes émettent des rayons de lumière. Chaque créature (autre que vous) présente dans un rayon de 18 mètres autour du heaume doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Dextérité DD 17, sans quoi un rayon la frappe et lui inflige des dégâts radiants égaux au nombre de gemmes restant sur le heaume. Le heaume et ses gemmes sont ensuite détruits.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1,
+    "price": 16000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "light",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701479,
+    "modifiedTime": 1663923703314,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!yVK2GIhCQuAYNw6k"
+}

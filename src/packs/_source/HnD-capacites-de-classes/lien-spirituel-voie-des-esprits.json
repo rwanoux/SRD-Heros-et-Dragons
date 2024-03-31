@@ -1,0 +1,104 @@
+{
+  "name": "Lien spirituel [Voie des esprits]",
+  "type": "feat",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Lien spirituel</strong></h3><p>Lorsque vous choisissez la @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.FDLJaRUWciN4Nhkl]{Voie des Esprits}, vous obtenez une valeur de lien spirituel égal à votre bonus de maîtrise (deux points au troisième niveau). Vous récupérez vos points de lien spirituel après avoir terminé un repos long. Tous les sorts lancés grâce à l'utilisation de ces points le sont à leur niveau minimum, et la caractéristique utilisée pour lancer des sorts est la Sagesse (difficulté des jets de sauvegarde égale à 8 + bonus de maîtrise + modificateur de Sagesse).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@attributes.prof",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678420240834,
+    "modifiedTime": 1678421767547,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "F1p7hz1HrSWkiuPv",
+  "_key": "!items!F1p7hz1HrSWkiuPv"
+}

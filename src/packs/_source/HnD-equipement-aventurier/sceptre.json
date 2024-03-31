@@ -1,0 +1,169 @@
+{
+  "_id": "PdHOZX29r4OKyi4F",
+  "name": "Sceptre",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-hooked-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "obsidian": {
+      "category": "simple",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "758ea51e-5029-47d5-88cb-8f8b87705138",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "707da41b-fe9a-4c4f-8f19-e1723cccdd11",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "0476da61-77ac-4c34-9140-d5cc6baa222b",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 4,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "blg",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Focalisateur Arcanique.</strong> Une tige d'os, de pierre, de métal ou de matériaux plus exotiques, taillée ou façonnée de façon complexe. Focaliseur arcanique. Un focaliseur arcanique est un objet spécial (orbe, boule de cristal, baguette, bâton, sceptre) conçu pour canaliser la puissance de sorts de la magie des arcanes. Un ensorceleur, un sorcier ou un magicien peut utiliser ce type d'objet comme focaliseur pour ses sorts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "quantity": 1,
+    "weight": 1,
+    "price": 10,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": true,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700597,
+    "modifiedTime": 1663923700597,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PdHOZX29r4OKyi4F"
+}

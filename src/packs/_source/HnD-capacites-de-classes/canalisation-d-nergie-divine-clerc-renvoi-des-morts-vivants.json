@@ -1,0 +1,119 @@
+{
+  "_id": "d9HPKiJE7ydpsWIH",
+  "name": "Canalisation d'énergie divine [Clerc] Renvoi des Morts-vivants",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-smoke-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "entityorder": {
+      "order": 129
+    },
+    "midi-qol": {
+      "effectActivation": false
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "rollOther": false,
+      "critOther": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"canalisation-d-energie-divine-renvoi-des-morts-vivants\"><strong>Canalisation d'&eacute;nergie divine : Renvoi des morts-vivants</strong></h3>\n<p>Vous pouvez utiliser une action pour brandir votre symbole sacr&eacute; et prononcer une pri&egrave;re contre les morts-vivants. Dans un rayon de 9 m&egrave;tres, chaque mort-vivant qui peut vous voir ou vous entendre doit faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse. Si une cr&eacute;ature &eacute;choue &agrave; son jet de sauvegarde, elle est&nbsp;repouss&eacute;e&nbsp;pendant 1 minute ou jusqu'&agrave; ce qu'elle subisse des d&eacute;g&acirc;ts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "JdS Echec : Repoussée pendant 1 minutes ou jusqu'à ce qu'elle prenne des dégats",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685473,
+    "modifiedTime": 1663923687140,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!d9HPKiJE7ydpsWIH"
+}

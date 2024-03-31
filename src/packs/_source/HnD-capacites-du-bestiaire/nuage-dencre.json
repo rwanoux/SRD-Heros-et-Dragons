@@ -1,0 +1,118 @@
+{
+  "name": "Nuage d'Encre",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "details"
+  },
+  "img": "icons/magic/unholy/orb-swirling-teal.webp",
+  "_id": "t0EmVcKLKUv1gLXM",
+  "system": {
+    "description": {
+      "value": "<p><strong>Nuage d'encre.</strong> Lorsqu'elle est sous l'eau, la créature répand un nuage d'encre sur un rayon de 1,50 mètre autour d'elle. La visibilité dans la zone est fortement obstruée pendant 1 minute mais un courant significatif peut disperser l'encre. Après avoir répandu son nuage, la créature peut effectuer l'action Se précipiter par une action bonus.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1.5,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "none"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "",
+      "recovery": "",
+      "type": "sr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "Octopus",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698986,
+    "modifiedTime": 1663923700269,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!t0EmVcKLKUv1gLXM"
+}

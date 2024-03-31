@@ -1,0 +1,94 @@
+{
+  "name": "Avatar du Bois [Le Bois Ancien]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/tree-elm-roots-brown.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"traversee-des-enfers\"><strong>Avatar du Bois</strong></h3><p>À partir du niveau 14, vous pouvez canaliser le pouvoir de la forêt pour vous transformer physiquement et prendre plusieurs de ses aspects. Vos jambes, vos bras et votre torse s'allongent, votre corps se couvre d'une écorce épaisse et sombre, et des branches jaillissent de votre tête tandis que vos cheveux disparaissent. Vous pouvez vous transformer par une action bonus et la transformation dure 1 minute. Pendant votre transformation, vous bénéficiez des avantages suivants :</p><ul><li><p>Votre classe d'armure est de 16 plus votre modificateur de Dextérité. </p></li><li><p>Vous bénéficiez d'une perception des vibrations dans un rayon de 9 mètres, et la portée de vos attaques est augmentée de 1,5 mètre. </p></li><li><p>Vos mains deviennent des griffes en forme de branches et vous pouvez utiliser l'action Attaquer pour attaquer avec les griffes. Vous avez la maîtrise des griffes, et les griffes sont considérées comme magiques pour ce qui est de surmonter la résistance et l'immunité aux attaques et dégâts non magiques. Vous ajoutez votre modificateur de Charisme à vos jets d'attaque et de dégâts avec les griffes. Les dégâts sont tranchants et le dé de dégâts est un d6. Si vous avez la capacité <em>Pacte de la lame</em>, votre attaque de griffes bénéficie de vos invocations occultes comme s'il s'agissait d'une arme de pacte. </p></li><li><p>Votre capacité <em>Sève magique</em> devient <em>Arcasynthèse</em> : Lorsqu'un sort de niveau 5 ou moins est lancé à moins de 18 mètres de vous, vous pouvez utiliser votre réaction pour synthétiser la magie. Le sort se résout normalement, mais vous avez 50 % de chances de regagner 1d10 pv par niveau du sort lancé. </p></li></ul><p>Une fois que vous avez utilisé cette capacité, vous ne pouvez plus l'utiliser avant d'avoir terminé un repos court ou long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "Pas de dégats sur les Fiélons",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685214,
+    "modifiedTime": 1679677098869,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "Jc5eTYDPaYnTxvii",
+  "_key": "!items!Jc5eTYDPaYnTxvii"
+}

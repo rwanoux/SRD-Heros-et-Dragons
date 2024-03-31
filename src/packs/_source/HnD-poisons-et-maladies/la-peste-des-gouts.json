@@ -1,0 +1,84 @@
+{
+  "_id": "9ekkNmRGICY4j5pr",
+  "name": "La Peste des égouts",
+  "type": "feat",
+  "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>La peste des égouts est un terme générique qui regroupe une vaste catégorie de maladies qui incubent dans les égouts, les tas d'ordures et les marais stagnants et sont parfois transmises par des créatures qui résident dans ces environnements, comme les rats et les otyughs.</p>\n<p>Quand une créature porteuse de la maladie mord un humanoïde ou quand ce dernier entre en contact avec la fange ou des abats contaminés par la maladie, il doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 11, sans quoi il est infecté à son tour.</p>\n<p>Il faut 1d4 jours d'incubation avant que la fièvre des égouts se manifeste chez la créature infectée. Parmi ces symptômes, on trouve surtout de la fatigue et des crampes. La créature malade reçoit un niveau d'épuisement et récupère seulement la moitié du montant habituel de points de vie quand elle dépense des dés de vie, et pas le moindre point de vie pour avoir terminé un long repos.</p>\n<p>À la fin de chaque long repos, une créature infectée doit faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 11. Si elle le rate, elle reçoit un niveau d'épuisement. Si elle le réussit, elle se débarrasse d'un niveau d'épuisement. Si un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;réussi réduit le niveau d'épuisement d'un malade à moins de 1, il est guéri.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d4 heures",
+    "save": {
+      "ability": "con",
+      "dc": 11,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703735,
+    "modifiedTime": 1663923703735,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9ekkNmRGICY4j5pr"
+}

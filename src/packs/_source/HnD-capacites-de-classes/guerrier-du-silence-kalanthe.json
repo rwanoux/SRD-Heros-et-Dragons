@@ -1,0 +1,84 @@
+{
+  "name": "Guerrier du silence [Kalanthe]",
+  "type": "feat",
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "7Zb6foFmN6HRyZMu",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 13, lorsque vous utilisez votre aptitude @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TMSHEbEbvhV8W9iR]{Faire taire [Kalanthe]}, votre cible subit un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a> à son <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>.</p>\n<p>De plus, soit vous obtenez la maîtrise du matériel d'empoisonneur ou des accessoires de déguisement, soit (si vous les maîtrisez déjà) vous doublez votre bonus de maîtrise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685201,
+    "modifiedTime": 1663923686210,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!7Zb6foFmN6HRyZMu"
+}

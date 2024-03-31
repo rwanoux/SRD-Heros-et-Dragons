@@ -1,0 +1,99 @@
+{
+  "name": "Le Bois Ancien et votre pacte [Le Bois Ancien]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/nature/root-vine-sword-broken.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"benediction-du-tenebreux\"><strong>Le Bois Ancien et votre pacte</strong></h3><p>Quand vous choisissez votre pacte au niveau 3, il est modifié par votre protecteur de la façon suivante :</p><p><strong>Pacte de la chaîne</strong>. Lorsque vous invoquez votre familier ou changez sa forme, vous pouvez choisir la forme d'un arbuste éveillé ou d'un enfant des bruyères en plus des choix de familiers habituels.</p><p><strong>Pacte de la lame</strong>. La lame du Bois Ancien est une arme faite de bois et d'épines qui pousse dans votre paume. Lorsque vous lancez gourdin magique, votre Lame de Pacte est affectée par le sort, quelle que soit la forme que prend votre Lame de Pacte.</p><p><strong>Pacte du grimoire</strong>. Le Bois Ancien fait pousser un grimoire pour vous. La couverture du tome est faite d'écorce durcie provenant des arbres de la forêt, et ses pages sont des feuilles dont la couleur change avec les saisons. Si vous souhaitez ajouter un nouveau sort à votre grimoire, vous devez d'abord le planter dans le sol. Au bout d'une heure, le grimoire sort de terre avec le nouveau sort inscrit sur ses feuilles. Si votre grimoire est perdu ou détruit, vous devez retourner dans votre forêt protectrice pour qu'elle vous en fasse pousser un nouveau.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "heal",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "@classes.sorcier.levels + @abilities.cha.mod",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685200,
+    "modifiedTime": 1679677110705,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "5MgrPL4qHjWUaHul",
+  "_key": "!items!5MgrPL4qHjWUaHul"
+}

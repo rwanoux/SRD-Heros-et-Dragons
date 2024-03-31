@@ -1,0 +1,84 @@
+{
+  "name": "Pacifisme [Voie des fleurs]",
+  "type": "feat",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "hJDxBqRriU3QrueZ",
+  "system": {
+    "description": {
+      "value": "<p>Également au niveau 3, votre immobilité est trompeuse : car vous êtes pleinement conscient de la présence de vos ennemis.</p>\n<p>Si vous n'avez pas réalisé d'action offensive lors de votre tour, vous pouvez utiliser votre réaction pour lancer votre dé d'arts martiaux et l'ajouter à votre CA contre une attaque jusqu'à votre prochain tour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685570,
+    "modifiedTime": 1663923687312,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hJDxBqRriU3QrueZ"
+}

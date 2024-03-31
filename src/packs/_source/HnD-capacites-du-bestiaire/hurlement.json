@@ -1,0 +1,84 @@
+{
+  "name": "Hurlement",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "_id": "HL7B0Oo4mjHBi8sr",
+  "system": {
+    "description": {
+      "value": "<p><strong>Hurlement.</strong> Quand une lumière vive ou une créature s'approche à une distance établie en mètre ou moins de la créature, celle-ci émet un hurlement audible jusqu'à distance établie en mètres. La créature continue de hurler jusqu'à ce que la source de gêne se déplace hors de portée.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698787,
+    "modifiedTime": 1663923699454,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!HL7B0Oo4mjHBi8sr"
+}

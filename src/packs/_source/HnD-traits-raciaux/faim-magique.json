@@ -1,0 +1,94 @@
+{
+  "name": "Faim magique",
+  "type": "feat",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:justify\">Lorsqu'une créature que vous pouvez voir à moins de 9 m de vous lance un sort, vous pouvez utiliser votre réaction pour consommer la magie résiduelle du sort. </p><p style=\"text-align:justify\">Votre consommation ne contre ni n'affecte le sort ou le lanceur de sorts. Lorsque vous consommez cette magie résiduelle, vous gagnez un nombre de points de vie temporaires égal à votre modificateur de Constitution (minimum de 1), et vous ne pouvez plus utiliser ce trait avant d'avoir terminé un repos court ou long.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "@abilities.con.mod",
+          "temphp"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Darakhul",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680508623712,
+    "modifiedTime": 1680508814826,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "wXpDiUUdrw3c74S3",
+  "_key": "!items!wXpDiUUdrw3c74S3"
+}

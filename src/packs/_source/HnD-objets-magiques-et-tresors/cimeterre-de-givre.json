@@ -1,0 +1,129 @@
+{
+  "_id": "jvnzbANy0211EXde",
+  "name": "Cimeterre de givre",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Quand vous touchez une créature suite à une attaque avec cette arme magique, votre cible subit 1d6 dégâts de froid supplémentaire. De plus, vous êtes résistant aux dégâts de feu tant que vous tenez cette épée.</p>\n<p>Si la température est glaciale, l'épée émet une vive lumière dans un rayon de 3 mètres et une faible lumière dans un rayon de 3 mètres de plus.</p>\n<p>Quand vous dégainez cette épée, vous pouvez éteindre toutes les flammes non-magiques situées dans un rayon de 9 mètres autour de vous. Ce pouvoir s'utilise seulement une fois par heure.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 2200,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "slashing"
+        ],
+        [
+          "1d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "scimitar",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": true,
+      "fir": false,
+      "foc": false,
+      "lgt": true,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701336,
+    "modifiedTime": 1663923702897,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jvnzbANy0211EXde"
+}

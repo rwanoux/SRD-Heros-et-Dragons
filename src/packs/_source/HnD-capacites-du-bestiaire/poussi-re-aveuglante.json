@@ -1,0 +1,84 @@
+{
+  "name": "Poussière aveuglante",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
+  "_id": "OfxL6ytYh1IS8HEv",
+  "system": {
+    "description": {
+      "value": "<p><strong>Poussière aveuglante.</strong> De la poussière et du sable forment par magie un tourbillon aveuglant autour de créature. Les créatures situées à 1,50 mètre ou moins d'elle doivent chacune réussir un jet de sauvegarde de Constitution pour ne pas être aveuglées jusqu'à la fin de leur prochain tour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1.5,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 16,
+      "scaling": "flat"
+    },
+    "requirements": "Momie Auguste",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698818,
+    "modifiedTime": 1663923699591,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!OfxL6ytYh1IS8HEv"
+}

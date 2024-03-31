@@ -1,0 +1,92 @@
+{
+  "name": "Vulnérabilité à l'eau",
+  "type": "feat",
+  "flags": {
+    "obsidian": {
+      "source": {
+        "type": "other"
+      },
+      "effects": [],
+      "version": 7
+    }
+  },
+  "img": "icons/magic/water/projectile-ice-snowball.webp",
+  "_id": "sI2E0BrWplc6mgHT",
+  "system": {
+    "description": {
+      "value": "<p><strong>Vulnérabilité à l'eau.</strong> Si la créature se déplace dans l'eau ou si elle est aspergée d'eau, elle subit des dégâts de froid.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698982,
+    "modifiedTime": 1663923700254,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!sI2E0BrWplc6mgHT"
+}

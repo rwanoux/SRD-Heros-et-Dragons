@@ -1,0 +1,92 @@
+{
+  "_id": "pz858dm6Q15Y8Va4",
+  "name": "Potion de force de géant des collines",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-bulb-corked-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>Quand vous buvez cette potion, votre valeur de Force est égale à 21 pendant 1 heure. La potion n'a aucun effet si votre Force est déjà égale ou supérieure à cette valeur.</p>\n<p>Une rognure d'ongle d'un géant du type approprié flotte dans cette potion transparente.</p>\n<table>\n<tbody>\n<tr>\n<th>Type de géant</th>\n<th>Force</th>\n<th>Rareté</th>\n</tr>\n<tr>\n<td>Géant des collines</td>\n<td class=\"center\">21</td>\n<td>Peu commun</td>\n</tr>\n<tr>\n<td>Géant des pierres/du givre</td>\n<td class=\"center\">23</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Géant du feu</td>\n<td class=\"center\">25</td>\n<td>Rare</td>\n</tr>\n<tr>\n<td>Géant des nuages</td>\n<td class=\"center\">27</td>\n<td>Très rare</td>\n</tr>\n<tr>\n<td>Géant des tempêtes</td>\n<td class=\"center\">29</td>\n<td>Légendaire</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.1,
+    "price": 900,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "potion",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701421,
+    "modifiedTime": 1663923703099,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pz858dm6Q15Y8Va4"
+}

@@ -1,0 +1,114 @@
+{
+  "_id": "F1ADXqxNIw6zrTvl",
+  "name": "Table de base niveau rencontre 17 et +",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 500000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": "1"
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "34762TrL4SmwLaIm",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table D 17 et +",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "3sFsc4K7oxBFaBCZ",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!F1ADXqxNIw6zrTvl.34762TrL4SmwLaIm"
+    },
+    {
+      "_id": "pjgopv7VlixwxaKW",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table A 17 et +",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "DqECYyhSl86Nhhkl",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!F1ADXqxNIw6zrTvl.pjgopv7VlixwxaKW"
+    },
+    {
+      "_id": "UqN4Z3BqELAALAsN",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table B 17 et +",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "EtFnua3Z94Ix8IYJ",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!F1ADXqxNIw6zrTvl.UqN4Z3BqELAALAsN"
+    },
+    {
+      "_id": "cxK7JgBVFidRzAOt",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table C 17 et +",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "atVLCztOWqmTs1ol",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!F1ADXqxNIw6zrTvl.cxK7JgBVFidRzAOt"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!F1ADXqxNIw6zrTvl"
+}

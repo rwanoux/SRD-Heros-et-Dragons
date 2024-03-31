@@ -1,0 +1,125 @@
+{
+  "_id": "mhwPep3yQZFw4mzF",
+  "name": "Bâton de tonnerre et de foudre",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-engraved-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce bâton peut être manié comme une arme magique qui confère un bonus de +2 à l'attaque et aux jets de dégâts effectués par son biais. Il possède également les propriétés supplémentaires suivantes. Quand une de ces propriétés est utilisée, il faut attendre l'aube suivante avant de pouvoir l'utiliser à nouveau.</p>\n<p><strong>Foudre</strong>. Quand vous réussissez une attaque au corps à corps avec le bâton, vous pouvez faire en sorte que la cible subisse 2d6 dégâts de foudre supplémentaires.</p>\n<p><strong>Tonnerre</strong>. Quand vous réussissez une attaque au corps à corps avec le bâton, vous pouvez faire en sorte qu'il émette un claquement de tonnerre audible à 90 mètres à la ronde. La cible frappée doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 17 pour ne pas être&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#etourdi\">étourdie</a>&nbsp;jusqu'à la fin de votre prochain tour.</p>\n<p><strong>Frappe foudroyante</strong>. Vous pouvez utiliser une action pour qu'un éclair surgisse de l'extrémité du bâton sur une ligne de 1,50 mètre de large et 36 mètres de long. Les créatures sur cette ligne doivent chacune effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Dextérité DD 17 ; elles subissent 9d6 dégâts de foudre en cas de&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;raté ou la moitié de ces dégâts seulement en cas de réussite.</p>\n<p><strong>Coup de tonnerre</strong>. Vous pouvez utiliser une action pour que le bâton émette un coup de tonnerre assourdissant audible à 180 mètres à la ronde. Les créatures situées à 18 mètres ou moins de vous (mais pas vous) doivent chacune effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 17. En cas de&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;raté, une créature subit 2d6 dégâts de tonnerre et devient&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#assourdi\">assourdie</a>&nbsp;pendant 1 minute. En cas de&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;réussi, une créature subit la moitié des dégâts seulement et n'est pas&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#assourdi\">assourdie</a>.</p>\n<p><strong>Tonnerre et foudre</strong>. Vous pouvez utiliser une action pour vous servir en même temps des propriétés Frappe foudroyante et Coup de tonnerre. L'activation de cette propriété dépense son utilisation quotidienne. Elle ne dépense toutefois pas l'utilisation quotidienne des propriétés Frappe foudroyante et Coup de tonnerre.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2,
+    "price": 10000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "2",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod +2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "1d8 + @mod +2"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "quarterstaff",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": true,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701357,
+    "modifiedTime": 1663923702971,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!mhwPep3yQZFw4mzF"
+}

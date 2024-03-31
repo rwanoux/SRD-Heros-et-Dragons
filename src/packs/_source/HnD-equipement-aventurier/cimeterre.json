@@ -1,0 +1,167 @@
+{
+  "_id": "eZor67lsNKrdgPMT",
+  "name": "Cimeterre",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-katana.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {
+        "finesse": true,
+        "light": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "103a07ce-426d-4f5a-b0fe-070c79052f6f",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "1d52327f-0708-4752-a17c-23ec614d812b",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "e7b7fb1e-3e32-4064-8c17-06955c71cd5c",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 6,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "slh",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Cette lame incurvée est large près du manche mais s'arque et se rétrécit en une pointe.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 25,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "scimitar",
+    "properties": {
+      "fin": true,
+      "lgt": true,
+      "two": false,
+      "rch": false,
+      "lod": false,
+      "fir": false,
+      "foc": false,
+      "thr": false,
+      "hvy": false,
+      "amm": false,
+      "ver": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700633,
+    "modifiedTime": 1663923700633,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!eZor67lsNKrdgPMT"
+}

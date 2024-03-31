@@ -1,0 +1,94 @@
+{
+  "_id": "pjdVX8BGLpJbJKzb",
+  "name": "[Barbare] Voie du Berserker",
+  "type": "subclass",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"voie-du-berserker\"><strong>Voie du Berserker</strong></h2>\n<h3> </h3>\n<p id=\"frenesie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.yJDgYCU2WriZpZlw]{Frénésie [Voie du Berserker]}</p>\n<p id=\"rage-aveugle\"><span style=\"font-size:1.125em\"><span style=\"font-size:14px\">Niveau 6</span> :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.liQaLdiheNXIxt1s]{Rage aveugle [Voie du Berserker]}</p>\n<p id=\"presence-intimidante\"><span style=\"font-size:1.125em\"><span style=\"font-size:14px\">Niveau 10</span> :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EYyuiTdtJOQWDJD8]{Présence intimidante [Voie du Berserker]}</p>\n<p id=\"represailles\"><span style=\"font-size:1.125em\"><span style=\"font-size:14px\">Niveau 14</span> :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6ceqA7YX7ImkZgIw]{Représailles [Voie du Berserker]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "voie-du-berserker",
+    "classIdentifier": "barbare",
+    "advancement": [
+      {
+        "_id": "txxw9nqmosaiwlr5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6ceqA7YX7ImkZgIw"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "wi0l6rjk5sjkvebb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EYyuiTdtJOQWDJD8"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "illmct1ab2m3e4kc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.liQaLdiheNXIxt1s"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "loh2n9roswdv9k0x",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.yJDgYCU2WriZpZlw"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703431,
+    "modifiedTime": 1663923703668,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pjdVX8BGLpJbJKzb"
+}

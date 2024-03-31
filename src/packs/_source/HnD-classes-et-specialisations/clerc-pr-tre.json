@@ -1,0 +1,107 @@
+{
+  "_id": "ZkLA4uiNdzbzbQ9Y",
+  "name": "[Clerc] Prêtre",
+  "type": "subclass",
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"pretre\"><strong>Prêtre</strong></h2>\n<h3> </h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wOWKYfcEMz3yUEuR]{Enseignement religieux [Prêtre]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8e4a9pLEdAqFxhAI]{Sorts de domaine [Prêtre]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sB9EWd2Wiv6gT8ui]{Canalisation d'énergie divine : Aptitude de domaine [Prêtre]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.HFRO6RyOvRdHSDP2]{Canalisation d'énergie divine : Sort de domaine [Prêtre]}</p>\n<p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sB9EWd2Wiv6gT8ui]{Canalisation d'énergie divine : Aptitude de domaine [Prêtre]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.98OJTNMKAqbzm3YG]{Aspect de l'avatar [Prêtre]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "pretre",
+    "classIdentifier": "clerc",
+    "advancement": [
+      {
+        "_id": "vwe9ulz0yipn2993",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.98OJTNMKAqbzm3YG"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "qiljk4o276qoa6cy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sB9EWd2Wiv6gT8ui"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "772diewedkqw6zlm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.HFRO6RyOvRdHSDP2"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "79kyc93oazmn0usn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sB9EWd2Wiv6gT8ui"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "rjny0dtdkx0dnmn0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wOWKYfcEMz3yUEuR",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8e4a9pLEdAqFxhAI"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703416,
+    "modifiedTime": 1663923703613,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ZkLA4uiNdzbzbQ9Y"
+}

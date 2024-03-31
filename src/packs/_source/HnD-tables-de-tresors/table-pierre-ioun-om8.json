@@ -1,0 +1,92 @@
+{
+  "_id": "v5BN8a4zPMqWKJpJ",
+  "name": "Table Pierre ioun OM8",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 10000000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "4mod1Ti8iPmlQJyJ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Pierre de Ioun d'Absorption Supérieure",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/ore-green.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "XKzbZSf7Bgz7Cisx",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!v5BN8a4zPMqWKJpJ.4mod1Ti8iPmlQJyJ"
+    },
+    {
+      "_id": "L9sfTU8EUFSmxyXs",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Pierre de Ioun de Maîtrise",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/gem-green.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "RJ0PXSu15sAqieOC",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!v5BN8a4zPMqWKJpJ.L9sfTU8EUFSmxyXs"
+    },
+    {
+      "_id": "IL4b6BOfSTuOo68Z",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Pierre de Ioun de Régénération",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/coral-white.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "k9gp1m3MrRxCTUW5",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!v5BN8a4zPMqWKJpJ.IL4b6BOfSTuOo68Z"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!v5BN8a4zPMqWKJpJ"
+}

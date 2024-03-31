@@ -1,0 +1,84 @@
+{
+  "name": "Liste Barde niv 1",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
+  "effects": [],
+  "_id": "RVclYptCATkUnTQj",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Barde niveau 1</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Enchantement\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.muveZuCZ1fP5RJVe]{Amiti&eacute; avec les animaux}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u]{Charme-personne}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NAvGwByTJdJAx5Tz]{Fl&eacute;au}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nwwO41IgdSBJQujp]{Fou rire}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.iFrSzDKFeD4eGeRb]{H&eacute;ro&iuml;sme}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kEHtYXCZeiLyrkI3]{Sommeil}</li>\n</ul>\n</li>\n<li>Divination\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.CarbMJ73FtMTsJZw]{Communication avec les animaux}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jjL4S9upbFC0B8aR]{Compr&eacute;hension des langues}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.pX5A4OAMYOYotCMP]{D&eacute;tection de la magie}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.a4FySK6dYuG4VtyS]{Identification}</li>\n</ul>\n</li>\n<li>&Eacute;vocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ko1XJNhBwiRJohtp]{Lueurs f&eacute;&eacute;riques}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.q4YQyD1xulTcHEgm]{Mot de gu&eacute;rison}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin des blessures}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.caB6HvhWaE7s0yUM]{Vague tonnante}</li>\n</ul>\n</li>\n<li>Illusion\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Isc5VZPyWaLUtuAl]{D&eacute;guisement}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.e4GUjnHspRcEhAmP]{Image silencieuse}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.dts6V1HxNywSdleH]{Instrument fantomatique}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ShG0UuPi9vyiViec]{Texte illusoire}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.TaoUfbXLU9b4da2p]{Serviteur invisible}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bMaB9j5lXXCR4Zqy]{Grande foul&eacute;e}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g8jRZr5Q44ugR8fB]{L&eacute;ger comme une plume}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688036,
+    "modifiedTime": 1663923688919,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!RVclYptCATkUnTQj"
+}

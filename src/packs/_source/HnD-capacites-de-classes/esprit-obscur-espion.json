@@ -1,0 +1,84 @@
+{
+  "_id": "5raS2ZtS6Bzag97x",
+  "name": "Esprit obscur [Espion]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"esprit-obscur\"><strong>Esprit obscur</strong></h3>\n<p>Lorsque vous atteignez le niveau 13, vous ne pouvez plus &ecirc;tre la cible de magie de divination, ni &ecirc;tre aper&ccedil;u ou d&eacute;tect&eacute; &agrave; travers des sens magiques. Cette aptitude est &eacute;quivalente &agrave; un sort de @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl]{Non-d&eacute;tection}&nbsp;permanent.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685185,
+    "modifiedTime": 1663923686152,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5raS2ZtS6Bzag97x"
+}

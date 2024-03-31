@@ -1,0 +1,84 @@
+{
+  "_id": "YnoOoNFCHmk9qtK4",
+  "name": "Canalisation d'énergie divine [Serment de Perfection] Sauveur",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-4\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Canalisation d'&eacute;nergie divine</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text;\">Quand vous pr&ecirc;tez votre serment au niveau 3, vous acc&eacute;dez aux deux options suivantes de canalisation d'&eacute;nergie divine.</p>\n<p style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Sauveur</strong>. En utilisant une action, vous pouvez promettre &agrave; un jeune homme ou une jeune femme (selon votre pr&eacute;f&eacute;rence personnelle, voir encart) en d&eacute;tresse &agrave; port&eacute;e de vue de le/la secourir. Pendant 1 heure ou jusqu'&agrave; ce qu'il/elle soit hors de danger (la premi&egrave;re condition remplie), vous obtenez un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;&agrave; tous vos tests destin&eacute;s &agrave; parlementer ou &agrave; combattre pour son honneur. Vous ne b&eacute;n&eacute;ficiez de cet&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> que si la jeune personne en d&eacute;tresse accepte (m&ecirc;me tacitement) d'&ecirc;tre secourue ou de voir son honneur d&eacute;fendu par vous.</p>\n<h4 id=\"canalisation-d-energie-divine-2\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"></h4>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Personne consentante"
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685443,
+    "modifiedTime": 1663923687012,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!YnoOoNFCHmk9qtK4"
+}

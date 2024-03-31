@@ -1,0 +1,130 @@
+{
+  "_id": "sR5u8xEP9YDdRaBW",
+  "name": "Simulacre",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/creatures/magical/humanoid-horned-rider.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous façonnez un double illusoire d'une bête ou d'un humanoïde à portée pendant toute la durée de l'incantation. Le double est une créature partiellement réelle, faite de neige ou de glace, qui peut accomplir des actions et qui est affectée par les éléments extérieurs comme une créature normale. Il ressemble en tout point à l'original, mais il n'a que la moitié de son maximum de points de vie et n'a pas d'équipement lors de sa création. En dehors de cela, il utilise le profil technique de la créature qu'il représente.</p>\n<p>Le simulacre se montre amical envers vous et les créatures que vous désignez. Il obéit à vos ordres vocaux, se déplace et agit comme vous le souhaitez et agit à votre tour lors des combats. Le simulacre est incapable d'apprendre et de gagner en puissance, il ne monte donc jamais de niveau et ne développe jamais ses pouvoirs. Il ne peut pas non plus récupérer un emplacement de sort dépensé.</p>\n<p>Si le simulacre est endommagé, vous pouvez le réparer dans un laboratoire d'alchimie en utilisant des herbes rares et des minéraux d'une valeur de 100 po par point de vie à régénérer. Le simulacre persiste jusqu'à ce qu'il tombe à 0 point de vie, il se transforme alors en neige et fond instantanément.</p>\n<p>Si vous lancez de nouveau ce sort, l'éventuel double que vous maintenez déjà en activité est détruit sur-le-champ.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "hour",
+      "cost": 12,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "spec",
+      "type": "creature",
+      "range": {
+        "value": "contact"
+      }
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "De la neige ou de la glace en quantité suffisante pour faire une reproduction grandeur nature de la créature à dupliquer  ; des cheveux, des rognures d'ongles ou un autre échantillon de la créature à dupliquer, à placer dans la neige ou la glace, et de la poudre de rubis d'une valeur minimale de 1500 po que le sort consume, à saupoudrer sur le double",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688209,
+    "modifiedTime": 1663923689456,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!sR5u8xEP9YDdRaBW"
+}

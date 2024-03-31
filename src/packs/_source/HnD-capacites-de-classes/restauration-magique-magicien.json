@@ -1,0 +1,154 @@
+{
+  "_id": "EJ2LZxdkVEbEaDYw",
+  "name": "Restauration magique [Magicien]",
+  "type": "feat",
+  "img": "icons/magic/earth/explosion-lava-stone-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "entityorder": {
+      "order": 45
+    },
+    "midi-qol": {
+      "effectActivation": false
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "rollOther": false,
+      "critOther": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    },
+    "rsr5e": {
+      "quickOther": {
+        "context": "",
+        "value": true,
+        "altValue": true
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "consumeUses": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"restauration-magique\"><strong>Restauration magique</strong></h3>\n<p>Vous avez appris comment regagner une partie de votre &eacute;nergie magique en &eacute;tudiant votre grimoire. Une fois par jour, &agrave; la fin d'un repos court, vous pouvez choisir de r&eacute;cup&eacute;rer des emplacements de sorts utilis&eacute;s. Le niveau total de ces emplacements de sorts doit &ecirc;tre inf&eacute;rieur ou &eacute;gal &agrave; la moiti&eacute; de votre niveau de magicien (arrondi &agrave; l'entier sup&eacute;rieur) et vous ne pouvez pas r&eacute;cup&eacute;rer d'emplacement de niveau 6 ou sup&eacute;rieur.</p>\n<p>Par exemple, si vous &ecirc;tes un magicien de niveau 4, vous pouvez r&eacute;cup&eacute;rer l'&eacute;quivalent de deux niveaux d'emplacements de sorts, soit un emplacement de sort de niveau 2 ou deux emplacements de sorts de niveau 1.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "Le Magicien peut récupérer ce nombre de niveau de sort (du 5e niveau ou moins) :",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "ceil(@classes.magicien.levels/2)",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685249,
+    "modifiedTime": 1678407717629,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EJ2LZxdkVEbEaDYw"
+}

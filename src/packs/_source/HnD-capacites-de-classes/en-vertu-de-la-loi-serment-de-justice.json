@@ -1,0 +1,100 @@
+{
+  "name": "En vertu de la loi [Serment de Justice]",
+  "type": "feat",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<h3><strong>En vertu de la loi</strong></h3><p>Au niveau 7, vous avez plié les lois de la magie pour qu'elles correspondent aux lois de votre civilisation.</p><p>Lorsque vous réduisez une créature à 0 point de vie avec un sort, vous pouvez l'assommer au lieu de la tuer. La créature tombe <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconsciente</a> et reste stable.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678366204183,
+    "modifiedTime": 1678424321223,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "71dDZ7gV30ztMbAt",
+  "_key": "!items!71dDZ7gV30ztMbAt"
+}

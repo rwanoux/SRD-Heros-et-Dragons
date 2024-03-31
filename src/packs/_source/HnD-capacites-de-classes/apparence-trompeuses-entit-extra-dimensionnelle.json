@@ -1,0 +1,89 @@
+{
+  "_id": "E8zNqBnGBkQ6B4F9",
+  "name": "Apparence trompeuses [Entité extra-dimensionnelle]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"apparences-trompeuses\"><strong>Apparences trompeuses</strong></h3>\n<p>Au niveau 1, vous apprenez le sort de @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Isc5VZPyWaLUtuAl]{D&eacute;guisement}, et il ne compte pas dans le nombre de sorts que vous connaissez. De plus, lorsque vous &ecirc;tes sous l'effet de ce sort, votre image est l&eacute;g&egrave;rement d&eacute;cal&eacute;e par rapport &agrave; votre position r&eacute;elle, ce qui inflige un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">d&eacute;savantage</a>&nbsp;&agrave; toutes les cr&eacute;atures qui vous attaquent, sauf si elles sont capables de voir les cr&eacute;atures&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible\">invisibles</a>&nbsp;ou &eacute;th&eacute;r&eacute;es, ou s'il s'agit d'une attaque de zone.</p>\n<p>Si vous fa&icirc;tes l'acquisition de l'@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NAh96P5LvhZTCDss]{Invocations occultes - Ma&icirc;tre des mille formes [Sorcier]}, cela ne concerne pas votre aptitude d'apparences trompeuses : vous continuez &agrave; devoir utiliser un emplacement de sort lorsque vous lancez @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Isc5VZPyWaLUtuAl]{D&eacute;guisement} si vous souhaitez b&eacute;n&eacute;ficier des effets de cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685247,
+    "modifiedTime": 1663923686384,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!E8zNqBnGBkQ6B4F9"
+}

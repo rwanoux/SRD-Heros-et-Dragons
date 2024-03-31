@@ -1,0 +1,84 @@
+{
+  "_id": "oG8H6zgLaS2dVDjq",
+  "name": "Pacte avec la mort [Seigneur Immortel]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/wounds/illness-disease-glowing-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"pacte-avec-la-mort\"><strong>Pacte avec la Mort</strong></h3>\n<p>Votre protecteur conna&icirc;t bien la Mort et il sait les secrets innommables qui permettent de la priver de son d&ucirc;. &Agrave; partir du niveau 6, lorsque votre personnage d&eacute;c&egrave;de, vous pouvez imm&eacute;diatement choisir de faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Charisme pour &eacute;chapper &agrave; la mort. La difficult&eacute; est de 10 si le corps n'est pas particuli&egrave;rement ab&icirc;m&eacute;, 15 s'il est gravement mutil&eacute; (organes ou membres manquants), et 20 s'il a &eacute;t&eacute; d&eacute;truit. En cas de succ&egrave;s, vous vous &eacute;veillez au bout de 1d6 heures avec 1d6 points de vie en b&eacute;n&eacute;ficiant de l'&eacute;quivalent d'un repos long en ce qui concerne les aptitudes. Si le corps a &eacute;t&eacute; d&eacute;truit, vous r&eacute;apparaissez dans un rayon de 1d6 kilom&egrave;tres du lieu de la mort. Dans tous les cas, vous perdez d&eacute;finitivement un point de Constitution et vous devez d&eacute;terminer un stigmate visible (la peau devient grise, les yeux compl&egrave;tement blancs, les ongles noirs, les cheveux tombent, etc.). &Agrave; chaque fois que vous utilisez cette aptitude, la difficult&eacute; du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a> augmente de 5.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685626,
+    "modifiedTime": 1663923687487,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!oG8H6zgLaS2dVDjq"
+}

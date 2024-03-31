@@ -1,0 +1,97 @@
+{
+  "_id": "hnLzH05eEulHPG1m",
+  "name": "Sceptre de puissance seigneuriale",
+  "type": "consumable",
+  "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce sceptre à la tête en collerette fonctionne comme une masse d'armes magique qui confère un bonus de +3 aux jets d'attaque et de dégâts effectués avec elle. Le sceptre possède les propriétés associées aux six boutons différents alignés le long de son manche. Il possède également trois autres propriétés, comme décrit ci-dessous.</p>\n<p><strong>Six boutons</strong>. Vous pouvez appuyer sur l'un des six boutons du sceptre par une action bonus. L'effet d'un bouton dure jusqu'au moment où vous appuyez sur un bouton différent ou sur le même bouton à nouveau, auquel cas le sceptre retrouve sa forme normale.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 1</strong>, le sceptre devient une&nbsp;<a href=\"https://5e-drs.fr/liste-objets-magiques/epee-ardente/\">épée ardente</a>, tandis qu'une lame enflammée s'étend depuis l'extrémité opposée à la tête en collerette du sceptre.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 2</strong>, la tête en collerette du sceptre se replie pour laisser apparaître deux lames en forme de croissant, ce qui transforme le sceptre en hache d'armes magique qui confère un bonus de +3 aux jets d'attaque et de dégâts effectués avec elle.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 3</strong>, la tête en collerette se replie, une pointe de lance surgit de l'extrémité supérieure du sceptre et le manche s'allonge sur une longueur de 1,80 mètre, ce qui transforme l'objet en une lance magique qui confère un bonus de +3 aux jets d'attaque et de dégâts effectués avec elle.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 4</strong>, le sceptre se transforme en une perche d'escalade d'une longueur maximale de 15 mètres que vous déterminez. Une pointe située à une extrémité et trois crochets à l'autre permettent de fixer la perche sur des surfaces aussi solides que le granit. Des barreaux horizontaux de 7,50 centimètres de long, espacés de 30 centimètres les uns des autres, se déploient le long de la perche pour former une échelle. La perche peut supporter jusqu'à 2 tonnes. Le sceptre retrouve sa forme normale si la perche supporte un poids trop important ou si elle n'est pas fixée convenablement.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 5</strong>, le sceptre se transforme en bélier portable et confère à son utilisateur un bonus de +10 aux tests de Force effectués pour briser les portes, les barricades et autres obstacles.</p>\n<p>Si vous appuyez sur le&nbsp;<strong>bouton 6</strong>, le sceptre reprend ou conserve sa forme normale et indique le nord magnétique (rien ne se passe si cette fonction est utilisée dans un endroit où le nord magnétique n'existe pas). Le sceptre vous indique également la distance approximative qui vous sépare de la surface, que ce soit sous terre ou dans les airs.</p>\n<p><strong>Absorption de vie</strong>. Quand vous réussissez une attaque au corps à corps contre une créature à l'aide du sceptre, vous pouvez la forcer à effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 17. En cas d'échec, elle subit 4d6 dégâts nécrotiques et vous récupérez un nombre de points de vie égal à la moitié de ces dégâts nécrotiques. Cette propriété n'est réutilisable qu'à l'aube suivante.</p>\n<p><strong>Paralysie</strong>. Quand vous réussissez une attaque au corps à corps contre une créature à l'aide du sceptre, vous pouvez la forcer à effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Force DD 17. En cas d'échec, elle est&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#paralyse\">paralysée</a>&nbsp;pendant 1 minute. La cible peut retenter le&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;à la fin de chacun de ses tours et mettre fin à l'effet en cas de réussite. Cette propriété n'est réutilisable qu'à l'aube suivante.</p>\n<p><strong>Terreur</strong>. En tenant le sceptre en main, vous pouvez utiliser une action pour forcer chaque créature située à 9 mètres ou moins dans votre champ de vision à effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Sagesse DD 17. En cas d'échec, une cible est&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise\">terrorisée</a>&nbsp;par vous pendant 1 minute. Une cible terrorisée peut retenter le&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;à la fin de chacun de ses tours et mettre fin à l'effet en cas de réussite. Cette propriété n'est réutilisable qu'à l'aube suivante.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2.5,
+    "price": 28000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Appuyer un bouton par une action bonus."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "3",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 +@mod +3",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "consumableType": "rod",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701327,
+    "modifiedTime": 1663923702860,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hnLzH05eEulHPG1m"
+}

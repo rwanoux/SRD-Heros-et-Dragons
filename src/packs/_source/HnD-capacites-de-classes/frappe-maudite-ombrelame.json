@@ -1,0 +1,89 @@
+{
+  "_id": "QFLfWHqoDKvRQwC6",
+  "name": "Frappe maudite [Ombrelame]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/root-vine-hand-strike.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"frappe-maudite\"><strong>Frappe maudite</strong></h3>\n<p>&Eacute;galement au niveau 9, lorsque vous r&eacute;ussissez une @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UnPY0AwzZzfACF1U]{Attaque sournoise [Roublard]}, vous pouvez d&eacute;penser 1 point de sorcellerie pour transformer les d&eacute;g&acirc;ts inflig&eacute;s par votre attaque sournoise en d&eacute;g&acirc;ts n&eacute;crotiques (mais pas les d&eacute;g&acirc;ts de l'arme). Les d&eacute;g&acirc;ts inflig&eacute;s par l'arme sont consid&eacute;r&eacute;s comme des d&eacute;g&acirc;ts magiques.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "(ceil(@classes.roublard.levels /2))d6",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685388,
+    "modifiedTime": 1663923686769,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!QFLfWHqoDKvRQwC6"
+}

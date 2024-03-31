@@ -1,0 +1,108 @@
+{
+  "_id": "7oQrC2XGGnevEJOF",
+  "name": "Chapelet",
+  "type": "equipment",
+  "img": "icons/equipment/neck/necklace-runed-white-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>Ce chapelet se présente sous forme de collier et comporte 1d4+2 grains magiques faits d'aigues-marines, de perles noires ou de topazes. Il possède aussi de nombreux grains ordinaires taillés dans de l'ambre, de l'héliotrope, de la citrine, du corail, du jade, des perles ou du quartz. Si on retire un grain magique du chapelet, il perd sa magie.</p>\n<p>Il existe six types de grains magiques. C'est au MJ de décider du type de chaque grain ou de le déterminer au hasard. Un même chapelet peut posséder plusieurs grains du même type. Il faut porter le collier pour en utiliser un. Chaque grain renferme un sort que vous pouvez lancer en utilisant une action bonus (en vous servant du DD des jets de sauvegarde contre vos sorts si besoin). Une fois qu'un grain a servi à lancer un sort, il faut attendre l'aube suivante avant de pouvoir s'en servir de nouveau.</p>\n<p>Harmonisation requise.</p>\n<table style=\"height: 113px;\">\n<tbody>\n<tr style=\"height: 17px;\">\n<th class=\"center\" style=\"height: 17px; width: 36px;\">d20</th>\n<th style=\"height: 17px; width: 83px;\">Grain de ...</th>\n<th style=\"height: 17px; width: 251px;\">Sort</th>\n</tr>\n<tr style=\"height: 12px;\">\n<td class=\"center\" style=\"height: 12px; width: 36px;\">1–6</td>\n<td style=\"height: 12px; width: 83px;\">Bénédiction</td>\n<td style=\"height: 12px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/benediction/\">Bénédiction</a></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td class=\"center\" style=\"height: 17px; width: 36px;\">7–12</td>\n<td style=\"height: 17px; width: 83px;\">Guérison</td>\n<td style=\"height: 17px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/soin-des-blessures/\">Soin des blessures</a>&nbsp;(niveau 2) ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/restauration-inferieure/\">restauration inférieure</a></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td class=\"center\" style=\"height: 16px; width: 36px;\">13-16</td>\n<td style=\"height: 16px; width: 83px;\">Faveur</td>\n<td style=\"height: 16px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/restauration-superieure/\">Restauration supérieure</a></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td class=\"center\" style=\"height: 17px; width: 36px;\">17-18</td>\n<td style=\"height: 17px; width: 83px;\">Châtiment</td>\n<td style=\"height: 17px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/frappe-lumineuse/\">Frappe lumineuse</a></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td class=\"center\" style=\"height: 17px; width: 36px;\">19</td>\n<td style=\"height: 17px; width: 83px;\">Convocations</td>\n<td style=\"height: 17px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/allie-planaire/\">Allié planaire</a></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td class=\"center\" style=\"height: 17px; width: 36px;\">20</td>\n<td style=\"height: 17px; width: 83px;\">Vent</td>\n<td style=\"height: 17px; width: 251px;\"><a href=\"https://5e-drs.fr/grimoire/marche-sur-le-vent/\">Marche sur le vent</a></td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.01,
+    "price": 0,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "Le collier doit être porté."
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 6,
+      "max": "6",
+      "per": "day",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "trinket",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701042,
+    "modifiedTime": 1663923701904,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!7oQrC2XGGnevEJOF"
+}

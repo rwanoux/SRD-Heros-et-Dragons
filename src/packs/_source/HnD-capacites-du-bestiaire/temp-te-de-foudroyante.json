@@ -1,0 +1,84 @@
+{
+  "_id": "dODw1L2vuII6xIhV",
+  "name": "Tempête de Foudroyante",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/lightning/bolts-forked-large-teal-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Temp&ecirc;te foudroyante.</strong> La cr&eacute;ature cr&eacute;e par magie trois &eacute;clairs dont chacun peut frapper une cible situ&eacute;e dans son champ de vision &agrave; 36 m&egrave;tres ou moins de lui. Une cible doit effectuer un jet de sauvegarde de Dext&eacute;rit&eacute; DD 23 ; elle subit 4d10 d&eacute;g&acirc;ts de foudre en cas de jet de sauvegarde rat&eacute; ou la moiti&eacute; de ces d&eacute;g&acirc;ts seulement en cas de r&eacute;ussite.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 2,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698923,
+    "modifiedTime": 1663923700018,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!dODw1L2vuII6xIhV"
+}

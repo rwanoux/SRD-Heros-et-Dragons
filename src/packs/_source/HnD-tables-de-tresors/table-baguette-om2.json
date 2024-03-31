@@ -1,0 +1,114 @@
+{
+  "_id": "aMEUQdk8HsdMX2oY",
+  "name": "Table Baguette OM2",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 3100000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "1L8XddwvkBkcISMx",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Baguette du mage de guerre +1",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-red.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "n3TwsrefddDvE1E9",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!aMEUQdk8HsdMX2oY.1L8XddwvkBkcISMx"
+    },
+    {
+      "_id": "DLIUC6iaW31jvBlU",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Baguette de détection de la magie",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-green.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "PFHiB8GizReT1chy",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!aMEUQdk8HsdMX2oY.DLIUC6iaW31jvBlU"
+    },
+    {
+      "_id": "MLmnX4GCMInKyrcM",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Baguette des secrets",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-vine.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "XjT2Z6SooWd4FrhI",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!aMEUQdk8HsdMX2oY.MLmnX4GCMInKyrcM"
+    },
+    {
+      "_id": "MkxoVY2yW5trJrrZ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Sceptre inamovible",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_22.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "tsxbG6YbyBKwdRh1",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!aMEUQdk8HsdMX2oY.MkxoVY2yW5trJrrZ"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!aMEUQdk8HsdMX2oY"
+}

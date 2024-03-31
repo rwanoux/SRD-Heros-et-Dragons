@@ -1,0 +1,89 @@
+{
+  "name": "Esprit de Vie [Cercle de la Vie]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "effects": [],
+  "_id": "IMAD3bZa3nabKZnH",
+  "system": {
+    "description": {
+      "value": "<p>Esprit de Vie</p>\n<p>Au niveau 18, en plus de vos aptitudes de druide, vous pouvez canaliser la puissance vitale de la nature &agrave; travers votre corps.</p>\n<p>En utilisant votre action, vous commencez &agrave; vous nourrir de l&rsquo;&eacute;nergie tellurique autour de vous.</p>\n<p>Au d&eacute;but de chacun de vos tours, et durant une minute, vous regagnez un nombre de points de vie &eacute;gal &agrave; la moiti&eacute; de votre bonus de ma&icirc;trise.</p>\n<p>Si vous tombez inconscient, l&rsquo;effet continue. Si vous &eacute;tiez &agrave; 0 PV, vous &ecirc;tes automatiquement stabilis&eacute; au d&eacute;but de votre tour suivant et vous redevenez conscient en plus de regagner des points de vie.</p>\n<p>Vous devez effectuer un repos long avant de pouvoir utiliser de nouveau cette capacit&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette R'n P #3",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "@prof / 2",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685281,
+    "modifiedTime": 1663923686535,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IMAD3bZa3nabKZnH"
+}

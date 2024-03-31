@@ -1,0 +1,158 @@
+{
+  "_id": "iMKkxkIy8QfxaoNH",
+  "name": "Table Tueuse de géant",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 4600000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "KgxUNVk6IbXcpWNl",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée à deux mains Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/greatsword.png",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "poxP2UHPFPEykXJf",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.KgxUNVk6IbXcpWNl"
+    },
+    {
+      "_id": "ds1t6BiaG1L4jlHm",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée courte Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-fire.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "gbgxCtLZGryy9cDM",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.ds1t6BiaG1L4jlHm"
+    },
+    {
+      "_id": "03HwESLGJeCCCdio",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Épée longue Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-arcane.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "YNvcbEYxCDNt9Cry",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.03HwESLGJeCCCdio"
+    },
+    {
+      "_id": "lalV0s2QD8tgOOnV",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Hache d'armes Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/axe-crescent.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "pTdZDbakyCeNTWS5",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.lalV0s2QD8tgOOnV"
+    },
+    {
+      "_id": "y4AlV4cfvKWi22qV",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Hachette Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/handaxe.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "VFJtuOaWTsc5ZvQP",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.y4AlV4cfvKWi22qV"
+    },
+    {
+      "_id": "FJYJCnj9SyDn18rZ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Rapière Tueuse de géant",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-ice.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "2GHQGOOrVz31niMu",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!iMKkxkIy8QfxaoNH.FJYJCnj9SyDn18rZ"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!iMKkxkIy8QfxaoNH"
+}

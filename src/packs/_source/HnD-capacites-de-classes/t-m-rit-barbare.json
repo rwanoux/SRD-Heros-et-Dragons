@@ -1,0 +1,99 @@
+{
+  "_id": "HYV94gGfkrFxq1sL",
+  "name": "Témérité [Barbare]",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"temerite\"><strong>T&eacute;m&eacute;rit&eacute;</strong></h3>\n<p>&Agrave; partir du niveau 2, vous pouvez mettre de c&ocirc;t&eacute; toute tentative de vous d&eacute;fendre pour attaquer avec l'&eacute;nergie du d&eacute;sespoir. Lors de votre tour, quand vous faites votre premi&egrave;re attaque, vous pouvez d&eacute;cider d'attaquer avec t&eacute;m&eacute;rit&eacute;. Vous b&eacute;n&eacute;ficiez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;sur toutes vos attaques de corps-&agrave;-corps bas&eacute;es sur la Force pendant ce tour, mais les attaques dirig&eacute;es contre vous b&eacute;n&eacute;ficient aussi d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> jusqu'&agrave; votre prochain tour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685274,
+    "modifiedTime": 1663923686502,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!HYV94gGfkrFxq1sL"
+}

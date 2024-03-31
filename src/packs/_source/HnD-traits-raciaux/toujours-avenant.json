@@ -1,0 +1,84 @@
+{
+  "name": "Toujours avenant",
+  "type": "feat",
+  "img": "icons/skills/social/thumbsup-approval-like.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "x6aM7tiyj416jldd",
+  "system": {
+    "description": {
+      "value": "<p>Vous savez comment vous sortir de bien des situations grâce à votre charme.</p>\n<p>Vous êtes capable de lancer le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u]{Charme-personne} dans une forme un peu moins puissante que la normale.</p>\n<p>La difficulté pour résister à ce sort est uniquement de 8 + [modificateur de Charisme]. Vous devez effectuer un repos long avant de pouvoir relancer ce sort.</p>\n<p>Si vous obtenez le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u]{Charme-personne} par votre classe, il n'influe en rien sur cette capacité et vous ne pouvez, via son utilisation, le lancer avec un emplacement de sort de niveau 2 ou plus.</p>\n<p>Cette capacité innée est indépendante de tout apprentissage ultérieur.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Tieffelin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698234,
+    "modifiedTime": 1663923698642,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!x6aM7tiyj416jldd"
+}

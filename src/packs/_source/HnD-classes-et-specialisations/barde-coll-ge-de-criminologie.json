@@ -1,0 +1,102 @@
+{
+  "name": "[Barde] Collège de criminologie",
+  "type": "subclass",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2>Collège des rêves</h2><h3 id=\"maitrises-supplementaires\"></h3><p><strong>Niveau 3 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tBdlRvxpRVtZcFcq]{Maîtrises supplémentaires}</p><p><strong>Niveau 3 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qIPpRYPn0bzQGoi7]{Lecture rapide}</p><p><strong>Niveau 6 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Pk2Fd1f9ZHwwuCjL]{Instinct bardique}</p><p><strong>Niveau 14 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qFsk7qFjHBy2kvN7]{Traque}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Warlock Grimoire - Kobold Press",
+    "identifier": "college-de-criminologie",
+    "classIdentifier": "barde",
+    "advancement": [
+      {
+        "_id": "BMFYTZEptYKeF6Mu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tBdlRvxpRVtZcFcq",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qIPpRYPn0bzQGoi7"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": ""
+      },
+      {
+        "_id": "wUrF1wGpm7Zd9Q11",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qFsk7qFjHBy2kvN7"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "title": ""
+      },
+      {
+        "_id": "NitxI7FXfnGYkdPn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Pk2Fd1f9ZHwwuCjL"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923703389,
+    "modifiedTime": 1678367965764,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "17KfaUCFohhQxQxg",
+  "_key": "!items!17KfaUCFohhQxQxg"
+}

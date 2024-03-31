@@ -1,0 +1,84 @@
+{
+  "_id": "LK3gHQ1beJhSolkU",
+  "name": "Explosion Rocheuse",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/earth/projectile-spiked-stone-boulder-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Explosion rocheuse.</strong> Au premier round de combat, si la créature était camouflée derrière une paroi rocheuse et la fait exploser avec son attaque d'onde vibratoire, ses adversaires doivent réussir un test de Sagesse (Perception) ou être surpris. Les éclats de pierre projetés par l'explosion de la roche infligent des dégâts contondants supplémentaires aux dégâts normaux de l'onde vibratoire (voir ci-après). Une créature qui n'est pas surprise peut faire un jet de sauvegarde de Dextérité pour subir seulement la moitié des dégâts provoqués par la projection de pierres. La créature ne fait pas d'autre attaque dans le tour où elle fait exploser une paroi.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698802,
+    "modifiedTime": 1663923699519,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LK3gHQ1beJhSolkU"
+}

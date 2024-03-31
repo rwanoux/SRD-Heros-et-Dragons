@@ -1,0 +1,92 @@
+{
+  "_id": "NOEgSCRZJSJAdy36",
+  "name": "Gel",
+  "type": "feat",
+  "flags": {
+    "obsidian": {
+      "source": {
+        "type": "other"
+      },
+      "effects": [],
+      "version": 7
+    }
+  },
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Gel.</strong> Les dégâts de froid subis par la créature la gèlent partiellement. Le cas échéant, sa vitesse est réduite jusqu'à la fin de son prochain tour.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698814,
+    "modifiedTime": 1663923699575,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NOEgSCRZJSJAdy36"
+}

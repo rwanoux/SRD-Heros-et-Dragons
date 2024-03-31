@@ -1,0 +1,84 @@
+{
+  "name": "Traverser la Terre",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+  "_id": "aLaDufDdf9A7HxtM",
+  "system": {
+    "description": {
+      "value": "<p><strong>Traverser la terre.</strong> La créature peut creuser à travers la terre et la pierre non travaillées et non magiques. Quand elle se déplace de cette façon, elle ne laisse aucune trace ni tunnel derrière elle.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698872,
+    "modifiedTime": 1663923699796,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!aLaDufDdf9A7HxtM"
+}

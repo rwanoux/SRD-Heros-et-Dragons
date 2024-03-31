@@ -1,0 +1,84 @@
+{
+  "_id": "py54MvmZFHragxP4",
+  "name": "Esprit impénétrable [Éminence grise]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"esprit-impenetrable\"><strong>Esprit imp&eacute;n&eacute;trable</strong></h3>\n<p>Au niveau 14, vous apprenez le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl]{Non-d&eacute;tection} et pouvez le lancer sans utiliser d'emplacement. Il est toujours consid&eacute;r&eacute; comme pr&eacute;par&eacute; et ne compte pas dans le nombre maximum de sorts que vous pouvez pr&eacute;parer. Vous devez terminer un repos court avant de pouvoir &agrave; nouveau utiliser cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685638,
+    "modifiedTime": 1663923687539,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!py54MvmZFHragxP4"
+}

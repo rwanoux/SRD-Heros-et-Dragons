@@ -1,0 +1,84 @@
+{
+  "name": "Marque de la Momie",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/environment/settlement/pyramid.webp",
+  "_id": "X16qCSYJka53vSfW",
+  "system": {
+    "description": {
+      "value": "<p>Marque de la momie. La momie d&eacute;signe une cr&eacute;ature &agrave; port&eacute;e de vue et situ&eacute;e &agrave; 36 m&egrave;tres ou moins. Celle-ci doit r&eacute;ussir un jet de sauvegarde&nbsp;de Charisme DD 16 ou &ecirc;tre marqu&eacute;e par la cr&eacute;ature. &Agrave; partir de ce moment, la momie auguste et ses serviteurs savent toujours o&ugrave; cette cr&eacute;ature se trouve, &agrave; quelque distance que ce soit, y compris si elle se d&eacute;place sur un autre plan d'existence.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Momie Auguste (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698861,
+    "modifiedTime": 1663923699762,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!X16qCSYJka53vSfW"
+}

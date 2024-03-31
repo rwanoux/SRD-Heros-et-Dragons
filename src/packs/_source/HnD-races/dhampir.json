@@ -1,0 +1,55 @@
+{
+  "name": "Dhampir",
+  "type": "background",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Votre personnage dhampir possède certaines caractéristiques issues de votre ascendance morte-vivante</p><p><strong>Augmentation de caracteristiques</strong>. Votre valeur de Charisme augmente de 2, et votre valeur de Dextérité augmente de 1.</p><p><strong>Âge</strong>. Les dhampirs atteignent la maturité au même âge que les humains, mais leur espérance de vie est beaucoup plus longue. Ils peuvent vivre jusqu'à 750 ans avant d'être emportés par la mort.</p><p><strong>Alignement</strong>. La plupart des dhampirs sont neutres, mais certains sont poussés vers le mal par l'amertume et la suspicion que leur parenté leur inspire. Quelques-uns se tournent vers le bien au mépris de leur nature.</p><p><strong>Taille</strong>. Les dhampirs sont à peu près aussi grands que les humains, mais ils sont plus minces. Votre taille est moyenne.</p><p><strong>Vitesse</strong>. Votre vitesse de déplacement au sol est de 9 m.</p><p><strong>Vision dans le noir</strong>. Grâce à votre ascendance de mort-vivant, vous avez une vision supérieure dans l'obscurité et la pénombre. Vous pouvez voir dans une lumière faible dans un rayon de 18 mètres autour de vous comme s'il s'agissait d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une lumière faible. Vous ne pouvez pas discerner les couleurs dans l'obscurité, seulement les nuances de gris.</p><p><strong>Soif ténébreuse</strong>. Vous pouvez effectuer une attaque sans arme avec votre morsure contre une créature neutralisée ou une créature que vous avez empoignée. Votre morsure inflige 1 point de dégâts perforants, et si la créature a du sang et n'est pas une créature artificielle ou un mort-vivant, vous pouvez vous en nourrir dans le cadre de l'attaque. Si vous vous nourrissez, vous infligez des dégâts nécrotiques égaux à votre modificateur de Charisme (minimum de 1), et vous gagnez un nombre de points de vie temporaires égal aux dégâts nécrotiques infligés. Une fois que vous avez gagné des points de vie temporaires avec ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos court ou long.</p><p><strong>Charme prédateur</strong>. Vous maîtrisez la compétence Persuasion. De plus, si vous passez au moins 1 minute à converser ou à interagir avec un humanoïde que vous ou vos alliés n'avez pas attaqué au cours des dernières 24 heures, vous avez l'avantage sur votre prochain test de Charisme contre cet humanoïde. Quel que soit le résultat, vous ne pouvez plus utiliser votre charme prédateur sur cet humanoïde avant que 24 heures ne se soient écoulées. Si vous obtenez un 20 sur le d20 du test de Charisme, l'humanoïde est une cible consentante pour votre attaque de morsure.</p><p><strong>Résistance vampirique</strong>. Vous avez l'avantage sur les jets de sauvegarde contre les maladies et vous êtes résistant aux dégâts nécrotiques.</p><p><strong>Langues</strong>. Vous pouvez parler, lire et écrire le commun et une langue supplémentaire de votre choix. Les dhampirs du monde souterrain apprennent généralement le darakhul.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Midgard Heroes Handbook - Kobold Press",
+    "advancement": [
+      {
+        "_id": "mGoffpUqZtDp26od",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-traits-raciaux.BEdASYlKOINvGqEE",
+            "Compendium.srd-heros-et-dragons.HnD-traits-raciaux.5NrXd6ZMIRPNdltT",
+            "Compendium.srd-heros-et-dragons.HnD-traits-raciaux.oOVvgqaFbXhgIHsX",
+            "Compendium.srd-heros-et-dragons.HnD-traits-raciaux.ptSUcOEZxCj3XZSr"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680506615210,
+    "modifiedTime": 1680507263572,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "LbNdTYgSTwM1xkaa",
+  "_key": "!items!LbNdTYgSTwM1xkaa"
+}

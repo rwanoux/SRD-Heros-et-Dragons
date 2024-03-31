@@ -1,0 +1,95 @@
+{
+  "name": "[Barbare] Voie des Esprits",
+  "type": "subclass",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "FDLJaRUWciN4Nhkl",
+  "system": {
+    "description": {
+      "value": "<h2 id=\"voie-des-esprits\" style=\"border-bottom:1px solid var(--color-underline-header)\"><strong>Voie des esprits</strong></h2>\n<p>Lorsque vous choisissez la voie des esprits, vous obtenez une valeur de lien spirituel égal à votre bonus de maîtrise (deux points au troisième niveau). Vous récupérez vos points de lien spirituel après avoir terminé un repos long. Tous les sorts lancés grâce à l'utilisation de ces points le sont à leur niveau minimum, et la caractéristique utilisée pour lancer des sorts est la Sagesse (difficulté des jets de sauvegarde égale à 8 + bonus de maîtrise + modificateur de Sagesse).</p>\n<p> </p>\n<p id=\"ne-dans-la-nature\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.glXY4iF3okQo7v0l]{Né dans la nature [Voie des esprits]}</p>\n<p id=\"initiation\"><span style=\"font-size:1.125em\">Niveau 3 :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uVzqCWVhWrlg3PVc]{Initiation [Voie des esprits]}</p>\n<p id=\"incarnation\"><span style=\"font-size:1.125em\">Niveau 6 :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ty7AoXb1mcALE3jz]{Incarnation [Voie des esprits]}</p>\n<p id=\"communion\"><span style=\"font-size:1.125em\">Niveau 10 :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ny7cz9SNx4flEDfE]{Communion [Voie des esprits]}</p>\n<p id=\"elevation\"><span style=\"font-size:1.125em\">Niveau 14 :</span><span style=\"font-size:1.125em\"> </span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.haLSDy8dVs1w1HtY]{Élévation [Voie des esprits]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "barbare-voie-des-esprits",
+    "classIdentifier": "barbare",
+    "advancement": [
+      {
+        "_id": "88u178h3l6qp7kr5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.haLSDy8dVs1w1HtY"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "ypqioaoqt7ai9asq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ny7cz9SNx4flEDfE"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "9po65w9l5ibn5sj1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ty7AoXb1mcALE3jz"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "qr6g6iv0dnd95iuc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.glXY4iF3okQo7v0l",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uVzqCWVhWrlg3PVc"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703398,
+    "modifiedTime": 1663923703544,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!FDLJaRUWciN4Nhkl"
+}

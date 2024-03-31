@@ -1,0 +1,84 @@
+{
+  "_id": "tqrVbPnaADOUeRJM",
+  "name": "Toujours sur ses pattes (Félys)",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Toujours sur ses pattes.</strong> Les chats retombent toujours sur leurs pattes, c'est connu. Lorsque vous tombez dans le vide, vous savez comment contrôler votre chute, que cela soit en vous réceptionnant sur les pieds ou en roulé-boulé, ou simplement en utilisant votre environnement afin de la ralentir. Vous pouvez effectuer un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Dextérité contre une difficulté de 8 + la distance de chute (en mètres). En cas de réussite, vous ne subissez que la moitié des dommages habituels et vous vous réceptionnez correctement, évitant ainsi de vous retrouver à terre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Félys",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698227,
+    "modifiedTime": 1663923698616,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!tqrVbPnaADOUeRJM"
+}

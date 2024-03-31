@@ -1,0 +1,84 @@
+{
+  "name": "Immunité contre les dégâts",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp",
+  "_id": "cN8XlVglOG0Wzdzv",
+  "system": {
+    "description": {
+      "value": "<p><strong>Immunité contre les dégâts.</strong> La créature est immunisée à un type de dégâts minimum (ex. Feu, Eau, Acier… etc…). Le type de dégât en question ne l'affecte pas.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698883,
+    "modifiedTime": 1663923699835,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!cN8XlVglOG0Wzdzv"
+}

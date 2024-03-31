@@ -1,0 +1,100 @@
+{
+  "name": "Traque",
+  "type": "feat",
+  "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 14, lorsqu'une créature échoue à un jet de sauvegarde contre l'un de vos sorts de barde, vous pouvez la désigner comme votre proie pendant 24 heures. </p><p>Vous connaissez la direction de votre proie à tout moment, sauf si elle se trouve dans un champ antimagie, si elle est protégée par un effet empêchant la scrutation tel que la non-détection, ou si une barrière de plomb d'au moins 2,5 cm d'épaisseur vous sépare.</p><p>De plus, lorsque votre proie effectue un jet d'attaque ou que vous effectuez un jet de sauvegarde contre l'un de ses sorts ou effets, vous pouvez dépenser un dé d'inspiration bardique et ajouter ou soustraire le résultat du dé au jet. Vous pouvez choisir de le faire après que le d20 ait été lancé mais avant la résolution de l'action.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Warlock Grimoire - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Collège de criminologie",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678367822518,
+    "modifiedTime": 1678415155948,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "qFsk7qFjHBy2kvN7",
+  "_key": "!items!qFsk7qFjHBy2kvN7"
+}

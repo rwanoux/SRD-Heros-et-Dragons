@@ -1,0 +1,136 @@
+{
+  "_id": "K5tUTgzlyvyjbwGh",
+  "name": "Coercition mystique",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous imposez une coercition magique à une créature située à portée et dans votre champ de vision, l'obligeant à vous accorder un service ou l'empêchant de commettre une action ou une suite d'actions, comme bon vous semble. Si la créature comprend votre langue, elle doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse sans quoi elle est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#charmé\"><em>charmée</em></a> par vous pendant toute la durée du sort. Pendant toute cette période, elle subit 5d10 dégâts psychiques chaque fois qu'elle agit de manière directement opposée à vos instructions, mais jamais plus d'une fois par jour. Si la créature ne vous comprend pas, ce sort n'a aucun effet sur elle.</p>\n<p>Vous pouvez lui donner n'importe quel ordre de votre choix, en dehors de ceux qui la mènent directement à la mort. Le sort se termine immédiatement si jamais vous donnez un ordre suicidaire.</p>\n<p>Vous pouvez mettre prématurément fin au sort en dépensant une action pour le dissiper. Les sorts <em>lever une malédiction</em>, <em>restauration supérieure</em> et <em>souhait</em> mettent aussi fin à ce sort.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 7 ou 8, il dure 1 an. Avec un emplacement de sort de niveau 9, il persiste jusqu'à ce que quelqu'un le dissipe avec l'un des sorts mentionnés précédemment.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 30,
+      "units": "day"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "durée"
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688010,
+    "modifiedTime": 1663923688813,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!K5tUTgzlyvyjbwGh"
+}
