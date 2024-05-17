@@ -1,0 +1,92 @@
+{
+  "_id": "E4eqLO8y9gzNE4ru",
+  "name": "Table Parchemin OM8",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9200000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "glZHr6yuEyyqoUzt",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1d4"
+          }
+        }
+      },
+      "type": 1,
+      "text": "Parchemin niveau 7",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "DxYgp7MvsIsviRFs",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!E4eqLO8y9gzNE4ru.glZHr6yuEyyqoUzt"
+    },
+    {
+      "_id": "kqIYJVwbcRkU0z9l",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1d4"
+          }
+        }
+      },
+      "type": 1,
+      "text": "Parchemin niveau 8",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "Hu4Kfh9kDjyypqfn",
+      "weight": 1,
+      "range": [
+        3,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!E4eqLO8y9gzNE4ru.kqIYJVwbcRkU0z9l"
+    },
+    {
+      "_id": "YWGxB0XoCXkFbL46",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1d4"
+          }
+        }
+      },
+      "type": 1,
+      "text": "Parchemin niveau 9",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "d5YSMx7qQyDYdjog",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_key": "!tables.results!E4eqLO8y9gzNE4ru.YWGxB0XoCXkFbL46"
+    }
+  ],
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!E4eqLO8y9gzNE4ru"
+}

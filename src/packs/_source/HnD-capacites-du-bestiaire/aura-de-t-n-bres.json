@@ -1,0 +1,163 @@
+{
+  "_id": "LIxbuk4aHKYV8Wm9",
+  "name": "Aura de Ténèbres.",
+  "type": "feat",
+  "flags": {
+    "obsidian": {
+      "source": {
+        "type": "other"
+      },
+      "effects": [
+        {
+          "name": "",
+          "uuid": "d4028052-6d20-4da6-b45c-e67b20ccaf36",
+          "components": [
+            {
+              "type": "resource",
+              "name": "Uses",
+              "uuid": "30b01a1a-38c3-431e-a7c7-5cbc50ce1bb7",
+              "recharge": {
+                "time": "long",
+                "calc": "all",
+                "ndice": 0,
+                "die": 2,
+                "bonus": 0,
+                "roll": null
+              },
+              "bonus": 0,
+              "operator": "plus",
+              "key": "abl",
+              "min": 0,
+              "calc": "fixed",
+              "fixed": 1,
+              "remaining": 0
+            },
+            {
+              "type": "save",
+              "uuid": "49ff5dcc-7b75-4016-8857-55025865784c",
+              "calc": "formula",
+              "fixed": 0,
+              "bonus": 8,
+              "prof": 1,
+              "ability": "spell",
+              "target": "wis",
+              "effect": "",
+              "save": "half"
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura de ténèbres.</strong> Des ténèbres magiques d'un rayon de 4,50 mètres s'étendent autour de la mante obscure en contournant les angles et en se déplaçant avec elle. Ces ténèbres durent aussi longtemps que la mante obscure reste concentrée, jusqu'à une durée maximale de 10 minutes (comme si elle se concentrait sur un sort). Il est impossible de voir au travers de ces ténèbres avec la vision dans le noir et aucune lumière&nbsp; naturelle ne peut les éclairer. Dès que la zone affectée par les ténèbres chevauche, même partiellement, une zone de lumière créée par un sort de niveau 2 ou moins, le sort à l'origine de la lumière est dissipé.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "lair",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 4.5,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "day",
+      "recovery": "",
+      "type": "day"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698801,
+    "modifiedTime": 1663923699516,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LIxbuk4aHKYV8Wm9"
+}

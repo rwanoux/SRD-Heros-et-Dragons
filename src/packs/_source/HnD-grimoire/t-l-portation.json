@@ -1,0 +1,131 @@
+{
+  "_id": "gt0hzpz0v8QQBUVq",
+  "name": "Téléportation",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ce sort vous transporte instantanément à la destination de votre choix, ainsi qu'un maximum de huit créatures consentantes de votre choix situées à portée et dans votre champ de vision ou bien ainsi qu'un unique objet situé à portée et dans votre champ de vision. Si vous prenez un objet pour cible, il doit tenir dans un cube de 3 mètres de côté et il ne doit pas être porté ni transporté par une créature non consentante.</p>\n<p>Vous devez choisir une destination connue, située sur le même plan d'existence que vous. C'est votre degré de familiarité avec la destination qui détermine vos chances d'arriver sur place. Le MJ lance 1d100 et consulte la table ci-dessous.</p>\n<p><strong>Familiarité</strong>. « <em>Cercle permanent</em> » désigne un cercle de téléportation dont vous connaissez la séquence de symboles. « <em>Objet associé</em> » indique que vous possédez un objet prélevé à la destination choisie au cours des 6 derniers mois, comme un livre sorti de l'étagère de la bibliothèque d'un magicien, les draps d'une suite royale ou un éclat de marbre arraché au tombeau secret d'une liche. « <em>Très familier</em> » désigne un endroit où vous vous êtes souvent rendu, un lieu que vous avez soigneusement étudié ou un endroit que vous voyez au moment de l'incantation.</p>\n<p>« <em>Vu à quelques reprises</em> » correspond aux endroits que vous avez vus plus d'une fois, mais avec lesquels vous n'êtes pourtant pas très familiers. « <em>Vu une fois</em> » représente un lieu vu une seule fois, éventuellement par magie. « Description » correspond à un endroit que vous connaissez seulement via la description d'autrui, aussi bien au niveau de son emplacement que de son apparence, éventuellement grâce à une carte. « <em>Destination factice</em> » désigne les endroits qui n'existent pas, si par exemple vous avez tenté de scruter le sanctuaire d'un ennemi mais n'avez vu qu'une illusion ou si vous essayez de vous téléporter en un endroit familier qui n'existe plus.</p>\n<p><strong>Sur place</strong>. Vous et vos compagnons (ou l'objet téléporté) apparaissez exactement où vous le souhaitiez.</p>\n<p><strong>À proximité</strong>. Vous et vos compagnons (ou l'objet téléporté) apparaissez à une distance aléatoire de votre destination, éloignés dans une direction tout aussi aléatoire. La distance qui vous sépare de votre destination est de 1d10 × 1d10 % de la distance que le sort vous a fait parcourir. Par exemple, si vous essayez de vous téléporter à une destination située à 180 kilomètres de votre position, que vous arrivez à proximité, et que vous obtenez 5 et 3, vous allez arriver à 15 % de distance de votre destination, c'est-à-dire à 27 kilomètres. Le MJ détermine la direction dans laquelle vous vous êtes éloignés de la cible en lançant 1d8, le 1 représentant le Nord, le 2 le Nord-Est, le 3 l'Est, etc., jusqu'à faire le tour de la rose des vents. Si vous comptiez vous téléporter dans une cité portuaire et arrivez à 27 kilomètres au large de ses côtes, en pleine mer, vous pourriez bien avoir quelques ennuis.</p>\n<p><strong>Zone similaire</strong>. Vous et vos compagnons (ou l'objet téléporté) arrivez dans une zone différente de celle prévue, mais dotée de caractéristiques visuelles ou thématiques similaires. Par exemple, si vous comptiez regagner votre laboratoire, vous pourriez arriver dans celui d'un autre magicien ou dans une boutique d'alchimie qui possède nombre d'outils et d'appareils présents dans votre laboratoire. En général, vous apparaissez dans l'endroit ressemblant à votre destination le plus proche de celle-ci, mais comme le sort n'a pas de limite de portée, vous pouvez tout à fait arriver n'importe où sur votre plan d'existence.</p>\n<p><strong>Incident</strong>. La magie imprévisible du sort complique le voyage. Chaque créature téléportée (ou l'objet téléporté) subit 3d10 dégâts de force tandis que le MJ relance le dé pour savoir où vous arrivez (sachant qu'il peut se produire plusieurs incidents, chacun infligeant ses propres dégâts).</p>\n<div class='simple-responsive-table'><div><table class=\"datatable\"><thead><tr><th>Familiarité</th>\n      <th class=\"text-align-center\">Incident</th>\n      <th class=\"text-align-center\">Zone similaire</th>\n      <th class=\"text-align-center\">À proximité</th>\n      <th class=\"text-align-center\">Sur place</th>\n    </tr></thead><tbody><tr><td><span class=\"label\">Familiarité : </span><strong>Cercle permanent</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>01-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Objet associé</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>01-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Très familier</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>01-05</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>06-13</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>14-24</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>25-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Vu à quelques reprises</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>01-33</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>34-43</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>44-53</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>54-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Vu une seule fois</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>01-43</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>44-53</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>54-73</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>74-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Description</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>01-43</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>44-53</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>54-73</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>74-100</td>\n    </tr><tr><td><span class=\"label\">Familiarité : </span><strong>Destination factice</strong></td>\n      <td class=\"text-align-center\"><span class=\"label\">Incident : </span>01-50</td>\n      <td class=\"text-align-center\"><span class=\"label\">Zone similaire : </span>51-100</td>\n      <td class=\"text-align-center\"><span class=\"label\">À proximité : </span>-</td>\n      <td class=\"text-align-center\"><span class=\"label\">Sur place : </span>-</td>\n    </tr></tbody></table></div></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "3",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 3,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 7,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688155,
+    "modifiedTime": 1663923689257,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!gt0hzpz0v8QQBUVq"
+}

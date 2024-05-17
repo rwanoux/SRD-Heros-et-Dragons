@@ -1,0 +1,84 @@
+{
+  "_id": "LuLKgCBcB2wxZ7Xb",
+  "name": "Regard noir [Brute]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"regard-noir\"><strong>Regard noir</strong></h3>\n<p>Lorsque vous atteignez le niveau 3, vous pouvez ajouter &agrave; la fois votre modificateur de Charisme et de Force pour les tests de Charisme (Intimidation) et Charisme (Persuasion).</p>\n<p>De plus, vous pouvez utiliser une action bonus pour faire un test oppos&eacute; de Charisme (Intimidation) contre le test de Sagesse (Perspicacit&eacute;) d'une cible humano&iuml;de &agrave; moins de 3 m&egrave;tres de vous. En cas de succ&egrave;s, la cible souffre d'un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">d&eacute;savantage</a>&nbsp;&agrave; son prochain&nbsp;<a href=\"https://5e-drs.fr/combattre/#jets-d-attaque\">jet d'attaque</a>&nbsp;ou d'opposition contre vous. Vous devez terminer un repos court avant de pouvoir de nouveau utiliser cette aptitude. Les cr&eacute;atures immunis&eacute;es &agrave; l'&eacute;tat&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise\">terroris&eacute;</a> ou aux d&eacute;g&acirc;ts psychiques sont immunis&eacute;es &agrave; cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685363,
+    "modifiedTime": 1663923686676,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!LuLKgCBcB2wxZ7Xb"
+}

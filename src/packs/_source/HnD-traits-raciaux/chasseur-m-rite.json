@@ -1,0 +1,84 @@
+{
+  "name": "Chasseur émérite",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "6PL3tkSEeNGWS9pQ",
+  "system": {
+    "description": {
+      "value": "<p>Lorsque vous utilisez un arc ou une lance, vous pouvez utiliser votre réaction afin d'effectuer une attaque d'opportunité contre une cible qui bouge à votre portée (pour l'arc) ou dans votre zone d'allonge (pour la lance).</p>\n<p>Vous devez effectuer un repos court avant de pouvoir réutiliser cette capacité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Demi Ogre",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698161,
+    "modifiedTime": 1663923698362,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!6PL3tkSEeNGWS9pQ"
+}

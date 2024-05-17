@@ -1,0 +1,89 @@
+{
+  "_id": "rhoXE8JlbRSsU3fp",
+  "name": "Dérobade [Chasseur]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"derobade\"><strong>D&eacute;robade</strong></h3>\n<p>Si vous subissez un effet, comme le souffle enflamm&eacute; d'un dragon rouge ou un sort d'@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.8L7yiYZmnz6Qdn70]{&Eacute;clair}, qui vous permet de faire un jet de sauvegarde de Dext&eacute;rit&eacute; pour ne subir que la moiti&eacute; des d&eacute;g&acirc;ts en cas de succ&egrave;s, vous subissez &agrave; la place la moiti&eacute; des d&eacute;g&acirc;ts sur un &eacute;chec et aucun d&eacute;g&acirc;t sur un succ&egrave;s.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685646,
+    "modifiedTime": 1663923687572,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!rhoXE8JlbRSsU3fp"
+}

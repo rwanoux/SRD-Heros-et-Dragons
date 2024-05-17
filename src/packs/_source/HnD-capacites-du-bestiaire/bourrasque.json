@@ -1,0 +1,84 @@
+{
+  "name": "Bourrasque",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/wind-swirl-gray-blue.webp",
+  "_id": "uqhTGSPVKuNLU3jd",
+  "system": {
+    "description": {
+      "value": "<p>Bourrasque. Un fort vent souffle dans l'une des galeries de l'antre à 36 mètres ou moins du dragon, avec des effets équivalents au sort @Item[E96TJUhVFp7pqbrl]{Bourrasque}. Le vent se calme si le dragon meurt ou utilise à nouveau une action d'antre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Blanc (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698994,
+    "modifiedTime": 1663923700299,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!uqhTGSPVKuNLU3jd"
+}

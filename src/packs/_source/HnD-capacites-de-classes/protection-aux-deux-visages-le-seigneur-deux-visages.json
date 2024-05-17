@@ -1,0 +1,84 @@
+{
+  "name": "Protection aux deux visages [Le seigneur Deux-visages]",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-layered-leather-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "jyfxWd9JkrpfLOUu",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 14, vous êtes devenu un serviteur puissant et Deux-visages vous protège... mais d'une façon très aléatoire. Après avoir pris un repos long, vous devez lancer un d6 et un d10. Le résultat de chaque dé indique l'un des deux types de dégâts pour lesquels vous obtenez la résistance jusqu'à la fin de votre prochain repos long.</p>\n<p> </p>\n<p>D6 : 1-2 contondants, 3-4 perforants, 5-6 tranchants.</p>\n<p> </p>\n<p>D10 : 1 acide, 2 feu, 3 force, 4 foudre, 5 froid, 6 nécrotiques, 7 poison, 8 psychiques, 9 radiants, 10 tonnerre</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685599,
+    "modifiedTime": 1663923687385,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jyfxWd9JkrpfLOUu"
+}

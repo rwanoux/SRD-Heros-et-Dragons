@@ -1,0 +1,84 @@
+{
+  "name": "Absence de Vie",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "_id": "3q1ab9g77wgYYCya",
+  "system": {
+    "description": {
+      "value": "<p><strong>Absence de vie.</strong> La vie disparaît peu à peu dans tout le rayon d'effet. Végétation et animaux dépérissent. Un test d'Intelligence (Nature) DD 15 permet de déterminer l'origine de ces disparitions. Tous les tests de Sagesse (Survie) se font avec un désavantage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Rouge (Effets Régionaux)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698741,
+    "modifiedTime": 1663923699261,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!3q1ab9g77wgYYCya"
+}

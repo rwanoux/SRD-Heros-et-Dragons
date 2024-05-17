@@ -1,0 +1,96 @@
+{
+  "_id": "7NT15XKMi61TzxuO",
+  "name": "Coriace",
+  "type": "feat",
+  "img": "modules/srd-heros-et-dragons/assets/icons/coriace.jpg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Vous &ecirc;tes dur au mal et il en faut beaucoup pour vous mettre au tapis.</p>\n<p>&nbsp;</p>\n<ul>\n<li>Vous augmentez votre valeur de Constitution de 1, jusqu'&agrave; un maximum de 20.</li>\n<li>Vous gagnez autant de points de vie que votre niveau ainsi qu'un point de vie suppl&eacute;mentaire &agrave; chaque fois que vous passez un nouveau niveau.</li>\n<li>&Agrave; 0 PV, lorsque vous avez d&eacute;j&agrave; obtenus 2 &eacute;checs &agrave; vos jets de sauvegarde contre la mort, vous obtenez un avantage sur les jets suivants.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923684992,
+    "modifiedTime": 1663923684992,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!7NT15XKMi61TzxuO"
+}

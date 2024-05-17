@@ -1,0 +1,150 @@
+{
+  "name": "Tieffelin Na'saqwu",
+  "type": "feat",
+  "img": "icons/svg/mystery-man.svg",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "_id": "V3AjLpFQLiHXh4FI",
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traits-des-tieffelins\">Traits des tieffelins</h2>\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Charisme augmente de 2</p>\n<hr />\n<p><strong>Âge.</strong> Les tieffelins vieillissent à une vitesse comparable aux humains, mais ils vivent quelques années supplémentaires.</p>\n<hr />\n<p><strong>Alignement.</strong> Les tieffelins ont beau ne pas être naturellement attirés vers le mal, la plupart d'entre eux sont quand même d'alignement Mauvais. Mais qu'ils soient mauvais ou non, leur nature indépendante les pousse généralement à un comportement chaotique.</p>\n<hr />\n<p><strong>Taille.</strong> Les tieffelins sont de taille et de corpulence comparable aux humains. Ils sont de taille moyenne.</p>\n<hr />\n<p><strong>Vitesse</strong>. Votre vitesse au sol de base est de 9 mètres.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.X606esbBGtcDafey]{Vision dans le noir (Tieffelin)}</p>\n<hr />\n<p><strong>Langues</strong>. Vous parlez le commercial, l'Avyssan et le haut impérial.</p>\n<hr />\n<h3 id=\"gnome-des-fees\"><strong>Tieffelin Gel'absu</strong></h3>\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Constitution augmente de 1</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.wnbEwXKkb6U5KyRe]{Résistance abyssale}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.alYHjhdYfyBqEEYH]{Connaître l'âme}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.PoHgF9baygBd7ljY]{Corps et âme}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923697917,
+    "modifiedTime": 1663923698045,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!V3AjLpFQLiHXh4FI"
+}

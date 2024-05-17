@@ -1,0 +1,100 @@
+{
+  "_id": "rndn4SqSaiSbq93P",
+  "name": "Ki - Déluge de coups [Moine]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><span style=\"font-family:Friz, sans-serif\"><strong>Déluge de coups</strong></span></h3><p>Immédiatement après avoir choisi l'action <a href=\"https://5e-drs.fr/combattre/#attaquer\">attaquer</a> lors de votre tour, vous pouvez dépenser 1 point de ki et utiliser une action bonus pour porter deux attaques à mains nues.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685648,
+    "modifiedTime": 1678410355247,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!rndn4SqSaiSbq93P"
+}

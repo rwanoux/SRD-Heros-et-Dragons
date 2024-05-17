@@ -1,0 +1,84 @@
+{
+  "_id": "2MoPwaXokvovJR1W",
+  "name": "Ombre et magie [Ombrelame]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"ombre-et-magie\"><strong>Ombre et magie</strong></h3>\n<p>&Agrave; partir du niveau 13, vous pouvez lancer le sort@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD]{Pas brumeux}&nbsp;en d&eacute;pensant 1 point de sorcellerie. Vous n'avez pas besoin de conna&icirc;tre ce sort et, si vous l'aviez appris, vous pouvez apprendre un autre sort &agrave; sa place.</p>\n<p>Vous apprenez en outre un troisi&egrave;me tour de magie.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685160,
+    "modifiedTime": 1663923686056,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!2MoPwaXokvovJR1W"
+}

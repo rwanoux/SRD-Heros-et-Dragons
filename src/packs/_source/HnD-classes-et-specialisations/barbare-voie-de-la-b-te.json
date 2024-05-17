@@ -1,0 +1,95 @@
+{
+  "name": "[Barbare] Voie de la bête",
+  "type": "subclass",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "MBEQjAzptLbw5mNg",
+  "system": {
+    "description": {
+      "value": "<h2 id=\"voie-de-l-acier\" style=\"border-bottom:1px solid var(--color-underline-header)\"><strong>Voie </strong><strong>de la bête</strong></h2>\n<h3> </h3>\n<p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.f7nDe4ZEY4g8GZ0y]{Forme animale}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zVREmcA5hsF8aNv7]{Élevé par les bêtes [Voie de la bête]}</p>\n<p id=\"le-secret-de-l-acier\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p0uqHDfgO7TATjy0]{Forme alternative [Voie de la bête]}</p>\n<p id=\"briseur-de-sort\"><span style=\"font-size:1.125em\"><span style=\"font-size:14px\">Niveau 10</span><span style=\"font-size:14px\"> </span>:</span><span style=\"font-size:1.125em\"> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hJGUe3JsfRrTYZlv]{Forme majeure [Voie de la bête]}</span></p>\n<p id=\"rage-froide\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sabwvcqfTtqdCpr8]{Forme étrange [Voie de la bête]}</p>\n<p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "barbare-voie-de-la-bete",
+    "classIdentifier": "barbare",
+    "advancement": [
+      {
+        "_id": "vwmppvji1b9kn5r2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sabwvcqfTtqdCpr8"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "speamnlkkpjckv7m",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hJGUe3JsfRrTYZlv"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "eyviq68xrl64ryy4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p0uqHDfgO7TATjy0"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "qk1o9uics69jn5ma",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.f7nDe4ZEY4g8GZ0y",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zVREmcA5hsF8aNv7"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703405,
+    "modifiedTime": 1663923703571,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!MBEQjAzptLbw5mNg"
+}

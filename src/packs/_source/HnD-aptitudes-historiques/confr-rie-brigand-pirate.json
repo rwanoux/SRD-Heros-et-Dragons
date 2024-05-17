@@ -1,0 +1,86 @@
+{
+  "_id": "x9l2BOjfmYVhCAWU",
+  "name": "confrérie (Brigand-pirate)",
+  "type": "feat",
+  "flags": {
+    "HD": "aptitudeHistorique"
+  },
+  "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous appartenez à une confrérie universelle qui possède ses propres usages et ses propres codes. Quel que soit le port dans lequel vous vous trouvez, vous êtes capables de dénicher une auberge ou une taverne fréquentée par les vôtres, qui en cas de besoin peut servir de refuge ou d'endroit idéal pour dénicher des informations</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "brigand",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703923,
+    "modifiedTime": 1663923704020,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!x9l2BOjfmYVhCAWU"
+}

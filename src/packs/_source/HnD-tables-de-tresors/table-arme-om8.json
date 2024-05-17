@@ -1,0 +1,114 @@
+{
+  "_id": "lBV7Glnmj4HvyXCG",
+  "name": "Table Arme OM8",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9300000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "3sa8bdAEGFfTuc9f",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table Vorpale",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "vKZMg2UlVuq7m0pm",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!lBV7Glnmj4HvyXCG.3sa8bdAEGFfTuc9f"
+    },
+    {
+      "_id": "JDK6cwoVW2Uv96JT",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table Porte-bonheur",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "DEpKDOGsLPTZTycR",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!lBV7Glnmj4HvyXCG.JDK6cwoVW2Uv96JT"
+    },
+    {
+      "_id": "OzY9xPirsrobf2H0",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Marteau de tonnerre",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/light_09.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "F25wHSktb1EBd30j",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!lBV7Glnmj4HvyXCG.OzY9xPirsrobf2H0"
+    },
+    {
+      "_id": "WoeA3NmfyuEK97aX",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table Vengeresse sacrée",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "SlIOUlkvbI1PjUKO",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_key": "!tables.results!lBV7Glnmj4HvyXCG.WoeA3NmfyuEK97aX"
+    }
+  ],
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!lBV7Glnmj4HvyXCG"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "USrYNJ8jzP63cqcq",
+  "name": "Submersible du crabe",
+  "type": "consumable",
+  "img": "icons/containers/barrels/barrel-walnut-steel-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description\">\n<p>Au premier abord, cet objet ressemble à un tonneau de fer scellé de taille G. Il pèse 250 kilos et dispose d'un loquet dissimulé qui se remarque seulement suite à un test d'Intelligence (Investigation) DD 20. Si on le débloque, il ouvre une trappe au sommet du tonneau, ce qui permet à deux créatures de taille M ou inférieure de se glisser à l'intérieur. Là, dix leviers sont disposés en rangée, tous en position neutre et susceptibles d'être tirés vers le haut ou le bas. Si on actionne les bons leviers, le submersible se transforme en homard géant.</p>\n<p>Le submersible du crabe est un objet de taille G doté des statistiques suivantes.</p>\n<p>Classe d'armure: 20<br>Points de vie: 200<br>Vitesse: 9 mètres, nage 9 mètres (ou 0 si les pattes et la queue ne sont pas dépliées)<br>Immunité aux dégâts: poison, psychiques</p>\n<p>Le submersible a besoin d'un pilote pour fonctionner comme un véhicule. Tant que la trappe est fermée, le compartiment est étanche: l'eau et l'air ne peuvent pas y pénétrer. Le compartiment abrite assez d'air pour qu'une créature de taille M y respire pendant 10 heures, cette durée étant à diviser par le nombre de créatures obligées de respirer s'il y en a plusieurs à l'intérieur.</p>\n<p>Le submersible flotte sur l'eau mais peut aussi s'enfoncer jusqu'à une profondeur de 270 mètres. Plus bas, le véhicule subit 2d6 points de dégâts contondants par minute à cause de la pression.</p>\n<p>Une créature installée dans le compartiment peut utiliser une action pour tirer deux leviers au maximum, vers le bas ou le haut. Chaque levier revient en position neutre après utilisation. De gauche à droite, chaque levier fonctionne comme indiqué dans la table Leviers du submersible du crabe.</p>\n<h2 id=\"leviers-du-submersible-du-crabe\">Leviers du submersible du crabe</h2>\n<table>\n<tbody>\n<tr>\n<th>Levier</th>\n<th>Haut</th>\n<th>Bas</th>\n</tr>\n<tr>\n<td class=\"center\">1</td>\n<td>Déploiement de la queue et des pattes, ce qui permet au submersible de marcher et nager.</td>\n<td>Repliement de la queue et des pattes, ce qui réduit la vitesse du submersible à 0 et l'empêche de profiter d'éventuels bonus de vitesse.</td>\n</tr>\n<tr>\n<td class=\"center\">2</td>\n<td>Ouverture du volet de la fenêtre avant.</td>\n<td>Fermeture du volet de la fenêtre avant.</td>\n</tr>\n<tr>\n<td class=\"center\">3</td>\n<td>Ouverture des volets des fenêtres latérales (deux de chaque côté).</td>\n<td>Fermeture des volets des fenêtres latérales (deux de chaque côté).</td>\n</tr>\n<tr>\n<td class=\"center\">4</td>\n<td>Deux pinces se déploient de chaque côté du submersible.</td>\n<td>Les deux pinces se rétractent.</td>\n</tr>\n<tr>\n<td class=\"center\">5</td>\n<td>Chaque pince dépliée est considérée comme une arme de corps à corps et porte l'attaque suivante : +8 pour toucher, allonge 1,50 m, une cible. Coup: 7 (2d6) dégâts contondants.</td>\n<td>Chaque pince dépliée est considérée comme une arme de corps à corps et porte l'attaque suivante : +8 pour toucher, allonge 1,50 m, une cible. Coup: 7 (2d6) dégâts contondants.</td>\n</tr>\n<tr>\n<td class=\"center\">6</td>\n<td>Le submersible avance en marchant ou en nageant.</td>\n<td>Le submersible recule en marchant ou en nageant.</td>\n</tr>\n<tr>\n<td class=\"center\">7</td>\n<td>L'appareil tourne de 90° sur la gauche.</td>\n<td>L'appareil tourne de 90° sur la droite.</td>\n</tr>\n<tr>\n<td class=\"center\">8</td>\n<td>Des pièces d'équipement semblables à des yeux émettent une vive lumière dans un rayon de 9 mètres et une lumière faible dans un rayon de 9 mètres de plus.</td>\n<td>Les lumières s'éteignent.</td>\n</tr>\n<tr>\n<td class=\"center\">9</td>\n<td>Le submersible s'enfonce d'au maximum 6 mètres dans un liquide.</td>\n<td>Le submersible remonte d'au maximum 6 mètres dans un liquide.</td>\n</tr>\n<tr>\n<td class=\"center\">10</td>\n<td>La trappe arrière se descelle et s'ouvre.</td>\n<td>La trappe arrière se ferme et se scelle.</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 250,
+    "price": 10000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701237,
+    "modifiedTime": 1663923702485,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!USrYNJ8jzP63cqcq"
+}

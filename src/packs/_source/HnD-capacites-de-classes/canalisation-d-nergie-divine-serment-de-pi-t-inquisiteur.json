@@ -1,0 +1,84 @@
+{
+  "_id": "PYsBWYQE2hG8TSMq",
+  "name": "Canalisation d'énergie divine [Serment de Piété] Inquisiteur",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-5\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Canalisation d'&eacute;nergie divine</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Quand vous pr&ecirc;tez votre serment au niveau 3, vous acc&eacute;dez aux deux options suivantes de canalisation d'&eacute;nergie divine.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Inquisiteur</strong>. Au prix d'une action, vous invoquez la puissance de votre dieu et brandissez votre symbole sacr&eacute; en utilisant votre canalisation d'&eacute;nergie divine. Choisissez une cr&eacute;ature dans un rayon de 9 m&egrave;tres autour de vous. Cette cr&eacute;ature est&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#repousse\">repouss&eacute;e</a>&nbsp;pendant 1 minute si elle rate un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Sagesse. Si son alignement comprend au moins une composante oppos&eacute;e &agrave; l'alignement de votre dieu tut&eacute;laire (exemple : Chaotique pour un dieu Loyal, Bon pour un dieu Mauvais, etc.), la cr&eacute;ature subit un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">d&eacute;savantage</a>&nbsp;sur ce&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>. Les cr&eacute;atures non align&eacute;es sont immunis&eacute;es &agrave; cette capacit&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": 9,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "JdS Echec : créature repoussée pendant 1 minute - Désavantage au JdS si une composante de l'alignement est opposée",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685384,
+    "modifiedTime": 1663923686756,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PYsBWYQE2hG8TSMq"
+}

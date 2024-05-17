@@ -1,0 +1,116 @@
+{
+  "name": "Possession",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/root-vine-thorned-fire-purple.webp",
+  "_id": "GKOPli5clfwFJxrt",
+  "system": {
+    "description": {
+      "value": "<p><strong>Possession (Recharge 6).</strong> Un humanoïde ciblé situé dans le champ de vision du fantôme et à 1,50 mètre ou moins de lui doit réussir un jet de sauvegarde de Charisme DD 13 pour ne pas être possédé par le mort-vivant ; le fantôme disparaît alors et la cible est neutralisée et perd le contrôle de son corps. Le fantôme contrôle désormais ce corps, mais la cible reste consciente. Il est alors impossible de cibler le fantôme avec une attaque, un sort ou un autre effet, à l'exception de ceux qui renvoient les morts-vivants. Il conserve son alignement, son Intelligence, sa Sagesse, son Charisme et ses immunités contre les états spéciaux charmé et terrorisé. Pour le reste, il utilise les statistiques de la cible possédée mais n'a pas accès à ses connaissances, à ses aptitudes de classe ni à ses maîtrises.</p>\n<p>La possession prend fin si le corps physique tombe à 0 point de vie, si le fantôme y met un terme par une action bonus ou s'il est renvoyé ou obligé d'abandonner le corps grâce à un effet produit par un sort de dissipation du mal et du bien, par exemple. Lorsque la possession prend fin, le fantôme réapparaît dans un emplacement inoccupé situé à 1,50 mètre ou moins du corps. La cible est immunisée contre le pouvoir de possession de ce fantôme pendant les 24 heures qui suivent son jet de sauvegarde réussi ou l'interruption de la possession.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": 13,
+      "scaling": "flat",
+      "value": "wis"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": 6,
+      "charged": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": null
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": null
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698784,
+    "modifiedTime": 1663923699440,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!GKOPli5clfwFJxrt"
+}

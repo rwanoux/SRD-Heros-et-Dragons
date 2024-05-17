@@ -1,0 +1,123 @@
+{
+  "name": "Frayeur",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/death/projectile-skull-flaming-green.webp",
+  "_id": "tP9LWLapm42Z9ARK",
+  "system": {
+    "description": {
+      "value": "<p><strong>Frayeur.</strong> Une cible choisie par la créature et située à 6 mètres ou moins d'elle doit réussir un jet de sauvegarde de Sagesse pour ne pas être terrorisée pendant 1 minute. La cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours (elle subit un désavantage si la créature est dans son champ de vision) et mettre fin à l'effet dont elle est victime en cas de réussite.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 20,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": null,
+      "per": "day",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 10,
+      "scaling": "flat",
+      "value": "wis"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698987,
+    "modifiedTime": 1663923700276,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!tP9LWLapm42Z9ARK"
+}

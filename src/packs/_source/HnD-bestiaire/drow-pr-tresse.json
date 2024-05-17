@@ -1,0 +1,4384 @@
+{
+  "_id": "pT6FLBfzX7AU6kam",
+  "name": "Drow Prêtresse",
+  "type": "npc",
+  "img": "icons/svg/cowled.svg",
+  "items": [
+    {
+      "_id": "VmeTzmfEgdbhwgQo",
+      "name": "Ascendance féerique",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Ascendance féerique.</strong>&nbsp;La prêtresse obtient un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors des jets de sauvegarde contre l'état spécial&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#charme\">charmé</a>et la magie ne peut pas l'endormir.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "",
+          "value": ""
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.VmeTzmfEgdbhwgQo"
+    },
+    {
+      "_id": "yjnAI7vAZR2wsRLO",
+      "name": "Marque du Matriarcat",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {},
+      "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Marque du Matriarcat.</strong>&nbsp;Par une action bonus, la prêtresse drow peut dépenser un emplacement de sort pour que ses attaques d'arme au corps à corps infligent par magie 10 (3d6) dégâts nécrotiques supplémentaires à une cible qu'elle parvient à toucher. Cet avantage dure jusqu'à la fin du tour. Si la prêtresse dépense un emplacement de sort de niveau 2 ou plus, les dégâts supplémentaires augmentent de 1d6 par niveau au-dessus du premier.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.yjnAI7vAZR2wsRLO"
+    },
+    {
+      "_id": "Qoyb5MBwtbSiGRru",
+      "name": "Équipement des Pronfondeurs",
+      "type": "feat",
+      "sort": 300000,
+      "flags": {},
+      "img": "icons/magic/control/fear-fright-shadow-monster-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Équipement des profondeurs.</strong>&nbsp;Les prêtresses drows ont accès à un équipement magique béni par la déesse. Toutefois, si cet équipement est remonté à la surface, il perd ses propriétés en 24 heures.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.Qoyb5MBwtbSiGRru"
+    },
+    {
+      "_id": "aRWExwgFTTOMUwh1",
+      "name": "Incantation",
+      "type": "feat",
+      "sort": 400000,
+      "flags": {},
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Incantation.</strong> La prêtresse drow est un lanceur de sorts de niveau 9. Sa caractéristique d'incantation est la Sagesse (DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre les sorts 15, +7 pour toucher avec les attaques de sort). Voici ses sorts de clerc préparés :</p>\n<ul>\n<li>Tours de magie (à volonté)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/bouffee-de-poison/\">bouffée de poison</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/aspersion-acide/\">aspersion acide</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/contact-glacial/\">contact glacial</a></li>\n<li>1er niveau (4 emplacements)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/fleau/\">fléau</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/injonction/\">injonction</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/poison-naturel/\">poison naturel</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/strangulation/\">strangulation</a></li>\n<li>2e niveau (3 emplacements)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/silence/\">silence</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/tenebres/\">ténèbres</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/toile-d-araignee/\">toile d'araignée</a></li>\n<li>3e niveau (3 emplacements)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/jeter-une-malediction/\">jeter une malédiction</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/invoquer-des-animaux/\">invoquer des animaux (araignées)</a></li>\n<li>4e niveau (3 emplacements)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/insecte-geant/\">insecte géant</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/liberte-de-mouvement/\">liberté de mouvement</a></li>\n<li>5e niveau (1 emplacements)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/fleau-d-insectes/\">fléau d'insectes</a></li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "",
+          "value": ""
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.aRWExwgFTTOMUwh1"
+    },
+    {
+      "_id": "ZCEB3UxxA9udVcWb",
+      "name": "Sensibilité à la lumière du soleil",
+      "type": "feat",
+      "sort": 600000,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Sensibilité à la lumière du soleil.</strong>&nbsp;La prêtresse subit un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a>&nbsp;lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'elle est exposée à la lumière du soleil.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.ZCEB3UxxA9udVcWb"
+    },
+    {
+      "_id": "FLStQmpowlFRSmSW",
+      "name": "Attaques Multiples",
+      "type": "feat",
+      "sort": 700000,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Attaques Multiples.</strong>&nbsp;La prêtresse drow peut effectuer une attaque de fouet en action bonus (et faire une autre attaque de fouet avec son action ou lancer un sort).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Drow Prêtresse",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.FLStQmpowlFRSmSW"
+    },
+    {
+      "_id": "HEu1hCqMUEXBToJO",
+      "name": "Fouet +1",
+      "type": "weapon",
+      "sort": 100000,
+      "flags": {
+        "_sheetTab": "description",
+        "obsidian": {
+          "category": "martial",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "finesse": true,
+            "reach": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "c2b8f3ab-06f8-48a4-881a-8e085d99a7e3",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "984322c1-a56b-4141-ae0a-6b861bbbdb4c",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": false,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "34e258c7-19d5-4ed6-858b-18542072267d",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "slh",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "icons/weapons/misc/whip-red-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Une corde tendue faîte de cuir, de corde ou de chaîne qui peut attraper des ennemis proches, les lacérant et les harcelant à distance.</p>\n<p>Attaque d'arme au corps à corps&nbsp;: +7 pour toucher, allonge 3 m, une cible.<br>Touché&nbsp;: 5 (1d4+3) dégâts perforants.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des Règles",
+        "quantity": 1,
+        "weight": 1.5,
+        "price": 2,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 3,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "wis",
+        "actionType": "mwak",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "",
+        "properties": {
+          "fin": true,
+          "rch": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "lod": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.HEu1hCqMUEXBToJO"
+    },
+    {
+      "_id": "PfGEVZjdM4R4XC9q",
+      "name": "Bouffée de poison",
+      "type": "spell",
+      "sort": 800000,
+      "flags": {},
+      "img": "icons/magic/air/fog-gas-smoke-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous tendez la main en direction d'une créature située à portée et dans votre champ de vision et projetez une bouffée de gaz toxique sortie de votre paume. La créature doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution ou subir 1d12 dégâts de poison.</p>\n<p>Les dégâts du sort augmentent de 1d12 quand vous atteignez le niveau 5 (2d12), 11 (3d12) et 17 (4d12).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "3",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 3,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d12",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.PfGEVZjdM4R4XC9q"
+    },
+    {
+      "_id": "nuRyKzDY0QUuYTpJ",
+      "name": "Aspersion acide",
+      "type": "spell",
+      "sort": 900000,
+      "flags": {},
+      "img": "icons/magic/fire/projectile-fireball-smoke-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous lancez une boule d'acide. Choisissez une créature à portée, ou deux créatures à portée situées à 1,50 mètre ou moins l'une de l'autre. Une cible doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité, sinon elle subit 1d6 dégâts d'acide.</p>\n<p>Les dégâts du sort augmentent de 1d6 quand vous atteignez le niveau 5 (2d6), 11 (3d6) et 17 (4d6).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "acid"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.nuRyKzDY0QUuYTpJ"
+    },
+    {
+      "_id": "BVMTXDB0xkRfjUI3",
+      "name": "Contact glacial",
+      "type": "spell",
+      "sort": 1000000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous faites apparaître une main fantomatique et squelettique sur l'emplacement d'une créature située à portée. Faites un <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> de sort à distance contre la créature pour la transir de froid. Si l'attaque touche, la victime reçoit 1d8 dégâts nécrotiques et ne peut pas récupérer de point de vie avant le début de votre prochain tour. Jusque-là, la main s'accroche à elle.</p>\n<p>Si votre cible est un mort-vivant, il subit en plus un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors des jets d'attaque effectués contre vous jusqu'à la fin de votre prochain tour.</p>\n<p>Les dégâts du sort augmentent de 1d8 quand vous atteignez les niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "36",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 36,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rsak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "nec",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.BVMTXDB0xkRfjUI3"
+    },
+    {
+      "_id": "6Hl2kGAOLjpduB8p",
+      "name": "Fléau",
+      "type": "spell",
+      "sort": 1100000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Trois créatures de votre choix au maximum, toutes situées à portée et dans votre champ de vision, sont contraintes d'effectuer un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Charisme. Dès qu'une cible qui a raté ce jet effectue un <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> ou <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">de sauvegarde</a> alors que le sort n'est pas terminé, elle doit lancer 1d4 et soustraire le résultat obtenu de son <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> ou <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">de sauvegarde</a>.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, vous pouvez viser une créature de plus par niveau au-delà du niveau 1.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 3,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Une goutte de sang",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "+ 1 créature"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.6Hl2kGAOLjpduB8p"
+    },
+    {
+      "_id": "UtM0ANIAjZaSjPTK",
+      "name": "Fléau d'insectes",
+      "type": "spell",
+      "sort": 1200000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/creatures/invertebrates/spider-beetle-runed-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Un essaim de sauterelles carnivores forme une sphère de 6 mètres de rayon centrée sur un point de votre choix situé à portée. La sphère s'étend en contournant les angles et persiste pendant toute la durée du sort. La visibilité est réduite dans la zone affectée. L'intérieur de la sphère devient un terrain difficile.</p>\n<p>Quand la sphère d'insectes apparaît, chaque créature prise à l'intérieur doit effectuer un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution. Une créature subit 4d10 dégâts perforants si elle rate son jet, la moitié seulement si elle le réussit. Une créature doit effectuer le même jet quand elle entre dans la sphère pour la première fois de son tour ou quand elle y termine son tour.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 6 ou supérieur, les dégâts augmentent de 1d10 par niveau au-delà du niveau 5.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 6,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "range": {
+            "value": "90",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d10",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un peu de sucre en poudre, quelques graines de céréales et une tache de graisse",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d10"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.UtM0ANIAjZaSjPTK"
+    },
+    {
+      "_id": "MXAneahbdSYFOaCo",
+      "name": "Insecte géant",
+      "type": "spell",
+      "sort": 1300000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/creatures/invertebrates/fly-wasp-mosquito-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous transformez un maximum de dix mille-pattes, trois araignées, cinq guêpes ou un scorpion situés à portée en version géante de leur forme naturelle pendant toute la durée du sort. Un mille-pattes devient donc un mille-pattes géant, une araignée une araignée géante, une guêpe une guêpe géante et un scorpion un scorpion géant.</p>\n<p>Chaque créature obéit à vos ordres verbaux et, lors d'un combat, agit à chaque round à votre tour. C'est le MJ qui dispose du profil technique de ces créatures et gère leurs actions et leurs déplacements.</p>\n<p>Une créature reste sous sa forme géante pendant toute la durée du sort, jusqu'à ce qu'elle tombe à 0 point de vie ou jusqu'à ce que vous utilisiez une action pour révoquer l'effet du sort sur elle.</p>\n<p>Le MJ peut vous autoriser à choisir une cible différente. Par exemple, si vous transformez une abeille, sa version géante peut disposer du même profil technique qu'une guêpe géante.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.MXAneahbdSYFOaCo"
+    },
+    {
+      "_id": "GrrbZozyzdzjBSTw",
+      "name": "Liberté de mouvement",
+      "type": "spell",
+      "sort": 1400000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous touchez une créature consentante. Pendant toute la durée du sort, ses déplacements ne sont pas affectés par un terrain difficile, tandis que les sorts et autres effets magiques ne peuvent ni réduire sa vitesse, ni provoquer l'état <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#paralysé\"><em>paralysé</em></a> ou <em>entravé.</em></p>\n<p>La cible peut également dépenser 1,50 mètre de déplacement pour échapper automatiquement à des liens non magiques, comme des menottes ou la prise d'une créature qui l'empoigne. Enfin, sous l'eau, elle ne subit pas de malus aux déplacements ni aux attaques.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "abj",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Un lien de cuir enroulé autour d'un bras ou d'un appendice similaire",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.GrrbZozyzdzjBSTw"
+    },
+    {
+      "_id": "wmz6xoGbxagvB8kx",
+      "name": "Jeter une malédiction",
+      "type": "spell",
+      "sort": 1500000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/death/projectile-skull-flaming-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous touchez une créature qui doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse, sans quoi elle est maudite pour toute la durée du sort. À vous de choisir la nature de cette malédiction parmi les options suivantes au moment de l'incantation.</p>\n<ul>\n<li>Choisissez une caractéristique. Tant que la cible est maudite, elle est affectée par un désavantage lors des tests et des jets de sauvegarde basés sur cette caractéristique.</li>\n<li>Tant que la cible est maudite, elle subit un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors de ses jets d'attaque contre vous.</li>\n<li>Tant que la cible est maudite, elle doit faire un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse au début de chacun de ses tours. Si elle le rate, elle gaspille son action du tour et ne fait rien.</li>\n<li>Tant que la cible est maudite, vos sorts et vos attaques à son encontre lui infligent 1d8 dégâts nécrotiques supplémentaires.</li>\n</ul>\n<p>Le sort <em>lever une malédiction</em> met un terme à cet effet. Si le MJ est d'accord, vous pouvez choisir un autre effet de malédiction, mais il ne doit pas être plus puissant que ceux proposés ici. C'est au MJ de décider s'il accepte ou non le nouvel effet de malédiction.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 4 ou supérieur, le sort fait effet tant que vous vous concentrez, sans dépasser un maximum de 10 minutes. Si vous utilisez un emplacement de niveau 5 ou supérieur, la durée est de 8 heures, tandis qu'elle passe à 24 heures si vous utilisez un emplacement de sort de niveau 7 ou plus. Si vous utilisez un emplacement de niveau 9, le sort persiste jusqu'à ce qu'il soit dissipé. L'utilisation d'un emplacement de niveau 5 ou plus vous dispense de vous concentrer.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "nec",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "durée"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.wmz6xoGbxagvB8kx"
+    },
+    {
+      "_id": "K39MqCk3fWCMKPNE",
+      "name": "Invoquer des animaux",
+      "type": "spell",
+      "sort": 1600000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous invoquez des esprits féeriques qui prennent la forme d'animaux et apparaissent dans des espaces inoccupés situés à portée et dans votre champ de vision. Choisissez l'une des options suivantes pour déterminer quelles créatures apparaissent.</p>\n<ul>\n<li>Une bête dont l'indice de dangerosité est inférieur ou égal à 2.</li>\n<li>Deux bêtes dont l'indice de dangerosité est inférieur ou égal à 1.</li>\n<li>Quatre bêtes dont l'indice de dangerosité est inférieur ou égal à 1⁄2.</li>\n<li>Huit bêtes dont l'indice de dangerosité est inférieur ou égal à 1⁄4.</li>\n</ul>\n<p>Chacune de ces bêtes est aussi considérée comme une fée et disparaît dès qu'elle tombe à 0 point de vie ou quand le sort se termine.</p>\n<p>Les créatures invoquées se montrent amicales envers vous et vos compagnons. Déterminez une initiative pour les créatures invoquées, elles forment un groupe qui dispose de ses propres tours de jeu. Les animaux obéissent aux ordres verbaux que vous leur donnez (sans que cela vous demande d'utiliser une action). En l'absence d'ordre, ils se défendent contre les créatures hostiles, mais n'entreprennent pas d'autre action.</p>\n<p>C'est le MJ qui dispose du profil technique des créatures.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant certains emplacements de niveau supérieur, vous choisissez l'une des options d'invocation décrites précédemment et faites apparaître plus de créatures : deux fois plus pour un emplacement de niveau 5, trois fois plus pour un emplacement de niveau 7 et quatre fois plus pour un emplacement de niveau 9.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "any",
+          "type": "space",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.K39MqCk3fWCMKPNE"
+    },
+    {
+      "_id": "XHoP3nO0XF18UCF6",
+      "name": "Silence",
+      "type": "spell",
+      "sort": 1700000,
+      "flags": {},
+      "img": "icons/magic/water/orb-water-transparent.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Pendant toute la durée du sort, aucun son ne peut se créer au sein d'une sphère de 6 mètres de rayon centrée sur un point de votre choix à portée, ni la traverser. Une créature ou un objet entièrement contenu dans la sphère sont immunisés contre les dégâts de tonnerre, et les créatures entièrement contenues dans la sphère sont <em>assourdies</em>. Il est impossible de lancer un sort à composante verbale depuis la sphère.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 6,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "range": {
+            "value": "36",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 36,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.XHoP3nO0XF18UCF6"
+    },
+    {
+      "_id": "ysIagkyfUuMeIMdB",
+      "name": "Ténèbres",
+      "type": "spell",
+      "sort": 1800000,
+      "flags": {},
+      "img": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Des ténèbres magiques se répandent depuis un point de votre choix situé à portée, jusqu'à englober une sphère de 4,50 mètres de rayon. Les ténèbres s'étendent en franchissant tout angle éventuel. La vision dans le noir d'une créature ne suffit pas à percer ces ténèbres et les lumières non-magiques se révèlent incapables de les éclairer.</p>\n<p>Si le point que vous avez choisi est un objet en votre possession ou un objet qui n'est ni porté ni transporté par autrui, les ténèbres émanent de l'objet et se déplacent avec lui. Il suffit de recouvrir complètement l'objet affecté avec un objet opaque, comme un bol ou un heaume, pour bloquer les ténèbres.</p>\n<p>Si une partie de la zone affectée par ce sort chevauche une zone de lumière issue d'un sort de niveau 2 ou moins, elle dissipe le sort de lumière.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 4.5,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Des poils de chauve-souris et une goutte de poix ou un bout de charbon",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.ysIagkyfUuMeIMdB"
+    },
+    {
+      "_id": "6Otz4sCml46BRpRi",
+      "name": "Toile d'araignée",
+      "type": "spell",
+      "sort": 1900000,
+      "flags": {},
+      "img": "icons/commodities/materials/material-webbing.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous invoquez une masse de toiles d'araignées épaisses et collantes en un point de votre choix situé à portée. Pendant toute la durée du sort, les toiles occupent un cube de 6 mètres d'arête centré sur le point choisi. Elles forment un terrain difficile à la visibilité réduite.</p>\n<p>Si les toiles ne sont pas ancrées entre deux éléments solides, comme des murs ou des arbres, ou disposées en couches sur le sol, le plafond ou un mur, elles s'effondrent sur elles-mêmes et le sort se termine au début de votre prochain tour. Des toiles disposées en couches superposées sur une surface plane s'accumulent sur une épaisseur de 1,50 mètre.</p>\n<p>Chaque créature qui commence son tour dans les toiles ou qui y pénètre lors de son tour doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité, ou être <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a> tant qu'elle reste dans les toiles ou jusqu'à ce qu'elle se libère.</p>\n<p>Une créature <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a> par les toiles peut utiliser son action pour effectuer un test de Force contre le DD du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de votre sort. Si elle le réussit, elle n'est plus <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a>.</p>\n<p>Les toiles sont inflammables. Un cube de toiles de 1,50 mètre d'arête exposé au feu brûle en 1 round, infligeant 2d4 dégâts de feu à toute créature qui commence son tour dans les flammes.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 6,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d4",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un bout de toile d'araignée",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.6Otz4sCml46BRpRi"
+    },
+    {
+      "_id": "V2yASFFmU0OjKglf",
+      "name": "Injonction",
+      "type": "spell",
+      "sort": 2000000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous lancez un ordre d'un mot à une créature située à portée et dans votre champ de vision. Elle doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse, sans quoi elle exécute votre ordre à son prochain tour. Le sort reste sans effet si la cible est un mort-vivant, si elle ne comprend pas votre langue ou si votre ordre la met directement en danger.</p>\n<p>Voici quelques ordres typiques et leurs effets. Vous pouvez donner un ordre différent de ceux présentés ici mais, dans ce cas, c'est au MJ de décider comment la victime se comporte. Le sort se termine si elle se trouve dans l'incapacité d'obéir à l'ordre reçu.</p>\n<p><strong>Approche</strong>. La cible s'approche de vous en empruntant l'itinéraire le plus court et le plus direct. Elle termine son tour dès qu'elle arrive dans un rayon de 1,50 mètre autour de vous.</p>\n<p><strong>Arrête</strong>. La cible ne bouge pas et n'entreprend aucune action. Une créature en vol reste dans les airs, à condition qu'elle soit en mesure de le faire. Si elle est obligée de se déplacer pour rester en vol, elle parcourt la distance minimum requise pour ce faire.</p>\n<p><strong>Fuis</strong>. La cible passe son tour à s'éloigner de vous par la méthode la plus rapide à sa disposition.</p>\n<p><strong>Lâche</strong>. La cible lâche ce qu'elle tient et son tour se termine.</p>\n<p><strong>Rampe</strong>. La cible se laisse tomber <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#à-terre\"><em>à terre</em></a> et termine son tour.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, vous pouvez affecter une créature de plus par niveau au-delà du niveau 1. Ces créatures doivent toutes se trouver à 9 mètres ou moins les unes des autres lorsque vous lancez le sort.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "+ 1 créature"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.V2yASFFmU0OjKglf"
+    },
+    {
+      "_id": "53SR7XD68MIl4CtV",
+      "name": "Poison naturel",
+      "type": "spell",
+      "sort": 2100000,
+      "flags": {},
+      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Une arme de votre choix exsude une substance poisseuse et venimeuse. À la première attaque que vous réussissez avec cette arme, la victime doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution ou subir 2d6 dégât de poison et être <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#empoisonné\"><em>empoisonnée</em></a>. En cas de succès, elle subit seulement la moitié des dégâts et elle n'est pas <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#empoisonné\"><em>empoisonnée</em></a>.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, les dégâts augmentent de 1d6 par niveau au-delà du niveau 1.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object",
+          "range": {
+            "value": "personnelle"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.53SR7XD68MIl4CtV"
+    },
+    {
+      "_id": "BrAnNA3q5KRoMbMA",
+      "name": "Strangulation",
+      "type": "spell",
+      "sort": 2200000,
+      "flags": {},
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous tendez le bras en direction de votre cible et, de votre main, vous mimez son étranglement. Faites une attaque de sort à distance. En cas de réussite, la cible subit 1d6 points de dégâts contondants et elle doit faire un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Force ou être <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a>. Si le <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> initial était un succès, à chacun de vos tours pendant la durée du sort, vous pouvez utiliser votre action pour lui infliger automatiquement les mêmes dégâts et l'obliger à faire un nouveau <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Force. Si vous faites quoi que ce soit d'autre (vous pouvez toutefois parler), le sort prend fin. Le sort prend aussi fin si la cible passe hors de portée ou en dehors de votre champ de vision.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 3, vous infligez 2d6 points de dégât par round. Vous augmentez les dégâts de 1d6 supplémentaires par tranche de 2 niveaux de plus (jusqu'à 5d6 au niveau 9).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rsak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.BrAnNA3q5KRoMbMA"
+    },
+    {
+      "_id": "ToiUBzNLy5dzjIpA",
+      "name": "Lumières dansantes",
+      "type": "spell",
+      "sort": 2300000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/fire/projectile-meteor-salvo-light-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous créez jusqu'à quatre lumières de la taille d'une torche qui apparaissent à portée. Elles ressemblent à des lanternes, des torches ou des orbes luisants qui flottent dans les airs pendant toute la durée du sort. Vous pouvez aussi les combiner pour obtenir une forme brillante vaguement humanoïde de taille M. Quelle que soit l'option choisie, chaque source lumineuse offre une lumière faible dans un rayon de 3 mètres.</p>\n<p>À votre tour et par une action bonus, vous pouvez déplacer les lumières sur un maximum de 18 mètres pour les installer ailleurs, mais toujours à portée. Une lumière créée via ce sort doit toujours se trouver à 6 mètres ou moins d'une autre émanant du même sort. Elle s'éteint si elle passe hors de portée.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "any",
+          "type": "space",
+          "range": {
+            "value": "36",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 36,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un bout de phosphore ou d'orme, ou un ver luisant",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.ToiUBzNLy5dzjIpA"
+    },
+    {
+      "_id": "yGAsVlM6Xznkp4bh",
+      "name": "Lueurs féériques",
+      "type": "spell",
+      "sort": 2400000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/fire/projectile-meteor-salvo-strong-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Tous les objets contenus dans un cube de 6 mètres d'arête situé à portée sont auréolés d'une lumière bleue, verte ou violette (à vous de choisir). Les créatures qui se trouvent dans la zone au moment de l'incantation sont aussi entourées de lumière, à moins de réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité. Pendant toute la durée du sort, les créatures et les objets affectés émettent une faible luminosité dans un rayon de 3 mètres.</p>\n<p>Un assaillant a l'<a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors du <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> contre une cible affectée s'il peut la voir. Les créatures et les objets affectés ne peuvent pas bénéficier de l'état <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#invisible\"><em>invisible</em></a>.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 6,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.yGAsVlM6Xznkp4bh"
+    },
+    {
+      "_id": "HTIu2tz2t9k78UDr",
+      "name": "Incantation innée",
+      "type": "feat",
+      "sort": 500000,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Incantation innée.</strong>&nbsp;La caractéristique d'incantation est le Charisme (DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre les sorts 15). La prêtresse peut lancer les sorts suivants de manière innée sans aucune composante matérielle :</p>\n<ul>\n<li>À volonté&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/lumieres-dansantes/\">lumières dansantes</a></li>\n<li>1/jour chacun&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/lueurs-feeriques/\">lueurs féeriques</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/tenebres/\">ténèbres</a></li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.HTIu2tz2t9k78UDr"
+    },
+    {
+      "_id": "QpDPZXwAgHCcBNfj",
+      "name": "Cuirasse +2",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.srd-heros-et-dragons.h-d-objets-magiques-et-trésors.W7oPhYuahC4xtT6L"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"font-style:normal;font-weight:normal;widows:2;orphans:2\"><span style=\"font-family:Roboto, sans-serif\"><span style=\"font-size:small\"><span style=\"color:#000000\"><span style=\"font-family:Signika, sans-serif\">Vous disposez d'un bonus à la CA tant que vous portez cette armure. Ce bonus dépend de la rareté de l'armure.</span></span> </span></span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Cadre de campagne",
+        "quantity": 1,
+        "weight": 10,
+        "price": 6400,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "veryRare",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 16,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "breastplate",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!pT6FLBfzX7AU6kam.QpDPZXwAgHCcBNfj"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 3,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 2,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 3,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 3,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 6,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 2
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    },
+    "betterNpcSheet": {
+      "sheet": {
+        "height": 600,
+        "width": 600
+      }
+    }
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 11
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 13
+      },
+      "con": {
+        "value": 14,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": "1"
+        },
+        "label": "constitution",
+        "mod": 2,
+        "save": 5,
+        "prof": 3,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 13
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 12
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": "1"
+        },
+        "label": "wisdom",
+        "mod": 3,
+        "save": 6,
+        "prof": 3,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 14
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": "1"
+        },
+        "label": "charisme",
+        "mod": 3,
+        "save": 6,
+        "prof": 3,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "default",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 58,
+        "min": 0,
+        "max": 58,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "9d8+18"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 36,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": "Perception passive 17"
+      },
+      "spellcasting": "wis",
+      "prof": 3,
+      "spelldc": 14,
+      "encumbrance": {
+        "value": 1.5,
+        "max": 75,
+        "pct": 2,
+        "encumbered": true
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"capacites\">Capacités</h2>\n<p><strong><em>Ascendance féerique</em></strong>. La prêtresse obtient un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors des jets de sauvegarde contre l'état spécial <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#charmé\"><em>charmé</em></a> et la magie ne peut pas l'endormir.</p>\n<p><strong><em>Marque du matriarcat</em></strong>. Par une action bonus, la prêtresse drow peut dépenser un emplacement de sort pour que ses attaques d'arme au corps à corps infligent par magie 10 (3d6) dégâts nécrotiques supplémentaires à une cible qu'elle parvient à toucher. Cet avantage dure jusqu'à la fin du tour. Si la prêtresse dépense un emplacement de sort de niveau 2 ou plus, les dégâts supplémentaires augmentent de 1d6 par niveau au-dessus du premier.</p>\n<p><strong><em>Équipement des profondeurs</em></strong>. Les prêtresses drows ont accès à un équipement magique béni par la déesse. Toutefois, si cet équipement est remonté à la surface, il perd ses propriétés en 24 heures.</p>\n<p><strong><em>Incantation</em></strong>. La prêtresse drow est un lanceur de sorts de niveau 9. Sa caractéristique d'incantation est la Sagesse (DD du <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> contre les sorts 15, +7 pour toucher avec les attaques de sort). Voici ses sorts de clerc préparés :</p>\n<ul>\n<li><strong><em>Tours de magie (à volonté)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/bouffee-de-poison\"><em>bouffée de poison</em></a>, <a href=\"https://5e-drs.fr/grimoire/aspersion-acide\"><em>aspersion acide</em></a>, <a href=\"https://5e-drs.fr/grimoire/contact-glacial\"><em>contact glacial</em></a></li>\n<li><strong><em>1er niveau (4 emplacements)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/fleau\"><em>fléau</em></a>, <a href=\"https://5e-drs.fr/grimoire/injonction\"><em>injonction</em></a>, <a href=\"https://5e-drs.fr/grimoire/poison-naturel\"><em>poison naturel</em></a>, <a href=\"https://5e-drs.fr/grimoire/strangulation\"><em>strangulation</em></a></li>\n<li><strong><em>2e niveau (3 emplacements)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/silence\"><em>silence</em></a>, <a href=\"https://5e-drs.fr/grimoire/tenebres\"><em>ténèbres</em></a>, <a href=\"https://5e-drs.fr/grimoire/toile-daraignee\"><em>toile d'araignée</em></a></li>\n<li><strong><em>3e niveau (3 emplacements)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/jeter-une-malediction\"><em>jeter une malédiction</em></a>, <a href=\"https://5e-drs.fr/grimoire/invoquer-des-animaux\"><em>invoquer des animaux (araignées)</em></a></li>\n<li><strong><em>4e niveau (3 emplacements)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/insecte-geant\"><em>insecte géant</em></a>, <a href=\"https://5e-drs.fr/grimoire/liberte-de-mouvement\"><em>liberté de mouvement</em></a></li>\n<li><strong><em>5e niveau (1 emplacements)</em></strong> : <a href=\"https://5e-drs.fr/grimoire/fleau-dinsectes\"><em>fléau d'insectes</em></a></li>\n</ul>\n<p><strong><em>Incantation innée</em></strong>. La caractéristique d'incantation est le Charisme (DD du <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> contre les sorts 15). La prêtresse peut lancer les sorts suivants de manière innée sans aucune composante matérielle :</p>\n<ul>\n<li><strong><em>À volonté</em></strong> : <a href=\"https://5e-drs.fr/grimoire/lumieres-dansantes\"><em>lumières dansantes</em></a></li>\n<li><strong><em>1/jour chacun</em></strong> : <a href=\"https://5e-drs.fr/grimoire/lueurs-feeriques\"><em>lueurs féeriques</em></a>, <a href=\"https://5e-drs.fr/grimoire/tenebres\"><em>ténèbres</em></a></li>\n</ul>\n<p><strong><em>Sensibilité à la lumière du soleil</em></strong>. La prêtresse subit un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'elle est exposée à la lumière du soleil.</p>\n<hr>\n<h2 id=\"actions\">Actions</h2>\n<p><strong><em>Attaques multiples</em></strong>. La prêtresse drow peut effectuer une attaque de fouet en action bonus (et faire une autre attaque de fouet avec son action ou lancer un sort).</p>\n<p><strong><em>Fouet +1</em></strong>. <em>Attaque d'arme au corps à corps</em> : +7 pour toucher, allonge 3 m, une cible.<br><em>Touché</em> : 5 (1d4+3) dégâts perforants.</p>",
+        "public": ""
+      },
+      "alignment": "Neutre Mauvais",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Elfe",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 9,
+      "xp": {
+        "value": 2900
+      },
+      "source": "Créatures & Oppositions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "undercommon",
+          "elvish"
+        ],
+        "custom": ""
+      },
+      "perception": {
+        "_deprecated": true,
+        "value": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "itm": {
+        "value": 2,
+        "ability": "cha",
+        "bonuses": {
+          "check": "2",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 19,
+        "prof": 6,
+        "total": 9
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "1",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 16,
+        "prof": 3,
+        "total": 6
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "rel": {
+        "value": 2,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 17,
+        "prof": 6,
+        "total": 7
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "1",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 3,
+        "total": 5
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Prêtresse Drow",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "icons/svg/cowled.svg",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923690966,
+    "modifiedTime": 1663923697227,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!pT6FLBfzX7AU6kam"
+}

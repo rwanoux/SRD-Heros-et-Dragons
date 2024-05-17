@@ -1,0 +1,113 @@
+{
+  "_id": "9VPHcbkrs3bmXIMF",
+  "name": "Scarabée de protection",
+  "type": "consumable",
+  "img": "icons/environment/creatures/bug-larva-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "dynamicitems": {
+      "active": {
+        "type": "Boolean",
+        "label": "Active",
+        "value": false
+      },
+      "cursed": {
+        "type": "Boolean",
+        "label": "Cursed",
+        "value": false
+      },
+      "effects": {
+        "type": "Object",
+        "label": "Effects",
+        "value": []
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Si vous tenez ce médaillon en forme de scarabée dans la main pendant 1 round, une inscription apparaît à sa surface, révélant sa nature magique. Il confère deux avantages tant que vous le portez sur vous :</p>\n<ul>\n<li>vous obtenez l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors des jets de sauvegarde contre les sorts.</li>\n<li>Le scarabée contient 12 charges. Si vous ratez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre un sort de nécromancie ou un effet nuisible infligé par un mort-vivant, vous pouvez utiliser votre réaction pour dépenser 1 charge et transformer l'échec du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;en réussite. Le scarabée est détruit et tombe alors en poussière quand sa dernière charge est dépensée.</li>\n</ul>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": "",
+      "type": "String",
+      "label": "Description"
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 36000,
+    "attunement": 0,
+    "equipped": true,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "Les charges sont consommées lorsqu'il protège contre un sort de nécromancie ou une créature morte-vivante."
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 12,
+      "max": "12",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701049,
+    "modifiedTime": 1663923701934,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9VPHcbkrs3bmXIMF"
+}

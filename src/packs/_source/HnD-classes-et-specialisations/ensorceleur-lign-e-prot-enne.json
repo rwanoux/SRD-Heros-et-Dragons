@@ -1,0 +1,95 @@
+{
+  "_id": "p2vm5rzY1P7Uv1bC",
+  "name": "[Ensorceleur] Lignée Protéenne",
+  "type": "subclass",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V7vqxZrMW4SNYV2I]{Sang protéen [Lignée Protéenne]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XTixp3hMSeqjXUQw]{Puissance brute [Lignée Protéenne]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XLZmgtoLmANSq1AH]{Premier verrou [Lignée Protéenne]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fgCPIDyjlP3fT5ba]{Lâcher prise [Lignée Protéenne]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UV1rDodfEfwDIrok]{Second verrou [Lignée Protéenne]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wzVxW41Cf0FA8PzV]{Dernier verrou [Lignée Protéenne]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2AnTBo793YV2VZce]{Puissance brutale [Lignée Protéenne]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "lignee-proteenne",
+    "classIdentifier": "ensorceleur",
+    "advancement": [
+      {
+        "_id": "f8iwt30eln99ppb6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wzVxW41Cf0FA8PzV",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2AnTBo793YV2VZce"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "hvybcoi5gyblliju",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UV1rDodfEfwDIrok"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "1oi8894pn91rmqtb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XLZmgtoLmANSq1AH",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fgCPIDyjlP3fT5ba"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "1bhv6jysnxu1o450",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V7vqxZrMW4SNYV2I",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XTixp3hMSeqjXUQw"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703430,
+    "modifiedTime": 1663923703665,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!p2vm5rzY1P7Uv1bC"
+}

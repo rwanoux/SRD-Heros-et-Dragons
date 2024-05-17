@@ -1,0 +1,84 @@
+{
+  "name": "Liste Rôdeur niv 2",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
+  "effects": [],
+  "_id": "NLO9PTt4UBRwocZn",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de R&ocirc;deur niveau 2</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Abjuration\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.umjT52qAQfy7iUPw]{Passage sans trace}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nfeUJGDc7Dh37Mqn]{Protection contre le poison}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jCVWEIQQCT6EloEQ]{Restauration inf&eacute;rieure}</li>\n</ul>\n</li>\n<li>Enchantement\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.32R5IVaBFQJwqx2m]{Compagnon animal}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wAu7X5XbyaIxSaE0]{Messager animal}</li>\n</ul>\n</li>\n<li>Divination\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wlFxYAJZSp06Yecl]{Localiser des animaux ou des plantes}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.arzZe0tK6PkFM7MA]{Localiser un objet}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.u02NAEN6pLjwrWiJ]{Trouver les pi&egrave;ges}</li>\n</ul>\n</li>\n<li>Illusion\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.6CWJkMSqf6oyd6dm]{Silence}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.thXE4mEjEV10NivK]{Collet magique}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.YaWoeglObosAR0vd]{Croissance d'&eacute;pines}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wMkmtc8SvWv4xF6E]{Peau d'&eacute;corce}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc]{Vision dans le noir}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688021,
+    "modifiedTime": 1663923688858,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NLO9PTt4UBRwocZn"
+}

@@ -1,0 +1,131 @@
+{
+  "_id": "b3sIpSf7t6VRa4lG",
+  "name": "Monture fantôme",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une créature équine de taille G quasi réelle apparaît dans un emplacement au sol de votre choix situé à portée. À vous de décider de l'apparence de la créature, mais elle est systématiquement équipée d'une selle, d'un mors et d'une bride. Toutes les pièces d'équipement nées de ce sort disparaissent dans une volute de fumée si quelqu'un les emporte à plus de 3 mètres de la monture.</p>\n<p>Pendant toute la durée du sort, vous et une créature de votre choix pouvez chevaucher la monture. Cette dernière possède le même profil technique qu'un cheval de selle, excepté sa vitesse, de 30 mètres. En 1 heure, elle peut parcourir 15 kilomètres, ou 20 kilomètres au galop. Quand le sort se termine, la monture s'estompe progressivement, ce qui laisse 1 minute au  cavalier pour mettre pied à terre. Le sort se termine si vous utilisez une action pour le révoquer ou si la monture subit le moindre dégât.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "any",
+      "type": "space",
+      "range": {
+        "value": "9",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 9,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "ill",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688076,
+    "modifiedTime": 1663923689074,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!b3sIpSf7t6VRa4lG"
+}

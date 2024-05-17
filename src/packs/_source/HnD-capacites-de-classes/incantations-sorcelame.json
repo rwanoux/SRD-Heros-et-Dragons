@@ -1,0 +1,84 @@
+{
+  "_id": "inxIgdIB8y0KD4P7",
+  "name": "Incantations [Sorcelame]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/water/water-hand.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"incantations\"><strong>Incantations</strong></h4>\n<p>Tout comme l'ensorceleur, votre magie coule dans vos veines et elle est bas&eacute;e sur la force de votre ego.</p>\n<p>Difficult&eacute; des jets de sauvegarde = 8 + bonus de ma&icirc;trise + modificateur de Charisme</p>\n<p>Modificateur d'attaque des sorts = bonus de ma&icirc;trise + modificateur de Charisme</p>\n<p>Vous pouvez utiliser une arme de corps-&agrave;-corps comme focaliseur d'incantation pour vos sorts d'ensorceleur.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685593,
+    "modifiedTime": 1663923687359,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!inxIgdIB8y0KD4P7"
+}

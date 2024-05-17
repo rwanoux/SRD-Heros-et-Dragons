@@ -1,0 +1,89 @@
+{
+  "_id": "J5TsDwHfbjqpgzHV",
+  "name": "Aura de piété [Serment de Piété]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/life/heart-cross-strong-flame-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"aura-de-piete\"><strong>Aura de pi&eacute;t&eacute;</strong></h3>\n<p>&Agrave; partir du niveau 7, la puissance de votre divinit&eacute; forme une protection sainte autour de vous. Vous et vos alli&eacute;s dans un rayon de 3 m&egrave;tres gagnez la r&eacute;sistance aux d&eacute;g&acirc;ts caus&eacute;s par les sorts (apr&egrave;s &eacute;ventuelle r&eacute;duction des d&eacute;g&acirc;ts gr&acirc;ce &agrave; une sauvegarde r&eacute;ussie), y compris pour les effets de zone tels ceux d'une boule de feu . Au niveau 18, le rayon passe &agrave; 9 m&egrave;tres.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685285,
+    "modifiedTime": 1663923686552,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!J5TsDwHfbjqpgzHV"
+}

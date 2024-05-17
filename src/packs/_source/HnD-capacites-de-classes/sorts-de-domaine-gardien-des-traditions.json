@@ -1,0 +1,84 @@
+{
+  "_id": "5W8vZlsmliSD0o1t",
+  "name": "Sorts de domaine [Gardien des Traditions]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<div>\n<h3 id=\"sorts-de-domaine-2\"><strong>Sorts de domaine</strong></h3>\n<p>Vous obtenez les sorts suivants au niveau de clerc indiqu&eacute; ci-dessous.</p>\n<table style=\"width: 369px;\">\n<thead>\n<tr>\n<th style=\"width: 90px;\">Niveau de clerc</th>\n<th style=\"width: 276px;\">Sorts</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 90px;\">1</td>\n<td style=\"width: 276px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.e2HCAPfFpgKKdsrI]{Protection contre le mal et le bien}</td>\n</tr>\n<tr>\n<td style=\"width: 90px;\">3</td>\n<td style=\"width: 276px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH]{Augure}</td>\n</tr>\n<tr>\n<td style=\"width: 90px;\">5</td>\n<td style=\"width: 276px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t]{Communication avec les morts}</td>\n</tr>\n<tr>\n<td style=\"width: 90px;\">7</td>\n<td style=\"width: 276px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M]{Divination}</td>\n</tr>\n<tr>\n<td style=\"width: 90px;\">9</td>\n<td style=\"width: 276px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.K5tUTgzlyvyjbwGh]{Coercition mystique}<br /><br /></td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685183,
+    "modifiedTime": 1663923686146,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!5W8vZlsmliSD0o1t"
+}

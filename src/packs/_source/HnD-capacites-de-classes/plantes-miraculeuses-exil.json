@@ -1,0 +1,84 @@
+{
+  "_id": "Pi4ST8EAlaLvqNlS",
+  "name": "Plantes miraculeuses [Exilé]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/leaf-rune-glow-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"plantes-miraculeuses\"><strong>Plantes miraculeuses</strong></h3>\n<p>&Agrave; partir du niveau 11, si vous &ecirc;tes sur un terrain de pr&eacute;dilection, vous pouvez utiliser des plantes pour neutraliser un poison sur vous-m&ecirc;me ou un alli&eacute; &agrave; votre contact en utilisant une action. Vous pouvez utiliser cette aptitude autant de fois que votre bonus de ma&icirc;trise avant de devoir prendre un repos long. De plus, vous obtenez la ma&icirc;trise des jets de sauvegarde de Constitution.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685385,
+    "modifiedTime": 1663923686761,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Pi4ST8EAlaLvqNlS"
+}

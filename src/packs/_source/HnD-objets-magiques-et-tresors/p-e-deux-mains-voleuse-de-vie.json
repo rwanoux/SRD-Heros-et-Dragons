@@ -1,0 +1,125 @@
+{
+  "_id": "YuSumNJcM0kCBmbt",
+  "name": "Épée à deux mains voleuse de vie",
+  "type": "weapon",
+  "img": "icons/creatures/claws/claw-curved-poison-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<div>Quand vous attaquez une créature avec cette arme magique et obtenez un 20 sur le jet d'attaque, la cible subit 3d6 dégâts nécrotiques supplémentaires, à condition qu'elle ne soit ni une créature artificielle, ni un mort-vivant. Vous gagnez un nombre de points de vie temporaires égal aux dégâts supplémentaires infligés.</div>\n<div>Harmonisation requise.</div>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 3,
+    "price": 1000,
+    "attunement": 1,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Vous devez obtenir un 20 et la cible ne peut être ni une créature artificielle ni un mort-vivant."
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6 +@mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "3d6",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "greatsword",
+    "properties": {
+      "amm": false,
+      "hvy": true,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701265,
+    "modifiedTime": 1663923702593,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!YuSumNJcM0kCBmbt"
+}

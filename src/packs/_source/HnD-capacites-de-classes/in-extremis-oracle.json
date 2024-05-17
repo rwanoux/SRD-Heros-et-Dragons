@@ -1,0 +1,84 @@
+{
+  "name": "In extremis [Oracle]",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "uMMO8mGyjyld5Avp",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 8, lorsque vous obtenez un résultat de 1 sur le d20, vous pouvez utiliser votre réaction et dépenser un dé obtenu par votre aptitude du @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UfYvhk2jijQ0cosZ]{Champs des possibles [Oracle]} pour ignorer cet échec critique et relancer le dé.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685674,
+    "modifiedTime": 1663923687694,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!uMMO8mGyjyld5Avp"
+}

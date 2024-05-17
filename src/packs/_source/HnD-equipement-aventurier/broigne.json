@@ -1,0 +1,105 @@
+{
+  "_id": "q4R34v0G8x8pJ1iF",
+  "name": "Broigne",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Il s'agit d'une armure de cuir sur laquelle sont cousus de lourds anneaux. Ces anneaux permettent de renforcer l'armure et d'offrir une protection contre les coups d'&eacute;p&eacute;e et de hache. Une broigne est de qualit&eacute; inf&eacute;rieure &agrave; une cotte de mailles et est g&eacute;n&eacute;ralement port&eacute;e par ceux qui n'ont pas les moyens de s'offrir une meilleure armure.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "quantity": 1,
+    "weight": 20,
+    "price": 30,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 14,
+      "type": "heavy",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "ringmail",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": true,
+    "proficient": true
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700657,
+    "modifiedTime": 1663923700657,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!q4R34v0G8x8pJ1iF"
+}

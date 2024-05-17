@@ -1,0 +1,84 @@
+{
+  "_id": "IHI7Rj0sbWx5K1Qh",
+  "name": "Canalisation d'énergie divine [Serment de Rédemption] Intrépide",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-6\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Canalisation d'&eacute;nergie divine</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Le serment de r&eacute;demption n'est accessible qu'&agrave; des paladins de niveau 3 ou plus. Un paladin de niveau 1 ou 2 qui faillit &agrave; son devoir et qui persiste dans l'erreur deviendra g&eacute;n&eacute;ralement un guerrier. &Agrave; partir du niveau 3, un paladin qui fait serment de r&eacute;demption remplace ses options de canalisation d'&eacute;nergie divine par les options suivantes.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Intr&eacute;pide</strong>. Au prix d'une action et d'un niveau de fatigue, vous remontez le moral de vos alli&eacute;s et les enjoignez &agrave; continuer &agrave; se battre. Tous vos alli&eacute;s dans un rayon de 6 m&egrave;tres autour de vous b&eacute;n&eacute;ficient de l'&eacute;quivalent d'un repos court. Chaque cr&eacute;ature ne peut &ecirc;tre cibl&eacute;e qu'une seule fois entre chaque repos long par cette capacit&eacute;.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 6,
+      "width": null,
+      "units": "ft",
+      "type": "ally"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685280,
+    "modifiedTime": 1663923686530,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IHI7Rj0sbWx5K1Qh"
+}

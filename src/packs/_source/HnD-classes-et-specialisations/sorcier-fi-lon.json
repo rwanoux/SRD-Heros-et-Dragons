@@ -1,0 +1,93 @@
+{
+  "_id": "KyvzVNGI7YCBfnWJ",
+  "name": "[Sorcier] Fiélon",
+  "type": "subclass",
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"protecteurs-d-outre-monde\"><strong>Protecteurs d'outre-monde</strong></h2>\n<h3 id=\"le-fielon\"><strong>Le fiélon</strong></h3>\n<h4 id=\"liste-de-sorts-etendue\"></h4>\n<p> </p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s5oy99Cz78YXlddR]{Liste de sorts étendue [Fiélon]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7OaJ3DGMFD8ox0Bx]{Bénédiction du ténébreux [Fiélon]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.enB6F0IZh5ZJ1ie9]{Chance de ténébreux [Fiélon]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RJ4CtyFjv5cFcPj0]{Résistance fiélonne [Fiélon]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9AIVWISHevsilpKs]{Traversée des Enfers [Fiélon]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "fielon",
+    "classIdentifier": "sorcier",
+    "advancement": [
+      {
+        "_id": "vs3urnxexlf9bk8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9AIVWISHevsilpKs"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "s4z3dm5d8ymmu719",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RJ4CtyFjv5cFcPj0"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "rjpsr3ory8pjqs6j",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.enB6F0IZh5ZJ1ie9"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "tlyggv9mjqea1983",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s5oy99Cz78YXlddR",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7OaJ3DGMFD8ox0Bx"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703404,
+    "modifiedTime": 1663923703569,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!KyvzVNGI7YCBfnWJ"
+}

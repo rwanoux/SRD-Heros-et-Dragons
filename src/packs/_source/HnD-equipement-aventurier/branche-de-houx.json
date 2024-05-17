@@ -1,0 +1,162 @@
+{
+  "_id": "srpxTYm19INOWn9r",
+  "name": "Branche de Houx",
+  "type": "weapon",
+  "img": "icons/consumables/plants/fern-lady-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "unarmed",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "b44e36d9-2354-4edb-b9aa-01a68a9b6b97",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "95fdc454-993a-4867-97d1-85274afa6eb7",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": true,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "0dfa149c-f4d0-4086-944e-1e6504849ebd",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 4,
+              "ability": "",
+              "bonus": 0,
+              "damage": "",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Focalisateur Druidique. </strong>Une brindille de gui, de houx ou d'une autre feuille sacrée, cueillie sur un arbre dont les racines sont naturellement enfoncées au sein d'une forêt. Ceux qui tiennent compte de l'appel de la nature sont capables d'exploiter cette connexion pour faire appel à l'incroyable puissance de la nature.Focaliseur druidique. Un focaliseur druidique peut être un brin de gui ou de houx, une baguette ou un sceptre en bois d'if ou autre bois spécial, un bâton pris d'un arbre vivant, ou bien encore un objet totem qui intègre des plumes, de la fourrure, des os ou des dents d'animaux sacrés. Un druide peut utiliser ce type d'objet comme focaliseur pour ses sorts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "quantity": 1,
+    "weight": 0,
+    "price": 1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "natural",
+    "baseItem": "",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": true,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700662,
+    "modifiedTime": 1663923700662,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!srpxTYm19INOWn9r"
+}

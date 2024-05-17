@@ -1,0 +1,109 @@
+{
+  "_id": "EuHouqO9H5RpQgk5",
+  "name": "Collège des Diplomates [Barde]",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"tonnerre-tempete\"><strong>Coll&egrave;ge des Diplomates</strong></h3>\n<p>&nbsp;</p>\n<p><strong>Niveau 3 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CFZw4ykrSCG9UPr2]{Arsenal diplomatique [Coll&egrave;ge Diplomate]}</p>\n<p><strong>Niveau 3 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.BDHpy1lk3s97BUn7]{Orateur exceptionnel [Coll&egrave;ge du Diplomate]}</p>\n<p><strong>Niveau 6 :</strong> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1u96hGn2XBk9uukB]{Manipulateur redoutable [Coll&egrave;ge du Diplomate]}</p>\n<p><strong>Niveau 14 : </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.BrOkcJeEvIEDhmO2]{Manipulateur Subtil [Coll&egrave;ge du Diplomate]}</p>\n<p>&nbsp;</p>\n<h3 id=\"air\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685253,
+    "modifiedTime": 1663923686409,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EuHouqO9H5RpQgk5"
+}

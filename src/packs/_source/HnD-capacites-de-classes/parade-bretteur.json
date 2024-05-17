@@ -1,0 +1,100 @@
+{
+  "_id": "oWNucLJo9gXwVEzK",
+  "name": "Parade [Bretteur]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/skills/melee/weapons-crossed-daggers-orange.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"parade\"><strong>Parade</strong></h3>\n<p>Votre lame est &agrave; la fois votre arme et votre meilleure armure. Au niveau 15, vous pouvez ajouter +5 &agrave; votre CA contre une unique attaque au corps-&agrave;-corps qui devrait vous toucher &agrave; ce round. Vous devez voir votre agresseur, ne pas &ecirc;tre&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#surpris\">surpris</a>&nbsp;ni&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise\">neutralis&eacute;</a> et manier une arme de corps &agrave; corps dot&eacute;e de la propri&eacute;t&eacute; finesse pour pouvoir parer de cette fa&ccedil;on.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685628,
+    "modifiedTime": 1678404831238,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!oWNucLJo9gXwVEzK"
+}

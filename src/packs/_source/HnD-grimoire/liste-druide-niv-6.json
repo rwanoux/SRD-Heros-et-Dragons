@@ -1,0 +1,84 @@
+{
+  "name": "Liste Druide niv 6",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "effects": [],
+  "_id": "G3wVUgiRCBOj6mjW",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Druide niveau 6</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Divination\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.7cYi2Q2zjmnex06B]{Trouver un chemin}</li>\n</ul>\n</li>\n<li>&Eacute;vocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nCQkQJFWudOvmh2p]{Gu&eacute;rison}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.vYt58TXA6r9ycRbS]{Rayon de soleil}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.hjao0Wn30Rz0WUmQ]{Festin des h&eacute;ros}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.p36wiEfy6QGsbGTj]{Invoquer une f&eacute;e}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.alsZ9TShmdnYYGlu]{Mur d'&eacute;pines Cercle} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.y3pBoDsl2gNSw7tW]{Mur d'&eacute;pines Mur}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.9Ckgv0SFKprIunJb]{Transport v&eacute;g&eacute;tal}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.cCVb46dtWuWfa80D]{D&eacute;placer la terre}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.7MkRiD0GvgT60dCv]{Marche sur le vent}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687996,
+    "modifiedTime": 1663923688763,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!G3wVUgiRCBOj6mjW"
+}

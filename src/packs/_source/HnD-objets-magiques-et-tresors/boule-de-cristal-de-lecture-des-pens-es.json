@@ -1,0 +1,125 @@
+{
+  "_id": "KbDlyrROjeluOcvu",
+  "name": "Boule de cristal de lecture des pensées",
+  "type": "consumable",
+  "img": "icons/commodities/gems/pearl-storm.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Vous pouvez lancer le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/scrutation/\">scrutation</a>&nbsp;(DD 17) par son intermédiaire.</p>\n<p>Vous pouvez dépenser une action pour lancer le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-des-pensees/\">détection des pensées</a>&nbsp;(DD 17) tandis que vous êtes en pleine scrutation avec la&nbsp;boule de cristal. Vous devez prendre pour cible une créature située dans un rayon de 9 mètres autour de l'organe sensoriel et visible à travers lui. Vous n'avez pas besoin de vous concentrer sur cette détection des pensées pour la maintenir pendant toute sa durée, mais elle se termine en même temps que la scrutation.</p>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 3.5,
+    "price": 60000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 17,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701127,
+    "modifiedTime": 1663923702207,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!KbDlyrROjeluOcvu"
+}

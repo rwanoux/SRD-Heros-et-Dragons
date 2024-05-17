@@ -1,0 +1,84 @@
+{
+  "name": "Lire le Coeur",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/heart-cross-purple-orange.webp",
+  "_id": "NkJM4SzxVPOsC7Tw",
+  "system": {
+    "description": {
+      "value": "<p><strong>Lire le coeur. </strong>La créature touche une cible et connaît par magie l'état émotionnel actuel de celle-ci. Si la cible échoue à un jet de sauvegarde de Charisme, la créature connaît aussi l'alignement de la cible. Les célestes, les fiélons et les morts-vivants échouent automatiquement à ce jet de sauvegarde.&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698816,
+    "modifiedTime": 1663923699582,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NkJM4SzxVPOsC7Tw"
+}

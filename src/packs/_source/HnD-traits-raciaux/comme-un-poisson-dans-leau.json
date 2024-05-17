@@ -1,0 +1,84 @@
+{
+  "name": "Comme un poisson dans l'eau",
+  "type": "feat",
+  "img": "icons/creatures/fish/fish-shark-swimming.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "dt5wi3yIHEe4W3GP",
+  "system": {
+    "description": {
+      "value": "<p>Vous êtes capable de respirer sous l'eau comme sur terre pendant une durée de 10 minutes. De plus, quand vous nagez, vous ne subissez aucun <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a> pour vos manœuvres sous-marines et pouvez nager à votre vitesse normale.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Elfes des Vagues",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698206,
+    "modifiedTime": 1663923698535,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!dt5wi3yIHEe4W3GP"
+}

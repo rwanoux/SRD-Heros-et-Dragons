@@ -1,0 +1,84 @@
+{
+  "name": "Tremblement de Terre",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "_id": "EljKIKVQoh1Bil2u",
+  "system": {
+    "description": {
+      "value": "<p><strong>Tremblement de terre.</strong> Le sol se met à trembler dans un rayon de 9 mètres autour de la créature. Tous ses ennemis qui débutent leur tour dans cette zone doivent réussir un jet de sauvegarde de Dextérité ou se retrouver à terre. L'effet s'arrête lorsque la créature meurt ou utilise à nouveau une action d'antre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": 1,
+      "long": null,
+      "units": "any"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon Bleu (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698778,
+    "modifiedTime": 1663923699417,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EljKIKVQoh1Bil2u"
+}

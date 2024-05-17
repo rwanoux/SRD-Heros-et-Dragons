@@ -1,0 +1,84 @@
+{
+  "name": "Mordre",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+  "_id": "QU7AdKx7HIaH9kwD",
+  "system": {
+    "description": {
+      "value": "<p><strong>Mordre.</strong> La créature effectue une attaque de @Compendium[world.handd-capacite-du-bestaire.QZLIuv3QotJSQ1Ps]{Morsure}. Certaines créatures disposent d'effets supplémentaires.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 2,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Tarasque, Vampire",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698826,
+    "modifiedTime": 1663923699623,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!QU7AdKx7HIaH9kwD"
+}

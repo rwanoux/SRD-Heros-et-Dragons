@@ -1,0 +1,84 @@
+{
+  "_id": "QlGTuNgAe3WGci4s",
+  "name": "Sens de la magie [Voie de l'acier]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sens-de-la-magie\"><strong>Sens de la magie</strong></h3>\n<p>D&egrave;s le niveau 3, lorsque vous &ecirc;tes en pr&eacute;sence de magie, vous avez des sueurs froides et les poils de votre nuque se h&eacute;rissent. Lorsque vous &ecirc;tes sur le point d'entrer dans une zone impr&eacute;gn&eacute;e de magie ou sous l'influence d'un sort (comme un pi&egrave;ge magique), le MJ doit vous demander un test de Sagesse (Perception) DD 10 ou r&eacute;aliser ce test secr&egrave;tement. En cas de succ&egrave;s, vous ressentez la pr&eacute;sence de la magie juste avant d'y p&eacute;n&eacute;trer. La m&ecirc;me proc&eacute;dure doit &ecirc;tre utilis&eacute;e si vous vous pr&eacute;parez &agrave; toucher un objet ou une surface enchant&eacute;e.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685390,
+    "modifiedTime": 1663923686781,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!QlGTuNgAe3WGci4s"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Alerte réactive [Officier]",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "context": "",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_id": "17E7hV0SyUABVzK0",
+  "system": {
+    "description": {
+      "value": "<p>À partir du niveau 10, vous êtes si réactif que vous êtes capable de prévenir vos alliés avant qu'ils ne soient touchés par une attaque, atténuant ainsi les dégâts subis. Lorsqu'un allié est touché par une attaque, en utilisant votre réaction, vous pouvez dépenser un de vos dés de commandement. Jetez le dé et retranchez-en le résultat aux dégâts subis par votre allié.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette Role'n Play #7",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d8",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Guerrier / Officier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685150,
+    "modifiedTime": 1678407209689,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!17E7hV0SyUABVzK0"
+}

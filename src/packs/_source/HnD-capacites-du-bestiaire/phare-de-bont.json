@@ -1,0 +1,84 @@
+{
+  "name": "Phare de Bonté",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "_id": "dO6vUvk8bWWMjfai",
+  "system": {
+    "description": {
+      "value": "<p><strong>Phare de bont&eacute;.</strong> Les bateaux qui naviguent dans le rayon d'effet et dont l'&eacute;quipage est compos&eacute; majoritairement de cr&eacute;atures Bonnes b&eacute;n&eacute;ficient de vents favorables, ne s'ab&icirc;ment jamais en mer ou sur les c&ocirc;tes, et parcourent de plus grandes distances. Les p&ecirc;cheurs Bons b&eacute;n&eacute;ficient en outre de bonnes prises, &agrave; moins qu'ils s'en prennent aux mammif&egrave;res marins tels les dauphins ou les baleines.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon de Bronze (Effets Régionaux)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698922,
+    "modifiedTime": 1663923700015,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!dO6vUvk8bWWMjfai"
+}

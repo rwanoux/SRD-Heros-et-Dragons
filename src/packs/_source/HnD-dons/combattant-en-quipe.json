@@ -1,0 +1,96 @@
+{
+  "_id": "xYvQM1J2G478r4Uh",
+  "name": "Combattant en équipe",
+  "type": "feat",
+  "img": "modules/srd-heros-et-dragons/assets/icons/combattant-equipe.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Vous avez &eacute;t&eacute; entra&icirc;n&eacute; &agrave; combattre au sein d'une unit&eacute; et vous &ecirc;tes sensible aux notions militaires de fixation et de soutien.</p>\n<p>&nbsp;</p>\n<ul>\n<li>Lorsque vous r&eacute;ussissez une attaque de corps-&agrave;-corps, vous pouvez utiliser une action bonus pour focaliser l'attention de cet adversaire sur vous. La premi&egrave;re attaque effectu&eacute;e par un alli&eacute; contre cet adversaire avant votre prochain tour b&eacute;n&eacute;ficie d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage\"><em>avantage</em></a> au <a href=\"https://5e-drs.fr/combattre#jets-dattaque\">jet d'attaque</a>.</li>\n<li>&Agrave; votre tour, vous pouvez utiliser une action bonus pour soutenir un alli&eacute; &agrave; moins de 1,50 m&egrave;tres de vous. La premi&egrave;re attaque effectu&eacute;e contre cet alli&eacute; avant votre prochain tour souffre d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage\"><em>d&eacute;savantage</em></a> au <a href=\"https://5e-drs.fr/combattre#jets-dattaque\">jet d'attaque</a>.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685028,
+    "modifiedTime": 1663923685028,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!xYvQM1J2G478r4Uh"
+}

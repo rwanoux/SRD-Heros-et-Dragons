@@ -1,0 +1,100 @@
+{
+  "_id": "kM2ye55mtPhofEQg",
+  "name": "Lignée Draconique [Ensorceleur]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/fire/projectile-meteor-salvo-heavy-purple-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Lign&eacute;e Draconique</strong></h3>\n<p>&nbsp;</p>\n<div style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">\n<table style=\"box-sizing: border-box; user-select: text; width: 353px;\">\n<thead style=\"box-sizing: border-box; user-select: text;\">\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<th style=\"box-sizing: border-box; user-select: text; width: 46px;\">Niveau</th>\n<th style=\"box-sizing: border-box; user-select: text; width: 31px;\">Pouvoir</th>\n</tr>\n</thead>\n<tbody style=\"box-sizing: border-box; user-select: text;\">\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<td style=\"box-sizing: border-box; user-select: text; width: 46px;\">1</td>\n<td style=\"box-sizing: border-box; user-select: text; width: 31px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zYBh6RgaHV6NIiPk]{Anc&ecirc;tre dragon [Lign&eacute;e draconique]}</td>\n</tr>\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<td style=\"box-sizing: border-box; user-select: text; width: 46px;\">1</td>\n<td style=\"box-sizing: border-box; user-select: text; width: 31px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.g2vNNXioRXTplYzY]{R&eacute;sistance draconique [Lign&eacute;e draconique]}</td>\n</tr>\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<td style=\"box-sizing: border-box; user-select: text; width: 46px;\">6</td>\n<td style=\"box-sizing: border-box; user-select: text; width: 31px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cwFMPuHX2haHvan2]{Affinit&eacute; &eacute;l&eacute;mentaire [Lign&eacute;e draconique]}</td>\n</tr>\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<td style=\"box-sizing: border-box; user-select: text; width: 46px;\">14</td>\n<td style=\"box-sizing: border-box; user-select: text; width: 31px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RZzjL3h4YGgiVOzU]{Aile de dragon [Lign&eacute;e draconique]}</td>\n</tr>\n<tr style=\"box-sizing: border-box; user-select: text;\">\n<td style=\"box-sizing: border-box; user-select: text; width: 46px;\">18</td>\n<td style=\"box-sizing: border-box; user-select: text; width: 31px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8nyMR7W6AoyI9CQc]{Pr&eacute;sence draconique [Lign&eacute;e draconique]}</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685603,
+    "modifiedTime": 1678387964560,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!kM2ye55mtPhofEQg"
+}

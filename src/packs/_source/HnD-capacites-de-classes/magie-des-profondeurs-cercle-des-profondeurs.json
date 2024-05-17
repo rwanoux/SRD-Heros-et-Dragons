@@ -1,0 +1,84 @@
+{
+  "_id": "R2ZI28ysM1GQPYVm",
+  "name": "Magie des profondeurs [Cercle des profondeurs]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/projectiles-star-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"magie-des-profondeurs\"><strong>Magie des profondeurs</strong></h3>\n<p>Lorsque vous atteignez le niveau 10, vous pouvez utiliser forme sauvage une fois de plus par repos, si vous avez effectu&eacute; ce repos sous terre. De plus, lorsque vous &ecirc;tes sous forme sauvage, vous pouvez utiliser une action bonus pour d&eacute;penser un emplacement de sort et ajouter 1d6 par niveau du sort aux d&eacute;g&acirc;ts d'une attaque que vous venez de porter. Les d&eacute;g&acirc;ts de l'attaque sont consid&eacute;r&eacute;s comme magiques et du m&ecirc;me type que l'attaque initiale.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685392,
+    "modifiedTime": 1663923686788,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!R2ZI28ysM1GQPYVm"
+}

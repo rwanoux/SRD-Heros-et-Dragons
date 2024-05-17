@@ -1,0 +1,134 @@
+{
+  "_id": "NrVxmp4NrgdEygG3",
+  "name": "Carafe intarissable",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-flask-corked-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [
+          true
+        ],
+        "altValue": [
+          true
+        ],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Cette carafe coiffée d'un couvercle fait un bruit de liquide quand on la secoue, comme si elle contenait de l'eau. Elle pèse 1 kilo.</p>\n<p>Vous pouvez dépenser une action pour enlever le couvercle et prononcer l'un des trois mots de commande. De l'eau douce ou salée (à vous de choisir) se déverse alors. Elle cesse de couler au début de votre prochain tour. Choisissez l'une des options suivantes.</p>\n<ul>\n<li>« Ruisseau » produit 3,5 litres d'eau.</li>\n<li>« Fontaine » produit 17,5 litres d'eau.</li>\n<li>« Geyser » produit 105 litres d'eau qui jaillissent en un geyser de 9 mètres de long pour 30 centimètres de large. Vous pouvez utiliser une action bonus tout en tenant la carafe pour diriger le geyser contre une créature située dans un rayon de 9 mètres autour de vous. Elle doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Force DD 13 ou subir 1d4 dégâts contondants et tomber&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre\">à terre</a>. Vous pouvez viser un objet au lieu d'une créature, à condition que personne ne l'ait équipé ou ne le transporte et qu'il pèse au maximum 100 kilos. L'objet est renversé ou repoussé à 4,50 mètres de vous.</li>\n</ul>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1,
+    "price": 135000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Mot de commande."
+    },
+    "duration": {
+      "value": "",
+      "units": "turn"
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "m",
+      "type": "line"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701145,
+    "modifiedTime": 1663923702267,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NrVxmp4NrgdEygG3"
+}

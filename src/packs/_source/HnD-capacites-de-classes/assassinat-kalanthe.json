@@ -1,0 +1,84 @@
+{
+  "name": "Assassinat [Kalanthe]",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-dagger-poison-dripping-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "Yz9DYYzRicyIUf2c",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 17, lorsque vous utilisez votre aptitude @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.S9hHTC7e8wuCvkJD]{Impitoyable [Kalanthe]} pour porter une attaque au corps à corps, vous bénéficiez une seconde fois des effets d'une attaque sournoise dans le même tour (si vous remplissez les critères de l'attaque sournoise).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685446,
+    "modifiedTime": 1663923687025,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Yz9DYYzRicyIUf2c"
+}

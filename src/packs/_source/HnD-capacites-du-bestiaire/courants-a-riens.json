@@ -1,0 +1,84 @@
+{
+  "name": "Courants Aériens",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bats-movement-flying-purple.webp",
+  "_id": "K0We4bCtsafYbZqL",
+  "system": {
+    "description": {
+      "value": "<p><strong>Courants a&eacute;riens.</strong> De forts vents se l&egrave;vent dans une zone de 9 m&egrave;tres de rayon autour du dragon. Toutes les cr&eacute;atures qui p&eacute;n&egrave;trent ou commencent leur tour dans la zone doivent r&eacute;ussir un jet de sauvegarde de Force ou se retrouver entrav&eacute;e, flottant dans les airs &agrave; 1,50 m&egrave;tre du sol. Les gaz et vapeurs sont dispers&eacute;s, et les bougies, torches et autres flammes nues sont &eacute;teintes. Les vents se calment si le dragon meurt ou utilise une action d'antre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon d'Argent (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698794,
+    "modifiedTime": 1663923699487,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!K0We4bCtsafYbZqL"
+}

@@ -1,0 +1,100 @@
+{
+  "_id": "hdKYBYa3Zo3ccRTK",
+  "name": "marque de la mort (Membre de guilde-assassin)",
+  "type": "feat",
+  "img": "icons/magic/light/orbs-hand-gray.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "HD": "aptitudeHistorique",
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Par le truchement de votre guilde, vous savez avec qui prendre contact dans la plupart des villes de votre région d'origine, au cas où vous voudriez vous débarrasser d'un indésirable pour une somme modique, ou bien si vous souhaitez vous procurer du poison. Votre guilde entretient en outre une aura de mystère et de menace par une subtile manipulation de l'information, qui vous permet de vous prévaloir, grâce à quelques menaces voilées, d'aide ou d'information auprès de la population des cités où la guilde opère</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "membre de guilde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703917,
+    "modifiedTime": 1663923703997,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hdKYBYa3Zo3ccRTK"
+}

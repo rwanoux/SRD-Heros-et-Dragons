@@ -1,0 +1,40 @@
+{
+  "_id": "QWwuvXXoDXan7EFK",
+  "name": "Table de base argent 17 et +",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 1600000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "34762TrL4SmwLaIm",
+      "flags": {},
+      "type": 0,
+      "text": "1 [Table A argent] | 1 [Table B argent]  | 1 [Table C argent] | 1 [Table D argent]",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!QWwuvXXoDXan7EFK.34762TrL4SmwLaIm"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!QWwuvXXoDXan7EFK"
+}

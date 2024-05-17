@@ -1,0 +1,167 @@
+{
+  "_id": "BHutAYGtpNTTavmi",
+  "name": "Hache d'armes de Berserker",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-crescent-engraved-steel.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": []
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Vous gagnez un bonus de +1 aux jets d'attaque et de dégâts liés à cette arme magique. De plus, tant que vous êtes harmonisé avec elle, votre maximum de points de vie augmente de 1 par niveau que vous possédez.</p>\n<p>Malédiction. Cette hache est maudite et vous transmet sa malédiction dès que vous vous harmonisez avec elle. Tant que vous êtes maudit, vous refusez catégoriquement de vous séparer de la hache et la gardez à portée de main en toute circonstance. Vous subissez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a>&nbsp;si vous effectuez un jet d'attaque avec une autre arme, à moins que vous ne voyiez et n'entendiez pas d'ennemis dans un rayon de 18 mètres.</p>\n<p>Quand une créature hostile vous blesse alors que vous êtes en possession de cette hache, vous devez réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Sagesse DD 15 ou devenir fou furieux. Dans ce cas, vous devez utiliser votre action du round pour attaquer la créature la plus proche de vous avec la hache. Si vous êtes en mesure de porter des attaques supplémentaires lors d'une action d'Attaque, vous le faites et vous vous déplacez pour attaquer la créature la plus proche après votre cible actuelle une fois que vous avez éliminé celle-ci. Si vous avez plusieurs cibles à disposition, vous en attaquez une au hasard. Vous restez fou furieux jusqu'à ce que vous commenciez votre tour sans la moindre créature visible ou audible dans un rayon de 18 mètres.</p>\n<p>Harmonisation requise.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 2,
+    "price": 6000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +1",
+          "slashing"
+        ]
+      ],
+      "versatile": "1d10 + @mod +1"
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "battleaxe",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": true,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701063,
+    "modifiedTime": 1663923701985,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!BHutAYGtpNTTavmi"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "IM10cIO5vlmHyIBN",
+  "name": "[Guerrier] Philaxien",
+  "type": "subclass",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2><strong>Bretteur</strong></h2>\n<h3> </h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DS69sYXOJGdiwM0M]{Sans peur [Philaxien]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.otX3O7l121jmIdiJ]{Défense en phalange [Philaxien]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.57CRJeA9nAiMIjEI]{Détermination sans faille [Philaxien]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dcRsvdPcSkpKdD9t]{Attaque de second rang [Philaxien]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3cT5IMWLUf32sm1g]{Attaque en phalange [Philaxien]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JqStHk4gDFsLvsp7]{Général [Philaxien]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "philaxien",
+    "classIdentifier": "guerrier",
+    "advancement": [
+      {
+        "_id": "4h1t1jz0n3zzpjoy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JqStHk4gDFsLvsp7"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "25tcbvq8g8bjznw7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3cT5IMWLUf32sm1g"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "fj7lxr2yclhdc9xl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dcRsvdPcSkpKdD9t"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "m2oojros75jt9fln",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.57CRJeA9nAiMIjEI"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "ljqc2qccytivmcam",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DS69sYXOJGdiwM0M",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.otX3O7l121jmIdiJ"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703400,
+    "modifiedTime": 1663923703553,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!IM10cIO5vlmHyIBN"
+}

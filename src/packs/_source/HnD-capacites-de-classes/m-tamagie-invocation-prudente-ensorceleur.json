@@ -1,0 +1,84 @@
+{
+  "_id": "oUknhysqmuKIt8qU",
+  "name": "Métamagie - Invocation prudente [Ensorceleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"invocation-prudente\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Invocation prudente</strong></h3>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Quand vous lancez un sort qui force d'autres cr&eacute;atures &agrave; faire un jet de sauvegarde, vous pouvez choisir d'att&eacute;nuer l'effet du sort pour certaines de ces cr&eacute;atures. D&eacute;pensez 1 point de sorcellerie et s&eacute;lectionnez un nombre de cr&eacute;atures dont le maximum est &eacute;gal &agrave; votre modificateur de Charisme (avec un minimum d'une cr&eacute;ature). Les cr&eacute;atures d&eacute;sign&eacute;es r&eacute;ussissent automatiquement leur&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a> contre ce sort.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685627,
+    "modifiedTime": 1663923687490,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!oUknhysqmuKIt8qU"
+}

@@ -1,0 +1,108 @@
+{
+  "_id": "TZ3B9v4SOYeSVRZw",
+  "name": "Ailes de vol",
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Tant que vous &ecirc;tes &eacute;quip&eacute; de cette cape, vous pouvez utiliser une action pour prononcer son mot de commande. La cape se transforme alors en paire d'ailes de chauve-souris ou d'oiseau plac&eacute;e dans votre dos pendant 1 heure ou jusqu'au moment ou vous r&eacute;p&eacute;tez le mot de commande par une action. Les ailes vous conf&egrave;rent une vitesse de d&eacute;placement en vol de 18 m&egrave;tres. Il faut attendre 1d12 heures depuis la derni&egrave;re disparition des ailes avant de pouvoir les r&eacute;utiliser. </span></span></span></span></p>\n<p style=\"margin-bottom: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Harmonisation requise.</span></span></span></span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 5000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Mot de commande."
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "clothing",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701231,
+    "modifiedTime": 1663923702453,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!TZ3B9v4SOYeSVRZw"
+}

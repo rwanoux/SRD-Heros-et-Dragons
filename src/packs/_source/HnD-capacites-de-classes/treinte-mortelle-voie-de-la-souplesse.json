@@ -1,0 +1,84 @@
+{
+  "_id": "wmnCL9LWrcoAfvHl",
+  "name": "Étreinte mortelle [Voie de la Souplesse]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"etreinte-mortelle\"><strong>&Eacute;treinte mortelle</strong></h3>\n<p>&Agrave; partir du niveau 17, vous ma&icirc;trisez des cl&eacute;s, des techniques d'&eacute;tranglement ou de points de pression sur des nerfs qui vous permettent de plonger vos adversaires dans l'inconscience.</p>\n<p>Lorsque vous r&eacute;ussissez une empoignade, vous pouvez d&eacute;penser 3 points de ki pour obliger votre adversaire &agrave; faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution (DD = 8 + votre modificateur de Dext&eacute;rit&eacute; + votre bonus de ma&icirc;trise). En cas d'&eacute;chec, il devient&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconscient</a> pour 1d6 tours + votre modificateur de Sagesse. Cette aptitude est sans effet sur les &eacute;l&eacute;mentaires, les cr&eacute;atures artificielles, les vases et les morts-vivants.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": "Réussite d'une empoignade"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": "enemy"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 3
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "En cas d'échec, il devient inconscient pour x tours",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d6 + @abilities.wis.mod",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "requirements": "Moine",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685691,
+    "modifiedTime": 1663923687771,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!wmnCL9LWrcoAfvHl"
+}

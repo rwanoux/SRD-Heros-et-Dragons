@@ -1,0 +1,83 @@
+{
+  "_id": "ptCAJbf6VPJAhI7R",
+  "name": "[Barde] Collège des taromanciens",
+  "type": "subclass",
+  "img": "icons/tools/instruments/lute-gold-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"college-des-diplomates\"><strong>Collège des taromanciens</strong></h2>\n<h3> </h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.i41FpgX7aHmnrJvb]{Le pouvoir des lames}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VJmkBelww9OrEfG0]{Lames explosives}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SO4PBDnAdruZDyMq]{Conteneurs de sorts}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kFIBvQtGdl9KvXMd]{Chance insolente}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.I9cocZBLRIJ8bGEN]{Bouclier de lames}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eKpB9VaJZY16r1Cj]{Lames puissantes}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "college-des-taromanciens",
+    "classIdentifier": "barde",
+    "advancement": [
+      {
+        "_id": "bqvvvcvfdae3en5t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eKpB9VaJZY16r1Cj"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "e3qtmf96nre4eo6t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kFIBvQtGdl9KvXMd",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.I9cocZBLRIJ8bGEN"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "jyo0w0mqium9tonq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.i41FpgX7aHmnrJvb",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VJmkBelww9OrEfG0",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SO4PBDnAdruZDyMq"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703431,
+    "modifiedTime": 1663923703670,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ptCAJbf6VPJAhI7R"
+}

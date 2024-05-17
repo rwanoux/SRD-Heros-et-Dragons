@@ -1,0 +1,147 @@
+{
+  "_id": "8pUO04Dfaxfb29Bf",
+  "name": "Réincarnation",
+  "type": "spell",
+  "flags": {
+    "rsr5e": {
+      "quickOther": {
+        "context": "",
+        "value": true,
+        "altValue": true
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/light/explosion-star-large-teal-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous touchez un humanoïde mort ou un morceau du cadavre d'une telle créature. Si la créature est morte depuis 10 jours ou moins, le sort lui fabrique un nouveau corps adulte et y appelle son âme. Le sort échoue si l'âme n'est pas libre de gagner ce corps ou si elle ne le désire pas.</p>\n<p>La magie façonne un nouveau corps pour accueillir l'âme, ce qui risque de modifier la race de la créature. Le MJ lance 1d100 et consulte la table suivante pour déterminer quel sera le corps de la créature ramenée à la vie ou il en choisit un.</p>\n<div class='simple-responsive-table'><div><table><thead><tr><th class=\"text-align-center\">D100</th><th>Race</th></tr></thead><tbody><tr><td class=\"text-align-center\"><strong>01-03</strong></td><td>sangdragon</td></tr><tr><td class=\"text-align-center\"><strong>04-09</strong></td><td>nain des collines</td></tr><tr><td class=\"text-align-center\"><strong>10-15</strong></td><td>nain des montagnes</td></tr><tr><td class=\"text-align-center\"><strong>16-19</strong></td><td>nain des profondeurs</td></tr><tr><td class=\"text-align-center\"><strong>20-24</strong></td><td>elfe de sang</td></tr><tr><td class=\"text-align-center\"><strong>25-28</strong></td><td>elfe d'aether</td></tr><tr><td class=\"text-align-center\"><strong>29-32</strong></td><td>elfe de fer</td></tr><tr><td class=\"text-align-center\"><strong>33-39</strong></td><td>elfe des bois</td></tr><tr><td class=\"text-align-center\"><strong>40-44</strong></td><td>gnome des roches</td></tr><tr><td class=\"text-align-center\"><strong>45-47</strong></td><td>demi-elfe</td></tr><tr><td class=\"text-align-center\"><strong>48-49</strong></td><td>demi-ogre</td></tr><tr><td class=\"text-align-center\"><strong>50-52</strong></td><td>demi-orc</td></tr><tr><td class=\"text-align-center\"><strong>53-59</strong></td><td>halfelin pied-léger</td></tr><tr><td class=\"text-align-center\"><strong>60-66</strong></td><td>halfelin grand sabot</td></tr><tr><td class=\"text-align-center\"><strong>67-86</strong></td><td>humain</td></tr><tr><td class=\"text-align-center\"><strong>87-89</strong></td><td>homme serpent</td></tr><tr><td class=\"text-align-center\"><strong>90-92</strong></td><td>félys</td></tr><tr><td class=\"text-align-center\"><strong>93-96</strong></td><td>aasimar</td></tr><tr><td class=\"text-align-center\"><strong>97-100</strong></td><td>tieffelin</td></tr></tbody></table></div></div>\n<p>La créature réincarnée se souvient de son ancienne vie et de ses expériences passées. Elle conserve les capacités dont elle disposait sous sa forme d'origine, mais échange sa race précédente contre la nouvelle et modifie ses traits raciaux en conséquence.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "cover": null,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "contact"
+      }
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "1d100",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false,
+      "value": ""
+    },
+    "materials": {
+      "value": "Huiles et onguents rares d'une valeur minimale de 1000 po, que le sort consume",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923687960,
+    "modifiedTime": 1678415778346,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!8pUO04Dfaxfb29Bf"
+}

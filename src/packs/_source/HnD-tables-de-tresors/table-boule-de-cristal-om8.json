@@ -1,0 +1,92 @@
+{
+  "_id": "3w2e96mdWx9cRIwG",
+  "name": "Table Boule de cristal OM8",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 9900000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "Trésor",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "aOVnW5qYSaqBPVEQ",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Boule de cristal de lecture des pensées",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-air.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "KbDlyrROjeluOcvu",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_key": "!tables.results!3w2e96mdWx9cRIwG.aOVnW5qYSaqBPVEQ"
+    },
+    {
+      "_id": "3VwjHyut1Vjsl4YM",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Boule de cristal de télépathie",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-water.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "sUdN7ZrV4VVCh30E",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_key": "!tables.results!3w2e96mdWx9cRIwG.3VwjHyut1Vjsl4YM"
+    },
+    {
+      "_id": "C8bnzcKoEzfRFVBw",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 2,
+      "text": "Boule de cristal de vision suprême",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-fire.jpg",
+      "collection": "srd-heros-et-dragons.HnD-objets-magiques-et-trésors",
+      "resultId": "Ket7zjRxzA4IWyJV",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_key": "!tables.results!3w2e96mdWx9cRIwG.C8bnzcKoEzfRFVBw"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!3w2e96mdWx9cRIwG"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Insaisissable",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "KGUmwxs2anmREKCr",
+  "system": {
+    "description": {
+      "value": "<p>Vous obtenez l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> sur les tests d'Athlétisme ou d'Acrobaties afin d'éviter d'être <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne\">empoigné</a> ou <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave\">entravé</a> quand la créature tentant la manœuvre est de taille G ou plus.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Nain Taïvastotta",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698177,
+    "modifiedTime": 1663923698424,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!KGUmwxs2anmREKCr"
+}

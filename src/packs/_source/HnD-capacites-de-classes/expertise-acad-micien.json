@@ -1,0 +1,84 @@
+{
+  "_id": "YjXVwzCilA9MnMLj",
+  "name": "Expertise [Académicien]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"expertise\"><strong>Expertise</strong></h3>\n<p>Lorsque vous atteignez le niveau 6, vous &ecirc;tes devenu un expert de votre &eacute;cole de magie, ainsi dissiper ou r&eacute;sister aux sorts de cette &eacute;cole vous est plus facile que pour tout autre magicien. Vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lorsque vous faites un test d'Intelligence pour dissiper ou contrer un sort de votre &eacute;cole. Vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> aux jets de sauvegarde que vous faites pour r&eacute;sister aux sorts de votre propre &eacute;cole, sauf si le lanceur est lui aussi un sp&eacute;cialiste de cette &eacute;cole.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685442,
+    "modifiedTime": 1663923687009,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!YjXVwzCilA9MnMLj"
+}

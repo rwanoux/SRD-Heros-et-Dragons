@@ -1,0 +1,91 @@
+{
+  "_id": "wyToGB0l1PFDPNDm",
+  "name": "Table B 4 à 7",
+  "permission": {
+    "default": 0,
+    "dpzA8WMB8TWxbuiv": 3
+  },
+  "folder": "vVTDSYsguUPXB21e",
+  "sort": 700000,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "loot",
+      "table-currency-string": "",
+      "loot-actor-name": "",
+      "loot-amount-key": ""
+    }
+  },
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "POwWC7HaSTWwb4Z1",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "type": 0,
+      "text": "Aucun trésor",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 0,
+      "range": [
+        1,
+        14
+      ],
+      "drawn": false,
+      "_key": "!tables.results!wyToGB0l1PFDPNDm.POwWC7HaSTWwb4Z1"
+    },
+    {
+      "_id": "XeZpgejsxdlkHad7",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1"
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table objet",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "HPJJ3I74WPAf87K6",
+      "weight": 1,
+      "range": [
+        15,
+        18
+      ],
+      "drawn": false,
+      "_key": "!tables.results!wyToGB0l1PFDPNDm.XeZpgejsxdlkHad7"
+    },
+    {
+      "_id": "r2z1Yydx8yG0uNpf",
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": "1d3"
+          }
+        }
+      },
+      "type": 1,
+      "text": "Table objet",
+      "img": "icons/svg/d20-grey.svg",
+      "collection": "RollTable",
+      "resultId": "HPJJ3I74WPAf87K6",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_key": "!tables.results!wyToGB0l1PFDPNDm.r2z1Yydx8yG0uNpf"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_key": "!tables!wyToGB0l1PFDPNDm"
+}
