@@ -48,7 +48,10 @@
     },
     "source": "Cadre de campagne",
     "quantity": 1,
-    "weight": 2.5,
+    "weight": {
+      "value": 2.5,
+      "units": "lb"
+    },
     "price": 8000,
     "attunement": 0,
     "equipped": false,

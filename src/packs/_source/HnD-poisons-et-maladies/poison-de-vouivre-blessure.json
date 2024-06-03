@@ -15,7 +15,10 @@
     },
     "source": "Créatures et Oppositions",
     "quantity": 1,
-    "weight": 0.5,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
     "price": 1200,
     "attunement": 0,
     "equipped": false,

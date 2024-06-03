@@ -15,7 +15,10 @@
     },
     "source": "Peu courante",
     "quantity": 1,
-    "weight": 0.5,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
     "price": 4000,
     "attunement": 0,
     "equipped": false,

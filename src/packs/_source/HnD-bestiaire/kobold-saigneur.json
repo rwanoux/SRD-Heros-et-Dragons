@@ -515,7 +515,10 @@
         },
         "source": "Manuel de Règles",
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
         "price": 2,
         "attunement": 0,
         "equipped": true,
