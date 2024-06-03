@@ -20,7 +20,10 @@
     },
     "source": "PHB pg. 154",
     "quantity": 1,
-    "weight": 4.5,
+    "weight": {
+      "value": 4.5,
+      "units": "lb"
+    },
     "price": 20,
     "attunement": 0,
     "equipped": false,

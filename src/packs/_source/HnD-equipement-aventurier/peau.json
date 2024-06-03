@@ -24,7 +24,10 @@
     },
     "source": "Manuel des Règles",
     "quantity": 1,
-    "weight": 6,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
     "price": 10,
     "attunement": 0,
     "equipped": false,

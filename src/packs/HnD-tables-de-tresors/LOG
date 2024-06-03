@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2024/03/31-13:44:37.297 7fc Recovering log #10
 2024/03/31-13:44:37.392 7fc Delete type=0 #10
 2024/03/31-13:44:37.392 7fc Delete type=3 #9
@@ -31,3 +32,20 @@
 2024/05/17-11:46:32.181 3cb8 Delete type=0 #7
 2024/05/17-11:46:32.181 3cb8 Delete type=3 #6
 >>>>>>> 4362647 (bug fix packs and update configurations (again))
+=======
+2024/06/03-10:33:55.272 9950 Recovering log #9
+2024/06/03-10:33:55.277 9950 Delete type=0 #9
+2024/06/03-10:33:55.277 9950 Delete type=3 #8
+2024/06/03-10:33:55.310 4bb0 Level-0 table #13: started
+2024/06/03-10:33:55.319 4bb0 Level-0 table #13: 391026 bytes OK
+2024/06/03-10:33:55.320 4bb0 Delete type=0 #11
+2024/06/03-10:33:55.320 4bb0 Manual compaction at level-0 from '!tables!02m5jiHtG9tpm500' @ 72057594037927935 : 1 .. '!tables.results!zKQhqR4EyOpWDngj.y31xisj35UX2J0NG' @ 0 : 0; will stop at (end)
+2024/06/03-10:33:55.320 4bb0 Manual compaction at level-1 from '!tables!02m5jiHtG9tpm500' @ 72057594037927935 : 1 .. '!tables.results!zKQhqR4EyOpWDngj.y31xisj35UX2J0NG' @ 0 : 0; will stop at '!tables.results!zKQhqR4EyOpWDngj.y31xisj35UX2J0NG' @ 2718 : 1
+2024/06/03-10:33:55.320 4bb0 Compacting 1@1 + 1@2 files
+2024/06/03-10:33:55.334 4bb0 Generated table #14@1: 2660 keys, 391026 bytes
+2024/06/03-10:33:55.334 4bb0 Compacted 1@1 + 1@2 files => 391026 bytes
+2024/06/03-10:33:55.334 4bb0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/03-10:33:55.334 4bb0 Delete type=2 #5
+2024/06/03-10:33:55.334 4bb0 Delete type=2 #13
+2024/06/03-10:33:55.334 4bb0 Manual compaction at level-1 from '!tables.results!zKQhqR4EyOpWDngj.y31xisj35UX2J0NG' @ 2718 : 1 .. '!tables.results!zKQhqR4EyOpWDngj.y31xisj35UX2J0NG' @ 0 : 0; will stop at (end)
+>>>>>>> 8b93edd (update for dnd5e 3.2.0 and modify the manifest to install on v12)

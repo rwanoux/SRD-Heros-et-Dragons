@@ -263,7 +263,10 @@
         },
         "source": "Manuel des Règles",
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
         "price": 5,
         "attunement": 0,
         "equipped": true,
@@ -429,7 +432,10 @@
         },
         "source": "Manuel des Règles",
         "quantity": 1,
-        "weight": 9,
+        "weight": {
+          "value": 9,
+          "units": "lb"
+        },
         "price": 50,
         "attunement": 0,
         "equipped": true,
@@ -560,7 +566,10 @@
         },
         "source": "Manuel des Règles",
         "quantity": 1,
-        "weight": 5,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
         "price": 10,
         "attunement": 0,
         "equipped": true,

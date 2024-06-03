@@ -57,7 +57,10 @@
     },
     "source": "Manuel des règles",
     "quantity": 1,
-    "weight": 1.5,
+    "weight": {
+      "value": 1.5,
+      "units": "lb"
+    },
     "price": 20,
     "attunement": 0,
     "equipped": false,
