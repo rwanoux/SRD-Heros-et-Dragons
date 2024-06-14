@@ -391,7 +391,10 @@
         },
         "source": "Manuel des Règles",
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
         "price": 50,
         "attunement": 0,
         "equipped": true,
@@ -559,7 +562,10 @@
         },
         "source": "Manuel des Règles",
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
         "price": 10,
         "attunement": 0,
         "equipped": true,
@@ -1742,7 +1748,7 @@
     "coreVersion": "10.286",
     "createdTime": 1663923690115,
     "modifiedTime": 1663923694377,
-    "lastModifiedBy": "packsebuilder0000"
+    "lastModifiedBy": "packsbuilder0000"
   },
   "_key": "!actors!5QwdyNYb5wP8QxbG"
 }

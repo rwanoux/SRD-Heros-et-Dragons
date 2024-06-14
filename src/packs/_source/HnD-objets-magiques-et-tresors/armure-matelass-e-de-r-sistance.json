@@ -15,7 +15,10 @@
     },
     "source": "Cadre de campagne",
     "quantity": 1,
-    "weight": 4,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
     "price": 6005,
     "attunement": 0,
     "equipped": false,
@@ -102,7 +105,7 @@
     "coreVersion": "10.286",
     "createdTime": 1663923701369,
     "modifiedTime": 1663923703022,
-    "lastModifiedBy": "packsebuilder0000"
+    "lastModifiedBy": "packsbuilder0000"
   },
   "_key": "!items!od8n8UzQjH8ePVFp"
 }
