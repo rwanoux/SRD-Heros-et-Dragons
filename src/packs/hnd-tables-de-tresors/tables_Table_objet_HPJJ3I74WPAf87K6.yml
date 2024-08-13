@@ -1,0 +1,832 @@
+_id: HPJJ3I74WPAf87K6
+name: Table objet
+folder: vVTDSYsguUPXB21e
+sort: 2000000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+  exportSource:
+    world: donjon
+    system: dnd5e
+    coreVersion: 0.7.9
+    systemVersion: 1.2.4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: 9XwqM0TTqtMKnfNV
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: pack
+    text: Acide (fiole)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/grand-green.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: daIbtuCfSlB7wGoS
+    _key: '!tables.results!HPJJ3I74WPAf87K6.9XwqM0TTqtMKnfNV'
+  - _id: QRRGwYwdA5Ardie6
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: pack
+    text: Antitoxine (fiole)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/grand-violet.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: pJryLHLHWRJz7IvK
+    _key: '!tables.results!HPJJ3I74WPAf87K6.QRRGwYwdA5Ardie6'
+  - _id: v8IFzPbYFuAkAG0D
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Arbalète de poing
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/crossbow-light.jpg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: zHcHKHlQekhth0nH
+    _key: '!tables.results!HPJJ3I74WPAf87K6.v8IFzPbYFuAkAG0D'
+  - _id: tONLcCNkN9xo5G7O
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Arc court
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/bow-short.jpg
+    weight: 1
+    range:
+      - 7
+      - 8
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: tFCNOc8PwlmrE4d9
+    _key: '!tables.results!HPJJ3I74WPAf87K6.tONLcCNkN9xo5G7O'
+  - _id: LBrjO26KE77zzFNC
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Arc long
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/bow-long.jpg
+    weight: 1
+    range:
+      - 9
+      - 10
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: ESsmMkJi2FYMuVXG
+    _key: '!tables.results!HPJJ3I74WPAf87K6.LBrjO26KE77zzFNC'
+  - _id: ACQZLlQE389zh9Na
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Cuir clouté
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/studded.png
+    weight: 1
+    range:
+      - 11
+      - 12
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: HWol8EuXTbwQNKj3
+    _key: '!tables.results!HPJJ3I74WPAf87K6.ACQZLlQE389zh9Na'
+  - _id: 49wjPtsYLGSnAQPj
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/shield.png
+    weight: 1
+    range:
+      - 13
+      - 14
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: O2P5Y0pyROoFP9Zk
+    _key: '!tables.results!HPJJ3I74WPAf87K6.49wjPtsYLGSnAQPj'
+  - _id: G2WWCmRec0JeMvZl
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Broigne
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/studded.png
+    weight: 1
+    range:
+      - 15
+      - 16
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: q4R34v0G8x8pJ1iF
+    _key: '!tables.results!HPJJ3I74WPAf87K6.G2WWCmRec0JeMvZl'
+  - _id: pK7al7NVyNUfC7kS
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Cadenas
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/lock.jpg
+    weight: 1
+    range:
+      - 17
+      - 18
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: WDya9zFqh78HWdtb
+    _key: '!tables.results!HPJJ3I74WPAf87K6.pK7al7NVyNUfC7kS'
+  - _id: C6X6EU6YaUEcwxiy
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Carquois
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/arrows.jpg
+    weight: 1
+    range:
+      - 19
+      - 20
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: JFFscDWQHY7Tffed
+    _key: '!tables.results!HPJJ3I74WPAf87K6.C6X6EU6YaUEcwxiy'
+  - _id: ru0x9Zs7CiSTMSMz
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Carreaux d'arbalète
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/bolt.png
+    weight: 1
+    range:
+      - 21
+      - 22
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: BbrrZQCfU2FeYTes
+    _key: '!tables.results!HPJJ3I74WPAf87K6.ru0x9Zs7CiSTMSMz'
+  - _id: yh2Ek2eA8OpR8tWE
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Chausse-trappes (sac de 20)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/caltrop.jpg
+    weight: 1
+    range:
+      - 23
+      - 24
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: 9PUzRrqsQ7hPwzwT
+    _key: '!tables.results!HPJJ3I74WPAf87K6.yh2Ek2eA8OpR8tWE'
+  - _id: tr5AWnqwEi4gspGW
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Chemise de mailles
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/scale.png
+    weight: 1
+    range:
+      - 25
+      - 26
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: j5junSRXSTXqE7Ek
+    _key: '!tables.results!HPJJ3I74WPAf87K6.tr5AWnqwEi4gspGW'
+  - _id: b4uWuYghMYBckzsu
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Cimeterre
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-curved.jpg
+    weight: 1
+    range:
+      - 27
+      - 28
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: eZor67lsNKrdgPMT
+    _key: '!tables.results!HPJJ3I74WPAf87K6.b4uWuYghMYBckzsu'
+  - _id: fOGJ8AEfI6HM0iyw
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Corde en soie (15 m)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/rope.jpg
+    weight: 1
+    range:
+      - 29
+      - 30
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: iPFFYGig579yAoj4
+    _key: '!tables.results!HPJJ3I74WPAf87K6.fOGJ8AEfI6HM0iyw'
+  - _id: 1z8j4djr8x3rIWgw
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Dague
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/dagger.jpg
+    weight: 1
+    range:
+      - 31
+      - 32
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: xaO8XKPranRxWLeO
+    _key: '!tables.results!HPJJ3I74WPAf87K6.1z8j4djr8x3rIWgw'
+  - _id: eRdWTIhi6AI7ctZl
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Outils de forgeron
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/hammer.jpg
+    weight: 1
+    range:
+      - 33
+      - 34
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: uM7etskcaXUWjqY7
+    _key: '!tables.results!HPJJ3I74WPAf87K6.eRdWTIhi6AI7ctZl'
+  - _id: PVp3X0YfxLCGcMCn
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: pack
+    text: Eau bénite (flasque)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/minor-empty.jpg
+    weight: 1
+    range:
+      - 35
+      - 36
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: Si2Cs0c4xuvbfEcM
+    _key: '!tables.results!HPJJ3I74WPAf87K6.PVp3X0YfxLCGcMCn'
+  - _id: N3SUMa3FJDCyF344
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Épée longue
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-long.jpg
+    weight: 1
+    range:
+      - 37
+      - 38
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: 6abh4Un1NxeBy8nt
+    _key: '!tables.results!HPJJ3I74WPAf87K6.N3SUMa3FJDCyF344'
+  - _id: JK6udzHtNsEPjGRn
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Étui à cartes ou parchemins
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/briefcase.jpg
+    weight: 1
+    range:
+      - 39
+      - 40
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: 4rabf11wOhAccDlb
+    _key: '!tables.results!HPJJ3I74WPAf87K6.JK6udzHtNsEPjGRn'
+  - _id: 9lD8O9KGmyxK5dJX
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Feu grégeois (flasque)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/grand-yellow.jpg
+    weight: 1
+    range:
+      - 41
+      - 42
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: MrBaS2Rsssqpokcn
+    _key: '!tables.results!HPJJ3I74WPAf87K6.9lD8O9KGmyxK5dJX'
+  - _id: DnGEXdbzeZXkBRsz
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d6
+    type: pack
+    text: Parchemin (une feuille)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/parchment.jpg
+    weight: 1
+    range:
+      - 43
+      - 44
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: TGPGTlVTlKy2Hvt4
+    _key: '!tables.results!HPJJ3I74WPAf87K6.DnGEXdbzeZXkBRsz'
+  - _id: b111SY4JWFGLIo6u
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: 'Instrument de Musique: Flûte de Pan'
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/flute.jpg
+    weight: 1
+    range:
+      - 45
+      - 46
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: kyCSTrJw4ffY3RLg
+    _key: '!tables.results!HPJJ3I74WPAf87K6.b111SY4JWFGLIo6u'
+  - _id: 32N8FkqM091kCENx
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Lampe
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/lamp.jpg
+    weight: 1
+    range:
+      - 47
+      - 48
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: Gq5G3cGBXwpPp12i
+    _key: '!tables.results!HPJJ3I74WPAf87K6.32N8FkqM091kCENx'
+  - _id: W1dHHPpSbDBzTgeu
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Ensemble de jeux
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/dice.jpg
+    weight: 1
+    range:
+      - 49
+      - 50
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: sJQm5fx4goBVclLt
+    _key: '!tables.results!HPJJ3I74WPAf87K6.W1dHHPpSbDBzTgeu'
+  - _id: BtDhUpWAFd9mLi5x
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Gamelle
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/fork.jpg
+    weight: 1
+    range:
+      - 51
+      - 52
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: RRI4R6PYuTvSrE5L
+    _key: '!tables.results!HPJJ3I74WPAf87K6.BtDhUpWAFd9mLi5x'
+  - _id: TnId9HkeRXL5lTqG
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Longue-vue
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/emerald_11.jpg
+    weight: 1
+    range:
+      - 59
+      - 60
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: wI24AU6UMZ7dkvOg
+    _key: '!tables.results!HPJJ3I74WPAf87K6.TnId9HkeRXL5lTqG'
+  - _id: QmH6vPeohdHhNddg
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Loupe
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/mechanical-part.jpg
+    weight: 1
+    range:
+      - 61
+      - 62
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: N6rQSm2nwuAAJicn
+    _key: '!tables.results!HPJJ3I74WPAf87K6.QmH6vPeohdHhNddg'
+  - _id: myUUh6BZOwm3NTDl
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: 'Instrument de Musique: Lyre'
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/lute.jpg
+    weight: 1
+    range:
+      - 63
+      - 64
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: mxQbc1txvgQkLfp4
+    _key: '!tables.results!HPJJ3I74WPAf87K6.myUUh6BZOwm3NTDl'
+  - _id: xlRRT00n88nr5EDs
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Matériel d'alchimiste
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/herbalism-kit.jpg
+    weight: 1
+    range:
+      - 65
+      - 66
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: 3qWIop1BPsm4uTve
+    _key: '!tables.results!HPJJ3I74WPAf87K6.xlRRT00n88nr5EDs'
+  - _id: joLKpg9kz1pVa02x
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: ''
+    img: null
+    weight: 1
+    range:
+      - 67
+      - 68
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-tables-de-rencontres-aleatoires
+    documentId: null
+    _key: '!tables.results!HPJJ3I74WPAf87K6.joLKpg9kz1pVa02x'
+  - _id: co3LX5KvzDFTHFyG
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Matériel d'herboriste
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/herbalism-kit.jpg
+    weight: 1
+    range:
+      - 69
+      - 70
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: scRW0kzmOnExZWl7
+    _key: '!tables.results!HPJJ3I74WPAf87K6.co3LX5KvzDFTHFyG'
+  - _id: huNtXRMzT6dvsRy7
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Masse d'armes
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/morningstar.jpg
+    weight: 1
+    range:
+      - 71
+      - 72
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: fh7IUsXvGeCoIPZt
+    _key: '!tables.results!HPJJ3I74WPAf87K6.huNtXRMzT6dvsRy7'
+  - _id: ItSDP4MCFGuGSONV
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Outils de voleur
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/lockpick.jpg
+    weight: 1
+    range:
+      - 73
+      - 74
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: zXhWacaD8ofcH7rI
+    _key: '!tables.results!HPJJ3I74WPAf87K6.ItSDP4MCFGuGSONV'
+  - _id: 7JeUx2bwmXPURSFu
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Miroir en acier
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/badge-coin.jpg
+    weight: 1
+    range:
+      - 75
+      - 76
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: JF9vb6e86CJHcdfH
+    _key: '!tables.results!HPJJ3I74WPAf87K6.7JeUx2bwmXPURSFu'
+  - _id: IXqG36q1MPd6OvXG
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: pack
+    text: Poison (fiole)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/unique-7.jpg
+    weight: 1
+    range:
+      - 77
+      - 78
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: J5F9bBxpkpLA7Pr9
+    _key: '!tables.results!HPJJ3I74WPAf87K6.IXqG36q1MPd6OvXG'
+  - _id: RSsZOywZwBhxh7xa
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: '14'
+    type: pack
+    text: Potion de soins
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/minor-red.jpg
+    weight: 1
+    range:
+      - 79
+      - 80
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: bUik7v6tvpTWNKj0
+    _key: '!tables.results!HPJJ3I74WPAf87K6.RSsZOywZwBhxh7xa'
+  - _id: WMGa5lRUHLezJG3Z
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Rapière
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/sword-short.jpg
+    weight: 1
+    range:
+      - 81
+      - 82
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: EplFqMSYSHjnE9pS
+    _key: '!tables.results!HPJJ3I74WPAf87K6.WMGa5lRUHLezJG3Z'
+  - _id: d1OnzzQvp3WoJ3Jq
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Robes (d'apparat)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/robe.jpg
+    weight: 1
+    range:
+      - 83
+      - 84
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: UfdPSjPwE2jIA6WU
+    _key: '!tables.results!HPJJ3I74WPAf87K6.d1OnzzQvp3WoJ3Jq'
+  - _id: 9pyZQRIP34gW6chM
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sablier
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/stopwatch.jpg
+    weight: 1
+    range:
+      - 85
+      - 86
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: Wf72SQGmaxIO5OUr
+    _key: '!tables.results!HPJJ3I74WPAf87K6.9pyZQRIP34gW6chM'
+  - _id: MaluFFYvGCRkQQjI
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sac à dos
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/backpack.jpg
+    weight: 1
+    range:
+      - 87
+      - 88
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: UvIvL1vsfCkEDVtc
+    _key: '!tables.results!HPJJ3I74WPAf87K6.MaluFFYvGCRkQQjI'
+  - _id: kOdLBYWGvVhxt78W
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sarbacane
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff.png
+    weight: 1
+    range:
+      - 89
+      - 90
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: u14vPUiz0Kexcsxw
+    _key: '!tables.results!HPJJ3I74WPAf87K6.kOdLBYWGvVhxt78W'
+  - _id: SsNlSmtpo0nlKWns
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Selle d'équitation
+    img: https://assets.forge-vtt.com/bazaar/core/icons/svg/mystery-man.svg
+    weight: 1
+    range:
+      - 91
+      - 92
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: DX69kuzo1YzzTPOQ
+    _key: '!tables.results!HPJJ3I74WPAf87K6.SsNlSmtpo0nlKWns'
+  - _id: RjdBnk6Wfgx7fDAu
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Outre
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/flask.jpg
+    weight: 1
+    range:
+      - 93
+      - 94
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: Btwo7jh9xQwmsu3W
+    _key: '!tables.results!HPJJ3I74WPAf87K6.RjdBnk6Wfgx7fDAu'
+  - _id: lplPwPEbdXIe1TJq
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Matériel d'herboriste
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/herbalism-kit.jpg
+    weight: 1
+    range:
+      - 95
+      - 96
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: scRW0kzmOnExZWl7
+    _key: '!tables.results!HPJJ3I74WPAf87K6.lplPwPEbdXIe1TJq'
+  - _id: 9vIijjPGgxvnaxSX
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Trident
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/arrow_13.jpg
+    weight: 1
+    range:
+      - 97
+      - 98
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: xTfpqdpY1EMyDtX4
+    _key: '!tables.results!HPJJ3I74WPAf87K6.9vIijjPGgxvnaxSX'
+  - _id: iFPa2gKwvFPQcbMQ
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Trousse de soin
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/herbalism-kit.jpg
+    weight: 1
+    range:
+      - 99
+      - 100
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-équipement-aventurier
+    documentId: 3g4EnUPESX9n2Y0N
+    _key: '!tables.results!HPJJ3I74WPAf87K6.iFPa2gKwvFPQcbMQ'
+formula: 1d100
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!HPJJ3I74WPAf87K6'
+

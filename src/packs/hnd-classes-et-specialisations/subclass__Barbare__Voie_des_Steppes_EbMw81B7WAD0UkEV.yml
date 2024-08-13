@@ -1,0 +1,80 @@
+_id: EbMw81B7WAD0UkEV
+name: '[Barbare] Voie des Steppes'
+type: subclass
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"voie-de-l-acier\"><strong>Voie des Steppes</strong></h2>\n<h3>\_</h3>\n<p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xcqo6dwfjT0szRWX]{Animal totem}</p>\n<p id=\"le-secret-de-l-acier\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nALYptgvEnQC5MNH]{Rage totémique}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tlHq78VZ3oYdFI7T]{L'esprit de la bête}</p>\n<p id=\"briseur-de-sort\"><span style=\"font-size:1.125em\"><span style=\"font-size:14px\">Niveau 10</span><span style=\"font-size:14px\"> </span>:</span><span style=\"font-size:1.125em\"> @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JqJl4SbfdJq7UPFK]{Fureur de la bête}</span></p>\n<p id=\"rage-froide\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1ZnFOTpPeUVpnQOY]{La puissance de la bête}</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: voie-des-steppes
+  classIdentifier: barbare
+  advancement:
+    - _id: 6iqnsj3ss23w93x1
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1ZnFOTpPeUVpnQOY
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: 3rhw0ul5vr6yng9n
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JqJl4SbfdJq7UPFK
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: 35c39fr9n3rqx0gw
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tlHq78VZ3oYdFI7T
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nALYptgvEnQC5MNH
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: i5vv17opywyonuyn
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xcqo6dwfjT0szRWX
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703396
+  modifiedTime: 1663923703538
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EbMw81B7WAD0UkEV'
+

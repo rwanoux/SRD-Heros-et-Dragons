@@ -1,0 +1,258 @@
+_id: nYiLCzpIi0E4hQRl
+name: Forme monstrueuse [Cercle des profondeurs]
+type: feat
+img: icons/creatures/invertebrates/spider-beetle-runed-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  rest-recovery:
+    data:
+      recovery:
+        enabled: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="forme-monstrueuse"><strong>Forme monstrueuse&nbsp;</strong></h3>
+
+      <p>Le druide du cercle des profondeurs reconna&icirc;t les
+      cr&eacute;atures &eacute;tranges comme des enfants de la nature au
+      m&ecirc;me titre que les animaux. &Agrave; partir du niveau 2, vous pouvez
+      sacrifier deux formes sauvages pour vous transformer en cr&eacute;ature
+      monstrueuse, l'ID et les cr&eacute;atures auxquelles vous avez
+      acc&egrave;s sont pr&eacute;cis&eacute;s dans le tableau ci-dessous.</p>
+
+      <p>De plus, vous doublez votre niveau de druide pour d&eacute;terminer les
+      formes sauvages de b&ecirc;tes auxquelles vous pouvez acc&eacute;der
+      (indice de dangerosit&eacute; et mode de d&eacute;placement). &Agrave;
+      partir du niveau 8, vous gagnez la capacit&eacute; de vous transformer en
+      une b&ecirc;te dont l'indice de dangerosit&eacute; est &eacute;gal
+      &agrave; votre niveau de druide divis&eacute; par quatre (arrondi &agrave;
+      l'inf&eacute;rieur).</p>
+
+      <div>
+
+      <table style="width: 466px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 77px;">Niveau 2</th>
+
+      <th style="width: 97px;">Niveau 4</th>
+
+      <th style="width: 82px;">Niveau 8</th>
+
+      <th style="width: 98px;">Niveau 12</th>
+
+      <th style="width: 106px;">Niveau 18</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width:
+      75px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.r0lG5ANl8SkctgXu]{Oxydeur}
+      (ID 1/2)</td>
+
+      <td style="width:
+      95px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.53Fy6Ot0tpOqP78t]{Chien
+      du tr&eacute;pas} (ID 1)</td>
+
+      <td style="width:
+      80px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.uS7DzZ3Rk7TPy42x]{Ankheg}
+      (ID 2)</td>
+
+      <td style="width:
+      96px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.redcOgyLQU0nyiIT]{Basilic}
+      (ID 3)</td>
+
+      <td style="width:
+      104px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.vKdnqHWda4q77ZOS]{Bulette}
+      (ID 5)</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:
+      75px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.JXgsPNEq23xVfWx1]{Worg}
+      (ID 1/2)</td>
+
+      <td style="width:
+      95px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.5DY3BBiwWSgieZer]{Cockatrice}
+      (ID 1/2)</td>
+
+      <td style="width:
+      80px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.LXm8FGDGZPO6vgHF]{Ettercap}
+      (ID 2)</td>
+
+      <td style="width:
+      96px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.wQBMzXBujTAyIz9s]{Hibours}
+      (ID 3)</td>
+
+      <td style="width:
+      104px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.jRT9ve5RqAco9nn1]{Enlaceur}
+      (ID 5)</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 75px;">&nbsp;</td>
+
+      <td style="width:
+      95px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.ifTAbDbLgbWngP8t]{Harpie}
+      (ID 1)</td>
+
+      <td style="width:
+      80px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.kFSUcFhuJdNP4iKx]{Grick}
+      (ID 2)</td>
+
+      <td style="width:
+      96px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.3YeOuZ8d1KKyUXO8]{Loup
+      arctique} (ID 3)</td>
+
+      <td style="width:
+      104px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.ghD2LbAr1sv4VHC0]{Gorgone}
+      (ID 5)</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 75px;">&nbsp;</td>
+
+      <td style="width:
+      95px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.QJiaDx0NZB0qWOZB]{Larve
+      des roches} (ID 1)</td>
+
+      <td style="width:
+      80px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.BcaXw3DHl42mVi6P]{Merrow}
+      (ID 2)*</td>
+
+      <td style="width:
+      96px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.1N9JRhq7F58PYuo1]{Manticore}
+      (ID 3)</td>
+
+      <td style="width:
+      104px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.EGB6TiMtkFmyEvS3]{Terreur
+      des roches} (ID 5)</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 75px;">&nbsp;</td>
+
+      <td style="width:
+      95px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.00u404rWBExeFb3r]{Mante
+      obscure} (ID 1/2)</td>
+
+      <td style="width:
+      80px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.2QG5aKdWBexyVBR9]{Mimique}
+      (ID 2)</td>
+
+      <td style="width:
+      96px;">@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.uFqDe05hrmaJNqvA]{Minotaure}
+      (ID 3)*</td>
+
+      <td style="width: 104px;">&nbsp;</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>*Le druide n'obtient aucun &eacute;quipement lorsqu'il prend cette
+      forme, s'il veut r&eacute;aliser une attaque avec une arme, il doit se la
+      procurer d'une fa&ccedil;on ou d'une autre.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 2
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685620
+  modifiedTime: 1663923687462
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!nYiLCzpIi0E4hQRl'
+

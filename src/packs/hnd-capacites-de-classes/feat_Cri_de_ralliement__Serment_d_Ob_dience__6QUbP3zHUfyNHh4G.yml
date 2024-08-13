@@ -1,0 +1,122 @@
+_id: 6QUbP3zHUfyNHh4G
+name: Cri de ralliement [Serment d'Obédience]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="cri-de-ralliement"><strong>Cri de ralliement</strong></h3>
+
+      <p>&Agrave; partir du niveau 7, vous pouvez haranguer vos compagnons et
+      les exhorter &agrave; faire de leur mieux. Tous vos alli&eacute;s dans un
+      rayon de 9 m&egrave;tres autour de vous r&eacute;cup&egrave;rent 1d6 +
+      votre modificateur de Charisme points de vie. De plus, tous ceux qui
+      &eacute;taient&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charm&eacute;s</a>,&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terroris&eacute;s</a>&nbsp;ou&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#paralyse">paralys&eacute;s</a>&nbsp;suite
+      &agrave; un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;rat&eacute; peuvent tenter un nouveau&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;(avec le m&ecirc;me DD) afin de se lib&eacute;rer
+      de leur condition. Ils obtiennent un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;sur
+      ce&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>. Vous devez terminer un repos court ou long avant de
+      pouvoir de nouveau utiliser cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: ft
+    type: ally
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6 + @abilities.cha.mod
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685191
+  modifiedTime: 1678412992774
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!6QUbP3zHUfyNHh4G'
+

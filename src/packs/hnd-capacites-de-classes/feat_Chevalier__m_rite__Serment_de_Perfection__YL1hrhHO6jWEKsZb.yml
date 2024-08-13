@@ -1,0 +1,107 @@
+_id: YL1hrhHO6jWEKsZb
+name: Chevalier émérite [Serment de Perfection]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/fire/dagger-rune-enchant-blue-gray.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="chevalier-emerite"><strong>Chevalier
+      &eacute;m&eacute;rite</strong></h3>
+
+      <p>Au niveau 7, lorsque vous utilisez le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4PwbA7aFrI0IScAD]{Trouver
+      une monture}, vous pouvez appeler un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.sWjWdA8Y1qnVeLfF]{Cheval
+      de guerre lourd} ou, si votre MJ vous le permet, un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.Jl7YC24f9ibaQATl]{Hippogriffe}
+      ou un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.wPgwkbfOLU5TlGCb]{Aigle
+      g&eacute;ant}&nbsp;(ID 1). Ces cr&eacute;atures sont
+      consid&eacute;r&eacute;es dress&eacute;es, et vous pouvez les
+      contr&ocirc;ler.</p>
+
+      <p>De plus, lorsque vous utilisez une lance &agrave; dos de monture, vous
+      obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;en
+      attaque sur chaque attaque effectu&eacute;e apr&egrave;s un
+      d&eacute;placement d'au moins 6 m&egrave;tres et, si vous blessez une
+      cr&eacute;ature, elle doit r&eacute;aliser un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Force ou se retrouver&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">&agrave;
+      terre</a>&nbsp;(voir la section&nbsp;<a
+      href="https://5e-drs.fr/combattre/#combat-monte">Combat mont&eacute;</a>
+      si la cible est elle-m&ecirc;me sur une monture).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685437
+  modifiedTime: 1663923686991
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!YL1hrhHO6jWEKsZb'
+

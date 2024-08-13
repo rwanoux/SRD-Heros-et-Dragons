@@ -1,0 +1,83 @@
+name: Perturbation de la Vie
+type: feat
+flags: {}
+img: icons/magic/acid/pouring-gas-smoke-liquid.webp
+_id: nF25UZJXuxm66Nxc
+system:
+  description:
+    value: >-
+      <p><strong>Perturbation de la vie.</strong> Chaque cible non morte-vivante
+      dans un rayon de 6 m de la liche doit effectuer un jet de sauvegarde de
+      Constitution contre cette magie. Ceux qui y échouent subissent des dégâts
+      nécrotiques, ou la moitié seulement en cas de réussite.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: legendary
+    cost: 3
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 6d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 18
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: Liche
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698963
+  modifiedTime: 1663923700181
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!nF25UZJXuxm66Nxc'
+

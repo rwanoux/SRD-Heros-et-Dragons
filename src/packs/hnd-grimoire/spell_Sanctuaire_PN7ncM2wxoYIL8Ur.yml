@@ -1,0 +1,121 @@
+_id: PN7ncM2wxoYIL8Ur
+name: Sanctuaire
+type: spell
+flags: {}
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Vous protégez une créature à portée contre les attaques. Jusqu'à la fin
+      du sort, toute créature qui vise la cible avec une attaque ou un sort
+      néfaste doit d'abord effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse. Si elle le rate, elle doit choisir une
+      nouvelle cible, sans quoi l'attaque ou le sort est perdu. Ce sort ne
+      protège pas la cible contre les effets de zone, comme l'explosion d'une
+      <em>boule de feu</em>.</p>
+
+      <p>Ce sort se termine si la créature protégée attaque ou lance un sort
+      affectant une créature ennemie.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Un petit miroir en argent
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688028
+  modifiedTime: 1663923688887
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PN7ncM2wxoYIL8Ur'
+

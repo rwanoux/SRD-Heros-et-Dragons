@@ -1,0 +1,115 @@
+_id: NDQvkLWgIO3oUouO
+name: Flèche arcanique [Archer Arcanique]
+type: feat
+img: icons/weapons/polearms/spear-ice-crystal-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rest-recovery:
+    data:
+      recovery:
+        enabled: false
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="fleche-arcanique"><strong>Fl&egrave;che arcanique</strong></h3>
+
+      <p>D&egrave;s le niveau 3, vous devenez capable d'enchanter votre
+      fl&egrave;che afin d'am&eacute;liorer grandement sa pr&eacute;cision et
+      ses d&eacute;g&acirc;ts. En utilisant une action bonus et en
+      d&eacute;pensant un emplacement de sort, vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      sur une attaque &agrave; distance r&eacute;alis&eacute;e dans le
+      m&ecirc;me round, et vous ajoutez 1d6 aux d&eacute;g&acirc;ts par niveau
+      du sort utilis&eacute;. La fl&egrave;che est consid&eacute;r&eacute;e
+      comme magique en ce qui concerne la r&eacute;sistance aux
+      d&eacute;g&acirc;ts des cr&eacute;atures.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685373
+  modifiedTime: 1678424934112
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NDQvkLWgIO3oUouO'
+

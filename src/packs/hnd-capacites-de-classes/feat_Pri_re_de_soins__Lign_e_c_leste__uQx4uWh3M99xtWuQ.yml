@@ -1,0 +1,89 @@
+_id: uQx4uWh3M99xtWuQ
+name: Prière de soins [Lignée céleste]
+type: feat
+flags: {}
+img: icons/magic/light/orbs-hand-gray.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="priere-de-soins"><strong>Pri&egrave;re de soins</strong></h3>
+
+      <p>Au niveau 14, en d&eacute;pensant 3 points de sorcellerie, vous pouvez
+      lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.zOHt9ucevU9YJgXx]{Pri&egrave;re
+      de soins} au niveau 2. Vous pouvez d&eacute;penser davantage de points de
+      sorcellerie pour le lancer avec un emplacement de sort sup&eacute;rieur :
+      vous utilisez pour cela le tableau de cr&eacute;ation d'emplacements de
+      sort de l'ensorceleur (voir
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qi2ybvnH4vG4CIYN]{Source
+      de Magie [Ensorceleur]}). Vous devez terminer un repos court ou long avant
+      de pouvoir utiliser de nouveau cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 3
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685675
+  modifiedTime: 1663923687699
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uQx4uWh3M99xtWuQ'
+

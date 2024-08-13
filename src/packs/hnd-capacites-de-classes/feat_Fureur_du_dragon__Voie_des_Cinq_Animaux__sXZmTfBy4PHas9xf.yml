@@ -1,0 +1,92 @@
+_id: sXZmTfBy4PHas9xf
+name: Fureur du dragon [Voie des Cinq Animaux]
+type: feat
+flags: {}
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="fureur-du-dragon"><strong>Fureur du dragon</strong></h3>
+
+      <p>Lorsque vous atteignez le niveau 17, en d&eacute;pensant 3 points de
+      ki, vous pouvez utiliser votre action pour porter une attaque &agrave;
+      mains nues contre chaque cr&eacute;ature autour de vous dans un rayon de
+      4,50 m&egrave;tres. La r&eacute;ussite de votre attaque est automatique et
+      vous infligez vos d&eacute;g&acirc;t &agrave; mains nues normaux. Chaque
+      cr&eacute;ature de taille moyenne ou inf&eacute;rieure que vous blessez
+      par cette attaque doit r&eacute;ussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Force (DD = 8 + votre modificateur de
+      Dext&eacute;rit&eacute; + votre bonus de ma&icirc;trise) ou se
+      retrouver&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">&agrave;
+      terre</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 4.5
+    width: null
+    units: ft
+    type: enemy
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 3
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: 'JdS Echec : Cible à terre'
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: dex
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685657
+  modifiedTime: 1663923687622
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sXZmTfBy4PHas9xf'
+

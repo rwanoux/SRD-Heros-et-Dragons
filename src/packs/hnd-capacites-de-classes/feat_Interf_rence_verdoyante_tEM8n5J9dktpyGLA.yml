@@ -1,0 +1,87 @@
+name: Interférence verdoyante
+type: feat
+img: icons/magic/nature/root-vine-entangled-humanoid.webp
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 10, quand une créature que vous pouvez voir à moins
+      de 9 mètres de vous ou de votre esprit verdoyant est attaquée, vous pouvez
+      utiliser votre réaction pour faire jaillir des lianes et de la végétation
+      du sol et les agripper à l'attaquant, ce qui lui donne un désavantage aux
+      jets d'attaque jusqu'au début de votre prochain tour.</p><p>Vous pouvez
+      utiliser cette caractéristique un nombre de fois égal à votre bonus de
+      maîtrise. Vous récupérez toutes vos utilisations à la fin d'un long
+      repos.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: null
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Cercle de la Verdoyance
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.omcmIYnCS1itw9hc
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678989118385
+  modifiedTime: 1678989436704
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.omcmIYnCS1itw9hc
+  duplicateSource: null
+folder: null
+sort: 0
+_id: tEM8n5J9dktpyGLA
+_key: '!items!tEM8n5J9dktpyGLA'
+

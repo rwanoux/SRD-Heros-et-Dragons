@@ -1,0 +1,81 @@
+name: Protection Scintillante
+type: feat
+flags: {}
+img: icons/magic/light/explosion-star-glow-yellow.webp
+_id: aYOI9ILQyiDnt32g
+system:
+  description:
+    value: >-
+      <p><strong>Protection scintillante.</strong> La créature crée un champ
+      magique scintillant autour d'elle ou d'une créature située à 18 mètres ou
+      moins dans son champ de vision. La cible bénéficie d'un bonus de +2 à sa
+      CA jusqu'à la fin du prochain tour de la créature.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: legendary
+    cost: 2
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 18
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Licorne
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698874
+  modifiedTime: 1663923699800
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!aYOI9ILQyiDnt32g'
+

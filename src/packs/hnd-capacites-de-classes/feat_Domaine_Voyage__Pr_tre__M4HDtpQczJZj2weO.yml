@@ -1,0 +1,165 @@
+_id: M4HDtpQczJZj2weO
+name: Domaine Voyage [Prêtre]
+type: feat
+flags:
+  core:
+    sourceId: Item.JbTyNpdBI1TVE26k
+img: icons/magic/light/beam-rays-orange-small.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="tonnerre-tempete"><strong>Voyage</strong></h3>
+
+      <div>
+
+      <table style="width: 369px; height: 223px;">
+
+      <thead>
+
+      <tr style="height: 33px;">
+
+      <th style="width: 81px; height: 33px;">Niveau de Clerc</th>
+
+      <th style="width: 285px; height: 33px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 41px;">
+
+      <td style="width: 81px; text-align: center; height: 41px;">1</td>
+
+      <td style="width: 285px; height: 41px;">
+
+      <h4
+      id="canalisation-d-energie-divine-aptitude-de-domaine">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bMaB9j5lXXCR4Zqy]{Grande
+      foul&eacute;e}</h4>
+
+      </td>
+
+      </tr>
+
+      <tr style="height: 33px;">
+
+      <td style="width: 81px; text-align: center; height: 33px;">3</td>
+
+      <td style="width: 285px; height:
+      33px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.umjT52qAQfy7iUPw]{Passage
+      sans trace}</td>
+
+      </tr>
+
+      <tr style="height: 33px;">
+
+      <td style="width: 81px; text-align: center; height: 33px;">5</td>
+
+      <td style="width: 285px; height:
+      33px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.b3sIpSf7t6VRa4lG]{Monture
+      fant&ocirc;me}</td>
+
+      </tr>
+
+      <tr style="height: 33px;">
+
+      <td style="width: 81px; text-align: center; height: 33px;">7</td>
+
+      <td style="width: 285px; height:
+      33px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g6PEhEFxoKoangxJ]{Porte
+      dimensionnelle}</td>
+
+      </tr>
+
+      <tr style="height: 50px;">
+
+      <td style="width: 81px; text-align: center; height: 50px;">9</td>
+
+      <td style="width: 285px; height:
+      50px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BErylURWrsPQ39cE]{Passage
+      par les arbres}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>&nbsp;</p>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Kgnu02V9tBoN2tMN]{Canalisation
+      divine : Voyage - Marche des brumes [Pr&ecirc;tre]}</p>
+
+      <h3 id="air"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685364
+  modifiedTime: 1663923686678
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.JbTyNpdBI1TVE26k
+  duplicateSource: null
+_key: '!items!M4HDtpQczJZj2weO'
+

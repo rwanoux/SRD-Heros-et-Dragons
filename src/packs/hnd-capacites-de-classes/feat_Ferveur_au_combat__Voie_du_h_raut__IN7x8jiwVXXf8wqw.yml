@@ -1,0 +1,92 @@
+name: Ferveur au combat [Voie du héraut]
+type: feat
+flags:
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QlGTuNgAe3WGci4s
+img: icons/skills/social/diplomacy-peace-alliance.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sens-de-la-magie"><strong>Ferveur au combat</strong></h3><p>Dès le
+      niveau 3, quand vous utilisez votre action bonus pour entrer en rage, vous
+      pouvez dépenser une utilisation quotidienne supplémentaire de rage pour
+      permettre à un maximum de trois créatures consentantes dans un rayon de 9
+      mètres d'entrer en rage à leur tour. Ces créatures doivent pouvoir vous
+      voir et vous entendre. Les créatures affectées par cette capacité
+      bénéficient des mêmes avantages et restrictions que vous lorsque vous
+      entrez en rage.</p><p>La ferveur au combat dure 1 minute. Elle prend fin
+      prématurément si vous êtes inconscient ou si votre tour se termine et que
+      vous n'avez pas attaqué de créature hostile ou subi de dégât depuis la fin
+      de votre dernier tour. Vous pouvez aussi utiliser votre action bonus pour
+      mettre fin à la ferveur au combat pendant votre tour.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Warlock #13 - War & Battle - Kobold Press'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685390
+  modifiedTime: 1679678933761
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QlGTuNgAe3WGci4s
+  duplicateSource: null
+folder: null
+sort: 0
+_id: IN7x8jiwVXXf8wqw
+_key: '!items!IN7x8jiwVXXf8wqw'
+

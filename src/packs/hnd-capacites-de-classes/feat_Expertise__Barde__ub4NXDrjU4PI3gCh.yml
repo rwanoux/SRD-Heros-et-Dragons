@@ -1,0 +1,108 @@
+_id: ub4NXDrjU4PI3gCh
+name: Expertise [Barde]
+type: feat
+img: icons/commodities/tech/cog-bronze.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  entityorder:
+    order: 224
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="expertise"><strong>Expertise</strong></h3>
+
+      <p>Au niveau 3, s&eacute;lectionnez deux comp&eacute;tences que vous
+      ma&icirc;trisez. &Agrave; chaque fois que vous utilisez l'une ou l'autre,
+      votre bonus de ma&icirc;trise est doubl&eacute; pour tout&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+      de caract&eacute;ristiques</a>&nbsp;qui met en jeu ces
+      comp&eacute;tences.</p>
+
+      <p>Au niveau 10, vous pouvez choisir deux comp&eacute;tences
+      suppl&eacute;mentaires et les utiliser de la m&ecirc;me
+      mani&egrave;re.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685679
+  modifiedTime: 1663923687713
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ub4NXDrjU4PI3gCh'
+

@@ -1,0 +1,104 @@
+name: Tapis de lianes
+type: spell
+img: icons/magic/nature/root-vines-grow-brown.webp
+system:
+  description:
+    value: >-
+      <p>Vous faites pousser un épais tapis de lianes à partir d'un point du sol
+      à portée. Les lianes couvrent les objets et les créatures à terre dans un
+      rayon de 6 mètres autour de ce point. Tant qu'ils sont couverts de cette
+      façon, les objets et les créatures bénéficient d'un abri totale tant
+      qu'ils restent immobiles. Une créature qui se déplace sous le tapis ne
+      bénéficie que d'un abri important contre les attaques de l'autre côté du
+      tapis. Une créature couverte qui se relève d'une position à terre se
+      retrouve sur le tapis et n'est plus couverte. Le tapis de lianes est
+      suffisamment rembourré pour qu'une créature de grande taille ou plus
+      petite puisse le traverser sans blesser ou détecter les personnes
+      couvertes.</p><p>Quand le sort prend fin, les lianes se flétrissent
+      jusqu'au néant, révélant les objets et les créatures qui étaient encore
+      couverts.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: radius
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.bf3ISgfG0tWR7fCb
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678985835279
+  modifiedTime: 1678986034153
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.bf3ISgfG0tWR7fCb
+  duplicateSource: null
+folder: null
+sort: 0
+_id: fe64XpSzKKQ8acBL
+_key: '!items!fe64XpSzKKQ8acBL'
+

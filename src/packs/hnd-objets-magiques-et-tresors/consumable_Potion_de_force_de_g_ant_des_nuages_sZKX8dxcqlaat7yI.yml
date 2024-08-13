@@ -1,0 +1,160 @@
+_id: sZKX8dxcqlaat7yI
+name: Potion de force de géant des nuages
+type: consumable
+img: icons/consumables/potions/bottle-round-corked-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Quand vous buvez cette potion, votre valeur de Force est égale à 27
+      pendant 1 heure. La potion n'a aucun effet si votre Force est déjà égale
+      ou supérieure à cette valeur.</p>
+
+      <p>Une rognure d'ongle d'un géant du type approprié flotte dans cette
+      potion transparente.</p>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th>Type de géant</th>
+
+      <th>Force</th>
+
+      <th>Rareté</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Géant des collines</td>
+
+      <td class="center">21</td>
+
+      <td>Peu commun</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Géant des pierres/du givre</td>
+
+      <td class="center">23</td>
+
+      <td>Rare</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Géant du feu</td>
+
+      <td class="center">25</td>
+
+      <td>Rare</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Géant des nuages</td>
+
+      <td class="center">27</td>
+
+      <td>Très rare</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Géant des tempêtes</td>
+
+      <td class="center">29</td>
+
+      <td>Légendaire</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 1750
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701437
+  modifiedTime: 1663923703166
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sZKX8dxcqlaat7yI'
+

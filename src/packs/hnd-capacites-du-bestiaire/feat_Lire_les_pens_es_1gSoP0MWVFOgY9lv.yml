@@ -1,0 +1,111 @@
+name: Lire les pensées
+type: feat
+flags:
+  _sheetTab: description
+img: icons/commodities/biological/organ-brain-pink.webp
+_id: 1gSoP0MWVFOgY9lv
+system:
+  description:
+    value: >-
+      <p><strong>Lire les pensées.</strong> La créature lit par magie les
+      pensées superficielles d'une cible non loin d’elle. Pendant qu'elle lit
+      les pensées de la cible, elle obtient des avantages aux tests de Sagesse
+      (Perspicacité) et de Charisme (Intimidation, Persuasion et Supercherie)
+      effectués contre elle.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698728
+  modifiedTime: 1663923699202
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!1gSoP0MWVFOgY9lv'
+

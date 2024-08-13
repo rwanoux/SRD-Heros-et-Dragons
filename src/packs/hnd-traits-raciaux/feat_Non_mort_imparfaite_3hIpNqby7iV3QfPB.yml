@@ -1,0 +1,94 @@
+name: Non-mort imparfaite
+type: feat
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify">Vous êtes passé à l'état de mort-vivant,
+      mais votre transition a été imparfaite.</p><p
+      style="text-align:justify">Bien que vous soyez un humanoïde, vous êtes
+      sensible aux effets qui ciblent les morts-vivants.</p><p
+      style="text-align:justify">Vous pouvez regagner des points de vie grâce à
+      des sorts comme
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{soin
+      des blessures}, mais vous pouvez aussi être affecté par des effets qui
+      ciblent spécifiquement les morts-vivants, comme la capacité
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.d9HPKiJE7ydpsWIH]{Renvoi
+      des morts-vivants} d'un clerc.</p><p style="text-align:justify">Les effets
+      qui ressuscitent une créature d'entre les morts agissent sur vous comme
+      d'habitude, mais ils vous ramènent à la vie en tant que darakhul. Un sort
+      de résurrection suprême ou de souhait peut vous ramener à la vie en tant
+      que membre à part entière de votre race d'origine.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: darakhul
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.PCHz7w4aYmXBoHE9
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680507757122
+  modifiedTime: 1680507915858
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.PCHz7w4aYmXBoHE9
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 3hIpNqby7iV3QfPB
+_key: '!items!3hIpNqby7iV3QfPB'
+

@@ -1,0 +1,88 @@
+_id: pRM9k6WIV8SRX28A
+name: Maître des cauchemars [Puissance des Profondeurs]
+type: feat
+flags: {}
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="maitre-des-cauchemars"><strong>Ma&icirc;tre des
+      cauchemars</strong></h3>
+
+      <p>Vous pouvez partager les visions cauchemardesques issues du sommeil de
+      votre protecteur. Au niveau 10, vous apprenez le sort de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.E01zxcx8qy7JUtCo]{R&ecirc;ve},
+      et ce sort ne compte pas dans le nombre maximum de sorts que vous
+      connaissez. Lorsque vous lancez ce sort, vous &ecirc;tes capable
+      d'affecter les elfes pendant la phase de m&eacute;ditation quotidienne qui
+      leur permet de remplacer le sommeil. Contre les autres cr&eacute;atures,
+      vous doublez les d&eacute;g&acirc;ts du sort.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685636
+  modifiedTime: 1663923687529
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!pRM9k6WIV8SRX28A'
+

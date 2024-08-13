@@ -1,0 +1,85 @@
+name: Regart Terrifiant
+type: feat
+flags: {}
+img: icons/magic/life/heart-shadow-red.webp
+_id: B1o96fLnXJrORgts
+system:
+  description:
+    value: >-
+      <p><strong>Regard terrifiant.</strong> La créature fixe du regard une
+      cible qu'elle peut voir dans un rayon de 3 m autour d'elle. La cible doit
+      réussir un jet de sauvegarde de Sagesse contre la magie, sous peine d'être
+      terrorisée pendant 1 minute. La cible terrorisée peut retenter son jet de
+      sauvegarde à la fin de chacun de ses tours, mettant un terme à l'effet qui
+      l'affecte en cas de réussite. Si le jet de sauvegarde de la cible est un
+      succès, ou si l'effet se termine pour elle, la cible est immunisée au
+      regard de la créature pour les prochaines 24 heures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: legendary
+    cost: 2
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 18
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: Liche
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698770
+  modifiedTime: 1663923699380
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!B1o96fLnXJrORgts'
+

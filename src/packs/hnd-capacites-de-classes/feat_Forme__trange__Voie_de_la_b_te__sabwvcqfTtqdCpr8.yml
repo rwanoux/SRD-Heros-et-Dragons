@@ -1,0 +1,90 @@
+name: Forme étrange [Voie de la bête]
+type: feat
+img: icons/creatures/fish/fish-bioluminous-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.ybMcUi84W4UA4Uyu
+_id: sabwvcqfTtqdCpr8
+system:
+  description:
+    value: >-
+      <p>Au niveau 14, vous savez prendre une nouvelle forme animale à choisir
+      entre celle du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.RbnkKr6bKQj2DMDq]{Loup
+      arctique}, de
+      l'@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.XBeN7HOFUmzVtIEC]{Aigle
+      géant} ou du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.ZEDmk9oYbsyGLRea]{Requin
+      chasseur}.</p>
+
+      <p>De plus, vous pouvez désormais conserver une forme animale pendant
+      aussi longtemps que vous le souhaitez.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685658
+  modifiedTime: 1663923687624
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.ybMcUi84W4UA4Uyu
+  duplicateSource: null
+_key: '!items!sabwvcqfTtqdCpr8'
+

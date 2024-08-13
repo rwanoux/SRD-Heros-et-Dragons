@@ -1,0 +1,119 @@
+name: '[Clerc] Domaine de la Bière'
+type: subclass
+img: icons/magic/life/ankh-gold-blue.webp
+effects: []
+flags:
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.sSyqGYV0h8ucR78I
+system:
+  description:
+    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1><h2 id=\"domaine-de-la-vie\">Domaine de la Bière</h2><p>Le mélange enivrant de force d'âme, de courage et de camaraderie est votre nectar, et vous partagez ses bienfaits avec ceux qui en ont besoin.</p><p></p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ru1cX6rqucwhIIQl]{Sorts de domaine [Domaine de la bière]}</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VK4Zb03LHWeJAkPw]{Disciple de la pression [Domaine de la bière]}</p><p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nUWFgUMy61ERhaDd]{Canalisation d'énergie divine : Breuvage béni [Domaine de la bière]}</p><p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vksBGTQxNYyE6oRo]{Canalisation d'énergie divine : La fête continue [Domaine de la bière]}</p><p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fzK95YTsLMIDHphC]{Triple peine [Domaine de la bière]}</p><p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sqO90EsbdJzIBf9G]{Tripes d'acier [Domaine de la bière] (Copy)}</p><p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Deep Magic et Midgard Heroes Handbook - Kobold Press
+  identifier: domaine-de-la-vie
+  classIdentifier: clerc
+  advancement:
+    - _id: jygDHmRPdUh4Np4d
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ru1cX6rqucwhIIQl
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VK4Zb03LHWeJAkPw
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+    - _id: mCyQpxftYcQVvM0j
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.nUWFgUMy61ERhaDd
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 2
+      title: ''
+    - _id: WO7Dw9QzV9kR0WjW
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vksBGTQxNYyE6oRo
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: ''
+    - _id: GrbXi8DVqWWk8vQb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fzK95YTsLMIDHphC
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 8
+      title: ''
+    - _id: vrXLX3Cg97YDLt8v
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sqO90EsbdJzIBf9G
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923703433
+  modifiedTime: 1679680166011
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.sSyqGYV0h8ucR78I
+  duplicateSource: null
+folder: null
+sort: 0
+_id: asMnX5vNk8UtBeHN
+_key: '!items!asMnX5vNk8UtBeHN'
+

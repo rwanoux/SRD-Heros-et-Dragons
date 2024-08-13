@@ -1,0 +1,84 @@
+_id: uVzqCWVhWrlg3PVc
+name: Initiation [Voie des esprits]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/nature/beam-hand-leaves-green.webp
+effects: []
+system:
+  description:
+    value: "<h3 id=\"initiation\"><strong>Initiation\_</strong></h3><p>Également au niveau 3, à la suite d'une cérémonie, vous entrez en communion avec un esprit animal : ours, taureau (ou bison), loup, chouette, aigle, renard, lynx (ou tout autre félin), etc. L'animal qui correspond à votre alter ego spirituel ne vous est jamais hostile et vous bénéficiez d'un\_<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>\_aux tests lorsque vous essayez de le pister, de le repérer, de l'influencer ou de le dresser.</p><p>En dépensant un point de @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.F1p7hz1HrSWkiuPv]{Lien spirituel}, vous pouvez utiliser sur vous-même le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.6KPbqosOjwrNiKMf]{Amélioration de caractéristique}, mais uniquement dans la version qui correspond à l'esprit auquel vous êtes lié. Le loup permet d'améliorer la Sagesse (comme la chouette) et le lynx correspond au chat et permet d'améliorer la Dextérité. Vous pouvez bien entendu choisir d'autres animaux et la caractéristique correspondante en accord avec votre MJ. Si vous choisissez un animal associé à l'Intelligence, la Sagesse ou le Charisme (loup, chouette, aigle, renard), votre valeur de lien spirituel est augmentée de un.</p><p>Vous êtes capable de maintenir une concentration lorsque vous êtes sous les effets de la rage ; toutefois, cela ne concerne que les sorts obtenus par la voie des esprits.</p>"
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685676
+  modifiedTime: 1678422213362
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uVzqCWVhWrlg3PVc'
+

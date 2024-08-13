@@ -1,0 +1,122 @@
+_id: qZL6xFIxrwArv3PP
+name: Spécialisation élémentaire [Élémentaliste]
+type: feat
+img: icons/magic/fire/flame-burning-campfire-rocks.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="specialisation-elementaire"><strong>Sp&eacute;cialisation
+      &eacute;l&eacute;mentaire</strong></h3>
+
+      <p>Au niveau 2, vous apprenez le tour de magie prestidigitation
+      &eacute;l&eacute;mentaire. Les effets sont les m&ecirc;mes que
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jlMCBuxAhhlQu5FX]{Prestidigitation},
+      toutefois ce sort n'affecte que votre &eacute;l&eacute;ment de
+      pr&eacute;dilection et ses effets sont plus prononc&eacute;s et affectent
+      un volume un peu plus important (au maximum un cube de 1,5 m&egrave;tre
+      d'ar&ecirc;te).</p>
+
+      <p>De plus, lorsque vous lancez un sort dont les d&eacute;g&acirc;ts
+      correspondent &agrave; votre &eacute;l&eacute;ment de pr&eacute;dilection
+      (air : foudre, terre : acide, eau : froid, feu : feu), vous pouvez
+      utiliser une action bonus pour le lancer avec un emplacement de sort d'un
+      niveau de plus, y compris au-del&agrave; de votre niveau maximum (mais
+      jamais au-dessus du niveau 9). Par exemple, un sp&eacute;cialiste du feu
+      peut d&eacute;penser un emplacement de sort de niveau 3 et utiliser son
+      action et une action bonus pour lancer la
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bvRksmepD9SBn5fv]{Boule
+      de feu}&nbsp;avec l'&eacute;quivalent d'un emplacement de sort de niveau 4
+      et infliger 9d6 d&eacute;g&acirc;ts au lieu de 8d6.</p>
+
+      <p>En revanche, lorsque vous lancez un sort qui inflige des
+      d&eacute;g&acirc;ts correspondant &agrave; votre &eacute;l&eacute;ment
+      oppos&eacute; &ndash; feu est oppos&eacute; &agrave; froid (eau), acide
+      (terre) oppos&eacute; &agrave; foudre (air) &ndash; les cibles obtiennent
+      un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      &agrave; leurs jets de sauvegarde.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685640
+  modifiedTime: 1663923687545
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!qZL6xFIxrwArv3PP'
+

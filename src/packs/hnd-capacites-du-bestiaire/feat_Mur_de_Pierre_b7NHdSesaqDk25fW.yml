@@ -1,0 +1,86 @@
+name: Mur de Pierre
+type: feat
+flags: {}
+img: icons/environment/settlement/stone-stairs.webp
+_id: b7NHdSesaqDk25fW
+system:
+  description:
+    value: >-
+      <p><strong>Mur de pierre.</strong> Un mur de pierre apparaît à portée de
+      vue du dragon dans un rayon de 36 mètres autour de lui. Le mur est large
+      de 9 mètres et haut de 3 mètres, avec une épaisseur de 15 centimètres. Il
+      doit impérativement fusionner avec de la pierre solide préexistante. Si le
+      mur passe par l'emplacement d'une créature lorsqu'il apparaît, il
+      l'expulse d'un côté ou de l'autre (au choix du dragon).&nbsp;</p>
+
+      <p>Le mur est un objet que l'on peut endommager. Il a une CA de 15 et 180
+      points de vie. Il disparaît si le dragon utilise à nouveau cet effet.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: wall
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon d'Argent (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698877
+  modifiedTime: 1663923699815
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!b7NHdSesaqDk25fW'
+

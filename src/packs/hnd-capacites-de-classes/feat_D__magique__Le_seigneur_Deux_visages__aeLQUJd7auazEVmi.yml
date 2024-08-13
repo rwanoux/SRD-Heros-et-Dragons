@@ -1,0 +1,91 @@
+name: Dé magique [Le seigneur Deux-visages]
+type: feat
+img: icons/sundries/gaming/dice-runed-brown.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.TKrixRfMXmRAI4g4
+_id: aeLQUJd7auazEVmi
+system:
+  description:
+    value: >-
+      <p>Au niveau 6, Deux-visages vous offre un dé à 8 faces, simple cube d'un
+      métal inconnu aux reflets irisés.</p>
+
+      <p>À tout moment, vous pouvez ajouter le résultat du dé à un test ou à un
+      jet, y compris un jet de dégâts en dépensant votre réaction, et ce même
+      une fois le résultat connu.</p>
+
+      <p>Vous pouvez utiliser cette capacité une fois entre deux repos
+      courts.</p>
+
+      <p>La forme de votre dé évolue avec votre niveau : au niveau 10, il
+      devient un d10, au niveau 14 un d12.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685455
+  modifiedTime: 1663923687062
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.TKrixRfMXmRAI4g4
+  duplicateSource: null
+_key: '!items!aeLQUJd7auazEVmi'
+

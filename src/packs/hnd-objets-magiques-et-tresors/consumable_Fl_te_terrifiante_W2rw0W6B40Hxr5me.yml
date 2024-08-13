@@ -1,0 +1,102 @@
+_id: W2rw0W6B40Hxr5me
+name: Flûte terrifiante
+type: consumable
+img: icons/tools/instruments/flute-simple-wood.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Vous devez maîtriser les instruments à vent si vous voulez jouer de
+      cette flûte dotée de 3 charges. Vous pouvez utiliser une action pour jouer
+      et dépenser une charge pour créer une étrange mélodie envoûtante. Chaque
+      créature qui se situe dans un rayon de 9 mètres autour de vous et vous
+      entend jouer doit réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse DD 15, sans quoi vous
+      la&nbsp;terrorisez&nbsp;pendant 1 minute. Si vous le désirez, toutes les
+      créatures qui ne sont pas hostiles envers vous mais sont présentes dans la
+      zone réussissent automatiquement leur&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>. Une créature qui a raté son&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;peut le refaire à la fin de chacun de ses tours.
+      L'effet se termine pour elle dès qu'elle le réussit. Si une créature
+      réussit son&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;contre la flûte, elle est immunisée contre ses
+      effets pendant 24 heures. Chaque matin à l'aube, la flûte récupère 1d3
+      charges dépensées.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.5
+  price: 6000
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Maîtrise des instruments à vent.
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 9
+    long: 0
+    units: m
+  uses:
+    value: 3
+    max: '3'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 15
+    scaling: flat
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701248
+  modifiedTime: 1663923702528
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!W2rw0W6B40Hxr5me'
+

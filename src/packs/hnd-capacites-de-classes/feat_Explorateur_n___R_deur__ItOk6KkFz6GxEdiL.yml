@@ -1,0 +1,140 @@
+_id: ItOk6KkFz6GxEdiL
+name: Explorateur-né [Rôdeur]
+type: feat
+img: icons/environment/settlement/pyramid.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="explorateur-ne"><strong>Explorateur-n&eacute;</strong></h3>
+
+      <p>Vous &ecirc;tes particuli&egrave;rement familier d'un certain type
+      d'environnement naturel et vous avez des facilit&eacute;s &agrave; voyager
+      et survivre dans ce type de r&eacute;gions. Choisissez un terrain de
+      pr&eacute;dilection parmi : arctique, littoral, d&eacute;sert,
+      for&ecirc;t, plaine, montagne ou marais. Quand vous faites un test
+      d'Intelligence ou de Sagesse li&eacute; &agrave; votre terrain de
+      pr&eacute;dilection, votre bonus de ma&icirc;trise est doubl&eacute; si
+      vous utilisez une comp&eacute;tence que vous ma&icirc;trisez.</p>
+
+      <p>Lorsque vous voyagez une heure ou plus sur votre terrain de
+      pr&eacute;dilection, vous obtenez les b&eacute;n&eacute;fices suivants
+      :</p>
+
+      <ul>
+
+      <li>Les terrains difficiles ne ralentissent pas le d&eacute;placement de
+      votre groupe.</li>
+
+      <li>Votre groupe ne peut pas se perdre, sauf s'il est soumis &agrave; un
+      effet magique.</li>
+
+      <li>M&ecirc;me si vous avez commenc&eacute; une autre activit&eacute;
+      pendant votre voyage (comme chercher de la nourriture, naviguer ou
+      pister), vous restez vigilant.</li>
+
+      <li>Si vous voyagez seul, vous pouvez vous d&eacute;placer
+      discr&egrave;tement tout en conservant une allure normale.</li>
+
+      <li>Quand vous cherchez de la nourriture, vous trouvez deux fois plus de
+      nourriture que normalement.</li>
+
+      <li>Si vous pistez d'autres cr&eacute;atures, vous pouvez
+      d&eacute;terminer leur nombre exact, leur taille et quand elles ont
+      travers&eacute; la zone que vous examinez.</li>
+
+      </ul>
+
+      <p>Au niveau 6 et au niveau 10, vous pouvez choisir un terrain de
+      pr&eacute;dilection suppl&eacute;mentaire.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685283
+  modifiedTime: 1678413230757
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ItOk6KkFz6GxEdiL'
+

@@ -1,0 +1,81 @@
+name: Perception des lanceurs de sorts
+type: feat
+flags: {}
+img: icons/creatures/eyes/humanoid-single-blue.webp
+_id: t1uIhk8WKnaUQgzd
+system:
+  description:
+    value: >-
+      <p><strong>Perception des lanceurs de sorts. </strong>La cr&eacute;ature
+      d&eacute;tecte automatiquement et instantan&eacute;ment les
+      cr&eacute;atures usant de sorts ou de pouvoirs magiques dans un rayon de
+      36 m&egrave;tres.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698986
+  modifiedTime: 1663923700271
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!t1uIhk8WKnaUQgzd'
+

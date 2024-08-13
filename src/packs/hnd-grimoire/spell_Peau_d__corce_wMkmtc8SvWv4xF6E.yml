@@ -1,0 +1,113 @@
+_id: wMkmtc8SvWv4xF6E
+name: Peau d'écorce
+type: spell
+flags: {}
+img: icons/commodities/wood/log-stack-maple-brown.webp
+system:
+  description:
+    value: >-
+      <p>Vous touchez une créature consentante. Pendant toute la durée du sort,
+      sa peau prend la consistance et l'apparence de l'écorce, et sa CA ne peut
+      pas descendre au-dessous de 16, quelle que soit l'armure qu'elle
+      porte.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une poignée d'écorce de chêne
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688227
+  modifiedTime: 1663923689520
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!wMkmtc8SvWv4xF6E'
+

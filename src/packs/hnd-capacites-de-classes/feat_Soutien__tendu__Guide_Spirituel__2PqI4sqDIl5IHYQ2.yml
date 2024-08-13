@@ -1,0 +1,86 @@
+_id: 2PqI4sqDIl5IHYQ2
+name: Soutien étendu [Guide Spirituel]
+type: feat
+flags: {}
+img: icons/magic/control/energy-stream-link-spiral-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="soutien-etendu"><strong>Soutien &eacute;tendu</strong></h3>
+
+      <p>Au niveau 6, lorsque vous lancez le tour de magie
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ET8WtXuEifdjbtp8]{Assistance},
+      la cible du sort peut appliquer l'effet &agrave; un&nbsp;<a
+      href="https://5e-drs.fr/combattre/#jets-d-attaque">jet d'attaque</a>, et
+      lorsque vous lancez le tour de magie
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.djoMzjTA610GQAv4]{R&eacute;sistance},
+      elle peut appliquer l'effet &agrave; sa CA contre une attaque.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685161
+  modifiedTime: 1663923686061
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2PqI4sqDIl5IHYQ2'
+

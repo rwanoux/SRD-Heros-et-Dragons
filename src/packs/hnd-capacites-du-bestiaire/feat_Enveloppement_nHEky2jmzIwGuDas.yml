@@ -1,0 +1,113 @@
+name: Enveloppement
+type: feat
+flags:
+  _sheetTab: description
+img: icons/magic/water/pseudopod-swirl-blue.webp
+_id: nHEky2jmzIwGuDas
+system:
+  description:
+    value: >-
+      <p><strong>Enveloppement.</strong> La créature enveloppe une cible de
+      taille M ou plus petite qu'elle empoigne. La cible enveloppée est
+      aveuglée, entravée et incapable de respirer. Elle doit réussir un jet de
+      sauvegarde de Constitution au début de chacun des tours du tertre errant
+      pour ne pas subir des dégâts contondants. Quand la créature se déplace, la
+      cible enveloppée se déplace avec lui. La créature ne peut pas envelopper
+      plus d'une créature à la fois.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: 1 cible qu'il empoigne
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+    value: dex
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698964
+  modifiedTime: 1663923700186
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!nHEky2jmzIwGuDas'
+

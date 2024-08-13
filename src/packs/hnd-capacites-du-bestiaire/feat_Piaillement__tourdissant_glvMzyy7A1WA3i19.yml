@@ -1,0 +1,111 @@
+name: Piaillement Étourdissant
+type: feat
+flags:
+  _sheetTab: details
+img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
+_id: glvMzyy7A1WA3i19
+system:
+  description:
+    value: >-
+      <p><strong>Piaillement étourdissant (1/jour).</strong>&nbsp;La créature
+      pousse un piaillement terrifiant. Les qui peuvent l'entendre doivent
+      chacune réussir un jet de sauvegarde pour ne pas être étourdies.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: 1
+    per: day
+    recovery: ''
+    type: day
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: str
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d10
+        - poison
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 14
+    scaling: flat
+    value: con
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698936
+  modifiedTime: 1663923700075
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!glvMzyy7A1WA3i19'
+

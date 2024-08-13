@@ -1,0 +1,133 @@
+_id: nrecU3b4xLUyeNr2
+name: Voie Primitive [Barbare]
+type: feat
+img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.51Lfy5CEFa1aaOE7
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="voie-primitive"><strong>Voie primitive</strong></h3>
+
+      <p>Au troisième niveau, vous choisissez une voie qui détermine la nature
+      de votre rage. Vous pouvez choisir :</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.lMK1lrRzDmsoAorv]{[Barbare]
+      Voie de l'acier}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.MBEQjAzptLbw5mNg]{[Barbare]
+      Voie de la bête}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.FDLJaRUWciN4Nhkl]{[Barbare]
+      Voie des Esprits}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.w6PBSMVmSGtThHb7]{[Barbare]
+      Voie des glaces}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.EbMw81B7WAD0UkEV]{[Barbare]
+      Voie des Steppes}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.pjdVX8BGLpJbJKzb]{[Barbare]
+      Voie du Berserker}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Ux0KbeDowxQwPFMs]{[Barbare]
+      Voie du Hurlement}</li>
+
+      </ul>
+
+      <p>Toutes sont détaillées à la fin de la section consacrée à cette
+      classe.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685622
+  modifiedTime: 1678415418118
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.51Lfy5CEFa1aaOE7
+  duplicateSource: null
+_key: '!items!nrecU3b4xLUyeNr2'
+

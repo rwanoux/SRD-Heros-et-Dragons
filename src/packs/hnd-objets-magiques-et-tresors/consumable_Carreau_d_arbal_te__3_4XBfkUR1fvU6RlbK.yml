@@ -1,0 +1,83 @@
+_id: 4XBfkUR1fvU6RlbK
+name: Carreau d'arbalète +3
+type: consumable
+img: icons/weapons/ammunition/arrows-bodkin-yellow-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous bénéficiez d'un bonus aux jets d'attaque et de dégâts de +3
+      effectués avec cette munition. Cette dernière perd toute magie dès qu'elle
+      a touché une cible.</p>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.075
+  price: 400
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: ammo
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701022
+  modifiedTime: 1663923701829
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!4XBfkUR1fvU6RlbK'
+

@@ -1,0 +1,127 @@
+_id: faVqGcFwqejo3mJG
+name: Cécité/Surdité
+type: spell
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+system:
+  description:
+    value: >-
+      <p>Vous pouvez rendre un ennemi sourd ou aveugle. Choisissez une créature
+      autre que vous qui se situe à portée et dans votre champ de vision. Elle
+      doit effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution. Si elle échoue, elle est soit <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#aveuglé"><em>aveuglée</em></a>,
+      soit <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#assourdi"><em>assourdie</em></a>
+      (à vous de choisir) pendant toute la durée du sort. Elle a droit à un
+      nouveau <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution à la fin de chacun de ses tours, le sort
+      se terminant si elle le réussit.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 3 ou supérieur, vous pouvez viser une
+      créature de plus par niveau au-delà du niveau 2.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 2
+  school: nec
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1 créature
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688144
+  modifiedTime: 1663923689222
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!faVqGcFwqejo3mJG'
+

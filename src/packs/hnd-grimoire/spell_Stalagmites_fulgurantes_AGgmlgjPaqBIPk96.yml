@@ -1,0 +1,133 @@
+_id: AGgmlgjPaqBIPk96
+name: Stalagmites fulgurantes
+type: spell
+flags: {}
+img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+system:
+  description:
+    value: >-
+      <p>Vous faites jaillir du sol des stalagmites de pierre d'une hauteur de 3
+      mètres dans une zone carrée de 3 mètres d'arête à portée du sort. Si elles
+      atteignent le plafond avant d'atteindre leur taille maximale, les
+      stalagmites cessent de grandir. Chaque créature dans la zone doit
+      effectuer une sauvegarde de Dextérité. Une créature volant à moins de 3
+      mètres du sol bénéficie d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+      sur ce jet. En cas d'échec, les stalagmites infligent 4d4 dégâts
+      perforants et la cible se retrouve <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+      entre les stalagmites jusqu'à la fin du sort. En cas de succès, elle ne
+      subit que la moitié des dégâts et est libre ses mouvements. Une cible <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+      par les stalagmites peut utiliser une action pour effectuer une sauvegarde
+      de Force. En cas de réussite, la créature se libère, mais subit 1d6 dégâts
+      contondants. Pour la durée du sort, le terrain où se trouvent les
+      stalagmites est considéré comme difficile.</p>
+
+      <p><strong>À plus haut niveau</strong>. Lorsque vous lancez ce sort en
+      utilisant un emplacement de niveau 3 ou supérieur, les dégâts perforants
+      augmentent de 2d4 pour chaque niveau au-delà du niveau 2.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: m
+    type: square
+    range:
+      value: '30'
+      unit: mètres
+  range:
+    value: 30
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 4d4
+        - piercing
+    versatile: ''
+  formula: 1d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 2
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 2d4
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687968
+  modifiedTime: 1663923688663
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!AGgmlgjPaqBIPk96'
+

@@ -1,0 +1,90 @@
+_id: ioBeI5X8XJRU2JsB
+name: Potion d'héroïsme
+type: consumable
+img: icons/consumables/potions/potion-bottle-corked-fancy-orange.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Pendant 1 heure après l'avoir bue, vous obtenez 10 points de vie
+      temporaires. Pendant cette même période, vous êtes sous l'effet d'un sort
+      de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/benediction/">bénédiction</a>&nbsp;(aucune
+      concentration requise). Le liquide bleu bouillonne comme s'il était
+      chauffé en permanence.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 180
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - '10'
+        - temphp
+    versatile: ''
+  formula: 1d4
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701330
+  modifiedTime: 1663923702872
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ioBeI5X8XJRU2JsB'
+

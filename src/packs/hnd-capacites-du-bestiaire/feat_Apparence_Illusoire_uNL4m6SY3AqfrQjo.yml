@@ -1,0 +1,88 @@
+name: Apparence Illusoire
+type: feat
+flags: {}
+img: icons/magic/control/sihouette-hold-beam-green.webp
+_id: uNL4m6SY3AqfrQjo
+system:
+  description:
+    value: >-
+      <p><strong>Apparence illusoire.</strong> La créature cache son apparence,
+      ainsi que celle de tous ses objets équipés ou transportés, par le biais
+      d'une illusion qui la fait ressembler à une créature laide de forme
+      humanoïde et d'une taille à peu près équivalente à la sienne. L'illusion
+      disparaît si la créature effectue une action bonus pour y mettre un terme
+      ou si elle meurt. Les modifications apportées par cet effet ne résistent
+      pas à une inspection physique. Par exemple, l'illusion peut dissimuler les
+      griffes de la créature mais quelqu'un qui touche sa main peut sentir la
+      présence de griffes. Sinon, un observateur doit effectuer une action pour
+      inspecter visuellement l'illusion et réussir un test d'Intelligence
+      (Investigation) pour se rendre compte que la créature est déguisée.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698992
+  modifiedTime: 1663923700293
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uNL4m6SY3AqfrQjo'
+

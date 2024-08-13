@@ -1,0 +1,104 @@
+name: Sorts de domaine [Domaine de la bière]
+type: feat
+flags:
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx
+img: icons/magic/air/air-burst-spiral-blue-gray.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-de-domaine-5"><strong>Sorts de domaine</strong></h3><p>Vous
+      obtenez les sorts suivants au niveau de clerc indiqué
+      ci-dessous.</p><table style="width:369px"><thead><tr><th
+      style="width:100px">Niveau de clerc</th><th
+      style="width:266px">Sorts</th></tr></thead><tbody><tr><td
+      style="width:98px">1</td><td
+      style="width:264px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jjL4S9upbFC0B8aR]{Compréhension
+      des langues}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.iFrSzDKFeD4eGeRb]{Héroïsme}</td></tr><tr><td
+      style="width:98px">3</td><td
+      style="width:264px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l8ovgCzZX50c8OYI]{Flou}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.QjYykGhxCFSUoaoD]{Suggestion}</td></tr><tr><td
+      style="width:98px">5</td><td
+      style="width:264px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.EE8nPIyioWTbfpUG]{Mot
+      de guérison de groupe}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.E0q7KfRK88ZeiUvp]{Motif
+      hypnotique}</td></tr><tr><td style="width:98px">7</td><td
+      style="width:264px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.A0CLNbvrSJt91EK6]{Confusion}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AqhXRtgcjc3jGhWk]{Sphère
+      résiliente}</td></tr><tr><td style="width:98px">9</td><td
+      style="width:264px"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.s02MyVMbQ1AFNnYL]{Modification
+      de mémoire}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.E01zxcx8qy7JUtCo]{Rêve}<br
+      /></p></td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source: Deep Magic et Midgard Heroes Handbook - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685355
+  modifiedTime: 1679679983874
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx
+  duplicateSource: null
+folder: null
+sort: 0
+_id: ru1cX6rqucwhIIQl
+_key: '!items!ru1cX6rqucwhIIQl'
+

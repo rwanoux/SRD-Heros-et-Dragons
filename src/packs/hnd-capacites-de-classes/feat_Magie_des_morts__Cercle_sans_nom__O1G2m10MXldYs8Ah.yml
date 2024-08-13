@@ -1,0 +1,86 @@
+name: Magie des morts [Cercle sans nom]
+type: feat
+img: icons/magic/life/ankh-gold-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.ySmSU6sToXZC8MqU
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: O1G2m10MXldYs8Ah
+system:
+  description:
+    value: "<p>Au niveau 2, vous apprenez les tours de magie@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.U9cAaSWID7Xp0a8w]{Contact glacial} et @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.cp90m51PmZofavuP]{Épargner les mourants}.</p>\n<p>De plus, vous pouvez dépenser une utilisation de votre forme sauvage pour lancer un sort de cercle (cf. ci-après) sans dépenser d'emplacement de sort.</p>\n<p>Enfin, vous bénéficiez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> à tous les tests de Charisme que vous effectuez pour interagir avec des créatures de la catégorie des morts-vivants.</p>\n<p>\_</p>\n<p>À partir du niveau 20, vous pouvez utiliser une de vos utilisations de forme sauvage afin de lancer un sort de cercle trois fois, au maximum, entre deux repos courts ou longs.</p>"
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685376
+  modifiedTime: 1678425339606
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.ySmSU6sToXZC8MqU
+  duplicateSource: null
+_key: '!items!O1G2m10MXldYs8Ah'
+

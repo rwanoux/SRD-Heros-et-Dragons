@@ -1,0 +1,92 @@
+name: Régénération [Voie des fleurs]
+type: feat
+img: icons/magic/life/cross-beam-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.m5j4UBVyOTNZpKWZ
+_id: W7iuXqe9KNmCdech
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 17, vous pouvez régénérer votre énergie vitale en
+      laissant l'énergie du sol remonter à travers vos pieds et circuler en
+      vous, à la façon dont un arbre fait repousser les branches taillées
+      lorsque le printemps arrive.</p>
+
+      <p>En dépensant 6 points de Ki, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.sAikSaD9j0EhrsS1]{Régénération}
+      sur vous-même tant que vous avez les pieds en contact avec la terre.</p>
+
+      <p>Le sort cesse de faire effet si vous vous déplacez.</p>
+
+      <p>Vous pouvez utiliser cette aptitude une fois entre deux repos
+      longs.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 6
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685425
+  modifiedTime: 1663923686938
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.m5j4UBVyOTNZpKWZ
+  duplicateSource: null
+_key: '!items!W7iuXqe9KNmCdech'
+

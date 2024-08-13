@@ -1,0 +1,2539 @@
+_id: MpSMeScAuFYTy1lR
+name: Diantrefosse
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: zKzLNTLPnA2yWw2Y
+    name: Armes Magiques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/weapons/swords/sword-runed-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes magiques.&nbsp;</strong>Les attaques d'arme du
+          diantrefosse sont magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diantrefosse
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.zKzLNTLPnA2yWw2Y'
+  - _id: wdYTlYzEHeLIFzn3
+    name: Aura de Terreur
+    type: feat
+    sort: 200000
+    flags: {}
+    img: icons/magic/control/fear-fright-shadow-monster-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Aura de terreur.&nbsp;</strong>Toutes les créatures
+          hostiles envers le diantrefosse qui commencent leur tour à 6 mètres ou
+          moins de lui doivent chacune effectuer un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Sagesse DD 21, sauf si le diantrefosse
+          est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisé</a>.
+          Les créatures qui ratent leur&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>sont&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisées</a>&nbsp;jusqu'au
+          début de leur prochain tour. Celles qui réussissent leur&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a> sont immunisées contre l'aura de terreur du
+          diantrefosse pendant 24 heures.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: lair
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 6
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 21
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diantrefosse
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.wdYTlYzEHeLIFzn3'
+  - _id: Y1dtPZ34npwKJcrt
+    name: Incantation innée
+    type: feat
+    sort: 300000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation innée.</strong>&nbsp;&nbsp;La caractéristique
+          d'incantation du diantrefosse est le Charisme (DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 21). Le diantrefosse peut
+          lancer les sorts suivants de manière innée sans composante matérielle
+          :</p>
+
+          <ul>
+
+          <li>À volonté&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/boule-de-feu/">boule de
+          feu</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/detection-de-la-magie/">détection de
+          la magie</a></li>
+
+          <li>3/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/immobiliser-un-monstre/">immobiliser
+          un monstre</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/mur-de-feu/">mur de feu</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diantrefosse
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.Y1dtPZ34npwKJcrt'
+  - _id: iFc1PVNXkMQSiL1Y
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le diantrefosse effectue
+          quatre attaques : une avec sa morsure, une avec sa griffe, une avec sa
+          masse d'armes et une avec sa queue.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diantrefosse
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.iFc1PVNXkMQSiL1Y'
+  - _id: 3jfeCRgSUBd2goS0
+    name: Griffes
+    type: weapon
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +14 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 17 (2d8+8) dégâts tranchants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8 + @mod
+            - slashing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.3jfeCRgSUBd2goS0'
+  - _id: KrxQspUHFWTSB18u
+    name: Morsure
+    type: weapon
+    sort: 600000
+    flags:
+      _sheetTab: ''
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Morsure.</strong>&nbsp;Attaque d'arme au corps à corps :
+          +14 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 22 (4d6+8) dégâts perforants. La cible doit réussir
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 21 pour ne pas être&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne">empoisonnée</a>.
+          Tant que le poison fait effet, la cible ne peut pas récupérer de
+          points de vie et elle subit 21 (6d6) dégâts de poison au début de
+          chacun de ses tours. La cible&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne">empoisonnée</a>&nbsp;peut
+          retenter le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;à la fin de chacun de ses tours et mettre fin à
+          l'effet dont elle est victime en cas de réussite.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6 + @mod
+            - piercing
+        versatile: ''
+        value: ''
+      formula: 6d6 poison
+      save:
+        ability: con
+        dc: 21
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.KrxQspUHFWTSB18u'
+  - _id: QP0WzVCuvpNDcpCo
+    name: Queue
+    type: weapon
+    sort: 700000
+    flags:
+      _sheetTab: ''
+    img: icons/commodities/biological/tail-puff-grey.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Queue.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;:
+          +14 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 24 (3d10+8) dégâts contondants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: null
+      weight: null
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d10+ @mod
+            - bludgeoning
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.QP0WzVCuvpNDcpCo'
+  - _id: 0g2d1BgwoLa135Uz
+    name: Masse d'armes
+    type: weapon
+    sort: 800000
+    flags:
+      obsidian:
+        category: simple
+        type: melee
+        mode: melee
+        tags: {}
+        magical: false
+        effects:
+          - name: ''
+            uuid: 5ddb5120-c7d0-4827-8c29-db4b468bd0ae
+            components:
+              - type: attack
+                uuid: 7bb28ed7-2b3d-4398-beda-6ed43f1d8fa6
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 6a701152-b6dd-4445-b558-f72b5606a3fd
+                calc: formula
+                ndice: 1
+                die: 6
+                ability: str
+                bonus: 0
+                damage: blg
+                versatile: false
+        version: 7
+    img: icons/weapons/maces/mace-round-spiked-black.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une lourde boule de métal montée au bout d'une massue également de
+          métal. La tête est munie de pointes et de lames conçues pour perforer
+          l'armure et briser les os situés en dessous.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +14 pour toucher, allonge 3
+          m, une cible.<br>Touché&nbsp;: 15 (2d6+8) dégâts contondants plus 21
+          (6d6) dégâts de feu.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 2
+      price: 5
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 0
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 3
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6 + @mod
+            - bludgeoning
+          - - 6d6
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: simpleM
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        hvy: false
+        fin: false
+        fir: false
+        foc: false
+        lgt: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+        lod: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.0g2d1BgwoLa135Uz'
+  - _id: fS70JAxpJlQzqS2X
+    name: Boule de feu
+    type: spell
+    sort: 900000
+    flags: {}
+    img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une traînée luisante part de votre doigt tendu et file vers un
+          point de votre choix situé à portée et dans votre champ de vision, où
+          elle explose dans une gerbe de flammes grondantes. Chaque créature
+          située dans une sphère de 6 mètres de rayon centrée sur ce point doit
+          faire un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Dextérité. Celles qui échouent subissent 8d6
+          dégâts de feu, les autres la moitié seulement.</p>
+
+          <p>Le feu s'étend en contournant les angles. Il embrase les objets
+          inflammables de la zone, à moins que quelqu'un ne les porte ou ne les
+          transporte.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 4 ou supérieur, les dégâts
+          augmentent de 1d6 par niveau au-delà du niveau 3.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 6
+        width: null
+        units: ft
+        type: sphere
+        range:
+          value: '45'
+          unit: mètres
+      range:
+        value: 45
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 8d6
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 21
+        scaling: spell
+      level: 3
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Une petite boule de guano de chauve-souris et du soufre
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d6
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.fS70JAxpJlQzqS2X'
+  - _id: FnLC5N8xT6eMTb3T
+    name: Détection de la magie
+    type: spell
+    sort: 1000000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/light/explosion-star-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Pendant toute la durée du sort, vous percevez la présence de magie
+          dans un rayon de 9 mètres autour de vous. Si vous percevez ainsi la
+          magie, vous pouvez utiliser votre action pour discerner une faible
+          aura autour d'une créature ou d'un objet visible dans la zone et
+          imprégné de magie. Vous découvrez aussi à quelle école appartient
+          cette magie, le cas échéant.</p>
+
+          <p>Le sort ignore la plupart des obstacles, mais il ne peut pas
+          franchir 30 centimètres de pierre, 2,5 centimètres de métal ordinaire,
+          une mince feuille de plomb, ni 1 mètre de bois ou de terre.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: radius
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: true
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.FnLC5N8xT6eMTb3T'
+  - _id: BliL8BRry3WZiu7Z
+    name: Immobiliser un monstre
+    type: spell
+    sort: 1100000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/nature/lotus-glow-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Choisissez une créature située à portée et dans votre champ de
+          vision. Elle doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, sans quoi elle est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#paralysé"><em>paralysée</em></a>
+          pour toute la durée du sort. Ce sort est sans effet sur les
+          morts-vivants. À la fin de chacun de ses tours, la cible a droit à un
+          nouveau <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse. Si elle le réussit, le sort se
+          termine.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 6 ou supérieur, vous pouvez viser
+          une créature de plus par niveau au-delà du niveau 5. Les créatures
+          visées doivent se trouver à 9 mètres ou moins les unes des autres au
+          moment où vous lancez le sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '27'
+          unit: mètres
+      range:
+        value: 27
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 21
+        scaling: spell
+      level: 5
+      school: enc
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un petit morceau de fer bien droit
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: + 1 créature
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.BliL8BRry3WZiu7Z'
+  - _id: 0fWNbKlKpMXEOHX5
+    name: Mur de feu Mur
+    type: spell
+    sort: 1200000
+    flags: {}
+    img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <div class="description ">
+
+          <p>Vous créez un mur de feu sur une surface solide située à portée. Il
+          peut faire un maximum de 18 mètres de long, 6 mètres de haut et 30
+          centimètres d'épaisseur, ou prendre une forme circulaire de 6 mètres
+          de diamètre pour 6 mètres de haut et 30 centimètres d'épaisseur. Le
+          mur est opaque et persiste toute la durée du sort.</p>
+
+          <p>Quand le mur apparaît, chaque créature présente dans sa zone
+          d'effet doit effectuer un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité. Celles qui échouent reçoivent 5d8
+          dégâts de feu, les autres la moitié seulement.</p>
+
+          <p>Une face du mur (celle de votre choix) inflige 5d8 dégâts de feu à
+          chaque créature qui termine son tour à 3 mètres d'elle ou moins ou au
+          sein du mur. Une créature qui pénètre dans le mur pour la première
+          fois de son tour ou y termine son tour subit les mêmes dégâts. L'autre
+          face du mur n'inflige pas de dégâts.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 5 ou supérieur, les dégâts
+          augmentent de 1d8 par niveau au-delà du niveau 4.</p>
+
+          </div>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 18
+        width: null
+        units: ft
+        type: wall
+      range:
+        value: 36
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 5d8
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 21
+        scaling: spell
+      level: 4
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un éclat de phosphore
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.0fWNbKlKpMXEOHX5'
+  - _id: APLwkXIPEHCQzVqR
+    name: Mur de feu Cercle
+    type: spell
+    sort: 1300000
+    flags: {}
+    img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez un mur de feu sur une surface solide située à portée. Il
+          peut faire un maximum de 18 mètres de long, 6 mètres de haut et 30
+          centimètres d'épaisseur, ou prendre une forme circulaire de 6 mètres
+          de diamètre pour 6 mètres de haut et 30 centimètres d'épaisseur. Le
+          mur est opaque et persiste toute la durée du sort.</p>
+
+          <p>Quand le mur apparaît, chaque créature présente dans sa zone
+          d'effet doit effectuer un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Dextérité. Celles qui échouent reçoivent 5d8
+          dégâts de feu, les autres la moitié seulement.</p>
+
+          <p>Une face du mur (celle de votre choix) inflige 5d8 dégâts de feu à
+          chaque créature qui termine son tour à 3 mètres d'elle ou moins ou au
+          sein du mur. Une créature qui pénètre dans le mur pour la première
+          fois de son tour ou y termine son tour subit les mêmes dégâts. L'autre
+          face du mur n'inflige pas de dégâts.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 5 ou supérieur, les dégâts
+          augmentent de 1d8 par niveau au-delà du niveau 4.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 3
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: '36'
+          unit: mètres
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 5d8
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 21
+        scaling: spell
+      level: 4
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un éclat de phosphore
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.APLwkXIPEHCQzVqR'
+  - _id: fOTw3Rj2PNQDUIO1
+    name: Résistance à la Magie
+    type: feat
+    sort: 350000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;Le diantrefosse
+          obtient un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+          des jets de sauvegarde contre les sorts et autres effets magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diantrefosse
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!MpSMeScAuFYTy1lR.fOTw3Rj2PNQDUIO1'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 7
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 26
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 8
+      save: 8
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 22
+    dex:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 8
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    con:
+      value: 24
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 7
+      save: 13
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 21
+    int:
+      value: 22
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 6
+      save: 6
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 20
+    wis:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 4
+      save: 10
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 18
+    cha:
+      value: 24
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 7
+      save: 7
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 21
+  attributes:
+    ac:
+      flat: 19
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 300
+      max: 300
+      temp: 0
+      tempmax: 0
+      formula: 24d10+168
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 18
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 36
+      truesight: 0
+      units: m
+      special: Perception passive 14
+    spellcasting: cha
+    prof: 6
+    spelldc: 21
+    encumbrance:
+      value: 2
+      max: 390
+      pct: 0.5128205128205128
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Armes magiques</em></strong>. Les attaques d'arme du
+        diantrefosse sont magiques.</p>
+
+        <p><strong><em>Aura de terreur</em></strong>. Toutes les créatures
+        hostiles envers le diantrefosse qui commencent leur tour à 6 mètres ou
+        moins de lui doivent chacune effectuer un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Sagesse DD 21, sauf si le diantrefosse est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisé</em></a>.
+        Les créatures qui ratent leur <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> sont <em>terrorisées</em> jusqu'au début de leur
+        prochain tour. Celles qui réussissent leur <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> sont immunisées contre l'aura de terreur du
+        diantrefosse pendant 24 heures.</p>
+
+        <p><strong><em>Incantation innée</em></strong>. La caractéristique
+        d'incantation du diantrefosse est le Charisme (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 21). Le diantrefosse peut lancer les
+        sorts suivants de manière innée sans composante matérielle :</p>
+
+        <ul>
+
+        <li><strong><em>À volonté</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/boule-de-feu"><em>boule de
+        feu</em></a>, <a
+        href="https://5e-drs.fr/grimoire/detection-de-la-magie"><em>détection de
+        la magie</em></a></li>
+
+        <li><strong><em>3/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/immobiliser-un-monstre"><em>immobiliser
+        un monstre</em></a>, <a
+        href="https://5e-drs.fr/grimoire/mur-de-feu"><em>mur de
+        feu</em></a></li>
+
+        </ul>
+
+        <p><strong><em>Résistance à la magie</em></strong>. Le diantrefosse
+        obtient un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        lors des jets de sauvegarde contre les sorts et autres effets
+        magiques.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le diantrefosse
+        effectue quatre attaques : une avec sa morsure, une avec sa griffe, une
+        avec sa masse d'armes et une avec sa queue.</p>
+
+        <p><strong><em>Griffe</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +14 pour toucher, allonge 3 m, une
+        cible.<br><em>Touché</em> : 17 (2d8+8) dégâts tranchants.</p>
+
+        <p><strong><em>Masse d'armes</em></strong>. <em>Attaque d'arme au corps
+        à corps</em> : +14 pour toucher, allonge 3 m, une
+        cible.<br><em>Touché</em> : 15 (2d6+8) dégâts contondants plus 21 (6d6)
+        dégâts de feu.</p>
+
+        <p><strong><em>Morsure</em></strong>. Attaque d'arme au corps à corps :
+        +14 pour toucher, allonge 1,50 m, une cible.<br><em>Touché</em> : 22
+        (4d6+8) dégâts perforants. La cible doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 21 pour ne pas être <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoisonné"><em>empoisonnée</em></a>.
+        Tant que le poison fait effet, la cible ne peut pas récupérer de points
+        de vie et elle subit 21 (6d6) dégâts de poison au début de chacun de ses
+        tours. La cible <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoisonné"><em>empoisonnée</em></a>
+        peut retenter le <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> à la fin de chacun de ses tours et mettre fin à
+        l'effet dont elle est victime en cas de réussite.</p>
+
+        <p><strong><em>Queue</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +14 pour toucher, allonge 3 m, une
+        cible.<br><em>Touché</em> : 24 (3d10+8) dégâts contondants.</p>
+      public: ''
+    alignment: Loyal Mauvais
+    race: ''
+    type:
+      value: fiend
+      subtype: Diable
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 20
+    spellLevel: 20
+    source: Créatures & Oppositions
+    xp:
+      value: 25000
+  traits:
+    size: lg
+    di:
+      value:
+        - fire
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - cold
+        - piercing
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques qui ne sont pas en argent
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - infernal
+      custom: Télépathie 36 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 8
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 0
+      total: 8
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 3
+    spell6:
+      value: 0
+      override: null
+      max: 2
+    spell7:
+      value: 0
+      override: null
+      max: 2
+    spell8:
+      value: 0
+      override: null
+      max: 1
+    spell9:
+      value: 0
+      override: null
+      max: 1
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Diantrefosse
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690345
+  modifiedTime: 1663923695309
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!MpSMeScAuFYTy1lR'
+

@@ -1,0 +1,94 @@
+name: Invocations occultes - Savoir du Bois [Sorcier]
+type: feat
+flags:
+  core:
+    sourceId: Item.VAdV24prmhvx7DJL
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="armure-des-ombres"
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif"><span style="font-family:Friz, sans-serif"><strong>Savoir du
+      Bois</strong></span></h3><p><strong>Pré-requis</strong> : Niveau 15 - Le
+      bois Ancien</p><p
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span style="font-family:Friz,
+      sans-serif">Quand vous vous trouvez à moins d'1,5 mètre d'une étendue
+      d'eau dans une forêt, vous pouvez lancer un sort de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.eoMkYpz6D0XcuqZ7]{scrutation}
+      sur n'importe quelle créature de cette forêt à volonté, sans dépenser
+      d'emplacement de sort de sorcier ou de composantes matérielles. Vous devez
+      rester à moins de 1,5 mètre de l'étendue d'eau pendant toute la durée du
+      sort, sinon celui-ci prend fin.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier - Le bois ancien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685215
+  modifiedTime: 1679677995056
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.VAdV24prmhvx7DJL
+  duplicateSource: null
+folder: null
+sort: 0
+_id: HTPYW8eD42B1jR2n
+_key: '!items!HTPYW8eD42B1jR2n'
+

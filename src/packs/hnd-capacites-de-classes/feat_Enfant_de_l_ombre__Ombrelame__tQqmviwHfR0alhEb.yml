@@ -1,0 +1,94 @@
+_id: tQqmviwHfR0alhEb
+name: Enfant de l'ombre [Ombrelame]
+type: feat
+flags: {}
+img: icons/sundries/lights/lantern-iron-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="enfant-de-l-ombre"><strong>Enfant de l'ombre</strong></h3>
+
+      <p>&Eacute;galement au niveau 3, en utilisant une action bonus, vous
+      pouvez d&eacute;signer une source de lumi&egrave;re non magique &agrave;
+      une port&eacute;e de 18 m&egrave;tres et r&eacute;duire de moiti&eacute;
+      le rayon de lumi&egrave;re vive qu'elle &eacute;met pendant 1 minute. La
+      zone de lumi&egrave;re faible n'est pas affect&eacute;e. Par exemple, une
+      torche voit sa zone de lumi&egrave;re vive r&eacute;duite &agrave; 3
+      m&egrave;tres, mais sa zone de lumi&egrave;re faible reste de 6
+      m&egrave;tres. Si la source de lumi&egrave;re est magique, vous devez
+      d&eacute;penser 1 point de sorcellerie par niveau du sort (aucun point
+      pour un tour de magie).</p>
+
+      <p>De plus, vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      aux tests de Dext&eacute;rit&eacute; (Discr&eacute;tion) que vous
+      effectuez dans une zone de lumi&egrave;re faible.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: 18
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685666
+  modifiedTime: 1663923687662
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!tQqmviwHfR0alhEb'
+

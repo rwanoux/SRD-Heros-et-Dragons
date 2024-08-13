@@ -1,0 +1,97 @@
+_id: OYalN01evRsCvxWT
+name: Langues (Humain)
+type: feat
+flags:
+  dynamiceffects:
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.traits.languages.value
+        value: common
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: vTHjs6zz6ra1lxkE
+        active: false
+        _targets: []
+    equipActive: false
+img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
+system:
+  description:
+    value: >-
+      <p><strong>Langues.</strong> Vous pouvez parler, lire et écrire en commun
+      et dans une langue supplémentaire de votre choix. Les humains apprennent
+      généralement la langue des peuples qu'ils fréquentent, même s'il s'agit
+      parfois d'obscurs dialectes. Ils aiment parsemer leur langue d'expressions
+      empruntées à d'autres races : des jurons orcs, des expressions musicales
+      elfes, des citations militaires naines, etc.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Humain
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698184
+  modifiedTime: 1663923698448
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!OYalN01evRsCvxWT'
+

@@ -1,0 +1,153 @@
+_id: kQ8CoIa3QIiB17qH
+name: Esprits gardiens
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous appelez des esprits qui vous protègent. Ils volettent autour de
+      vous dans un rayon de 4,50 mètres pendant toute la durée du sort. Si vous
+      êtes Bon ou Neutre, ils ont une apparence angélique ou féerique (à vous de
+      choisir). Si vous êtes Mauvais, ils ont une apparence fiélone.</p>
+
+      <p>Quand vous lancez le sort, vous pouvez désigner autant de créatures que
+      vous le voulez afin qu'il ne les affecte pas. Une créature affectée voit
+      sa vitesse réduite de moitié dans la zone et, quand elle y entre pour la
+      première fois de son tour ou quand elle y commence son tour, elle doit
+      effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse. Si elle échoue, elle subit 3d8 dégâts
+      radiants (si vous êtes Bon ou Neutre) ou 3d8 dégâts nécrotiques (si vous
+      êtes Mauvais). Si elle réussit son jet de sauvegarde, elle subit seulement
+      la moitié de ces dégâts.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 4 ou supérieur, les dégâts augmentent
+      de 1d8 par niveau au-delà du niveau 3.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 4.5
+    width: null
+    units: m
+    type: radius
+    range:
+      value: personnelle
+      unit: (4,5
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d8
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un symbole sacré
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923688172
+  modifiedTime: 1678412467581
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kQ8CoIa3QIiB17qH'
+

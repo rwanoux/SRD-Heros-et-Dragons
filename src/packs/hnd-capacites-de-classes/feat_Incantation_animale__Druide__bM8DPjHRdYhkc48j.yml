@@ -1,0 +1,107 @@
+_id: bM8DPjHRdYhkc48j
+name: Incantation animale [Druide]
+type: feat
+img: icons/creatures/reptiles/serpent-horned-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="incantation-animale"><strong>Incantation animale</strong></h3>
+
+      <p>&Agrave; partir du niveau 18, vous pouvez lancer la plupart de vos
+      sorts de druide quelle que soit la forme que vous prenez gr&acirc;ce
+      &agrave; l'aptitude forme sauvage. Vous pouvez accomplir les composantes
+      verbales et somatiques d'un sort de druide pendant que vous avez une forme
+      sauvage, mais vous ne pouvez pas utiliser de composantes
+      mat&eacute;rielles.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685461
+  modifiedTime: 1678404341154
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!bM8DPjHRdYhkc48j'
+

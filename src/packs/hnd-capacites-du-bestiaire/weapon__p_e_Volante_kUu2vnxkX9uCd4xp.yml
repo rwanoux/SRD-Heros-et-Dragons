@@ -1,0 +1,114 @@
+name: Épée Volante
+type: weapon
+flags: {}
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
+_id: kUu2vnxkX9uCd4xp
+system:
+  description:
+    value: >-
+      <p><strong>Épée volante.</strong> Le solar lâche son épée à deux mains
+      pour qu'elle s'envole par magie vers un emplacement inoccupé situé à 1,50
+      mètre ou moins de lui. Si l'épée est dans son champ de vision, le solar
+      peut mentalement lui ordonner, par une action bonus, de voler sur une
+      distance maximale de 15 mètres et soit d'effectuer une attaque contre une
+      cible, soit de revenir dans ses mains. Si l'épée en vol est la cible d'un
+      quelconque effet, on considère que le solar la tient en main. L'épée en
+      vol tombe inerte dès que le solar meurt.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: true
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: space
+  range:
+    value: 1.5
+    long: 15
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 4d6+8
+        - slashing
+      - - 6d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: ''
+  properties:
+    two: true
+    rch: false
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698957
+  modifiedTime: 1663923700158
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kUu2vnxkX9uCd4xp'
+

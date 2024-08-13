@@ -1,0 +1,106 @@
+_id: HYV94gGfkrFxq1sL
+name: Témérité [Barbare]
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="temerite"><strong>T&eacute;m&eacute;rit&eacute;</strong></h3>
+
+      <p>&Agrave; partir du niveau 2, vous pouvez mettre de c&ocirc;t&eacute;
+      toute tentative de vous d&eacute;fendre pour attaquer avec
+      l'&eacute;nergie du d&eacute;sespoir. Lors de votre tour, quand vous
+      faites votre premi&egrave;re attaque, vous pouvez d&eacute;cider
+      d'attaquer avec t&eacute;m&eacute;rit&eacute;. Vous
+      b&eacute;n&eacute;ficiez d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;sur
+      toutes vos attaques de corps-&agrave;-corps bas&eacute;es sur la Force
+      pendant ce tour, mais les attaques dirig&eacute;es contre vous
+      b&eacute;n&eacute;ficient aussi d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      jusqu'&agrave; votre prochain tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685274
+  modifiedTime: 1663923686502
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!HYV94gGfkrFxq1sL'
+

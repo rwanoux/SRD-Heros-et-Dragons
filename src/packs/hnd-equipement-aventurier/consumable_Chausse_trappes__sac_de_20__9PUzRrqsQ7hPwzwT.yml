@@ -1,0 +1,93 @@
+_id: 9PUzRrqsQ7hPwzwT
+name: Chausse-trappes (sac de 20)
+type: consumable
+img: icons/weapons/thrown/bomb-spiked-purple.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous pouvez utiliser une action pour répandre un sac de chausse-trappes
+      sur une surface de 1,50 mètre de côté. Une créature qui traverse cette
+      surface doit réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Dextérité DD 15 ou arrêter de se déplacer
+      jusqu'à la fin de son tour et subir 1 dégât perforant. Si elle subit ce
+      dégât, la vitesse de cette créature est réduite de 3 mètres jusqu'à ce
+      qu'elle regagne au moins 1 point de vie. Une créature peut traverser la
+      zone sans avoir besoin de faire un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;si elle se déplace à la moitié de sa vitesse.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 1
+  price: 0.05
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: square
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - '1'
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 15
+    scaling: flat
+  consumableType: ammo
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700558
+  modifiedTime: 1663923700558
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!9PUzRrqsQ7hPwzwT'
+

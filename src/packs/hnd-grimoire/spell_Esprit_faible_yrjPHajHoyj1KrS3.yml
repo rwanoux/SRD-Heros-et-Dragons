@@ -1,0 +1,133 @@
+_id: yrjPHajHoyj1KrS3
+name: Esprit faible
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/encase-creature-humanoid-hold.webp
+system:
+  description:
+    value: >-
+      <p>Vous vous attaquez à l'esprit d'une créature située à portée et dans
+      votre champ de vision en essayant de briser son intellect et sa
+      personnalité. La cible subit 4d6 dégâts psychiques et doit effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> d'Intelligence.</p>
+
+      <p>Si la cible rate son jet, son Intelligence et son Charisme tombent à 1.
+      Elle ne peut plus lancer de sort, activer d'objet magique, comprendre une
+      langue ni communiquer de manière intelligible. En revanche, elle est
+      toujours capable de reconnaître ses amis, de les suivre et même de les
+      protéger.</p>
+
+      <p>La créature peut refaire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> tous les 30 jours. Le sort se termine dès qu'elle
+      réussit. On peut aussi mettre un terme à ce sort grâce à l'un des sorts
+      suivants : <em>restauration supérieure</em>, <em>guérison</em> ou
+      <em>souhait</em>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '45'
+      unit: mètres
+  range:
+    value: 45
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 4d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  level: 8
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Une poignée de sphères en argile, en cristal, en verre ou minérales
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688237
+  modifiedTime: 1663923689554
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!yrjPHajHoyj1KrS3'
+

@@ -1,0 +1,109 @@
+name: Conteneurs de sorts [Collège des taromanciens]
+type: feat
+img: icons/magic/symbols/runes-carved-stone-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.YDLV8eOFmJoxMxKI
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+_id: SO4PBDnAdruZDyMq
+system:
+  description:
+    value: >-
+      <h3><strong>Conteneur de sorts</strong></h3><p>Au niveau 3 toujours, en
+      utilisant votre action, vous pouvez utiliser une ou plusieurs lames de
+      tarot afin d'y stocker un sort de votre choix que vous pouvez lancer. Le
+      sort doit posséder un temps d'incantation égal à une action, une action
+      bonus ou une réaction. Dépensez l'emplacement de sort approprié et
+      utilisez un nombre de lames égal au niveau du sort stocké. Vous ne pouvez
+      stocker de sort supérieur au niveau 6. Les lames fusionnent en une seule
+      lame chargée. Le sort reste stocké jusqu'à votre prochain repos
+      long.</p><p>À tout instant, vous pouvez utiliser votre réaction afin de
+      libérer le sort. S'il s'agit d'un sort possédant une portée (comme une
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bvRksmepD9SBn5fv]{Boule
+      de feu}, par exemple), l'effet prend place exactement là où la lame
+      chargée se trouve. Si une créature se trouve sur le même emplacement,
+      c'est elle qui est affectée (ou qui en est l'épicentre, s'il s'agit d'un
+      sort de zone). Si le sort a une portée « personnelle », il affecte la
+      créature qui porte la lame chargée, même si elle n'en a pas conscience. La
+      lame chargée doit se trouver à une distance maximale de 36 mètres du
+      taromancien pour pouvoir être activée.</p><p>Vous pouvez utiliser cette
+      capacité un nombre de fois égal à votre bonus de maîtrise entre deux repos
+      longs.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #7'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde / taromancien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685399
+  modifiedTime: 1678423998322
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.YDLV8eOFmJoxMxKI
+  duplicateSource: null
+_key: '!items!SO4PBDnAdruZDyMq'
+

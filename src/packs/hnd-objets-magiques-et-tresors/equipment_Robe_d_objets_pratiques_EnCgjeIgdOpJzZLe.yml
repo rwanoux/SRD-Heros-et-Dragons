@@ -1,0 +1,426 @@
+_id: EnCgjeIgdOpJzZLe
+name: Robe d'objets pratiques
+type: equipment
+img: icons/equipment/back/mantle-collared-black.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Cette robe est couverte de pièces de tissu de formes et de couleurs
+      diverses. Tant que vous portez ce vêtement, vous pouvez effectuer une
+      action pour détacher une des pièces et provoquer sa transformation en
+      l'objet ou la créature qu'elle représente. Dès que la dernière pièce est
+      détachée, la robe devient un vêtement ordinaire.</p>
+
+      <p>Deux pièces de chacun des éléments suivants sont cousues sur la robe
+      :</p>
+
+      <ul>
+
+      <li>Dague</li>
+
+      <li>Lanterne sourde (remplie et allumée)</li>
+
+      <li>Miroir en acier</li>
+
+      <li>Perche de 3 mètres</li>
+
+      <li>Corde de chanvre (15 mètres, enroulée)</li>
+
+      <li>Sac</li>
+
+      </ul>
+
+      <p>En outre, la robe se compose de 4d4 autres pièces. Le MJ choisit ces
+      pièces ou les détermine au hasard.</p>
+
+      <table style="width: 372px;">
+
+      <tbody>
+
+      <tr>
+
+      <th class="center" style="width: 39px;">d100</th>
+
+      <th style="width: 326px;">Pièce de tissu</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">01-08</td>
+
+      <td style="width: 326px;">100 po dans un sac</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">09-15</td>
+
+      <td style="width: 326px;">Coffre en argent (30 centimètres de long, 15
+      centimètres de large et de profondeur) d'une valeur de 500 po</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">16-22</td>
+
+      <td style="width: 326px;">Porte en fer (d'une largeur et d'une hauteur
+      maximales de 3 mètres, barrée du côté de votre choix) que vous pouvez
+      placer dans une ouverture à votre portée ; la taille s'adapte aux
+      dimensions de l'ouverture et s'y fixe d'elle-même</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">23-30</td>
+
+      <td style="width: 326px;">10 pierres précieuses d'une valeur de 100 po
+      chacune</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">31-44</td>
+
+      <td style="width: 326px;">Échelle en bois de 7,30 mètres de long</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">45-51</td>
+
+      <td style="width: 326px;">Cheval de selle avec fontes</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">52-59</td>
+
+      <td style="width: 326px;">Fosse (cube de 3 mètres d'arête) que vous pouvez
+      placer dans le sol à 3 mètres ou moins de vous</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">60-68</td>
+
+      <td style="width: 326px;">4 potions de soins</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">69-75</td>
+
+      <td style="width: 326px;">Barque (3,60 mètres de long)</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">76-83</td>
+
+      <td style="width: 326px;">Parchemin magique contenant un sort de niveau 1
+      à 3</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">84-90</td>
+
+      <td style="width: 326px;">2&nbsp;<a
+      href="https://5e-drs.fr/bestiaire/mastiff/">molosses</a></td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">91-96</td>
+
+      <td style="width: 326px;">Fenêtre (60 centimètres sur 1,20 mètre et
+      jusqu'à 60 centimètres d'épaisseur) que vous pouvez placer sur une surface
+      verticale à votre portée</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center" style="width: 39px;">97-00</td>
+
+      <td style="width: 326px;">Bélier portable</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.5
+  price: 140
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 4d4
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 0
+    type: clothing
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+  details:
+    description: >-
+      <p><em>Wondrous item</em></p>
+
+      <p>This robe has cloth patches of various shapes and colors covering it.
+      While wearing the robe, you can use an action to detach one of the
+      patches, causing it to become the object or creature it represents. Once
+      the last patch is removed, the robe becomes an ordinary garment.</p>
+
+      <p>The robe has the following patches:</p>
+
+      <ul>
+
+      <li>x2 @Compendium[dnd5e.items.0E565kQUBmndJ1a2]{Dagger} patches</li>
+
+      <li>x2 @Compendium[dnd5e.items.UkWdyJYQTfVX2cJW]{Bullseye Lantern} (filled
+      and lit) patches</li>
+
+      <li>x2 @Compendium[dnd5e.items.HZsvDPmvysQKGzGy]{Steel Mirror}
+      patches</li>
+
+      <li>x2 10-foot @Compendium[dnd5e.items.tut1jbW3UCsrUjCG]{Pole}
+      patches</li>
+
+      <li>x2 @Compendium[dnd5e.items.QXmaarJ4X8P0C1HV]{Hempen Rope} (50 feet,
+      coiled) patches</li>
+
+      <li>x2 @Compendium[dnd5e.items.CNdDj8dsXVpRVpXt]{Sack} patches</li>
+
+      </ul>
+
+      <p>In addition, the robe has 4d4 other patches. The GM chooses the patches
+      or determines them randomly.</p>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <td><strong>d100</strong></td>
+
+      <td><strong>Patch</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td>01-08</td>
+
+      <td>Bag of 100 gp</td>
+
+      </tr>
+
+      <tr>
+
+      <td>09-15</td>
+
+      <td>Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp</td>
+
+      </tr>
+
+      <tr>
+
+      <td>16-22</td>
+
+      <td>Iron door (up to 10 feet wide and high, barred on one side of your
+      choice), which you can place in an opening you can reach; it conforms to
+      fit the opening, attaching and hinging itself.</td>
+
+      </tr>
+
+      <tr>
+
+      <td>23-30</td>
+
+      <td>10 gems worth 100 gp each</td>
+
+      </tr>
+
+      <tr>
+
+      <td>31-44</td>
+
+      <td>Wooden ladder (24 feet long)</td>
+
+      </tr>
+
+      <tr>
+
+      <td>45-51</td>
+
+      <td>A @Compendium[dnd5e.monsters.rz8UTUnFT87BsAFR]{Riding Horse} with
+      saddle bags</td>
+
+      </tr>
+
+      <tr>
+
+      <td>52-59</td>
+
+      <td>Pit (a cube 10 feet on a side), which you can place on the ground
+      within 10 feet of you</td>
+
+      </tr>
+
+      <tr>
+
+      <td>60-68</td>
+
+      <td>4 @Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Potions of Healing}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>69-75</td>
+
+      <td>Rowboat (12 feet long)</td>
+
+      </tr>
+
+      <tr>
+
+      <td>76-83</td>
+
+      <td>Spell scroll containing one spell of 1st to 3rd level</td>
+
+      </tr>
+
+      <tr>
+
+      <td>84-90</td>
+
+      <td>2 @Compendium[dnd5e.monsters.YTpL2c3NO4sOn2UA]{Mastiffs}</td>
+
+      </tr>
+
+      <tr>
+
+      <td>91-96</td>
+
+      <td>Window (2 feet by 4 feet, up to 2 feet deep) which you can place on a
+      vertical surface you can reach</td>
+
+      </tr>
+
+      <tr>
+
+      <td>97-00</td>
+
+      <td>Portable ram</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p><em>Foundry note: the Other Formula has been set to calculate the 4d4
+      patches if required.</em></p>
+
+      <p><em>Additionally, it is recommended to delete items here as necessary
+      to track patches left.</em></p>
+
+      <p><em>The price guide has been calculated at 5*item for the maximum
+      number of items possible.&nbsp; Please adjust as necessary to reflect the
+      number of patches and the DM's world economy.</em></p>
+
+      <p>&nbsp;</p>
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701082
+  modifiedTime: 1663923702054
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EnCgjeIgdOpJzZLe'
+

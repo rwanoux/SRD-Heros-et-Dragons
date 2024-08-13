@@ -1,0 +1,180 @@
+_id: bi9Gik4Y78DW8ZU7
+name: Emprisonnement
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+system:
+  description:
+    value: >-
+      <p>Vous créez des entraves magiques pour immobiliser une créature située à
+      portée et dans votre champ de vision. La cible doit réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse ou se retrouver emprisonnée par le sort. Si
+      elle réussit, elle est immunisée contre ce sort si vous le lancez de
+      nouveau. Tant que la créature est affectée par le sort, elle n'a pas
+      besoin de respirer, de manger, ni de boire et ne vieillit plus. Les sorts
+      de divination ne parviennent plus à la localiser ni à la percevoir.</p>
+
+      <p>Vous devez opter pour l'une des formes d'emprisonnement suivantes quand
+      vous lancez le sort.</p>
+
+      <p><strong>Confinement minimal</strong>. La cible rétrécit jusqu'à ne plus
+      faire que 2,5 centimètres de haut et se retrouve emprisonnée dans une
+      gemme ou un objet similaire. La lumière traverse la gemme normalement (ce
+      qui permet à la cible de voir l'extérieur et aux autres créatures de
+      regarder dedans) mais rien d'autre ne peut traverser sa paroi, pas même
+      les méthodes de téléportation ni les voyages planaires. Il est impossible
+      de tailler la gemme ou de la briser tant que le sort fait effet. La
+      composante spéciale de cette version du sort est une grande gemme
+      transparente comme un corindon, un diamant ou un rubis.</p>
+
+      <p><strong>Enchaîné</strong>. La cible est retenue par de lourdes chaînes
+      fermement ancrées au sol. Elle est entravée jusqu'à ce que le sort se
+      termine et, jusque-là, elle ne peut pas se déplacer ni être déplacée par
+      quelque moyen que ce soit. La composante spéciale de cette version du sort
+      est une fine chaîne faite de métal précieux.</p>
+
+      <p><strong>Enseveli</strong>. La cible est ensevelie dans les profondeurs
+      de la terre, dans une sphère de force magique tout juste assez grande pour
+      la contenir. Rien ne peut traverser cette sphère et les créatures ne
+      peuvent pas recourir au voyage planaire pour y entrer ou en sortir. La
+      composante spéciale de cette version du sort est un petit orbe en
+      mithral.</p>
+
+      <p><strong>Prison isolée</strong>. Le sort transporte la cible dans un
+      minuscule demi-plan protégé contre la téléportation et les voyages
+      planaires. Ce demi-plan peut-être un labyrinthe, une cage, une tour ou une
+      structure confinée similaire de votre choix. La composante spéciale de
+      cette version du sort est une représentation miniature de la prison, faite
+      de jade.</p>
+
+      <p><strong>Sommeil</strong>. La cible s'endort et il est impossible de la
+      réveiller. La composante spéciale de cette version du sort est un bouquet
+      d'herbes soporifiques très rares.</p>
+
+      <p><strong>Mettre fin au sort</strong>. Lors de l'incantation et quelle
+      que soit la version du sort, vous pouvez préciser une condition spéciale
+      qui met fin au sort et libère la cible. Cette condition peut être aussi
+      spécifique ou aussi élaborée que vous le désirez, mais le MJ doit
+      confirmer que cette condition est réalisable et a une chance d'être
+      remplie. Elle peut se baser sur le nom de la créature, son identité ou sa
+      divinité, mais elle doit sinon reposer sur des actions ou des qualités
+      observables et non sur des éléments intangibles comme le niveau, la classe
+      ou les points de vie.</p>
+
+      <p><em>Dissipation de la magie</em> peut mettre fin au sort à condition
+      d'être lancée depuis un emplacement de sort de niveau 9 en visant la
+      prison ou la composante matérielle spéciale utilisée pour lancer le
+      sort.</p>
+
+      <p>Vous pouvez utiliser une composante spéciale pour créer une prison à la
+      fois seulement. Si vous relancez ce sort en utilisant la même composante,
+      la cible de la première incantation est libérée sur-le-champ.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 9
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: >-
+      Un portrait sur un vélin ou une statuette sculptée à l'effigie de la cible
+      et une composante spéciale qui varie en fonction de la version du sort
+      choisie et vaut au moins 500 po par dé de vie de la cible
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688119
+  modifiedTime: 1663923689135
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!bi9Gik4Y78DW8ZU7'
+

@@ -1,0 +1,91 @@
+_id: WCXttu9PIKQFizSa
+name: Migration d'été [Cercle des Saisons]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/light/explosion-star-large-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="migration-d-ete"><strong>Migration
+      d'&eacute;t&eacute;</strong></h3>
+
+      <p>L'&eacute;t&eacute; est la p&eacute;riode des voyages et des grandes
+      migrations pour les animaux. Au niveau 6, vous augmentez votre vitesse de
+      d&eacute;placement de 3 m&egrave;tres. Malgr&eacute; son nom, vous
+      b&eacute;n&eacute;ficiez de cette aptitude quelle que soit la saison.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685427
+  modifiedTime: 1678415106750
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WCXttu9PIKQFizSa'
+

@@ -1,0 +1,115 @@
+_id: hYeWSFf5XgUkjj8y
+name: Table Baton OM5
+folder: vVTDSYsguUPXB21e
+sort: 6900000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: HFEZCjZXi6skdpsI
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bâton d'envoûtement
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-green.jpg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: xXKxbU2wuyCCzk9F
+    _key: '!tables.results!hYeWSFf5XgUkjj8y.HFEZCjZXi6skdpsI'
+  - _id: FV616mL5cWVKDI5K
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bâton de flétrissement
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-skull.jpg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: lrdO3nVw2cVWYLu0
+    _key: '!tables.results!hYeWSFf5XgUkjj8y.FV616mL5cWVKDI5K'
+  - _id: LugeZKKrvRXWnPiO
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bâton de guérison
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-green.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: OSNw0qvj9byJMfFL
+    _key: '!tables.results!hYeWSFf5XgUkjj8y.LugeZKKrvRXWnPiO'
+  - _id: XaYB9n2EpRRJ33Vm
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bâton des forêts
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-vine.jpg
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: 8z7yV5RgCnP6D0Hb
+    _key: '!tables.results!hYeWSFf5XgUkjj8y.XaYB9n2EpRRJ33Vm'
+  - _id: iOS5IK55gmF6DGGC
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bâton du grand essaim
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/weapons/staff-vine.jpg
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Kryu6yOnL87VoRzR
+    _key: '!tables.results!hYeWSFf5XgUkjj8y.iOS5IK55gmF6DGGC'
+formula: 1d6
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!hYeWSFf5XgUkjj8y'
+

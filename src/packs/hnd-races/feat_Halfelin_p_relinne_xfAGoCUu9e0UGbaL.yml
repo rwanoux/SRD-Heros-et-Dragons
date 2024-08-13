@@ -1,0 +1,130 @@
+name: Halfelin p'relinne
+type: feat
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value: true
+      altValue: true
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+    effects: []
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-races.MtDEqYCUGmOxmlnv
+_id: xfAGoCUu9e0UGbaL
+system:
+  description:
+    value: "<h2 id=\"traits-des-halfelins\">Traits des halfelins</h2>\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Dextérité augmente de 2.</p>\n<hr />\n<p><strong>Âge</strong>. Un halfelin atteint la maturité vers 20 ans et vit généralement 150 ans.</p>\n<hr />\n<p><strong>Alignement</strong>. La majorité des halfelins est d'alignement Loyal Bon. Ce sont par nature des êtres qui ont un bon cœur et qui sont affables. Ils détestent voir les autres créatures souffrir et ne tolèrent pas l'oppression. Ils sont aussi très organisés et respectueux des traditions. Ils se reposent beaucoup sur leur communauté et le confort apporté par leurs coutumes.</p>\n<hr />\n<p><strong>Taille.</strong> D'une taille moyenne de 90 centimètres, les halfelins pèsent environ 20 kg. Ils sont de petite taille.</p>\n<hr />\n<p><strong>Vitesse</strong>. Votre vitesse au sol de base est de 7,50 mètres.</p>\n<hr />\n<p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"d3hwaVPYE0Cp0iNH\"> Chanceux (Halfelin)</a></p>\n<hr />\n<p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"NFnf56IeYL3pCCeP\"> Brave (Halfelin)</a></p>\n<hr />\n<p><a class=\"entity-link\" draggable=\"true\" data-pack=\"srd-heros-et-dragons.HnD-traits-raciaux\" data-id=\"ZUz7A6r6dTCQSOvf\"> Agilité halfeline (Halfelin)</a></p>\n<hr />\n<p><strong>Langues</strong>. Vous pouvez parler, lire et écrire en commun et en halfelin. Bien que la langue des halfelins n'ait rien d'un secret, ils n'aiment pas l'apprendre aux autres. Ils écrivent très peu et n'ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, une langue dont ils partagent l'alphabet, ce qui leur permet de converser avec les gens qui habitent sur les mêmes territoires qu'eux ou dont ils traversent les terres.</p>\n<p>\_</p>\n<h3 id=\"halfelin-grand-sabot\"><strong>Halfelin\_</strong><strong>p'relinne</strong></h3>\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Charisme augmente de 1.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.4YihykvhsmQ6Ypu6]{Inflexible}</p>"
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923697931
+  modifiedTime: 1663923698102
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-races.MtDEqYCUGmOxmlnv
+  duplicateSource: null
+_key: '!items!xfAGoCUu9e0UGbaL'
+

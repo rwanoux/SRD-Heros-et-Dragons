@@ -1,0 +1,95 @@
+_id: dCrq65lj7lU3be6L
+name: Rustique [Pisteur]
+type: feat
+flags: {}
+img: icons/environment/settlement/wagon-black.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="rustique"><strong>Rustique</strong></h3>
+
+      <p>&Agrave; partir du niveau 3, vous n&eacute;gligez l'apprentissage de la
+      magie au profit de comp&eacute;tences plus pratiques. Vous remplacez votre
+      niveau de personnage par votre bonus de ma&icirc;trise pour
+      d&eacute;terminer le nombre de sorts que vous apprenez et que vous pouvez
+      lancer dans la table d'&eacute;volution du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-classes-et-specialisations.vrY7M1nPnRWr70WV]{R&ocirc;deur}.
+      Autrement dit, vous lancez des sorts comme un r&ocirc;deur d'un niveau
+      &eacute;gal &agrave; votre bonus de ma&icirc;trise (si vous &ecirc;tes
+      multiclass&eacute;, d&eacute;terminez votre bonus de ma&icirc;trise pour
+      cette capacit&eacute; en comptant uniquement vos niveaux de r&ocirc;deur,
+      et non votre niveau global).</p>
+
+      <p>Par exemple, au niveau 15 (bonus de ma&icirc;trise de +5), vous
+      utilisez la magie comme le ferait normalement un r&ocirc;deur de niveau 5,
+      ce qui vous permet d'apprendre quatre sorts et de lancer quatre sorts de
+      niveau 1 et un sort de niveau 2.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685475
+  modifiedTime: 1663923687145
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!dCrq65lj7lU3be6L'
+

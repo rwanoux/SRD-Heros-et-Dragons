@@ -1,0 +1,122 @@
+_id: vwxO7grXO6wMiu8A
+name: Envoi de message
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/sundries/documents/envelope-stealed-brown.webp
+system:
+  description:
+    value: >-
+      <p>Vous envoyez un court message d'au maximum vingt-cinq mots à une
+      créature qui vous est familière. Elle entend le message dans son esprit,
+      sait que c'est vous qui le lui avez envoyé si elle vous connaît, et peut
+      vous répondre immédiatement de la même manière. Le sort permet aux
+      créatures dotées d'une Intelligence supérieure ou égale à 1 de comprendre
+      le sens de votre message.</p>
+
+      <p>Vous pouvez envoyer votre message à n'importe quelle distance, et même
+      sur un autre plan d'existence, mais il y a 5 % de chances, si la cible est
+      sur un autre plan, que le message ne lui parvienne pas.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: illimitée
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Un petit bout de fil de cuivre
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688222
+  modifiedTime: 1663923689502
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vwxO7grXO6wMiu8A'
+

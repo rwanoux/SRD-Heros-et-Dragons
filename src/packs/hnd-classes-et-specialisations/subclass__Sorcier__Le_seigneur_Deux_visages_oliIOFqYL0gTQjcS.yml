@@ -1,0 +1,80 @@
+_id: oliIOFqYL0gTQjcS
+name: '[Sorcier] Le seigneur Deux-visages'
+type: subclass
+img: icons/weapons/swords/sword-broad-crystal-paired.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"protecteurs-d-outre-monde\"><strong>Protecteurs d'outre-monde</strong></h2>\n<h3 id=\"le-seigneur-immortel\"><strong>Le seigneur Deux-visages</strong></h3>\n<h4 id=\"liste-de-sorts-etendue-2\"></h4>\n<p>\_</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.stn0jtTnMG8otUB9]{Pactes [Le seigneur Deux-visages]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Dd3tWdkLdve1WDNT]{Liste de sorts étendue [Le seigneur Deux-visages]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jm4bo0hZQzsXLsDf]{Pièce aux deux visages [Le seigneur Deux-visages]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aeLQUJd7auazEVmi]{Dé magique [Le seigneur Deux-visages]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1SmfdzA4NR3g7P5L]{Consulter Deux-visages [Le seigneur Deux-visages]}</p>\n<h4 id=\"liste-de-sorts-etendue-2\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jyfxWd9JkrpfLOUu]{Protection aux deux visages [Le seigneur Deux-visages]}</h4>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: le-seigneur-deux-visages
+  classIdentifier: sorcier
+  advancement:
+    - _id: ex1eszm1cmigwumf
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jyfxWd9JkrpfLOUu
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: 90z2hktsd2p8o539
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1SmfdzA4NR3g7P5L
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: t8461onac8gwy71w
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aeLQUJd7auazEVmi
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: c0ku011huiabjsy6
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.stn0jtTnMG8otUB9
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Dd3tWdkLdve1WDNT
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jm4bo0hZQzsXLsDf
+        optional: false
+      value: {}
+      level: 1
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703428
+  modifiedTime: 1663923703660
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!oliIOFqYL0gTQjcS'
+

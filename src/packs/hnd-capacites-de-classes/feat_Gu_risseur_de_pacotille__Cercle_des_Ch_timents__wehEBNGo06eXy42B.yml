@@ -1,0 +1,103 @@
+_id: wehEBNGo06eXy42B
+name: Guérisseur de pacotille [Cercle des Châtiments]
+type: feat
+flags: {}
+img: icons/magic/life/heart-glowing-red.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Gu&eacute;risseur de pacotille</strong></h3>
+
+      <p>Au niveau 2, vous d&eacute;cidez de vous concentrer davantage sur les
+      d&eacute;g&acirc;ts inflig&eacute;s par vos sorts que sur le soutien
+      &agrave; vos alli&eacute;s.</p>
+
+      <p>Lorsque vous lancez les d&eacute;s afin de d&eacute;terminer le nombre
+      de points de vie rendus par un sort de gu&eacute;rison rendant des PV
+      (comme
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin
+      des blessures},
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.q4YQyD1xulTcHEgm]{Mot
+      de gu&eacute;rison} ou
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1]{Soin
+      des blessures de groupe} par exemple), vous ne pouvez pas ajouter votre
+      bonus de caract&eacute;ristique au nombre de points de vie rendus si le
+      sort le permet.</p>
+
+      <p>Vous devez en outre relancer les d&eacute;s ayant obtenu le maximum (8
+      sur 1d8 par exemple) puis utiliser le nouveau r&eacute;sultat.</p>
+
+      <p>De plus, tout sort rendant un nombre fixe de points de vie ne rend que
+      la moiti&eacute; du nombre pr&eacute;vu.</p>
+
+      <p>Enfin, cette r&egrave;gle s&rsquo;applique m&ecirc;me aux sorts obtenus
+      via des dons, des objets magiques ou un multiclassage</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette R''n P #4'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685690
+  modifiedTime: 1663923687766
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!wehEBNGo06eXy42B'
+

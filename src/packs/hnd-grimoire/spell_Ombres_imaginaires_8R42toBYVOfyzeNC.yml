@@ -1,0 +1,123 @@
+_id: 8R42toBYVOfyzeNC
+name: Ombres imaginaires
+type: spell
+flags: {}
+img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+system:
+  description:
+    value: >-
+      <p>Vous désignez une cible à portée et dans votre champ de vision. Vous
+      créez des images fantasmagoriques cauchemardesques dans son esprit. La
+      victime doit réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> d'Intelligence. En cas d'échec, elle perçoit des
+      silhouettes d'ombres qui l'assaillent, ce qui lui inflige un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      à toutes ses actions pendant la durée du sort.</p>
+
+      <p><strong>À plus haut niveau</strong>. Lorsque vous lancez ce sort en
+      utilisant un emplacement de sort de niveau 5 ou supérieur, le sort
+      persiste jusqu'à la fin de sa durée normale sans nécessiter de
+      concentration.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  level: 2
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un morceau de charbon
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687956
+  modifiedTime: 1663923688614
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!8R42toBYVOfyzeNC'
+

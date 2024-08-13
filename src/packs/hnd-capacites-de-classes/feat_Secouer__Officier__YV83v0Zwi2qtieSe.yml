@@ -1,0 +1,93 @@
+name: Secouer [Officier]
+type: feat
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.0RTfxpjIo5NUlhiw
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: YV83v0Zwi2qtieSe
+system:
+  description:
+    value: >-
+      <p>Au niveau 10, toujours, vous pouvez aussi utiliser votre réaction et un
+      dé de commandement afin de secouer un allié dans un rayon de 18 m capable
+      de vous entendre. Vous mettez fin à l'état <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisé</a>
+      ou <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charmé</a>
+      qui l'affecte.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #7'
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier / Officier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685438
+  modifiedTime: 1678392459820
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.0RTfxpjIo5NUlhiw
+  duplicateSource: null
+_key: '!items!YV83v0Zwi2qtieSe'
+

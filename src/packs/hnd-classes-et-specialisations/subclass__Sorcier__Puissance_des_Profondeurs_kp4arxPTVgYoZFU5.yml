@@ -1,0 +1,78 @@
+_id: kp4arxPTVgYoZFU5
+name: '[Sorcier] Puissance des Profondeurs'
+type: subclass
+img: icons/weapons/swords/sword-broad-crystal-paired.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"protecteurs-d-outre-monde\"><strong>Protecteurs d'outre-monde</strong></h2>\n<h3 id=\"la-puissance-des-profondeurs\"><strong>La puissance des profondeurs</strong></h3>\n<h4 id=\"liste-de-sorts-etendue-3\"></h4>\n<p>\_</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZEqmhPJpOUmXzNTy]{Liste de sorts étendue [Puissance des Profondeurs]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.A8pFNS4DsOvkJbE5]{Adepte des profondeurs [Puissance des Profondeurs]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ovFZH6HeVIZGY0za]{Comme une anguille [Puissance des Profondeurs]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pRM9k6WIV8SRX28A]{Maître des cauchemars [Puissance des Profondeurs]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1hu0K7q53iklE4KX]{Ensevelissement [Puissance des Profondeurs]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: puissance-des-profondeurs
+  classIdentifier: sorcier
+  advancement:
+    - _id: 7wew6o1opswuto36
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1hu0K7q53iklE4KX
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: o3zu8ahnz5r9pov7
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pRM9k6WIV8SRX28A
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: t8l6fa0yr7k30hj3
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ovFZH6HeVIZGY0za
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: 78j37gkp94wt14dn
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZEqmhPJpOUmXzNTy
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.A8pFNS4DsOvkJbE5
+        optional: false
+      value: {}
+      level: 1
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703423
+  modifiedTime: 1663923703638
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kp4arxPTVgYoZFU5'
+

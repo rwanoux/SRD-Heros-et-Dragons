@@ -1,0 +1,106 @@
+name: Coup
+type: weapon
+flags: {}
+img: icons/magic/defensive/armor-stone-skin.webp
+_id: 8uRS74TNTvXwFXjM
+system:
+  description:
+    value: >-
+      <p><strong>Coup. </strong>Attaque d'arme au corps &agrave; corps sur une
+      cible. D&eacute;g&acirc;ts contondants.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: true
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: null
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    two: false
+    rch: true
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698759
+  modifiedTime: 1663923699338
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!8uRS74TNTvXwFXjM'
+

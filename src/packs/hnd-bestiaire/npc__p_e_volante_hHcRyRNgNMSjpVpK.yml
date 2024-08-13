@@ -1,0 +1,1175 @@
+_id: hHcRyRNgNMSjpVpK
+name: Épée volante
+type: npc
+img: systems/dnd5e/tokens/construct/FlyingSword.webp
+items:
+  - _id: 3YrvyXbp5JaCFuKT
+    name: Faux-Semblant
+    type: feat
+    sort: 100000
+    flags: {}
+    img: icons/creatures/eyes/human-single-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Faux-semblant.&nbsp;</strong>Tant que l'épée reste
+          immobile, il est impossible de la distinguer d'une épée ordinaire.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Épée volante
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!hHcRyRNgNMSjpVpK.3YrvyXbp5JaCFuKT'
+  - _id: fc2CMgq1MrU2IJhh
+    name: Vulnérabilité à l'antimagie
+    type: feat
+    sort: 200000
+    flags:
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/magic/unholy/orb-swirling-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Vulnérabilité à l'antimagie.&nbsp;</strong>L'épée
+          est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisée</a>&nbsp;quand
+          elle se trouve à l'intérieur d'un champ d'antimagie. Ciblée par
+          une&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-de-la-magie/">dissipation
+          de la magie</a>, l'épée doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution contre le DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;du sort du lanceur, sans quoi elle
+          tombe&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient">inconsciente</a>
+          pendant 1 minute.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Épée volante
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!hHcRyRNgNMSjpVpK.fc2CMgq1MrU2IJhh'
+  - _id: H7AU3cywaYMpXQqR
+    name: Épée longue
+    type: weapon
+    sort: 300000
+    flags:
+      obsidian:
+        category: martial
+        type: melee
+        mode: melee
+        tags:
+          versatile: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: 00f2f8ec-a9cb-46d9-83fa-718a6ede7e30
+            components:
+              - type: attack
+                uuid: 2652ae79-f456-417b-b5d3-6b457e3bac53
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 62fb6123-4d63-4a47-bfba-46618483784b
+                calc: formula
+                ndice: 1
+                die: 8
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: false
+              - type: damage
+                uuid: 77ea96f6-cae7-4294-97c5-b16e8d6f624e
+                calc: formula
+                ndice: 1
+                die: 10
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: true
+        version: 7
+    img: icons/weapons/swords/greatsword-crossguard-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>L'épée longue est une arme très polyvalente qui peut également être
+          maniée à deux mains pour des coups plus punitifs.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +3 pour toucher, allonge
+          1,50 m, une cible.<br>Touché&nbsp;: 5 (1d8+1) dégâts tranchants.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 1.5
+      price: 15
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        ver: false
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!hHcRyRNgNMSjpVpK.H7AU3cywaYMpXQqR'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 2
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    dex:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 4
+      prof: 2
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    con:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    int:
+      value: 1
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: -5
+      save: -5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 5
+    wis:
+      value: 5
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: -3
+      save: -3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 7
+    cha:
+      value: 1
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: -5
+      save: -5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 5
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 17
+      max: 17
+      temp: 0
+      tempmax: 0
+      formula: 5d6
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 15
+      swim: 0
+      walk: 0
+      units: m
+      hover: true
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 18
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 7
+    spellcasting: int
+    prof: 2
+    spelldc: 5
+    encumbrance:
+      value: 1.5
+      max: 90
+      pct: 1.6666666666666667
+      encumbered: true
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacit&eacute;s</h2>
+
+        <p><strong><em>Faux semblant</em></strong>. Tant que
+        l'&eacute;p&eacute;e reste immobile, il est impossible de la distinguer
+        d'une &eacute;p&eacute;e ordinaire.</p>
+
+        <p><strong><em>Vuln&eacute;rabilit&eacute; &agrave;
+        l'antimagie</em></strong>. L'&eacute;p&eacute;e est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralis&eacute;"><em>neutralis&eacute;e</em></a>
+        quand elle se trouve &agrave; l'int&eacute;rieur d'un champ d'antimagie.
+        Cibl&eacute;e par une <a
+        href="https://5e-drs.fr/grimoire/dissipation-de-la-magie"><em>dissipation
+        de la magie</em></a>, l'&eacute;p&eacute;e doit r&eacute;ussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution contre le DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> du sort du lanceur, sans quoi elle tombe <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#inconscient"><em>inconsciente</em></a>
+        pendant 1 minute.</p>
+
+        <hr />
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>&Eacute;p&eacute;e longue</em></strong>. <em>Attaque
+        d'arme au corps &agrave; corps</em> : +3 pour toucher, allonge 1,50 m,
+        une cible.<br /><em>Touch&eacute;</em> : 5 (1d8+1) d&eacute;g&acirc;ts
+        tranchants.</p>
+      public: ''
+    alignment: non-alignée
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 0.25
+    spellLevel: 1
+    source: Créatures & Oppositions
+    xp:
+      value: 50
+  traits:
+    size: sm
+    di:
+      value:
+        - poison
+        - psychic
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - deafened
+        - blinded
+        - charmed
+        - poisoned
+        - exhaustion
+        - paralyzed
+        - petrified
+        - frightened
+      custom: ''
+    languages:
+      value: []
+      custom: —
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 2
+    spell2:
+      value: 0
+      override: null
+      max: 0
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Épée volante
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/tokens/construct/FlyingSword.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690604
+  modifiedTime: 1663923696381
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!hHcRyRNgNMSjpVpK'
+

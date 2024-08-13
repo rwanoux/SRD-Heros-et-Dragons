@@ -1,0 +1,2616 @@
+_id: Fuwxm8GaERkx2raL
+name: Ecclésiastique
+type: npc
+img: systems/dnd5e/tokens/humanoid/Priest.webp
+items:
+  - _id: CFiJEB3CtohCRdev
+    name: Masse d'armes
+    type: weapon
+    sort: 100000
+    flags:
+      obsidian:
+        category: simple
+        type: melee
+        mode: melee
+        tags: {}
+        magical: false
+        effects:
+          - name: ''
+            uuid: 5ddb5120-c7d0-4827-8c29-db4b468bd0ae
+            components:
+              - type: attack
+                uuid: 7bb28ed7-2b3d-4398-beda-6ed43f1d8fa6
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 6a701152-b6dd-4445-b558-f72b5606a3fd
+                calc: formula
+                ndice: 1
+                die: 6
+                ability: str
+                bonus: 0
+                damage: blg
+                versatile: false
+        version: 7
+    img: icons/weapons/maces/mace-round-spiked-black.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une lourde boule de métal montée au bout d'une massue également de
+          métal. La tête est munie de pointes et de lames conçues pour perforer
+          l'armure et briser les os situés en dessous.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +2 pour toucher, allonge
+          1,50 m, une cible.<br>Touché&nbsp;: 3 (1d6) dégâts contondants.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 2
+      price: 5
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 0
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d6 + @mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: simpleM
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        hvy: false
+        fin: false
+        fir: false
+        foc: false
+        lgt: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+        lod: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.CFiJEB3CtohCRdev'
+  - _id: l27UuD4faYynhGIg
+    name: Distinction divine
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/symbols/cog-shield-white-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Distinction divine.</strong>&nbsp;Par une action bonus,
+          l'ecclésiastique peut dépenser un emplacement de sort pour que ses
+          attaques d'arme au corps à corps infligent par magie 10 (3d6) dégâts
+          radiants supplémentaires à une cible qu'il parvient à toucher. Cet
+          avantage dure jusqu'à la fin du tour. Si le clerc dépense un
+          emplacement de sort de niveau 2 ou plus, les dégâts supplémentaires
+          augmentent de 1d6 par niveau au-dessus du 1er.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Ecclésiastique
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.l27UuD4faYynhGIg'
+  - _id: URfznPmj8wXBFesy
+    name: Incantation
+    type: feat
+    sort: 300000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation</strong>. L'ecclésiastique est un lanceur de
+          sorts de niveau 5. Sa caractéristique d'incantation est la Sagesse (DD
+          du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 13, +5 pour toucher avec les
+          attaques de sort). Voici ses sorts de clerc préparés :</p>
+
+          <ul>
+
+          <li>Tours de magie (à volonté)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/flamme-sacree/">flamme
+          sacrée</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/lumiere/">lumière</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/thaumaturgie/">thaumaturgie</a></li>
+
+          <li>1er niveau (4 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/balisage/">balisage</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/sanctuaire/">sanctuaire</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/soin-des-blessures/">soin des
+          blessures</a></li>
+
+          <li>2e niveau (3 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/arme-spirituelle/">arme
+          spirituelle</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/restauration-inferieure/">restauration
+          inférieure</a></li>
+
+          <li>3e niveau (2 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-de-la-magie/">dissipation
+          de la magie</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/esprits-gardiens/">esprits
+          gardiens</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Ecclésiastique
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.URfznPmj8wXBFesy'
+  - _id: N50ovxYt3VvjiOC7
+    name: Flamme sacrée
+    type: spell
+    sort: 400000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/skills/ranged/projectile-explosion-black-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une lumière flamboyante s'abat sur une créature située à portée et
+          dans votre champ de vision. La cible doit réussir un jet de Dextérité
+          ou subir 1d8 dégâts radiants. Même si elle se trouve derrière un abri,
+          la cible ne bénéficie pas d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+          lors du <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a>.</p>
+
+          <p>Les dégâts du sort augmentent de 1d8 quand vous atteignez le niveau
+          5 (2d8), 11 (3d8) et 17 (4d8).</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 13
+        scaling: spell
+      level: 0
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.N50ovxYt3VvjiOC7'
+  - _id: 0kP1Wc6NPi5y3Mav
+    name: Lumière
+    type: spell
+    sort: 500000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/light/explosion-star-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous touchez un objet qui ne fait pas plus de 3 mètres dans chaque
+          dimension. Jusqu'à la fin du sort, il émet une vive lumière dans un
+          rayon de 6 mètres et une faible lumière dans un rayon additionnel de 6
+          mètres. Vous pouvez colorer cette lumière comme vous le souhaitez. Il
+          suffit de recouvrir complètement l'objet avec quelque chose d'opaque
+          pour bloquer la lumière. Le sort se termine si vous le lancez de
+          nouveau ou si vous le révoquez en dépensant une action.</p>
+
+          <p>Si vous visez un objet porté ou transporté par une créature
+          hostile, cette dernière doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Dextérité pour éviter les effets du sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: object
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 13
+        scaling: spell
+      level: 0
+      school: evo
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Une luciole ou de la mousse phosphorescente
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.0kP1Wc6NPi5y3Mav'
+  - _id: Aqb9LBagtAzTFzyQ
+    name: Thaumaturgie
+    type: spell
+    sort: 600000
+    flags: {}
+    img: icons/creatures/birds/corvid-flying-wings-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez une manifestation merveilleuse mineure ou un signe de
+          puissance surnaturelle à portée, ce qui génère l'un des effets
+          magiques suivants à portée.</p>
+
+          <ul>
+
+          <li>Votre voix retentit jusqu'à trois fois plus fort que la normale
+          pendant 1 minute.</li>
+
+          <li>Les flammes vacillent, se ravivent, se réduisent ou changent de
+          couleur pendant une minute.</li>
+
+          <li>Vous provoquez des secousses inoffensives qui agitent le sol
+          pendant 1 minute.</li>
+
+          <li>Vous émettez un son instantané qui émane d'un point de votre choix
+          situé à portée, comme un roulement de tonnerre, le croassement d'un
+          corbeau ou des murmures inquiétants.</li>
+
+          <li>Vous provoquez la fermeture ou l'ouverture violente et immédiate
+          d'une porte ou d'une fenêtre non verrouillée.</li>
+
+          <li>Vous modifiez l'apparence de vos yeux pendant 1 minute.</li>
+
+          </ul>
+
+          <p>Si vous lancez ce sort à plusieurs reprises, vous ne pouvez avoir
+          que trois effets d'une minute actifs à la fois. Vous pouvez révoquer
+          un tel effet par une action.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      school: trs
+      components:
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.Aqb9LBagtAzTFzyQ'
+  - _id: 5U6T2LwMvBRBSNyW
+    name: Balisage
+    type: spell
+    sort: 700000
+    flags: {}
+    img: icons/magic/light/beam-rays-yellow-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Un rayon de lumière frappe une créature de votre choix située à
+          portée. Faites un <a
+          href="https://5e-drs.fr//combattre#jets-dattaque">jet d'attaque</a> de
+          sort à distance contre elle. Si vous le réussissez, elle subit 4d6
+          dégâts radiants et scintille d'une faible lumière mystique jusqu'à la
+          fin de votre prochain tour. D'ici là et grâce à cette lueur, le
+          prochain <a href="https://5e-drs.fr//combattre#jets-dattaque">jet
+          d'attaque</a> effectué contre elle bénéficie d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 2 ou supérieur, les dégâts
+          augmentent de 1d6 par niveau au-delà du niveau 1.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: round
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '36'
+          unit: mètres
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: rsak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d6
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.5U6T2LwMvBRBSNyW'
+  - _id: cm0YD0m1axh8sxGN
+    name: Sanctuaire
+    type: spell
+    sort: 800000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous protégez une créature à portée contre les attaques. Jusqu'à la
+          fin du sort, toute créature qui vise la cible avec une attaque ou un
+          sort néfaste doit d'abord effectuer un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse. Si elle le rate, elle doit choisir une
+          nouvelle cible, sans quoi l'attaque ou le sort est perdu. Ce sort ne
+          protège pas la cible contre les effets de zone, comme l'explosion
+          d'une <em>boule de feu</em>.</p>
+
+          <p>Ce sort se termine si la créature protégée attaque ou lance un sort
+          affectant une créature ennemie.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 1
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Un petit miroir en argent
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.cm0YD0m1axh8sxGN'
+  - _id: JorM6yTYLyRYKp1X
+    name: Soin des blessures
+    type: spell
+    sort: 900000
+    flags: {}
+    img: icons/magic/life/heart-cross-strong-purple-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>La créature que vous touchez récupère un nombre de points de vie
+          égal à 1d8 + votre modificateur de caractéristique d'incantation. Ce
+          sort n'a aucun effet sur les morts-vivants et les créatures
+          artificielles.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 2 ou supérieur, les soins
+          augmentent de 1d8 par niveau au-delà du niveau 1.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - healing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.JorM6yTYLyRYKp1X'
+  - _id: MPwDi1b9a74hUClK
+    name: Arme spirituelle
+    type: spell
+    sort: 1000000
+    flags: {}
+    img: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez à portée une arme spectrale flottante qui persiste
+          pendant toute la durée du sort ou jusqu'à ce que vous le lanciez de
+          nouveau. Lors de l'incantation, vous pouvez faire une attaque de sort
+          au corps-à-corps contre une créature située dans un rayon de 1,50
+          mètre autour de l'arme. L'attaque inflige des dégâts de force égaux à
+          1d8 + votre modificateur de caractéristique d'incantation.</p>
+
+          <p>À votre tour et au prix d'une action bonus, vous pouvez déplacer
+          l'arme d'un maximum de 6 mètres et répéter l'attaque contre une
+          créature située dans un rayon de 1,50 mètre autour d'elle.</p>
+
+          <p>L'arme peut revêtir la forme de votre choix. Les clercs des
+          divinités associées à une arme particulière (tel Thor et son marteau)
+          font en sorte que l'arme générée ressemble à l'arme iconique de leur
+          protecteur.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 3 ou supérieur, les dégâts
+          augmentent de 1d8 tous les 2 niveaux au-delà du niveau 2.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1.5
+        width: null
+        units: ft
+        type: square
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: msak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - force
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.MPwDi1b9a74hUClK'
+  - _id: g1KSAuIrLwSXpioR
+    name: Restauration inférieure
+    type: spell
+    sort: 1100000
+    flags: {}
+    img: icons/magic/life/heart-cross-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous touchez une créature et mettez fin à une maladie ou à un état
+          spécial qui l'affectait, parmi <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#aveuglé"><em>aveuglé</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#assourdi"><em>assourdi</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#paralysé"><em>paralysé</em></a>
+          ou <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#empoisonné"><em>empoisonné</em></a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.g1KSAuIrLwSXpioR'
+  - _id: aKo990hUEaRvQoVh
+    name: Dissipation de la magie
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/skills/melee/strike-blade-knife-orange-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Choisissez une créature, un objet ou un effet magique à portée.
+          Tout sort de niveau 3 ou inférieur qui l'affecte se termine. Si la
+          cible est affectée par un sort de niveau 4 ou plus, faites un test de
+          caractéristique en utilisant votre caractéristique d'incantation. Le
+          DD est de 10 + niveau du sort. Ce dernier se termine si vous
+          réussissez votre test.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 4 ou supérieur, vous mettez
+          automatiquement un terme à un sort affectant la cible quand le niveau
+          de ce sort est égal ou inférieur au niveau de l'emplacement de sort
+          que vous utilisez.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+        range:
+          value: '36'
+          unit: mètres
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.aKo990hUEaRvQoVh'
+  - _id: zqBkcAPbxi5J0lnI
+    name: Esprits gardiens
+    type: spell
+    sort: 1300000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/creatures/magical/spirit-undead-masked-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous appelez des esprits qui vous protègent. Ils volettent autour
+          de vous dans un rayon de 4,50 mètres pendant toute la durée du sort.
+          Si vous êtes Bon ou Neutre, ils ont une apparence angélique ou
+          féerique (à vous de choisir). Si vous êtes Mauvais, ils ont une
+          apparence fiélone.</p>
+
+          <p>Quand vous lancez le sort, vous pouvez désigner autant de créatures
+          que vous le voulez afin qu'il ne les affecte pas. Une créature
+          affectée voit sa vitesse réduite de moitié dans la zone et, quand elle
+          y entre pour la première fois de son tour ou quand elle y commence son
+          tour, elle doit effectuer un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse. Si elle échoue, elle subit 3d8 dégâts
+          radiants (si vous êtes Bon ou Neutre) ou 3d8 dégâts nécrotiques (si
+          vous êtes Mauvais). Si elle réussit son jet de sauvegarde, elle subit
+          seulement la moitié de ces dégâts.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 4 ou supérieur, les dégâts
+          augmentent de 1d8 par niveau au-delà du niveau 3.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 4.5
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: personnelle
+          unit: (4,5
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d8
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 3
+      school: con
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un symbole sacré
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.zqBkcAPbxi5J0lnI'
+  - _id: SWJGPB6wjIKhtXYy
+    name: Chemise de mailles
+    type: equipment
+    img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      obsidian:
+        subtype: armour
+        magical: false
+        effects: []
+        version: 7
+        armour: true
+        addDex: true
+      core:
+        sourceId: >-
+          Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.j5junSRXSTXqE7Ek
+    system:
+      description:
+        value: >-
+          <p>Fait d'anneaux métalliques entrecroisés, la chemise de mailles est
+          utilisée entre des couches de vêtements ou de cuir. Cette armure offre
+          une protection modeste pour le haut du corps et permet au son provoqué
+          par les anneaux frottant l'un contre l'autre d'être atténué par les
+          couches de vêtements extérieures.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 10
+      price: 50
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 13
+        type: medium
+        dex: 2
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      baseItem: chainshirt
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      stealth: false
+      proficient: true
+    ownership:
+      default: 0
+      YXEVHqx5k2ArOvJE: 3
+      jUGnCMusG56NV87D: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.j5junSRXSTXqE7Ek
+      duplicateSource: null
+    _key: '!actors.items!Fuwxm8GaERkx2raL.SWJGPB6wjIKhtXYy'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 2
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 2
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    int:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    wis:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    cha:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+  attributes:
+    ac:
+      flat: 13
+      calc: default
+      formula: ''
+      min: 0
+    hp:
+      value: 27
+      max: 27
+      temp: 0
+      tempmax: 0
+      formula: 5d8+5
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 0
+      prof: 0
+      total: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 7.5
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 13
+    spellcasting: wis
+    prof: 2
+    spelldc: 13
+    encumbrance:
+      value: 2
+      max: 75
+      pct: 2.6666666666666665
+      encumbered: true
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Distinction divine</em></strong>. Par une action bonus,
+        l'ecclésiastique peut dépenser un emplacement de sort pour que ses
+        attaques d'arme au corps à corps infligent par magie 10 (3d6) dégâts
+        radiants supplémentaires à une cible qu'il parvient à toucher. Cet
+        avantage dure jusqu'à la fin du tour. Si le clerc dépense un emplacement
+        de sort de niveau 2 ou plus, les dégâts supplémentaires augmentent de
+        1d6 par niveau au-dessus du 1er.</p>
+
+        <p><strong><em>Incantation</em></strong>. L'ecclésiastique est un
+        lanceur de sorts de niveau 5. Sa caractéristique d'incantation est la
+        Sagesse (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 13, +5 pour toucher avec les attaques
+        de sort). Voici ses sorts de clerc préparés :</p>
+
+        <ul>
+
+        <li><strong>Tours de magie (à volonté)</strong> : <a
+        href="https://5e-drs.fr/grimoire/flamme-sacree"><em>flamme
+        sacrée</em></a>, <a
+        href="https://5e-drs.fr/grimoire/lumiere"><em>lumière</em></a>, <a
+        href="https://5e-drs.fr/grimoire/thaumaturgie"><em>thaumaturgie</em></a></li>
+
+        <li><strong>1er niveau (4 emplacements)</strong> : <a
+        href="https://5e-drs.fr/grimoire/balisage"><em>balisage</em></a>, <a
+        href="https://5e-drs.fr/grimoire/sanctuaire"><em>sanctuaire</em></a>, <a
+        href="https://5e-drs.fr/grimoire/soin-des-blessures"><em>soin des
+        blessures</em></a></li>
+
+        <li><strong>2e niveau (3 emplacements)</strong> : <a
+        href="https://5e-drs.fr/grimoire/arme-spirituelle"><em>arme
+        spirituelle</em></a>, <a
+        href="https://5e-drs.fr/grimoire/restauration-inferieure"><em>restauration
+        inférieure</em></a></li>
+
+        <li><strong>3e niveau (2 emplacements)</strong> : <a
+        href="https://5e-drs.fr/grimoire/dissipation-de-la-magie"><em>dissipation
+        de la magie</em></a>, <a
+        href="https://5e-drs.fr/grimoire/esprits-gardiens"><em>esprits
+        gardiens</em></a></li>
+
+        </ul>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Masse d'armes</em></strong>. <em>Attaque d'arme au corps
+        à corps</em> : +2 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 3 (1d6) dégâts contondants.</p>
+      public: ''
+    alignment: n'importe quel alignement
+    race: ''
+    type:
+      value: humanoid
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 2
+    spellLevel: 5
+    source: Créatures & Oppositions
+    xp:
+      value: 450
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: deux langues au choix
+    perception:
+      _deprecated: true
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    med:
+      value: 2
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 4
+      total: 7
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    per:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 2
+      total: 3
+    rel:
+      value: 1
+      ability: int
+      bonuses:
+        check: '1'
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 2
+      total: 3
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 2
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Ecclésiastique
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/tokens/humanoid/Priest.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690247
+  modifiedTime: 1663923694929
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!Fuwxm8GaERkx2raL'
+

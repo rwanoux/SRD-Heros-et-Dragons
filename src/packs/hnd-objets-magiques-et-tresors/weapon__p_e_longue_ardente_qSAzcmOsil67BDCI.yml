@@ -1,0 +1,125 @@
+_id: qSAzcmOsil67BDCI
+name: Épée longue ardente
+type: weapon
+img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <div>Vous pouvez utiliser une action bonus pour prononcer le mot de
+      commande de cette &eacute;p&eacute;e magique et envelopper sa lame d'un
+      linceul de flammes qui &eacute;mettent une vive lumi&egrave;re dans un
+      rayon de 12 m&egrave;tres et une faible lumi&egrave;re dans un rayon de 12
+      m&egrave;tres de plus. Tant que l'&eacute;p&eacute;e est embras&eacute;e,
+      elle inflige 2d6 d&eacute;g&acirc;ts de feu suppl&eacute;mentaire &agrave;
+      toute cible qu'elle touche. Les flammes br&ucirc;lent jusqu'&agrave; ce
+      que vous d&eacute;pensiez une action bonus pour prononcer de nouveau le
+      mot de commande ou jusqu'&agrave; ce que vous l&acirc;chiez ou rengainiez
+      l'&eacute;p&eacute;e.</div>
+
+      <div>Harmonisation requise.</div>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 5000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: 1d10 + @mod
+  formula: 2d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: longsword
+  properties:
+    amm: false
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: true
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701422
+  modifiedTime: 1663923703103
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!qSAzcmOsil67BDCI'
+

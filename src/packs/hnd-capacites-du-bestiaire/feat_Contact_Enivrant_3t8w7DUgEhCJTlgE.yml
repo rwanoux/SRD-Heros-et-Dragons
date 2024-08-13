@@ -1,0 +1,82 @@
+name: Contact Enivrant
+type: feat
+flags: {}
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+_id: 3t8w7DUgEhCJTlgE
+system:
+  description:
+    value: >-
+      <p><strong>Contact enivrant.</strong> Attaque de sort au corps à corps :
+      +5 pour toucher, allonge 1,50 m, une créature. Touché : La cible est
+      victime d'une malédiction magique pendant 1 heure. Jusqu'au terme de cette
+      malédiction, elle subit un désavantage lors des jets de sauvegarde de
+      Sagesse et de tous les tests de caractéristiques.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: msak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698742
+  modifiedTime: 1663923699266
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!3t8w7DUgEhCJTlgE'
+

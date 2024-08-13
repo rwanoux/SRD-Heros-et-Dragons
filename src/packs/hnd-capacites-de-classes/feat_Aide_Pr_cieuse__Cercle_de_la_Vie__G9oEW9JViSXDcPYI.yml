@@ -1,0 +1,86 @@
+_id: G9oEW9JViSXDcPYI
+name: Aide Précieuse [Cercle de la Vie]
+type: feat
+flags:
+  core:
+    sourceId: Item.qU145ayXWO1vKVqa
+img: icons/magic/control/energy-stream-link-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Aide Pr&eacute;cieuse</strong></h3>
+
+      <p>Au niveau 6, lorsque que vous lancez un sort sur un alli&eacute; et que
+      ce dernier poss&egrave;de une dur&eacute;e sup&eacute;rieure &agrave;
+      &laquo; instantan&eacute;e &raquo;, vous doublez sa dur&eacute;e. Si le
+      sort requiert de maintenir votre concentration, vous devez toujours la
+      maintenir pendant toute la dur&eacute;e du sort.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685263
+  modifiedTime: 1663923686459
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.qU145ayXWO1vKVqa
+  duplicateSource: null
+_key: '!items!G9oEW9JViSXDcPYI'
+

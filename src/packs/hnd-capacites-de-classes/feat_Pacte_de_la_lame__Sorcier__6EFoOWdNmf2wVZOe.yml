@@ -1,0 +1,129 @@
+_id: 6EFoOWdNmf2wVZOe
+name: Pacte de la lame [Sorcier]
+type: feat
+flags: {}
+img: icons/weapons/swords/sword-runed-glowing.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="pacte"><strong>Pacte</strong></h3>
+
+      <p>Au niveau 3, votre protecteur d'outre-monde vous accorde un cadeau en
+      r&eacute;compense de vos loyaux services.&nbsp;</p>
+
+      <h4 id="pacte-de-la-lame"><strong>Pacte de la lame</strong></h4>
+
+      <p>Vous pouvez utiliser votre action pour cr&eacute;er une arme de pacte
+      dans votre main vide. Vous pouvez choisir la forme que prend cette arme de
+      corps-&agrave;-corps &agrave; chaque fois que vous la cr&eacute;ez. Tant
+      que vous la maniez, vous avez la ma&icirc;trise de cette arme et elle est
+      consid&eacute;r&eacute;e comme magique si vous &ecirc;tes confront&eacute;
+      &agrave; une cr&eacute;ature ayant une r&eacute;sistance ou une
+      immunit&eacute; aux attaques et aux d&eacute;g&acirc;ts non magiques.</p>
+
+      <p>Votre arme de pacte dispara&icirc;t si elle se trouve &agrave; plus de
+      1,50 m&egrave;tre de vous pendant 1 minute ou plus. Elle dispara&icirc;t
+      aussi si vous utilisez de nouveau cette aptitude, si vous la
+      r&eacute;voquez (vous n'avez pas besoin d'utiliser une action pour cela)
+      ou si vous mourez.</p>
+
+      <p>Vous pouvez transformer une arme magique en votre arme de pacte en
+      accomplissant un rituel sp&eacute;cial pendant que vous avez cette arme en
+      main. Ce rituel prend 1 heure et peut &ecirc;tre accompli pendant un repos
+      court. Vous pouvez alors r&eacute;voquer l'arme, qui est envoy&eacute;e
+      dans un espace extra-dimensionnel jusqu'&agrave; ce que vous l'invoquiez
+      &agrave; nouveau. Il n'est pas possible de transformer un artefact ou une
+      arme consciente de cette mani&egrave;re. L'arme que vous avez
+      transform&eacute;e ainsi cesse d'&ecirc;tre votre arme de pacte si vous
+      mourez, si vous accomplissez le rituel d'une dur&eacute;e de 1 heure avec
+      une autre arme ou si vous utilisez un rituel de m&ecirc;me dur&eacute;e
+      pour briser votre lien avec cette arme. Quand le lien est bris&eacute;, si
+      l'arme se trouvait dans l'espace extra-dimensionnel, elle appara&icirc;t
+      &agrave; vos pieds.&nbsp;</p>
+
+      <p><em>&Agrave; chaque pacte est associ&eacute; une cr&eacute;ature ou un
+      objet sp&eacute;cial qui refl&egrave;te la nature de votre
+      protecteur.</em></p>
+
+      <p><strong>Pacte de la lame</strong>. Si votre protecteur est le seigneur
+      immortel, votre arme correspond &agrave; celle qu'il utilisa durant ses
+      conqu&ecirc;tes. Si vous servez le fi&eacute;lon, ce sera plut&ocirc;t une
+      hache forg&eacute;e dans un m&eacute;tal sombre et orn&eacute;e de
+      flammes. Si votre protecteur est la puissance des profondeurs, votre arme
+      aura un aspect antique, avec une gemme sculpt&eacute;e pour ressembler
+      &agrave; un &oelig;il ferm&eacute;, qui s'ouvre parfois lorsque vous
+      fa&icirc;tes usage de votre magie. Enfin, si vous &ecirc;tes
+      associ&eacute; &agrave; l'entit&eacute; extra-dimensionnelle, vous pouvez
+      changer la forme de votre arme simplement en vous concentrant un round
+      complet, depuis une simple dague jusqu'&agrave; une &eacute;p&eacute;e
+      &agrave; deux mains en passant par un marteau de guerre, mais toujours une
+      arme de corps-&agrave;-corps.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685188
+  modifiedTime: 1663923686166
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!6EFoOWdNmf2wVZOe'
+

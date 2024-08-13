@@ -1,0 +1,102 @@
+_id: PEd7zUmWBEVascNI
+name: Purgatoire [Serment de Rédemption]
+type: feat
+flags: {}
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="purgatoire"><strong>Purgatoire</strong></h3>
+
+      <p>Au niveau 15, si vous &ecirc;tes sur la voie de la r&eacute;demption
+      depuis au moins un niveau et que votre MJ juge que vous avez
+      rachet&eacute; vos fautes, vous avez le choix de poursuivre avec le
+      serment de r&eacute;demption, ou de revenir &agrave; votre serment
+      d'origine. Dans ce dernier cas, vous pouvez choisir l'une des options de
+      canalisation d'&eacute;nergie divine du serment de r&eacute;demption, et
+      remplacer d&eacute;finitivement l'une des options de votre serment par
+      celle-ci.</p>
+
+      <p>Si vous poursuivez avec le serment de r&eacute;demption, vous
+      &ecirc;tes d&eacute;sormais capable de cr&eacute;er autour de vous une
+      zone de purgatoire de 9 m&egrave;tres de rayon pendant 1 minute,
+      particuli&egrave;rement douloureuse pour certains types de
+      cr&eacute;atures. Aberrations, morts-vivants et fi&eacute;lons
+      consid&egrave;rent cette zone comme un terrain difficile. De plus, ils
+      subissent 2d6 d&eacute;g&acirc;ts radiants la premi&egrave;re fois qu'ils
+      p&eacute;n&egrave;trent dans cette zone, et &agrave; chaque fois qu'ils y
+      d&eacute;butent leur tour. Enfin, ils subissent un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>
+      sur leurs attaques tant qu'ils restent dans la zone. Vous devez terminer
+      un repos long avant de pouvoir de nouveau utiliser cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685382
+  modifiedTime: 1663923686749
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PEd7zUmWBEVascNI'
+

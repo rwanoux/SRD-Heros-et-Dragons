@@ -1,0 +1,84 @@
+name: Aura de Bénédiction
+type: feat
+flags: {}
+img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+_id: nhO4TW1nXT35rxUI
+system:
+  description:
+    value: >-
+      <p>Aura de b&eacute;n&eacute;diction. Les alli&eacute;s du dragon
+      situ&eacute;s dans un rayon de 9 m&egrave;tres autour de lui sont
+      consid&eacute;r&eacute;s comme b&eacute;n&eacute;ficiant du sort
+      @Item[V7qavpMHpoxbIqYB]{B&eacute;n&eacute;diction}. Ils lancent donc 1d4
+      et ajoutent le r&eacute;sultat &agrave; leurs jets d'attaque et de
+      sauvegarde. L'effet s'arr&ecirc;te si le dragon meurt ou s'il utilise une
+      autre action d'antre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon de Bronze (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698965
+  modifiedTime: 1663923700192
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!nhO4TW1nXT35rxUI'
+

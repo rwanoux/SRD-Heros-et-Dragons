@@ -1,0 +1,88 @@
+name: Forme majeure [Voie de la bête]
+type: feat
+img: icons/creatures/mammals/deer-antlers-glowing-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.0Yp8hSqvysCWYca6
+_id: hJGUe3JsfRrTYZlv
+system:
+  description:
+    value: >-
+      <p>Au niveau 10, vous apprenez à endosser une forme animale majeure, soit
+      celle de
+      l'@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.bq8oarIIASOrkPjk]{Ours
+      polaire}, soit celle du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.8sYz3dYfBC8pfpHk]{Tigre
+      à dents de sabre}.</p>
+
+      <p>Enfin, vous pouvez conserver une forme animale pendant un maximum de 1
+      heure par utilisation.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685571
+  modifiedTime: 1663923687314
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.0Yp8hSqvysCWYca6
+  duplicateSource: null
+_key: '!items!hJGUe3JsfRrTYZlv'
+

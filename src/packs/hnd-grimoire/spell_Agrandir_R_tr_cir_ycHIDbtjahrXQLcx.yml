@@ -1,0 +1,146 @@
+_id: ycHIDbtjahrXQLcx
+name: Agrandir/Rétrécir
+type: spell
+flags: {}
+img: icons/magic/control/energy-stream-link-large-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <p style="margin-bottom: 0cm; border: none; padding: 0cm; widows: 2;
+      orphans: 2;"><span style="font-style: normal;"><span style="font-weight:
+      normal;">Vous agrandissez ou r&eacute;tr&eacute;cissez une cr&eacute;ature
+      ou un objet situ&eacute; &agrave; port&eacute;e et dans votre champ de
+      vision pendant toute la dur&eacute;e du sort. Choisissez soit une
+      cr&eacute;ature, soit un objet qui n'est ni port&eacute; ni
+      transport&eacute;. Si la cible n'est pas consentante, elle a droit
+      &agrave; un&nbsp;</span></span><a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde"><span
+      style="font-style: normal;"><span style="font-weight: normal;"><span
+      style="background: transparent;">jet de
+      sauvegarde</span></span></span></a><span style="font-style: normal;"><span
+      style="font-weight: normal;">&nbsp;de Constitution. Si elle le
+      r&eacute;ussit, le sort est sans effet. Si la cible est une
+      cr&eacute;ature, tout ce qu'elle porte et tout ce qu'elle transporte
+      change de taille avec elle. En revanche, si elle l&acirc;che un objet, il
+      reprend sa taille normale sur-le-champ.</span></span></p>
+
+      <p style="margin-bottom: 0cm; border: none; padding: 0cm; widows: 2;
+      orphans: 2;"><span style="font-style:
+      normal;"><strong>Agrandir</strong></span><span style="font-style:
+      normal;"><span style="font-weight: normal;">. La cible double dans toutes
+      les dimensions, et son poids est multipli&eacute; par huit. Cette
+      croissance augmente sa cat&eacute;gorie de taille d'un cran, de M &agrave;
+      G par exemple. Si la cible n'a pas assez de place pour doubler de volume,
+      elle atteint la taille maximale possible dans l'espace dont elle dispose.
+      Elle b&eacute;n&eacute;ficie d'un&nbsp;</span></span><em><a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage"><span
+      style="font-style: normal;"><span style="font-weight: normal;"><span
+      style="background:
+      transparent;">avantage</span></span></span></a></em><span
+      style="font-style: normal;"><span style="font-weight: normal;">&nbsp;lors
+      des tests de Force et des jets de sauvegarde de Force jusqu'&agrave; la
+      fin du sort. Les armes de la cible grandissent pour s'adapter &agrave; sa
+      nouvelle taille. Tant qu'elles sont ainsi agrandies, elles infligent 1d4
+      d&eacute;g&acirc;ts de plus.</span></span></p>
+
+      <p style="margin-bottom: 0cm; border: none; padding: 0cm; widows: 2;
+      orphans: 2;"><span style="font-style:
+      normal;"><strong>R&eacute;tr&eacute;cir</strong></span><span
+      style="font-style: normal;"><span style="font-weight: normal;">. La cible
+      r&eacute;duit de moiti&eacute; dans toutes les dimensions et son poids est
+      divis&eacute; par huit. Ce r&eacute;tr&eacute;cissement r&eacute;duit sa
+      cat&eacute;gorie de taille d'un cran, de M &agrave; P par exemple. La
+      cible subit un&nbsp;</span></span><em><a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage"><span
+      style="font-style: normal;"><span style="font-weight: normal;"><span
+      style="background:
+      transparent;">d&eacute;savantage</span></span></span></a></em><span
+      style="font-style: normal;"><span style="font-weight: normal;">&nbsp;lors
+      des tests de Force et des jets de sauvegarde de Force jusqu'&agrave; la
+      fin du sort. Les armes de la cible r&eacute;tr&eacute;cissent pour
+      s'adapter &agrave; sa nouvelle taille. Tant qu'elles sont ainsi
+      r&eacute;duites, elles infligent 1d4 d&eacute;g&acirc;ts de moins (avec un
+      minimum de 1 d&eacute;g&acirc;t).</span></span></p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 9
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une pincée de limaille de fer
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  nCN4ppSa9oQ2OVOw: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688233
+  modifiedTime: 1663923689542
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ycHIDbtjahrXQLcx'
+

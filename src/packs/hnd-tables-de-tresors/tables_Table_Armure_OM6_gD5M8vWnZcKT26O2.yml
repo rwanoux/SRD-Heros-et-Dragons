@@ -1,0 +1,148 @@
+_id: gD5M8vWnZcKT26O2
+name: Table Armure OM6
+folder: vVTDSYsguUPXB21e
+sort: 8300000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: UC9hUfmcauSt3eOA
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: document
+    text: Table Armure +2
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 1
+      - 4
+    drawn: false
+    documentCollection: RollTable
+    documentId: vkxdY8mnfFMQ4QTU
+    _key: '!tables.results!gD5M8vWnZcKT26O2.UC9hUfmcauSt3eOA'
+  - _id: zdQDMxLtsxO1ddBa
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier +3
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/badge-skull.jpg
+    weight: 1
+    range:
+      - 5
+      - 7
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: ay9esbCETOBas7n6
+    _key: '!tables.results!gD5M8vWnZcKT26O2.zdQDMxLtsxO1ddBa'
+  - _id: K9SL2a5DnxVkThfa
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Armure d'écailles de dragon
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/scale.png
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Obmn19XBUabTIv3X
+    _key: '!tables.results!gD5M8vWnZcKT26O2.K9SL2a5DnxVkThfa'
+  - _id: CaEaA26KJt26xcFF
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Armure démoniaque
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/red_01.jpg
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: tcFMOMy6VwQmr02k
+    _key: '!tables.results!gD5M8vWnZcKT26O2.CaEaA26KJt26xcFF'
+  - _id: pV5iqSrve02yj2Nj
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier animé
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/badge-sword.jpg
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: UUAPw2aRlDJ1B2H2
+    _key: '!tables.results!gD5M8vWnZcKT26O2.pV5iqSrve02yj2Nj'
+  - _id: SYsNDVRZ2dYHl2XA
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier de protection contre la magie
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/badge-coin.jpg
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: dgHPLS95Rd9jZygD
+    _key: '!tables.results!gD5M8vWnZcKT26O2.SYsNDVRZ2dYHl2XA'
+  - _id: EpwfJZV3inCRwQix
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Harnois nain
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/plate.png
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: M8nk0OLgFfPZNVAG
+    _key: '!tables.results!gD5M8vWnZcKT26O2.EpwfJZV3inCRwQix'
+formula: 1d12
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!gD5M8vWnZcKT26O2'
+

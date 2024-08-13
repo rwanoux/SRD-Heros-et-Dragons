@@ -1,0 +1,89 @@
+_id: IDoHotNonn3WL20G
+name: Tranquillité [Voie de la Main ouverte]
+type: feat
+flags: {}
+img: icons/magic/light/orb-beams-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="tranquillite"><strong>Tranquillit&eacute;</strong></h3>
+
+      <p>&Agrave; partir du niveau 11, vous pouvez entrer dans un &eacute;tat
+      sp&eacute;cial de m&eacute;ditation qui vous nimbe d'une aura de paix.
+      &Agrave; la fin d'un repos long, vous gagnez les effets d'un sort de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.PN7ncM2wxoYIL8Ur]{Sanctuaire}&nbsp;qui
+      dure jusqu'au d&eacute;but de votre prochain repos long (l'effet du sort
+      peut &ecirc;tre rompu de mani&egrave;re anticip&eacute;e, comme
+      indiqu&eacute; dans le descriptif du sort). Le DD du&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a> du sort est &eacute;gal &agrave; 8 + votre modificateur
+      de Sagesse + votre bonus de ma&icirc;trise.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685278
+  modifiedTime: 1663923686521
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!IDoHotNonn3WL20G'
+

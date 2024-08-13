@@ -1,0 +1,93 @@
+name: Dominer le terrain [Mage de guerre]
+type: feat
+img: icons/magic/movement/pinwheel-turning-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.Oa97zVVqw1Lw2KX2
+_id: va5K0NW1zFjM9U0d
+system:
+  description:
+    value: >-
+      <p>Au niveau 10, une fois entre chaque repos court, vous pouvez lancer le
+      sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ynTJBCm8B99LOqq4]{Lévitation}
+      sur vous-même sans dépenser d'emplacement de sort (vous n'avez pas besoin
+      de connaître le sort).</p>
+
+      <p>Votre concentration ne peut pas être brisée lorsque vous lancez
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ynTJBCm8B99LOqq4]{Lévitation}
+      grâce à cette aptitude.</p>
+
+      <p>À partir du niveau 14 vous pouvez choisir de remplacer
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ynTJBCm8B99LOqq4]{Lévitation}
+      par
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.n7wTybVTlPlePUt2]{Vol}.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685681
+  modifiedTime: 1663923687726
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Oa97zVVqw1Lw2KX2
+  duplicateSource: null
+_key: '!items!va5K0NW1zFjM9U0d'
+

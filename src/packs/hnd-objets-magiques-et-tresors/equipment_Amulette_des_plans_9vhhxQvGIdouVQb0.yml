@@ -1,0 +1,135 @@
+_id: 9vhhxQvGIdouVQb0
+name: Amulette des plans
+type: equipment
+img: icons/equipment/neck/pendant-faceted-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p>Tant que vous portez cette amulette, vous pouvez utiliser votre action
+      pour nommer un endroit qui vous est familier et se trouve sur un autre
+      plan d'existence. Faites ensuite un test d'Intelligence DD 15. Si vous
+      réussissez, vous lancez&nbsp;<a
+      href="https://5e-drs.fr/grimoire/changement-de-plan/">changement de
+      plan</a>, si vous échouez, vous et toutes les créatures et tous les objets
+      situés dans un rayon de 4,50 mètres autour de vous êtes emportés vers une
+      destination aléatoire. Lancez 1d100. De 1 à 60, cet endroit aléatoire se
+      trouve sur le plan où vous trouviez déjà, de 61 à 100 vous arrivez sur un
+      plan d'existence déterminé au hasard.</p>
+
+      <p>Harmonisation requise.</p>
+    chat: ''
+    unidentified: ''
+    type: String
+    label: Description
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 160000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 4.5
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d100
+  save:
+    ability: int
+    dc: 15
+    scaling: flat
+  armor:
+    value: 0
+    type: trinket
+    dex: 0
+    label: Armor Value
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701053
+  modifiedTime: 1663923701947
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!9vhhxQvGIdouVQb0'
+

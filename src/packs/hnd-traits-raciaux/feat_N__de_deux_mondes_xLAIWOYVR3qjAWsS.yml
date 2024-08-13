@@ -1,0 +1,94 @@
+name: Né de deux mondes
+type: feat
+img: icons/environment/wilderness/portal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.Qa8Ply2MiC5fDtgw
+_id: xLAIWOYVR3qjAWsS
+system:
+  description:
+    value: >-
+      <p>Vous pouvez déployer votre aura céleste pour en faire une aura
+      infernale. Une terrible noirceur se déploie autour de vous et vos yeux
+      deviennent des portes ouvrant sur le monde-miroir d'Avyssos.</p>
+
+      <p>Lorsque vous décidez d'utiliser votre aura céleste, vous pouvez le
+      faire de manière infernale. Vous déployez alors une zone de ténèbres non
+      magiques dans un rayon de 6 mètres autour de vous.</p>
+
+      <p>Si vous êtes dans une zone de lumière normale, vous êtes désormais
+      plongé dans la pénombre. Si vous vous trouvez dans une zone de pénombre,
+      vous voilà dorénavant dans les ténèbres.</p>
+
+      <p>De plus, vous avez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      sur vos tests de Charisme (Intimidation)</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aasimar
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698235
+  modifiedTime: 1663923698646
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Qa8Ply2MiC5fDtgw
+  duplicateSource: null
+_key: '!items!xLAIWOYVR3qjAWsS'
+

@@ -1,0 +1,120 @@
+_id: UXay6APy4K2yZjlJ
+name: À demi-mort [Seigneur Immortel]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.traits.dr.value
+        value: necrotic
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: UXay6APy4K2yZjlJ
+        active: false
+        _targets: []
+        label: Traits Résistance
+      - modSpecKey: data.traits.dr.value
+        value: cold
+        mode: +
+        targetSpecific: false
+        id: 2
+        itemId: UXay6APy4K2yZjlJ
+        active: false
+        _targets: []
+        label: Traits Résistance
+      - modSpecKey: data.traits.dr.value
+        value: poison
+        mode: +
+        targetSpecific: false
+        id: 3
+        itemId: UXay6APy4K2yZjlJ
+        active: false
+        _targets: []
+img: icons/magic/death/undead-ghost-scream-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="a-demi-mort"><strong>&Agrave; demi-mort</strong></h3>
+
+      <p>Au niveau 14, les terribles secrets que vous ma&icirc;trisez
+      transforment irr&eacute;m&eacute;diablement votre corps, et vous
+      franchissez un premier pas vers la non-vie et l'&eacute;ternit&eacute;.
+      D&eacute;sormais, vous obtenez la r&eacute;sistance aux
+      d&eacute;g&acirc;ts n&eacute;crotiques, de froid et de poison. Vous n'avez
+      plus besoin de respirer ni de manger ou de boire et votre esp&eacute;rance
+      de vie est doubl&eacute;e. Votre corps devient froid au toucher. Enfin, la
+      difficult&eacute; du&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a> de votre pacte avec la Mort est abaiss&eacute;e de 5
+      points.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685413
+  modifiedTime: 1663923686884
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!UXay6APy4K2yZjlJ'
+

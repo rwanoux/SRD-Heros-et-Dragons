@@ -1,0 +1,106 @@
+_id: vl3aM0lDVstlpzok
+name: Infatigable
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/infatigable.PNG
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vos capacit&eacute;s de r&eacute;cup&eacute;ration sont exceptionnelles
+      et font de vous un individu tr&egrave;s au-dessus de la moyenne dans ce
+      domaine pr&eacute;cis.</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Vous augmentez votre valeur de Constitution de 1, sans d&eacute;passer
+      20.</li>
+
+      <li>Vous r&eacute;cup&eacute;rez un niveau d'&eacute;puisement
+      suppl&eacute;mentaire apr&egrave;s un repos long.</li>
+
+      <li>Lorsque vous d&eacute;pensez un ou plusieurs d&eacute;s de vie de
+      r&eacute;cup&eacute;ration, pour chaque d&eacute; de vie utilis&eacute;,
+      vous pouvez lancer deux d&eacute;s et conserver le meilleur
+      r&eacute;sultat.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685027
+  modifiedTime: 1663923685027
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vl3aM0lDVstlpzok'
+

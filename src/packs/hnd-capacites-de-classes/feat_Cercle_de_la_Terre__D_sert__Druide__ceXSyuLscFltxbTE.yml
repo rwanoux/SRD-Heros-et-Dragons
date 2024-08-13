@@ -1,0 +1,186 @@
+_id: ceXSyuLscFltxbTE
+name: Cercle de la Terre- Désert [Druide]
+type: feat
+flags:
+  core:
+    sourceId: Item.ybtEHedToGwQgsOS
+img: icons/magic/nature/root-vine-thorned-coil-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="tonnerre-tempete"><strong>D&eacute;sert</strong></h3>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Tour de magie Bonus :&nbsp;<br /></strong>Quand vous choisissez
+      ce cercle au niveau 2, vous pouvez apprendre un tour de magie de Druide
+      suppl&eacute;mentaire de votre choix</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Niveau 2
+      :</strong>&nbsp;@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YrRVAnsAw20XAm3i]{R&eacute;cup&eacute;ration
+      naturelle [Cercle de la Terre]}</p>
+
+      <p><strong>Niveau 6
+      :&nbsp;</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wn0sYsBRMmgfoqs5]{Travers&eacute;e
+      des terrains [Cercle de la Terre]}</p>
+
+      <p><strong>Niveau 10
+      :</strong>&nbsp;@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fL0zYqsCeLlmKWqj]{Enfant
+      de la nature [Cercle de la Terre]}</p>
+
+      <p><strong>Niveau 14
+      :&nbsp;</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.genLZykjKNTd58r0]{Sanctuaire
+      de la nature [Cercle de la Terre]}</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Sorts de Cercle :<br /></strong>Une fois que vous avez appris
+      un sort de cercle, il est toujours consid&eacute;r&eacute; comme
+      pr&eacute;par&eacute; et il n'est pas comptabilis&eacute; dans le nombre
+      de sorts que vous pouvez pr&eacute;parer chaque jour. Si vous apprenez un
+      sort qui n'appara&icirc;t pas dans la liste de sorts de druide,
+      consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>
+
+      <table style="width: 381px; height: 96px;">
+
+      <thead>
+
+      <tr style="height: 16px;">
+
+      <th style="width: 86px; height: 16px;">Niv. de Duide</th>
+
+      <th style="width: 292px; height: 16px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 30px; text-align: center;">
+
+      <td style="width: 86px; height: 16px;">3</td>
+
+      <td style="width: 292px; height: 16px;"><span style="text-align: start;
+      background-color: rgba(255, 255, 255,
+      0.2);">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l8ovgCzZX50c8OYI]{Flou}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.6CWJkMSqf6oyd6dm]{Silence}</span></td>
+
+      </tr>
+
+      <tr style="height: 30px; text-align: center;">
+
+      <td style="width: 86px; height: 16px;">5</td>
+
+      <td style="width: 292px; height: 16px;"><span style="text-align: start;
+      background-color: rgba(0, 0, 0,
+      0.05);">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nQsR7yLQIdhZ6GTJ]{Cr&eacute;ation
+      de nourriture et d'eau}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.adB2GwSHzktgDOYo]{Protection
+      contre les &eacute;nergies}</span></td>
+
+      </tr>
+
+      <tr style="height: 30px; text-align: center;">
+
+      <td style="width: 86px; height: 16px;">7</td>
+
+      <td style="width: 292px; height: 16px;"><span style="text-align: start;
+      background-color: rgba(255, 255, 255,
+      0.2);">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.EPBp6z2DP5yRO4J4]{Fl&eacute;trissement}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1]{Terrain
+      hallucinatoire}</span></td>
+
+      </tr>
+
+      <tr style="height: 30px; text-align: center;">
+
+      <td style="width: 86px; height: 16px;">9</td>
+
+      <td style="width: 292px; height: 16px;"><span style="text-align: start;
+      background-color: rgba(0, 0, 0,
+      0.05);">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.oE6gSp6l5nACXV0T]{Fl&eacute;au
+      d'insectes}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ePo9ujJTwfxIc30x]{Mur
+      de pierre}</span></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+
+      <h3 id="air"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685470
+  modifiedTime: 1663923687127
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.ybtEHedToGwQgsOS
+  duplicateSource: null
+_key: '!items!ceXSyuLscFltxbTE'
+

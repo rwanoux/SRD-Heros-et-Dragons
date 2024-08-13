@@ -1,0 +1,98 @@
+_id: GDdnTWwW4gFbKtBT
+name: Chemise de mailles elfiques
+type: equipment
+img: icons/equipment/back/mantle-collared-green.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Vous gagnez un bonus de +1 à la CA tant que vous portez cette armure.
+      Vous êtes considéré comme maîtrisant le port de cette armure, même si vous
+      ne maîtrisez pas les armures intermédiaires.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 10
+  price: 4000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 14
+    type: medium
+    dex: 2
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: chainshirt
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  stealth: false
+  proficient: true
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701094
+  modifiedTime: 1663923702099
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!GDdnTWwW4gFbKtBT'
+

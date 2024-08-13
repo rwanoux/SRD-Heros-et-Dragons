@@ -1,0 +1,104 @@
+_id: uVGIOy2NVSDBbcfu
+name: Puissance vengeresse [Cercle des Châtiments]
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3><strong>Puissance vengeresse</strong></h3>
+
+      <p>Lorsque vous lancez un tour de magie infligeant des
+      d&eacute;g&acirc;ts, vous pouvez ajouter votre bonus de ma&icirc;trise aux
+      d&eacute;g&acirc;ts inflig&eacute;s par le sort.</p>
+
+      <p>De plus, vous obtenez le tour de magie
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.OIUJrZVZ8nqLLqiv]{Gourdin
+      magique} s&rsquo;il ne fait pas partie de votre liste de sorts. Vous
+      pouvez aussi ajouter votre bonus de ma&icirc;trise aux d&eacute;g&acirc;ts
+      inflig&eacute;s par un gourdin ou un b&acirc;ton enchant&eacute; par ce
+      tour de magie.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette R''n P #4'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685675
+  modifiedTime: 1663923687701
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uVGIOy2NVSDBbcfu'
+

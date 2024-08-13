@@ -1,0 +1,80 @@
+name: Résistance Adaptative aux Dégats
+type: feat
+flags: {}
+img: icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp
+_id: dMRk0mSG9PnzRSya
+system:
+  description:
+    value: >-
+      <p><strong>Résistance adaptative aux dégâts.</strong> Lorsque la créature
+      subit un type de dégâts physique, elle développe une résistance à ce type
+      de dégâts pour le reste du combat. Ces résistances peuvent se cumuler.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698922
+  modifiedTime: 1663923700012
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!dMRk0mSG9PnzRSya'
+

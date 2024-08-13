@@ -1,0 +1,125 @@
+_id: 7OUpKrBlt4Jfz0xu
+name: Moquerie cruelle
+type: spell
+flags: {}
+img: icons/skills/toxins/cup-goblet-poisoned-spilled.webp
+system:
+  description:
+    value: >-
+      <p>Vous lancez une bordée d'insultes empreintes d'un subtil enchantement à
+      une créature située à portée et dans votre champ de vision. Tant qu'elle
+      vous entend (elle n'a pas besoin de vous comprendre), elle doit réussir un
+      <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse, sans quoi elle subit 1d4 dégâts psychiques
+      et subit un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      sur le prochain <a href="https://5e-drs.fr/combattre#jets-dattaque">jet
+      d'attaque</a> qu'elle effectue avant la fin de son prochain tour.</p>
+
+      <p>Les dégâts du sort augmentent de 1d4 quand vous atteignez le niveau 5
+      (2d4), le niveau 11 (3d4) et le niveau  17 (4d4).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d4
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 0
+  school: enc
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687951
+  modifiedTime: 1663923688593
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7OUpKrBlt4Jfz0xu'
+

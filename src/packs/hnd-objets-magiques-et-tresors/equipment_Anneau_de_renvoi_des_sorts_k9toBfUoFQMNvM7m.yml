@@ -1,0 +1,107 @@
+_id: k9toBfUoFQMNvM7m
+name: Anneau de renvoi des sorts
+type: equipment
+img: icons/equipment/finger/ring-band-engraved-scrolls-silver.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous obtenez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+      des jets de sauvegarde contre les sorts qui ne prennent que vous pour
+      cible (et non une zone d'effet) tant que vous portez cet anneau au doigt.
+      De plus, si vous obtenez un 20 au&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;et que le sort est de niveau 7 ou moins, celui-ci
+      ne produit aucun effet sur vous et il cible à la place son lanceur, en
+      utilisant le niveau d'emplacement, le DD des jets de sauvegarde contre le
+      sort et la caractéristique d'incantation du lanceur.</p>
+
+      <p>Harmonisation requise.</p>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 30000
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 0
+    type: trinket
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701340
+  modifiedTime: 1663923702911
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!k9toBfUoFQMNvM7m'
+

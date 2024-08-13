@@ -1,0 +1,114 @@
+_id: emnxILgEb03OS1fm
+name: Reliquaire
+type: equipment
+img: icons/containers/chest/chest-reinforced-steel-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    subtype: gear
+    magical: false
+    effects: []
+    version: 7
+    addDex: true
+system:
+  description:
+    value: >-
+      <p><strong style="color: #191813; font-size: 13px;">Symole Sacré.
+      </strong>Une petite boîte ou un autre récipient contenant un fragment
+      d'une précieuse relique, d'un saint ou d'un autre personnage historique
+      qui ont consacré leur vie à suivre le chemin d'un vrai croyant. Une
+      divinité confère au porteur de cet artefact la capacité d'invoquer son
+      pouvoir et, ce faisant, de répandre la foi une fois de plus.Un symbole
+      sacré est une représentation d'un dieu ou d'un panthéon. Cela peut être
+      une amulette avec un symbole représentant une divinité, ce même symbole
+      gravé ou incrusté tel un emblème sur un bouclier, ou une toute petite
+      boîte renfermant le fragment d'une relique sacrée. Un clerc ou paladin
+      peut utiliser un symbole sacré comme focaliseur magique. Pour utiliser le
+      symbole de cette manière, le lanceur doit le porter visiblement, en main
+      ou sur un bouclier.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  quantity: 1
+  weight: 1
+  price: 5
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: special
+    cost: 0
+    condition: >-
+      Afin de l'utiliser ainsi, le symbole sacré doit être tenu en main par le
+      lanceur de sorts et être visible, ou se trouver sur son bouclier.  Tente
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 0
+    type: trinket
+    dex: null
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700634
+  modifiedTime: 1663923700634
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!emnxILgEb03OS1fm'
+

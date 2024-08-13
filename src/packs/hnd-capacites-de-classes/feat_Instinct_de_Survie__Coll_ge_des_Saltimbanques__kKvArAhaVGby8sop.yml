@@ -1,0 +1,127 @@
+_id: kKvArAhaVGby8sop
+name: Instinct de Survie [Collège des Saltimbanques]
+type: feat
+flags:
+  core:
+    sourceId: Item.Bj3Z7hjBMvZlDY1W
+img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;"><strong>Instinct de
+      survie</strong></h3>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">Vous n'&ecirc;tes pas un
+      guerrier mais, sur la route, vous avez v&eacute;cu votre lot d'attaques de
+      brigands et de traquenards. La troupe a du apprendre &agrave; se
+      d&eacute;fendre et les saltimbanques ont acquis la r&eacute;putation de ne
+      pas &ecirc;tre des proies faciles. Au niveau 6, vous obtenez une aptitude
+      selon votre sp&eacute;cialit&eacute; :</p>
+
+      <ul style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">
+
+      <li style="box-sizing: border-box; user-select: text;">
+
+      <p style="box-sizing: border-box; user-select:
+      text;">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QPkxG2uV1SD9eKm7]{Instinct
+      de Survie - Bouffon [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li style="box-sizing: border-box; user-select: text;">
+
+      <p style="box-sizing: border-box; user-select:
+      text;">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xdtyRfqdJQ7FM5LB]{Instinct
+      de Survie - Force de la nature [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li style="box-sizing: border-box; user-select: text;">
+
+      <p style="box-sizing: border-box; user-select:
+      text;">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SbAkGmhHjI2Sp0yB]{Instinct
+      de Survie - Jongleur [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li style="box-sizing: border-box; user-select: text;">
+
+      <p style="box-sizing: border-box; user-select:
+      text;">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.37fcj4wqjkUo0036]{Instinct
+      de Survie - Voyante [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685603
+  modifiedTime: 1663923687399
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Bj3Z7hjBMvZlDY1W
+  duplicateSource: null
+_key: '!items!kKvArAhaVGby8sop'
+

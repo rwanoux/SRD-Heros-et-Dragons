@@ -1,0 +1,127 @@
+_id: 66IkCOSiLUKg3UiL
+name: Alarme
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/tools/instruments/bell-brass-brown.webp
+system:
+  description:
+    value: >-
+      <p>Vous installez une alarme pour vous avertir en cas d'intrusion.
+      Choisissez une porte, une fenêtre ou une zone à portée qui n'occupe pas
+      plus d'espace qu'un cube de 6 mètres de côté. Tant que le sort fait effet,
+      une alarme vous prévient dès qu'une créature de taille TP ou supérieure
+      touche la zone protégée ou y pénètre. Au moment où vous lancez le sort,
+      vous pouvez désigner des créatures qui ne déclencheront pas l'alarme. Vous
+      pouvez aussi choisir si l'alarme sera audible ou mentale.</p>
+
+      <p>Une alarme mentale vous avertit d'un tintement dans votre tête tant que
+      vous vous trouvez dans un rayon de 1,5 kilomètre autour de la zone
+      protégée. Ce tintement suffit à vous réveiller si vous êtes endormi.</p>
+
+      <p>Une alarme audible émet le même son qu'une cloche d'alerte pendant 10
+      secondes et retentit dans un rayon de 18 mètres.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: 8
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: cube
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: false
+    value: ''
+  materials:
+    value: une minuscule clochette et un filament en argent
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687943
+  modifiedTime: 1663923688567
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!66IkCOSiLUKg3UiL'
+

@@ -1,0 +1,89 @@
+name: Représailles nécrotiques
+type: feat
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify">Lorsque vous êtes touché par une attaque
+      d'arme, vous pouvez utiliser votre réaction pour envelopper l'attaquant
+      dans des flammes obscures. </p><p style="text-align:justify">L'attaquant
+      subit des dégâts nécrotiques égaux à votre modificateur de Charisme
+      (minimum de 1), et il subit un désavantage aux jets d'attaque jusqu'à la
+      fin de son prochain tour.</p><p style="text-align:justify">Vous devez
+      terminer un repos long avant de pouvoir utiliser à nouveau cette
+      capacité.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@abilities.cha.mod'
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  requirements: Darakhul
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.ow6K1MC79NCqVNQv
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680509455809
+  modifiedTime: 1680509563171
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.ow6K1MC79NCqVNQv
+  duplicateSource: null
+folder: null
+sort: 0
+_id: zM8kEad9sK1chpKY
+_key: '!items!zM8kEad9sK1chpKY'
+

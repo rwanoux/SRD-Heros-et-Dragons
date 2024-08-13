@@ -1,0 +1,89 @@
+_id: rQZwm6LzLAJSOt4f
+name: Attaque réflexe [Passeur]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/weapons/swords/shortsword-broad-engraved.webp
+effects: []
+system:
+  description:
+    value: >-
+      <p>Au niveau 3 &eacute;galement, lorsque vous utilisez
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD]{Pas
+      brumeux}, vous pouvez faire usage de votre r&eacute;action afin de porter
+      une unique attaque &agrave; distance ou au corps &agrave; corps juste
+      apr&egrave;s &ecirc;tre r&eacute;apparu</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #5'
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur Passeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685645
+  modifiedTime: 1678413461599
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rQZwm6LzLAJSOt4f'
+

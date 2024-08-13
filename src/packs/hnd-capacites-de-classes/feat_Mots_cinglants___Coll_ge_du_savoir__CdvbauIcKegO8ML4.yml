@@ -1,0 +1,109 @@
+_id: CdvbauIcKegO8ML4
+name: Mots cinglants  [Collège du savoir]
+type: feat
+flags:
+  entityorder:
+    order: 135
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="mots-cinglants"><strong>Mots cinglants</strong></h3>
+
+      <p>Toujours au niveau 3, vous apprenez &agrave; utiliser votre
+      r&eacute;partie pour distraire, semer la confusion ou saper la confiance
+      et les capacit&eacute;s des autres. Quand une cr&eacute;ature qui se
+      trouve dans votre champ de vision et dans un rayon de 18 m&egrave;tres
+      r&eacute;alise un&nbsp;<a
+      href="https://5e-drs.fr/combattre/#jets-d-attaque">jet d'attaque</a>, de
+      d&eacute;g&acirc;ts ou un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+      de caract&eacute;ristique</a>, vous pouvez utiliser votre r&eacute;action
+      pour d&eacute;penser l'une de vos
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations
+      Bardique [Barde]}, lancer le d&eacute; appropri&eacute; et soustraire le
+      r&eacute;sultat du total obtenu par la cr&eacute;ature. Vous pouvez
+      choisir d'utiliser cette aptitude apr&egrave;s que la cr&eacute;ature a
+      lanc&eacute; les d&eacute;s mais avant que le MJ annonce si le <a
+      href="https://5e-drs.fr/combattre/#jets-d-attaque">jet
+      d'attaque</a>&nbsp;ou le&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+      de caract&eacute;ristique</a>&nbsp;a r&eacute;ussi ou
+      &eacute;chou&eacute;, ou avant que la cr&eacute;ature n'ait port&eacute;
+      ses d&eacute;g&acirc;ts. La cr&eacute;ature est immunis&eacute;e contre
+      cette aptitude si elle ne vous entend pas ou si elle est immunis&eacute;e
+      &agrave; l'effet&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charm&eacute;</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      La cible doit être en mesure de vous entendre et ne pas être immunisé à
+      l'effet Charmé.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 18
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685237
+  modifiedTime: 1663923686345
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!CdvbauIcKegO8ML4'
+

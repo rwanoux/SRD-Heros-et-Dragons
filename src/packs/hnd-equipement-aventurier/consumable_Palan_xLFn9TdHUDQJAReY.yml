@@ -1,0 +1,83 @@
+_id: xLFn9TdHUDQJAReY
+name: Palan
+type: consumable
+img: icons/weapons/sickles/sickle-hooked-wood.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Ensemble de poulies avec un câble et un crochet pour attacher des
+      objets, un palan permet de hisser jusqu'à quatre fois le poids que vous
+      pouvez normalement soulever.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 2.5
+  price: 1
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+    autoDestroy: false
+    autoUse: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700682
+  modifiedTime: 1663923700682
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!xLFn9TdHUDQJAReY'
+

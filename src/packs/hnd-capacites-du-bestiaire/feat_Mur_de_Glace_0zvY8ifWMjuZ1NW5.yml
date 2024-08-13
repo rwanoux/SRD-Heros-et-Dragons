@@ -1,0 +1,90 @@
+name: Mur de Glace
+type: feat
+flags: {}
+img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+_id: 0zvY8ifWMjuZ1NW5
+system:
+  description:
+    value: >-
+      <p><strong>Mur de glace.</strong> Un mur de glace transparent apparaît à
+      portée de vue du dragon dans un rayon de 36 mètres autour de lui. Le mur
+      est large de 9 mètres et haut de 3 mètres, avec une épaisseur de 30
+      centimètres. Une créature située à l'emplacement du mur lorsqu'il apparaît
+      doit réussir un jet de sauvegarde de Dextérité ou subir 3d6 dégâts de
+      froid et être entravé jusqu'à ce que le mur disparaisse ou soit
+      détruit.</p>
+
+      <p>Le mur est un objet que l'on peut endommager. Il a une CA de 12 et 30
+      points de vie. Il est vulnérable aux dégâts de feu. Il disparaît si le
+      dragon utilise à nouveau cet effet.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: wall
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Blanc (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698726
+  modifiedTime: 1663923699188
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!0zvY8ifWMjuZ1NW5'
+

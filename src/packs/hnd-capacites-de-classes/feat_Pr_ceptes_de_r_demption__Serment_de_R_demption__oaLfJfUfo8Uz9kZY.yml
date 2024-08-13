@@ -1,0 +1,121 @@
+_id: oaLfJfUfo8Uz9kZY
+name: Préceptes de rédemption [Serment de Rédemption]
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="preceptes-de-redemption"><strong>Pr&eacute;ceptes de
+      r&eacute;demption</strong></h3>
+
+      <p>S'il veut parvenir &agrave; la r&eacute;demption, le paladin qui a
+      pr&ecirc;t&eacute; ce serment doit faire sien tous les pr&eacute;ceptes
+      fondamentaux suivants.</p>
+
+      <p><strong>Sagesse</strong>. Apprenez de vos erreurs sans les laisser
+      devenir votre ma&icirc;tre.</p>
+
+      <p><strong>Droiture.</strong> Faites face &agrave; vos manquements, et
+      corrigez-les si n&eacute;cessaire.</p>
+
+      <p><strong>Temp&eacute;rance.</strong> Gardez-vous de juger les autres
+      trop s&eacute;v&egrave;rement et souvenez-vous de vos propres
+      errances.</p>
+
+      <p><strong>Humilit&eacute;</strong>. N'ayez pas d'autre ambition pour
+      vous-m&ecirc;me que la simplicit&eacute;.</p>
+
+      <p><strong>Honn&ecirc;tet&eacute;.</strong> Soyez honn&ecirc;te avec tous,
+      y compris avec vous-m&ecirc;me.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685628
+  modifiedTime: 1678413032174
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!oaLfJfUfo8Uz9kZY'
+

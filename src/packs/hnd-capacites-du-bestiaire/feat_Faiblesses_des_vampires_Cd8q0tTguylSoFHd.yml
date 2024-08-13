@@ -1,0 +1,108 @@
+name: Faiblesses des vampires
+type: feat
+flags:
+  obsidian:
+    source:
+      type: other
+    effects: []
+    version: 7
+img: icons/skills/wounds/injury-hand-blood-red.webp
+_id: Cd8q0tTguylSoFHd
+system:
+  description:
+    value: >-
+      <p><strong>Faiblesses des vampires.</strong> Voici les faiblesses de la
+      cr&eacute;ature :</p>
+
+      <ul>
+
+      <li><span style="text-decoration: underline;">D&eacute;fense
+      d'entrer.</span> Il ne peut pas entrer dans une habitation sans y avoir
+      &eacute;t&eacute; invit&eacute; par l'un de ses occupants.</li>
+
+      <li><span style="text-decoration: underline;">Bless&eacute; par l'eau
+      courante.</span> Il subit 20 d&eacute;g&acirc;ts d'acide s'il termine son
+      tour dans de l'eau courante.</li>
+
+      <li><span style="text-decoration: underline;">Pieu dans le coeur.</span>
+      Si une arme perforante en bois est plant&eacute;e dans son coeur pendant
+      qu'il est neutralis&eacute; dans son refuge, il est paralys&eacute; tant
+      que le pieu n'est pas retir&eacute;.</li>
+
+      <li><span style="text-decoration: underline;">Hypersensibilit&eacute;
+      &agrave; la lumi&egrave;re du soleil.</span> Il subit 20
+      d&eacute;g&acirc;ts radiants quand il commence son tour expos&eacute;
+      &agrave; la lumi&egrave;re du soleil. Le cas &eacute;ch&eacute;ant, il
+      subit un d&eacute;savantage lors des jets d'attaque et des tests de
+      caract&eacute;ristique.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698775
+  modifiedTime: 1663923699401
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Cd8q0tTguylSoFHd'
+

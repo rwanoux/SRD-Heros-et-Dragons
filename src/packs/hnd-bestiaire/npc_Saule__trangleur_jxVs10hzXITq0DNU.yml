@@ -1,0 +1,1293 @@
+_id: jxVs10hzXITq0DNU
+name: Saule étrangleur
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: L9hh91EGKzRT9tkv
+    name: Apparence trompeuse.
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/magic/nature/stealth-hide-eyes-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Apparence trompeuse.</strong>&nbsp;Tant que le saule reste
+          immobile et à moins d'être en fleurs, il ne peut pas être distingué
+          d'un arbre ordinaire.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Saule étrangleur
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!jxVs10hzXITq0DNU.L9hh91EGKzRT9tkv'
+  - _id: OidchvzcPmUvDike
+    name: Attaques Multiples
+    type: feat
+    sort: 200000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Un saule étrangleur
+          effectue autant d'attaques que de cibles présentes dans un rayon de
+          4,50 mètres autour de lui. Chaque créature ne peut être ciblée qu'une
+          fois par round, soit par un étranglement (une branche), soit par une
+          immobilisation (une racine).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Saule étrangleur
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!jxVs10hzXITq0DNU.OidchvzcPmUvDike'
+  - _id: 6e9HUWEP0xiQRbiR
+    name: Immobilisation
+    type: weapon
+    sort: 300000
+    flags: {}
+    img: icons/magic/nature/root-vine-entangle-foot-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Immobilisation.&nbsp;</strong>Attaque d'arme au corps à
+          corps&nbsp;: +8 pour toucher, allonge 4,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 7 (1d4+5) dégâts contondants et la cible est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée</a>&nbsp;à
+          moins de réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité DD 14.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 4.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d4+@mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 14
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!jxVs10hzXITq0DNU.6e9HUWEP0xiQRbiR'
+  - _id: ifWVWdF79WG4W19M
+    name: Étranglement
+    type: weapon
+    sort: 400000
+    flags: {}
+    img: icons/commodities/cloth/ribbon-bow-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Étrangler.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +8 pour toucher, allonge 4,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 9 (1d8+5) dégâts contondants et la cible est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>&nbsp;(DD
+          du jet d'évasion 15). Une créature&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>&nbsp;ne
+          peut plus respirer et subit 9 (1d8+5) dégâts contondants au début de
+          son tour à moins de réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 14. À son tour, le saule
+          peut cibler une créature déjà&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>&nbsp;avec
+          un nouvel étranglement. Chaque nouvelle attaque réussie implique un
+          jet d'évasion supplémentaire avant de se libérer. Toutefois, les
+          dégâts en début de tour ne se cumulent pas et un seul&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;est nécessaire quel que soit le nombre de
+          branches empoignant la créature.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 4.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8+@mod
+            - bludgeoning
+        versatile: ''
+      formula: 1d8+@mod
+      save:
+        ability: con
+        dc: 14
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!jxVs10hzXITq0DNU.ifWVWdF79WG4W19M'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -5
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 21
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 5
+      save: 5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    dex:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: -1
+      save: -1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    con:
+      value: 21
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 5
+      save: 5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    int:
+      value: 1
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: -5
+      save: -5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 6
+    wis:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    cha:
+      value: 1
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: -5
+      save: -5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 6
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 115
+      max: 115
+      temp: 0
+      tempmax: 0
+      formula: 10d12+50
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: -1
+      prof: 0
+      total: -1
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 0
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 10
+    spellcasting: int
+    prof: 3
+    spelldc: 6
+    encumbrance:
+      value: 0
+      max: 630
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Apparence trompeuse</em></strong>. Tant que le saule
+        reste immobile et à moins d'être en fleurs, il ne peut pas être
+        distingué d'un arbre ordinaire.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Un saule étrangleur
+        effectue autant d'attaques que de cibles présentes dans un rayon de 4,50
+        mètres autour de lui. Chaque créature ne peut être ciblée qu'une fois
+        par round, soit par un étranglement (une branche), soit par une
+        immobilisation (une racine).</p>
+
+        <p><strong><em>Immobilisation</em></strong>. <em>Attaque d'arme au corps
+        à corps</em> : +8 pour toucher, allonge 4,50 m, une
+        cible.<br><em>Touché</em> : 7 (1d4+5) dégâts contondants et la cible est
+        <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+        à moins de réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Dextérité DD 14.</p>
+
+        <p><strong><em>Étranglement</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +8 pour toucher, allonge 4,50 m, une
+        cible.<br><em>Touché</em> : 9 (1d8+5) dégâts contondants et la cible est
+        <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoigné"><em>empoignée</em></a>
+        (DD du jet d'évasion 15). Une créature <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoigné"><em>empoignée</em></a>
+        ne peut plus respirer et subit 9 (1d8+5) dégâts contondants au début de
+        son tour à moins de réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 14. À son tour, le saule peut
+        cibler une créature déjà <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoigné"><em>empoignée</em></a>
+        avec un nouvel étranglement. Chaque nouvelle attaque réussie implique un
+        jet d'évasion supplémentaire avant de se libérer. Toutefois, les dégâts
+        en début de tour ne se cumulent pas et un seul <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> est nécessaire quel que soit le nombre de branches
+        empoignant la créature.</p>
+      public: ''
+    alignment: non-alignée
+    race: ''
+    type:
+      value: plant
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Bois / Forêt,Plaine / Champs / Prairie / Savane
+    cr: 6
+    spellLevel: 6
+    source: Créatures & Oppositions
+    xp:
+      value: 2300
+  traits:
+    size: huge
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - poison
+        - thunder
+      bypasses: []
+      custom: ''
+    dv:
+      value:
+        - fire
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - deafened
+        - blinded
+        - charmed
+        - frightened
+      custom: ''
+    languages:
+      value: []
+      custom: —
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -5
+      label: ' '
+      bonus: 0
+      passive: 5
+      prof: 0
+      total: -5
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Saule étrangleur
+  displayName: 0
+  width: 3
+  height: 3
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690886
+  modifiedTime: 1663923696588
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!jxVs10hzXITq0DNU'
+

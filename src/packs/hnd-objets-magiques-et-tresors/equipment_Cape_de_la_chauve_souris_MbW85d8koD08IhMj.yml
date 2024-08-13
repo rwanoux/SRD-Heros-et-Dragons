@@ -1,0 +1,143 @@
+_id: MbW85d8koD08IhMj
+name: Cape de la chauve-souris
+type: equipment
+img: icons/equipment/back/cloak-heavy-fur-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Tant que vous portez cette cape, vous obtenez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+      des tests de Dextérité (Discrétion). Dans les zones de faible lumière ou
+      de ténèbres, vous pouvez attraper les bords de la cape à pleine main et
+      vous en servir pour voler à une vitesse de 12 mètres. Si vous ne tenez
+      plus les bords de la cape alors que vous volez ainsi ou si vous n'êtes
+      plus dans une zone de faible lumière ou de ténèbres, vous perdez cette
+      vitesse de vol.</p>
+
+      <p>Tant que vous portez la cape dans une zone de faible lumière ou de
+      ténèbres, vous pouvez dépenser votre action pour lancer&nbsp;<a
+      href="https://5e-drs.fr/grimoire/metamorphose/">métamorphose</a>&nbsp;sur
+      votre personne et vous changer en&nbsp;<a
+      href="https://5e-drs.fr/bestiaire/chauve-souris/">chauve-souris</a>. Vous
+      conservez vos valeurs d'Intelligence, de Sagesse et de Charisme. Vous ne
+      pouvez plus utiliser la cape pour vous transformer avant l'aube
+      suivante.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 6000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: day
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 5
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 0
+    type: clothing
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701137
+  modifiedTime: 1663923702237
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MbW85d8koD08IhMj'
+

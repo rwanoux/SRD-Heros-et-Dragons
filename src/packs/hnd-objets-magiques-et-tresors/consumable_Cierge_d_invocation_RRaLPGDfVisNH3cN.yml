@@ -1,0 +1,229 @@
+_id: RRaLPGDfVisNH3cN
+name: Cierge d'invocation
+type: consumable
+img: icons/sundries/lights/candle-unlit-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <div class="description ">Ce mince cierge est dédié à une divinité précise
+      et partage son alignement. On peut détecter ce dernier avec le
+      sort&nbsp;<a
+      href="https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien/">détection
+      du mal et du bien</a>. C'est au MJ de choisir le dieu et l'alignement
+      associé ou de les déterminer au hasard.</div>
+
+      <div class="description ">Harmonisation requise.<br>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th class="center">d20</th>
+
+      <th>Alignement</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">1-2</td>
+
+      <td>Chaotique mauvais</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">3-4</td>
+
+      <td>Chaotique neutre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">5-7</td>
+
+      <td>Chaotique bon</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">8-9</td>
+
+      <td>Neutre mauvais</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">10-11</td>
+
+      <td>Neutre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">12-13</td>
+
+      <td>Neutre bon</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">14-15</td>
+
+      <td>Loyal mauvais</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">16-17</td>
+
+      <td>Loyal neutre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">18-20</td>
+
+      <td>Loyal bon</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br>
+
+      <p>La magie du cierge s'active quand on l'allume, ce qui demande une
+      action. Il est détruit après 4 heures de combustion. Vous pouvez
+      l'éteindre avant pour le réutiliser plus tard. Déduisez chaque période de
+      combustion (par portions d'une minute) de la durée totale de combustion du
+      cierge.</p>
+
+      <p>Tant que le cierge est allumé, il émet une faible lumière dans un rayon
+      de 9 mètres. Chaque créature baignée dans cette lumière et disposant du
+      même alignement que le cierge obtient l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+      de ses jets d'attaque et de sauvegarde ainsi que lors de ses&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">tests
+      de caractéristique</a>. De plus, un clerc ou un druide présent dans la
+      lumière et disposant du même alignement que le cierge peut lancer les
+      sorts de niveau 1 qu'il a préparés sans dépenser d'emplacement de sort,
+      bien que le sort fasse effet comme s'il était lancé depuis un emplacement
+      de niveau 1.</p>
+
+      <p>Sinon, vous pouvez lancer le sort&nbsp;<a
+      href="https://5e-drs.fr/grimoire/portail/">portail</a>&nbsp;avec le cierge
+      quand vous l'allumez pour la première fois, mais cela le détruit.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 12000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 4
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701217
+  modifiedTime: 1663923702396
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!RRaLPGDfVisNH3cN'
+

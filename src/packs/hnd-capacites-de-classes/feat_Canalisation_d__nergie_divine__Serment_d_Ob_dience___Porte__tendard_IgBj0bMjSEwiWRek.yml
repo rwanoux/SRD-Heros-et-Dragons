@@ -1,0 +1,133 @@
+_id: IgBj0bMjSEwiWRek
+name: Canalisation d'énergie divine [Serment d'Obédience]  Porte-étendard
+type: feat
+flags:
+  core:
+    sourceId: Item.4FBpeM2tCD0uwRQa
+  rsr5e:
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+img: icons/magic/light/beam-rays-yellow-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="canalisation-d-energie-divine-3" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;
+      font-size: 13px;"><strong><span style="box-sizing: border-box;
+      user-select: text;">Canalisation d'&eacute;nergie
+      divine</span></strong></h3>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">Quand vous pr&ecirc;tez
+      votre serment au niveau 3, vous acc&eacute;dez aux deux options de
+      canalisation d'&eacute;nergie divine suivantes.</p>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;"><strong
+      style="box-sizing: border-box; user-select:
+      text;">Porte-&eacute;tendard</strong>. Au prix d'une action, vous
+      provoquez tous les ennemis qui se trouvent dans un rayon de 9
+      m&egrave;tres autour de vous. Ceux qui ratent un&nbsp;<a
+      style="box-sizing: border-box; user-select: text;"
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse doivent &agrave; leur prochain tour
+      choisir l'action&nbsp;<a style="box-sizing: border-box; user-select:
+      text;" href="https://5e-drs.fr/combattre/#attaquer">attaquer</a>&nbsp;et
+      vous choisir comme cible si vous &ecirc;tes &agrave; une distance
+      inf&eacute;rieure &agrave; leur allonge, ou l'action&nbsp;<a
+      style="box-sizing: border-box; user-select: text;"
+      href="https://5e-drs.fr/combattre/#se-precipiter">se
+      pr&eacute;cipiter</a>&nbsp;et se rapprocher de vous dans le cas contraire.
+      &Agrave; votre prochain tour, vous pouvez au prix d'une action attaquer
+      tous les ennemis &agrave; votre port&eacute;e. Si vous n'avez pas subi de
+      d&eacute;g&acirc;t pendant le round pr&eacute;c&eacute;dent, vous obtenez
+      un&nbsp;<a style="box-sizing: border-box; user-select: text;"
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      sur ces attaques.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: >-
+    JdS Echec : Attaque le paladin, ou se précipite s'il n'est pas à portée - Au
+    tour suivant le paladin peut attaquer tous les ennemis à portée (avec
+    avantage s'il n'a pas subit de dégat au round précédent)
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685283
+  modifiedTime: 1678413002968
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.4FBpeM2tCD0uwRQa
+  duplicateSource: null
+_key: '!items!IgBj0bMjSEwiWRek'
+

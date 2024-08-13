@@ -1,0 +1,128 @@
+_id: 3Pm7JQB6aKoSa4vS
+name: Expert en Athlétisme
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+    critDamage:
+      value: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p><em>Pr&eacute;requis </em>: ma&icirc;trise de la comp&eacute;tence
+      Athl&eacute;tisme.</p>
+
+      <p>Vous &ecirc;tes un athl&egrave;te exceptionnel. Choisissez trois
+      b&eacute;n&eacute;fices parmi les cinq pr&eacute;sent&eacute;s :</p>
+
+      <ul>
+
+      <li>vous augmentez votre valeur de Force de +1 ;</li>
+
+      <li>vous gagnez l&rsquo;expertise dans cette comp&eacute;tence (votre
+      bonus de ma&icirc;trise est doubl&eacute; lorsque vous utilisez cette
+      comp&eacute;tence). Vous ne pouvez pas choisir ce b&eacute;n&eacute;fice
+      si vous avez d&eacute;j&agrave; l&rsquo;expertise ;</li>
+
+      <li>lorsque vous fa&icirc;tes un test de cette comp&eacute;tence, vous
+      pouvez choisir de remplacer le r&eacute;sultat du d20 par la valeur 10,
+      m&ecirc;me apr&egrave;s avoir vu le r&eacute;sultat du d&eacute;. Si vous
+      avez lanc&eacute; deux d&eacute;s (avantage ou d&eacute;savantage), vous
+      remplacez seulement le r&eacute;sultat d&rsquo;un d&eacute;. Vous devez
+      terminer un repos long avant de pouvoir utiliser &agrave; nouveau cet
+      effet ;</li>
+
+      <li>lorsque vous portez une armure interm&eacute;diaire, votre
+      modificateur de Dext&eacute;rit&eacute; est limit&eacute; &agrave; +3 au
+      lieu de +2 (CA 18 max.) ;</li>
+
+      <li>lorsque vous avez un ou deux niveaux d&rsquo;&eacute;puisement, vous
+      ne subissez pas de d&eacute;savantage &agrave; vos tests de Force et de
+      Constitution. Vous ne subissez un d&eacute;savantage sur ces deux
+      caract&eacute;ristiques qu&rsquo;&agrave; partir de trois niveaux
+      d&rsquo;&eacute;puisement.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: 'Pangée 2 : l''âge du changement'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923684990
+  modifiedTime: 1663923684990
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!3Pm7JQB6aKoSa4vS'
+

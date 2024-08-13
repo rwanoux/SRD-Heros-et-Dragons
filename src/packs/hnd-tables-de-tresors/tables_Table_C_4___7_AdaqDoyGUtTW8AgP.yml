@@ -1,0 +1,146 @@
+_id: AdaqDoyGUtTW8AgP
+name: Table C 4 à 7
+folder: vVTDSYsguUPXB21e
+sort: 800000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: 1d6*1000 [sp], 3d6*100 [gp], 1d6*10 [pp]
+    loot-actor-name: Coffre
+    loot-amount-key: ''
+  exportSource:
+    world: donjon
+    system: dnd5e
+    coreVersion: 0.7.9
+    systemVersion: 1.2.4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: ZSsS2fsd8bUgH107
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Aucun trésor
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.ZSsS2fsd8bUgH107'
+  - _id: PU6CVHDlBmsVDIuo
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Gemme @price[50] @quantity[2d6] @weight[0.1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Gemme.png
+    weight: 1
+    range:
+      - 3
+      - 5
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.PU6CVHDlBmsVDIuo'
+  - _id: ZCj7c16rDPFthLZn
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Objets précieux @price[25] @quantity[1d4 @weight[0.1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Objet%20pr%C3%A9cieux.png
+    weight: 1
+    range:
+      - 6
+      - 9
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.ZCj7c16rDPFthLZn'
+  - _id: bTKHfKNqKqV4dcSC
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Gemme @price[100] @quantity[1d6] @weight[0.1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Gemme.png
+    weight: 1
+    range:
+      - 10
+      - 13
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.bTKHfKNqKqV4dcSC'
+  - _id: MJO8IEbZUQhx74qY
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Gemme @price[50] @quantity[2d4] @weight[0.1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Gemme.png
+    weight: 1
+    range:
+      - 14
+      - 16
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.MJO8IEbZUQhx74qY'
+  - _id: gkEW3tbtJbhTwTS0
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Objet précieux @price[750] @quantity[1] @weight[1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Objet%20pr%C3%A9cieux.png
+    weight: 1
+    range:
+      - 17
+      - 19
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.gkEW3tbtJbhTwTS0'
+  - _id: NNhaEBcU7zMUzsRK
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: text
+    text: Diamant @price[100] @quantity[2d6] @weight[0.1]
+    img: >-
+      https://assets.forge-vtt.com/5fe83873d507206c64ef87b8/Elfenduil_2020-12-27/Data/Token/Objets/Diamant.png
+    weight: 1
+    range:
+      - 20
+      - 20
+    drawn: false
+    documentId: null
+    _key: '!tables.results!AdaqDoyGUtTW8AgP.NNhaEBcU7zMUzsRK'
+formula: 1d20
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!AdaqDoyGUtTW8AgP'
+

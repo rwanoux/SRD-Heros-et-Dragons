@@ -1,0 +1,71 @@
+_id: asLq0CzF21WuJ1GO
+name: '[Barde] Collège des Saltimbanques'
+type: subclass
+img: icons/tools/instruments/lute-gold-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2><strong>Collège des saltimbanques</strong></h2>\n<p>\_</p>\n<p id=\"premier-role\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5T8Hv20Uw4d3QmD0]{Premier rôle [Collège des Saltimbanques]}</p>\n<p id=\"main-dans-la-main\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IL0TGibuXpuXFgLm]{Main dans la main [Collège des Saltimbanques]}</p>\n<p id=\"instinct-de-survie\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kKvArAhaVGby8sop]{Instinct de Survie [Collège des Saltimbanques]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.msfAbo2e2tcig73L]{Esprit d'équipe [Collège des Saltimbanques]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.garoev4tbtEpiQn6]{Prouesse de Cirque [Collège des Saltimbanques]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: college-des-saltimbanques
+  classIdentifier: barde
+  advancement:
+    - _id: 4piou6e7ogfhgl1g
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.garoev4tbtEpiQn6
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: ukjm78istezwdxl7
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kKvArAhaVGby8sop
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.msfAbo2e2tcig73L
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: g591hx1jo39ij57s
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5T8Hv20Uw4d3QmD0
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IL0TGibuXpuXFgLm
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703417
+  modifiedTime: 1663923703617
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!asLq0CzF21WuJ1GO'
+

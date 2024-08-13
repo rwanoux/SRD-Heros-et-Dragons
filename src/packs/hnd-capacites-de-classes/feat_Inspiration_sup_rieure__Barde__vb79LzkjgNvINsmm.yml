@@ -1,0 +1,103 @@
+_id: vb79LzkjgNvINsmm
+name: Inspiration supérieure [Barde]
+type: feat
+img: icons/magic/earth/explosion-lava-stone-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  entityorder:
+    order: 219
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="inspiration-superieure"><strong>Inspiration
+      sup&eacute;rieure</strong></h3>
+
+      <p>Une fois que vous atteignez le niveau 20, quand vous faites un jet
+      d'initiative et que vous n'avez plus aucune inspiration bardique
+      disponible, vous en regagnez une.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685682
+  modifiedTime: 1663923687728
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vb79LzkjgNvINsmm'
+

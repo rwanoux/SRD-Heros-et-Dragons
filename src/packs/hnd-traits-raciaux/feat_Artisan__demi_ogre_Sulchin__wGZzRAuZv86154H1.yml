@@ -1,0 +1,139 @@
+name: Artisan (demi-ogre Sulchin)
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: false
+      altValue:
+        use: true
+        resource: true
+        charge: false
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.Zo6kIOy3DLxewDLJ
+_id: wGZzRAuZv86154H1
+system:
+  description:
+    value: >-
+      <p><strong>Artisan.</strong> Les sulchin sont des artisans qualifiés et
+      apprennent tous à servir leur communauté. Vous maîtrisez un type d'outils
+      d'artisan à choisir entre matériel de brasseur, outils de bricoleur,
+      outils de charpentier, outils de cordonnier, outils de forgeron, outils de
+      maçon, outils de potier ou matériel de tatoueur</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: demi-ogre Sulchin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698232
+  modifiedTime: 1663923698633
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Zo6kIOy3DLxewDLJ
+  duplicateSource: null
+_key: '!items!wGZzRAuZv86154H1'
+

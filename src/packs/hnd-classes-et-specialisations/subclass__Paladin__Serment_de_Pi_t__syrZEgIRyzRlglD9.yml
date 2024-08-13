@@ -1,0 +1,130 @@
+_id: syrZEgIRyzRlglD9
+name: '[Paladin] Serment de Piété'
+type: subclass
+img: icons/magic/symbols/cog-shield-white-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2>\n<h3 id=\"serment-de-piete\"><strong>Serment de piété</strong></h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.mL5fuvuxckWYQh9s]{Préceptes de piété [Serment de Piété]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UYCrdfFZ6vvjzm7X]{Sorts de serment [Serment de Piété]}</p>\n<p>Niveau 3 :\_</p>\n<ul>\n<li style=\"list-style-type:none\">\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cERfqdKvtLsdLu9C]{Canalisation d'énergie divine [Serment de Piété] Guerrier Saint}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PYsBWYQE2hG8TSMq]{Canalisation d'énergie divine [Serment de Piété] Inquisiteur}</li>\n</ul>\n</li>\n</ul>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.J5TsDwHfbjqpgzHV]{Aura de piété [Serment de Piété]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IXXtk6gq6L7gV7zK]{Pureté de la lame [Serment de Piété]}</p>\n<p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.67LhYC1P3l27IMhQ]{Avatar divin [Serment de Piété]}</p>\n<h4 id=\"preceptes-de-piete\"></h4>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: serment-de-piete
+  classIdentifier: paladin
+  advancement:
+    - _id: drb4qdjgb29ugj4x
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IXXtk6gq6L7gV7zK
+        optional: false
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: yuyovl6750r0x68b
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.J5TsDwHfbjqpgzHV
+        optional: false
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: c3bz9ltxb8hf2i7n
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.5bDjnKXUiY5VqSe5
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+    - _id: wko6p43v1qsi7upg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.WjUqiOkhbUN16Jiq
+        optional: false
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+    - _id: a3c76pby9059yusw
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.kQ8CoIa3QIiB17qH
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.jXic56MYGyQVvGnt
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+    - _id: uecrma01y9r69sid
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.zOHt9ucevU9YJgXx
+        optional: false
+      value: {}
+      level: 5
+      title: ''
+      icon: ''
+    - _id: 5yb8n1ys6tuwb3px
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.mL5fuvuxckWYQh9s
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UYCrdfFZ6vvjzm7X
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cERfqdKvtLsdLu9C
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PYsBWYQE2hG8TSMq
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.GMQ7uhT4gQKD6ZSx
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.PN7ncM2wxoYIL8Ur
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: awy6or0jqwqmpvo4
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.67LhYC1P3l27IMhQ
+        optional: false
+      value: {}
+      level: 20
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703435
+  modifiedTime: 1663923703681
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!syrZEgIRyzRlglD9'
+

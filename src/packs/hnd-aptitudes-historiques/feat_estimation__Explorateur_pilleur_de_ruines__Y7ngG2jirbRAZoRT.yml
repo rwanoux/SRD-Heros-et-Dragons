@@ -1,0 +1,84 @@
+_id: Y7ngG2jirbRAZoRT
+name: estimation (Explorateur-pilleur de ruines)
+type: feat
+flags:
+  HD: aptitudeHistorique
+img: icons/environment/settlement/watchtower-silhouette-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Vous êtes capable d'évaluer en quelques secondes la valeur
+      approximative d'un trésor, d'un artefact ancien ou de pierres précieuses.
+      Vous ne disposez pas d'une évaluation précise, et il vous arrive
+      exceptionnellement de vous tromper, mais vous avez assez l'habitude de ce
+      genre de choses pour distinguer en très peu de temps les objets qui ont
+      une réelle valeur, et séparer le bon grain de l'ivraie</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: explorateur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  jeEWpAXhNr8a02gW: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703913
+  modifiedTime: 1663923703982
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Y7ngG2jirbRAZoRT'
+

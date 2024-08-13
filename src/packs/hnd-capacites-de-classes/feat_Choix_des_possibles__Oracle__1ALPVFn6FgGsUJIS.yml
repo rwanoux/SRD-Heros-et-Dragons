@@ -1,0 +1,92 @@
+name: Choix des possibles [Oracle]
+type: feat
+img: icons/sundries/gaming/dice-pair-white-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.sdbnc9X9Abla5VEK
+_id: 1ALPVFn6FgGsUJIS
+system:
+  description:
+    value: >-
+      <p>Au niveau 17, vous pouvez choisir l'issue d'un événement depuis le
+      champ des possibles.</p>
+
+      <p>Lorsque vous dépensez une canalisation d'énergie divine pour utiliser
+      votre aptitude du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UfYvhk2jijQ0cosZ]{Champs
+      des possibles [Oracle]}, vous pouvez immédiatement dépenser de un à trois
+      d20 parmi les six obtenus. Vous devez les lancer et consigner le
+      résultat.</p>
+
+      <p>Il est alors possible d'utiliser ces résultats au moment de votre choix
+      pour remplacer le résultat d'un dé dans les mêmes conditions que si vous
+      utilisiez un dé de vos aptitudes précédentes.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685150
+  modifiedTime: 1663923686017
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.sdbnc9X9Abla5VEK
+  duplicateSource: null
+_key: '!items!1ALPVFn6FgGsUJIS'
+

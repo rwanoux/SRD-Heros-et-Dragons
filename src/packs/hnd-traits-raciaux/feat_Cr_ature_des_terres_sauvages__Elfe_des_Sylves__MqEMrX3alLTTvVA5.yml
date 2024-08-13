@@ -1,0 +1,82 @@
+_id: MqEMrX3alLTTvVA5
+name: Créature des terres sauvages (Elfe des Sylves)
+type: feat
+flags: {}
+img: icons/consumables/plants/leaf-veins-glowing-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <p><strong>Créature des terres sauvages</strong>. Vous avez l'habitude de
+      parcourir les espaces naturels. Vous obtenez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;sur
+      vos tests de Dextérité (Discrétion) et Sagesse (Survie) lorsque vous
+      parcourez des espaces naturels à la lumière du jour ou des étoiles.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elfe des sylves
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  nCN4ppSa9oQ2OVOw: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698180
+  modifiedTime: 1663923698438
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MqEMrX3alLTTvVA5'
+

@@ -1,0 +1,81 @@
+name: Chevauchée éthérée
+type: feat
+flags: {}
+img: icons/magic/air/fog-gas-smoke-swirling-pink.webp
+_id: 7DXUMsNCy64F4PF3
+system:
+  description:
+    value: >-
+      <p><strong>Chevauch&eacute;e &eacute;th&eacute;r&eacute;e.</strong> La
+      cr&eacute;ature et jusqu'&agrave; trois autres cr&eacute;atures
+      consentantes entrent dans le plan &Eacute;th&eacute;r&eacute; depuis le
+      plan Mat&eacute;riel ou vice versa.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698755
+  modifiedTime: 1663923699320
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7DXUMsNCy64F4PF3'
+

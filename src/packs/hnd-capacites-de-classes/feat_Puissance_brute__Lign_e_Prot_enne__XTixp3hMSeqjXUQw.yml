@@ -1,0 +1,145 @@
+_id: XTixp3hMSeqjXUQw
+name: Puissance brute [Lignée Protéenne]
+type: feat
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: false
+      altValue:
+        use: true
+        resource: true
+        charge: false
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.CnR7WuQR8rBpQaDw
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Puissance brute</strong></h3>
+
+      <p>&Eacute;galement au niveau 1, vous pouvez utiliser une action bonus et
+      sacrifier 1d6 PV pour augmenter d&rsquo;une cat&eacute;gorie le niveau
+      auquel vous lancez un tour de magie.</p>
+
+      <p>Par exemple, si vous utilisez
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.9mglrGyUpA4EeqHA]{Trait
+      de feu}, vous le lancez comme si vous &eacute;tiez de niveau 5, soit 2d10
+      d&eacute;g&acirc;ts de feu (puis 3d10 lorsque vous serez au niveau 5,
+      etc.).</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée l'âge des héros
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685435
+  modifiedTime: 1663923686984
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.CnR7WuQR8rBpQaDw
+  duplicateSource: null
+_key: '!items!XTixp3hMSeqjXUQw'
+

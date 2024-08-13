@@ -1,0 +1,143 @@
+_id: C1UyrFKIZsY6bm1m
+name: Boule de feu à explosion retardée
+type: spell
+flags: {}
+img: icons/magic/fire/projectile-fireball-smoke-strong-orange.webp
+system:
+  description:
+    value: >-
+      <p>Un rayon de lumière jaune jaillit de votre doigt tendu et se condense
+      pour former une bille luisante en un point de votre choix situé à portée
+      pendant toute la durée du sort. Quand le sort se termine, soit parce que
+      votre concentration se brise, soit parce que vous y mettez volontairement
+      un terme, la bille se dilate dans un grondement sourd et explose en une
+      gerbe de feu qui s'étend en franchissant les angles éventuels. Toutes les
+      créatures situées dans une sphère de 6 mètres de rayon centrée sur le
+      point où se trouvait la bille doivent faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. Celles qui échouent subissent un montant
+      de dégâts de feu égal au total de dégâts accumulés (voir plus loin), les
+      autres la moitié seulement.</p>
+
+      <p>À la base, le sort inflige 12d6 dégâts de feu. À la fin de votre tour,
+      si la bille n'a pas encore explosé, ces dégâts augmentent de 1d6.</p>
+
+      <p>Si quelqu'un touche la bille avant la fin de l'intervalle, il doit
+      effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. S'il échoue, le sort se termine
+      immédiatement et la bille explose. S'il réussit, il peut lancer la bille à
+      une distance maximale de 12 mètres. Si elle touche un objet solide ou une
+      créature, le sort se termine et la bille explose.</p>
+
+      <p>Les flammes endommagent les objets qui se trouvent dans la zone et
+      embrasent les objets inflammables qui ne sont ni portés ni
+      transportés.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 8 ou supérieur, les dégâts de base
+      augmentent de 1d6 par niveau au-delà du niveau 7.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: sphere
+    range:
+      value: '45'
+      unit: mètres
+  range:
+    value: 45
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 12d6
+        - fire
+    versatile: 1d6
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 7
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une petite boule de guano de chauve-souris et du soufre
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687977
+  modifiedTime: 1663923688697
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!C1UyrFKIZsY6bm1m'
+

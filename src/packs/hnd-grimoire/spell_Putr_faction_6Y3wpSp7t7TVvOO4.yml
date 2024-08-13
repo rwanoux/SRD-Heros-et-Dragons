@@ -1,0 +1,132 @@
+_id: 6Y3wpSp7t7TVvOO4
+name: Putréfaction
+type: spell
+flags: {}
+img: icons/magic/unholy/projectile-helix-blood-red.webp
+system:
+  description:
+    value: >-
+      <p>Une créature à portée et que vous pouvez voir subit votre malédiction.
+      Dès que vous lui infligez une blessure, cette plaie se répand petit à
+      petit à l'ensemble de son corps, qui prend une teinte violacée. Les plaies
+      s'infectent et suppurent. Jusqu'à la fin du sort, la cible subit 1d4
+      points de dégâts nécrotique au début de son tour et obtient un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      sur ses jets de Constitution. Les dégâts cessent si la cible quitte la
+      portée du sort.</p>
+
+      <p>Si la cible décède pendant qu'elle est sous l'effet du sort, son corps
+      éclate et affecte les créatures situées à 1,50 mètre ou moins d'elle. Les
+      nouvelles cibles affectées doivent réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution ou de Dextérité pour éviter d'être
+      affecté par le sort.</p>
+
+      <p><strong>À plus haut niveau</strong>. Lorsque vous lancez ce sort en
+      utilisant un emplacement de niveau 3, les victimes subissent 2d4 dégâts.
+      Les dégâts passent à 3d4 au niveau 5, 4d4 au niveau 6 et 5d4 au niveau
+      9.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '30'
+      unit: mètres
+  range:
+    value: 30
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d4
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687947
+  modifiedTime: 1663923688578
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!6Y3wpSp7t7TVvOO4'
+

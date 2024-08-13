@@ -1,0 +1,2522 @@
+_id: dPUtM2bbk1BnNLcK
+name: Oni (Ogre mage)
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: r1LGf74nyhq9ren4
+    name: Armes Magiques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/weapons/swords/sword-runed-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes magiques. </strong>Les attaques d'arme de l'oni sont
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Oni (Ogre mage)
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.r1LGf74nyhq9ren4'
+  - _id: VmB5ObMvyLtMOGpd
+    name: Incantation innée
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation innée.</strong>&nbsp;La caractéristique
+          d'incantation de l'oni est le Charisme (DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 13). L'oni peut lancer les
+          sorts suivants de manière innée sans aucune composante matérielle
+          :</p>
+
+          <ul>
+
+          <li>À volonté&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/invisibilite/">invisibilité</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/tenebres/">ténèbres</a></li>
+
+          <li>1/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/charme-personne/">charme-personne</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/cone-de-froid/">cône de
+          froid</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/forme-gazeuse/">forme
+          gazeuse</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/sommeil/">sommeil</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Oni (Ogre mage)
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.VmB5ObMvyLtMOGpd'
+  - _id: 5TpzstkZDQCbPUKi
+    name: Régénération
+    type: feat
+    sort: 300000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Régénération.</strong>&nbsp;L'oni récupère 10 points de vie
+          au début de son tour s'il lui reste 1 point de vie au moins.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Oni (Ogre mage)
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.5TpzstkZDQCbPUKi'
+  - _id: Ff7STqyhQmOHMlzN
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>L'oni effectue deux attaques,
+          soit avec ses griffes, soit avec sa coutille.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Oni (Ogre mage)
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.Ff7STqyhQmOHMlzN'
+  - _id: vjDdx5XrXEQmnLwA
+    name: Changer de Forme
+    type: feat
+    sort: 500000
+    flags: {}
+    img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Changer de forme.</strong>&nbsp;L'oni peut se métamorphoser
+          par magie en humanoïde de taille M ou P, en géant de taille G, ou
+          reprendre sa véritable forme. Ses statistiques, à l'exception de sa
+          taille, restent les mêmes, quelle que soit la forme adoptée. Seule sa
+          coutille est également transformée ; elle rétrécit pour qu'il puisse
+          la manier quand il adopte une forme humanoïde. L'oni reprend sa
+          véritable forme quand il meurt, et sa coutille retrouve alors sa
+          taille normale.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Oni (Ogre mage)
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.vjDdx5XrXEQmnLwA'
+  - _id: Hm1tCggqC8XESnhc
+    name: Griffes ( forme d'Oni uniquement)
+    type: weapon
+    sort: 600000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes (forme d'Oni uniquement).</strong>&nbsp;Attaque
+          d'arme au corps à corps&nbsp;: +7 pour toucher, allonge 1,50 m, une
+          cible.</p>
+
+          <p>Touché&nbsp;: 8 (1d8+4) dégâts tranchants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - slashing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.Hm1tCggqC8XESnhc'
+  - _id: nnieLUjMoWponZkD
+    name: Coutille
+    type: weapon
+    sort: 500000
+    flags:
+      obsidian:
+        category: martial
+        type: melee
+        mode: melee
+        tags:
+          heavy: true
+          twohanded: true
+          reach: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: 9123c161-ae98-47af-80b0-0fca1f2922fb
+            components:
+              - type: attack
+                uuid: d6ab7446-7b73-4a15-ad34-7996410e563f
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 994aa8da-f34f-4611-9b6a-cc27aba7ca88
+                calc: formula
+                ndice: 1
+                die: 10
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: false
+        version: 7
+    img: icons/weapons/polearms/halberd-crescent-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Sabre court à deux tranchants au bout d'un grand manche.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +7 pour toucher, allonge 3
+          m, une cible.<br>Touché&nbsp;: 15 (2d10+4) dégâts tranchants ou 9
+          (1d10+4) dégâts tranchants si sa forme est de taille M ou P.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 3
+      price: 20
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d10 + @mod
+            - slashing
+        versatile: ''
+      formula: '1d10+@mod si taille M ou P '
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        hvy: true
+        two: true
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.nnieLUjMoWponZkD'
+  - _id: tWMSncu3K7vIOkEG
+    name: Invisibilité
+    type: spell
+    sort: 800000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/air/fog-gas-smoke-blue-gray.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>La créature que vous touchez devient <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          jusqu'à la fin du sort. Tout ce qu'elle porte et transporte reste <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          tant qu'elle le garde sur elle. Le sort se termine si la cible attaque
+          ou lance un sort.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 3 ou supérieur, vous pouvez viser
+          une créature de plus par niveau au-delà du niveau 2.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un cil enrobé de gomme arabique
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: + 1 créature
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.tWMSncu3K7vIOkEG'
+  - _id: ERGX69YJE103VquT
+    name: Ténèbres
+    type: spell
+    sort: 900000
+    flags: {}
+    img: icons/magic/unholy/orb-glowing-yellow-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Des ténèbres magiques se répandent depuis un point de votre choix
+          situé à portée, jusqu'à englober une sphère de 4,50 mètres de rayon.
+          Les ténèbres s'étendent en franchissant tout angle éventuel. La vision
+          dans le noir d'une créature ne suffit pas à percer ces ténèbres et les
+          lumières non-magiques se révèlent incapables de les éclairer.</p>
+
+          <p>Si le point que vous avez choisi est un objet en votre possession
+          ou un objet qui n'est ni porté ni transporté par autrui, les ténèbres
+          émanent de l'objet et se déplacent avec lui. Il suffit de recouvrir
+          complètement l'objet affecté avec un objet opaque, comme un bol ou un
+          heaume, pour bloquer les ténèbres.</p>
+
+          <p>Si une partie de la zone affectée par ce sort chevauche une zone de
+          lumière issue d'un sort de niveau 2 ou moins, elle dissipe le sort de
+          lumière.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 4.5
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: evo
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Des poils de chauve-souris et une goutte de poix ou un bout de charbon
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.ERGX69YJE103VquT'
+  - _id: WjT3hLuC4M04fPA1
+    name: Charme-personne
+    type: spell
+    sort: 1000000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/fire/explosion-fireball-medium-purple-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous tentez de charmer un humanoïde se trouvant à portée et dans
+          votre champ de vision. Il doit faire un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, pour lequel il dispose d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+          si vous ou vos compagnons êtes actuellement en train de le combattre.
+          S'il rate son test, il est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmé</em></a>
+          par vous jusqu'à la fin du sort ou jusqu'à ce que vous ou vos
+          compagnons lui fassiez du mal. La créature <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>
+          vous considère comme un ami. Quand le sort se termine, elle sait que
+          vous l'avez charmée.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 2 ou supérieur, vous pouvez charmer
+          une créature de plus par niveau au-delà du niveau 1. Toutes les cibles
+          doivent se trouver à 9 mètres ou moins les unes des autres lorsque
+          vous lancez le sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 1
+      school: enc
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: +1 créature
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.WjT3hLuC4M04fPA1'
+  - _id: odZktudDsWXPq8mx
+    name: Cône de froid
+    type: spell
+    sort: 1100000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une bouffée d'air froid jaillit de vos mains. Toutes les créatures
+          présentes dans un cône de 18 mètres doivent effectuer un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Constitution. Celles qui le ratent subissent 8d8
+          dégâts de froid, les autres la moitié seulement.</p>
+
+          <p>Une créature qui succombe suite à ce sort se transforme en statue
+          de glace jusqu'à ce qu'elle fonde.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 6 ou supérieur, les dégâts
+          augmentent de 1d8 par niveau au-delà du niveau 5.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 18
+        width: null
+        units: ft
+        type: cone
+        range:
+          value: personnelle
+          unit: (cône
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 8d8
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: 13
+        scaling: spell
+      level: 5
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Un petit cône de cristal ou de verre
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.odZktudDsWXPq8mx'
+  - _id: NxdCOh01YzSQRYXr
+    name: Forme gazeuse
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/death/skull-horned-worn-fire-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous touchez une créature consentante et la transformez, ainsi que
+          tous les objets qu'elle porte et qu'elle transporte, en nuage brumeux
+          pour toute la durée du sort. Ce dernier se termine si la créature
+          tombe à 0 point de vie. Le sort n'affecte pas les créatures
+          intangibles.</p>
+
+          <p>Sous cette forme, la cible n'a plus qu'un seul mode de déplacement
+          : le vol, à une vitesse de 3 mètres. Elle peut entrer dans l'espace
+          d'une autre créature et l'occuper. Elle est résistante aux dégâts non
+          magiques et elle bénéficie d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+          lors des jets de sauvegarde de Force, de Dextérité et de Constitution.
+          Elle peut passer à travers de petits trous, de minces ouvertures et
+          même de simples fissures. En revanche, les liquides équivalent pour
+          elle à des surfaces solides. Elle ne peut pas tomber et continue de
+          flotter dans les airs même si elle est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#étourdi"><em>étourdie</em></a>
+          ou <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>.</p>
+
+          <p>Sous forme de nuage brumeux, la cible ne peut pas parler ni
+          manipuler d'objet. Il lui est impossible de lâcher les objets qu'elle
+          portait et qu'elle transportait, et personne ne peut les utiliser ni
+          interagir avec eux. Elle ne peut pas attaquer ni lancer de sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: trs
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un morceau de gaze et une volute de fumée
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.NxdCOh01YzSQRYXr'
+  - _id: x1NFLFFg7hu0jj7Y
+    name: Sommeil
+    type: spell
+    sort: 1300000
+    flags: {}
+    img: icons/magic/perception/third-eye-blue-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Ce sort plonge quelques créatures dans un sommeil magique. Lancez
+          5d8. Le total indique le nombre de points de vie de créatures que le
+          sort affecte. Les créatures qui se trouvent dans un rayon de 6 mètres
+          autour d'un point de votre choix situé à portée sont affectées dans
+          l'ordre croissant de leur total actuel de points de vie (en ignorant
+          les créatures <em>inconscientes</em>).</p>
+
+          <p>Chaque créature affectée par le sort tombe <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#inconscient"><em>inconsciente</em></a>,
+          en commençant par celle qui possède actuellement le moins de vie. Elle
+          reste ainsi jusqu'à la fin de la durée du sort, jusqu'à ce qu'elle
+          subisse des dégâts ou jusqu'à ce que quelqu'un utilise son action pour
+          la réveiller en la secouant ou en la giflant. Soustrayez le nombre de
+          points de vie de la créature endormie du total auquel vous avez droit
+          avant de passer à la suivante, c'est-à-dire celle qui a le moins de
+          points de vie après elle. Le nombre de points de vie de la créature
+          doit être égal ou inférieur au total vous restant, sinon le sort
+          n'affecte pas la créature.</p>
+
+          <p>Ce sort reste sans effet sur les morts-vivants et les créatures qui
+          ne peuvent être <em>charmées</em>.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 2 ou supérieur, lancez 2d8 de plus
+          par niveau au-delà du niveau 1.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 6
+        width: null
+        units: ft
+        type: sphere
+        range:
+          value: '27'
+          unit: mètres
+      range:
+        value: 27
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: rsak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 5d8
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: enc
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: une pincée de sable fin, des pétales de rose ou un criquet
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: 2d8
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.x1NFLFFg7hu0jj7Y'
+  - _id: 9OnICMBy1UH8ZaGR
+    name: Cotte de mailles
+    type: equipment
+    img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      obsidian:
+        subtype: armour
+        magical: false
+        effects: []
+        version: 7
+        armour: true
+      core:
+        sourceId: >-
+          Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.CuFjx1rNCXvvjs4s
+    system:
+      description:
+        value: >-
+          <p>Fait d'anneaux métalliques entrecroisés, la cotte de mailles
+          comprend une couche de tissu matelassé porté sous la cotte pour éviter
+          les frottements et amortir l'impact de coups. L'ensemble comprend des
+          gantelets.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 27.5
+      price: 75
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 16
+        type: heavy
+        dex: 0
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      baseItem: chainmail
+      speed:
+        value: null
+        conditions: ''
+      strength: 13
+      stealth: true
+      proficient: true
+    ownership:
+      default: 0
+      YXEVHqx5k2ArOvJE: 3
+      jUGnCMusG56NV87D: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.CuFjx1rNCXvvjs4s
+      duplicateSource: null
+    _key: '!actors.items!dPUtM2bbk1BnNLcK.9OnICMBy1UH8ZaGR'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 3
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 2
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 19
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    dex:
+      value: 11
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 0
+      save: 3
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    con:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 3
+      save: 6
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    int:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    wis:
+      value: 12
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 1
+      save: 4
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    cha:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 2
+      save: 5
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+  attributes:
+    ac:
+      flat: 16
+      calc: default
+      formula: ''
+      min: 0
+    hp:
+      value: 110
+      max: 110
+      temp: 0
+      tempmax: 0
+      formula: 13d10+39
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 0
+      prof: 0
+      total: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 9
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 18
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 14
+    spellcasting: cha
+    prof: 3
+    spelldc: 13
+    encumbrance:
+      value: 3
+      max: 285
+      pct: 1.0526315789473684
+      encumbered: true
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Armes magiques</em></strong>. Les attaques d'arme de
+        l'oni sont magiques.</p>
+
+        <p><strong><em>Incantation innée</em></strong>. La caractéristique
+        d'incantation de l'oni est le Charisme (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 13). L'oni peut lancer les sorts
+        suivants de manière innée sans aucune composante matérielle :</p>
+
+        <ul>
+
+        <li><strong><em>À volonté</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/invisibilite"><em>invisibilité</em></a>,
+        <a href="https://5e-drs.fr/grimoire/tenebres"><em>ténèbres</em></a></li>
+
+        <li><strong><em>1/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/charme-personne"><em>charme-personne</em></a>,
+        <a href="https://5e-drs.fr/grimoire/cone-de-froid"><em>cône de
+        froid</em></a>, <a
+        href="https://5e-drs.fr/grimoire/forme-gazeuse"><em>forme
+        gazeuse</em></a>, <a
+        href="https://5e-drs.fr/grimoire/sommeil"><em>sommeil</em></a></li>
+
+        </ul>
+
+        <p><strong><em>Régénération</em></strong>. L'oni récupère 10 points de
+        vie au début de son tour s'il lui reste 1 point de vie au moins.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. L'oni effectue deux
+        attaques, soit avec ses griffes, soit avec sa coutille.</p>
+
+        <p><strong><em>Changer de forme</em></strong>. L'oni peut se
+        métamorphoser par magie en humanoïde de taille M ou P, en géant de
+        taille G, ou reprendre sa véritable forme. Ses statistiques, à
+        l'exception de sa taille, restent les mêmes, quelle que soit la forme
+        adoptée. Seule sa coutille est également transformée ; elle rétrécit
+        pour qu'il puisse la manier quand il adopte une forme humanoïde. L'oni
+        reprend sa véritable forme quand il meurt, et sa coutille retrouve alors
+        sa taille normale.</p>
+
+        <p><strong><em>Coutille</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +7 pour toucher, allonge 3 m, une cible.<br><em>Touché</em>
+        : 15 (2d10+4) dégâts tranchants ou 9 (1d10+4) dégâts tranchants si sa
+        forme est de taille M ou P.</p>
+
+        <p><strong><em>Griffes (forme d'oni uniquement)</em></strong>.
+        <em>Attaque d'arme au corps à corps</em> : +7 pour toucher, allonge 1,50
+        m, une cible.<br><em>Touché</em> : 8 (1d8+4) dégâts tranchants.</p>
+      public: ''
+    alignment: Loyal Mauvais
+    race: ''
+    type:
+      value: giant
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 7
+    spellLevel: 7
+    source: Créatures & Oppositions
+    xp:
+      value: 2900
+  traits:
+    size: lg
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+        - giant
+      custom: ''
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    arc:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 3
+      total: 5
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    dec:
+      value: 2
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 6
+      total: 8
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 3
+      total: 4
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 1
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Oni
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690550
+  modifiedTime: 1663923696189
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!dPUtM2bbk1BnNLcK'
+

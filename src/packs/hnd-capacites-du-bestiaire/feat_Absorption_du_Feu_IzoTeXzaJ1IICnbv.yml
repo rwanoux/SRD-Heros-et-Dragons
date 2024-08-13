@@ -1,0 +1,116 @@
+_id: IzoTeXzaJ1IICnbv
+name: Absorption du Feu
+type: feat
+flags:
+  _sheetTab: description
+  obsidian:
+    source:
+      type: other
+    effects: []
+    version: 7
+img: icons/magic/lightning/bolt-strike-smoke-yellow.webp
+system:
+  description:
+    value: >-
+      <p><strong>Absorption du feu.</strong> Chaque fois que la cr&eacute;ature
+      devrait subir des d&eacute;g&acirc;ts de feu, ceux-ci ne lui sont pas
+      inflig&eacute;s et elle r&eacute;cup&egrave;re, &agrave; la place, un
+      nombre de points de vie &eacute;gal aux d&eacute;g&acirc;ts qu'elle aurait
+      d&ucirc; subir.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: null
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698791
+  modifiedTime: 1663923699474
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!IzoTeXzaJ1IICnbv'
+

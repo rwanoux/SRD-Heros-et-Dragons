@@ -1,0 +1,87 @@
+_id: FK9DSnU5vgbViKWN
+name: 'Style de combat : Duel [Guerrier - Paladin - Rôdeur]'
+type: feat
+flags:
+  entityorder:
+    order: 196
+img: icons/skills/melee/hand-grip-sword-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="duel"><strong>Duel</strong></h3>
+
+      <p>Quand vous maniez une arme de corps-&agrave;-corps &agrave; une main et
+      aucune autre arme, vous gagnez un bonus de +2 aux d&eacute;g&acirc;ts
+      inflig&eacute;s avec cette arme.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier / Paladin / Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685254
+  modifiedTime: 1663923686414
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!FK9DSnU5vgbViKWN'
+

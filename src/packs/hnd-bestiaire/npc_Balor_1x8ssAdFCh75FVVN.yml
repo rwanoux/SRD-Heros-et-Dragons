@@ -1,0 +1,1779 @@
+_id: 1x8ssAdFCh75FVVN
+name: Balor
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: t5z4Ds0Pax915krD
+    name: Armes Magiques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/weapons/swords/sword-runed-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes magiques.&nbsp;</strong>Les attaques d'arme du balor
+          sont magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.t5z4Ds0Pax915krD'
+  - _id: qQmDd0UGSTn0phnm
+    name: Aura de Feu
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects:
+          - name: ''
+            uuid: 357dd97e-3ed7-4d34-a9ef-647383b77133
+            components:
+              - type: resource
+                name: Uses
+                uuid: 8dbef3d6-58f6-47f9-85a7-0c21ab457f93
+                recharge:
+                  time: long
+                  calc: all
+                  ndice: 0
+                  die: 2
+                  bonus: 0
+                  roll: null
+                bonus: 0
+                operator: plus
+                key: abl
+                min: 0
+                calc: fixed
+                fixed: 1
+                remaining: 0
+        version: 7
+    img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Aura de feu.</strong>&nbsp;Au début de chacun des tours du
+          balor, les créatures situées à 1,50 mètre ou moins de lui subissent 10
+          (3d6) dégâts de feu et les objets inflammables dans l'aura qui ne sont
+          équipés ou transportés par personne prennent feu. Les créatures qui
+          touchent le balor ou qui réussissent une attaque au corps à corps
+          contre lui à une distance maximale de 1,50 mètre subissent 10 (3d6)
+          dégâts de feu.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: lair
+        cost: null
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1.5
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: null
+        per: ''
+        recovery: ''
+        type: day
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d6
+            - fire
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.qQmDd0UGSTn0phnm'
+  - _id: ci7UjT6A47bdl4IV
+    name: Résistance à la Magie
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;Le balor obtient
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+          lors des jets de sauvegarde contre les sorts et autres effets
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.ci7UjT6A47bdl4IV'
+  - _id: w2piB3XxfPOFHfE6
+    name: Spasmes d'Agonie
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/magic/death/skull-poison-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Spasmes d'agonie.</strong>&nbsp;Le balor explose quand il
+          meurt, et toutes les créatures situées à 9 mètres ou moins de lui
+          doivent chacune effectuer un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité DD 20 ; elles subissent 70 (20d6)
+          dégâts de feu en cas de&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a> raté ou la moitié de ces dégâts seulement en cas de
+          réussite. L'explosion met le feu aux objets inflammables dans la zone
+          qui ne sont équipés ou transportés par personne. Elle détruit
+          également les armes du balor.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: On death
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: 20d6 Feu
+      save:
+        ability: dex
+        dc: 20
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.w2piB3XxfPOFHfE6'
+  - _id: sRsEXCSygxunWP4X
+    name: Attaques Multiples
+    type: feat
+    sort: 500000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le balor effectue deux
+          attaques : une avec son épée longue et une avec son fouet.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.sRsEXCSygxunWP4X'
+  - _id: LCxlHV5IFyUQw8w7
+    name: Téléportation
+    type: feat
+    sort: 700000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Téléportation</strong>.&nbsp;Le balor se téléporte par
+          magie, avec tous ses objets équipés ou transportés, vers un
+          emplacement inoccupé situé dans son champ de vision à une distance
+          maximale de 36 mètres.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: null
+        per: ''
+        recovery: ''
+        type: sr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Balor
+      recharge:
+        value: null
+        charged: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.LCxlHV5IFyUQw8w7'
+  - _id: XwDVrSrLo1Q0LJNe
+    name: Fouet
+    type: weapon
+    sort: 800000
+    flags:
+      _sheetTab: description
+      obsidian:
+        category: martial
+        type: melee
+        mode: melee
+        tags:
+          finesse: true
+          reach: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: c2b8f3ab-06f8-48a4-881a-8e085d99a7e3
+            components:
+              - type: attack
+                uuid: 984322c1-a56b-4141-ae0a-6b861bbbdb4c
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 34e258c7-19d5-4ed6-858b-18542072267d
+                calc: formula
+                ndice: 1
+                die: 4
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: false
+        version: 7
+    img: icons/weapons/misc/whip-red-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une corde tendue faîte de cuir, de corde ou de chaîne qui peut
+          attraper des ennemis proches, les lacérant et les harcelant à
+          distance.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +14 pour toucher, allonge 9
+          m, une cible. Touché : 15 (2d6+8) dégâts tranchants plus 10 (3d6)
+          dégâts de feu et la cible doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Force DD 20 pour ne pas être tiré vers le
+          balor sur une distance maximale de 7,50 mètres.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 1.5
+      price: 2
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6+@mod
+            - slashing
+          - - 3d6
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 20
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        fin: true
+        rch: true
+        amm: false
+        hvy: false
+        fir: false
+        foc: false
+        lgt: false
+        lod: false
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      attributes:
+        spelldc: 10
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.XwDVrSrLo1Q0LJNe'
+  - _id: 3SBzLXUxpBWh91fl
+    name: Épée longue
+    type: weapon
+    sort: 900000
+    flags:
+      obsidian:
+        category: martial
+        type: melee
+        mode: melee
+        tags:
+          versatile: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: 00f2f8ec-a9cb-46d9-83fa-718a6ede7e30
+            components:
+              - type: attack
+                uuid: 2652ae79-f456-417b-b5d3-6b457e3bac53
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 62fb6123-4d63-4a47-bfba-46618483784b
+                calc: formula
+                ndice: 1
+                die: 8
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: false
+              - type: damage
+                uuid: 77ea96f6-cae7-4294-97c5-b16e8d6f624e
+                calc: formula
+                ndice: 1
+                die: 10
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: true
+        version: 7
+    img: icons/weapons/swords/greatsword-crossguard-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>L'épée longue est une arme très polyvalente qui peut également être
+          maniée à deux mains pour des coups plus punitifs.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +14 pour toucher, allonge 3
+          m, une cible.<br>Touché&nbsp;: 21 (3d8+8) dégâts tranchants plus 13
+          (3d8) dégâts de foudre. <strong>Si le balor obtient un coup critique,
+          il lance trois fois au lieu de deux le dé de dégâts.</strong></p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 1.5
+      price: 15
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d8 + @mod
+            - slashing
+          - - 3d8
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        ver: true
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!1x8ssAdFCh75FVVN.3SBzLXUxpBWh91fl'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 6
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 6
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 6
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 26
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 8
+      save: 14
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 22
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    con:
+      value: 22
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 6
+      save: 12
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 20
+    int:
+      value: 20
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 5
+      save: 5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 19
+    wis:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 3
+      save: 9
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 17
+    cha:
+      value: 22
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 6
+      save: 12
+      prof: 6
+      saveBonus: 0
+      checkBonus: 0
+      dc: 20
+  attributes:
+    ac:
+      flat: 19
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 262
+      max: 262
+      temp: 0
+      tempmax: 0
+      formula: 21d12+126
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 24
+      swim: 0
+      walk: 12
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 36
+      truesight: 0
+      units: m
+      special: Perception passive 13
+    spellcasting: int
+    prof: 6
+    spelldc: 19
+    encumbrance:
+      value: 3
+      max: 780
+      pct: 0.38461538461538464
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2>Capacités&nbsp;</h2>
+
+        <p>Armes magiques. Les attaques d'arme du balor sont magiques.</p>
+
+        <p>Aura de feu. Au début de chacun des tours du balor, les créatures
+        situées à 1,50 mètre ou moins de lui subissent 10 (3d6) dégâts de feu et
+        les objets inflammables dans l'aura qui ne sont équipés ou transportés
+        par personne prennent feu. Les créatures qui touchent le balor ou qui
+        réussissent une attaque au corps à corps contre lui à une distance
+        maximale de 1,50 mètre subissent 10 (3d6) dégâts de feu.</p>
+
+        <p>Résistance à la magie. Le balor obtient un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+        des jets de sauvegarde contre les sorts et autres effets magiques.</p>
+
+        <p>Spasmes d'agonie. Le balor explose quand il meurt, et toutes les
+        créatures situées à 9 mètres ou moins de lui doivent chacune effectuer
+        un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Dextérité DD 20 ; elles subissent 70 (20d6)
+        dégâts de feu en cas de&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;raté ou la moitié de ces dégâts seulement en cas
+        de réussite. L'explosion met le feu aux objets inflammables dans la zone
+        qui ne sont équipés ou transportés par personne. Elle détruit également
+        les armes du balor.</p>
+
+        <hr>
+
+        <h2>Actions</h2>
+
+        <p>Attaques multiples. Le balor effectue deux attaques : une avec son
+        épée longue et une avec son fouet.</p>
+
+        <p>Épée longue.&nbsp;Attaque d'arme au corps à corps&nbsp;: +14 pour
+        toucher, allonge 3 m, une cible.<br>Touché&nbsp;: 21 (3d8+8) dégâts
+        tranchants plus 13 (3d8) dégâts de foudre. Si le balor obtient un coup
+        critique, il lance trois fois au lieu de deux le dé de dégâts.</p>
+
+        <p>Fouet.&nbsp;Attaque d'arme au corps à corps&nbsp;: +14 pour toucher,
+        allonge 9 m, une cible. Touché : 15 (2d6+8) dégâts tranchants plus 10
+        (3d6) dégâts de feu et la cible doit réussir un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Force DD 20 pour ne pas être tiré vers le
+        balor sur une distance maximale de 7,50 mètres.</p>
+
+        <p>Téléportation. Le balor se téléporte par magie, avec tous ses objets
+        équipés ou transportés, vers un emplacement inoccupé situé dans son
+        champ de vision à une distance maximale de 36 mètres.</p>
+      public: ''
+    alignment: Chaotique Mauvais
+    race: ''
+    type:
+      value: fiend
+      subtype: Démon
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 19
+    spellLevel: 19
+    source: Créatures & Oppositions
+    xp:
+      value: 22000
+  traits:
+    size: huge
+    di:
+      value:
+        - fire
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - lightning
+        - cold
+        - piercing
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - abyssal
+      custom: Télépathie 36 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 8
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 0
+      total: 8
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 3
+    spell6:
+      value: 0
+      override: null
+      max: 2
+    spell7:
+      value: 0
+      override: null
+      max: 1
+    spell8:
+      value: 0
+      override: null
+      max: 1
+    spell9:
+      value: 0
+      override: null
+      max: 1
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Balor
+  displayName: 0
+  width: 3
+  height: 3
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690072
+  modifiedTime: 1663923694198
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!1x8ssAdFCh75FVVN'
+

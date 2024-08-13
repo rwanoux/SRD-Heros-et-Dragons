@@ -1,0 +1,90 @@
+_id: inxIgdIB8y0KD4P7
+name: Incantations [Sorcelame]
+type: feat
+flags: {}
+img: icons/magic/water/water-hand.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h4 id="incantations"><strong>Incantations</strong></h4>
+
+      <p>Tout comme l'ensorceleur, votre magie coule dans vos veines et elle est
+      bas&eacute;e sur la force de votre ego.</p>
+
+      <p>Difficult&eacute; des jets de sauvegarde = 8 + bonus de ma&icirc;trise
+      + modificateur de Charisme</p>
+
+      <p>Modificateur d'attaque des sorts = bonus de ma&icirc;trise +
+      modificateur de Charisme</p>
+
+      <p>Vous pouvez utiliser une arme de corps-&agrave;-corps comme focaliseur
+      d'incantation pour vos sorts d'ensorceleur.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685593
+  modifiedTime: 1663923687359
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!inxIgdIB8y0KD4P7'
+

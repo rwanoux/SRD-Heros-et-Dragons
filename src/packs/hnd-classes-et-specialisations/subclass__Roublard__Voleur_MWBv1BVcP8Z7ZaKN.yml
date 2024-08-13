@@ -1,0 +1,80 @@
+_id: MWBv1BVcP8Z7ZaKN
+name: '[Roublard] Voleur'
+type: subclass
+img: icons/skills/melee/strike-sword-stabbed-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Voleur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.btvI77mLKG6sajRL]{Mains lestes [Voleur]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7HRfOlcJVnpKEuOZ]{Monte-en-l'air [Voleur]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jjxtTFIHqOj9meJ1]{Furtivité suprême [Voleur]}</p>\n<p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.B1dmTprCFSZDcGZi]{Utilisation d'objets magiques [Voleur]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SR9Hheap5XThQiXj]{Réflexes de voleur [Voleur]}</p>\n<h4 id=\"specialiste\"></h4>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: voleur
+  classIdentifier: roublard
+  advancement:
+    - _id: nhncjixnff77hpr7
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SR9Hheap5XThQiXj
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+    - _id: rkujqk1zsszcc10l
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.B1dmTprCFSZDcGZi
+        optional: false
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+    - _id: 24uyl3telv50v1gk
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jjxtTFIHqOj9meJ1
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+    - _id: s6ilaqyutwnbaoxs
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.btvI77mLKG6sajRL
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7HRfOlcJVnpKEuOZ
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703406
+  modifiedTime: 1663923703575
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MWBv1BVcP8Z7ZaKN'
+

@@ -1,0 +1,78 @@
+_id: sUkMqOfC7DTnDcMW
+name: '[Ensorceleur] Lignée Céleste'
+type: subclass
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"lignee-celeste\"><strong>Lignée céleste</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4Eu288yXE01Sbb0V]{Ancêtre céleste [Lignée céleste]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iMIe8jiRXge8Y064]{Énergie positive [Lignée céleste]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SVXjywKNogfAuLZ7]{Magie céleste [Lignée céleste]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uQx4uWh3M99xtWuQ]{Prière de soins [Lignée céleste]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rl2s7R3uWekMvLFY]{Présence angélique [Lignée céleste]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: lignee-celeste
+  classIdentifier: ensorceleur
+  advancement:
+    - _id: r4rc1h1vegol7uio
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rl2s7R3uWekMvLFY
+        optional: false
+      value: {}
+      level: 18
+      title: ''
+      icon: ''
+    - _id: uhzev5ty2hfpsi10
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uQx4uWh3M99xtWuQ
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: uy3dfxrphe4ro9zz
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SVXjywKNogfAuLZ7
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: 6diaub4vymu3sn0c
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4Eu288yXE01Sbb0V
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iMIe8jiRXge8Y064
+        optional: false
+      value: {}
+      level: 1
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703433
+  modifiedTime: 1663923703679
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sUkMqOfC7DTnDcMW'
+

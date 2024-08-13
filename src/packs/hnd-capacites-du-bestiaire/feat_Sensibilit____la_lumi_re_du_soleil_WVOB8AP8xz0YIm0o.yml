@@ -1,0 +1,87 @@
+name: Sensibilité à la lumière du soleil
+type: feat
+flags:
+  obsidian:
+    source:
+      type: other
+    effects: []
+    version: 7
+img: icons/magic/time/day-night-sunset-sunrise.webp
+_id: WVOB8AP8xz0YIm0o
+system:
+  description:
+    value: >-
+      <p><strong>Sensibilit&eacute; &agrave; la lumi&egrave;re du
+      soleil.</strong> La cr&eacute;ature subit un <span style="text-decoration:
+      underline;">d&eacute;savantage</span> lors des jets d'attaque et des tests
+      de Sagesse (Perception) bas&eacute;s sur la vue lorsqu'elle est
+      expos&eacute;e &agrave; la lumi&egrave;re du soleil.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698858
+  modifiedTime: 1663923699749
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WVOB8AP8xz0YIm0o'
+

@@ -1,0 +1,1710 @@
+_id: M2Kk4SRaUXXctObm
+name: Gladiateur
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: qgUdo7RZxLRVFMyR
+    name: Brave
+    type: feat
+    sort: 100000
+    flags: {}
+    img: icons/skills/social/intimidation-impressing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Brave.</strong> Le gladiateur obtient un <a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+          des jets de sauvegarde effectués pour ne pas être terrorisé.</p>
+
+          <p>&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gladiateur
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.qgUdo7RZxLRVFMyR'
+  - _id: RevgbBtIivbvybQN
+    name: Brutal
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: description
+    img: icons/skills/melee/unarmed-punch-fist.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Brutal.</strong> Une arme de corps à corps inflige un dé de
+          dégâts supplémentaire quand le gladiateur touche son ennemi en la
+          maniant (inclus dans l'attaque).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gladiateur
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.RevgbBtIivbvybQN'
+  - _id: L7Z4Ly95SRNujWkx
+    name: Attaques Multiples
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le gladiateur effectue
+          trois attaques au corps à corps ou deux attaques à distance.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gladiateur
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.L7Z4Ly95SRNujWkx'
+  - _id: bXHtPdhNSq6t1Las
+    name: Coup de Bouclier
+    type: weapon
+    sort: 400000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Coup de bouclier.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +7 pour toucher, allonge 1,50 m, une créature.</p>
+
+          <p>Touché&nbsp;: 9 (2d4+4) dégâts contondants. Si la cible est une
+          créature de taille M ou plus petite, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Force DD 15 pour ne pas être jetée&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+          terre</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d4+@mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 15
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: simpleM
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.bXHtPdhNSq6t1Las'
+  - _id: ygFTSuwFvKemXFuA
+    name: Parade
+    type: feat
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Parade.</strong>&nbsp;Le gladiateur ajoute 3 à sa CA contre
+          une attaque au corps à corps qui devrait le toucher. Il doit voir son
+          agresseur et manier une arme de corps à corps pour pouvoir parer de
+          cette façon.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: reaction
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gladiateur
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.ygFTSuwFvKemXFuA'
+  - _id: o9eFQ5wCV5e1W29o
+    name: Lance
+    type: weapon
+    sort: 500000
+    flags:
+      obsidian:
+        category: simple
+        type: melee
+        mode: melee
+        tags:
+          thrown: true
+          versatile: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: e60aafc3-7d22-4360-97fe-d77d025dad91
+            components:
+              - type: attack
+                uuid: 80290935-258a-4197-bd3a-4c32d9fbdb9a
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: fde14c99-6c56-4771-93dc-6c43938d9016
+                calc: formula
+                ndice: 1
+                die: 6
+                ability: str
+                bonus: 0
+                damage: prc
+                versatile: false
+              - type: damage
+                uuid: 5da07b85-95c9-45b3-8c1f-ab4ec7394dd6
+                calc: formula
+                ndice: 1
+                die: 8
+                ability: str
+                bonus: 0
+                damage: prc
+                versatile: true
+        version: 7
+    img: icons/weapons/polearms/spear-flared-worn-grey.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une pointe d'acier brillante pour percer les défenses les plus
+          dures de l'ennemi, enfoncée par la force d'un coursier au galop. Bien
+          que mieux adaptée au combat à cheval, la lance peut être utilisée à
+          pieds. Vous êtes désavantagé lorsque vous utilisez une lance pour
+          attaquer une cible située à moins de 1,5 mètre de vous. De plus, une
+          lance nécessite deux mains pour être maniée lorsque vous n'êtes pas
+          monté.</p>
+
+          <p>Attaque d'arme au corps à corps ou à distance&nbsp;: +7 pour
+          toucher, allonge 1,50 m ou portée 6/18 m, une cible.<br>Touché&nbsp;:
+          11 (2d6+4) dégâts perforants ou 13 (2d8+4) dégâts perforants si elle
+          est maniée à deux mains pour effectuer une attaque au corps à
+          corps</p>
+
+          <p>&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 1.5
+      price: 1
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 6
+        long: 18
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6+@mod
+            - piercing
+        versatile: 2d8 + @mod
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: simpleM
+      baseItem: ''
+      properties:
+        thr: true
+        ver: true
+        amm: false
+        hvy: false
+        fin: false
+        fir: false
+        foc: false
+        lgt: false
+        lod: false
+        rch: false
+        rel: false
+        ret: false
+        spc: false
+        two: false
+      proficient: true
+      attributes:
+        spelldc: 10
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.o9eFQ5wCV5e1W29o'
+  - _id: SgTpAY7MiX7HmEQ8
+    name: Bouclier
+    type: equipment
+    img: icons/equipment/shield/oval-wooden-boss-steel.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      obsidian:
+        subtype: armour
+        magical: false
+        effects: []
+        version: 7
+        armour: true
+      core:
+        sourceId: >-
+          Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.O2P5Y0pyROoFP9Zk
+    system:
+      description:
+        value: >-
+          <p>Un bouclier est fait de bois ou de métal et est porté dans une
+          main. Le fait de porter un bouclier augmente votre classe d'armure de
+          2. Vous ne pouvez bénéficier que d'un seul bouclier à la fois.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 3
+      price: 10
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 2
+        type: shield
+        dex: null
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      baseItem: ''
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      stealth: false
+      proficient: true
+    ownership:
+      default: 0
+      YXEVHqx5k2ArOvJE: 3
+      jUGnCMusG56NV87D: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.O2P5Y0pyROoFP9Zk
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.SgTpAY7MiX7HmEQ8'
+  - _id: zhXWVTJWgf8w2Jdf
+    name: Cuir clouté
+    type: equipment
+    img: icons/equipment/chest/breastplate-rivited-red.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      obsidian:
+        subtype: armour
+        magical: false
+        effects: []
+        version: 7
+        armour: true
+        addDex: true
+      core:
+        sourceId: >-
+          Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.HWol8EuXTbwQNKj3
+    system:
+      description:
+        value: >-
+          <p>Fabriqué en cuir résistant mais souple, le cuir clouté est renforcé
+          par des rivets ou des pointes serrées.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 6.5
+      price: 45
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 12
+        type: light
+        dex: null
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      baseItem: studded
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      stealth: false
+      proficient: true
+    ownership:
+      default: 0
+      YXEVHqx5k2ArOvJE: 3
+      jUGnCMusG56NV87D: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.HWol8EuXTbwQNKj3
+      duplicateSource: null
+    _key: '!actors.items!M2Kk4SRaUXXctObm.zhXWVTJWgf8w2Jdf'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 3
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 4
+      save: 7
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    dex:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 5
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    con:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 3
+      save: 6
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    wis:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    cha:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+  attributes:
+    ac:
+      flat: 16
+      calc: default
+      formula: ''
+      min: 0
+    hp:
+      value: 112
+      max: 112
+      temp: 0
+      tempmax: 0
+      formula: 15d8+45
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 11
+    spellcasting: int
+    prof: 3
+    spelldc: 11
+    encumbrance:
+      value: 1.5
+      max: 135
+      pct: 1.1111111111111112
+      encumbered: true
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Brave</em></strong>. Le gladiateur obtient un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        lors des jets de sauvegarde effectués pour ne pas être <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#terrorisé"><em>terrorisé</em></a>.</p>
+
+        <p><strong><em>Brutal</em></strong>. Une arme de corps à corps inflige
+        un dé supplémentaire de ses dégâts quand le gladiateur réussit une
+        attaque en la maniant (inclus dans l'attaque).</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le gladiateur effectue
+        trois attaques au corps à corps ou deux attaques à distance.</p>
+
+        <p><strong><em>Coup de bouclier</em></strong>. <em>Attaque d'arme au
+        corps à corps</em> : +7 pour toucher, allonge 1,50 m, une
+        créature.<br><em>Touché</em> : 9 (2d4+4) dégâts contondants. Si la cible
+        est une créature de taille M ou plus petite, elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Force DD 15 pour ne pas être jetée <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+        terre</em></a>.</p>
+
+        <p><strong><em>Lance</em></strong>. <em>Attaque d'arme au corps à corps
+        ou à distance</em> : +7 pour toucher, allonge 1,50 m ou portée 6/18 m,
+        une cible.<br><em>Touché</em> : 11 (2d6+4) dégâts perforants ou 13
+        (2d8+4) dégâts perforants si elle est maniée à deux mains pour effectuer
+        une attaque au corps à corps.</p>
+
+        <hr>
+
+        <h2 id="reactions">Réactions</h2>
+
+        <p><strong><em>Parade</em></strong>. Le gladiateur ajoute 3 à sa CA
+        contre une attaque au corps à corps qui devrait le toucher. Il doit voir
+        son agresseur et manier une arme de corps à corps pour pouvoir parer de
+        cette façon.</p>
+      public: ''
+    alignment: n'importe quel alignement
+    race: ''
+    type:
+      value: humanoid
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 5
+    spellLevel: 5
+    source: Créatures & Oppositions
+    xp:
+      value: 1800
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: une langue au choix (commun le plus souvent)
+    perception:
+      _deprecated: true
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ath:
+      value: 2
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 6
+      total: 10
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    itm:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 3
+      total: 5
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 2
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Gladiateur
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690333
+  modifiedTime: 1663923695264
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!M2Kk4SRaUXXctObm'
+

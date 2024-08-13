@@ -1,0 +1,124 @@
+name: Queue
+type: weapon
+flags:
+  _sheetTab: ''
+img: icons/commodities/biological/tail-puff-grey.webp
+_id: TJe8QSx4EmVxAx29
+system:
+  description:
+    value: >-
+      <p><strong>Queue.</strong> Attaque d'arme au corps à corps sur une cible.
+      Allonge variable en fonction de la créature. Dégâts en fonction de la
+      créature. La cible peut, selon la créature, être empoignée.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: null
+  weight: null
+  price: null
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: false
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - xdx + @mod
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    value: ''
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: false
+  recharge:
+    value: null
+    charged: null
+  time:
+    value: ''
+    _deprecated: null
+  damageType:
+    value: ''
+    _deprecated: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698841
+  modifiedTime: 1663923699690
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TJe8QSx4EmVxAx29'
+

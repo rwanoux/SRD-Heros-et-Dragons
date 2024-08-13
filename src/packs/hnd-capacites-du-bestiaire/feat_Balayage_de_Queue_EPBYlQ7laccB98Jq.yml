@@ -1,0 +1,81 @@
+name: Balayage de Queue
+type: feat
+flags: {}
+img: icons/skills/melee/strike-dagger-arcane-pink.webp
+_id: EPBYlQ7laccB98Jq
+system:
+  description:
+    value: >-
+      <p><strong>Balayage de la queue.</strong> La créature effectue une attaque
+      de queue.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: legendary
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: 3
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: str
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - xdx+@mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aboleth & Dragons (tous)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698777
+  modifiedTime: 1663923699415
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EPBYlQ7laccB98Jq'
+

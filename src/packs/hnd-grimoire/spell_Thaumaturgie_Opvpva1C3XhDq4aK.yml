@@ -1,0 +1,139 @@
+_id: Opvpva1C3XhDq4aK
+name: Thaumaturgie
+type: spell
+flags: {}
+img: icons/creatures/birds/corvid-flying-wings-purple.webp
+system:
+  description:
+    value: >-
+      <p>Vous créez une manifestation merveilleuse mineure ou un signe de
+      puissance surnaturelle à portée, ce qui génère l'un des effets magiques
+      suivants à portée.</p>
+
+      <ul>
+
+      <li>Votre voix retentit jusqu'à trois fois plus fort que la normale
+      pendant 1 minute.</li>
+
+      <li>Les flammes vacillent, se ravivent, se réduisent ou changent de
+      couleur pendant une minute.</li>
+
+      <li>Vous provoquez des secousses inoffensives qui agitent le sol pendant 1
+      minute.</li>
+
+      <li>Vous émettez un son instantané qui émane d'un point de votre choix
+      situé à portée, comme un roulement de tonnerre, le croassement d'un
+      corbeau ou des murmures inquiétants.</li>
+
+      <li>Vous provoquez la fermeture ou l'ouverture violente et immédiate d'une
+      porte ou d'une fenêtre non verrouillée.</li>
+
+      <li>Vous modifiez l'apparence de vos yeux pendant 1 minute.</li>
+
+      </ul>
+
+      <p>Si vous lancez ce sort à plusieurs reprises, vous ne pouvez avoir que
+      trois effets d'une minute actifs à la fois. Vous pouvez révoquer un tel
+      effet par une action.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: trs
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688027
+  modifiedTime: 1663923688878
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Opvpva1C3XhDq4aK'
+

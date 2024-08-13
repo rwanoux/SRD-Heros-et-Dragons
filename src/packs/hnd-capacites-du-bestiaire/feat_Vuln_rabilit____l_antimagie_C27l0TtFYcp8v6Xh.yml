@@ -1,0 +1,88 @@
+name: Vulnérabilité à l'antimagie
+type: feat
+flags:
+  obsidian:
+    source:
+      type: other
+    effects: []
+    version: 7
+img: icons/magic/unholy/orb-swirling-teal.webp
+_id: C27l0TtFYcp8v6Xh
+system:
+  description:
+    value: >-
+      <p><strong>Vuln&eacute;rabilit&eacute; &agrave; l'antimagie. </strong>La
+      cr&eacute;ature est neutralis&eacute;e quand elle se trouve &agrave;
+      l'int&eacute;rieur d'un champ d'antimagie. Cibl&eacute;e par une
+      dissipation de la magie, la cr&eacute;ature doit r&eacute;ussir un jet de
+      sauvegarde de Constitution contre le DD du jet de sauvegarde du sort du
+      lanceur, sans quoi elle tombe inconsciente pendant 1 minute.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698774
+  modifiedTime: 1663923699396
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!C27l0TtFYcp8v6Xh'
+

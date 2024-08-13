@@ -1,0 +1,94 @@
+name: Élevé par les bêtes [Voie de la bête]
+type: feat
+img: icons/creatures/abilities/wings-birdlike-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.jJwR1EDpilgiAhzu
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: zVREmcA5hsF8aNv7
+system:
+  description:
+    value: >-
+      <p>Au niveau 3, vous faites l'acquisition de la compétence Survie – si
+      vous l'avez déjà, votre bonus de maîtrise est doublé.</p>
+
+      <p>De plus, vous obtenez un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage
+      </a>à tous les tests d'interaction avec les animaux (comprendre leurs
+      postures, leurs motivations, tenter de les calmer, etc.) et les animaux ne
+      vous attaquent jamais, sauf si vous les provoquez.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685709
+  modifiedTime: 1678419790508
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.jJwR1EDpilgiAhzu
+  duplicateSource: null
+_key: '!items!zVREmcA5hsF8aNv7'
+

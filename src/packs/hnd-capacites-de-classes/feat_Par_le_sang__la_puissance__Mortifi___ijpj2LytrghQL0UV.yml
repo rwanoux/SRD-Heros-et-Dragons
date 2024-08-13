@@ -1,0 +1,90 @@
+name: Par le sang, la puissance [Mortifié]
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.TISBWzjToXlPed5Y
+_id: ijpj2LytrghQL0UV
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 2, lorsque vous utilisez votre action pour lancer un
+      sort, il est possible d'utiliser votre action bonus pour vous scarifier et
+      ainsi l'améliorer.</p>
+
+      <p>Au choix, vous pouvez soit dépenser une canalisation d'énergie divine
+      ou sacrifier 1d6 PV : cela vous permet de lancer le sort avec un
+      emplacement de sort d'un niveau au-dessus de son niveau normal.</p>
+
+      <p>Vous ne pouvez jamais utiliser cette aptitude pour augmenter le niveau
+      d'un sort qui produit des soins. Vous ne pouvez pas augmenter de plus d'un
+      niveau l'emplacement du sort de cette façon.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685592
+  modifiedTime: 1663923687356
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.TISBWzjToXlPed5Y
+  duplicateSource: null
+_key: '!items!ijpj2LytrghQL0UV'
+

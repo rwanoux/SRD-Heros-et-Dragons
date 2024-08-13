@@ -1,0 +1,145 @@
+_id: kNA1dNO09pHCSSr8
+name: Javeline
+type: weapon
+img: icons/weapons/ammunition/arrows-bodkin-yellow-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    category: simple
+    type: melee
+    mode: melee
+    tags:
+      thrown: true
+    magical: false
+    effects:
+      - name: ''
+        uuid: 7e27fb7f-08a8-4e8b-ba36-4f1f94f256e3
+        components:
+          - type: attack
+            uuid: 99dc7fd6-2a36-4eaa-898c-ac49a1258d79
+            attack: melee
+            category: weapon
+            ability: ''
+            bonus: 0
+            crit: 20
+            proficient: false
+            reach: null
+            range1: null
+            range2: null
+            target: ''
+          - type: damage
+            uuid: 6d9d9d38-6b60-4f6b-9644-7de4f02f62cb
+            calc: formula
+            ndice: 1
+            die: 6
+            ability: str
+            bonus: 0
+            damage: prc
+            versatile: false
+    version: 7
+system:
+  description:
+    value: >-
+      <p>Cette lance légère et flexible est conçue pour être lancée, mais elle
+      est aussi suffisamment polyvalente pour être utilisée en combat en
+      mêlée.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 1
+  price: 0.5
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 9
+    long: 36
+    units: m
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: javelin
+  properties:
+    thr: true
+    amm: false
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    two: false
+    ver: false
+    lod: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700644
+  modifiedTime: 1663923700644
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kNA1dNO09pHCSSr8'
+

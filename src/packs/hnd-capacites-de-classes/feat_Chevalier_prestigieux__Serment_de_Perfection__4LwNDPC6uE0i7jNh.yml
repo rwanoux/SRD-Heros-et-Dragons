@@ -1,0 +1,98 @@
+_id: 4LwNDPC6uE0i7jNh
+name: Chevalier prestigieux [Serment de Perfection]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="chevalier-prestigieux"><strong>Chevalier prestigieux</strong></h3>
+
+      <p>&Agrave; partir du niveau 15, vous pouvez appeler un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.SAjQgEImCckHtcbX]{Cheval
+      de guerre c&eacute;leste} ou encore, si votre MJ vous le permet, un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.4fTD7QUljTXADh5h]{P&eacute;gase}
+      ou un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.Nv8CQJQcUUXRNtGp]{Griffon}
+      (ID 2). Votre MJ est habilit&eacute; &agrave; vous autoriser d'autres
+      cr&eacute;atures plus exotiques s'il le juge cr&eacute;dible (par exemple,
+      un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.TE04xiGl2zDSTzsN]{Tigre
+      &agrave; dents de sabre}&nbsp;pour un elfe sauvage), l'indice de
+      dangerosit&eacute; de la cr&eacute;ature ne doit pas d&eacute;passer
+      2.</p>
+
+      <p>De plus, lorsque vous contr&ocirc;lez une monture, vous pouvez lui
+      faire utiliser son action pour attaquer.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685174
+  modifiedTime: 1663923686112
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!4LwNDPC6uE0i7jNh'
+

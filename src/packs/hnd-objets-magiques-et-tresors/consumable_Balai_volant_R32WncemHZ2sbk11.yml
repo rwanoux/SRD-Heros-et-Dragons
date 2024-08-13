@@ -1,0 +1,99 @@
+_id: R32WncemHZ2sbk11
+name: Balai volant
+type: consumable
+img: icons/skills/melee/hand-grip-staff-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Ce balai de bois p&egrave;se 1,5 kilo et fonctionne comme un balai
+      ordinaire, &agrave; moins que vous ne vous mettiez &agrave; califourchon
+      dessus et prononciez son mot de commande. Il se met alors &agrave; flotter
+      et vous pouvez le chevaucher pour vous d&eacute;placer dans les airs. Il
+      dispose d'une vitesse de vol de 15 m&egrave;tres et porte jusqu'&agrave;
+      200 kilos, mais sa vitesse se r&eacute;duit &agrave; 9 m&egrave;tres si la
+      charge d&eacute;passe les 100 kilos. Le balai cesse de flotter d&egrave;s
+      que vous atterrissez.</p>
+
+      <p>Vous pouvez envoyer le balai rejoindre seul une destination
+      situ&eacute;e dans un rayon de 1,5 kilom&egrave;tre, &agrave; condition de
+      prononcer le mot de commande, le nom de la destination et de bien
+      conna&icirc;tre cette derni&egrave;re. Le balai revient &agrave; vous
+      quand vous prononcez un autre mot de commande, &agrave; condition qu'il se
+      trouve encore dans un rayon de 1,5 kilom&egrave;tre autour de vous.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 8000
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: 0
+    units: km
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+    autoUse: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701163
+  modifiedTime: 1663923702337
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!R32WncemHZ2sbk11'
+

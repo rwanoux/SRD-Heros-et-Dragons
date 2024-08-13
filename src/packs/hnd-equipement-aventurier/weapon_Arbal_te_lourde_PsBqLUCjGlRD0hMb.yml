@@ -1,0 +1,145 @@
+_id: PsBqLUCjGlRD0hMb
+name: Arbalète lourde
+type: weapon
+img: icons/weapons/crossbows/crossbow-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    category: martial
+    type: ranged
+    mode: melee
+    tags:
+      heavy: true
+      twohanded: true
+      loading: true
+    magical: false
+    effects:
+      - name: ''
+        uuid: 21c79c75-cbb9-4d30-badb-72726f60cf41
+        components:
+          - type: attack
+            uuid: ede22915-707a-4f7e-a3b4-d970370e6810
+            attack: ranged
+            category: weapon
+            ability: ''
+            bonus: 0
+            crit: 20
+            proficient: false
+            reach: null
+            range1: null
+            range2: null
+            target: ''
+          - type: damage
+            uuid: 97992dd6-155f-4968-8eba-a42917da80f1
+            calc: formula
+            ndice: 1
+            die: 10
+            ability: str
+            bonus: 0
+            damage: prc
+            versatile: false
+    version: 7
+system:
+  description:
+    value: >-
+      <p>Une grande arbalète montée sur un solide bloc de bois qui est chargé à
+      l'aide d'une manivelle et qui tire d'épais carreaux en acier avec une
+      accélération mortelle qui transperce l'armure et la chair.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 9
+  price: 50
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 30
+    long: 120
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialR
+  baseItem: heavycrossbow
+  properties:
+    amm: true
+    hvy: true
+    two: true
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    ver: false
+    lod: true
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700599
+  modifiedTime: 1663923700599
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PsBqLUCjGlRD0hMb'
+

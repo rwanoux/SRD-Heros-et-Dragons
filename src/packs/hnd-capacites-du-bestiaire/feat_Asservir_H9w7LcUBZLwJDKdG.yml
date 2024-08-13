@@ -1,0 +1,89 @@
+name: Asservir
+type: feat
+flags: {}
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+_id: H9w7LcUBZLwJDKdG
+system:
+  description:
+    value: >-
+      <p><strong>Asservir.</strong> La créature cible un être situé à 9 mètres
+      ou moins et dans son champ de vision. La cible doit réussir un jet de
+      sauvegarde de Sagesse pour ne pas être magiquement charmée par la
+      créature. Le charme disparaît quand la créature meurt ou s'il se trouve
+      sur un plan d'existence différent de celui de la cible. La cible charmée
+      est sous le contrôle de la créature et ne peut entreprendre aucune
+      réaction. La créature et la cible peuvent communiquer par télépathie,
+      quelle que soit la distance qui les sépare. Chaque fois que la cible
+      charmée subit des dégâts, elle peut retenter le jet de sauvegarde. En cas
+      de réussite, l'effet prend fin. La cible peut retenter le jet de
+      sauvegarde dès que la créature s'éloigne de plus de 1,5 kilomètre d'elle,
+      mais pas plus d'une fois toutes les 24 heures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 24
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698785
+  modifiedTime: 1663923699445
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!H9w7LcUBZLwJDKdG'
+

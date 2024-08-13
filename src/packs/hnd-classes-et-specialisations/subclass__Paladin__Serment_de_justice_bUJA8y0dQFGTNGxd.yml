@@ -1,0 +1,108 @@
+name: '[Paladin] Serment de justice'
+type: subclass
+img: icons/magic/symbols/cog-shield-white-blue.webp
+system:
+  description:
+    value: "<h4>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.v6oxFo1FqaSuBHOr]{Préceptes de justice [Serment de justice]}</h4><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qc7OWCS63mzJCrp1]{Sorts de serment [Serment de Justice]}</p><p>Niveau 3 :\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zBQ5lZoZGaMYSQHL]{Canalisation d'énergie divine [Serment de Justice] Célérité de justicier}</p><p>Niveau 3 :\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ksj12oQFVWlI8WjX]{Canalisation d'énergie divine [Serment de Justice] Chaînes de la justice}</p><p>Niveau 7 :@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.71dDZ7gV30ztMbAt]{En vertu de la loi}</p><p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7ATllKeBkcr7PvEw]{Aura de contrôle}</p><p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.MErXofvBxKaHgFNv]{Chaînes de lumière}</p><p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OrnfP9jvE3a9ZB8i]{Avatar de l'ordre parfait}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: serment-de-justice
+  classIdentifier: paladin
+  advancement:
+    - _id: Zb0A3yffQWhnVTcx
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.v6oxFo1FqaSuBHOr
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zBQ5lZoZGaMYSQHL
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ksj12oQFVWlI8WjX
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qc7OWCS63mzJCrp1
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: ''
+    - _id: u3mghTCnw0J54Clj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.71dDZ7gV30ztMbAt
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wWa9W4VLy7uBVac5
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 7
+      title: ''
+    - _id: d7wTdEsQxddVDbca
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.MErXofvBxKaHgFNv
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 15
+      title: ''
+    - _id: T6sYqnxYUqoJ7EhJ
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OrnfP9jvE3a9ZB8i
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 20
+      title: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.wYxZB7UG67SAkoYv
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678365138982
+  modifiedTime: 1678366793282
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.wYxZB7UG67SAkoYv
+  duplicateSource: null
+folder: null
+sort: 0
+_id: bUJA8y0dQFGTNGxd
+_key: '!items!bUJA8y0dQFGTNGxd'
+

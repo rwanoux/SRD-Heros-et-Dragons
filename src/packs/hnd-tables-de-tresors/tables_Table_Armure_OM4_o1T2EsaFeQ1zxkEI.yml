@@ -1,0 +1,164 @@
+_id: o1T2EsaFeQ1zxkEI
+name: Table Armure OM4
+folder: vVTDSYsguUPXB21e
+sort: 4800000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: 5LqI5LZtJ4jvkWEK
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: document
+    text: Table Armure +1
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 1
+      - 5
+    drawn: false
+    documentCollection: RollTable
+    documentId: I9Q2OZO6wbTavhHW
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.5LqI5LZtJ4jvkWEK'
+  - _id: fA24ezvzUDGFU838
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier +2
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/badge-blue.jpg
+    weight: 1
+    range:
+      - 6
+      - 10
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: e1vyhwh4L0I50DGr
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.fA24ezvzUDGFU838'
+  - _id: BDKixKfJe3Z37qg9
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier antiprojectiles
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/shield.png
+    weight: 1
+    range:
+      - 11
+      - 12
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: ZGoCpiEZb3EBi0Uf
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.BDKixKfJe3Z37qg9'
+  - _id: A5FnO1HKWijuwcIu
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Bouclier d'attraction des projectiles
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/shield.png
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: r7SoiPqbv0DkjvNz
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.A5FnO1HKWijuwcIu'
+  - _id: oVEjShR2Z8vuvDhs
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: document
+    text: Table Armure résistance
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 14
+      - 15
+    drawn: false
+    documentCollection: RollTable
+    documentId: ODy5Yqf9HdimhufU
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.oVEjShR2Z8vuvDhs'
+  - _id: 87uvo5VqqLrIyztk
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Armure de vulnérabilité
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/plate.png
+    weight: 1
+    range:
+      - 16
+      - 16
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Ui8ko2iAYGGLshxY
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.87uvo5VqqLrIyztk'
+  - _id: DjV5vBS0q1hfPmjm
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Chemise de mailles elfiques
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/leather-forest.jpg
+    weight: 1
+    range:
+      - 17
+      - 19
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: GDdnTWwW4gFbKtBT
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.DjV5vBS0q1hfPmjm'
+  - _id: SlhXwTF6zXJ5Ye7k
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Cuir clouté glamour
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/armor/studded.png
+    weight: 1
+    range:
+      - 20
+      - 20
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: AvNSYLwUjSUqxRUR
+    _key: '!tables.results!o1T2EsaFeQ1zxkEI.SlhXwTF6zXJ5Ye7k'
+formula: 1d20
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!o1T2EsaFeQ1zxkEI'
+

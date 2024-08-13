@@ -1,0 +1,117 @@
+name: Étouffer
+type: weapon
+flags: {}
+img: icons/magic/control/debuff-energy-snare-blue.webp
+_id: yfpdxWdEJBARqZUO
+system:
+  description:
+    value: >-
+      <p><strong>Étouffer. </strong>Attaque d'arme au corps à corps sur une
+      cible. Allonge 1,50 m. Dégâts contondants et la créature se fixe sur la
+      cible. Si la cible est de taille M ou plus petite et que la créature
+      obtient un avantage lors du jet d'attaque, elle se fixe en enveloppant la
+      tête de la cible et celle-ci est également aveuglée et incapable de
+      respirer tant que la créature reste fixée de la sorte. Tant qu'elle est
+      fixée sur la cible, la créature ne peut attaquer aucune autre créature à
+      l'exception de la cible, mais elle obtient un avantage lors de ses jets
+      d'attaque. La vitesse de la créature tombe également à 0, elle ne peut
+      bénéficier d'aucun bonus à sa vitesse et elle se déplace avec la cible. La
+      cible peut détacher la créature en réussissant un test de Force par une
+      action. Lors de son tour, la créature peut se détacher de la cible en
+      dépensant 1,50 mètre de déplacement.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: true
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6+@mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    two: false
+    rch: true
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923699012
+  modifiedTime: 1663923700355
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!yfpdxWdEJBARqZUO'
+

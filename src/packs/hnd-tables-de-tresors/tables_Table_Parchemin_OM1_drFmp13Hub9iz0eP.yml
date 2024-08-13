@@ -1,0 +1,83 @@
+_id: drFmp13Hub9iz0eP
+name: Table Parchemin OM1
+folder: vVTDSYsguUPXB21e
+sort: 2300000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: ''
+    loot-amount-key: ''
+  exportSource:
+    world: donjon
+    system: dnd5e
+    coreVersion: 0.7.9
+    systemVersion: 1.2.4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: Iy8lE9q2BO5tMJXn
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: document
+    text: Parchemin Cantrip
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: RollTable
+    documentId: GHoFH9XuXZRU9PTQ
+    _key: '!tables.results!drFmp13Hub9iz0eP.Iy8lE9q2BO5tMJXn'
+  - _id: vVdNFzYYKldd6lXm
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: 1d4
+    type: document
+    text: Parchemin niveau 1
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: RollTable
+    documentId: GGVQoO6aupyZBm17
+    _key: '!tables.results!drFmp13Hub9iz0eP.vVdNFzYYKldd6lXm'
+  - _id: lA7dDm70pogKUCqb
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: '1'
+    type: document
+    text: Parchemin niveau 2
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: RollTable
+    documentId: q9aUweAqZoIQLZDJ
+    _key: '!tables.results!drFmp13Hub9iz0eP.lA7dDm70pogKUCqb'
+formula: 1d6
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!drFmp13Hub9iz0eP'
+

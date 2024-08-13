@@ -1,0 +1,91 @@
+name: Disciple de la pression [Domaine de la bière]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b
+img: icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="disciple-de-la-vie"><strong>Disciple de la
+      pression</strong></h3><p>Quand vous choisissez ce domaine au niveau 1,
+      vous apprenez le tour de magie
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fOmFiso4ZYKEO4RK]{rayon
+      de ivre}. </p><p>Vous gagnez également la maîtrise de la compétence
+      Perspicacité ou Médecine (au choix), ainsi que la maîtrise du matériel de
+      brasseur. Votre bonus de maîtrise est doublé pour tout test de
+      caractéristique que vous effectuez et qui utilise ce matériel.</p>
+    chat: ''
+    unidentified: ''
+  source: Deep Magic et Midgard Heroes Handbook - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685703
+  modifiedTime: 1679679979273
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b
+  duplicateSource: null
+folder: null
+sort: 0
+_id: VK4Zb03LHWeJAkPw
+_key: '!items!VK4Zb03LHWeJAkPw'
+

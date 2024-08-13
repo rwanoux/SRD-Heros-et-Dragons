@@ -1,0 +1,93 @@
+name: Soif ténébreuse
+type: feat
+img: icons/creatures/abilities/fang-tooth-blood-red.webp
+system:
+  description:
+    value: >-
+      <p>Vous pouvez effectuer une attaque sans arme avec votre morsure contre
+      une créature <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisée
+      </a>ou une créature que vous avez <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>.
+      </p><p>Votre morsure inflige 1 point de dégâts perforants, et si la
+      créature a du sang et n'est pas une créature artificielle ou un
+      mort-vivant, vous pouvez vous en nourrir dans le cadre de l'attaque.
+      </p><p>Si vous vous nourrissez, vous infligez des dégâts nécrotiques égaux
+      à votre modificateur de Charisme (minimum de 1), et vous gagnez un nombre
+      de points de vie temporaires égal aux dégâts nécrotiques infligés.
+      </p><p>Une fois que vous avez gagné des points de vie temporaires avec ce
+      trait, vous ne pouvez plus le faire avant d'avoir terminé un repos court
+      ou long.</p>
+    chat: ''
+    unidentified: ''
+  source: Midgard Heroes Handbook - Kobold Press
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  requirements: Dhampyr
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.XuS8EWArK19bviPC
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680506839105
+  modifiedTime: 1680506985586
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.XuS8EWArK19bviPC
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 5NrXd6ZMIRPNdltT
+_key: '!items!5NrXd6ZMIRPNdltT'
+

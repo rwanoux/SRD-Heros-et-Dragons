@@ -1,0 +1,108 @@
+name: Cracher du Poison
+type: weapon
+flags: {}
+img: icons/magic/acid/projectile-glowing-bubbles.webp
+_id: iB0XxjEMDzu7SmM9
+system:
+  description:
+    value: >-
+      <p><strong>Cracher du poison.</strong> Attaque d'arme à distance sur une
+      cible. Portée 4,50/9 m. La cible doit effectuer un jet de sauvegarde de
+      Constitution ou subir des dégâts de poison en cas de jet de sauvegarde
+      raté ou la moitié de ces dégâts seulement en cas de réussite.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: true
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 4.5
+    long: 9
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 10d8
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 15
+    scaling: flat
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    two: false
+    rch: false
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698944
+  modifiedTime: 1663923700112
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!iB0XxjEMDzu7SmM9'
+

@@ -1,0 +1,90 @@
+name: Ruse [Ombrelin]
+type: feat
+img: icons/magic/perception/mask-stone-eyes-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.tYXHEOTl1Rlu4hDz
+_id: xzCKGfjeSmJEZpsO
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 11, votre aisance dans l'obscurité vous permet de
+      vous déplacer et d'agir rapidement.</p>
+
+      <p>Vous pouvez bénéficier d'une action bonus à chacun de vos tours de
+      combat.</p>
+
+      <p>Par contre, cette action ne peut être utilisée que pour accomplir les
+      actions <a href="https://5e-drs.fr/combattre/#se-precipiter">se
+      précipiter</a>,<a href="https://5e-drs.fr/combattre/#se-desengager"> se
+      désengager</a> ou <a href="https://5e-drs.fr/combattre/#se-cacher">se
+      cacher</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685698
+  modifiedTime: 1663923687796
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.tYXHEOTl1Rlu4hDz
+  duplicateSource: null
+_key: '!items!xzCKGfjeSmJEZpsO'
+

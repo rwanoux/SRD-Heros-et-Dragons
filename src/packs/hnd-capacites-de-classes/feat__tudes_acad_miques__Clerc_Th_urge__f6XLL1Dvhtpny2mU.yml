@@ -1,0 +1,87 @@
+_id: f6XLL1Dvhtpny2mU
+name: Études académiques [Clerc Théurge]
+type: feat
+flags: {}
+img: icons/equipment/back/mantle-collared-black.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="etudes-academiques"><strong>&Eacute;tudes
+      acad&eacute;miques</strong></h3>
+
+      <p>Le temps que vous avez pass&eacute; &agrave; prier, &agrave;
+      m&eacute;diter et &agrave; compulser des grimoires ne vous a pas permis
+      d'apprendre &agrave; ma&icirc;triser les armures interm&eacute;diaires.
+      Contrairement aux autres clercs, vous d&eacute;butez avec seulement la
+      ma&icirc;trise des armures l&eacute;g&egrave;res. En revanche, vous
+      ajoutez Arcanes &agrave; la liste de comp&eacute;tences parmi lesquelles
+      vous pouvez choisir vos comp&eacute;tences initiales.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685486
+  modifiedTime: 1663923687189
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!f6XLL1Dvhtpny2mU'
+

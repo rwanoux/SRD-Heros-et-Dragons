@@ -1,0 +1,116 @@
+name: Têtes multiples
+type: feat
+flags:
+  _sheetTab: description
+img: icons/magic/death/skull-trio-badge-purple.webp
+_id: 2cnP9xdqetnUjPuR
+system:
+  description:
+    value: >-
+      <p><strong>Têtes multiples.</strong> La créature à plusieurs têtes. Tant
+      qu'il lui reste plus d'une tête, la créature obtient un avantage lors des
+      jets de sauvegarde effectués pour ne pas être assourdie, aveuglée,
+      charmée, étourdie, inconsciente ou terrorisée. Chaque fois que la créature
+      subit un certain nombre de dégâts ou plus lors d'un même tour, une de ses
+      têtes meurt. Si toutes ses têtes meurent, la créature meurt également. À
+      la fin de son tour, un certain nombre de têtes repoussent pour chacune des
+      têtes mortes lors du dernier tour, à moins qu'elle n'ait subit des dégâts
+      de feu depuis son dernier tour. La créature récupère 10 points de vie pour
+      chaque nouvelle tête repoussée de cette façon.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: ''
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: ''
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698731
+  modifiedTime: 1663923699217
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2cnP9xdqetnUjPuR'
+

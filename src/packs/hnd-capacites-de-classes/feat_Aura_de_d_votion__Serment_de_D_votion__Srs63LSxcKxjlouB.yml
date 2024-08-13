@@ -1,0 +1,91 @@
+_id: Srs63LSxcKxjlouB
+name: Aura de dévotion [Serment de Dévotion]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/buff-flight-wings-runes-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="aura-de-devotion"><strong>Aura de d&eacute;votion</strong></h3>
+
+      <p>&Agrave; partir du niveau 7, vous et les cr&eacute;atures amicales qui
+      se trouvent &agrave; 3 m&egrave;tres de vous ne pouvez pas
+      &ecirc;tre&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charm&eacute;s</a>.
+      Cette aura persiste tant que vous n'&ecirc;tes pas&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient">inconscient</a>.</p>
+
+      <p>Au niveau 18, le rayon de cette aura s'&eacute;tend &agrave; 9
+      m&egrave;tres.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685403
+  modifiedTime: 1663923686838
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Srs63LSxcKxjlouB'
+

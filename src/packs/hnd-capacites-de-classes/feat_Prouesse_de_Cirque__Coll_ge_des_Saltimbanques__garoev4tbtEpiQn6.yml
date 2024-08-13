@@ -1,0 +1,115 @@
+_id: garoev4tbtEpiQn6
+name: Prouesse de Cirque [Collège des Saltimbanques]
+type: feat
+flags:
+  core:
+    sourceId: Item.JcO2UHmG1cdsUtfR
+img: icons/skills/ranged/shuriken-thrown-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="prouesse-de-cirque"><strong>Prouesse de cirque</strong></h3>
+
+      <p>Au niveau 14, votre sp&eacute;cialit&eacute; fait de vous un
+      professionnel accompli et un adversaire redoutable.</p>
+
+      <ul>
+
+      <li>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EDHMMhN0PZY6H3E0]{Prouesse
+      de Cirque - Bouffon [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rsFSWh0zShaGU95z]{Prouesse
+      de Cirque - Force de la nature [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.St6wOF5V6y4vX6sK]{Prouesse
+      de Cirque - Jongleur [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      <li>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.McBMw0EMt7TwhNpb]{Prouesse
+      de Cirque - Voyante [Coll&egrave;ge des Saltimbanques]}</p>
+
+      </li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685560
+  modifiedTime: 1663923687294
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.JcO2UHmG1cdsUtfR
+  duplicateSource: null
+_key: '!items!garoev4tbtEpiQn6'
+

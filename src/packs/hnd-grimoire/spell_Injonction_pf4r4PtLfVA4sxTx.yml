@@ -1,0 +1,162 @@
+_id: pf4r4PtLfVA4sxTx
+name: Injonction
+type: spell
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  midi-qol:
+    effectActivation: false
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+system:
+  description:
+    value: >-
+      <p>Vous lancez un ordre d'un mot à une créature située à portée et dans
+      votre champ de vision. Elle doit réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse, sans quoi elle exécute votre ordre à son
+      prochain tour. Le sort reste sans effet si la cible est un mort-vivant, si
+      elle ne comprend pas votre langue ou si votre ordre la met directement en
+      danger.</p>
+
+      <p>Voici quelques ordres typiques et leurs effets. Vous pouvez donner un
+      ordre différent de ceux présentés ici mais, dans ce cas, c'est au MJ de
+      décider comment la victime se comporte. Le sort se termine si elle se
+      trouve dans l'incapacité d'obéir à l'ordre reçu.</p>
+
+      <p><strong>Approche</strong>. La cible s'approche de vous en empruntant
+      l'itinéraire le plus court et le plus direct. Elle termine son tour dès
+      qu'elle arrive dans un rayon de 1,50 mètre autour de vous.</p>
+
+      <p><strong>Arrête</strong>. La cible ne bouge pas et n'entreprend aucune
+      action. Une créature en vol reste dans les airs, à condition qu'elle soit
+      en mesure de le faire. Si elle est obligée de se déplacer pour rester en
+      vol, elle parcourt la distance minimum requise pour ce faire.</p>
+
+      <p><strong>Fuis</strong>. La cible passe son tour à s'éloigner de vous par
+      la méthode la plus rapide à sa disposition.</p>
+
+      <p><strong>Lâche</strong>. La cible lâche ce qu'elle tient et son tour se
+      termine.</p>
+
+      <p><strong>Rampe</strong>. La cible se laisse tomber <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+      terre</em></a> et termine son tour.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 2 ou supérieur, vous pouvez affecter
+      une créature de plus par niveau au-delà du niveau 1. Ces créatures doivent
+      toutes se trouver à 9 mètres ou moins les unes des autres lorsque vous
+      lancez le sort.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 1
+  school: enc
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: + 1 créature
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688199
+  modifiedTime: 1663923689417
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!pf4r4PtLfVA4sxTx'
+

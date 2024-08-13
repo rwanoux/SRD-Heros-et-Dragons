@@ -1,0 +1,93 @@
+name: Forme d'ombre [Cercle sans nom]
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.DyfyY5ESSSjyB29G
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: abBYJk5Fs2J67Ogx
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 6, vous pouvez dépenser une utilisation de forme
+      sauvage pour vous transformer en
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.k9npAiP0HHyie5gh]{Ombre}.</p>
+
+      <p>Lorsque vous êtes sous forme d'ombre, vous pouvez communiquer par
+      télépathie avec tous les morts-vivants dans un rayon de 36 mètres. Vous ne
+      pouvez ni parler ni communiquer avec les êtres vivants.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685453
+  modifiedTime: 1678425842169
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.DyfyY5ESSSjyB29G
+  duplicateSource: null
+_key: '!items!abBYJk5Fs2J67Ogx'
+

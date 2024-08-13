@@ -1,0 +1,78 @@
+_id: XhPpFCWrmf7WS1KL
+name: '[Rôdeur] Archer arcanique'
+type: subclass
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"archer-arcanique\"><strong>Archer arcanique</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NDQvkLWgIO3oUouO]{Flèche arcanique [Archer Arcanique]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NCsxc9CdXZcXwKoY]{Flèche infaillible [Archer Arcanique]}</p>\n<p>Niveau 11 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ccFSLE9ncmIdjsWZ]{Flèche Intangible [Archer Arcanique]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vrhvOhaMlg00bXpn]{Flèche tueuse [Archer Arcanique]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: archer-arcanique
+  classIdentifier: rodeur
+  advancement:
+    - _id: b21szu3kspttr3d5
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vrhvOhaMlg00bXpn
+        optional: false
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+    - _id: q4czdpe34tlepnyn
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ccFSLE9ncmIdjsWZ
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+    - _id: kxl9vxc1ojam3bl9
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NCsxc9CdXZcXwKoY
+        optional: false
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: ge4has9ml9v01w0q
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NDQvkLWgIO3oUouO
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703414
+  modifiedTime: 1663923703606
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!XhPpFCWrmf7WS1KL'
+

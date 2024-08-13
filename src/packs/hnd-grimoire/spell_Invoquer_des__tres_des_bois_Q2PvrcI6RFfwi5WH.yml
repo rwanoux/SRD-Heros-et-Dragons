@@ -1,0 +1,152 @@
+_id: Q2PvrcI6RFfwi5WH
+name: Invoquer des êtres des bois
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/nature/leaf-glow-maple-orange.webp
+system:
+  description:
+    value: >-
+      <p>Vous invoquez des créatures féeriques qui apparaissent dans des cases
+      inoccupées situées à portée et dans votre champ de vision. Choisissez
+      l'une des options suivantes pour déterminer quelles créatures
+      apparaissent.</p>
+
+      <ul>
+
+      <li>Une créature féerique dont l'indice de dangerosité est inférieur ou
+      égal à 2.</li>
+
+      <li>Deux créatures féeriques dont l'indice de dangerosité est inférieur ou
+      égal à 1.</li>
+
+      <li>Quatre créatures féeriques dont l'indice de dangerosité est inférieur
+      ou égal à 1⁄2.</li>
+
+      <li>Huit créatures féeriques dont l'indice de dangerosité est inférieur ou
+      égal à 1⁄4.</li>
+
+      </ul>
+
+      <p>Une créature invoquée disparaît dès qu'elle tombe à 0 point de vie ou
+      quand le sort se termine.</p>
+
+      <p>Les créatures invoquées se montrent amicales envers vous et vos
+      compagnons. Déterminez une initiative pour les créatures invoquées, elles
+      forment un groupe qui dispose de ses propres tours de jeu.. Les créatures
+      féeriques obéissent aux ordres verbaux que vous leur donnez (sans que cela
+      vous demande d'utiliser une action). En l'absence d'ordre, elles se
+      défendent contre les créatures hostiles, mais n'entreprennent pas d'autre
+      action.</p>
+
+      <p>C'est le MJ qui dispose du profil technique des créatures.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant certains emplacements de niveau supérieur, vous choisissez l'une
+      des options d'invocation décrites précédemment et faites apparaître plus
+      de créatures : deux fois plus pour un emplacement de niveau 6, et trois
+      fois plus pour un emplacement de niveau 8.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: any
+    type: space
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une baie de houx par créature invoquée
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688033
+  modifiedTime: 1663923688905
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Q2PvrcI6RFfwi5WH'
+

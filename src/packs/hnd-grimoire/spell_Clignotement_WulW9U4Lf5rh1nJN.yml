@@ -1,0 +1,131 @@
+_id: WulW9U4Lf5rh1nJN
+name: Clignotement
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/debuff-energy-hold-pink.webp
+system:
+  description:
+    value: >-
+      <p>Pendant toute la durée du sort, vous lancez 1d20 à la fin de chacun de
+      vos tours. Sur un 11 ou plus, vous disparaissez de votre plan d'existence
+      actuel et apparaissez sur le plan éthéré (si vous vous trouviez déjà là,
+      le sort échoue et l'incantation est gaspillée). Au début de votre tour
+      suivant et quand le sort se termine alors que vous vous trouvez sur le
+      plan éthéré, vous retournez sur un emplacement inoccupé de votre choix que
+      vous pouvez voir dans un rayon de 3 mètres autour de l'emplacement dont
+      vous avez disparu. S'il n'y a pas d'emplacement disponible dans ce rayon,
+      vous apparaissez dans l'espace inoccupé le plus proche (choisi au hasard
+      s'il y en a plusieurs à égale distance). Vous pouvez révoquer ce sort par
+      une action.</p>
+
+      <p>Tant que vous êtes sur le plan éthéré, vous voyez et entendez ce qui se
+      passe sur le plan d'où vous venez, qui apparaît sous forme d'ombres
+      grises, mais votre vision ne porte pas au-delà de 18 mètres. Vous pouvez
+      seulement affecter des créatures se trouvant sur le plan éthéré et elles
+      sont les seules à pouvoir vous affecter. Les créatures qui ne se trouvent
+      pas sur ce plan ne peuvent ni vous percevoir, ni interagir avec vous, à
+      moins qu'elles ne disposent d'un pouvoir le leur permettant.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d20
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688057
+  modifiedTime: 1663923688994
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WulW9U4Lf5rh1nJN'
+

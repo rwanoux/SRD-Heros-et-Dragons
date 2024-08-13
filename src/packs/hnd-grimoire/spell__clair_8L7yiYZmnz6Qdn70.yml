@@ -1,0 +1,128 @@
+_id: 8L7yiYZmnz6Qdn70
+name: Éclair
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/lightning/bolt-forked-large-blue.webp
+system:
+  description:
+    value: >-
+      <p>Un éclair formant une ligne de 30 mètres de long pour 1,50 mètre de
+      large jaillit de votre personne et file dans la direction de votre choix.
+      Chaque créature située sur la ligne doit réaliser un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. Celles qui échouent subissent 8d6 dégâts
+      de foudre, les autres la moitié seulement.</p>
+
+      <p>La foudre embrase les objets inflammables de la zone qui ne sont ni
+      portés ni transportés par une créature.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 4 ou supérieur, les dégâts augmentent
+      de 1d6 par niveau au-delà du niveau 3.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: m
+    type: line
+    range:
+      value: personnelle
+      unit: (ligne
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 8d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 3
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Un peu de fourrure et une baguette en ambre, en cristal ou en verre
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687956
+  modifiedTime: 1663923688612
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!8L7yiYZmnz6Qdn70'
+

@@ -1,0 +1,89 @@
+_id: 0mTktNIXr5ENh6Mq
+name: Connaissances en ingénierie (Gnome des roches)
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/commodities/tech/cog-steel.webp
+system:
+  description:
+    value: >-
+      <p><strong>Connaissances en ingénierie</strong>. Quand vous faites un test
+      d'Intelligence (Histoire) relatif aux objets magiques, alchimiques ou
+      technologiques, et que vous disposez de la maîtrise de cette compétence,
+      vous ajoutez le double de votre bonus de maîtrise au résultat du test au
+      lieu de votre bonus de maîtrise normal.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gnome des roches
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698150
+  modifiedTime: 1663923698315
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!0mTktNIXr5ENh6Mq'
+

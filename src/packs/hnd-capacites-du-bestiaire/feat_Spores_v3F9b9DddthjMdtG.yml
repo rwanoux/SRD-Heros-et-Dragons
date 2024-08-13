@@ -1,0 +1,117 @@
+name: Spores
+type: feat
+flags:
+  _sheetTab: details
+img: icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp
+_id: v3F9b9DddthjMdtG
+system:
+  description:
+    value: >-
+      <p><strong>Spores (Recharge 6). </strong>Un nuage de spores toxiques se
+      répand du vrock dans un rayon de 4,50 mètres. Les spores contournent les
+      angles de murs. Chaque créature qui se trouve dans la zone d'effet doit
+      réussir un jet de sauvegarde de Constitution DD 14 ou être empoisonnée.
+      Tant qu'elle est empoisonnée de cette manière, la cible subit 5 (1d10)
+      dégâts de poison au début de chacun de ses tours. Une cible peut retenter
+      un jet de sauvegarde à la fin de chacun de ses tours, mettant ainsi fin à
+      son empoisonnement en cas de réussite. Vider une fiole d'eau bénite sur la
+      cible met également fin à cet effet d'empoisonnement.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 4.5
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: 1
+    per: ''
+    recovery: ''
+    type: sr
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d10
+        - poison
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 14
+    scaling: flat
+    value: con
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: 6
+    charged: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698995
+  modifiedTime: 1663923700301
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!v3F9b9DddthjMdtG'
+

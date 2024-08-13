@@ -1,0 +1,162 @@
+name: Liste de sorts étendue [Le seigneur Deux-visages]
+type: feat
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ln4xF2JrOLiloO8v
+_id: Dd3tWdkLdve1WDNT
+system:
+  description:
+    value: >-
+      <h3 id="liste-de-sorts-etendue-2"><strong>Liste de sorts
+      étendue</strong></h3>
+
+      <p>Votre protecteur vous permet de choisir des sorts dans une liste de
+      sorts étendue quand vous devez apprendre un sort de sorcier. Les sorts
+      suivants sont ajoutés dans votre liste de sorts de sorcier.</p>
+
+      <table style="width:390px">
+
+      <thead>
+
+      <tr>
+
+      <th style="width:76px">Niv. de sort</th>
+
+      <th style="width:309px">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width:76px">1</td>
+
+      <td
+      style="width:309px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AGNkG0AdXwcK1mm4]{Blessure}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin
+      des blessures}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:76px">2</td>
+
+      <td
+      style="width:309px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.hWx1WpU8i13ajzlh]{Modifier
+      son apparence}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VDiUTdRBbERIvQV0]{Voir
+      l'invisible}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:76px">3</td>
+
+      <td
+      style="width:309px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.13hegp2WlfHG1VMS]{Hâte}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.w6n5kXoXp8GRjtsG]{Lenteur}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:76px">4</td>
+
+      <td
+      style="width:309px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.5lPYVb5h8rYXeFgw]{Bouclier
+      de feu Chaud}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.uEYy6RPn3eaVXon5]{Bouclier
+      de feu froid}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.53DyB3eKGneRfxf7]{Tempête
+      de grêle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:76px">5</td>
+
+      <td
+      style="width:309px">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fu4fbKurX9Q8skJE]{Légende}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.3O9ay2RHO37HnHr2]{Tromperie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: PAngée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685242
+  modifiedTime: 1663923686367
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ln4xF2JrOLiloO8v
+  duplicateSource: null
+_key: '!items!Dd3tWdkLdve1WDNT'
+

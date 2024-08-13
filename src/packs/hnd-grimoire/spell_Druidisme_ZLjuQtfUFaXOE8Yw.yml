@@ -1,0 +1,135 @@
+_id: ZLjuQtfUFaXOE8Yw
+name: Druidisme
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+system:
+  description:
+    value: >-
+      <p>Vous créez l'un des effets suivants à portée après quelques murmures
+      adressés aux esprits de la nature.</p>
+
+      <ul>
+
+      <li>Vous créez un effet sensoriel réduit et inoffensif qui annonce le
+      temps qu'il fera là où vous vous trouvez pendant les 24 heures à venir.
+      Cet effet peut prendre la forme d'un orbe doré si le temps va rester
+      dégagé, d'un nuage s'il va pleuvoir, de flocons pour une averse de neige
+      etc. L'effet persiste pendant 1 round.</li>
+
+      <li>Vous faites éclore une fleur ou un bourgeon ou germer une graine.</li>
+
+      <li>Vous créez un effet sensoriel instantané, réduit et inoffensif, comme
+      des feuilles qui tombent, une bourrasque, le bruit que ferait un petit
+      animal ou une légère odeur de moufette. L'effet doit être contenu dans un
+      cube d'au maximum 1,50 mètre d'arête.</li>
+
+      <li>Vous allumez ou éteignez instantanément une chandelle, une torche ou
+      un petit feu de camp.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688068
+  modifiedTime: 1663923689038
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ZLjuQtfUFaXOE8Yw'
+

@@ -1,0 +1,90 @@
+_id: uSowo5U5xmalrcBy
+name: Lanterne de révélation
+type: consumable
+img: icons/sundries/lights/lantern-iron-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Quand cette lanterne à capote est allumée, elle brûle pendant 6
+      heures en consommant 0,5 litre d'huile. Elle émet alors une vive lumière
+      dans un rayon de 9 mètres et une faible lumière dans un rayon de 9 mètres
+      de plus. Les créatures et les objets&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible">invisibles</a>&nbsp;situés
+      dans la zone de vive lumière de la lanterne deviennent visibles. Vous
+      pouvez utiliser une action pour baisser la capote et réduire la luminosité
+      à une faible lumière dans un rayon de 1,50 mètre.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1
+  price: 5000
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 6
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 9
+    long: 18
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701448
+  modifiedTime: 1663923703210
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uSowo5U5xmalrcBy'
+

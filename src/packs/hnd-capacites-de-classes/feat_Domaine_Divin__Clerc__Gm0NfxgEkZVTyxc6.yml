@@ -1,0 +1,101 @@
+_id: Gm0NfxgEkZVTyxc6
+name: Domaine Divin [Clerc]
+type: feat
+img: icons/magic/life/ankh-gold-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.sKwSLS02iL4EsGhm
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: "<h3><strong>Domaine Divin\_</strong></h3>\n<p>Choisissez une domaine divin parmi :\_</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.sSyqGYV0h8ucR78I]{[Clerc] Domaine de la Vie}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.mHUxFVLUDOMdSMHt]{[Clerc] Gardien des Traditions}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.oe5dT88iTtrSPQKl]{[Clerc] Guide Spirituel}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.W2J04o4VwKvkwTxh]{[Clerc] Mortifié}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.q75HkeIJ5BDjQ3Rx]{[Clerc] Oracle}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.ZkLA4uiNdzbzbQ9Y]{[Clerc] Prêtre}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.J4cK9oEkxXzUGTjg]{[Clerc] Théurge}</li>\n</ul>\n<p>Dès le niveau 1, le choix de votre domaine divin vous permet d'accéder à des sorts de domaine et d'autres aptitudes. Il vous permet aussi d'utiliser la canalisation d'énergie divine d'une manière supplémentaire quand vous gagnez cette aptitude au niveau 2, puis de l'améliorer aux niveaux 6, 8 et 17.</p>"
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685269
+  modifiedTime: 1678404145988
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.sKwSLS02iL4EsGhm
+  duplicateSource: null
+_key: '!items!Gm0NfxgEkZVTyxc6'
+

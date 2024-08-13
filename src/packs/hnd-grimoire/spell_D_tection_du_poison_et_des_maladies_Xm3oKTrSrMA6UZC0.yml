@@ -1,0 +1,120 @@
+_id: Xm3oKTrSrMA6UZC0
+name: Détection du poison et des maladies
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/water/heart-ice-freeze.webp
+system:
+  description:
+    value: >-
+      <p>Pendant toute la durée du sort, vous percevez la présence de poisons,
+      de créatures venimeuses et de maladies dans un rayon de 9 mètres autour de
+      vous. Vous déterminez également leur emplacement et identifiez à chaque
+      fois le type de poison, de créature ou de maladie concerné.</p>
+
+      <p>Le sort ignore la plupart des obstacles, mais il ne peut pas franchir
+      30 centimètres de pierre, 2,5 centimètres de métal ordinaire, une mince
+      feuille de plomb, ni 1 mètre de bois ou de terre.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: radius
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: true
+    value: ''
+  materials:
+    value: Un brin d'if
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688063
+  modifiedTime: 1663923689020
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Xm3oKTrSrMA6UZC0'
+

@@ -1,0 +1,111 @@
+_id: KwekUgESTueNn7iM
+name: Table Arm(ur)e OM2
+folder: vVTDSYsguUPXB21e
+sort: 100000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+  exportSource:
+    world: donjon
+    system: dnd5e
+    coreVersion: 0.7.9
+    systemVersion: 1.2.4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: PIBtObMMOFOJaun0
+    flags: {}
+    type: text
+    text: 1 [Table Arme +1]
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 3
+    drawn: false
+    documentId: null
+    _key: '!tables.results!KwekUgESTueNn7iM.PIBtObMMOFOJaun0'
+  - _id: ZUTFJmpyxA6OPvs6
+    flags: {}
+    type: pack
+    text: Bouclier +1
+    img: systems/dnd5e/icons/items/inventory/badge-shield.jpg
+    weight: 1
+    range:
+      - 4
+      - 6
+    drawn: false
+    documentCollection: dnd5e.items
+    documentId: NgwrqNa6kkgoPW2Q
+    _key: '!tables.results!KwekUgESTueNn7iM.ZUTFJmpyxA6OPvs6'
+  - _id: PKEDRXAJLBp29JtL
+    flags: {}
+    type: text
+    text: 3d6 [Table Munition +1]
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    documentId: null
+    _key: '!tables.results!KwekUgESTueNn7iM.PKEDRXAJLBp29JtL'
+  - _id: 0OLPwrzsBfFad4NN
+    flags: {}
+    type: pack
+    text: Cape de protection
+    img: systems/dnd5e/icons/items/equipment/cloak-fur.jpg
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    documentCollection: dnd5e.items
+    documentId: lvaMqEhfidfHDGf5
+    _key: '!tables.results!KwekUgESTueNn7iM.0OLPwrzsBfFad4NN'
+  - _id: G7QrNUb1AlSDAUPi
+    flags: {}
+    type: pack
+    text: Broche de protection
+    img: systems/dnd5e/icons/items/jewelry/amulet-blue.jpg
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    documentCollection: dnd5e.items
+    documentId: ZdcEtbtU3VkuxIFE
+    _key: '!tables.results!KwekUgESTueNn7iM.G7QrNUb1AlSDAUPi'
+  - _id: VQ7eZ1XxSTCXTrwW
+    flags: {}
+    type: pack
+    text: Javeline de foudre
+    img: systems/dnd5e/icons/skills/blue_21.jpg
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    documentCollection: dnd5e.items
+    documentId: LEC1wkaAUnWzDPDD
+    _key: '!tables.results!KwekUgESTueNn7iM.VQ7eZ1XxSTCXTrwW'
+formula: 1d10
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!KwekUgESTueNn7iM'
+

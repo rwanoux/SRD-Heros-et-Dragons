@@ -1,0 +1,132 @@
+_id: rtVzlHBq4O1LSSZ0
+name: Table Potion OM6
+folder: vVTDSYsguUPXB21e
+sort: 7500000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: x9EVScxMtLKzZeEv
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion de soins suprêmes
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/grand-red.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: X8emsUVDGMls3Xor
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.x9EVScxMtLKzZeEv'
+  - _id: fVGbG2feEiJYMrQc
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion d'invisibilité
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/major-empty.jpg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: dmlpZoQRNUPEi1uu
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.fVGbG2feEiJYMrQc'
+  - _id: X0HcWh1dDOUwhGmR
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion de force de géant des nuages
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/grand-blue.jpg
+    weight: 1
+    range:
+      - 4
+      - 5
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: sZKX8dxcqlaat7yI
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.X0HcWh1dDOUwhGmR'
+  - _id: 7duhdPheV3tLCDXc
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion de vitesse
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/unique-6.jpg
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: uzmGOhgh7VXOl92u
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.7duhdPheV3tLCDXc'
+  - _id: jhlavJw7hdhpgUf9
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion de vol
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/unique-10.jpg
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: v70Wl8dwhOXiBlxL
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.jhlavJw7hdhpgUf9'
+  - _id: 8Uh6XRt1tl6WxOHd
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Potion de force de géant des tempêtes
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/potions/major-blue.jpg
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: 47lXBmGu9qp8Gizi
+    _key: '!tables.results!rtVzlHBq4O1LSSZ0.8Uh6XRt1tl6WxOHd'
+formula: 1d8
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!rtVzlHBq4O1LSSZ0'
+

@@ -1,0 +1,83 @@
+name: Cœur avide
+type: feat
+img: icons/magic/life/heart-shadow-red.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify">Au niveau 18, quand vous dépensez des points
+      de sorcellerie pour créer des emplacements de sorts ou utiliser la
+      métamagie, vous réduisez le coût de 1 point de sorcellerie (le coût en
+      points de sorcellerie ne peut pas être inférieur à 1).</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Affamé
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.0kUOAzcRBVopAB8d
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680510213591
+  modifiedTime: 1680510256322
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.0kUOAzcRBVopAB8d
+  duplicateSource: null
+folder: null
+sort: 0
+_id: gNvuceaQHsrtSMEe
+_key: '!items!gNvuceaQHsrtSMEe'
+

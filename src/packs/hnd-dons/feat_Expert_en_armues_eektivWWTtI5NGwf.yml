@@ -1,0 +1,120 @@
+_id: eektivWWTtI5NGwf
+name: Expert en armues
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/expert-armures.png
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous savez utiliser au mieux la protection que votre armure vous offre
+      pour att&eacute;nuer un coup. Vous obtenez les b&eacute;n&eacute;fices
+      suivants :</p>
+
+      <ul>
+
+      <li>Vous augmentez au choix votre valeur de Force ou de
+      Dext&eacute;rit&eacute; de 1, sans d&eacute;passer le maximum de 20.</li>
+
+      <li>Vous obtenez la r&eacute;sistance aux d&eacute;g&acirc;ts sur une
+      attaque de corps-&agrave;-corps en utilisant votre r&eacute;action. Vous
+      d&eacute;cidez l'utilisation de cette r&eacute;action apr&egrave;s le test
+      d'attaque mais avant le jet de d&eacute;g&acirc;ts adverse. Si vous portez
+      une armure l&eacute;g&egrave;re ou interm&eacute;diaire, vous devez
+      terminer un repos court ou long avant de pouvoir &agrave; nouveau utiliser
+      cette aptitude. S'il s'agit d'une armure lourde, vous pouvez l'utiliser
+      deux fois apr&egrave;s chaque repos court ou long.</li>
+
+      <li>Lorsque vous portez une armure l&eacute;g&egrave;re ou
+      interm&eacute;diaire, vous ignorez le <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage"><em>d&eacute;savantage</em></a>
+      en Discr&eacute;tion qu'impose votre armure.</li>
+
+      </ul>
+
+      <p>&nbsp;</p>
+
+      <p>Si vous changez d'armure, cela ne modifie pas le nombre d'utilisation
+      de cette aptitude depuis votre dernier repos, mais seulement le nombre
+      maximum d'utilisation &agrave; votre disposition. Par exemple, si vous
+      avez d&eacute;j&agrave; b&eacute;n&eacute;fici&eacute; une fois de la
+      r&eacute;sistance, vous ne pouvez plus l'utiliser en armure
+      l&eacute;g&egrave;re ou interm&eacute;diaire, mais vous pouvez encore
+      l'utiliser une fois si vous rev&ecirc;tez une armure lourde.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685015
+  modifiedTime: 1663923685015
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!eektivWWTtI5NGwf'
+

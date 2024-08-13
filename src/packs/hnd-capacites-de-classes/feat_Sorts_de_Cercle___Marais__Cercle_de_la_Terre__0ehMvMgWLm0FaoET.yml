@@ -1,0 +1,175 @@
+_id: 0ehMvMgWLm0FaoET
+name: Sorts de Cercle - Marais [Cercle de la Terre]
+type: feat
+flags:
+  core:
+    sourceId: Item.IDbfQf9zUj8BGKug
+img: icons/magic/earth/projectile-spiked-stone-boulder-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-de-cercle" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size:
+      13px;"><strong>Sorts de cercle Marais</strong></h3>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">Votre connexion mystique
+      avec la terre vous donne la capacit&eacute; de lancer certains sorts. Aux
+      niveaux 3, 5, 7 et 9, vous avez acc&egrave;s &agrave; des sorts de cercles
+      li&eacute;s au type de terrain sur lequel vous &ecirc;tes devenu
+      druide.</p>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">Une fois que vous avez
+      appris un sort de cercle, il est toujours consid&eacute;r&eacute; comme
+      pr&eacute;par&eacute; et il n'est pas comptabilis&eacute; dans le nombre
+      de sorts que vous pouvez pr&eacute;parer chaque jour. Si vous apprenez un
+      sort qui n'appara&icirc;t pas dans la liste de&nbsp;<a style="box-sizing:
+      border-box; user-select: text;"
+      href="https://5e-drs.fr/grimoire/?classes=Druide">sorts de druide</a>,
+      consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">&nbsp;</p>
+
+      <table style="box-sizing: border-box; user-select: text; width: 365px;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;">
+
+      <thead style="box-sizing: border-box; user-select: text;">
+
+      <tr style="box-sizing: border-box; user-select: text;">
+
+      <th style="box-sizing: border-box; user-select: text; width: 106px;">Niv.
+      de druide</th>
+
+      <th style="box-sizing: border-box; user-select: text; width: 256px;">Sorts
+      de cercle</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody style="box-sizing: border-box; user-select: text;">
+
+      <tr style="box-sizing: border-box; user-select: text;">
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      104px;">3</td>
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.L9pWoGutjW5Akyew]{Fl&egrave;che
+      acide}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.TBsdGDXARb1901Ko]{T&eacute;n&egrave;bres}</td>
+
+      </tr>
+
+      <tr style="box-sizing: border-box; user-select: text;">
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      104px;">5</td>
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.J3j8fZnbaGhwKcX0]{Marche
+      sur l'eau}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.GvN5vk3gT6KsDPfK]{Nuage
+      puant}</td>
+
+      </tr>
+
+      <tr style="box-sizing: border-box; user-select: text;">
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      104px;">7</td>
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB]{Libert&eacute;
+      de mouvement}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.7m19tw5dc8ZdhUfE]{Localiser
+      une cr&eacute;ature}</td>
+
+      </tr>
+
+      <tr style="box-sizing: border-box; user-select: text;">
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      104px;">9</td>
+
+      <td style="box-sizing: border-box; user-select: text; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.oE6gSp6l5nACXV0T]{Fl&eacute;au
+      d'insectes}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.eoMkYpz6D0XcuqZ7]{Scrutation}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685144
+  modifiedTime: 1663923685995
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.IDbfQf9zUj8BGKug
+  duplicateSource: null
+_key: '!items!0ehMvMgWLm0FaoET'
+

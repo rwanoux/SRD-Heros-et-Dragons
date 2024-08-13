@@ -1,0 +1,132 @@
+_id: ifq2EljvkUAbzzzp
+name: Anneau de vision aux rayons X
+type: equipment
+img: icons/equipment/finger/ring-eye-silver-green.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p style="font-style: normal; font-weight: normal; widows: 2; orphans:
+      2;"><span style="font-family: Roboto, sans-serif;"><span style="font-size:
+      small;">Vous pouvez utiliser une action pour prononcer le mot de commande
+      de cet anneau. Une fois celui-ci prononcé, vous pouvez voir dans et à
+      travers la matière solide pendant 1 minute. Le rayon de cette vision
+      s'étend sur 9 mètres. Pour vous, les objets solides à l'intérieur de ce
+      rayon paraissent transparents et ne bloquent pas la lumière. La vision
+      peut traverser 30 centimètres de pierre, 3 centimètres de métal ordinaire
+      ou jusqu'à 1 mètre de bois ou de terre. Les substances plus épaisses
+      bloquent la vision, tout comme une fine couche de plomb.</span></span></p>
+
+      <p style="margin-bottom: 0cm; border: none; padding: 0cm; widows: 2;
+      orphans: 2;"><span style="font-family: Roboto, sans-serif;"><span
+      style="font-size: small;"><span style="font-style: normal;"><span
+      style="font-weight: normal;">Chaque fois que vous utilisez l'anneau à
+      nouveau avant de prendre un repos long, vous devez réussir
+      un&nbsp;</span></span></span></span><a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde"><span
+      style="text-decoration: none;"><span style="font-family: Roboto,
+      sans-serif;"><span style="font-size: small;"><span style="font-style:
+      normal;"><span style="font-weight: normal;"><span style="background:
+      transparent;">jet de
+      sauvegarde</span></span></span></span></span></span></a><span
+      style="font-family: Roboto, sans-serif;"><span style="font-size:
+      small;"><span style="font-style: normal;"><span style="font-weight:
+      normal;">&nbsp;de Constitution DD 15 pour ne pas être affublé d'un niveau
+      d'</span></span></span></span><a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#fatigue-et-epuisement"><span
+      style="text-decoration: none;"><span style="font-family: Roboto,
+      sans-serif;"><span style="font-size: small;"><span style="font-style:
+      normal;"><span style="font-weight: normal;"><span style="background:
+      transparent;">épuisement</span></span></span></span></span></span></a><span
+      style="font-family: Roboto, sans-serif;"><span style="font-size:
+      small;"><span style="font-style: normal;"><span style="font-weight:
+      normal;">.</span></span></span></span></p>
+
+      <p style="widows: 2; orphans: 2;">Harmonisation requise.</p>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 6000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 9
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 15
+    scaling: flat
+  armor:
+    value: 0
+    type: trinket
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701329
+  modifiedTime: 1663923702868
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ifq2EljvkUAbzzzp'
+

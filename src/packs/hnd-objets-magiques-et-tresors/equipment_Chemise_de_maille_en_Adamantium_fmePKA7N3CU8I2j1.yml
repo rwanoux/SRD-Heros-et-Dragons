@@ -1,0 +1,104 @@
+_id: fmePKA7N3CU8I2j1
+name: Chemise de maille en Adamantium
+type: equipment
+img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+system:
+  description:
+    value: >-
+      <p style="widows: 2; orphans: 2;"><span style="font-family: Roboto,
+      sans-serif;"><span style="font-size: small;"><span style="font-style:
+      normal;"><span style="font-weight: normal;">Cette armure est
+      renforc&eacute;e &agrave; base d'adamantium, l'une des substances les plus
+      solides au monde. Tant que vous la portez, tous les coups critiques
+      r&eacute;ussis contre vous se muent en coups normaux.
+      </span></span></span></span></p>
+    chat: ''
+    unidentified: ''
+    type: String
+    label: Description
+  source: Cadre de campagne
+  quantity: 1
+  weight: 10
+  price: 550
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 13
+    type: medium
+    dex: 2
+    label: Armor Value
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: chainshirt
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  stealth: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701315
+  modifiedTime: 1663923702809
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!fmePKA7N3CU8I2j1'
+

@@ -1,0 +1,115 @@
+_id: r6DtrNOAP5npvjdQ
+name: Sens sauvages [Rôdeur]
+type: feat
+img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="sens-sauvages"><strong>Sens sauvages</strong></h3>
+
+      <p>Au niveau 18, vous gagnez des sens surnaturels qui vous aident &agrave;
+      combattre les cr&eacute;atures que vous ne pouvez pas voir. Quand vous
+      attaquez une cr&eacute;ature que vous ne pouvez pas voir, le fait de ne
+      pas la voir ne vous impose pas de&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;sur
+      vos jets d'attaque contre cette cr&eacute;ature.</p>
+
+      <p>Vous arrivez aussi &agrave; percevoir l'endroit o&ugrave; se trouve
+      toute cr&eacute;ature&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible">invisible</a>&nbsp;dans
+      un rayon de 9 m&egrave;tres autour de vous, dans la mesure o&ugrave; elle
+      n'est pas cach&eacute;e et que vous n'&ecirc;tes ni&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle">aveugl&eacute;</a>&nbsp;ni&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#assourdi">assourdi</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685643
+  modifiedTime: 1678414131129
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!r6DtrNOAP5npvjdQ'
+

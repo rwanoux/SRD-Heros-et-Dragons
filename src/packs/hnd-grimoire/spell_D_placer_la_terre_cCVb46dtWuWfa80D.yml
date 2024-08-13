@@ -1,0 +1,140 @@
+_id: cCVb46dtWuWfa80D
+name: Déplacer la terre
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/air/fog-gas-smoke-brown.webp
+system:
+  description:
+    value: >-
+      <p>Choisissez une zone de terrain à portée d'au maximum 12 mètres de côté.
+      Vous pouvez remodeler la terre, le sable ou l'argile qu'elle comporte
+      comme bon vous semble pendant toute la durée du sort. Vous pouvez
+      augmenter ou diminuer l'altitude de la zone, creuser ou combler une
+      tranchée, ériger ou abattre un mur, ou former un pilier. L'amplitude de
+      ces modifications ne peut pas excéder la moitié de la dimension la plus
+      importante de la zone affectée. Donc, si vous modifiez une zone de 12
+      mètres de côté, vous pouvez créer un pilier de 6 mètres de haut au
+      maximum, modifier l'altitude de la zone de 6 mètres au plus, creuser une
+      tranchée d'un maximum de 6 mètres de profondeur, etc. Il faut 10 minutes
+      pour finaliser ces modifications.</p>
+
+      <p>Au bout de chaque période de 10 minutes passées à vous concentrer sur
+      le sort, vous pouvez choisir une nouvelle zone de terrain à modifier.
+      Comme les transformations se produisent lentement, il est bien rare qu'une
+      créature se retrouve piégée ou blessée à cause des mouvements du
+      terrain.</p>
+
+      <p>Ce sort est incapable de manipuler la pierre naturelle et les
+      constructions de pierre. La roche et les structures s'adaptent au nouvel
+      agencement du terrain. Si vos modifications déstabilisent une structure,
+      elle peut très bien s'effondrer.</p>
+
+      <p>De même, le sort n'affecte pas directement la croissance des plantes.
+      La terre déplacée emporte les végétaux avec elle.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 2
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 6
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      Une lame de fer et un petit sac contenant un mélange de terres : de
+      l'argile, du terreau et du sable
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688123
+  modifiedTime: 1663923689151
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!cCVb46dtWuWfa80D'
+

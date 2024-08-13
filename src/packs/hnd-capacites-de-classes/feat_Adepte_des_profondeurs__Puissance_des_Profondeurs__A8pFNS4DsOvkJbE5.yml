@@ -1,0 +1,103 @@
+_id: A8pFNS4DsOvkJbE5
+name: Adepte des profondeurs [Puissance des Profondeurs]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/commodities/stone/stone-meterorite-glowing-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="adepte-des-profondeurs"><strong>Adepte des
+      profondeurs</strong></h3>
+
+      <p>Au niveau 1, lorsque vous tissez un lien spirituel avec votre
+      protecteur, cela affecte &agrave; jamais votre fa&ccedil;on de voir le
+      monde et votre sant&eacute; mentale. D&eacute;sormais, vous &ecirc;tes
+      &agrave; votre aise dans les souterrains et les profondeurs abyssales,
+      mais vous craignez l'air libre et la lumi&egrave;re du jour. Lorsque vous
+      &ecirc;tes en plein air et que rien ne vous cache le ciel et la
+      lumi&egrave;re du soleil, par exemple par beau temps en montagne ou en
+      plaine, vous subissez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;&agrave;
+      vos tests d'Intelligence (Investigation), Sagesse (Perception) et Charisme
+      (Persuasion). Porter un chapeau &agrave; large bord ou une capuche permet
+      d'annuler cet effet.</p>
+
+      <p>&Agrave; l'inverse, de nuit ou tant que vous &ecirc;tes sous terre ou
+      sous l'eau, vous b&eacute;n&eacute;ficiez d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      &agrave; ces tests. Les environnements prot&eacute;g&eacute;s de la
+      lumi&egrave;re du ciel (b&acirc;timent, for&ecirc;t, pleine nuit, ciel
+      nuageux) ne vous affectent ni de fa&ccedil;on positive ni de fa&ccedil;on
+      n&eacute;gative.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685223
+  modifiedTime: 1663923686291
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!A8pFNS4DsOvkJbE5'
+

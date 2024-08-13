@@ -1,0 +1,115 @@
+_id: HWdsOHS2BpQyVjXk
+name: Attaque en Meute
+type: feat
+flags:
+  _sheetTab: ''
+  obsidian:
+    source:
+      type: other
+    effects: []
+    version: 7
+img: icons/skills/melee/blade-tips-triple-steel.webp
+system:
+  description:
+    value: >-
+      <p><strong>Attaque en meute.&nbsp;</strong>Une fois par tour, si le
+      gobelin blanc attaque une créature qui a déjà été attaquée par un autre
+      gobelin blanc à ce round, il obtient au choix un avantage en attaque ou un
+      bonus de 1d6 aux dégâts (du même type que l'arme utilisée).</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: ''
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: ''
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: ''
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: null
+  damageType:
+    value: ''
+    _deprecated: null
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698787
+  modifiedTime: 1663923699457
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!HWdsOHS2BpQyVjXk'
+

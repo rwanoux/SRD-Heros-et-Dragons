@@ -1,0 +1,146 @@
+_id: bvRksmepD9SBn5fv
+name: Boule de feu
+type: spell
+flags:
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
+system:
+  description:
+    value: >-
+      <p>Une traînée luisante part de votre doigt tendu et file vers un point de
+      votre choix situé à portée et dans votre champ de vision, où elle explose
+      dans une gerbe de flammes grondantes. Chaque créature située dans une
+      sphère de 6 mètres de rayon centrée sur ce point doit faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. Celles qui échouent subissent 8d6 dégâts
+      de feu, les autres la moitié seulement.</p>
+
+      <p>Le feu s'étend en contournant les angles. Il embrase les objets
+      inflammables de la zone, à moins que quelqu'un ne les porte ou ne les
+      transporte.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 4 ou supérieur, les dégâts augmentent
+      de 1d6 par niveau au-delà du niveau 3.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: sphere
+    range:
+      value: '45'
+      unit: mètres
+  range:
+    value: 45
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 8d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 3
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Une petite boule de guano de chauve-souris et du soufre
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923688120
+  modifiedTime: 1678423283715
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!bvRksmepD9SBn5fv'
+

@@ -1,0 +1,90 @@
+_id: gzpnB3ld30evSyjj
+name: Magie Féerique [Lignée féerique]
+type: feat
+flags: {}
+img: icons/magic/fire/explosion-fireball-medium-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="magie-feerique"><strong>Magie f&eacute;erique&nbsp;</strong></h3>
+
+      <p>La magie des f&eacute;es est subtile et adaptable, vous apprenez une
+      option de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qtQNJ14cIFC2f6nr]{M&eacute;tamagie
+      [Ensorceleur]} suppl&eacute;mentaire au niveau 6. De plus, vous gagnez 1
+      point de sorcellerie suppl&eacute;mentaire si vous connaissez au moins
+      quatre sorts d'ensorceleur issus des &eacute;coles d'illusion ou
+      d'enchantement. &Agrave; partir de huit sorts, vous gagnez 1 nouveau point
+      de sorcellerie suppl&eacute;mentaire pour un total de 2 et si vous
+      connaissez douze sorts d'ensorceleur, issus des &eacute;coles d'illusion
+      ou d'enchantement, vous gagnez encore un point de plus pour un total de 3
+      points de sorcellerie suppl&eacute;mentaires.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685567
+  modifiedTime: 1663923687306
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!gzpnB3ld30evSyjj'
+

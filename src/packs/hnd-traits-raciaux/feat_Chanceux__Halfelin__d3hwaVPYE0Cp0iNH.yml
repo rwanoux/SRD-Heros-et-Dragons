@@ -1,0 +1,90 @@
+_id: d3hwaVPYE0Cp0iNH
+name: Chanceux (Halfelin)
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+system:
+  description:
+    value: >-
+      <p><strong>Chanceux</strong>. Quand vous faites un 1 avec le d20
+      d'un&nbsp;<a href="https://5e-drs.fr/combattre/#jets-d-attaque">jet
+      d'attaque</a>, d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+      de caractéristique</a>&nbsp;ou d'un jet de sauvegarde, vous pouvez
+      relancer le dé. Mais vous devez utiliser le nouveau résultat du jet.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Halfelin
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698205
+  modifiedTime: 1663923698531
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!d3hwaVPYE0Cp0iNH'
+

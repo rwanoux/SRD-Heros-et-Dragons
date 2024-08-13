@@ -1,0 +1,92 @@
+name: Absorption de la Magie
+type: feat
+flags: {}
+img: icons/creatures/abilities/fang-tooth-venomous.webp
+_id: iXQE4clnnWN0a3eM
+system:
+  description:
+    value: >-
+      <p><strong>Absorption de la magie.</strong> Attaque de corps à corps sur
+      une cible. Allonge 1,50 m. Dégâts perçants et la créature s'ancre à sa
+      cible avec son rostre en inoculant une substance salivaire anesthésiante
+      qui rend sa morsure totalement indolore. Si la cible n'est pas consciente
+      de la présence de la créature, elle doit réussir un jet de Sagesse pour
+      ressentir la morsure. Une fois accroché, la créature absorbe à la cible un
+      emplacement de sort du plus haut niveau disponible à chaque round. La
+      créature se détache généralement après avoir absorbé 1d4+1 emplacements de
+      sorts ou si la cible n'a plus d'emplacement de sorts à absorber. Il peut
+      se détacher en utilisant 1,50 mètre sur son déplacement. La victime de la
+      créature ou toute autre créature peut également détacher le parasite en
+      utilisant une action mais, en s'arrachant, le rostre occasionne à nouveau
+      des dégâts perçants.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d4+2
+        - piercing
+    versatile: ''
+  formula: 1d4+1
+  save:
+    ability: wis
+    dc: 15
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698948
+  modifiedTime: 1663923700123
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!iXQE4clnnWN0a3eM'
+

@@ -1,0 +1,99 @@
+_id: A383dnUB9erolbpn
+name: Maître l'ombre [Ombrelame]
+type: feat
+flags: {}
+img: icons/magic/lightning/orb-ball-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="maitre-de-l-ombre"><strong>Ma&icirc;tre de l'ombre</strong></h3>
+
+      <p>Au niveau 17, vous pouvez d&eacute;penser 5 points de sorcellerie pour
+      lancer un des sorts suivants :</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.yg0YV4fHAAmveOYv]{Apparence
+      trompeuse}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.8VlAj4eTdiETdsJy]{Passage
+      dimensionnel}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.3O9ay2RHO37HnHr2]{Tromperie}</li>
+
+      </ul>
+
+      <p>Vous devez terminer un repos court avant de pouvoir &agrave; nouveau
+      lancer un sort de cette liste.</p>
+
+      <p>Enfin, vous pouvez b&eacute;n&eacute;ficier de votre aptitude
+      &eacute;nergie de l'ombre une seconde fois entre deux repos longs.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 5
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685223
+  modifiedTime: 1663923686289
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!A383dnUB9erolbpn'
+

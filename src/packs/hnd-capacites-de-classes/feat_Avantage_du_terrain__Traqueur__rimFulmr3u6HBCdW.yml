@@ -1,0 +1,102 @@
+_id: rimFulmr3u6HBCdW
+name: Avantage du terrain [Traqueur]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/earth/volcano-explosion-lava-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="avantage-du-terrain"><strong>Avantage du terrain</strong></h3>
+
+      <p>Au niveau 7 et par la suite, lorsque vous &ecirc;tes sur un terrain de
+      pr&eacute;dilection, vous obtenez les b&eacute;n&eacute;fices
+      suppl&eacute;mentaires suivants :</p>
+
+      <ul>
+
+      <li>Votre groupe ne peut plus &ecirc;tre&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#surpris">surpris</a>&nbsp;(sauf
+      si vous en d&eacute;cidez autrement).</li>
+
+      <li>Vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;en
+      initiative.</li>
+
+      <li>Vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      &agrave; tous vos tests de Force (Athl&eacute;tisme) et de
+      Dext&eacute;rit&eacute; (Discr&eacute;tion).</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685647
+  modifiedTime: 1663923687574
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rimFulmr3u6HBCdW'
+

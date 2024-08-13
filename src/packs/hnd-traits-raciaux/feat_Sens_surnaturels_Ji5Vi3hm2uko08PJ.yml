@@ -1,0 +1,99 @@
+name: Sens surnaturels
+type: feat
+flags:
+  dynamiceffects:
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.skills.prc.value
+        value: '1'
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: P9TuE1wz8PO6RCBg
+        active: false
+        _targets: []
+    equipActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.jvrcVKQRRmcFIkn2
+img: icons/magic/nature/stealth-hide-eyes-green.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify"><strong>Sens surnaturels</strong>. Vos sens
+      elfiques aiguisés le sont encore plus par le pouvoir de la mort et la faim
+      qui vous habite. Vous pouvez maintenant sentir la présence de sang dans
+      l'air. </p><p style="text-align:justify">Vous maîtrisez la compétence
+      Perception, et vous avez l'avantage aux tests de Sagesse (Perception) pour
+      remarquer ou trouver une créature à moins de 9 m de vous qui ne dispose
+      pas de tous ses points de vie.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elfe
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+  MB7dftOsMOjK5aEw: 3
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923698212
+  modifiedTime: 1680508479640
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.jvrcVKQRRmcFIkn2
+  duplicateSource: null
+folder: null
+sort: 0
+_id: Ji5Vi3hm2uko08PJ
+_key: '!items!Ji5Vi3hm2uko08PJ'
+

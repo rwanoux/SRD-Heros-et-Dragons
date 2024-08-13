@@ -1,0 +1,83 @@
+name: Surface Glacée
+type: feat
+flags: {}
+img: icons/magic/water/snowflake-ice-snow-white.webp
+_id: 2zuzRMVsQeZaLBzw
+system:
+  description:
+    value: >-
+      <p><strong>Surface glacée.</strong> Le dragon créé une surface glacée de 6
+      mètres de côté dans sa ligne de vue et à moins de 36 mètres de sa position
+      actuelle. Toute créature qui débute son tour dans cette zone doit réussir
+      un jet de sauvegarde de Dextérité ou se retrouver à terre. Chaque mètre de
+      déplacement sur cette surface coûte un mètre supplémentaire. La glace fond
+      si le dragon meurt ou utilise à nouveau une action d'antre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppostions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: cube
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: str
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Blanc (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698733
+  modifiedTime: 1663923699227
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2zuzRMVsQeZaLBzw'
+

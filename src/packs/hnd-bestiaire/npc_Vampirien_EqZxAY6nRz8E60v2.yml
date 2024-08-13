@@ -1,0 +1,1549 @@
+_id: EqZxAY6nRz8E60v2
+name: Vampirien
+type: npc
+img: systems/dnd5e/tokens/undead/VampireSpawn.webp
+items:
+  - _id: 2NG5vDSVFyhokpft
+    name: Faiblesses des vampires
+    type: feat
+    sort: 100000
+    flags:
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/skills/wounds/injury-hand-blood-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Faiblesses des vampires. </strong>Voici les faiblesses du
+          vampirien :</p>
+
+          <ul>
+
+          <li>Défense d'entrer. Il ne peut pas entrer dans une habitation sans y
+          avoir été invité par l'un de ses occupants.</li>
+
+          <li>Blessé par l'eau courante. Il subit 20 dégâts d'acide s'il termine
+          son tour dans de l'eau courante.</li>
+
+          <li>Pieu dans le cœur. Il est détruit si une arme perforante en bois
+          est plantée dans son coeur pendant qu'il est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisé</a>&nbsp;dans
+          son refuge.</li>
+
+          <li>Hypersensibilité à la lumière du soleil. Il subit 20 dégâts
+          radiants quand il commence son tour exposé à la lumière du soleil. Le
+          cas échéant, il subit un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>&nbsp;lors
+          des jets d'attaque et des&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">tests
+          de caractéristique</a>.</li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Vampirien
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.2NG5vDSVFyhokpft'
+  - _id: AlsS2YzzvyO8jfqn
+    name: Pattes d'araignée
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: ''
+    img: icons/creatures/invertebrates/spider-beetle-runed-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Pattes d'araignée.</strong>&nbsp;Le vampirien peut
+          escalader les surfaces difficiles, y compris les plafonds la tête en
+          bas, sans qu'un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+          de caractéristique</a> ne soit nécessaire.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Vampirien
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.AlsS2YzzvyO8jfqn'
+  - _id: TYqEWOi1KDvFq0R8
+    name: Régénération
+    type: feat
+    sort: 300000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Régénération.</strong> Le vampirien récupère 10 points de
+          vie au début de son tour s'il lui reste au moins 1 point de vie et
+          s'il n'est ni exposé à la lumière du soleil ni immergé dans de l'eau
+          courante. S'il subit des dégâts radiants ou des dégâts infligés par de
+          l'eau bénite, ce trait ne fonctionne pas au début du prochain tour du
+          vampirien.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Vampirien
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.TYqEWOi1KDvFq0R8'
+  - _id: 1SVXTOPVLmC8rJQo
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le vampirien effectue
+          deux attaques et l'une d'elles seulement peut être une attaque de
+          morsure.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Vampirien
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.1SVXTOPVLmC8rJQo'
+  - _id: hW6aiFZjm0hmIBvk
+    name: Griffes
+    type: weapon
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +6 pour toucher, allonge 1,50 m, une créature.</p>
+
+          <p>Touché&nbsp;: 8 (2d4+3) dégâts tranchants. Au lieu d'infliger des
+          dégâts, le vampirien peut empoigner la cible (évasion DD 13).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d4+ @mod
+            - slashing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.hW6aiFZjm0hmIBvk'
+  - _id: JB8aisd840WImOcn
+    name: Morsure
+    type: weapon
+    sort: 600000
+    flags:
+      _sheetTab: ''
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Morsure.&nbsp;</strong>Attaque d'arme au corps à corps : +6
+          pour toucher, allonge 1,50 m, une créature consentante ou une créature
+          <a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisée</a>,&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée</a>&nbsp;ou&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>&nbsp;par
+          le vampirien.&nbsp;Touché&nbsp;: 6 (1d6+3) dégâts perforants plus 7
+          (2d6) dégâts nécrotiques. Le total maximum de points de vie de la
+          cible est réduit d'un montant égal aux dégâts nécrotiques subis et le
+          vampirien récupère un nombre de points de vie égal à ce montant. La
+          réduction persiste jusqu'au moment où la cible termine une période de
+          repos long. La cible meurt si l'effet réduit à 0 son total maximum de
+          points de vie.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d6 + @mod
+            - piercing
+          - - 2d6
+            - necrotic
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!EqZxAY6nRz8E60v2.JB8aisd840WImOcn'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 3
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 3
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 3
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    dex:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 3
+      save: 6
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    int:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    wis:
+      value: 10
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 0
+      save: 3
+      prof: 3
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    cha:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+  attributes:
+    ac:
+      flat: 15
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 82
+      max: 82
+      temp: 0
+      tempmax: 0
+      formula: 11d8+33
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 3
+      prof: 0
+      total: 3
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 18
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 13
+    spellcasting: int
+    prof: 3
+    spelldc: 11
+    encumbrance:
+      value: 0
+      max: 120
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Faiblesses des vampires</em></strong>. Voici les
+        faiblesses du vampirien :</p>
+
+        <ul>
+
+        <li><em>Défense d'entrer</em>. Il ne peut pas entrer dans une habitation
+        sans y avoir été invité par l'un de ses occupants.</li>
+
+        <li><em>Blessé par l'eau courante</em>. Il subit 20 dégâts d'acide s'il
+        termine son tour dans de l'eau courante.</li>
+
+        <li><em>Pieu dans le cœur</em>. Si une arme perforante en bois est
+        plantée dans son cœur pendant qu'il est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisé</em></a>
+        dans son refuge, il est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#paralysé"><em>paralysé</em></a>
+        tant que le pieu n'est pas retiré.</li>
+
+        <li><em>Hypersensibilité à la lumière du soleil</em>. Il subit 20 dégâts
+        radiants quand il commence son tour exposé à la lumière du soleil. Le
+        cas échéant, il subit un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+        lors des jets d'attaque et des tests de caractéristique.</li>
+
+        </ul>
+
+        <p><strong><em>Pattes d'araignée</em></strong>. Le vampirien peut
+        escalader les surfaces difficiles, y compris les plafonds la tête en
+        bas, sans qu'un test de caractéristique ne soit nécessaire.</p>
+
+        <p><strong><em>Régénération</em></strong>. Le vampirien récupère 10
+        points de vie au début de son tour s'il lui reste au moins 1 point de
+        vie et s'il n'est ni exposé à la lumière du soleil ni immergé dans de
+        l'eau courante. S'il subit des dégâts radiants ou des dégâts infligés
+        par de l'eau bénite, ce trait ne fonctionne pas au début du prochain
+        tour du vampirien.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le vampirien effectue
+        deux attaques et l'une d'elles seulement peut être une attaque de
+        morsure.</p>
+
+        <p><strong><em>Griffes</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +6 pour toucher, allonge 1,50 m, une
+        créature.<br><em>Touché</em> : 8 (2d4+3) dégâts tranchants. Au lieu
+        d'infliger des dégâts, le vampirien peut empoigner la cible (évasion DD
+        13).</p>
+
+        <p><strong><em>Morsure</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +6 pour toucher, allonge 1,50 m, une créature consentante
+        ou une créature <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>,
+        <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+        ou <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoigné"><em>empoignée</em></a>
+        par le vampirien. <em>Touché</em> : 6 (1d6+3) dégâts perforants plus 7
+        (2d6) dégâts nécrotiques. Le total maximum de points de vie de la cible
+        est réduit d'un montant égal aux dégâts nécrotiques subis et le
+        vampirien récupère un nombre de points de vie égal à ce montant. La
+        réduction persiste jusqu'au moment où la cible termine une période de
+        repos long. La cible meurt si l'effet réduit à 0 son total maximum de
+        points de vie.</p>
+      public: ''
+    alignment: Neutre Mauvais
+    race: ''
+    type:
+      value: undead
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 5
+    spellLevel: 5
+    source: Créatures & Oppositions
+    xp:
+      value: 1800
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - necrotic
+        - piercing
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: celles qu'il connaissait de son vivant
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 3
+      total: 3
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 3
+      total: 6
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 2
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Vampirien
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/tokens/undead/VampireSpawn.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690227
+  modifiedTime: 1663923694844
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!EqZxAY6nRz8E60v2'
+

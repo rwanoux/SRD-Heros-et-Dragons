@@ -1,0 +1,131 @@
+_id: lfaSmGj3KoERWwTf
+name: Brûlure du juste
+type: spell
+flags: {}
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Votre arme se met à briller d'une lumière intense de pure radiance.
+      Elle émet une lumière vive dans un rayon de 4,50 mètres et une lumière
+      faible sur 4,50 mètres supplémentaires. La lumière est semblable à la
+      lumière du soleil.</p>
+
+      <p>À chaque fois que vous blessez une créature avec cette arme pendant la
+      durée du sort, elle émet un violent flash lumineux qui inflige 1d6 dégâts
+      radiants à tous vos adversaires dans un rayon de 1,50 mètre autour de vous
+      et double momentanément le rayon d'illumination de l'arme. Les créatures
+      affectées peuvent faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution pour ignorer les dégâts. Les
+      morts-vivants subissent 2d6 points de dégâts et la moitié seulement en cas
+      de <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> réussi.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts
+      augmentent de 1d6 pour chaque niveau au-delà du niveau 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: sphere
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6
+        - radiant
+    versatile: 2d6 sur morts-vivants
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: evo
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688179
+  modifiedTime: 1663923689340
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!lfaSmGj3KoERWwTf'
+

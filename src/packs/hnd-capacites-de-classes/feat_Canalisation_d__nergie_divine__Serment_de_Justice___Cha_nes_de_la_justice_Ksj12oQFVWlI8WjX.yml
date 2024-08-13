@@ -1,0 +1,130 @@
+name: Canalisation d'énergie divine [Serment de Justice]  Chaînes de la justice
+type: feat
+flags:
+  core:
+    sourceId: Item.4FBpeM2tCD0uwRQa
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+img: icons/magic/light/beam-rays-yellow-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="canalisation-d-energie-divine-3"
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Friz, sans-serif"><strong>Canalisation d'énergie
+      divine</strong></span></span></h3><p
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span style="font-family:Friz,
+      sans-serif"><strong>Chaînes de la justice</strong>. </span></p><p
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span style="font-family:Friz, sans-serif">Vous
+      pouvez utiliser votre canalisation d'énergie divine pour lier votre cible
+      à vous. </span></p><p
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span style="font-family:Friz, sans-serif">Par
+      une action, vous étendez une ligne d'énergie vers une créature que vous
+      pouvez voir dans un rayon de 9 mètres autour de vous. Cette créature doit
+      réussir un jet de sauvegarde de Dextérité. </span></p><p
+      style="box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz,
+      sans-serif;font-size:13px"><span style="font-family:Friz, sans-serif">En
+      cas d'échec, elle est enchaînée et ne peut s'éloigner de vous de plus de 9
+      mètres. Tant qu'elle est enchaînée, la cible subit à la fin de chacun de
+      ses tours des dégâts de foudre égaux à votre modificateur de Charisme.
+      Vous pouvez utiliser votre action pour faire un test de Force opposé au
+      test de Force de la créature enchaînée. Sur une réussite, vous pouvez la
+      tirer jusqu'à 4,5 mètres vers vous en ligne droite.</span></p><p><span
+      style="font-family:Friz, sans-serif">La créature enchaînée peut utiliser
+      son action pour tenter de se libérer par un test de Force contre votre DD
+      de sauvegarde de sorts. Sur une réussite, elle rompt le lien.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@abilities.cha.mod'
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685283
+  modifiedTime: 1678424269922
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.4FBpeM2tCD0uwRQa
+  duplicateSource: null
+folder: null
+sort: 0
+_id: Ksj12oQFVWlI8WjX
+_key: '!items!Ksj12oQFVWlI8WjX'
+

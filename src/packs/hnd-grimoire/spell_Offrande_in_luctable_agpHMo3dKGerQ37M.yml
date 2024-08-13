@@ -1,0 +1,124 @@
+_id: agpHMo3dKGerQ37M
+name: Offrande inéluctable
+type: spell
+flags: {}
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  description:
+    value: >-
+      <p>Une créature vivante à portée et dans votre champ de vision doit
+      réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse sous peine de se sentir soudainement obligée
+      de vous donner ce qu'elle tient au moment où vous lancez le sort. Dès son
+      tour, la cible se rapproche aussi près que possible de vous et vous tend
+      l'objet. Pour toute la durée du sort, la cible fait en sorte de protéger
+      l'objet qu'elle doit vous donner et ne peut donc pas s'en servir pour
+      attaquer ni pour se défendre et subit par ailleurs d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      sur ses jets d'attaques.</p>
+
+      <p>Le sort prend fin si vous ou vos alliés blessez la cible ou lui lancez
+      un sort néfaste, ou si vous vous trouvez au-delà de la portée du sort.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 2
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688073
+  modifiedTime: 1663923689058
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!agpHMo3dKGerQ37M'
+

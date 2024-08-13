@@ -1,0 +1,135 @@
+_id: Isc5VZPyWaLUtuAl
+name: Déguisement
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous faites en sorte que votre personne (y compris vos vêtements, votre
+      armure, vos armes et les autres objets en votre possession) prenne une
+      apparence différente jusqu'à la fin du sort ou jusqu'à ce que vous
+      utilisiez une action pour y mettre un terme. Vous pouvez passer pour une
+      personne de 30 centimètres de plus ou de moins, sembler gros, maigre ou
+      entre les deux. Vous ne pouvez pas changer de morphologie, vous devez
+      choisir une forme possédant la même conformation que vous au niveau des
+      membres. En dehors de cela, les détails de l'illusion sont laissés à votre
+      imagination.</p>
+
+      <p>Les changements qu'apporte le sort ne résistent pas à un examen
+      physique. Par exemple, si vous l'utilisez pour ajouter un chapeau à votre
+      tenue, les objets passent au travers et toute personne qui essaie de le
+      toucher ne sentira que de l'air, ou des cheveux et un crâne. Si vous
+      utilisez le sort pour paraître plus mince qu'en réalité, la main de
+      quelqu'un qui tente de vous toucher se heurtera à vous alors que,
+      visuellement, elle semble encore dans le vide.</p>
+
+      <p>Pour percer votre déguisement à jour, une créature peut dépenser une
+      action pour vous examiner. Elle doit alors réussir un test d'Intelligence
+      (Investigation) contre le DD du <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> du sort.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688005
+  modifiedTime: 1663923688794
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Isc5VZPyWaLUtuAl'
+

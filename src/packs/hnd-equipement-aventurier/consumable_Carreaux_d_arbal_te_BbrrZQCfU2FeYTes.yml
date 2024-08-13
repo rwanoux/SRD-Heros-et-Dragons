@@ -1,0 +1,86 @@
+_id: BbrrZQCfU2FeYTes
+name: Carreaux d'arbalète
+type: consumable
+img: icons/weapons/ammunition/arrows-bodkin-yellow-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Cette munition, utilisée par les arbalètes, est généralement faite
+      d'une tige en métal avec une pointe acérée.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  quantity: 20
+  weight: 0.037
+  price: 1
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - ''
+        - piercing
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: ammo
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700562
+  modifiedTime: 1663923700562
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!BbrrZQCfU2FeYTes'
+

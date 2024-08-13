@@ -1,0 +1,1602 @@
+_id: C28aQE3GNDOhgxU8
+name: Fantôme
+type: npc
+img: systems/dnd5e/tokens/undead/Ghost.webp
+items:
+  - _id: tdlFw7NR8ydRcJLH
+    name: Déplacement Intangible
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/air/air-wave-gust-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Déplacement intangible.</strong>&nbsp;Le fantôme peut
+          traverser créatures et objets en les considérant comme un terrain
+          difficile. Il subit 5 (1d10) dégâts de force s'il termine son tour à
+          l'intérieur d'un objet.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Fantôme
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.tdlFw7NR8ydRcJLH'
+  - _id: oOQcAlHBGo3MwT68
+    name: Vision éthérée
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/perception/eye-tendrils-web-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Vision éthérée.</strong>&nbsp;Le fantôme peut voir jusqu'à
+          18 mètres dans le plan Éthéré depuis le plan Matériel et vice
+          versa.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Fantôme
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.oOQcAlHBGo3MwT68'
+  - _id: XleYlzINefLrczSF
+    name: Contact Flétrissant
+    type: weapon
+    sort: 300000
+    flags: {}
+    img: icons/magic/fire/flame-burning-hand-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Contact flétrissant.</strong>&nbsp;Attaque d'arme au corps
+          à corps&nbsp;: +5 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 17 (4d6+3) dégâts nécrotiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: cha
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6+@mod
+            - necrotic
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.XleYlzINefLrczSF'
+  - _id: naoCGUgtTBQot13I
+    name: Forme éthérée
+    type: feat
+    sort: 400000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/unholy/barrier-shield-glowing-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Forme éthérée.&nbsp;</strong>Le fantôme entre dans le plan
+          Éthéré depuis le plan Matériel, ou vice versa. Il est visible sur le
+          plan Matériel quand il est dans la Frontière éthérée et vice-versa,
+          mais il ne peut pas affecter et ne peut pas être affecté par quoi que
+          ce soit provenant de l'autre plan.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Fantôme
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.naoCGUgtTBQot13I'
+  - _id: 0jdHg2fpXbChOHZA
+    name: Possession
+    type: feat
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/nature/root-vine-thorned-fire-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Possession (Recharge 6).</strong>&nbsp;Un humanoïde ciblé
+          situé dans le champ de vision du fantôme et à 1,50 mètre ou moins de
+          lui doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Charisme DD 13 pour ne pas être possédé par
+          le mort-vivant ; le fantôme disparaît alors et la cible est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisée</a>&nbsp;et
+          perd le contrôle de son corps. Le fantôme contrôle désormais ce corps,
+          mais la cible reste consciente. Il est alors impossible de cibler le
+          fantôme avec une attaque, un sort ou un autre effet, à l'exception de
+          ceux qui renvoient les morts-vivants. Il conserve son alignement, son
+          Intelligence, sa Sagesse, son Charisme et ses immunités contre les
+          états spéciaux&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charmé</a>&nbsp;et&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisé</a>.
+          Pour le reste, il utilise les statistiques de la cible possédée mais
+          n'a pas accès à ses connaissances, à ses aptitudes de classe ni à ses
+          maîtrises.</p>
+
+          <p>La possession prend fin si le corps physique tombe à 0 point de
+          vie, si le fantôme y met un terme par une action bonus ou s'il est
+          renvoyé ou obligé d'abandonner le corps grâce à un effet produit par
+          un sort de&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien/">dissipation
+          du mal et du bien</a>, par exemple. Lorsque la possession prend fin,
+          le fantôme réapparaît dans un emplacement inoccupé situé à 1,50 mètre
+          ou moins du corps. La cible est immunisée contre le pouvoir de
+          possession de ce fantôme pendant les 24 heures qui suivent son&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;réussi ou l'interruption de la possession.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: cha
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: 13
+        scaling: flat
+        value: wis
+      type:
+        value: ''
+        subtype: ''
+      requirements: Fantôme
+      recharge:
+        value: 6
+        charged: true
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.0jdHg2fpXbChOHZA'
+  - _id: nlZIvrjCzCAkJgvA
+    name: Visage terrifiant
+    type: feat
+    sort: 600000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/death/projectile-skull-fire-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Visage terrifiant. </strong>Toutes les créatures, à
+          l'exception des morts-vivants, situées à 18 mètres ou moins du fantôme
+          et qui le voient doivent chacune réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Sagesse DD 13 pour ne pas être&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisées</a>
+          pendant 1 minute. Si le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;rate de 5 points ou plus, la cible vieillit
+          également de 1d4×10 ans. Une cible&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisée</a>&nbsp;peut
+          retenter le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;à la fin de chacun de ses tours et mettre fin à
+          l'effet dont elle est victime en cas de réussite. Si le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;d'une cible est réussi ou si l'effet prend fin,
+          la cible est immunisée aux effets du visage terrifiant de ce fantôme
+          pendant 24 heures. Il est possible d'inverser l'effet de
+          vieillissement grâce à un sort de&nbsp;<a
+          href="https://5e-drs.fr/grimoire/restauration-superieure/">restauration
+          supérieure</a>&nbsp;s'il est lancé dans les 24 heures suivantes.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositons
+      activation:
+        type: special
+        cost: 0
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: any
+        type: creature
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: 1d4 fois 10 ans de vieillesse
+      save:
+        ability: wis
+        dc: 13
+        scaling: flat
+        value: wis
+      type:
+        value: ''
+        subtype: ''
+      requirements: Fantôme
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!C28aQE3GNDOhgxU8.nlZIvrjCzCAkJgvA'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 7
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: -2
+      save: -2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 8
+    dex:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    wis:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    cha:
+      value: 17
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+  attributes:
+    ac:
+      flat: 11
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 45
+      max: 45
+      temp: 0
+      tempmax: 0
+      formula: 10d8
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 1
+      prof: 0
+      total: 1
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 12
+      swim: 0
+      walk: 0
+      units: m
+      hover: true
+    attunement:
+      max: 3
+    senses:
+      darkvision: 18
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 11
+    spellcasting: int
+    prof: 2
+    spelldc: 10
+    encumbrance:
+      value: 0
+      max: 52.5
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Déplacement intangible</em></strong>. Le fantôme peut
+        traverser créatures et objets en les considérant comme un terrain
+        difficile. Il subit 5 (1d10) dégâts de force s'il termine son tour à
+        l'intérieur d'un objet.</p>
+
+        <p><strong><em>Vision éthérée</em></strong>. Le fantôme peut voir
+        jusqu'à 18 mètres dans le plan Éthéré depuis le plan Matériel et vice
+        versa.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Contact flétrissant</em></strong>. <em>Attaque d'arme au
+        corps à corps</em> : +5 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 17 (4d6+3) dégâts nécrotiques.</p>
+
+        <p><strong><em>Forme éthérée</em></strong>. Le fantôme entre dans le
+        plan Éthéré depuis le plan Matériel, ou vice versa. Il est visible sur
+        le plan Matériel quand il est dans la Frontière éthérée et vice-versa,
+        mais il ne peut pas affecter et ne peut pas être affecté par quoi que ce
+        soit provenant de l'autre plan.</p>
+
+        <p><strong><em>Possession (Recharge 6)</em></strong>. Un humanoïde ciblé
+        situé dans le champ de vision du fantôme et à 1,50 mètre ou moins de lui
+        doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Charisme DD 13 pour ne pas être possédé par le
+        mort-vivant ; le fantôme disparaît alors et la cible est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>
+        et perd le contrôle de son corps. Le fantôme contrôle désormais ce
+        corps, mais la cible reste consciente. Il est alors impossible de cibler
+        le fantôme avec une attaque, un sort ou un autre effet, à l'exception de
+        ceux qui renvoient les morts-vivants. Il conserve son alignement, son
+        Intelligence, sa Sagesse, son Charisme et ses immunités contre les états
+        spéciaux <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#charmé"><em>charmé</em></a>
+        et <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#terrorisé"><em>terrorisé</em></a>.
+        Pour le reste, il utilise les statistiques de la cible possédée mais n'a
+        pas accès à ses connaissances, à ses aptitudes de classe ni à ses
+        maîtrises.<br>La possession prend fin si le corps physique tombe à 0
+        point de vie, si le fantôme y met un terme par une action bonus ou s'il
+        est renvoyé ou obligé d'abandonner le corps grâce à un effet produit par
+        un sort de <a
+        href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien"><em>dissipation
+        du mal et du bien</em></a>, par exemple. Lorsque la possession prend
+        fin, le fantôme réapparaît dans un emplacement inoccupé situé à 1,50
+        mètre ou moins du corps. La cible est immunisée contre le pouvoir de
+        possession de ce fantôme pendant les 24 heures qui suivent son <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> réussi ou l'interruption de la possession.</p>
+
+        <p><strong><em>Visage terrifiant</em></strong>. Toutes les créatures, à
+        l'exception des morts-vivants, situées à 18 mètres ou moins du fantôme
+        et qui le voient doivent chacune réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Sagesse DD 13 pour ne pas être <em>terrorisées</em>
+        pendant 1 minute. Si le <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> rate de 5 points ou plus, la cible vieillit également
+        de 1d4×10 ans. Une cible <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#terrorisé"><em>terrorisée</em></a>
+        peut retenter le <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> à la fin de chacun de ses tours et mettre fin à
+        l'effet dont elle est victime en cas de réussite. Si le <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> d'une cible est réussi ou si l'effet prend fin, la
+        cible est immunisée aux effets du visage terrifiant de ce fantôme
+        pendant 24 heures. Il est possible d'inverser l'effet de vieillissement
+        grâce à un sort de <a
+        href="https://5e-drs.fr/grimoire/restauration-superieure"><em>restauration
+        supérieure</em></a> s'il est lancé dans les 24 heures suivantes.</p>
+      public: ''
+    alignment: n'importe quel alignement
+    race: ''
+    type:
+      value: undead
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 4
+    spellLevel: 4
+    source: Créatures & Oppositions
+    xp:
+      value: 1100
+  traits:
+    size: med
+    di:
+      value:
+        - cold
+        - necrotic
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - acid
+        - bludgeoning
+        - fire
+        - lightning
+        - piercing
+        - thunder
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - prone
+        - charmed
+        - grappled
+        - poisoned
+        - restrained
+        - exhaustion
+        - paralyzed
+        - petrified
+        - frightened
+      custom: ''
+    languages:
+      value: []
+      custom: toutes les langues qu'il connaissait de son vivant
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Fantôme
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/tokens/undead/Ghost.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690189
+  modifiedTime: 1663923694693
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!C28aQE3GNDOhgxU8'
+

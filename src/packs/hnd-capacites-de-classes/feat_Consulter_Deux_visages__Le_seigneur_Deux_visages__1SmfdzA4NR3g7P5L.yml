@@ -1,0 +1,99 @@
+name: Consulter Deux-visages [Le seigneur Deux-visages]
+type: feat
+img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.EciZIVLbSXXYmyI7
+_id: 1SmfdzA4NR3g7P5L
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 10, vous pouvez vous en remettre à votre pièce pour
+      décider de faire ou de ne pas faire une action.</p>
+
+      <p>Les termes employés doivent définir une action claire et précise : tuer
+      X ou sauver Y, enfoncer une porte (mais pas devenir plus fort).</p>
+
+      <p>Prenez une pièce et lancez la (ou utilisez un dé de votre choix : pile
+      = pair, face = impair).</p>
+
+      <p>Si vous obtenez pile, vous bénéficiez d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      à tous les tests servant à faire cette action jusqu'à votre prochain repos
+      long.</p>
+
+      <p>Si vous obtenez face, vous souffrez d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>
+      si vous persistez tout de même dans ce projet.</p>
+
+      <p>Vous devez terminer un repos long avant de pouvoir à nouveau utiliser
+      cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d2
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685153
+  modifiedTime: 1663923686028
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.EciZIVLbSXXYmyI7
+  duplicateSource: null
+_key: '!items!1SmfdzA4NR3g7P5L'
+

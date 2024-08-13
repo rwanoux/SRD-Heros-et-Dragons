@@ -1,0 +1,110 @@
+name: Invocation d'esprit verdoyant
+type: feat
+img: icons/magic/nature/elemental-plant-humanoid.webp
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 2, vous pouvez invoquer un esprit de la Verdoyance,
+      une manifestation de la vie végétale primordiale. </p><p>Par une action,
+      vous pouvez dépenser une utilisation de votre capacité Forme sauvage pour
+      invoquer
+      l'@UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.OBHCfxuUtvRLFFE8]{esprit
+      verdoyant} au lieu de prendre une forme bestiale.</p><p>L'esprit apparaît
+      dans un espace inoccupé de votre choix que vous pouvez voir dans un rayon
+      de 9 mètres autour de vous. Lorsque l'esprit apparaît, la zone dans un
+      rayon de 3 mètres autour de lui devient enchevêtrée de lianes et d'autres
+      plantes, devenant un terrain difficile jusqu'au début de votre prochain
+      tour.</p><p>L'esprit est amical envers vous et vos compagnons et obéit à
+      vos ordres. Pour les caractéristiques techniques référez vous au profil
+      technique de l'Esprit verdoyant, qui utilise votre bonus de maîtrise (BM)
+      à plusieurs endroits.</p><p>Vous déterminez l'apparence de l'esprit.
+      Certains esprits prennent la forme d'une figure humanoïde faite de
+      branches noueuses et de feuilles, tandis que d'autres ressemblent à des
+      créatures au corps feuillu et à la tête faite de calebasses ou de fruits.
+      D'autres encore ressemblent à des bêtes, mais entièrement composées de
+      végétaux.</p><p>En combat, l'esprit partage votre score d'initiative, mais
+      il prend son tour immédiatement après le vôtre. L'esprit verdoyant peut se
+      déplacer et utiliser ses réactions seul, mais si vous ne lui donnez aucun
+      ordre, il utilise l'action Esquiver par défaut. Vous pouvez utiliser votre
+      action bonus pour lui ordonner d'entreprendre l'action Attaquer, Se
+      précipiter, Se désengager, Aider, Se cacher, Chercher ou une action listée
+      dans son profil technique. Si vous êtes neutralisé, l'esprit peut
+      entreprendre n'importe quelle action de son choix, pas seulement
+      Esquiver.</p><p>L'esprit persiste pendant 1 heure, jusqu'à ce qu'il soit
+      réduit à 0 point de vie, jusqu'à ce que vous utilisiez cette capacité pour
+      l'invoquer à nouveau, ou jusqu'à ce que vous mouriez. Lorsqu'il se
+      manifeste, l'esprit porte 10 fruits imprégnés de magie. Chaque fruit
+      fonctionne comme une baie créée par le sort baies nourricières</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cercle de la Verdoyance
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.LBM9a0AbzdGTOk08
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678987444824
+  modifiedTime: 1678988809810
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.LBM9a0AbzdGTOk08
+  duplicateSource: null
+folder: null
+sort: 0
+_id: Q2HUMz08FTcTvVJt
+_key: '!items!Q2HUMz08FTcTvVJt'
+

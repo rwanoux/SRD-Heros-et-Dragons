@@ -1,0 +1,123 @@
+_id: UNumwRGp7DsQehTr
+name: Incantation réflexe [Arpenteur]
+type: feat
+img: icons/magic/fire/flame-burning-hand-purple.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  rest-recovery:
+    data:
+      recovery:
+        enabled: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="incantation-reflexe"><strong>Incantation
+      r&eacute;flexe&nbsp;</strong></h3>
+
+      <p>Vous avez appris &agrave; r&eacute;agir instinctivement et &agrave;
+      utiliser la magie en un clin d'&oelig;il lorsque votre vie est
+      menac&eacute;e.</p>
+
+      <p>&Agrave; partir du niveau 10, lorsque vous &ecirc;tes la cible d'une
+      attaque au corps-&agrave;-corps, vous pouvez utiliser votre
+      r&eacute;action pour lancer un sort dont le temps d'incantation ne
+      d&eacute;passe pas une action.</p>
+
+      <p>Vous devez terminer un repos court avant de pouvoir &agrave; nouveau
+      utiliser cette aptitude.</p>
+
+      <p>Vous ne pouvez toujours lancer qu'un seul sort par round, &agrave;
+      l'exception d'un tour de magie.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685410
+  modifiedTime: 1678424985941
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!UNumwRGp7DsQehTr'
+

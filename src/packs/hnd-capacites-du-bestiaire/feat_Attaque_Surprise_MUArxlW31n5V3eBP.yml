@@ -1,0 +1,128 @@
+_id: MUArxlW31n5V3eBP
+name: Attaque Surprise
+type: feat
+flags:
+  _sheetTab: ''
+  obsidian:
+    source:
+      type: other
+    effects:
+      - name: ''
+        uuid: 5a155433-732e-4adb-8dd2-62db5e5057f8
+        components:
+          - type: damage
+            uuid: 4822ff0a-bb67-4191-92b1-a56f2dfb37b7
+            calc: formula
+            ndice: 2
+            die: 6
+            ability: ''
+            bonus: 0
+            damage: ''
+            versatile: false
+    version: 7
+img: icons/skills/melee/strike-sword-stabbed-brown.webp
+system:
+  description:
+    value: >-
+      <p><strong>Attaque surprise.</strong> Bonus de dégâts si la créature
+      surprend une cible et réussit une attaque contre elle lors du premier
+      round de combat.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: none
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: null
+  damageType:
+    value: ''
+    _deprecated: null
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698808
+  modifiedTime: 1663923699544
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MUArxlW31n5V3eBP'
+

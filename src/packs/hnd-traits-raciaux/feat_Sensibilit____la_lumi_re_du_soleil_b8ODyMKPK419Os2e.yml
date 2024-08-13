@@ -1,0 +1,87 @@
+name: Sensibilité à la lumière du soleil
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.EgYKW5bZ8fnDRAlf
+img: icons/magic/light/beam-red-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Sensibilité à la lumière. </strong>Vous subissez un
+      <em>désavantage</em> aux jets d'attaque et aux tests de Sagesse
+      (Perception) qui reposent sur la vue lorsque vous, la cible de votre
+      attaque ou ce que vous essayez de percevoir est en plein soleil.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Darakhul
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+  MB7dftOsMOjK5aEw: 3
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923698171
+  modifiedTime: 1680508133042
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.EgYKW5bZ8fnDRAlf
+  duplicateSource: null
+folder: null
+sort: 0
+_id: b8ODyMKPK419Os2e
+_key: '!items!b8ODyMKPK419Os2e'
+

@@ -1,0 +1,105 @@
+_id: j5junSRXSTXqE7Ek
+name: Chemise de mailles
+type: equipment
+img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    subtype: armour
+    magical: false
+    effects: []
+    version: 7
+    armour: true
+    addDex: true
+system:
+  description:
+    value: >-
+      <p>Fait d'anneaux métalliques entrecroisés, la chemise de mailles est
+      utilisée entre des couches de vêtements ou de cuir. Cette armure offre une
+      protection modeste pour le haut du corps et permet au son provoqué par les
+      anneaux frottant l'un contre l'autre d'être atténué par les couches de
+      vêtements extérieures.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 10
+  price: 50
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 13
+    type: medium
+    dex: 2
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: chainshirt
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  stealth: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700643
+  modifiedTime: 1663923700643
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!j5junSRXSTXqE7Ek'
+

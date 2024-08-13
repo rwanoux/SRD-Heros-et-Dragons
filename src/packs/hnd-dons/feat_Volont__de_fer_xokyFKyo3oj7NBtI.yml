@@ -1,0 +1,118 @@
+_id: xokyFKyo3oj7NBtI
+name: Volonté de fer
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/volonte-fer.jpg
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Nul ne peut vous emp&ecirc;cher de recourir &agrave; votre magie
+      lorsque vous le d&eacute;cidez, votre volont&eacute; est telle que vous
+      &ecirc;tes capable de puiser dans vos forces int&eacute;rieures et
+      par-del&agrave; la douleur pour parvenir &agrave; vos fins.</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Lorsque vous perdez votre concentration alors que vous maintenez un
+      sort actif, vous pouvez utiliser votre r&eacute;action et d&eacute;penser
+      un emplacement de sort appropri&eacute; pour le relancer sans
+      interruption. Son effet continue comme s'il n'avait pas &eacute;t&eacute;
+      relanc&eacute; ni interrompu.</li>
+
+      <li>Lorsque vous cessez volontairement de vous concentrer sur un sort, ou
+      &agrave; la fin de sa dur&eacute;e l&eacute;gale, vous pouvez prolonger
+      son effet d'un round suppl&eacute;mentaire en sacrifiant 1 point de vie.
+      &Agrave; chaque round suivant, le nombre de points de vie
+      n&eacute;cessaire pour maintenir l'effet du sort est &eacute;gal au nombre
+      de round de prolongation : 2 points de vie au deuxi&egrave;me round (pour
+      un total de 1 + 2 = 3 pv), 3 points au troisi&egrave;me (pour un total de
+      1 + 2 + 3 = 6 pv), etc. Vous ne pouvez pas prolonger un sort de cette
+      fa&ccedil;on au-del&agrave; du double de sa dur&eacute;e
+      l&eacute;gale.</li>
+
+      <li>Lorsque vous tombez &agrave; 0 point de vie ou que vous &ecirc;tes <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralis%C3%A9"><em>neutralis&eacute;</em></a>,
+      si vous mainteniez un sort, il dure encore jusqu'&agrave; la fin de votre
+      prochain tour.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685029
+  modifiedTime: 1663923685029
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!xokyFKyo3oj7NBtI'
+

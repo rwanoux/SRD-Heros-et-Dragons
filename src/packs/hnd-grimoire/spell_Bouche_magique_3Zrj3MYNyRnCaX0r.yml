@@ -1,0 +1,139 @@
+_id: 3Zrj3MYNyRnCaX0r
+name: Bouche magique
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/commodities/currency/coin-engraved-sun-smile-copper.webp
+system:
+  description:
+    value: >-
+      <p>Vous implantez un message dans un objet situé à portée. On entend le
+      message dès que les conditions qui le déclenchent sont remplies.
+      Choisissez un objet situé dans votre champ de vision qui n'est ni porté ni
+      transporté par une autre créature. Prononcez ensuite le message, qui doit
+      comprendre au maximum vingt-cinq mots, mais peut se répéter pendant un
+      maximum de 10 minutes. Enfin, déterminez les circonstances dans lesquelles
+      le message s'active.</p>
+
+      <p>Quand les conditions de déclenchement sont remplies, une bouche magique
+      apparaît sur l'objet et énonce le message avec la même voix que vous et au
+      volume où vous l'avez prononcé. Si l'objet choisi possède une bouche ou
+      quelque chose qui y ressemble (comme la bouche d'une statue), la bouche
+      magique apparaît de manière à donner l'impression que les paroles sortent
+      des lèvres figurées sur l'objet. Lors de l'incantation, vous pouvez
+      décider que le sort se termine une fois le message transmis ou qu'il reste
+      actif et répète le message chaque fois que les conditions de déclenchement
+      sont remplies.</p>
+
+      <p>Ces dernières peuvent être aussi génériques ou spécifiques que vous le
+      désirez, mais elles doivent se baser sur des données visuelles ou
+      audibles, perceptibles dans un rayon de 9 mètres autour de l'objet. Par
+      exemple, vous pouvez ordonner à la bouche de parler dès qu'une créature
+      approche à 9 mètres ou moins de l'objet ou quand une cloche d'argent
+      retentit dans un rayon de 9 mètres.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: false
+    value: ''
+  materials:
+    value: >-
+      Un rayon de miel et de la poussière de jade d'une valeur de 10  po, que le
+      sort consume
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687929
+  modifiedTime: 1663923688506
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!3Zrj3MYNyRnCaX0r'
+

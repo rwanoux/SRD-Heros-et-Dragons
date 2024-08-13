@@ -1,0 +1,150 @@
+_id: teybNk78CJaoJp56
+name: Cape de l'arachnide
+type: equipment
+img: icons/equipment/back/cloak-heavy-fur-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Ce bel habit est fait de soie noire mêlée de discrets filaments
+      d'argent. Tant que vous le portez, vous bénéficiez des avantages
+      suivants.</p>
+
+      <ul>
+
+      <li>Vous êtes résistant aux dégâts de poison.</li>
+
+      <li>Votre vitesse d'escalade est égale à votre vitesse au sol.</li>
+
+      <li>Vous pouvez vous déplacer de haut en bas sur une surface verticale et
+      la tête en bas au plafond tout en gardant les mains libres.</li>
+
+      <li>Vous ne pouvez pas rester coincé dans une toile, quel que soit son
+      type, et vous pouvez vous déplacer à travers ses filaments comme si
+      c'était simplement un terrain difficile.</li>
+
+      <li>Vous pouvez utiliser une action pour lancer le sort de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/toile-d-araignee/">toile
+      d'araignée</a>&nbsp;(DD 13). La toile créée occupe le double de l'espace
+      habituel. Une fois que vous avez utilisé la cape ainsi, vous ne pouvez pas
+      recommencer avant l'aube suivante.</li>
+
+      </ul>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 5000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 40
+    width: null
+    units: m
+    type: cube
+  range:
+    value: 18
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: day
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 5
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 13
+    scaling: flat
+  armor:
+    value: 0
+    type: clothing
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701444
+  modifiedTime: 1663923703196
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!teybNk78CJaoJp56'
+

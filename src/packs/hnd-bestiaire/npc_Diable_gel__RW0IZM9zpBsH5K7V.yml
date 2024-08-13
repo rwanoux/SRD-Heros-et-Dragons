@@ -1,0 +1,1645 @@
+_id: RW0IZM9zpBsH5K7V
+name: Diable gelé
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: CH7vzTid90qYEvfL
+    name: Vue du Diable
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: description
+    img: icons/magic/perception/eye-slit-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Vue du diable.</strong>&nbsp;Les ténèbres magiques ne
+          bloquent pas la vision dans le noir du diable.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diable gelé
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.CH7vzTid90qYEvfL'
+  - _id: Yt1u2vJNBUCj1vId
+    name: Résistance à la Magie
+    type: feat
+    sort: 0
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;Le diable obtient
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+          lors des jets de sauvegarde contre les sorts et autres effets
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diable gelé
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.Yt1u2vJNBUCj1vId'
+  - _id: P0GjiNqLmv2T2KEc
+    name: Attaques Multiples
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le diable effectue trois
+          attaques : une avec sa morsure, une avec ses griffes et une avec sa
+          queue.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diable gelé
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.P0GjiNqLmv2T2KEc'
+  - _id: fsBDh2grR2gsD1RL
+    name: Griffes
+    type: weapon
+    sort: 400000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +10 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 10 (2d4+5) dégâts tranchants plus 10 (3d6) dégâts de
+          froid.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d4 + @mod
+            - slashing
+          - - 3d6
+            - cold
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.fsBDh2grR2gsD1RL'
+  - _id: VoOGPjVzaBobWFLr
+    name: Morsure
+    type: weapon
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Morsure.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +10 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 12 (2d6+5) dégâts perforants plus 10 (3d6) dégâts de
+          froid.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6 + @mod
+            - piercing
+          - - 3d6
+            - cold
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.VoOGPjVzaBobWFLr'
+  - _id: WV6gidzKO35Sf8Z7
+    name: Mur de Glace
+    type: feat
+    sort: 600000
+    flags: {}
+    img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Mur de glace (Recharge 6)</strong>. Le diable crée par
+          magie un mur de glace opaque sur une surface solide située à 18 mètres
+          ou moins dans son champ de vision. Le mur fait 30 centimètres
+          d'épaisseur et jusqu'à 9 mètres de long et 3 mètres de haut, ou prend
+          la forme d'un dôme hémisphérique d'un diamètre maximal de 6
+          mètres.<br>Au moment où le mur apparaît, les créatures présentes dans
+          l'emplacement qu'il occupe sont expulsées de la zone par la
+          trajectoire la plus courte. Chaque créature choisit le côté du mur
+          vers lequel elle est expulsée, à moins qu'elle ne soit&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisée</a>.
+          Les créatures effectuent ensuite chacune un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité DD 17 ; elles subissent 35 (10d6)
+          dégâts de froid en cas de&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;raté ou la moitié de ces dégâts seulement en
+          cas de réussite.<br>Le mur reste en place pendant 1 minute. Il
+          disparaît prématurément si le diable est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisé</a>&nbsp;ou
+          meurt. Il est possible d'endommager le mur ou d'y percer une brèche ;
+          chaque section de 3 mètres de côté a une CA de 5, 30 points de vie,
+          une vulnérabilité aux dégâts de feu et une immunité contre les dégâts
+          nécrotiques, psychiques, d'acide, de froid et de poison. Si une
+          section est détruite, elle est remplacée par une zone d'air froid dans
+          l'emplacement auparavant occupé par la section de mur. Chaque fois
+          qu'une créature traverse, volontairement ou non, la zone d'air froid
+          lors d'un tour, elle doit effectuer un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 17 ; elle subit 17 (5d6)
+          dégâts de froid en cas de&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;raté ou la moitié de ces dégâts seulement en
+          cas de réussite. L'air froid se disperse quand le reste du mur
+          disparaît.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: wall
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 10d6
+            - cold
+        versatile: ''
+      formula: 5d6 Froid
+      save:
+        ability: dex
+        dc: 17
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Diable Gelé
+      recharge:
+        value: 5
+        charged: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.WV6gidzKO35Sf8Z7'
+  - _id: 4y6mLy4T9cWqXmSy
+    name: Queue
+    type: weapon
+    sort: 700000
+    flags:
+      _sheetTab: ''
+    img: icons/commodities/biological/tail-puff-grey.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Queue.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;:
+          +10 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 12 (2d6+5) dégâts contondants plus 10 (3d6) dégâts de
+          froid.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: null
+      weight: null
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6 + @mod
+            - bludgeoning
+          - - 3d6
+            - cold
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!RW0IZM9zpBsH5K7V.4y6mLy4T9cWqXmSy'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 21
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 5
+      save: 5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 18
+    dex:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 7
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    con:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 4
+      save: 9
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 17
+    int:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 17
+    wis:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 2
+      save: 7
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    cha:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 4
+      save: 9
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 17
+  attributes:
+    ac:
+      flat: 18
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 180
+      max: 180
+      temp: 0
+      tempmax: 0
+      formula: 19d10+76
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 12
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 36
+      blindsight: 18
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 12
+    spellcasting: int
+    prof: 5
+    spelldc: 17
+    encumbrance:
+      value: 0
+      max: 315
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Résistance à la magie</em></strong>. Le diable obtient un
+        <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        lors des jets de sauvegarde contre les sorts et autres effets
+        magiques.</p>
+
+        <p><strong><em>Vue du diable</em></strong>. Les ténèbres magiques ne
+        bloquent pas la vision dans le noir du diable.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le diable effectue
+        trois attaques : une avec sa morsure, une avec ses griffes et une avec
+        sa queue.</p>
+
+        <p><strong><em>Griffes</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +10 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 10 (2d4+5) dégâts tranchants plus 10 (3d6)
+        dégâts de froid.</p>
+
+        <p><strong><em>Morsure</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +10 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 12 (2d6+5) dégâts perforants plus 10 (3d6)
+        dégâts de froid.</p>
+
+        <p><strong><em>Mur de glace (Recharge 6)</em></strong>. Le diable crée
+        par magie un mur de glace opaque sur une surface solide située à 18
+        mètres ou moins dans son champ de vision. Le mur fait 30 centimètres
+        d'épaisseur et jusqu'à 9 mètres de long et 3 mètres de haut, ou prend la
+        forme d'un dôme hémisphérique d'un diamètre maximal de 6 mètres.<br>Au
+        moment où le mur apparaît, les créatures présentes dans l'emplacement
+        qu'il occupe sont expulsées de la zone par la trajectoire la plus
+        courte. Chaque créature choisit le côté du mur vers lequel elle est
+        expulsée, à moins qu'elle ne soit <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>.
+        Les créatures effectuent ensuite chacune un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Dextérité DD 17 ; elles subissent 35 (10d6) dégâts
+        de froid en cas de <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> raté ou la moitié de ces dégâts seulement en cas de
+        réussite.<br>Le mur reste en place pendant 1 minute. Il disparaît
+        prématurément si le diable est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisé</em></a>
+        ou meurt. Il est possible d'endommager le mur ou d'y percer une brèche ;
+        chaque section de 3 mètres de côté a une CA de 5, 30 points de vie, une
+        vulnérabilité aux dégâts de feu et une immunité contre les dégâts
+        nécrotiques, psychiques, d'acide, de froid et de poison. Si une section
+        est détruite, elle est remplacée par une zone d'air froid dans
+        l'emplacement auparavant occupé par la section de mur. Chaque fois
+        qu'une créature traverse, volontairement ou non, la zone d'air froid
+        lors d'un tour, elle doit effectuer un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 17 ; elle subit 17 (5d6) dégâts de
+        froid en cas de <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> raté ou la moitié de ces dégâts seulement en cas de
+        réussite. L'air froid se disperse quand le reste du mur disparaît.</p>
+
+        <p><strong><em>Queue</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +10 pour toucher, allonge 3 m, une
+        cible.<br><em>Touché</em> : 12 (2d6+5) dégâts contondants plus 10 (3d6)
+        dégâts de froid.</p>
+      public: ''
+    alignment: Loyal Mauvais
+    race: ''
+    type:
+      value: fiend
+      subtype: Diable
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 14
+    spellLevel: 14
+    source: Créatures & Oppositions
+    xp:
+      value: 11500
+  traits:
+    size: lg
+    di:
+      value:
+        - fire
+        - cold
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques qui ne sont pas en argent
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - infernal
+      custom: Télépathie 36 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 2
+    spell6:
+      value: 0
+      override: null
+      max: 1
+    spell7:
+      value: 0
+      override: null
+      max: 1
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Diable gelé
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690411
+  modifiedTime: 1663923695560
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!RW0IZM9zpBsH5K7V'
+

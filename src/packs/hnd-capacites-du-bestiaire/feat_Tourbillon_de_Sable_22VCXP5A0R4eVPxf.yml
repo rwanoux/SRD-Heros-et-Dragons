@@ -1,0 +1,85 @@
+name: Tourbillon de Sable
+type: feat
+flags: {}
+img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+_id: 22VCXP5A0R4eVPxf
+system:
+  description:
+    value: >-
+      <p><strong>Tourbillon de sable.</strong> Un fort vent soul&egrave;ve tout
+      &agrave; coup un tourbillon de sable large de 1,50 m&egrave;tre et haut de
+      3 m&egrave;tres. Il semble anim&eacute; d'une vie propre et se dirige vers
+      l'ennemi le plus proche avec une vitesse de d&eacute;placement de 6
+      m&egrave;tres. Toute cr&eacute;ature qui commence son tour dans la zone
+      d'effet du tourbillon doit r&eacute;ussir un jet de sauvegarde de
+      Constitution ou &ecirc;tre neutralis&eacute;e. Le tourbillon se calme si
+      le dragon meurt ou utilise une action d'antre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon d'Airan (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698729
+  modifiedTime: 1663923699208
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!22VCXP5A0R4eVPxf'
+

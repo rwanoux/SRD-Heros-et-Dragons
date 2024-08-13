@@ -1,0 +1,129 @@
+_id: CnIYOXfad2SYzbXT
+name: Héros de Guerre [Serment d'Obédience]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="heros-de-guerre"><strong>H&eacute;ros de guerre</strong></h3>
+
+      <p>Au niveau 20, vous pouvez prendre la forme d'une des figures mythiques
+      de votre patrie. Vous priez pendant une action pour implorer l'aide d'un
+      ancien h&eacute;ros. Son aura, reconnaissable par tous vos compatriotes,
+      appara&icirc;t autour de vous pendant 1 heure. Pendant cette dur&eacute;e,
+      vous gagnez les b&eacute;n&eacute;fices suivants :</p>
+
+      <ul>
+
+      <li>Vous &eacute;mettez une vive lumi&egrave;re dans un rayon de 9
+      m&egrave;tres, et une lumi&egrave;re faible dans un rayon de 9
+      m&egrave;tres suppl&eacute;mentaires, dont la couleur rappelle les
+      armoiries de votre seigneur ou cit&eacute;.</li>
+
+      <li>Cette lumi&egrave;re s'accompagne d'une aura de
+      s&eacute;r&eacute;nit&eacute; de 9 m&egrave;tres de rayon autour de vous.
+      Vos alli&eacute;s dans cette zone ne peuvent plus &ecirc;tre&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#charme">charm&eacute;s</a>&nbsp;ou&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terroris&eacute;s</a>.</li>
+
+      <li>Les cr&eacute;atures Chaotiques qui p&eacute;n&egrave;trent dans cette
+      aura ou y d&eacute;butent leur tour (vous except&eacute;) doivent
+      r&eacute;ussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse ou &ecirc;tre&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terroris&eacute;es</a>&nbsp;pendant
+      1 minute, ou jusqu'&agrave; ce qu'elles sortent de la zone d'effet. Le DD
+      de ce&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;est le m&ecirc;me que pour vos sorts de
+      paladin.</li>
+
+      <li>Les ennemis&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible">invisibles</a>&nbsp;redeviennent
+      visibles tant qu'ils se trouvent &agrave; moins de 9 m&egrave;tres de
+      vous.</li>
+
+      </ul>
+
+      <p>Vous devez terminer un repos long avant de pouvoir de nouveau utiliser
+      cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685240
+  modifiedTime: 1678413008825
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!CnIYOXfad2SYzbXT'
+

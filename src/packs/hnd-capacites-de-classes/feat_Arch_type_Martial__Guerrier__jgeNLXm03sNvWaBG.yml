@@ -1,0 +1,133 @@
+_id: jgeNLXm03sNvWaBG
+name: Archétype Martial [Guerrier]
+type: feat
+img: icons/skills/melee/weapons-crossed-daggers-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.5cWdOcEXhov3v0SG
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3><strong>Archétype martial</strong></h3>
+
+      <p>Au niveau 3, vous choisissez un archétype qui reflète votre style et
+      vos techniques de combat :</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Pzqt5A4OS7bDgWtE]{[Guerrier]
+      Bretteur}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.lv9KklSXrSI7mx2C]{[Guerrier]
+      Champion}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.CrycrgbSCnMUvLB7]{[Guerrier]
+      Défenseur}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.OpDeR3tL2bv2pjdo]{[Guerrier]
+      Kal'Thori}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.YklUwmVK1dZSYph1]{[Guerrier]
+      Officier}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.IM10cIO5vlmHyIBN]{[Guerrier]
+      Philaxien}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.pXaEHeiW5ctevy8d]{[Guerrier]
+      Sorcelame}</li>
+
+      </ul>
+
+      <p>En fonction de votre archétype, vous aurez accès à différentes
+      aptitudes aux niveaux 3, 7, 10, 15 et 18.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685597
+  modifiedTime: 1678405202215
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.5cWdOcEXhov3v0SG
+  duplicateSource: null
+_key: '!items!jgeNLXm03sNvWaBG'
+

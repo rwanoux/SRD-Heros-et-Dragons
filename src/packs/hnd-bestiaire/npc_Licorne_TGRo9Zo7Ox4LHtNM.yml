@@ -1,0 +1,2871 @@
+_id: TGRo9Zo7Ox4LHtNM
+name: Licorne
+type: npc
+img: systems/dnd5e/tokens/celestial/Unicorn.webp
+items:
+  - _id: dQn4ldkuUKlGOqAn
+    name: Armes Magiques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/weapons/swords/sword-runed-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes magiques.</strong>&nbsp;Les attaques d'arme de la
+          licorne sont magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.dQn4ldkuUKlGOqAn'
+  - _id: NkERxtiqCLIUcaVT
+    name: Incantation innée
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation innée.</strong>&nbsp;La caractéristique
+          d'incantation de la licorne est le Charisme (DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 14). La licorne peut lancer
+          les sorts suivants de manière innée sans aucune composante :</p>
+
+          <ul>
+
+          <li>À volonté&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien/">détection
+          du mal et du bien</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/druidisme/">druidisme</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/passage-sans-trace/">passage sans
+          trace</a></li>
+
+          <li>1/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/apaisement-des-emotions/">apaisement
+          des émotions</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien/">dissipation
+          du mal et du bien</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/enchevetrement/">enchevêtrement</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.NkERxtiqCLIUcaVT'
+  - _id: iZvtH9tPK9JgkX9C
+    name: Résistance à la Magie
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;La licorne obtient
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+          lors des jets de sauvegarde contre les sorts et autres effets
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.iZvtH9tPK9JgkX9C'
+  - _id: srtmymroZyOL00g3
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;La licorne effectue deux
+          attaques : une avec ses sabots et l'autre avec sa corne.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.srtmymroZyOL00g3'
+  - _id: msK39CXHK17hYTN9
+    name: Contact Guérisseur
+    type: feat
+    sort: 500000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/explosion-star-glow-blue-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Contact guérisseur (3/jour).</strong>&nbsp;La licorne
+          touche une autre créature avec sa corne. La cible récupère 11 (2d8+2)
+          points de vie par magie. En outre, le contact soigne toutes les
+          maladies et neutralise tous les poisons dont est victime la cible.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 3
+        max: 3
+        per: day
+        recovery: ''
+        type: day
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8 + 2
+            - healing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.msK39CXHK17hYTN9'
+  - _id: 56yjrleWPw7GHp63
+    name: Corne
+    type: weapon
+    sort: 600000
+    flags: {}
+    img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Cornes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +7 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 8 (1d8+4) dégâts perforants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8+@mod
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.56yjrleWPw7GHp63'
+  - _id: vuhNBiaWTMvQYRek
+    name: Sabots
+    type: weapon
+    sort: 700000
+    flags: {}
+    img: icons/commodities/bones/hooves-cloven-brown.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Sabots.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +7 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 11 (2d6+4) dégâts contondants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6+@mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.vuhNBiaWTMvQYRek'
+  - _id: 7Z9IkiIOmhVwjybh
+    name: Sabots
+    type: feat
+    sort: 800000
+    flags: {}
+    img: icons/commodities/bones/hooves-cloven-brown.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Sabots.</strong> La créature effectue une attaque avec ses
+          sabots.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6+@mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.7Z9IkiIOmhVwjybh'
+  - _id: NVlxy70pAU3iPEQb
+    name: Téléportation
+    type: feat
+    sort: 650000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Téléportation (1/jour)</strong>.&nbsp;La licorne se
+          téléporte par magie, avec un maximum de trois créatures consentantes
+          situées dans son champ de vision à 1,50 mètre ou moins d'elle, avec
+          l'ensemble des objets équipés ou transportés, vers un endroit connu de
+          la licorne situé à une distance maximale de 1,5 kilomètre.&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 1.5
+        long: null
+        units: mi
+      uses:
+        value: 1
+        max: 1
+        per: day
+        recovery: ''
+        type: sr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.NVlxy70pAU3iPEQb'
+  - _id: WyT0Fy5gLOM0pfMa
+    name: Protection Scintillante
+    type: feat
+    sort: 1000000
+    flags: {}
+    img: icons/magic/light/explosion-star-glow-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Protection scintillante.</strong>&nbsp;La licorne crée un
+          champ magique scintillant autour d'elle ou d'une créature située à 18
+          mètres ou moins dans son champ de vision. La cible bénéficie d'un
+          bonus de +2 à sa CA jusqu'à la fin du prochain tour de la licorne.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 2
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 18
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.WyT0Fy5gLOM0pfMa'
+  - _id: PDnVVuExKuW50dj3
+    name: Soin Personnel
+    type: feat
+    sort: 1100000
+    flags: {}
+    img: icons/magic/life/cross-worn-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Soin personnel.</strong>&nbsp;La licorne récupère par magie
+          11 (2d8+2) points de vie.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 3
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8+2
+            - healing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.PDnVVuExKuW50dj3'
+  - _id: 55PIkTuXDGc9G1mc
+    name: Détection du mal et du bien
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/life/ankh-gold-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Pendant toute la durée du sort, vous savez s'il y a une aberration,
+          un céleste, un élémentaire, une fée, un fiélon ou un mort-vivant dans
+          un rayon de 9 mètres autour de vous et vous savez précisément où il se
+          trouve. De même, vous savez si un lieu ou un objet situé dans un rayon
+          de 9 mètres a été consacré ou profané.</p>
+
+          <p>Le sort ignore la plupart des obstacles, mais il ne peut pas
+          franchir 30 centimètres de pierre, 2,5 centimètres de métal ordinaire,
+          une mince feuille de plomb, ni 1 mètre de bois ou de terre.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.55PIkTuXDGc9G1mc'
+  - _id: cE7YwR5gk98UPeDs
+    name: Druidisme
+    type: spell
+    sort: 1300000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/creatures/mammals/elk-moose-marked-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez l'un des effets suivants à portée après quelques
+          murmures adressés aux esprits de la nature.</p>
+
+          <ul>
+
+          <li>Vous créez un effet sensoriel réduit et inoffensif qui annonce le
+          temps qu'il fera là où vous vous trouvez pendant les 24 heures à
+          venir. Cet effet peut prendre la forme d'un orbe doré si le temps va
+          rester dégagé, d'un nuage s'il va pleuvoir, de flocons pour une averse
+          de neige etc. L'effet persiste pendant 1 round.</li>
+
+          <li>Vous faites éclore une fleur ou un bourgeon ou germer une
+          graine.</li>
+
+          <li>Vous créez un effet sensoriel instantané, réduit et inoffensif,
+          comme des feuilles qui tombent, une bourrasque, le bruit que ferait un
+          petit animal ou une légère odeur de moufette. L'effet doit être
+          contenu dans un cube d'au maximum 1,50 mètre d'arête.</li>
+
+          <li>Vous allumez ou éteignez instantanément une chandelle, une torche
+          ou un petit feu de camp.</li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      school: trs
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.cE7YwR5gk98UPeDs'
+  - _id: T9xIDxjE3EMhQHKZ
+    name: Passage sans trace
+    type: spell
+    sort: 1400000
+    flags: {}
+    img: icons/magic/air/fog-gas-smoke-brown.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une aura d'ombre et de silence émane de vous et enveloppe vos
+          compagnons, vous dissimulant aux sens d'autrui. Pendant toute la durée
+          du sort, chaque créature que vous choisissez et qui se trouve dans un
+          rayon de 9 mètres (vous y compris) bénéficie d'un bonus de +10 aux
+          tests de Dextérité (Discrétion) et il devient impossible de suivre sa
+          piste à moins de recourir à des méthodes magiques. Une créature qui
+          profite de ce bonus ne laisse derrière elle aucune trace ni aucun
+          autre indice de son passage.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Cendres d'une feuille de gui et une brindille d'épicéa
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.T9xIDxjE3EMhQHKZ'
+  - _id: ZpjO6hm7bb5hCCNq
+    name: Apaisement des émotions
+    type: spell
+    sort: 1500000
+    flags: {}
+    img: icons/magic/light/explosion-star-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous tentez de supprimer les émotions fortes au sein d'un groupe de
+          gens. Chaque humanoïde qui se trouve dans une sphère de 6 mètres de
+          rayon centrée autour d'un point de votre choix situé à portée doit
+          faire un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Charisme. Une créature peut décider de rater
+          volontairement ce jet, sachant que lorsqu'une créature rate son jet de
+          sauvegarde, vous l'affectez avec l'un des deux effets suivants, selon
+          votre choix.</p>
+
+          <ul>
+
+          <li>Vous débarrassez temporairement la cible de tout état <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmé</em></a>
+          ou <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#terrorisé"><em>terrorisé</em></a>.
+          Une fois le sort terminé, l'état s'applique de nouveau, à moins que sa
+          durée n'ait expiré.</li>
+
+          <li>Vous rendez la cible indifférente vis-à-vis des créatures de votre
+          choix, envers lesquelles elle était auparavant hostile. Cette
+          indifférence prend fin si la cible est attaquée ou affectée par un
+          sort néfaste, ou bien si elle voit l'un de ses amis être ainsi
+          agressé. La cible redevient hostile dès que le sort se termine, à
+          moins que le MJ n'en décide autrement.</li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: 14
+        scaling: spell
+      level: 2
+      school: enc
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.ZpjO6hm7bb5hCCNq'
+  - _id: VzbEWLnvfU7PlH1M
+    name: Dissipation du mal et du bien
+    type: spell
+    sort: 1600000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/light/orbs-hand-gray.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une énergie scintillante vous entoure et vous protège contre les
+          fées, les morts-vivants et les créatures originaires d'un autre plan
+          que le plan matériel. Pendant toute la durée du sort, les célestes,
+          les élémentaires, les fées, les fiélons et les morts-vivants subissent
+          un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+          lors de leurs attaques contre vous.</p>
+
+          <p>Vous pouvez terminer le sort plus tôt en utilisant l'une des
+          fonctions spéciales suivantes.</p>
+
+          <p><strong>Annulation d'enchantement</strong>. Vous utilisez votre
+          action pour toucher une créature à votre portée qui se trouve <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#terrorisé"><em>terrorisée</em></a>
+          ou possédée par un céleste, un élémentaire, une fée, un fiélon ou un
+          mort-vivant. Cette créature n'est alors plus <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#terrorisé"><em>terrorisée</em></a>
+          ni possédée par ces créatures.</p>
+
+          <p><strong>Renvoi</strong>. Vous utilisez votre action pour faire une
+          attaque de sort au corps-à-corps contre un céleste, un élémentaire,
+          une fée, un fiélon ou un mort-vivant situé à une distance inférieure
+          ou égale à votre allonge. Si vous touchez la créature, vous tentez de
+          la renvoyer sur son plan natal. Elle doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Charisme ou retourner sur son plan natal (si elle
+          ne s'y trouve pas déjà). Si un mort-vivant ne se trouve pas sur son
+          plan natal, il est renvoyé dans les plans inférieurs, tandis qu'une
+          fée sera expulsée sur son plan d'origine.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Eau bénite ou poudre d'argent et de fer
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.VzbEWLnvfU7PlH1M'
+  - _id: ufFG4WzhXQw48zB7
+    name: Enchevêtrement
+    type: spell
+    sort: 1700000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/nature/root-vine-entangle-foot-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Des herbes et des lianes entremêlées jaillissent du sol dans un
+          carré de 6 mètres de côté centré sur un point de votre choix à portée.
+          Pendant toute la durée du sort, les végétaux transforment la zone en
+          terrain difficile.</p>
+
+          <p>Une créature qui se trouve dans la zone affectée lorsque vous
+          lancez le sort doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Force, sans quoi elle reste <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+          dans les plantes jusqu'à ce que le sort se termine. Une créature <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+          peut utiliser une action pour faire un test de Force contre le DD du
+          sort. Si elle réussit, elle se libère.</p>
+
+          <p>Quand le sort se termine, les plantes invoquées flétrissent.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 6
+        width: null
+        units: ft
+        type: square
+        range:
+          value: '27'
+          unit: mètres
+      range:
+        value: 27
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 14
+        scaling: spell
+      level: 1
+      school: con
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.ufFG4WzhXQw48zB7'
+  - _id: 32cCeBcFATMhkkKD
+    name: Charge
+    type: feat
+    sort: 150000
+    flags:
+      _sheetTab: details
+    img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Charge.&nbsp;</strong>Si la licorne se déplace de 6 mètres
+          au moins en ligne droite vers une cible contre laquelle elle réussit
+          ensuite une attaque de corne lors du même tour, celle-ci subit 9 (2d8)
+          dégâts perforants supplémentaires. Si la cible est une créature, elle
+          doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Force DD 15 pour ne pas être jetée&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+          terre</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: 2d8 perforants
+      save:
+        ability: str
+        dc: 15
+        scaling: flat
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Licorne
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!TGRo9Zo7Ox4LHtNM.32cCeBcFATMhkkKD'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    con:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    int:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    wis:
+      value: 17
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    cha:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 67
+      max: 67
+      temp: 0
+      tempmax: 0
+      formula: 9d10+18
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 15
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 18
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 13
+    spellcasting: cha
+    prof: 3
+    spelldc: 14
+    encumbrance:
+      value: 0
+      max: 270
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Armes magiques</em></strong>. Les attaques d'arme de la
+        licorne sont magiques.</p>
+
+        <p><strong><em>Charge</em></strong>. Si la licorne se déplace de 6
+        mètres au moins en ligne droite vers une cible contre laquelle elle
+        réussit ensuite une attaque de corne lors du même tour, celle-ci subit 9
+        (2d8) dégâts perforants supplémentaires. Si la cible est une créature,
+        elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Force DD 15 pour ne pas être jetée <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+        terre</em></a>.</p>
+
+        <p><strong><em>Incantation innée</em></strong>. La caractéristique
+        d'incantation de la licorne est le Charisme (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 14). La licorne peut lancer les sorts
+        suivants de manière innée sans aucune composante :</p>
+
+        <ul>
+
+        <li><strong><em>À volonté</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien"><em>détection
+        du mal et du bien</em></a>, <a
+        href="https://5e-drs.fr/grimoire/druidisme"><em>druidisme</em></a>, <a
+        href="https://5e-drs.fr/grimoire/passage-sans-trace"><em>passage sans
+        trace</em></a></li>
+
+        <li><strong><em>1/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/apaisement-des-emotions"><em>apaisement
+        des émotions</em></a>, <a
+        href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien"><em>dissipation
+        du mal et du bien</em></a>, <a
+        href="https://5e-drs.fr/grimoire/enchevetrement"><em>enchevêtrement</em></a></li>
+
+        </ul>
+
+        <p><strong><em>Résistance à la magie</em></strong>. La licorne obtient
+        un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        lors des jets de sauvegarde contre les sorts et autres effets
+        magiques.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. La licorne effectue
+        deux attaques : une avec ses sabots et l'autre avec sa corne.</p>
+
+        <p><strong><em>Contact guérisseur (3/jour)</em></strong>. La licorne
+        touche une autre créature avec sa corne. La cible récupère 11 (2d8+2)
+        points de vie par magie. En outre, le contact soigne toutes les maladies
+        et neutralise tous les poisons dont est victime la cible.</p>
+
+        <p><strong><em>Corne</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +7 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 8 (1d8+4) dégâts perforants.</p>
+
+        <p><strong><em>Sabots</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +7 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 11 (2d6+4) dégâts contondants.</p>
+
+        <p><strong><em>Téléportation (1/jour)</em></strong>. La licorne se
+        téléporte par magie, avec un maximum de trois créatures consentantes
+        situées dans son champ de vision à 1,50 mètre ou moins d'elle, avec
+        l'ensemble des objets équipés ou transportés, vers un endroit connu de
+        la licorne situé à une distance maximale de 1,5 kilomètre.</p>
+
+        <hr>
+
+        <h2 id="actions-legendaires">Actions légendaires</h2>
+
+        <p>La licorne peut effectuer 3 actions légendaires qu'elle choisit parmi
+        celles décrites ici. Une seule action légendaire peut être choisie à la
+        fois et uniquement à la fin du tour d'une autre créature. La licorne
+        récupère au début de son tour l'utilisation des actions légendaires déjà
+        effectuées.</p>
+
+        <p><strong><em>Protection scintillante (coûte 2 actions)</em></strong>.
+        La licorne crée un champ magique scintillant autour d'elle ou d'une
+        créature située à 18 mètres ou moins dans son champ de vision. La cible
+        bénéficie d'un bonus de +2 à sa CA jusqu'à la fin du prochain tour de la
+        licorne.</p>
+
+        <p><strong><em>Sabots</em></strong>. La licorne effectue une attaque
+        avec ses sabots.</p>
+
+        <p><strong><em>Soin personnel (coûte 3 actions)</em></strong>. La
+        licorne récupère par magie 11 (2d8+2) points de vie.</p>
+      public: ''
+    alignment: Loyal Bon
+    race: ''
+    type:
+      value: celestial
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Bois / Forêt
+    cr: 5
+    spellLevel: 5
+    source: Créatures & Oppositions
+    xp:
+      value: 1800
+  traits:
+    size: lg
+    di:
+      value:
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - poisoned
+        - paralyzed
+      custom: ''
+    languages:
+      value:
+        - celestial
+        - elvish
+        - sylvan
+      custom: Télépathie 18 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 2
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Licorne
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/tokens/celestial/Unicorn.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690430
+  modifiedTime: 1663923695643
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!TGRo9Zo7Ox4LHtNM'
+

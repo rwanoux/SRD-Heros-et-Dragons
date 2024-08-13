@@ -1,0 +1,114 @@
+_id: s7PCn4Xa8vGqcFck
+name: Protecteur de l'Outre-Monde [Sorcier]
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.kyH4oAUCEoBOiqzB
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3><strong>Protecteur de l'Outre-Monde</strong></h3><p>Au niveau 1, vous
+      avez passé un pacte avec un être de l'outre-monde de votre choix
+      :</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.VkBjumrifrjpPnic]{[Sorcier]
+      Entité
+      extra-dimensionnelle}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.KyvzVNGI7YCBfnWJ]{[Sorcier]
+      Fiélon}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.oliIOFqYL0gTQjcS]{[Sorcier]
+      Le seigneur
+      Deux-visages}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.kp4arxPTVgYoZFU5]{[Sorcier]
+      Puissance des
+      Profondeurs}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.JSuCz01TFFo14x4H]{[Sorcier]
+      Seigneur Immortel}</li></ul><p>Ce choix vous permet de bénéficier de
+      certaines aptitudes particulières au niveau 1 puis aux niveaux 6, 10 et
+      14</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685650
+  modifiedTime: 1678418148866
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.kyH4oAUCEoBOiqzB
+  duplicateSource: null
+_key: '!items!s7PCn4Xa8vGqcFck'
+

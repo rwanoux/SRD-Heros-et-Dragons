@@ -1,0 +1,136 @@
+_id: v5JPLoDPaBzpcwqr
+name: Parade de Projectiles [Moine]
+type: feat
+img: icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  midi-qol:
+    effectActivation: false
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickOther:
+      context: ''
+      value: true
+      altValue: true
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="parade-de-projectiles"><strong>Parade de projectiles</strong></h3>
+
+      <p>&Agrave; partir du niveau 3, vous pouvez utiliser votre r&eacute;action
+      pour parer ou attraper un projectile quand vous &ecirc;tes touch&eacute;
+      par une attaque venant d'une arme &agrave; distance. Quand vous utilisez
+      cette aptitude, les d&eacute;g&acirc;ts que vous subissez sont
+      r&eacute;duits de 1d10 + votre modificateur de Dext&eacute;rit&eacute; +
+      votre niveau de moine.</p>
+
+      <p>Si les d&eacute;g&acirc;ts que vous subissez sont totalement
+      annul&eacute;s, vous pouvez attraper le projectile si vous avez une main
+      de libre et qu'il est assez petit pour que vous puissiez le tenir dans une
+      main. Si vous r&eacute;ussissez &agrave; attraper un projectile de cette
+      mani&egrave;re, vous pouvez d&eacute;penser 1 point de ki pour faire,
+      toujours dans la m&ecirc;me r&eacute;action, une attaque &agrave; distance
+      avec l'arme ou la munition que vous venez d'attraper. Cette attaque est
+      consid&eacute;r&eacute;e comme ma&icirc;tris&eacute;e, peu importe quelles
+      armes vous ma&icirc;trisez ou non, et le projectile est
+      consid&eacute;r&eacute; comme une arme de moine pour cette attaque, avec
+      une port&eacute;e normale de 6 m&egrave;tres et une port&eacute;e longue
+      de 18 m&egrave;tres.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 6
+    long: 18
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d10 + @abilities.dex.mod + @classes.moine.levels
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685680
+  modifiedTime: 1678411047348
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!v5JPLoDPaBzpcwqr'
+

@@ -1,0 +1,81 @@
+_id: XzBsolABEDoPXDXO
+name: Table Sceptre OM7
+folder: vVTDSYsguUPXB21e
+sort: 9000000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: tpKcI3VRZUETboac
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sceptre d'absorption
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_15.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: FX2oJ9lE3p35VRN5
+    _key: '!tables.results!XzBsolABEDoPXDXO.tpKcI3VRZUETboac'
+  - _id: L7GVaKNhQIg9ghnX
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sceptre de sécurité
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/blue_18.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: OhcLzecUJFiVpYLt
+    _key: '!tables.results!XzBsolABEDoPXDXO.L7GVaKNhQIg9ghnX'
+  - _id: NR1qSjmMdao3O9wh
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sceptre de vigilance
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/violet_03.jpg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: bpBh9mKcjCsNc7tn
+    _key: '!tables.results!XzBsolABEDoPXDXO.NR1qSjmMdao3O9wh'
+formula: 1d6
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!XzBsolABEDoPXDXO'
+

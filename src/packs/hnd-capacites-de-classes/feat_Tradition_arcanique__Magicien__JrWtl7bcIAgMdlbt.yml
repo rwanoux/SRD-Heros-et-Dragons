@@ -1,0 +1,106 @@
+_id: JrWtl7bcIAgMdlbt
+name: Tradition arcanique [Magicien]
+type: feat
+img: icons/magic/water/orb-ice-glow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  entityorder:
+    order: 49
+  core:
+    sourceId: Item.FWOQNpnsvihajpYm
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: "<p>Quand vous atteignez le niveau 2, vous choisissez une\_<a href=\"https://5e-drs.fr/classes/magicien/#traditions-arcaniques\">tradition arcanique</a> qui définit votre manière de pratiquer la magie. Les traditions disponibles sont :\_</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.SbrTKYTvqwStUQFy]{[Magicien] Académicien}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.EXCzy8yV2gQYOOW0]{[Magicien] Arpenteur}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Wl01RHUeHfkI2vHq]{[Magicien] École d'évocation}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.5DGr66hWelbROKos]{[Magicien] Élémentaliste}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.a4c1iDkc06yTrDfe]{[Magicien] Éminence grise}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.MUKtiEA81Ed2yEzZ]{[Magicien] Mage de guerre}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.lt5iln4PHifno3OV]{[Magicien] Maître d'étude}</li>\n</ul>"
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685291
+  modifiedTime: 1678408629116
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.FWOQNpnsvihajpYm
+  duplicateSource: null
+_key: '!items!JrWtl7bcIAgMdlbt'
+

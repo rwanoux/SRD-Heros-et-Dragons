@@ -1,0 +1,168 @@
+_id: Ln4xF2JrOLiloO8v
+name: Liste de sorts étendue [Seigneur Immortel]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="liste-de-sorts-etendue-2"><strong>Liste de sorts
+      &eacute;tendue</strong></h3>
+
+      <p>Le seigneur immortel vous permet de choisir des sorts dans une liste de
+      sorts &eacute;tendue quand vous devez apprendre un sort de sorcier. Les
+      sorts suivants sont ajout&eacute;s dans votre liste de sorts de
+      sorcier.</p>
+
+      <table style="width: 390px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 76px;">Niv. de sort</th>
+
+      <th style="width: 309px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 76px;">1</td>
+
+      <td style="width:
+      309px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NAvGwByTJdJAx5Tz]{Fl&eacute;au}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.c4mQpfdz2aPgHcSN]{Simulacre
+      de vie}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 76px;">2</td>
+
+      <td style="width:
+      309px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH]{Augure}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ERUTy5xranppdaSf]{Doux
+      repos}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 76px;">3</td>
+
+      <td style="width:
+      309px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.OCUj2zEYDrEftQjy]{Animation
+      des morts}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t]{Communication
+      avec les morts}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 76px;">4</td>
+
+      <td style="width:
+      309px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB]{Libert&eacute;
+      de mouvement}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AxRxwMQ5LB45shbD]{Protection
+      contre la mort}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 76px;">5</td>
+
+      <td style="width:
+      309px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fu4fbKurX9Q8skJE]{L&eacute;gende}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6]{Rappel
+      &agrave; la vie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685361
+  modifiedTime: 1678418015862
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Ln4xF2JrOLiloO8v'
+

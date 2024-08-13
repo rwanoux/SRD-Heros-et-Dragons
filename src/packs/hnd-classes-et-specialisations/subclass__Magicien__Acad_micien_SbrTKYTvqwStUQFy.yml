@@ -1,0 +1,80 @@
+_id: SbrTKYTvqwStUQFy
+name: '[Magicien] Académicien'
+type: subclass
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"traditions-arcaniques\"><strong>Traditions arcaniques</strong></h2>\n<h3 id=\"academicien\"><strong>Académicien</strong></h3>\n<p>\_</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DtIApEucRughBwNE]{Magie académique [Académicien]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JGzjbBTucngqVKUw]{Spécialisation [Académicien]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YjXVwzCilA9MnMLj]{Expertise [Académicien]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ABfJIT9WnpcBHzoE]{Maîtrise [Académicien]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UhKCDf0G39WkHSLe]{Haute maîtrise [Académicien]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: academicien
+  classIdentifier: magicien
+  advancement:
+    - _id: 8o1iecbntz8zye5f
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UhKCDf0G39WkHSLe
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: 4eavkfm53433083z
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ABfJIT9WnpcBHzoE
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: rl5h2v30qtrcxab2
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YjXVwzCilA9MnMLj
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: 4ocuq1jzltangceu
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DtIApEucRughBwNE
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JGzjbBTucngqVKUw
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703409
+  modifiedTime: 1663923703587
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!SbrTKYTvqwStUQFy'
+

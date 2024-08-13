@@ -1,0 +1,108 @@
+_id: nFdG4PNTKatOKStx
+name: Expertise [Roublard]
+type: feat
+img: icons/skills/targeting/target-glowing-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: details
+  entityorder:
+    order: 146
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="expertise"><strong>Expertise</strong></h3>
+
+      <p>Au niveau 1, choisissez deux comp&eacute;tences que vous
+      ma&icirc;trisez ou une comp&eacute;tence que vous ma&icirc;trisez et la
+      ma&icirc;trise des outils de voleurs. Votre bonus de ma&icirc;trise pour
+      les deux capacit&eacute;s choisies est doubl&eacute; pour tous les tests
+      de comp&eacute;tences.</p>
+
+      <p>Au niveau 6, vous pouvez choisir deux autres ma&icirc;trises (parmi vos
+      comp&eacute;tences ou les outils de voleur) et leur appliquer cette
+      aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685619
+  modifiedTime: 1663923687458
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!nFdG4PNTKatOKStx'
+

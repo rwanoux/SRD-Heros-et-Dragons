@@ -1,0 +1,173 @@
+_id: 5dwvCVNOe9PBPmHH
+name: Manuel des golems
+type: consumable
+img: icons/sundries/books/book-symbol-triangle-silver-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">Ce livre présente des informations et des
+      incantations nécessaires à la fabrication d'un certain type de golems.
+      C'est au MJ de choisir ce type ou de le déterminer au hasard. Pour
+      déchiffrer le manuel et vous en servir, vous devez être un incantateur
+      disposant d'au moins deux emplacements de sort de niveau 5. Si une
+      créature tente de lire le&nbsp;manuel des golems&nbsp;alors qu'elle est
+      incapable de s'en servir, elle subit 6d6 dégâts psychiques.<br>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th class="center">d20</th>
+
+      <th>Golem</th>
+
+      <th>Temps</th>
+
+      <th>Coût</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">1-5</td>
+
+      <td>Argile</td>
+
+      <td>30 jours</td>
+
+      <td>65 000 po</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">6-17</td>
+
+      <td>Chair</td>
+
+      <td>60 jours</td>
+
+      <td>50 000 po</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">18</td>
+
+      <td>Fer</td>
+
+      <td>120 jours</td>
+
+      <td>100 000 po</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">19-20</td>
+
+      <td>Pierre</td>
+
+      <td>90 jours</td>
+
+      <td>80 000 po</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br>
+
+      <p>Pour créer un golem, vous devez passer le temps indiqué dans la table à
+      travailler sans interruption en vous aidant du manuel, sans vous reposer
+      plus de 8 heures par jour. Vous devez également payer le prix indiqué pour
+      acheter vos fournitures.</p>
+
+      <p>Dès que vous avez achevé la construction du golem, le manuel se consume
+      dans des flammes surnaturelles. Le golem s'anime une fois que vous l'avez
+      saupoudré avec les cendres du livre. Il est sous votre contrôle, comprend
+      vos ordres vocaux et leur obéit.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.5
+  price: 35000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 6d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701033
+  modifiedTime: 1663923701867
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!5dwvCVNOe9PBPmHH'
+

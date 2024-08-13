@@ -1,0 +1,120 @@
+_id: WSo7HX39GitIv54A
+name: Origine magique [Ensorceleur]
+type: feat
+img: icons/magic/fire/projectile-meteor-salvo-heavy-purple-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="origine-magique"><strong>Origine magique</strong></h3>
+
+      <p>Choisissez une origine qui explique la source de vos pouvoirs magiques
+      inn&eacute;s. Ces origines sont d&eacute;taill&eacute;es &agrave; la fin
+      de la section consacr&eacute;e &agrave; cette classe.</p>
+
+      <p>Votre choix vous permet d'acc&eacute;der &agrave; certaines aptitudes
+      particuli&egrave;res quand vous le choisissez au niveau 1 puis aux niveaux
+      6, 14 et 18.</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wtEnT246bfiZ1KIL]{Lign&eacute;e
+      C&eacute;leste [Ensorceleur]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kM2ye55mtPhofEQg]{Lign&eacute;e
+      Draconique [Ensorceleur]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cBLZ381rMWge3gyQ]{Lign&eacute;e
+      F&eacute;erique [Ensorceleur]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xDB0WkfqIbCvfQ8t]{Lign&eacute;e
+      Infernale [Ensorceleur]}</li>
+
+      </ul>
+
+      <div style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">&nbsp;</div>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685430
+  modifiedTime: 1663923686958
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WSo7HX39GitIv54A'
+

@@ -1,0 +1,86 @@
+name: Phalange
+type: feat
+img: icons/skills/melee/spear-tips-quintuple-orange.webp
+system:
+  description:
+    value: "<p><span style=\"font-family:Roboto, sans-serif\">Au niveau 7, vous soutenez vos alliés lorsque vous combattez au coude à coude. Tant qu'un allié qui n'est pas <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise\">neutralisé</a> se trouve dans un rayon de 1,5\_m de vous, vous pouvez effectuer l'action <a href=\"https://5e-drs.fr/combattre/#aider\">Aider</a> par une action bonus pour assister l'attaque d'un allié ou un test de Force (Athlétisme) ou de Dextérité (Acrobaties).</span></p>"
+    chat: ''
+    unidentified: ''
+  source: Warlock Grimoire - Kobold Press
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: ally
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Lancier du crépuscule
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.kDd4H6gJsMgKDSPk
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678361001932
+  modifiedTime: 1678425105130
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.kDd4H6gJsMgKDSPk
+  duplicateSource: null
+folder: null
+sort: 0
+_id: Nx67EQSXcloI41XI
+_key: '!items!Nx67EQSXcloI41XI'
+

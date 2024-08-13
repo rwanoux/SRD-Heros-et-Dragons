@@ -1,0 +1,266 @@
+_id: kMaGTTISAepnP13R
+name: Guerrier
+type: class
+img: icons/skills/melee/hand-grip-sword-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  HD:
+    compendium: classes
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-classes-et-specialisations.ckrILfLkz1mGkFVr
+  exportSource:
+    world: test1
+    system: dnd5e
+    coreVersion: '9.269'
+    systemVersion: 1.6.0
+system:
+  description:
+    value: "<h2><strong>Évolution du guerrier</strong></h2>\n<div>\n<table style=\"width:499px\">\n<thead>\n<tr>\n<th>Niveau</th>\n<th>Bonus de maîtrise</th>\n<th>Aptitudes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Eb1Y2qyYwORQ2ApD]{Style de Combat [Guerrier]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pPbesWgASIEowHJx]{Second souffle [Guerrier]}</td>\n</tr>\n<tr>\n<td>2</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5C1yFuTrJyvHLbBp]{Sursaut d'activité [Guerrier]}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jgeNLXm03sNvWaBG]{Archétype Martial [Guerrier]}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>+2</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv]{Amélioration de caractéristiques niv4}</td>\n</tr>\n<tr>\n<td>5</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9]{Attaque supplémentaire [Guerrier]}</td>\n</tr>\n<tr>\n<td>6</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uAGtyFEqivZWuO3c]{Amélioration de caractéristiques niv6}</td>\n</tr>\n<tr>\n<td>7</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Kf1bKnylhbKxR8QD]{Aptitude d'Archétype Martial [Guerrier]}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>+3</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni]{Amélioration de caractéristiques niv8}</td>\n</tr>\n<tr>\n<td>9</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu]{Indomptable [Guerrier]} (x1)</td>\n</tr>\n<tr>\n<td>10</td>\n<td>+4</td>\n<td><span style=\"background-color:rgba(0, 0, 0, 0.05)\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Kf1bKnylhbKxR8QD]{Aptitude d'Archétype Martial [Guerrier]}</span></td>\n</tr>\n<tr>\n<td>11</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9]{Attaque supplémentaire [Guerrier]} (2)</td>\n</tr>\n<tr>\n<td>12</td>\n<td>+4</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih]{Amélioration de caractéristiques niv12}</td>\n</tr>\n<tr>\n<td>13</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu]{Indomptable [Guerrier]} (x2)</td>\n</tr>\n<tr>\n<td>14</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JJZJGdMivhTqw1l9]{Amélioration de caractéristiques niv14}</td>\n</tr>\n<tr>\n<td>15</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Kf1bKnylhbKxR8QD]{Aptitude d'Archétype Martial [Guerrier]}</td>\n</tr>\n<tr>\n<td>16</td>\n<td>+5</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF]{Amélioration de caractéristiques niv16}</td>\n</tr>\n<tr>\n<td>17</td>\n<td>+6</td>\n<td><span style=\"background-color:rgba(255, 255, 255, 0.2)\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5C1yFuTrJyvHLbBp]{Sursaut d'activité [Guerrier]} (x2)<br /></span>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu]{Indomptable [Guerrier]} (x3)<span style=\"background-color:rgba(255, 255, 255, 0.2)\"><br /></span></td>\n</tr>\n<tr>\n<td>18</td>\n<td>+6</td>\n<td><span style=\"background-color:rgba(0, 0, 0, 0.05)\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Kf1bKnylhbKxR8QD]{Aptitude d'Archétype Martial [Guerrier]}</span></td>\n</tr>\n<tr>\n<td>19</td>\n<td>+6</td>\n<td>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma]{Amélioration de caractéristiques niv19}</td>\n</tr>\n<tr>\n<td>20</td>\n<td>+6</td>\n<td><span style=\"background-color:rgba(0, 0, 0, 0.05)\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9]{Attaque supplémentaire [Guerrier]} (3)</span></td>\n</tr>\n</tbody>\n</table>\n</div>\n<h2 id=\"evolution-du-guerrier\"></h2>\n<h2><strong>Aptitudes de classe</strong></h2>\n<p>En tant que guerrier, vous bénéficiez des aptitudes de classe suivantes.</p>\n<h3 id=\"points-de-vie\"><strong>Points de vie</strong></h3>\n<p>Dés de vie\_: 1d10 par niveau de guerrier<br />Points de vie au niveau 1\_: 10 + votre modificateur de Constitution<br />Points de vie aux niveaux supérieurs\_: 1d10 (ou 6) + votre modificateur de Constitution par niveau de guerrier après le niveau 1</p>\n<h3 id=\"maitrises\"><strong>Maîtrises</strong></h3>\n<p>Armures\_: toutes les armures, boucliers<br />Armes\_: armes courantes, armes de guerre<br />Outils\_: aucuns<br />Jets de sauvegarde\_: Force, Constitution<br />Compétences\_: choisissez deux compétences parmi les suivantes : Acrobaties, Athlétisme, Dressage, Histoire, Intimidation, Perception, Perspicacité et Survie</p>\n<h3 id=\"equipement\"><strong>Équipement</strong></h3>\n<p>Vous commencez avec l'équipement suivant, en plus de l'équipement accordé par votre historique :</p>\n<ul>\n<li>(a) une @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.CuFjx1rNCXvvjs4s]{Cotte de mailles} ou (b) une armure de @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.tqUyJMj5PvXTEiEN]{Cuir}, un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.ESsmMkJi2FYMuVXG]{Arc long} et vingt @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.xUlySro5gQ6muHss]{Flèches}</li>\n<li>(a) une arme de guerre et un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.O2P5Y0pyROoFP9Zk]{Bouclier} ou (b) deux armes de guerre</li>\n<li>(a) une @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Y2E8mBK8VRjtXv8g]{Arbalète légère} avec vingt @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.BbrrZQCfU2FeYTes]{Carreaux d'arbalète} ou (b) deux @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.06saBIBGVcRAcVZy]{Hachette}</li>\n<li>(a) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Dm2ycg6r2SrNacn1]{Paquetage d'exploration souterraine} ou (b) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.vQSNZN00haalnn7U]{Paquetage d'explorateur}</li>\n</ul>"
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  identifier: guerrier
+  levels: 1
+  hitDice: d10
+  hitDiceUsed: 0
+  advancement:
+    - _id: mdw1r6z9wdfmu08w
+      type: HitPoints
+      configuration: {}
+      value: {}
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: nqta7zrj4d4sbydh
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Eb1Y2qyYwORQ2ApD
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pPbesWgASIEowHJx
+        optional: false
+      value: {}
+      level: 1
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: 92xvu9psnhjbzehg
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5C1yFuTrJyvHLbBp
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: ee012eyaxo6gfldl
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jgeNLXm03sNvWaBG
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: ulhgzilbya25cc90
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv
+        optional: true
+      value: {}
+      level: 4
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: wl02nd2fyws0gh0v
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9
+        optional: false
+      value: {}
+      level: 5
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: xyidsmsjypm4737f
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uAGtyFEqivZWuO3c
+        optional: true
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: 3jdue5xbux4tx8i6
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni
+        optional: true
+      value: {}
+      level: 8
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: ogqf9olep68v949y
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: 7t4oe03j0335uywb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: biuonwcqhrb2temw
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih
+        optional: true
+      value: {}
+      level: 12
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: 2hkuem7jes6elkzj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu
+        optional: true
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: ccz7go88bp4dxcsb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JJZJGdMivhTqw1l9
+        optional: true
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: 5g7if1odoym3rsly
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF
+        optional: true
+      value: {}
+      level: 16
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: a7py763jpgiz3nmg
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5C1yFuTrJyvHLbBp
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.EIqkz3i9eyOsPUtu
+        optional: true
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: yc11lc43o8nsxq4y
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma
+        optional: true
+      value: {}
+      level: 19
+      title: ''
+      icon: ''
+      classRestriction: primary
+    - _id: wb3q3368evlp8qt5
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LOpOAL8KMUPmRtq9
+        optional: false
+      value: {}
+      level: 20
+      title: ''
+      icon: ''
+      classRestriction: primary
+  spellcasting:
+    progression: none
+    ability: ''
+  saves:
+    - str
+    - con
+  skills:
+    number: 2
+    choices:
+      - acr
+      - ath
+      - ani
+      - his
+      - itm
+      - ins
+      - prc
+      - sur
+    value: []
+  subclass: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703422
+  modifiedTime: 1663923703635
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: >-
+    Compendium.srd-heros-et-dragons.HnD-classes-et-specialisations.ckrILfLkz1mGkFVr
+  duplicateSource: null
+_key: '!items!kMaGTTISAepnP13R'
+

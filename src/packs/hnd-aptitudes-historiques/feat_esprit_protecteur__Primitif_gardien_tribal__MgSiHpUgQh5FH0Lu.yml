@@ -1,0 +1,85 @@
+_id: MgSiHpUgQh5FH0Lu
+name: esprit protecteur (Primitif-gardien tribal)
+type: feat
+flags:
+  HD: aptitudeHistorique
+img: icons/consumables/fruit/apple-red-tree-green.webp
+system:
+  description:
+    value: >-
+      <p>Vous avez un gardien spirituel qui vous suit, invisible, et vous aide
+      parfois. Il incarne la puissance naturelle et animale. Les animaux vous
+      sont rarement hostiles, à moins que vous les menaciez. Au pire ils
+      préfèrent vous éviter. Quand un animal sauvage se présente, il ne prend
+      que rarement la peine de s'enfuir et ne vous agresse que dans des cas
+      extrêmes. De plus, vous êtes toujours capable de retrouver votre chemin en
+      pleine nature</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: primitif
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  jeEWpAXhNr8a02gW: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703909
+  modifiedTime: 1663923703961
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MgSiHpUgQh5FH0Lu'
+

@@ -1,0 +1,87 @@
+_id: PiF3R7y5taWTeTy3
+name: Tour de magie puissant [École d'Évocation]
+type: feat
+flags: {}
+img: icons/magic/light/projectiles-pink-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="tour-de-magie-puissant"><strong>Tour de magie
+      puissant</strong></h3>
+
+      <p>&Agrave; partir du niveau 6, vos tours de magie qui infligent des
+      d&eacute;g&acirc;ts affectent m&ecirc;me les cr&eacute;atures qui arrivent
+      &agrave; &eacute;viter de subir leurs effets. Quand une cr&eacute;ature
+      r&eacute;ussit son jet de sauvegarde contre votre tour de magie, elle
+      subit quand m&ecirc;me la moiti&eacute; des d&eacute;g&acirc;ts (s'il y en
+      a), mais elle &eacute;chappe aux effets suppl&eacute;mentaires du tour de
+      magie.</p>
+    chat: ''
+    unidentified: ''
+  source: Héros & Dragons DRS
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685386
+  modifiedTime: 1663923686763
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!PiF3R7y5taWTeTy3'
+

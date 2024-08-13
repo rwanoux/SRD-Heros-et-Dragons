@@ -1,0 +1,88 @@
+name: Vision dans le noir (Darakhul)
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.F3VHjgMNGT7RctFv
+img: icons/creatures/eyes/human-single-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Vision dans le noir</strong>. Vous pouvez voir dans une lumière
+      faible dans un rayon de 18 mètres autour de vous comme s'il s'agissait
+      d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une
+      lumière faible. Vous ne pouvez pas discerner les couleurs dans
+      l'obscurité, seulement les nuances de gris.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Darakhul
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+  MB7dftOsMOjK5aEw: 3
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923698173
+  modifiedTime: 1680507545211
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.F3VHjgMNGT7RctFv
+  duplicateSource: null
+folder: null
+sort: 0
+_id: IvbsMiPBWuokAAns
+_key: '!items!IvbsMiPBWuokAAns'
+

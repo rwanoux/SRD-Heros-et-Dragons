@@ -1,0 +1,135 @@
+_id: lhQhRULotoSm8GPi
+name: Forme gazeuse
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous touchez une créature consentante et la transformez, ainsi que tous
+      les objets qu'elle porte et qu'elle transporte, en nuage brumeux pour
+      toute la durée du sort. Ce dernier se termine si la créature tombe à 0
+      point de vie. Le sort n'affecte pas les créatures intangibles.</p>
+
+      <p>Sous cette forme, la cible n'a plus qu'un seul mode de déplacement : le
+      vol, à une vitesse de 3 mètres. Elle peut entrer dans l'espace d'une autre
+      créature et l'occuper. Elle est résistante aux dégâts non magiques et elle
+      bénéficie d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+      lors des jets de sauvegarde de Force, de Dextérité et de Constitution.
+      Elle peut passer à travers de petits trous, de minces ouvertures et même
+      de simples fissures. En revanche, les liquides équivalent pour elle à des
+      surfaces solides. Elle ne peut pas tomber et continue de flotter dans les
+      airs même si elle est <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#étourdi"><em>étourdie</em></a>
+      ou <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>.</p>
+
+      <p>Sous forme de nuage brumeux, la cible ne peut pas parler ni manipuler
+      d'objet. Il lui est impossible de lâcher les objets qu'elle portait et
+      qu'elle transportait, et personne ne peut les utiliser ni interagir avec
+      eux. Elle ne peut pas attaquer ni lancer de sort.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un morceau de gaze et une volute de fumée
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688179
+  modifiedTime: 1663923689343
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!lhQhRULotoSm8GPi'
+

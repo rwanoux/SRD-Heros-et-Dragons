@@ -1,0 +1,119 @@
+_id: l8ovgCzZX50c8OYI
+name: Flou
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/silhouette-hold-change-blue.webp
+system:
+  description:
+    value: >-
+      <p>Votre corps devient flou, il ondule et vacille comme une flamme aux
+      yeux d'autrui. Pendant toute la durée du sort, les créatures subissent un
+      désavantage lorsqu'elles font un <a
+      href="https://5e-drs.fr/combattre#jets-dattaque">jet d'attaque</a> contre
+      vous. Un attaquant est immunisé contre cet effet s'il ne se repose pas sur
+      sa vue, s'il dispose de vision aveugle, par exemple, ou s'il peut percer
+      les illusions à jour avec vision parfaite.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: ill
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688176
+  modifiedTime: 1663923689331
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!l8ovgCzZX50c8OYI'
+

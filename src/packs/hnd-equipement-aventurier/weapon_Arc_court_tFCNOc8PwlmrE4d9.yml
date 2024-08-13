@@ -1,0 +1,143 @@
+_id: tFCNOc8PwlmrE4d9
+name: Arc court
+type: weapon
+img: icons/weapons/bows/shortbow-recurve.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    category: simple
+    type: ranged
+    mode: melee
+    tags:
+      twohanded: true
+    magical: false
+    effects:
+      - name: ''
+        uuid: d1aaa3e2-09ba-49c5-ad34-c17255cc0935
+        components:
+          - type: attack
+            uuid: fb1a6e4b-e914-4a54-8eb6-e217903a579d
+            attack: ranged
+            category: weapon
+            ability: ''
+            bonus: 0
+            crit: 20
+            proficient: false
+            reach: null
+            range1: null
+            range2: null
+            target: ''
+          - type: damage
+            uuid: 8990e76c-ba67-4adf-8f6c-5b2616593946
+            calc: formula
+            ndice: 1
+            die: 6
+            ability: str
+            bonus: 0
+            damage: prc
+            versatile: false
+    version: 7
+system:
+  description:
+    value: >-
+      <p>Cet arc à deux mains est un peu plus petit que la variante
+      traditionnelle de l'arc long, ce qui le rend bien adapté aux attaques
+      rapides en mouvement ou à cheval.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 1
+  price: 25
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 24
+    long: 96
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleR
+  baseItem: shortbow
+  properties:
+    two: true
+    amm: true
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    ver: false
+    lod: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700663
+  modifiedTime: 1663923700663
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!tFCNOc8PwlmrE4d9'
+

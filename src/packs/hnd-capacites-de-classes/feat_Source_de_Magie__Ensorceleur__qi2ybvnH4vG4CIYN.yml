@@ -1,0 +1,107 @@
+_id: qi2ybvnH4vG4CIYN
+name: Source de Magie [Ensorceleur]
+type: feat
+img: icons/magic/light/explosion-star-blue-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="source-de-magie"><strong>Source de magie</strong></h3>
+
+      <p>Au niveau 2, vous pouvez puiser dans la profonde réserve de magie qui
+      réside en vous. Cette source de magie est représentée par les points de
+      sorcellerie qui vous permettent de créer de nombreux effets magiques.</p>
+
+      <h3 id="points-de-sorcellerie"><strong>Points de sorcellerie</strong></h3>
+
+      <p>Vous commencez avec 2 points de sorcellerie et vous en gagnez d'autres
+      en progressant dans cette classe, comme vous pouvez le constater dans la
+      colonne points de sorcellerie du tableau d'évolution
+      d'@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.eeKL2DiGFZhpfazP]{Ensorceleur}.
+      Vous ne pouvez jamais avoir plus de points de sorcellerie que ceux
+      indiqués par le tableau pour votre niveau. Vous regagnez vos points de
+      sorcellerie après un repos long.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685640
+  modifiedTime: 1663923687547
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!qi2ybvnH4vG4CIYN'
+

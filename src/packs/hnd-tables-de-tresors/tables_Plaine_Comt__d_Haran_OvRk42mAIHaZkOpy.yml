@@ -1,0 +1,79 @@
+_id: OvRk42mAIHaZkOpy
+name: Plaine Comté d'Haran
+folder: 8Oz6FRw9EDevrDa4
+sort: 100000
+flags:
+  better-rolltables:
+    table-type: none
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: Rencontre aléatoire
+results:
+  - _id: p2C79kXPDcoK8v3v
+    flags: {}
+    type: text
+    text: Rien
+    img: icons/svg/d20-black.svg
+    weight: 1
+    range:
+      - 1
+      - 70
+    drawn: false
+    documentId: null
+    _key: '!tables.results!OvRk42mAIHaZkOpy.p2C79kXPDcoK8v3v'
+  - _id: fNKHNcnIqXa3KC7q
+    flags: {}
+    type: pack
+    text: Gobelin
+    img: https://assets.forge-vtt.com/bazaar/core/icons/svg/cowled.svg
+    weight: 1
+    range:
+      - 71
+      - 80
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-bestaire
+    documentId: mwfrQRYlnXas0NSb
+    _key: '!tables.results!OvRk42mAIHaZkOpy.fNKHNcnIqXa3KC7q'
+  - _id: GqQgx56IfH9nRvb3
+    flags: {}
+    type: pack
+    text: Sanglier
+    img: systems/dnd5e/tokens/beast/Boar.png
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    documentCollection: dnd5e.monsters
+    documentId: lZR4lhNmYSf89s4Q
+    _key: '!tables.results!OvRk42mAIHaZkOpy.GqQgx56IfH9nRvb3'
+  - _id: 9TUFvHD9VNI4ziZP
+    flags: {}
+    type: pack
+    text: Serpent venimeux
+    img: systems/dnd5e/tokens/beast/PoisonousSnake.png
+    weight: 1
+    range:
+      - 91
+      - 100
+    drawn: false
+    documentCollection: dnd5e.monsters
+    documentId: D5rwVIxmfFrdyyxT
+    _key: '!tables.results!OvRk42mAIHaZkOpy.9TUFvHD9VNI4ziZP'
+formula: 1d100
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!OvRk42mAIHaZkOpy'
+

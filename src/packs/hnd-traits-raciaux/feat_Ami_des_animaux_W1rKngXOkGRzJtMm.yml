@@ -1,0 +1,92 @@
+name: Ami des animaux
+type: feat
+img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.d7SBLvAe4jFCwecn
+_id: W1rKngXOkGRzJtMm
+system:
+  description:
+    value: >-
+      <p>Vous avez depuis tout petit un rapport particulier aux animaux et à
+      votre idhayoba. Vous avez appris à entendre et à comprendre leur langage.
+      Une fois par jour, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.CarbMJ73FtMTsJZw]{Communication
+      avec les animaux}. Ce sort, lancé de cette façon, n'utilise aucun
+      emplacement de sort. Si vous choisissez une classe de personnage capable
+      de lancer ce sort, il est alors considéré comme connu ou comme toujours
+      préparé (en plus des sorts que vous connaissez ou que vous êtes
+      normalement capable de préparer). Vous pouvez alors le lancer de cette
+      manière ou en dépensant un emplacement de sort, selon votre préférence.
+      Votre caractéristique d'incantation pour ces tours de magie est le
+      Charisme. S'ils intègrent vos tours de magie connus grâce à votre classe,
+      elle devient la caractéristique d'incantation de votre classe.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gnome Vaesenkaebae
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698197
+  modifiedTime: 1663923698497
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.d7SBLvAe4jFCwecn
+  duplicateSource: null
+_key: '!items!W1rKngXOkGRzJtMm'
+

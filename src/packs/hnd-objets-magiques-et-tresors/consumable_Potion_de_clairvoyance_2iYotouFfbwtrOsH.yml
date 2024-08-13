@@ -1,0 +1,87 @@
+_id: 2iYotouFfbwtrOsH
+name: Potion de clairvoyance
+type: consumable
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">Quand vous buvez cette potion, vous bénéficiez
+      des effets du sort&nbsp;<a
+      href="https://5e-drs.fr/grimoire/clairvoyance/">clairvoyance</a>. Un globe
+      oculaire flotte dans ce liquide jaunâtre, mais disparaît dès qu'on ouvre
+      la potion.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 960
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701013
+  modifiedTime: 1663923701801
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2iYotouFfbwtrOsH'
+

@@ -1,0 +1,165 @@
+_id: s5oy99Cz78YXlddR
+name: Liste de sorts étendue [Fiélon]
+type: feat
+flags: {}
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="liste-de-sorts-etendue"><strong>Liste de sorts
+      &eacute;tendue</strong></h3>
+
+      <p>Le fi&eacute;lon vous permet de choisir des sorts dans une liste de
+      sorts &eacute;tendue quand vous devez apprendre un sort de sorcier. Les
+      sorts suivants sont ajout&eacute;s dans votre liste de sorts de
+      sorcier.</p>
+
+      <table style="width: 380px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 128.5px;">Niv. de sort</th>
+
+      <th style="width: 248.5px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 128.5px;">1</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.xYBSOrbsz3VR32Hf]{Mains
+      br&ucirc;lantes}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.pf4r4PtLfVA4sxTx]{Injonction}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 128.5px;">2</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.faVqGcFwqejo3mJG]{C&eacute;cit&eacute;/Surdit&eacute;}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.zPbxePIKWx4zAUxv]{Rayon
+      ardent}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 128.5px;">3</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.bvRksmepD9SBn5fv]{Boule
+      de feu}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.GvN5vk3gT6KsDPfK]{Nuage
+      puant}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 128.5px;">4</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.5lPYVb5h8rYXeFgw]{Bouclier
+      de feu
+      Chaud}@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.uEYy6RPn3eaVXon5]{Bouclier
+      de feu froid}<br
+      />@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.1thHuynVkvtrkNPN]{Mur
+      de feu Mur}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.o2SqL5ynYUuLeu2d]{Mur
+      de feu Cercle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 128.5px;">5</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.aQTX6iECIzN34VI2]{Colonne
+      de flamme}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.DQBsULyvpqYxic99]{Sanctification}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685650
+  modifiedTime: 1663923687588
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!s5oy99Cz78YXlddR'
+

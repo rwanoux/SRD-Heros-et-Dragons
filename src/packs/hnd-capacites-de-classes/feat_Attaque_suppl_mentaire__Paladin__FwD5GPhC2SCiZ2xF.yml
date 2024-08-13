@@ -1,0 +1,102 @@
+_id: FwD5GPhC2SCiZ2xF
+name: Attaque supplémentaire [Paladin]
+type: feat
+img: icons/skills/melee/spear-tips-triple-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="attaque-supplementaire"><strong>Attaque
+      suppl&eacute;mentaire</strong></h3>
+
+      <p>&Agrave; partir du niveau 5, vous pouvez attaquer deux fois au lieu
+      d'une &agrave; chaque fois que vous choisissez l'action&nbsp;<a
+      href="https://5e-drs.fr/combattre/#attaquer">attaquer</a> pendant votre
+      tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685261
+  modifiedTime: 1663923686445
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!FwD5GPhC2SCiZ2xF'
+

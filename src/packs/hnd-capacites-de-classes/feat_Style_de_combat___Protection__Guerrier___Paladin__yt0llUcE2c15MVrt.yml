@@ -1,0 +1,99 @@
+_id: yt0llUcE2c15MVrt
+name: 'Style de combat : Protection [Guerrier - Paladin]'
+type: feat
+flags:
+  entityorder:
+    order: 198
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="protection"><strong>Protection</strong></h3>
+
+      <p>Quand une cr&eacute;ature qui se trouve dans votre champ de vision
+      attaque une cible autre que vous qui se trouve dans un rayon de 1,50
+      m&egrave;tre, vous pouvez utiliser votre r&eacute;action pour imposer
+      un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;&agrave;
+      l'attaquant sur son&nbsp;<a
+      href="https://5e-drs.fr/combattre/#jets-d-attaque">jet d'attaque</a>. Vous
+      devez porter un bouclier pour pouvoir utiliser cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: Doit porter un bouclier
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier / Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685704
+  modifiedTime: 1678397840368
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!yt0llUcE2c15MVrt'
+

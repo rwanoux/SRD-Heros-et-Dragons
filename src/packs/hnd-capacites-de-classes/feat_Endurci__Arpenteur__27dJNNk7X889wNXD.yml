@@ -1,0 +1,112 @@
+_id: 27dJNNk7X889wNXD
+name: Endurci [Arpenteur]
+type: feat
+img: icons/magic/control/control-influence-rally-purple.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="endurci"><strong>Endurci</strong></h3>
+
+      <p>D&egrave;s le niveau 2, vous &ecirc;tes habitu&eacute; &agrave; la vie
+      en plein air et &agrave; affronter les dangers du monde. Vous pouvez
+      choisir une comp&eacute;tence que vous ma&icirc;trisez d&eacute;sormais
+      parmi Athl&eacute;tisme, Discr&eacute;tion, Nature, Perception ou Survie.
+      De plus, vous choisissez comme arme de pr&eacute;dilection n'importe
+      quelle arme de corps-&agrave;-corps qui n'a pas les
+      propri&eacute;t&eacute;s lourde ou &agrave; deux mains. Vous obtenez la
+      ma&icirc;trise de cette arme, et lorsque vous tenez votre arme de
+      pr&eacute;dilection, vous b&eacute;n&eacute;ficiez en permanence du sort
+      d'@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.lebzBItGh48POCUX]{Armure
+      du mage}.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685158
+  modifiedTime: 1678407756121
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!27dJNNk7X889wNXD'
+

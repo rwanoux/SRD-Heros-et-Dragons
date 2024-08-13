@@ -1,0 +1,134 @@
+_id: WmuXVe0LdW4R9Uf6
+name: Portail
+type: spell
+flags: {}
+img: icons/magic/unholy/orb-swirling-teal.webp
+system:
+  description:
+    value: >-
+      <p>Vous invoquez un portail reliant un espace inoccupé, situé à portée et
+      dans votre champ de vision, à un autre plan d'existence. Ce portail se
+      présente sous la forme d'une ouverture circulaire de 1,50 à 6 mètres de
+      diamètre, à votre guise. Vous pouvez orienter le portail dans la direction
+      de votre choix et il persiste pendant toute la durée du sort.</p>
+
+      <p>Le portail a une face avant et une face arrière sur chaque plan où il
+      apparaît. Pour voyager grâce au portail, il faut impérativement le
+      franchir en passant par l'avant. Tout ce qui le traverse ainsi apparaît
+      instantanément sur l'autre plan, dans l'espace inoccupé le plus proche du
+      portail.</p>
+
+      <p>Les divinités et autres dirigeants planaires peuvent empêcher un
+      portail né de ce sort de s'ouvrir en leur présence ou en n'importe quel
+      point de leur domaine.</p>
+
+      <p>Quand vous lancez ce sort, vous pouvez prononcer le nom d'une créature
+      spécifique (sachant que les pseudonymes, les titres et les surnoms ne
+      fonctionnent pas). Si cette créature se trouve sur un autre plan que celui
+      sur lequel vous vous trouvez, le portail s'ouvre dans ses environs
+      immédiats et attire la créature en son sein. Elle réapparaît de votre côté
+      du portail, dans l'espace inoccupé le plus proche. Cela ne vous donne
+      aucun contrôle sur la créature, qui agit librement, comme le MJ le désire.
+      Elle peut s'en aller, vous attaquer ou vous aider.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: space
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 9
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un diamant d'une valeur minimale de 5000 po
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688056
+  modifiedTime: 1663923688991
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WmuXVe0LdW4R9Uf6'
+

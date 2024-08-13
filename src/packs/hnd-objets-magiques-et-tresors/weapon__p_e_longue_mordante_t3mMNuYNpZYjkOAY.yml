@@ -1,0 +1,132 @@
+_id: t3mMNuYNpZYjkOAY
+name: Épée longue mordante
+type: weapon
+img: icons/magic/water/heart-ice-freeze.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Seul un repos court ou long permet de récupérer les points de vie
+      perdus à cause des dégâts infligés par cette arme. Ni la régénération, ni
+      la magie, ni aucun autre moyen ne peuvent soigner ces points de vie
+      perdus.</p>
+
+      <p>Une fois par tour, lorsque vous réussissez une attaque contre une
+      créature avec cette arme magique, vous pouvez inciser la cible. Au début
+      de chacun des tours de la créature ainsi incisée, celle-ci subit 1d4
+      dégâts nécrotiques pour chaque attaque d'incision réussie à son encontre.
+      Elle peut ensuite effectuer un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution DD 15 et mettre fin à l'effet de la
+      totalité des incisions dont elle est victime en cas de réussite. Par
+      ailleurs, une créature incisée, ou une autre créature située à 1,50 mètre
+      ou moins d'elle, peut utiliser une action pour effectuer un test de
+      Sagesse (Médecine) DD 15 et mettre fin à l'effet des incisions dont elle
+      est victime en cas de réussite.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 2000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: 1d10 + @mod
+  formula: 1d4
+  save:
+    ability: con
+    dc: 15
+    scaling: flat
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: longsword
+  properties:
+    amm: false
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: true
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701439
+  modifiedTime: 1663923703180
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!t3mMNuYNpZYjkOAY'
+

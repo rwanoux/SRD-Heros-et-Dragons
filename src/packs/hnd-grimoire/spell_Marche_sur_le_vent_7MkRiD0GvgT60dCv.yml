@@ -1,0 +1,132 @@
+_id: 7MkRiD0GvgT60dCv
+name: Marche sur le vent
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/air/wind-swirl-gray-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous et un maximum de dix créatures consentantes, situées à portée et
+      dans votre champ de vision, prenez une forme gazeuse pendant toute la
+      durée du sort et ressemblez à des volutes de nuages. Sous cette forme, une
+      créature affectée a une vitesse de vol de 90 mètres et une résistance aux
+      dégâts des armes non magiques. Elle est limitée dans ses actions : elle
+      peut juste <a href="https://5e-drs.fr/combattre#se-précipiter"><em>se
+      précipiter</em></a> ou reprendre sa forme normale. Il lui faut 1 minute
+      pour reprendre sa forme normale et, pendant toute cette période, elle est
+      <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>
+      et incapable de bouger. Elle peut de nouveau se muer en nuage tant que le
+      sort n'est pas terminé, cette nouvelle transformation lui demandant aussi
+      1 minute.</p>
+
+      <p>Si une créature est sous forme de nuage et en plein vol quand le sort
+      se termine, elle descend de 18 mètres par round pendant 1 minute, jusqu'à
+      ce qu'elle atterrisse, en parfaite sécurité. Si elle n'arrive pas à
+      atterrir avant la fin de cette minute, elle tombe sur la distance qui lui
+      reste à parcourir.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: 8
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 6
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Du feu et de l'eau bénite
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687950
+  modifiedTime: 1663923688591
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7MkRiD0GvgT60dCv'
+

@@ -1,0 +1,85 @@
+name: Déchirer
+type: feat
+flags: {}
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+_id: zaG5gjcxRmmNDncM
+system:
+  description:
+    value: >-
+      <p>D&eacute;chirer. Si le cerb&egrave;re r&eacute;ussi plusieurs attaques
+      de morsure sur la m&ecirc;me cible, chaque t&ecirc;te tire violemment dans
+      une direction&nbsp; oppos&eacute;e en tentant de d&eacute;chirer le corps
+      de la victime. La cible subit 2d6 d&eacute;g&acirc;ts perforants
+      suppl&eacute;mentaires par attaque r&eacute;ussie apr&egrave;s la
+      premi&egrave;re dans le m&ecirc;me tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923699016
+  modifiedTime: 1663923700367
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!zaG5gjcxRmmNDncM'
+

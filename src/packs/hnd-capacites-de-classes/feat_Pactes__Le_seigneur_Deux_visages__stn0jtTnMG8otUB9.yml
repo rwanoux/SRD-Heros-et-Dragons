@@ -1,0 +1,86 @@
+name: Pactes [Le seigneur Deux-visages]
+type: feat
+img: icons/commodities/materials/feather-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.4Z8TUFE7uvN6D3sp
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: stn0jtTnMG8otUB9
+system:
+  description:
+    value: "<p>Deux-visages possède ses propres particularités pour chaque pacte.</p>\n<p>\_</p>\n<p><strong>Pour le pacte de la chaîne</strong>, le familier de Deux-visages peut être un @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.J584hOltUrRJ9FZn]{Parasite arcanique} ou un @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.6h4mq8ZAsWfS5Ou8]{Dref}.</p>\n<p>\_</p>\n<p><strong>Pour le pacte de la lame</strong>, votre arme change chaque jour de manière aléatoire. Lancez 1d6 :</p>\n<ol>\n<li>l'arme est une arme dont les dégâts sont de 1d4</li>\n<li>l'arme est une arme dont les dégâts sont de 1d6</li>\n<li>l'arme est une arme dont les dégâts sont de 1d8\_</li>\n<li>l'arme est une arme dont les dégâts sont de 1d10</li>\n<li>l'arme est une arme dont les dégâts sont de 1d12\_</li>\n<li>l'arme est une arme dont les dégâts sont de 2d6\_</li>\n</ol>\n<p>\_</p>\n<p><strong> Pour le pacte du grimoire</strong>, le grimoire prend la forme tantôt d'un livre ancien et usé, tantôt d'un tube rempli de vieux parchemins, tantôt d'une simple tablette de pierre ou d'argile gravée de symboles mystiques... Quelle qu'elle soit vous n'avez pas de contrôle sur la forme.</p>"
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685661
+  modifiedTime: 1678417971601
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.4Z8TUFE7uvN6D3sp
+  duplicateSource: null
+_key: '!items!stn0jtTnMG8otUB9'
+

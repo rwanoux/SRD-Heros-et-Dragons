@@ -1,0 +1,153 @@
+_id: 266TQ9ug4wHFOlEu
+name: Augmentation caractéristiques (Demi-ogre)
+type: feat
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value: true
+      altValue: true
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.abilities.con.value
+        value: '2'
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: DXph1IHpM8L8tVRk
+        active: false
+        _targets: []
+        label: Abilities Constitution
+      - modSpecKey: data.abilities.str.value
+        value: '2'
+        mode: +
+        targetSpecific: false
+        id: 2
+        itemId: DXph1IHpM8L8tVRk
+        active: false
+        _targets: []
+img: icons/magic/life/cross-worn-green.webp
+system:
+  description:
+    value: >-
+      <p>Augmentation de caractéristiques. Votre valeur de Constitution augmente
+      de 2 et votre valeur de Force de 2.</p>
+
+      <p style="box-sizing: inherit; user-select: text; margin-top: 0px;
+      margin-bottom: 16px; font-variant-numeric: normal;
+      font-variant-east-asian: normal; background-repeat: no-repeat; color:
+      rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif; font-size: 16px;
+      padding: 0px;">&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Demi-ogre
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698153
+  modifiedTime: 1663923698325
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!266TQ9ug4wHFOlEu'
+

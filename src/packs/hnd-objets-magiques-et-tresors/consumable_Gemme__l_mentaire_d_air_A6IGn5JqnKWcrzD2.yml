@@ -1,0 +1,138 @@
+_id: A6IGn5JqnKWcrzD2
+name: Gemme élémentaire d'air
+type: consumable
+img: icons/commodities/gems/gem-rough-rose-teal.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">Cette gemme contient une particule d'énergie
+      élémentaire. Quand vous brisez la gemme par une action, un élémentaire
+      apparaît, comme si vous l'aviez invoqué avec un sort d'<a
+      href="https://5e-drs.fr/grimoire/invoquer-un-elementaire/">invoquer un
+      élémentaire</a>&nbsp;et la gemme perd toute magie. Le type d'élémentaire
+      invoqué dépend de la gemme utilisée.<br>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th>Gemme</th>
+
+      <th>Élémentaire invoqué</th>
+
+      </tr>
+
+      <tr>
+
+      <td>Saphir bleu</td>
+
+      <td>Élémentaire de l'air</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Diamant jaune</td>
+
+      <td>Élémentaire de la terre</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Corindon rouge</td>
+
+      <td>Élémentaire du feu</td>
+
+      </tr>
+
+      <tr>
+
+      <td>Émeraude</td>
+
+      <td>Élémentaire de l'eau</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 960
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: m
+    type: square
+  range:
+    value: 27
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701055
+  modifiedTime: 1663923701958
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!A6IGn5JqnKWcrzD2'
+

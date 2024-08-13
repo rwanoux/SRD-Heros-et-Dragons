@@ -1,0 +1,97 @@
+name: Chaînes de lumière [Serment de Justice]
+type: feat
+img: icons/commodities/metal/chain-silver.webp
+system:
+  description:
+    value: >-
+      <h3><strong>Chaînes de lumière</strong></h3><p>À partir du niveau 15, une
+      fois par tour, lorsque vous infligez des dégâts radiants à une créature,
+      celle-ci doit effectuer un jet de sauvegarde de Constitution. En cas
+      d'échec, elle est <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée
+      </a>jusqu'à la fin de son prochain tour.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.sQVR9W6BxwuuNrQJ
+  rsr5e:
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678366510334
+  modifiedTime: 1678424389312
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.sQVR9W6BxwuuNrQJ
+  duplicateSource: null
+folder: null
+sort: 0
+_id: MErXofvBxKaHgFNv
+_key: '!items!MErXofvBxKaHgFNv'
+

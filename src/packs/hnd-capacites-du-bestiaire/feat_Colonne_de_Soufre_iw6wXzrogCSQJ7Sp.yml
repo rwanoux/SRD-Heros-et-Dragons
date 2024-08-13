@@ -1,0 +1,85 @@
+name: Colonne de Soufre
+type: feat
+flags: {}
+img: icons/magic/earth/lava-explosion-orange.webp
+_id: iw6wXzrogCSQJ7Sp
+system:
+  description:
+    value: >-
+      <p><strong>Colonne de soufre.</strong> Une colonne de vapeurs soufrées de
+      1,50 mètre de diamètre jaillit du sol jusqu'à 6 mètres de hauteur, à
+      portée de vue du dragon et à 36 mètres ou moins de lui. Toute créature
+      prise dans la colonne subit 2d6 dégâts de feu. De plus, elle doit réussir
+      un jet de sauvegarde de Constitution ou être étourdie. La colonne
+      disparaît à la fin du round.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: m
+    type: cylinder
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Rouge (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698950
+  modifiedTime: 1663923700127
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!iw6wXzrogCSQJ7Sp'
+

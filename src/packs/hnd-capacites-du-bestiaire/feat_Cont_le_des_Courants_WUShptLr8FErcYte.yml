@@ -1,0 +1,81 @@
+name: Contôle des Courants
+type: feat
+flags: {}
+img: icons/magic/air/air-wave-gust-blue.webp
+_id: WUShptLr8FErcYte
+system:
+  description:
+    value: >-
+      <p><strong>Contrôle des courants.</strong> Le dragon acquiert un contrôle
+      limité sur les courants aériens et marins autour de son antre. Cela lui
+      permet d'éviter des visites inopportunes, ou parfois d'amener certains
+      individus à sa rencontre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon de Bronze (Effets Régionaux)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698857
+  modifiedTime: 1663923699745
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WUShptLr8FErcYte'
+

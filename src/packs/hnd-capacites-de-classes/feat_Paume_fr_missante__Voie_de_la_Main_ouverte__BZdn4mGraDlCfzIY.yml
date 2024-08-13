@@ -1,0 +1,98 @@
+_id: BZdn4mGraDlCfzIY
+name: Paume frémissante [Voie de la Main ouverte]
+type: feat
+flags: {}
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="paume-fremissante"><strong>Paume fr&eacute;missante</strong></h3>
+
+      <p>Au niveau 17, vous gagnez la capacit&eacute; de transmettre des
+      vibrations mortelles dans le corps d'un ennemi. Quand vous touchez une
+      cr&eacute;ature avec une attaque &agrave; mains nues, vous pouvez
+      d&eacute;penser 3 points de ki pour initier ces fr&eacute;missements
+      imperceptibles qui durent un nombre de jours &eacute;gal &agrave; votre
+      niveau de moine. Les vibrations sont inoffensives tant que vous n'utilisez
+      pas une action pour les faire cesser. Pour cela, vous devez vous trouver
+      sur le m&ecirc;me plan d'existence que votre cible et, lorsque vous
+      utilisez cette action, la cr&eacute;ature doit effectuer un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution. Si elle &eacute;choue, elle est
+      r&eacute;duite &agrave; 0 point de vie. Si elle r&eacute;ussit, elle subit
+      10d10 d&eacute;g&acirc;ts n&eacute;crotiques.</p>
+
+      <p>Vous ne pouvez utiliser cette aptitude que sur une seule
+      cr&eacute;ature &agrave; la fois et vous pouvez d&eacute;cider de mettre
+      fin aux vibrations gratuitement sans blesser la cr&eacute;ature.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: day
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 3
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: 'JdS Echec : La cible tombe à 0 Pv - JdS réussi : 10d10 dégâts nécrotique'
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 10d10
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685229
+  modifiedTime: 1663923686314
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!BZdn4mGraDlCfzIY'
+

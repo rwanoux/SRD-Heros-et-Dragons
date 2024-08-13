@@ -1,0 +1,86 @@
+_id: dNOdrGs1apPc0xqn
+name: Ki - Déplacement aérien [Moine]
+type: feat
+flags:
+  core:
+    sourceId: Item.gHaTIElDAek9gDoy
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/skills/melee/hand-grip-staff-blue.webp
+effects: []
+system:
+  description:
+    value: "<h3><strong>Déplacement aérien</strong></h3><p>Vous pouvez dépenser 1 point de ki pour utiliser l'action\_<a href=\"https://5e-drs.fr/combattre/#se-desengager\">se désengager</a>\_ou\_<a href=\"https://5e-drs.fr/combattre/#se-precipiter\">se précipiter</a>\_en action bonus lors de votre tour. En outre, votre distance de saut est doublée pendant ce tour.</p><h3 id=\"defense-patiente\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif\"></h3><h3 id=\"deluge-de-coups\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif\"></h3>"
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685476
+  modifiedTime: 1678410354193
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.gHaTIElDAek9gDoy
+  duplicateSource: null
+_key: '!items!dNOdrGs1apPc0xqn'
+

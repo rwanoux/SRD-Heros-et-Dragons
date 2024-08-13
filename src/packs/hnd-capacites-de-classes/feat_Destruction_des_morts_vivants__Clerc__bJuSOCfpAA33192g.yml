@@ -1,0 +1,187 @@
+_id: bJuSOCfpAA33192g
+name: Destruction des morts-vivants [Clerc]
+type: feat
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  entityorder:
+    order: 214
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  midi-qol:
+    effectActivation: false
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="destruction-des-morts-vivants"><strong>Destruction des
+      morts-vivants</strong></h3>
+
+      <p>&Agrave; partir du niveau 5, quand un mort-vivant &eacute;choue
+      &agrave; son&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;contre votre aptitude renvoi des morts-vivants, il
+      est imm&eacute;diatement d&eacute;truit si son indice de
+      dangerosit&eacute; (ID) est inf&eacute;rieur ou &eacute;gal &agrave; un
+      certain seuil (voir le tableau destruction des morts-vivants).</p>
+
+      <div>
+
+      <table style="width: 447px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 160px;">Niveau de clerc</th>
+
+      <th style="width: 284px;">D&eacute;truit les morts-vivants avec un ID
+      de...</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 158px;">5</td>
+
+      <td style="width: 282px;">1/2 ou moins</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 158px;">8</td>
+
+      <td style="width: 282px;">1 ou moins</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 158px;">11</td>
+
+      <td style="width: 282px;">2 ou moins</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 158px;">14</td>
+
+      <td style="width: 282px;">3 ou moins</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 158px;">17</td>
+
+      <td style="width: 282px;">4 ou moins<br /><br /></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685460
+  modifiedTime: 1663923687083
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!bJuSOCfpAA33192g'
+

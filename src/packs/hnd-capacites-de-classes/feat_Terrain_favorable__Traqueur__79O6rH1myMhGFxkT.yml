@@ -1,0 +1,98 @@
+_id: 79O6rH1myMhGFxkT
+name: Terrain favorable [Traqueur]
+type: feat
+flags: {}
+img: icons/environment/settlement/pyramid.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="terrain-favorable"><strong>Terrain favorable</strong></h3>
+
+      <p>&Agrave; partir du niveau 11, lorsque vous &ecirc;tes sur un terrain de
+      pr&eacute;dilection, vous obtenez les b&eacute;n&eacute;fices
+      suppl&eacute;mentaires suivants :</p>
+
+      <ul>
+
+      <li>Vous pouvez utiliser votre r&eacute;action pour obtenir au choix
+      un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;sur
+      un&nbsp;<a href="https://5e-drs.fr/combattre/#jets-d-attaque">jet
+      d'attaque</a>&nbsp;ou imposer un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;&agrave;
+      une attaque dont vous &ecirc;tes la cible.</li>
+
+      <li>Il vous faut seulement 10 minutes pour b&eacute;n&eacute;ficier des
+      effets d'un repos court et 4 heures pour b&eacute;n&eacute;ficier des
+      effets d'un repos long.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685196
+  modifiedTime: 1663923686195
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!79O6rH1myMhGFxkT'
+

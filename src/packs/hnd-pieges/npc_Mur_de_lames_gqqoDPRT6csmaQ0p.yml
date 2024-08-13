@@ -1,0 +1,682 @@
+_id: gqqoDPRT6csmaQ0p
+name: Mur de lames
+type: npc
+img: systems/dnd5e/icons/skills/weapon_12.jpg
+items:
+  - _id: zZ16jHV6fK4lhmXW
+    name: Mur de lames
+    type: feat
+    sort: 1000000
+    flags: {}
+    img: icons/skills/melee/maneuver-daggers-paired-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Le piège s'active lorsque la statue est soulevée. Le piédestal
+          remonte un peu et déclenche la sortie de deux longues lames depuis le
+          plafond, qui balaient l'air jusqu'au sol devant et derrière le
+          piédestal. Chaque créature située à moins d'un mètre en avant ou en
+          arrière du piédestal doit faire un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité DD 15. Celles qui échouent
+          subissent 22 (4d10) dégâts tranchants, les autres la moitié
+          seulement.</p>
+
+          <p>Le mécanisme peut être désamorcé ou le balancier des lames peut
+          être stoppé en déposant un objet du même poids sur le piédestal. Pour
+          cela, il faut réussir un test de Dextérité DD 10. Toutefois, replacer
+          un contrepoids une fois que le premier mécanisme est déclenché arrête
+          certes le premier mécanisme, mais en entraîne un second : deux lames
+          qui balaient l'air à droite et à gauche du piédestal cette fois. Les
+          DD pour éviter et les dégâts subis sont identiques.</p>
+
+          <p>Dans une structure en bois, comme une cabane ou une maison
+          orientale, il est possible de remplacer les lames par des batteurs en
+          bois. Le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;reste inchangé mais les créatures qui le ratent
+          ne reçoivent que 12 (2d10) dégâts tranchants, ou la moitié seulement
+          pour un test réussi.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: lair
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: any
+        type: creature
+      range:
+        value: 1
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d10
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 15
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Mur de lames
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!gqqoDPRT6csmaQ0p.zZ16jHV6fK4lhmXW'
+effects: []
+folder: null
+sort: 100001
+flags: {}
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    wis:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    cha:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+  attributes:
+    ac:
+      flat: 10
+      calc: natural
+      formula: ''
+    hp:
+      value: 10
+      max: 10
+      temp: 0
+      tempmax: 0
+      formula: ''
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 0
+      prof: 0
+      total: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+    prof: 2
+    spelldc: 10
+    encumbrance:
+      value: 0
+      max: 75
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="mur-de-lames">Mur de lames</h2>
+
+        <h2>Piège mécanique</h2>
+
+        <p>&nbsp;</p>
+
+        <p>Une statuette en or (ou tout autre objet attisant la convoitise) est
+        posée sur un piédestal au centre de la pièce. Le socle est enfoncé dans
+        le sol et l'idole sert de contrepoids. Le DD pour le remarquer est de
+        15. Un test de Sagesse (Perception) DD 10 réussit permet de détecter au
+        sol des traces de sang et, en regardant le plafond, de remarquer deux
+        longues rainures juste à la verticale du piédestal.</p>
+
+        <p>&nbsp;</p>
+
+        <p>Le piège s'active lorsque la statue est soulevée. Le piédestal
+        remonte un peu et déclenche la sortie de deux longues lames depuis le
+        plafond, qui balaient l'air jusqu'au sol devant et derrière le
+        piédestal. Chaque créature située à moins d'un mètre en avant ou en
+        arrière du piédestal doit faire un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Dextérité DD 15. Celles qui échouent subissent
+        22 (4d10) dégâts tranchants, les autres la moitié seulement.</p>
+
+        <p>&nbsp;</p>
+
+        <p>Le mécanisme peut être désamorcé ou le balancier des lames peut être
+        stoppé en déposant un objet du même poids sur le piédestal. Pour cela,
+        il faut réussir un test de Dextérité DD 10. Toutefois, replacer un
+        contrepoids une fois que le premier mécanisme est déclenché arrête
+        certes le premier mécanisme, mais en entraîne un second : deux lames qui
+        balaient l'air à droite et à gauche du piédestal cette fois. Les DD pour
+        éviter et les dégâts subis sont identiques.</p>
+
+        <p>&nbsp;</p>
+
+        <p>Dans une structure en bois, comme une cabane ou une maison orientale,
+        il est possible de remplacer les lames par des batteurs en bois.
+        Le&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;reste inchangé mais les créatures qui le ratent
+        ne reçoivent que 12 (2d10) dégâts tranchants, ou la moitié seulement
+        pour un test réussi.</p>
+      public: ''
+    alignment: ''
+    race: ''
+    type:
+      value: custom
+      subtype: ''
+      swarm: ''
+      custom: Pièges
+    environment: ''
+    cr: 1
+    spellLevel: 0
+    source: Créatures et Oppostions
+    xp:
+      value: 200
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 0
+    spell2:
+      value: 0
+      override: null
+      max: 0
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+prototypeToken:
+  flags: {}
+  name: Mur de lames
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    alpha: 1
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    color: null
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/icons/skills/weapon_12.jpg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923504428
+  modifiedTime: 1663923703813
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!gqqoDPRT6csmaQ0p'
+

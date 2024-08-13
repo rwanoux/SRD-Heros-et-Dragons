@@ -1,0 +1,151 @@
+_id: JiBthZEl3ktAQkJ3
+name: Cimeterre Tueur de dragons
+type: weapon
+img: icons/skills/melee/strike-axe-blood-red.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: false
+      altValue: false
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: false
+      altValue: false
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Vous gagnez un bonus de +1 aux jets d'attaque et de dégâts effectués
+      avec cette arme magique.</p>
+
+      <p>Quand vous touchez un dragon avec elle, il subit 3d6 dégâts
+      supplémentaires du type de l'arme. Le terme «&nbsp;dragon&nbsp;» utilisé
+      dans le cadre de cette description regroupe toutes les créatures du type
+      dragon, y compris les dragons-tortues et les vouivres.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 1.5
+  price: 8000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod +1
+        - slashing
+    versatile: ''
+  formula: 3d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: scimitar
+  properties:
+    amm: false
+    hvy: false
+    fin: true
+    fir: false
+    foc: false
+    lgt: true
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701119
+  modifiedTime: 1663923702183
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!JiBthZEl3ktAQkJ3'
+

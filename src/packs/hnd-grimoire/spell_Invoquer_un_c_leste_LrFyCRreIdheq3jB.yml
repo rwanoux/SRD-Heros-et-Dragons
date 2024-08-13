@@ -1,0 +1,130 @@
+_id: LrFyCRreIdheq3jB
+name: Invoquer un céleste
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous invoquez un céleste doté d'un indice de dangerosité inférieur ou
+      égal à 4. Il apparaît dans une case inoccupée située à portée et dans
+      votre champ de vision. Le céleste disparaît dès qu'il tombe à 0 point de
+      vie ou quand le sort se termine.</p>
+
+      <p>Le céleste se montre amical envers vous et vos compagnons. Déterminez
+      son initiative, sachant qu'il dispose de ses propres tours de jeu. Il
+      obéit aux ordres verbaux que vous lui donnez (sans que cela vous demande
+      d'utiliser une action), tant qu'ils ne vont pas à l'encontre de son
+      alignement. En l'absence d'ordre, il se défend contre les créatures
+      hostiles, mais n'entreprend pas d'autre action.</p>
+
+      <p>C'est le MJ qui dispose du profil technique du céleste.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 9, vous invoquez un céleste doté d'un
+      indice de dangerosité inférieur ou égal à 5.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: any
+    type: space
+    range:
+      value: '27'
+      unit: mètres
+  range:
+    value: 27
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 7
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688018
+  modifiedTime: 1663923688847
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!LrFyCRreIdheq3jB'
+

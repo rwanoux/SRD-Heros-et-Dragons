@@ -1,0 +1,136 @@
+_id: XID5FHs83eeJD9gP
+name: Cage de force Boite
+type: spell
+flags: {}
+img: icons/magic/control/debuff-chains-ropes-net-purple-blue.webp
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Une prison immobile et invisible, en forme de cube et faite de force
+      magique, se forme soudain autour d'une zone de votre choix situ&eacute;e
+      &agrave; port&eacute;e. Ce peut &ecirc;tre une cage ou une bo&icirc;te
+      herm&eacute;tique, &agrave; votre guise.</p>
+
+      <ul>
+
+      <li>Une prison en forme de cage peut faire un maximum de 6 m&egrave;tres
+      d'ar&ecirc;te et dispose de barreaux de 1 centim&egrave;tre
+      d'&eacute;paisseur plac&eacute;s &agrave; 1 centim&egrave;tre
+      d'intervalle.</li>
+
+      <li>Une prison en forme de bo&icirc;te peut faire un maximum de 3
+      m&egrave;tres d'ar&ecirc;te et forme une barri&egrave;re pleine qui
+      emp&ecirc;che la mati&egrave;re de passer. Elle bloque aussi le passage
+      des sorts lanc&eacute;s vers l'int&eacute;rieur ou
+      l'ext&eacute;rieur.</li>
+
+      </ul>
+
+      <p>Quand vous lancez ce sort, chaque cr&eacute;ature qui se trouve
+      enti&egrave;rement au sein de la zone affect&eacute;e se retrouve prise au
+      pi&egrave;ge. Une cr&eacute;ature qui s'y trouve seulement en partie ou
+      qui s'av&egrave;re trop grande pour y tenir est expuls&eacute;e vers
+      l'ext&eacute;rieur de la zone jusqu'&agrave; ce qu'elle la quitte
+      compl&egrave;tement.</p>
+
+      <p>Une cr&eacute;ature enferm&eacute;e dans la cage ne peut pas la quitter
+      par des moyens non-magiques. Si elle tente d'utiliser la
+      t&eacute;l&eacute;portation ou les d&eacute;placements interplanaires pour
+      s'&eacute;chapper, elle doit d'abord effectuer un&nbsp;<a
+      href="utiliser-les-caracteristiques#jets-de-sauvegarde">jet de
+      sauvegarde</a>&nbsp;de Charisme. Si elle le r&eacute;ussit, elle peut
+      utiliser cette magie pour fuir, sinon elle ne parvient pas &agrave;
+      quitter la cage, et l'utilisation du sort ou de l'effet est
+      gaspill&eacute;e. La cage s'&eacute;tend aussi sur le plan
+      &eacute;th&eacute;r&eacute;, ce qui bloque les d&eacute;placements
+      &eacute;th&eacute;r&eacute;s.</p>
+
+      <p>La&nbsp;<em>dissipation de la magie</em>&nbsp;est sans effet sur ce
+      sort.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: PHB pg. 243
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: m
+    type: cube
+  range:
+    value: 30
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 7
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Poussière de rubis d'une valeur de 1 500 po
+    consumed: false
+    cost: 1500
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  nCN4ppSa9oQ2OVOw: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688058
+  modifiedTime: 1663923689001
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!XID5FHs83eeJD9gP'
+

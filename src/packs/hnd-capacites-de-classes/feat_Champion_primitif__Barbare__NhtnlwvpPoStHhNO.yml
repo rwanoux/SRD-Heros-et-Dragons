@@ -1,0 +1,106 @@
+_id: NhtnlwvpPoStHhNO
+name: Champion primitif [Barbare]
+type: feat
+img: icons/magic/control/sihouette-hold-beam-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  entityorder:
+    order: 205
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="champion-primitif"><strong>Champion primitif</strong></h3>
+
+      <p>Au niveau 20, vous &ecirc;tes devenu une v&eacute;ritable force de la
+      nature. Vos valeurs de Force et de Constitution augmentent de 4. Le
+      maximum que vous pouvez atteindre pour ces caract&eacute;ristiques est
+      d&eacute;sormais de 24.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685375
+  modifiedTime: 1663923686718
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NhtnlwvpPoStHhNO'
+

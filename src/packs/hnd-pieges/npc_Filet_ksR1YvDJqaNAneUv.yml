@@ -1,0 +1,667 @@
+_id: ksR1YvDJqaNAneUv
+name: Filet
+type: npc
+img: systems/dnd5e/icons/items/weapons/net.jpg
+items:
+  - _id: Zh99sFYn2fnPdUjx
+    name: Filet
+    type: feat
+    sort: 500000
+    flags: {}
+    img: icons/tools/fishing/net-simple-tan.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Le filet tombe d&egrave;s que le pi&egrave;ge se d&eacute;clenche
+          et recouvre une zone de 3 m&egrave;tres de c&ocirc;t&eacute;. Les
+          cr&eacute;atures qui se trouvent l&agrave; sont coinc&eacute;es sous
+          le filet et&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entrav&eacute;es</a>.
+          Celles qui ratent un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Force DD 10 se retrouvent
+          &eacute;galement&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">&agrave;
+          terre</a>. Une cr&eacute;ature peut d&eacute;penser son action pour
+          faire un test de Force DD 10. Si elle r&eacute;ussit, elle se
+          lib&egrave;re ou lib&egrave;re une autre cr&eacute;ature situ&eacute;e
+          &agrave; une distance inf&eacute;rieure ou &eacute;gale &agrave; son
+          allonge. Le filet a une CA de 10 et 20 points de vie. 5
+          d&eacute;g&acirc;ts tranchants (CA 10) d&eacute;truisent une section
+          de filet de 1,50 m&egrave;tres de c&ocirc;t&eacute; et lib&egrave;rent
+          les cr&eacute;atures pi&eacute;g&eacute;es dans cette section.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 10
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Filet
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!ksR1YvDJqaNAneUv.Zh99sFYn2fnPdUjx'
+effects: []
+folder: null
+sort: 100001
+flags: {}
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    wis:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+    cha:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      mod: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      save: 0
+      dc: 10
+  attributes:
+    ac:
+      flat: 10
+      calc: natural
+      formula: ''
+    hp:
+      value: 20
+      max: 20
+      temp: 0
+      tempmax: 0
+      formula: ''
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 0
+      prof: 0
+      total: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+    prof: 2
+    spelldc: 10
+    encumbrance:
+      value: 0
+      max: 75
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="filet">Filet</h2>
+
+        <h2>Piège mécanique</h2>
+
+        <p>&nbsp;</p>
+
+        <p>Ce piège fonctionne grâce à un fil tendu qui libère un filet suspendu
+        au plafond.</p>
+
+        <p>&nbsp;</p>
+
+        <p>Le fil est tendu à 10 centimètres du sol et attaché entre deux
+        colonnes ou deux arbres. Le filet est dissimulé par des toiles
+        d'araignée ou le feuillage. Le DD permettant de repérer le fil est de
+        10. Un test de Dextérité DD 15 à l'aide d'outils de voleur permet de
+        désamorcer le fil en toute sécurité. Un personnage dépourvu de tels
+        outils peut tout de même tenter le test avec une arme ou un outil
+        affûté, mais il subit alors un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>.
+        S'il rate le test, le piège se déclenche.</p>
+
+        <p>&nbsp;</p>
+
+        <p>Le filet tombe dès que le piège se déclenche et recouvre une zone de
+        3 mètres de côté. Les créatures qui se trouvent là sont coincées sous le
+        filet et&nbsp;<a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravées</a>.
+        Celles qui ratent un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Force DD 10 se retrouvent également&nbsp;<a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+        terre</a>. Une créature peut dépenser son action pour faire un test de
+        Force DD 10. Si elle réussit, elle se libère ou libère une autre
+        créature située à une distance inférieure ou égale à son allonge. Le
+        filet a une CA de 10 et 20 points de vie. 5 dégâts tranchants (CA 10)
+        détruisent une section de filet de 1,50 mètres de côté et libèrent les
+        créatures piégées dans cette section.</p>
+      public: ''
+    alignment: ''
+    race: ''
+    type:
+      value: custom
+      subtype: ''
+      swarm: ''
+      custom: Pièges
+    environment: ''
+    cr: 1
+    spellLevel: 0
+    source: Créatures et Oppostions
+    xp:
+      value: 200
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      bonus: 0
+      mod: 0
+      prof: 0
+      total: 0
+      passive: 10
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 0
+    spell2:
+      value: 0
+      override: null
+      max: 0
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+prototypeToken:
+  flags: {}
+  name: Filet
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    dim: 0
+    bright: 0
+    angle: 360
+    alpha: 1
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    color: null
+    coloration: 1
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  texture:
+    src: systems/dnd5e/icons/items/weapons/net.jpg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923504430
+  modifiedTime: 1663923703815
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!ksR1YvDJqaNAneUv'
+

@@ -1,0 +1,92 @@
+_id: wXCuQEgYRDL68kri
+name: 'Canalisation divine : Terre - Enfouissement [Prêtre]'
+type: feat
+flags:
+  core:
+    sourceId: Item.40IqyVEFjZYO474e
+img: icons/magic/light/beam-rays-orange-small.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Canalisation d'&eacute;nergie divine : Terre -
+      Enfouissement</strong></h3>
+
+      <p><span style="color: #2e1f49; font-family: Friz, sans-serif; font-size:
+      13px;">Vous pouvez vous d&eacute;placer &agrave; travers la pierre ou la
+      terre d'un sol ou d'une paroi, s'ils sont naturels, &agrave; la
+      moiti&eacute; de votre vitesse normale pendant un nombre de rounds
+      &eacute;gal &agrave; votre bonus de ma&icirc;trise. Lorsque l'aptitude se
+      termine, si vous restez prisonnier dans la mati&egrave;re, vous &ecirc;tes
+      &eacute;ject&eacute; vers l'espace libre le plus proche, vous subissez 1d6
+      d&eacute;g&acirc;ts contondants par m&egrave;tre de mati&egrave;re
+      travers&eacute;e, et vous &ecirc;tes &eacute;tourdi pendant 1
+      round.</span></p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685689
+  modifiedTime: 1663923687764
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.40IqyVEFjZYO474e
+  duplicateSource: null
+_key: '!items!wXCuQEgYRDL68kri'
+

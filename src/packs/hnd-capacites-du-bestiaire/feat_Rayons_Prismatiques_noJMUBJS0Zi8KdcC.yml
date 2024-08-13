@@ -1,0 +1,184 @@
+name: Rayons Prismatiques
+type: feat
+flags: {}
+img: icons/magic/fire/projectile-meteor-salvo-heavy-purple-yellow.webp
+_id: noJMUBJS0Zi8KdcC
+system:
+  description:
+    value: >-
+      <p>La créature attaque parfois en libérant une partie de l'énergie magique
+      qu'il a absorbé sous formes de rayons prismatiques. Chaque être se
+      trouvant dans un cône de 18 mètres doit effectuer un jet de sauvegarde de
+      Dextérité. Pour chaque cible, lancez 1d8 pour déterminer la couleur du
+      rayon qui l'affecte.</p>
+
+      <table style="height: 164px;" border="1" width="154">
+
+      <tbody>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>1.Rouge</strong></td>
+
+      <td style="width: 288px; height: 17px;">La cible subit des dégâts Feu en
+      cas d'échec à son jet de sauvegarde, ou la moitié de ces dégâts en cas de
+      réussite.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>2.Orange</strong></td>
+
+      <td style="width: 288px; height: 17px;">La cible subit des dégâts d'acide
+      en cas d'échec à son jet de sauvegarde, ou la moitié de ces dégâts en cas
+      de réussite.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>3.Jaune</strong></td>
+
+      <td style="width: 288px; height: 17px;">La cible subit des dégâts de
+      foudre en cas d'échec à son jet de sauvegarde, ou la moitié de ces dégâts
+      en cas de réussite.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>4.Vert</strong></td>
+
+      <td style="width: 288px; height: 17px;">La cible subit des dégâts de
+      poison en cas d'échec à son jet de sauvegarde, ou la moitié de ces dégâts
+      en cas de réussite.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>5.Bleu</strong></td>
+
+      <td style="width: 288px; height: 17px;">La cible subit des dégâts de froid
+      en cas d'échec à son jet de sauvegarde, ou la moitié de ces dégâts en cas
+      de réussite.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>6.Indigo</strong></td>
+
+      <td style="width: 288px; height: 17px;">En cas d'échec au jet de
+      sauvegarde, la cible est entravée. Elle doit alors effectuer un jet de
+      sauvegarde de Constitution à la fin de chacun de ses tours. Si elle
+      réussit trois fois son jet de sauvegarde, le sort prend fin. Si elle
+      échoue trois fois son jet de sauvegarde, elle est changée en pierre de
+      manière permanente et soumise à l'état spécial « pétrifié ». Les succès ou
+      échecs n'ont pas besoin d'être consécutifs ; gardez une trace de vos
+      échecs et de vos réussites à chaque tour jusqu'à ce que vous en ayez 3
+      dans une catégorie.</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 88px; height: 17px;"><strong>7.Violet</strong></td>
+
+      <td style="width: 288px; height: 17px;">En cas d'échec, la cible est
+      aveuglée. Elle doit alors effectuer un jet de sauvegarde de Sagesse au
+      début de votre prochain tour. Si ce nouveau jet de sauvegarde est réussi,
+      l'aveuglement prend fin. Si elle échoue ce nouveau jet de sauvegarde, la
+      créature est transportée dans un autre plan d'existence que le MJ choisit
+      et n'est plus aveuglée (typiquement, une créature qui ne se situe pas sur
+      son plan d'origine y est renvoyée, tandis que les autres créatures sont
+      généralement transportées dans le plan Astral ou le plan Éthéré).</td>
+
+      </tr>
+
+      <tr style="height: 11px;">
+
+      <td style="width: 88px; height: 11px;"><strong>8.Spécial</strong></td>
+
+      <td style="width: 288px; height: 11px;">La cible est frappée par deux
+      rayons. Relancez deux fois le dé et rejouez tous les 8.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 18
+    width: null
+    units: m
+    type: cone
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: dex
+    dc: 18
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698966
+  modifiedTime: 1663923700196
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!noJMUBJS0Zi8KdcC'
+

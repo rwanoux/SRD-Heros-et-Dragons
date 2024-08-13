@@ -1,0 +1,89 @@
+_id: 7OaJ3DGMFD8ox0Bx
+name: Bénédiction du ténébreux [Fiélon]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/unholy/orb-glowing-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="benediction-du-tenebreux"><strong>B&eacute;n&eacute;diction du
+      t&eacute;n&eacute;breux</strong></h3>
+
+      <p>&Agrave; partir du niveau 1, quand vous r&eacute;duisez une
+      cr&eacute;ature hostile &agrave; 0 point de vie, vous gagnez un nombre de
+      points de vie temporaire &eacute;gal &agrave; votre modificateur de
+      Charisme + votre niveau de sorcier (avec un minimum de 1).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: Points de vie Temporaires
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - '@classes.sorcier.levels + @abilities.cha.mod'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685200
+  modifiedTime: 1663923686206
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7OaJ3DGMFD8ox0Bx'
+

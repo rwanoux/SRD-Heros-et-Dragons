@@ -1,0 +1,126 @@
+_id: 4cuyS4pMzBJKlfUw
+name: Explosion occulte
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/lightning/bolt-forked-magenta.webp
+system:
+  description:
+    value: >-
+      <p>Un éclair d'énergie crépitante file vers une créature à portée. Faites
+      un <a href="https://5e-drs.fr/combattre#jets-dattaque">jet d'attaque</a>
+      de sort à distance contre la cible. Si vous réussissez, elle subit 1d10
+      dégâts de force.</p>
+
+      <p>Le sort crée des rayons supplémentaires quand vous atteignez certains
+      niveaux : deux rayons au niveau 5, trois au niveau 11 et quatre au niveau
+      17. Vous pouvez diriger tous les rayons sur une même cible ou les répartir
+      entre plusieurs. Faites un <a
+      href="https://5e-drs.fr/combattre#jets-dattaque">jet d'attaque</a>
+      distinct pour chacun.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d10
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: Rayons supplémentaires
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687935
+  modifiedTime: 1663923688534
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!4cuyS4pMzBJKlfUw'
+

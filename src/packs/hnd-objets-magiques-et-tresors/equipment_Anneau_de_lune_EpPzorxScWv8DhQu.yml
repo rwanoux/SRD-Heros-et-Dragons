@@ -1,0 +1,165 @@
+_id: EpPzorxScWv8DhQu
+name: Anneau de lune
+type: equipment
+img: icons/equipment/finger/ring-band-engraved-scrolls-silver.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Cet anneau en pierre grisâtre, d'apparence très banale, fut forgé à
+      partir d'une pierre tombée du ciel. Le forgeron fut maudit dès qu'il passa
+      l'anneau : à chaque pleine lune, il se transformait en créature mi-homme,
+      mi-loup. Il devint le premier loup-garou et fut à l'origine de la
+      dissémination de la lycanthropie sur le monde.</p>
+
+      <p>L'appel du sang. L'anneau attire irrémédiablement les humanoïdes qui le
+      voient. Ces derniers doivent réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse (DD 18) ou tout faire pour passer
+      l'anneau, même tuer si cela s'avère nécessaire.</p>
+
+      <p>Lycanthrope. Si vous portez l'anneau sans y être harmonisé, vous vous
+      transformez chaque nuit de pleine lune en créature hybride entre un loup
+      et un humanoïde de votre race. Votre équipement ne se transforme pas avec
+      vous. Vous reprenez votre forme naturelle à l'aube, ou si vous êtes tué.
+      La malédiction persiste même si vous ôtez l'anneau. Seuls les
+      sorts&nbsp;<a
+      href="https://5e-drs.fr/grimoire/lever-une-malediction/">lever une
+      malédiction</a>&nbsp;ou&nbsp;<a
+      href="https://5e-drs.fr/grimoire/restauration-superieure/">restauration
+      supérieure</a>&nbsp;peuvent vous guérir. Sous forme hybride, vos
+      caractéristiques et aptitudes restent inchangées, sauf celles qui suivent
+      :</p>
+
+      <ul>
+
+      <li>Votre alignement devient chaotique mauvais.</li>
+
+      <li>Votre classe d'armure naturelle augmente de 1.</li>
+
+      <li>Vous obtenez la vision dans le noir à 18 mètres.</li>
+
+      <li>Vous obtenez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;aux
+      jets de Sagesse (Perception) basés sur l'ouïe et l'odorat.</li>
+
+      <li>Vous êtes immunisé aux attaques d'armes non magiques qui ne sont pas
+      faites en argent.</li>
+
+      <li>Vous gagnez une attaque de morsure (bonus au toucher égal au vôtre,
+      dégâts 1d8+bonus de Force). Tout humanoïde touché par votre morsure doit
+      réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution (DD 18) ou être touché par la
+      malédiction de lycanthropie.</li>
+
+      </ul>
+
+      <p>Alpha de meute. Si vous vous harmonisez à l'anneau, votre alignement
+      devient définitivement chaotique mauvais. Vous pouvez désormais vous
+      transformer en hybride ou en loup à volonté au prix d'une action. Vous
+      obtenez en outre les bénéfices suivants :</p>
+
+      <ul>
+
+      <li>Votre Force augmente de 2, avec un maximum de 24.</li>
+
+      <li>Vous vitesse de déplacement augmente de 3 mètres.</li>
+
+      <li>Tous les humanoïdes blessés par votre morsure qui deviennent des
+      lycanthropes ont une attitude amicale envers vous et vous considèrent
+      comme leur leader.</li>
+
+      </ul>
+
+      <p>Détruire l'anneau. La destruction de l'anneau de lune est une tâche
+      plus qu'épique : il faut d'abord annihiler toute trace de lycanthropie sur
+      le monde. Une fois que le porteur de l'anneau est le dernier loup-garou
+      vivant, le tuer réduit l'anneau en poussière.</p>
+
+      <p>Harmonisation requise.</p>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: artifact
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Etre harmonisé.
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 18
+    scaling: flat
+  armor:
+    value: 0
+    type: trinket
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701083
+  modifiedTime: 1663923702056
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EpPzorxScWv8DhQu'
+

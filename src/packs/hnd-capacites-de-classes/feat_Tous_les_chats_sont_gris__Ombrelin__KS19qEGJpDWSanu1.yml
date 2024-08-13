@@ -1,0 +1,95 @@
+name: Tous les chats sont gris [Ombrelin]
+type: feat
+img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.ykEQdVws6ERwCI7d
+_id: KS19qEGJpDWSanu1
+system:
+  description:
+    value: >-
+      <p>Vous êtes passé maître dans l'analyse et l'utilisation des nuances de
+      gris que perçoivent les créatures douées de vision dans l'obscurité afin
+      de mieux vous cacher.</p>
+
+      <p>Également au niveau 3, vous obtenez un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      aux tests de Dextérité (Discrétion) pour vous dissimuler dans l'obscurité
+      ou par faible luminosité, et ce même contre des créatures qui disposent de
+      vision nocturne.</p>
+
+      <p>De plus, votre valeur de Perception passive augmente de votre bonus de
+      maîtrise lorsque vous êtes dans l'obscurité.</p>
+
+      <p>Si vous maîtrisez déjà la compétence Perception, vous ajoutez une
+      seconde fois votre bonus de maîtrise à votre Perception passive, sans
+      pouvoir cumuler cela avec l'Expertise.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685352
+  modifiedTime: 1663923686637
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.ykEQdVws6ERwCI7d
+  duplicateSource: null
+_key: '!items!KS19qEGJpDWSanu1'
+

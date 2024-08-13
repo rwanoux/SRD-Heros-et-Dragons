@@ -1,0 +1,503 @@
+_id: ZyA1KL41cdnuVRSL
+name: Incantations [Paladin]
+type: feat
+flags: {}
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="incantations"><strong>Incantations</strong></h3>
+
+      <p>En arrivant au niveau 2, vous avez appris &agrave; puiser dans la magie
+      divine gr&acirc;ce &agrave; vos m&eacute;ditations et vos pri&egrave;res,
+      et vous &ecirc;tes capable de lancer des sorts comme un clerc.</p>
+
+      <h3 id="preparer-et-lancer-des-sorts">Pr&eacute;parer et lancer des
+      sorts</h3>
+
+      <p>Le tableau d'&eacute;volution du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-classes-et-specialisations.n9CW1upDv43xgqcm]{Paladin}
+      vous indique combien d'emplacements de sorts vous pouvez utiliser au
+      niveau 1 et aux niveaux sup&eacute;rieurs. Pour lancer un sort de paladin,
+      vous devez utiliser un emplacement d'un niveau &eacute;quivalent ou
+      sup&eacute;rieur &agrave; ce sort. Vous regagnez acc&egrave;s &agrave;
+      tous ces emplacements apr&egrave;s un repos long.</p>
+
+      <p>Choisissez dans la liste de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/?classes=Paladin">sorts de
+      paladin</a>&nbsp;des sorts que vous pouvez lancer afin de les
+      pr&eacute;parer. Vous pouvez choisir un nombre de sorts de paladin
+      &eacute;gal &agrave; votre modificateur de Charisme + la moiti&eacute; de
+      votre niveau de paladin (avec un minimum d'un sort). Vous devez choisir
+      des sorts que vous pouvez lancer, c'est-&agrave;-dire pour lesquels vous
+      poss&eacute;dez au moins un emplacement de niveau &eacute;quivalent.</p>
+
+      <p>Par exemple, si vous &ecirc;tes un paladin de niveau 5, vous avez
+      quatre emplacements de sorts de niveau 1 et deux emplacements de sorts de
+      niveau 2. Avec une valeur de Charisme de 14, votre liste de sorts peut
+      compter quatre sorts de niveau 1 ou 2 que vous pouvez combiner comme vous
+      le souhaitez. Si vous pr&eacute;parez le sort de niveau 1
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin
+      des blessures}, vous pouvez le lancer en utilisant un emplacement de sorts
+      de niveau 1 ou 2. Lancer le sort ne l'efface pas de votre liste de sorts
+      pr&eacute;par&eacute;s.</p>
+
+      <p>Vous pouvez changer votre liste de sorts pr&eacute;par&eacute;s
+      &agrave; la fin d'un repos long, mais pr&eacute;parer une nouvelle liste
+      de sorts de paladin vous demande de passer du temps &agrave; prier et
+      &agrave; m&eacute;diter : au moins 1 minute par niveau de sort pour chaque
+      sort qui se trouve sur votre liste.</p>
+
+      <h3 id="caracteristique-d-incantation">Caract&eacute;ristique
+      d'incantation</h3>
+
+      <p>La caract&eacute;ristique d'incantation qui vous permet de lancer les
+      sorts de paladin est le Charisme, car vos pouvoirs d&eacute;coulent de la
+      force de votre conviction. Vous utilisez le Charisme d&egrave;s qu'un sort
+      de paladin vous demande d'utiliser votre caract&eacute;ristique
+      d'incantation pour &ecirc;tre lanc&eacute;. En plus de cela, vous utilisez
+      votre modificateur de Charisme quand vous calculez le&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;d'un sort de paladin que vous avez lanc&eacute; ou
+      quand vous faites une attaque avec un sort.</p>
+
+      <p>DD d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;= 8 + votre bonus de ma&icirc;trise + votre
+      modificateur de Charisme</p>
+
+      <p>Modificateur de sort de combat = votre bonus de ma&icirc;trise + votre
+      modificateur de Charisme</p>
+
+      <h3 id="focaliseur-d-incantation">Focaliseur d'incantation</h3>
+
+      <p>Vous pouvez utiliser un symbole sacr&eacute; comme focaliseur
+      d'incantation pour vos sorts de paladin.</p>
+
+      <div>
+
+      <table style="width: 375px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 55px;" rowspan="2">Niveau</th>
+
+      <th style="width: 320px;" colspan="5">Emplacements de sorts par niveau de
+      sort</th>
+
+      </tr>
+
+      <tr>
+
+      <th style="width: 78px;">1er</th>
+
+      <th style="width: 60px;">2e</th>
+
+      <th style="width: 60px;">3e</th>
+
+      <th style="width: 61px;">4e</th>
+
+      <th style="width: 61px;">5e</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 55px;">1</td>
+
+      <td style="width: 78px;">-</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">2</td>
+
+      <td style="width: 78px;">2</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">3</td>
+
+      <td style="width: 78px;">3</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">4</td>
+
+      <td style="width: 78px;">3</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">5</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">2</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">6</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">2</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">7</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">8</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">9</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">2</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">10</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">2</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">11</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">12</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">-</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">13</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">1</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">14</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">1</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">15</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">2</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">16</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">2</td>
+
+      <td style="width: 61px;">-</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">17</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">3</td>
+
+      <td style="width: 61px;">1</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">18</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">3</td>
+
+      <td style="width: 61px;">1</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">19</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">3</td>
+
+      <td style="width: 61px;">2</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 55px;">20</td>
+
+      <td style="width: 78px;">4</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 60px;">3</td>
+
+      <td style="width: 61px;">3</td>
+
+      <td style="width: 61px;">2</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685449
+  modifiedTime: 1663923687037
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ZyA1KL41cdnuVRSL'
+

@@ -1,0 +1,86 @@
+name: Âme assoiffée
+type: feat
+img: icons/creatures/abilities/fangs-teeth-bite.webp
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 1, lorsque vous réduisez une créature hostile à 0
+      point de vie, vous regagnez un nombre de points de vie égal à votre niveau
+      d'ensorceleur + votre modificateur de Charisme (minimum de 1). Cette
+      capacité ne peut pas vous rendre plus de la moitié de votre maximum de
+      points de vie.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.ensorceleur.levels + @abilities.cha.mod'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Affamé
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.TnRT9LNfNNSVLUcr
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680509880482
+  modifiedTime: 1680509994283
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.TnRT9LNfNNSVLUcr
+  duplicateSource: null
+folder: null
+sort: 0
+_id: E0yYhpbZtYvR4sCs
+_key: '!items!E0yYhpbZtYvR4sCs'
+

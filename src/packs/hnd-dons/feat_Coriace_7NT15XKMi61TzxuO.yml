@@ -1,0 +1,105 @@
+_id: 7NT15XKMi61TzxuO
+name: Coriace
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/coriace.jpg
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous &ecirc;tes dur au mal et il en faut beaucoup pour vous mettre au
+      tapis.</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Vous augmentez votre valeur de Constitution de 1, jusqu'&agrave; un
+      maximum de 20.</li>
+
+      <li>Vous gagnez autant de points de vie que votre niveau ainsi qu'un point
+      de vie suppl&eacute;mentaire &agrave; chaque fois que vous passez un
+      nouveau niveau.</li>
+
+      <li>&Agrave; 0 PV, lorsque vous avez d&eacute;j&agrave; obtenus 2
+      &eacute;checs &agrave; vos jets de sauvegarde contre la mort, vous obtenez
+      un avantage sur les jets suivants.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923684992
+  modifiedTime: 1663923684992
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!7NT15XKMi61TzxuO'
+

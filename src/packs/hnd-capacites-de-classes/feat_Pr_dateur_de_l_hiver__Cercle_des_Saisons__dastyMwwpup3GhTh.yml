@@ -1,0 +1,91 @@
+_id: dastyMwwpup3GhTh
+name: Prédateur de l'hiver [Cercle des Saisons]
+type: feat
+flags: {}
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="predateur-de-l-hiver"><strong>Pr&eacute;dateur de
+      l'hiver</strong></h3>
+
+      <p>L'hiver, la lutte pour la survie est &acirc;pre et vous devez vous
+      adapter pour r&eacute;sister aux puissants pr&eacute;dateurs qui
+      parcourent les &eacute;tendues gel&eacute;es. &Agrave; partir du niveau
+      14, vous pouvez vous transformer en un terrible pr&eacute;dateur lorsque
+      vous utilisez votre aptitude de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qribBuHAI1PBTu9I]{Forme
+      sauvage [Druide]}. Vous pouvez prendre la forme d'une b&ecirc;te dont
+      l'indice de dangerosit&eacute; peut aller jusqu'&agrave; 2. De plus,
+      lorsque vous &ecirc;tes sous forme sauvage, vous obtenez la
+      r&eacute;sistance au feu et au froid. Malgr&eacute; son nom, vous
+      b&eacute;n&eacute;ficiez de cette aptitude quelle que soit la saison.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685477
+  modifiedTime: 1663923687153
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!dastyMwwpup3GhTh'
+

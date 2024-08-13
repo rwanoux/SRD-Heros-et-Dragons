@@ -1,0 +1,1645 @@
+_id: O8yob3yjoqKDLMSd
+name: Serpent de mer
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: 8r0gLkMX93KkCBC6
+    name: Amphibie
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/environment/creatures/frog-spotted-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Amphibie.&nbsp;</strong>Le serpent de mer peut respirer à
+          l'air libre et sous l'eau.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Serpent de mer
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.8r0gLkMX93KkCBC6'
+  - _id: KdLk00dsRrrE905K
+    name: Monstre assiégeur
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: description
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Monstre assiégeur.</strong>&nbsp;Le serpent de mer inflige
+          des dégâts doublés aux objets et aux structures (navires).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions.
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Serpent de mer
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.KdLk00dsRrrE905K'
+  - _id: QftzGN0J8vi7WgdG
+    name: Résistance Légendaire
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-deflect-gold.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance légendaire (3/jour).</strong> Le serpent de mer
+          peut remplacer l'échec d'un de ses jets de sauvegarde par une
+          réussite.</p>
+
+          <p>&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Serpent de mer
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.QftzGN0J8vi7WgdG'
+  - _id: Y4fXluxBS7xeUVRc
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le serpent de mer
+          effectue trois attaques : une avec sa morsure, une pour comprimer et
+          une avec sa queue (obligatoirement sur une cible différente pour cette
+          dernière).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Serpent de mer
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.Y4fXluxBS7xeUVRc'
+  - _id: ZzJjyru4eClQqBbn
+    name: Morsure
+    type: weapon
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Morsure.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +13 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 22 (3d8+9) dégâts perforants. Si la cible est une
+          créature de taille G ou plus petite, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité DD 18 pour ne pas être avalée par
+          le serpent de mer. Une créature avalée est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle">aveuglée</a>&nbsp;et&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée</a>,
+          elle bénéficie d'un abri total contre les attaques et autres effets
+          provenant de l'extérieur du serpent et elle subit 21 (6d6) dégâts
+          d'acide au début de chacun des tours du serpent.<br>S'il subit 30
+          dégâts ou plus infligés lors d'un seul tour par une créature à
+          l'intérieur de lui, le serpent doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 20 à la fin du tour pour ne
+          pas régurgiter la totalité des créatures avalées qui tombent&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+          terre</a>&nbsp;dans un emplacement situé à 3 mètres ou moins du
+          serpent.<br>Si le serpent meurt, les créatures avalées ne sont
+          plus&nbsp;entravées&nbsp;par lui et peuvent s'extirper de la carcasse
+          en dépensant 6 mètres de déplacement. Elles en sortent&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+          terre</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: -1
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d8+ @mod
+            - piercing
+        versatile: ''
+        value: ''
+      formula: 6d6
+      save:
+        ability: dex
+        dc: 18
+        scaling: flat
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.ZzJjyru4eClQqBbn'
+  - _id: JTdvXz7ogU52FnkV
+    name: Comprimer
+    type: weapon
+    sort: 600000
+    flags: {}
+    img: icons/magic/water/water-hand.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Comprimer.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +13 pour toucher, allonge 1,50 m, une créature de taille
+          TG ou plus petite.</p>
+
+          <p>Touché&nbsp;: 20 (2d10+9) dégâts contondants plus 17 (2d10+6)
+          dégâts tranchants. La cible est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoigne">empoignée</a>&nbsp;(évasion
+          DD 16) si le serpent n'est pas déjà en train de comprimer une créature
+          et elle est&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée</a>&nbsp;jusqu'au
+          terme de cette empoignade.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: -1
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d10+@mod
+            - bludgeoning
+          - - 2d10+6
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 16
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.JTdvXz7ogU52FnkV'
+  - _id: 3IV0srS9gt4sT7AV
+    name: Queue
+    type: weapon
+    sort: 700000
+    flags:
+      _sheetTab: ''
+    img: icons/commodities/biological/tail-puff-grey.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Queue.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;:
+          +13 pour toucher, allonge 6 m, une cible.</p>
+
+          <p>Touché&nbsp;: 19 (3d6+9) dégâts contondants. Si la cible est une
+          créature, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Force DD 20 pour ne pas tomber&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">à
+          terre</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: null
+      weight: null
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 6
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: -1
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d6 + @mod
+            - bludgeoning
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 20
+        scaling: flat
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!O8yob3yjoqKDLMSd.3IV0srS9gt4sT7AV'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 9
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 6
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 5
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 9
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 28
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 9
+      save: 9
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 22
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    con:
+      value: 22
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: '-1'
+      label: constitution
+      mod: 6
+      save: 11
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 19
+    int:
+      value: 3
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: -4
+      save: -4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 9
+    wis:
+      value: 10
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: '-1'
+      label: wisdom
+      mod: 0
+      save: 5
+      prof: 5
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    cha:
+      value: 6
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: -2
+      save: -2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+  attributes:
+    ac:
+      flat: 18
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 231
+      max: 231
+      temp: 0
+      tempmax: 0
+      formula: 14d20+84
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 0
+      prof: 0
+      total: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 15
+      walk: 0
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 18
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 10
+    spellcasting: int
+    prof: 5
+    spelldc: 9
+    encumbrance:
+      value: 0
+      max: 1680
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Amphibie</em></strong>. Le serpent de mer peut respirer à
+        l'air libre et sous l'eau.</p>
+
+        <p><strong><em>Monstre assiégeur</em></strong>. Le serpent de mer
+        inflige des dégâts doublés aux objets et aux structures (navires).</p>
+
+        <p><strong><em>Résistance légendaire (3/jour)</em></strong>. Le serpent
+        de mer peut remplacer l'échec d'un de ses jets de sauvegarde par une
+        réussite.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le serpent de mer
+        effectue trois attaques : une avec sa morsure, une pour comprimer et une
+        avec sa queue (obligatoirement sur une cible différente pour cette
+        dernière).</p>
+
+        <p><strong><em>Morsure</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +13 pour toucher, allonge 3 m, une
+        cible.<br><em>Touché</em> : 22 (3d8+9) dégâts perforants. Si la cible
+        est une créature de taille G ou plus petite, elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Dextérité DD 18 pour ne pas être avalée par le
+        serpent de mer. Une créature avalée est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#aveuglé"><em>aveuglée</em></a>
+        et <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>,
+        elle bénéficie d'un abri total contre les attaques et autres effets
+        provenant de l'extérieur du serpent et elle subit 21 (6d6) dégâts
+        d'acide au début de chacun des tours du serpent.<br>S'il subit 30 dégâts
+        ou plus infligés lors d'un seul tour par une créature à l'intérieur de
+        lui, le serpent doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 20 à la fin du tour pour ne pas
+        régurgiter la totalité des créatures avalées qui tombent <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+        terre</em></a> dans un emplacement situé à 3 mètres ou moins du
+        serpent.<br>Si le serpent meurt, les créatures avalées ne sont plus
+        <em>entravées</em> par lui et peuvent s'extirper de la carcasse en
+        dépensant 6 mètres de déplacement. Elles en sortent <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+        terre</em></a>.</p>
+
+        <p><strong><em>Comprimer</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +13 pour toucher, allonge 1,50 m, une créature de taille TG
+        ou plus petite.<br><em>Touché</em> : 20 (2d10+9) dégâts contondants plus
+        17 (2d10+6) dégâts tranchants. La cible est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoigné"><em>empoignée</em></a>
+        (évasion DD 16) si le serpent n'est pas déjà en train de comprimer une
+        créature et elle est <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>
+        jusqu'au terme de cette empoignade.</p>
+
+        <p><strong><em>Queue</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +13 pour toucher, allonge 6 m, une
+        cible.<br><em>Touché</em> : 19 (3d6+9) dégâts contondants. Si la cible
+        est une créature, elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Force DD 20 pour ne pas tomber <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+        terre</em></a>.</p>
+      public: ''
+    alignment: non-alignée
+    race: ''
+    type:
+      value: monstrosity
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Mer / Océan
+    cr: 16
+    spellLevel: 16
+    source: Créatures & Oppositions
+    xp:
+      value: 15000
+  traits:
+    size: grg
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 9
+      label: ' '
+      bonus: 0
+      passive: 19
+      prof: 0
+      total: 9
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 0
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 0
+      total: 0
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 2
+    spell6:
+      value: 0
+      override: null
+      max: 1
+    spell7:
+      value: 0
+      override: null
+      max: 1
+    spell8:
+      value: 0
+      override: null
+      max: 1
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Serpent de mer
+  displayName: 0
+  width: 6
+  height: 6
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690375
+  modifiedTime: 1663923695427
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!O8yob3yjoqKDLMSd'
+

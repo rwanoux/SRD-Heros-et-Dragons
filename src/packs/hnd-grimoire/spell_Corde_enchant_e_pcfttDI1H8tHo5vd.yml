@@ -1,0 +1,131 @@
+_id: pcfttDI1H8tHo5vd
+name: Corde enchantée
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/sundries/survival/rope-wrapped-brown.webp
+system:
+  description:
+    value: >-
+      <p>Vous touchez une longueur de corde d'au maximum 18 mètres. L'une de ses
+      extrémités s'élève alors dans les airs, jusqu'à ce que toute la corde se
+      dresse perpendiculairement au sol. Une entrée invisible s'ouvre à
+      l'extrémité supérieure de la corde et débouche sur un espace
+      extradimensionnel qui persiste jusqu'à la fin du sort.</p>
+
+      <p>On peut atteindre cet espace extradimensionnel en grimpant jusqu'au
+      sommet de la corde. Il peut accueillir un maximum de huit créatures de
+      taille M ou inférieure. On peut ensuite tirer la corde dans l'espace
+      extradimensionnel, afin que personne ne la voie en dehors de l'abri.</p>
+
+      <p>Les attaques et les sorts ne peuvent traverser l'entrée de l'espace
+      extradimensionnel ni depuis l'intérieur, ni depuis l'extérieur. En
+      revanche, les créatures qui se trouvent à l'intérieur peuvent regarder
+      dehors grâce à une fenêtre de 90 centimètres sur 1,50 mètre centrée sur la
+      corde.</p>
+
+      <p>Tout ce qui se trouve dans l'espace extradimensionnel tombe à
+      l'extérieur quand le sort se termine.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: spec
+    type: object
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: Extrait de maïs en poudre et boucle de parchemin torsadé
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688199
+  modifiedTime: 1663923689414
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!pcfttDI1H8tHo5vd'
+

@@ -1,0 +1,106 @@
+_id: cwFMPuHX2haHvan2
+name: Affinité élémentaire [Lignée draconique]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  betterRolls5e:
+    critRange:
+      value: null
+    critDamage:
+      value: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+img: icons/magic/lightning/bolt-strike-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="affinite-elementaire"><strong>Affinit&eacute;
+      &eacute;l&eacute;mentaire</strong></h3>
+
+      <p>&Agrave; partir du niveau 6, quand vous lancez un sort qui inflige des
+      d&eacute;g&acirc;ts du type associ&eacute; &agrave; votre h&eacute;ritage
+      draconique, vous pouvez ajouter votre modificateur de Charisme &agrave;
+      ces d&eacute;g&acirc;ts. Vous pouvez dans le m&ecirc;me temps
+      d&eacute;penser 1 point de sorcellerie pour devenir r&eacute;sistant
+      &agrave; ce type de d&eacute;g&acirc;ts pendant 1 heure.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685472
+  modifiedTime: 1663923687134
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!cwFMPuHX2haHvan2'
+

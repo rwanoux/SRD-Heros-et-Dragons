@@ -1,0 +1,186 @@
+_id: BDAGEaXxZHdbd1qp
+name: Flexibilité incantatoire [Ensorceleur]
+type: feat
+img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="flexibilite-incantatoire"><strong>Flexibilit&eacute;
+      incantatoire</strong></h3>
+
+      <p>Vous pouvez utiliser vos points de sorcellerie pour gagner des
+      emplacements de sorts suppl&eacute;mentaires ou sacrifier des emplacements
+      de sorts pour gagner des points de sorcellerie suppl&eacute;mentaires.
+      Vous apprenez de nouvelles fa&ccedil;ons d'utiliser vos points de
+      sorcellerie au fur et &agrave; mesure de votre &eacute;volution dans cette
+      classe.</p>
+
+      <p>Cr&eacute;er des emplacements de sorts. Lors de votre tour, vous pouvez
+      utiliser une action bonus pour transformer des points de sorcellerie que
+      vous n'avez pas d&eacute;pens&eacute;s en un emplacement de sort. Le
+      tableau qui suit vous indique le co&ucirc;t de cr&eacute;ation d'un
+      emplacement de sort en fonction de son niveau. Vous ne pouvez pas
+      cr&eacute;er d'emplacement de sort sup&eacute;rieur au niveau 5.</p>
+
+      <p>Tout emplacement de sort que vous avez cr&eacute;&eacute; gr&acirc;ce
+      &agrave; cette m&eacute;thode dispara&icirc;t &agrave; la fin d'un repos
+      long.</p>
+
+      <p>Convertir un emplacement de sort en points de sorcellerie. Lors de
+      votre tour, vous pouvez utiliser une action bonus pour utiliser un
+      emplacement de sort et gagner un nombre de points de sorcellerie
+      &eacute;quivalent au niveau de l'emplacement de sort que vous avez
+      utilis&eacute;.</p>
+
+      <div>
+
+      <h4 id="creation-d-emplacements-de-sorts">Cr&eacute;ation d'emplacements
+      de sorts</h4>
+
+      <table style="width: 373px; height: 155px;">
+
+      <thead>
+
+      <tr style="height: 33px;">
+
+      <th style="width: 199px; height: 33px;">Niveau d'emplacement de sort</th>
+
+      <th style="width: 171px; height: 33px;">Points de sorcellerie
+      d&eacute;pens&eacute;s</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 197px; height: 17px;">1</td>
+
+      <td style="width: 169px; height: 17px;">2</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 197px; height: 17px;">2</td>
+
+      <td style="width: 169px; height: 17px;">3</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="width: 197px; height: 17px;">3</td>
+
+      <td style="width: 169px; height: 17px;">5</td>
+
+      </tr>
+
+      <tr style="height: 27px;">
+
+      <td style="width: 197px; height: 17px;">4</td>
+
+      <td style="width: 169px; height: 17px;">6</td>
+
+      </tr>
+
+      <tr style="height: 10px;">
+
+      <td style="width: 197px; height: 10px;">5</td>
+
+      <td style="width: 169px; height: 10px;">7</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685227
+  modifiedTime: 1663923686303
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!BDAGEaXxZHdbd1qp'
+

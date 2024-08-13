@@ -1,0 +1,106 @@
+_id: fN9t51z1onxSLyYV
+name: Scarification rituelle [Voie du Hurlement]
+type: feat
+flags: {}
+img: icons/skills/melee/blood-slash-foam-red.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="scarification-rituelle"><strong>Scarification
+      rituelle</strong></h3>
+
+      <p>Toujours au niveau 3, en vous coupant volontairement avec votre lame ou
+      tout objet tranchant et en portant le go&ucirc;t de votre sang &agrave;
+      votre bouche, par exemple en l&eacute;chant la lame, vous pouvez
+      d&eacute;clencher une rage terrifiante. Le sang et votre regard fou
+      impressionnent vos adversaires &agrave; l'exception des plus puissants ou
+      des plus courageux.</p>
+
+      <p>Pour utiliser votre action &agrave; ce tour, vous perdez un point de
+      vie et vous entrez en rage d&egrave;s le d&eacute;but du round suivant.
+      Vous perdez un point de vie suppl&eacute;mentaire &agrave; la fin de
+      chacun de vos tours tant que vous &ecirc;tes sous l'effet de la rage. En
+      revanche, avant de trouver le courage de vous attaquer au
+      corps-&agrave;-corps, une cr&eacute;ature doit r&eacute;ussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse (DD = 8 + votre bonus de ma&icirc;trise
+      + votre modificateur de Force). Une cr&eacute;ature que vous attaquez ou
+      une cr&eacute;ature qui a r&eacute;ussi sa sauvegarde une premi&egrave;re
+      fois n'est plus affect&eacute;e pour toute la dur&eacute;e de votre rage.
+      Les cr&eacute;atures immunis&eacute;es &agrave; l'&eacute;tat&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terroris&eacute;</a>&nbsp;sont
+      immunis&eacute;es &agrave; cette aptitude.</p>
+
+      <p>&Agrave; chaque fois que vous entrez en rage, vous pouvez choisir
+      d'utiliser ou non cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: >-
+    JdS Echec : n'attaqsue pas le barbare - JdS réussi : immunisé pour la durée
+    de la rage
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: str
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685490
+  modifiedTime: 1663923687204
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!fN9t51z1onxSLyYV'
+

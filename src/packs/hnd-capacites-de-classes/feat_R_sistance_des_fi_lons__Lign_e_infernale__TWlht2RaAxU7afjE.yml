@@ -1,0 +1,93 @@
+_id: TWlht2RaAxU7afjE
+name: Résistance des fiélons [Lignée infernale]
+type: feat
+flags: {}
+img: icons/magic/defensive/shield-barrier-glowing-triangle-red.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="resistance-des-fielons"><strong>R&eacute;sistance des
+      fi&eacute;lons</strong></h3>
+
+      <p>Au niveau 1, vous obtenez la r&eacute;sistance aux d&eacute;g&acirc;ts
+      de poison et un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;&agrave;
+      tous les jets de sauvegarde pour r&eacute;sister au poison. Lorsque vous
+      subissez l'&eacute;tat&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#empoisonne">empoisonn&eacute;</a>,
+      il dure deux fois moins longtemps.</p>
+
+      <p>En d&eacute;pensant 1 point de sorcellerie et une action bonus, vous
+      obtenez la r&eacute;sistance au d&eacute;g&acirc;ts contondants,
+      perforants et tranchants inflig&eacute;s par des attaques non magiques
+      pendant un nombre de rounds &eacute;gal &agrave; votre bonus de
+      ma&icirc;trise.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685407
+  modifiedTime: 1663923686856
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TWlht2RaAxU7afjE'
+

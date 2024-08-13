@@ -1,0 +1,92 @@
+name: Triple peine [Domaine de la bière]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz
+img: icons/magic/light/beam-rays-yellow-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="canalisation-d-energie-divine-preserver-la-vie"><strong>Triple
+      peine</strong></h3><p>Au niveau 8, vous gagnez la capacité d'infuser vos
+      attaques d'armes avec de l'énergie radiante. Une fois à chacun de vos
+      tours, lorsque vous touchez une créature avec une attaque d'arme, vous
+      pouvez faire en sorte que l'attaque inflige 1d8 dégâts radiants
+      supplémentaires à la cible. </p><p>Au niveau 14, les dégâts
+      supplémentaires passent à 2d8</p>
+    chat: ''
+    unidentified: ''
+  source: Deep Magic et Midgard Heroes Handbook - Kobold Press
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: 9
+    units: ft
+  uses:
+    value: 0
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - (@classes.clerc.levels) * 5
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685660
+  modifiedTime: 1679679974905
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz
+  duplicateSource: null
+folder: null
+sort: 0
+_id: fzK95YTsLMIDHphC
+_key: '!items!fzK95YTsLMIDHphC'
+

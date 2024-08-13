@@ -1,0 +1,165 @@
+_id: SpFkA5uEEa4iU027
+name: Domaine Guerre [Prêtre]
+type: feat
+flags:
+  core:
+    sourceId: Item.gVLw0ZqPDTvaHLpd
+img: icons/magic/light/beam-rays-orange-small.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="force-exploits-courage"><strong>Guerre</strong></h3>
+
+      <div>
+
+      <table style="width: 369px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 81px;">Niveau de Clerc</th>
+
+      <th style="width: 285px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">1</td>
+
+      <td style="width: 285px;">
+
+      <h4
+      id="canalisation-d-energie-divine-aptitude-de-domaine">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.YgbmJtOw5JyqOWRL]{Faveur
+      divine}</h4>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">3</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.3WGJEXsapNJ4f0K7]{Arme
+      magique}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">5</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.6KPbqosOjwrNiKMf]{Am&eacute;lioration
+      de caract&eacute;ristique}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">7</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.xZ2GaZtYcmKBsUUl]{B&eacute;n&eacute;diction
+      h&eacute;ro&iuml;que}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">9</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.XfPLgaMusOnrw38q]{Peau
+      de pierre}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>&nbsp;</p>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4CVcWfAXrKkA2GMq]{Canalisation
+      divine : Guerre - Transe Guerri&egrave;re [Pr&ecirc;tre]}</p>
+
+      <h3 id="air"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685403
+  modifiedTime: 1663923686835
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.gVLw0ZqPDTvaHLpd
+  duplicateSource: null
+_key: '!items!SpFkA5uEEa4iU027'
+

@@ -1,0 +1,112 @@
+name: Puanteur
+type: feat
+flags:
+  _sheetTab: description
+img: icons/commodities/tech/smoke-bomb-purple.webp
+_id: SKrtmEJe4E7d64Uk
+system:
+  description:
+    value: >-
+      <p><strong>Puanteur. </strong>Les cibles qui commencent leur tour à une
+      distance établie en mètres ou moins de la créature doivent chacune réussir
+      un jet de sauvegarde de Constitution pour ne pas être empoisonnées
+      jusqu'au début de leur prochain tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: flat
+    value: con
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698834
+  modifiedTime: 1663923699662
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!SKrtmEJe4E7d64Uk'
+

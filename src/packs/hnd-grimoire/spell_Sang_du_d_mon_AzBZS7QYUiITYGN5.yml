@@ -1,0 +1,122 @@
+_id: AzBZS7QYUiITYGN5
+name: Sang du démon
+type: spell
+flags: {}
+img: icons/skills/wounds/blood-spurt-spray-red.webp
+system:
+  description:
+    value: >-
+      <p>Vous contaminez le sang d'une créature vivante que vous touchez. Vous
+      effectuez une attaque de sort au contact. Si elle est réussie, le sang de
+      la cible devient corrosif, lui infligeant 1d6 dégâts d'acide à chacun de
+      vos tours. Si la cible réussit un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution, les dégâts sont ignorés pour ce
+      tour.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts
+      augmentent de 1d6 pour chaque niveau au-delà du niveau 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: msak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une fiole d'un mélange de sang et d'acide
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687973
+  modifiedTime: 1663923688683
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!AzBZS7QYUiITYGN5'
+

@@ -1,0 +1,96 @@
+name: La tête en bas [Passeur]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+img: icons/magic/control/debuff-chains-ropes-net-purple-blue.webp
+effects: []
+_id: d7MMbJGmPfNVZM9o
+system:
+  description:
+    value: >-
+      <p>Au niveau 7 &eacute;galement, vous apprenez le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l4VPktMLaUOSFAEI]{Pattes
+      d'araign&eacute;e} et vous pouvez le lancer, uniquement sur
+      vous-m&ecirc;me, sans d&eacute;penser d'emplacement de sorts une fois
+      entre deux repos courts ou longs.</p>
+
+      <p>Si vous &ecirc;tes sur votre <a
+      href="https://5e-drs.fr/classes/rodeur/#terrain-de-predilection">terrain
+      de pr&eacute;dilection</a>, la dur&eacute;e du sort est doubl&eacute;e</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #5'
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur Passeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685473
+  modifiedTime: 1678413561972
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!d7MMbJGmPfNVZM9o'
+

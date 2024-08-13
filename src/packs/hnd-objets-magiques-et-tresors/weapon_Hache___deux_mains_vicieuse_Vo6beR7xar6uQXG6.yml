@@ -1,0 +1,123 @@
+_id: Vo6beR7xar6uQXG6
+name: Hache à deux mains vicieuse
+type: weapon
+img: icons/weapons/axes/axe-double.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-objets-magiques-et-trésors.TWlE7OnyXR3lqQEG
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p style="margin-bottom:0cm;widows:2;orphans:2"><span
+      style="font-family:Roboto, sans-serif"><span style="font-size:small"><span
+      style="font-style:normal"><span style="font-weight:normal">Lorsque vous
+      obtenez un 20 sur un jet d'attaque avec cette arme magique, votre coup
+      critique inflige 2d6 dégâts supplémentaires du type normalement infligé
+      par l'arme.</span></span></span></span></p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 3.5
+  price: 350
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d12 + @mod
+        - slashing
+    versatile: ''
+  formula: 2d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: greataxe
+  properties:
+    hvy: true
+    two: true
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    ver: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  U1d1Ul3JPm288fi5: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701247
+  modifiedTime: 1663923702525
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: >-
+    Compendium.srd-heros-et-dragons.HnD-objets-magiques-et-trésors.TWlE7OnyXR3lqQEG
+  duplicateSource: null
+_key: '!items!Vo6beR7xar6uQXG6'
+

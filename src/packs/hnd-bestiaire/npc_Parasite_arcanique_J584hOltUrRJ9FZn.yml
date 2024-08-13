@@ -1,0 +1,1285 @@
+_id: J584hOltUrRJ9FZn
+name: Parasite arcanique
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: AdIVs3GUIqlV0URo
+    name: Perception des lanceurs de sorts
+    type: feat
+    sort: 11400000
+    flags:
+      betternpcsheet5e:
+        showItemSummary: false
+    img: icons/creatures/eyes/humanoid-single-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Perception des lanceurs de sorts.&nbsp;</strong>Le parasite
+          arcanique détecte automatiquement et instantanément les créatures
+          usant de sorts ou de pouvoirs magiques dans un rayon de 36 mètres.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Parasite arcanique
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!J584hOltUrRJ9FZn.AdIVs3GUIqlV0URo'
+  - _id: Q5Tse7HiVbkBJOab
+    name: Agonie explosive
+    type: feat
+    sort: 600000
+    flags:
+      _sheetTab: details
+      obsidian:
+        source:
+          type: other
+        effects:
+          - name: ''
+            uuid: f6d7edbb-29b7-41d1-8c7d-c6a51a568253
+            components:
+              - type: resource
+                name: Charges
+                uuid: a3cdf813-2e1b-4b07-9091-1a885e850824
+                recharge:
+                  time: long
+                  calc: all
+                  ndice: 0
+                  die: 2
+                  bonus: 0
+                  roll: null
+                bonus: 0
+                operator: plus
+                key: abl
+                min: 0
+                calc: fixed
+                fixed: 1
+                remaining: 0
+              - type: damage
+                uuid: e1143fa5-79c8-4149-a7f1-bfe972548426
+                calc: formula
+                ndice: 3
+                die: 8
+                ability: ''
+                bonus: 0
+                damage: ''
+                versatile: false
+              - type: save
+                uuid: 1ca4d239-410b-4ca0-9457-424538c8a4fd
+                calc: fixed
+                fixed: 11
+                bonus: 0
+                prof: 1
+                ability: ''
+                target: dex
+                effect: ''
+                save: half
+        version: 7
+      betternpcsheet5e:
+        showItemSummary: false
+    img: icons/magic/light/explosion-star-glow-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Agonie explosive.</strong> Lorsque le parasite arcanique
+          meurt, il explose en libérant une décharge magique. Chaque créature
+          située à 3 mètres ou moins subit 3d8 points de dégâts dont la nature
+          dépend de la couleur du parasite et seulement la moitié en cas de
+          réussite d'un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde </a>de Dextérité (DD 11). Couleur du parasites et type
+          de dégâts :<br>1. Rouge&nbsp;– feu<br>2. Orange&nbsp;– acide<br>3.
+          Jaune&nbsp;– foudre<br>4. Vert&nbsp;– poison<br>5. Bleu&nbsp;–
+          froid<br>6. Violet&nbsp;– tonnerre<br>7. Blanc&nbsp;– radiant<br>8.
+          Noir&nbsp;- nécrotique</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Opposiotions
+      activation:
+        type: special
+        cost: 1
+        condition: On Death
+      duration:
+        value: 0
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 3
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: null
+        per: ''
+        recovery: ''
+        type: day
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d8
+            - ''
+        versatile: ''
+        value: ''
+      formula: 1d8
+      save:
+        ability: dex
+        dc: 11
+        scaling: flat
+        value: dex
+      type:
+        value: ''
+        subtype: ''
+      requirements: Parasite arcanique
+      recharge:
+        value: 0
+        charged: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!J584hOltUrRJ9FZn.Q5Tse7HiVbkBJOab'
+  - _id: q2W5OwlkcVxr2o4w
+    name: Absorption de la Magie
+    type: feat
+    sort: 100001
+    flags: {}
+    img: icons/creatures/abilities/fang-tooth-venomous.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Absorption de la magie.</strong>&nbsp;Attaque de corps à
+          corps&nbsp;: +4 au touché, allonge 1,50 mètres, une
+          cible.<br>Touché&nbsp;: 5 (1d4+2) dégâts perçants et le parasite
+          arcanique s'ancre à sa cible avec son rostre en inoculant une
+          substance salivaire anesthésiante qui rend sa morsure totalement
+          indolore. Si la cible n'est pas consciente de la présence du parasite,
+          elle doit réussir un jet de Sagesse (DD 15) pour ressentir la
+          morsure.<br>Une fois accroché, le parasite absorbe à la cible un
+          emplacement de sort du plus haut niveau disponible à chaque round. Le
+          parasite se détache généralement après avoir absorbé 1d4+1
+          emplacements de sorts ou si la cible n'a plus d'emplacement de sorts à
+          absorber. Il peut se détacher en utilisant 1,50 mètre sur son
+          déplacement. La victime du parasite ou toute autre créature peut
+          également détacher le parasite en utilisant une action mais, en
+          s'arrachant, le rostre occasionne à nouveau 5 (1d4+2) dégâts
+          perçants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: dex
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d4+@mod
+            - piercing
+        versatile: ''
+      formula: 1d4+1
+      save:
+        ability: wis
+        dc: 15
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Parasite arcanique
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!J584hOltUrRJ9FZn.q2W5OwlkcVxr2o4w'
+  - _id: AYXCS2OUlsgWwkET
+    name: Résistance à la Magie
+    type: feat
+    sort: 11500000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;Le parasite arcanique
+          a l'<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+          sur ses jets de sauvegarde contre les sorts et autres effets
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Parasite arcanique
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!J584hOltUrRJ9FZn.AYXCS2OUlsgWwkET'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 0
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 2
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -4
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -2
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 719
+      width: 1506
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: -1
+      save: -1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 9
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    con:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 0
+      save: 0
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 10
+    int:
+      value: 2
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: -4
+      save: -4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 6
+    wis:
+      value: 7
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: -2
+      save: -2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 8
+    cha:
+      value: 4
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: -3
+      save: -3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 7
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 5
+      max: 5
+      temp: 0
+      tempmax: 0
+      formula: 2d4
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 18
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 8
+    spellcasting: int
+    prof: 2
+    spelldc: 6
+    encumbrance:
+      value: 0
+      max: 30
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Perception des lanceurs de sorts</em></strong>. Le
+        parasite arcanique détecte automatiquement et instantanément les
+        créatures usant de sorts ou de pouvoirs magiques dans un rayon de 36
+        mètres.</p>
+
+        <p><strong><em>Résistance à la magie</em></strong>. Le parasite
+        arcanique a l'<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        sur ses jets de sauvegarde contre les sorts et autres effets
+        magiques.</p>
+
+        <p><strong><em>Agonie explosive</em></strong>. Lorsque le parasite
+        arcanique meurt, il explose en libérant une décharge magique. Chaque
+        créature située à 3 mètres ou moins subit 3d8 points de dégâts dont la
+        nature dépend de la couleur du parasite et seulement la moitié en cas de
+        réussite d'un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Dextérité (DD 11). Couleur du parasites et type de
+        dégâts :<br><strong><em>1. Rouge</em></strong> – feu<br><strong><em>2.
+        Orange</em></strong> – acide<br><strong><em>3. Jaune</em></strong> –
+        foudre<br><strong><em>4. Vert</em></strong> – poison<br><strong><em>5.
+        Bleu</em></strong> – froid<br><strong><em>6. Violet</em></strong> –
+        tonnerre<br><strong><em>7. Blanc</em></strong> –
+        radiant<br><strong><em>8. Noir</em></strong> - nécrotique</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Absorption de la magie</em></strong>. <em>Attaque de
+        corps à corps</em> : +4 au touché, allonge 1,50 mètres, une
+        cible.<br><em>Touché</em> : 5 (1d4+2) dégâts perçants et le parasite
+        arcanique s'ancre à sa cible avec son rostre en inoculant une substance
+        salivaire anesthésiante qui rend sa morsure totalement indolore. Si la
+        cible n'est pas consciente de la présence du parasite, elle doit réussir
+        un jet de Sagesse (DD 15) pour ressentir la morsure.<br>Une fois
+        accroché, le parasite absorbe à la cible un emplacement de sort du plus
+        haut niveau disponible à chaque round. Le parasite se détache
+        généralement après avoir absorbé 1d4+1 emplacements de sorts ou si la
+        cible n'a plus d'emplacement de sorts à absorber. Il peut se détacher en
+        utilisant 1,50 mètre sur son déplacement. La victime du parasite ou
+        toute autre créature peut également détacher le parasite en utilisant
+        une action mais, en s'arrachant, le rostre occasionne à nouveau 5
+        (1d4+2) dégâts perçants.</p>
+      public: ''
+    alignment: Neutre
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 0.25
+    spellLevel: 1
+    source: Créatures & Oppositions
+    xp:
+      value: 50
+  traits:
+    size: tiny
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - acid
+        - fire
+        - lightning
+        - cold
+        - thunder
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - blinded
+      custom: ''
+    languages:
+      value: []
+      custom: –
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 10
+      prof: 2
+      total: 0
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -3
+      label: ' '
+      bonus: 0
+      passive: 7
+      prof: 0
+      total: -3
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -4
+      label: ' '
+      bonus: 0
+      passive: 6
+      prof: 0
+      total: -4
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -2
+      label: ' '
+      bonus: 0
+      passive: 8
+      prof: 0
+      total: -2
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 2
+    spell2:
+      value: 0
+      override: null
+      max: 0
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Parasite arcanique
+  displayName: 0
+  width: 0.5
+  height: 0.5
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690294
+  modifiedTime: 1663923690294
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!J584hOltUrRJ9FZn'
+

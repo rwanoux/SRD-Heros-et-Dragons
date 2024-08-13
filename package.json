@@ -1,0 +1,25 @@
+{
+  "name": "srdhd",
+  "version": "1.0.0",
+  "description": "SRD Heros et Dragons",
+  "scripts": {
+    "css": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp",
+    "pushLDBtoYAML": "node ./tools/pushLDBtoYAML.mjs",
+    "pullYAMLtoLDB": "node ./tools/pullYAMLtoLDB.mjs"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Heros et Dragons",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+  }
+}

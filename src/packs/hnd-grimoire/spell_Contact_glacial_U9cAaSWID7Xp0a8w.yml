@@ -1,0 +1,149 @@
+_id: U9cAaSWID7Xp0a8w
+name: Contact glacial
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+img: icons/magic/water/projectile-ice-faceted-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous faites apparaître une main fantomatique et squelettique sur
+      l'emplacement d'une créature située à portée. Faites un <a
+      href="https://5e-drs.fr/combattre#jets-dattaque">jet d'attaque</a> de sort
+      à distance contre la créature pour la transir de froid. Si l'attaque
+      touche, la victime reçoit 1d8 dégâts nécrotiques et ne peut pas récupérer
+      de point de vie avant le début de votre prochain tour. Jusque-là, la main
+      s'accroche à elle.</p>
+
+      <p>Si votre cible est un mort-vivant, il subit en plus un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      lors des jets d'attaque effectués contre vous jusqu'à la fin de votre
+      prochain tour.</p>
+
+      <p>Les dégâts du sort augmentent de 1d8 quand vous atteignez les niveaux 5
+      (2d8), 11 (3d8) et 17 (4d8).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923688048
+  modifiedTime: 1678425750365
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!U9cAaSWID7Xp0a8w'
+

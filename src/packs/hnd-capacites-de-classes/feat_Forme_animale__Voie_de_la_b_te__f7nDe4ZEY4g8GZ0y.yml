@@ -1,0 +1,106 @@
+name: Forme animale [Voie de la bête]
+type: feat
+img: icons/creatures/mammals/humanoid-wolf-dog-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.OIllITTY4yyZtiDC
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+_id: f7nDe4ZEY4g8GZ0y
+system:
+  description:
+    value: >-
+      <p>Au niveau 3, vous pouvez dépenser une action bonus et une utilisation
+      de votre rage pour prendre la forme de l'animal qui correspond à votre
+      famille d'adoption.</p><p>Vous devez choisir dès la création du personnage
+      si vous vous transformez en
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.4HZpWdLJQX4rCk6W]{Loup
+      sanguinaire}, en
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.hUBUrgqkDST1ikcm]{Ours
+      brun}, en
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.01rjJA3FPNOHFyb8]{Lion}
+      ou en un autre mammifère autorisé par votre MJ et dont l'indice de
+      dangerosité ne dépasse pas 1.</p><p>Vous adoptez le profil technique de
+      l'animal dont vous prenez la forme en suivant les mêmes règles qu'un
+      druide. Votre transformation dure 10 rounds (1 minute). Si vous êtes
+      réduit à 0 PV sous cette forme avant que la transformation ne soit
+      complète, vous reprenez votre forme humaine, comme c'est le cas pour un
+      druide.</p><p>Vous devez prendre un repos court avant de pouvoir effectuer
+      une nouvelle transformation.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685486
+  modifiedTime: 1678419767089
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.OIllITTY4yyZtiDC
+  duplicateSource: null
+_key: '!items!f7nDe4ZEY4g8GZ0y'
+

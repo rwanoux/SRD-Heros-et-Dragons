@@ -1,0 +1,114 @@
+_id: 5ghR5i7fPEl2H25n
+name: Contact Paralysant
+type: feat
+flags:
+  _sheetTab: details
+img: icons/magic/water/water-hand.webp
+system:
+  description:
+    value: >-
+      <p><strong>Contact paralysant.</strong> Attaque de sort au corps &agrave;
+      corps sur une cible. Allonge 1,50 m. D&eacute;g&acirc;ts de froid. La
+      cible doit r&eacute;ussir un jet de sauvegarde de constitution sous peine
+      d'&ecirc;tre paralys&eacute;e pendant 1 minute. La cible peut retenter son
+      jet de sauvegarde &agrave; la fin de chacun de ses tours, mettant fin
+      &agrave; cet effet si elle le r&eacute;ussit.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: msak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - cold
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698749
+  modifiedTime: 1663923699296
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!5ghR5i7fPEl2H25n'
+

@@ -1,0 +1,110 @@
+_id: gVBmOHxF4nmgdHjY
+name: Ecailles de mithral
+type: equipment
+img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Le mithral est un métal léger et flexible, à tel point qu'on peut
+      porter une chemise de mailles ou une cuirasse de cette matière sous des
+      vêtements normaux. Si le type d'armure impose d'ordinaire un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>&nbsp;lors
+      des tests de Dextérité (Discrétion) ou si une certaine valeur de Force
+      figure parmi ses conditions requises, ce n'est pas le cas de sa version en
+      mithral.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+    type: String
+    label: Description
+  source: Cadre de campagne
+  quantity: 1
+  weight: 22.5
+  price: 850
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 14
+    type: medium
+    dex: 2
+    label: Armor Value
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: scalemail
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701321
+  modifiedTime: 1663923702836
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!gVBmOHxF4nmgdHjY'
+

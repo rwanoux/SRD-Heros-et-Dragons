@@ -1,0 +1,88 @@
+name: Maître des ombres [Ombrelin]
+type: feat
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.xU19Zisgb17aX92J
+_id: l4Fz6JaRPIfBMkJR
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 15, votre maîtrise des ténèbres s'étend aux zones de
+      lumière faible (pénombre) et même à toutes celles où la visibilité est
+      réduite (brume légère, végétation luxuriante).</p>
+
+      <p>Désormais vous pouvez y utiliser vos aptitudes
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9VcMPDISJfTuXdJ1]{Un
+      coup dans le noir [Ombrelin]} et
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xzCKGfjeSmJEZpsO]{Ruse
+      [Ombrelin]}.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685608
+  modifiedTime: 1663923687418
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.xU19Zisgb17aX92J
+  duplicateSource: null
+_key: '!items!l4Fz6JaRPIfBMkJR'
+

@@ -1,0 +1,92 @@
+_id: VjfjCI4WdMlD1eBN
+name: Résistance des arcanes [Sorcelame]
+type: feat
+flags: {}
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="resistance-des-arcanes"><strong>R&eacute;sistance des
+      arcanes</strong></h3>
+
+      <p>Au niveau 10, vous pouvez d&eacute;penser votre r&eacute;action et 1
+      point de sorcellerie pour obtenir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;&agrave;
+      un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de votre choix contre un sort ou un effet
+      magique.</p>
+
+      <p>&Agrave; ce niveau, en plus du sort que vous apprenez normalement, vous
+      apprenez un troisi&egrave;me tour de magie de la liste de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/?classes=Ensorceleur%2FSorcelame">sorts
+      de sorcelame</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685424
+  modifiedTime: 1663923686935
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!VjfjCI4WdMlD1eBN'
+

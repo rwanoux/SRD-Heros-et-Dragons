@@ -1,0 +1,112 @@
+_id: 5xss94kHu0j8GZCh
+name: Maître des éléments [Élémentaliste]
+type: feat
+flags: {}
+img: icons/magic/defensive/shield-barrier-blades-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="maitre-des-elements"><strong>Ma&icirc;tre des
+      &eacute;l&eacute;ments</strong></h3>
+
+      <p>Au niveau 6, vos &eacute;tudes vous am&egrave;nent &agrave; faire un
+      nouveau choix. Soit vous vous contentez de vous sp&eacute;cialiser dans un
+      seul &eacute;l&eacute;ment, soit vous choisissez de vous consacrer
+      enti&egrave;rement &agrave; la magie &eacute;l&eacute;mentaire, mais cela
+      vous interdit d'acc&eacute;der &agrave; tout un pan de la magie
+      traditionnelle.</p>
+
+      <p>Dans le premier cas, ignorez simplement les pouvoirs et les limitations
+      d&eacute;crits ci-dessous ; dans le second, poursuivez votre lecture et
+      appliquez les b&eacute;n&eacute;fices et les inconv&eacute;nients
+      pr&eacute;sent&eacute;s.</p>
+
+      <p>Vous choisissez un second &eacute;l&eacute;ment de pr&eacute;dilection,
+      cet &eacute;l&eacute;ment ne doit toutefois pas &ecirc;tre oppos&eacute;
+      au premier &eacute;l&eacute;ment que vous avez choisi (feu est
+      oppos&eacute; &agrave; eau, air est oppos&eacute; &agrave; terre).</p>
+
+      <p>Vous gagnez l'aptitude puissance &eacute;l&eacute;mentaire
+      correspondant &agrave; ce nouvel &eacute;l&eacute;ment. Toutefois, vous ne
+      pouvez l'utiliser qu'une fois entre deux repos long. Au niveau 10, vous
+      obtenez l'aptitude de r&eacute;sistance &eacute;l&eacute;mentaire
+      correspondant &agrave; cet &eacute;l&eacute;ment. Au niveau 14, vous
+      obtenez l'aptitude sp&eacute;cialisation &eacute;l&eacute;mentaire
+      correspondant &agrave; cet &eacute;l&eacute;ment et pouvez
+      d&eacute;sormais utiliser votre aptitude de puissance
+      &eacute;l&eacute;mentaire une fois apr&egrave;s chaque repos court ou
+      long.</p>
+
+      <p>En revanche, vous ne pouvez pas apprendre de sort de niveau 4 ou
+      sup&eacute;rieur des &eacute;coles d'enchantement, d'illusion et de
+      n&eacute;cromancie. Vous pouvez toujours utiliser des parchemins
+      comportant des sorts de ces &eacute;coles.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685185
+  modifiedTime: 1663923686154
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!5xss94kHu0j8GZCh'
+

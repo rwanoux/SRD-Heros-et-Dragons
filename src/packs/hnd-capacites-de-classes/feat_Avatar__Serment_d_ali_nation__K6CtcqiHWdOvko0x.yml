@@ -1,0 +1,92 @@
+name: Avatar [Serment d'aliénation]
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.lZDMXscZxmWzm3Nx
+_id: K6CtcqiHWdOvko0x
+system:
+  description:
+    value: >-
+      <p>Au niveau 20, vous ne faites plus qu'un avec votre Sire. Vous devenez
+      son avatar, c'est-à-dire la manifestation physique de son esprit.</p>
+
+      <p>Si vous mourez, votre corps disparaît au round suivant. Huit heures
+      plus tard, vous apparaissez aux côtés de votre Sire, à moins que l'objet
+      n'ait été détruit entre-temps ou qu'un sort de souhait soit utilisé pour
+      vous en empêcher.</p>
+
+      <p>Vous revenez à la vie avec tous vos PV et en ayant complété un repos
+      long.</p>
+
+      <p>Toutes les mutilations qui ont pu être infligées à votre corps ou à
+      votre cadavre depuis votre dernière réincarnation disparaissent.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685348
+  modifiedTime: 1663923686628
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.lZDMXscZxmWzm3Nx
+  duplicateSource: null
+_key: '!items!K6CtcqiHWdOvko0x'
+

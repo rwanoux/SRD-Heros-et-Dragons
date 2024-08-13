@@ -1,0 +1,92 @@
+_id: kHDJ5Ks9X7ZyBMob
+name: Expertise des sorts [Maître d'étude]
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.FiN8jAn5L5uQhd1K
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p>Au niveau 6, vous êtes si habitué à copier et recopier les sorts dans
+      le cadre de vos recherches que vous êtes devenu expert en la matière.
+      Quand vous effectuez un test afin de lancer un sort d'un niveau supérieur
+      à votre niveau de sort maximum depuis un parchemin, ou afin de recopier le
+      sort d'un parchemin dans votre grimoire, vous obtenez l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #6'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685602
+  modifiedTime: 1678408730425
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.FiN8jAn5L5uQhd1K
+  duplicateSource: null
+_key: '!items!kHDJ5Ks9X7ZyBMob'
+

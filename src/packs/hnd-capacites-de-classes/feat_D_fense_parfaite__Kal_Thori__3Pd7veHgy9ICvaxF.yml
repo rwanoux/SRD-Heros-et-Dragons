@@ -1,0 +1,95 @@
+name: Défense parfaite [Kal'Thori]
+type: feat
+flags:
+  core:
+    sourceId: Item.v71xkLdFVvUNhbG4
+img: icons/equipment/shield/kite-wooden-oak-glow.webp
+effects: []
+_id: 3Pd7veHgy9ICvaxF
+system:
+  description:
+    value: >-
+      <h3><strong>D&eacute;fense parfaite</strong></h3>
+
+      <p>Au niveau 15, vous avez appris &agrave; optimiser votre d&eacute;fense
+      et &agrave; utiliser toute la surface de votre bouclier pour vous
+      prot&eacute;ger.</p>
+
+      <p>Vous obtenez l&rsquo;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      sur les<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">
+      jet de sauvegarde</a> de dext&eacute;rit&eacute; contre tout sort ou effet
+      qui devrait vous prendre pour cible.</p>
+
+      <p>De plus, si vous deviez subir la moiti&eacute; des d&eacute;g&acirc;ts
+      en cas de r&eacute;ussite, vous pouvez utiliser votre r&eacute;action afin
+      de n&rsquo;en subir aucun.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette R''n P #2'
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685167
+  modifiedTime: 1663923686083
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.v71xkLdFVvUNhbG4
+  duplicateSource: null
+_key: '!items!3Pd7veHgy9ICvaxF'
+

@@ -1,0 +1,103 @@
+name: '[Ensorceleur] Affamé'
+type: subclass
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+effects: []
+flags:
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.sUkMqOfC7DTnDcMW
+system:
+  description:
+    value: "<h2 id=\"lignee-celeste\"><strong>Affamé</strong></h2><p style=\"text-align:justify\">\_Votre magie innée provient d'une source profonde et primitive de faim et d'envie. Peut-être votre lignée a-t-elle été maudite pour son avidité par un dieu de l'abondance ou de la générosité. L'un de vos ancêtres a peut-être été marqué par la faim des morts-vivants. Les ensorceleurs de cette origine ont un appétit inflexible pour les arcanes et ne reculent devant rien pour assouvir leur désir d'accroître leur puissance magique.</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iHt70p7CUnSHfhT5]{Yeux affamés}</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E0yYhpbZtYvR4sCs]{Âme assoiffée}</p><p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NXAWt91gp67D3iEi]{Festin arcanique}</p><p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.q51w3j7LxRocjhg8]{Masochisme}</p><p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gNvuceaQHsrtSMEe]{Cœur avide}</p>"
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  identifier: affame
+  classIdentifier: ensorceleur
+  advancement:
+    - _id: m0uRR61FjcsRjYTl
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iHt70p7CUnSHfhT5
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.E0yYhpbZtYvR4sCs
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+    - _id: 9ccDKla0i0lK3Ggi
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.NXAWt91gp67D3iEi
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: ''
+    - _id: N7B7kOJFnpLGCirT
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.q51w3j7LxRocjhg8
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: ''
+    - _id: xOYhPUd8IYRXamNT
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gNvuceaQHsrtSMEe
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 18
+      title: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923703433
+  modifiedTime: 1680510617871
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.sUkMqOfC7DTnDcMW
+  duplicateSource: null
+folder: null
+sort: 0
+_id: mlGIbbNQ3K0Q9Ai5
+_key: '!items!mlGIbbNQ3K0Q9Ai5'
+

@@ -1,0 +1,94 @@
+_id: sHA7eF6Geia4lz21
+name: Halo sacré [Serment de Dévotion]
+type: feat
+flags: {}
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="halo-sacre"><strong>Halo sacr&eacute;</strong></h3>
+
+      <p>Au niveau 20, vous pouvez utiliser une action pour qu'une aura solaire
+      se d&eacute;gage de vous. Pendant 1 minute, une lumi&egrave;re vive
+      &eacute;mane de vous dans un rayon de 9 m&egrave;tres et une
+      lumi&egrave;re faible sur 9 m&egrave;tres suppl&eacute;mentaires.</p>
+
+      <p>Quand une cr&eacute;ature ennemie commence son tour dans la
+      lumi&egrave;re vive, elle subit 10 d&eacute;g&acirc;ts radiants.</p>
+
+      <p>Pendant tout le temps que perdure ce halo, vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;sur
+      les jets de sauvegarde contre les sorts lanc&eacute;s par les
+      fi&eacute;lons et les morts-vivants.</p>
+
+      <p>Apr&egrave;s un usage de cette aptitude, vous devez terminer un repos
+      long pour la recharger.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685655
+  modifiedTime: 1663923687609
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sHA7eF6Geia4lz21'
+

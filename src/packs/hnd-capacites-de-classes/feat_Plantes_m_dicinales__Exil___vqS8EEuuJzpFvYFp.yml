@@ -1,0 +1,96 @@
+_id: vqS8EEuuJzpFvYFp
+name: Plantes médicinales [Exilé]
+type: feat
+flags: {}
+img: icons/consumables/plants/leaf-veins-glowing-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="plantes-medicinales"><strong>Plantes
+      m&eacute;dicinales</strong></h3>
+
+      <p>&Agrave; partir du niveau 3, lorsque vous &ecirc;tes sur votre terrain
+      de pr&eacute;dilection, vous pouvez appliquer des herbes
+      m&eacute;dicinales sur un nombre de cr&eacute;atures &eacute;gal &agrave;
+      votre bonus de ma&icirc;trise, vous inclus, durant un repos court. A la
+      fin du repos, chaque patient r&eacute;cup&egrave;re un nombre de d6 Points
+      de Vie &eacute;gal &agrave; votre bonus de ma&icirc;trise. Vous pouvez
+      utiliser cette aptitude une fois entre deux repos longs. A partir du
+      niveau 11, vous pouvez l'utiliser deux fois entre deux repos longs.</p>
+
+      <p>Vous obtenez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      &agrave; tous vos tests de Sagesse (M&eacute;decine), d'Intelligence
+      (Nature), de Sagesse (Perception) ou de Sagesse (Survie) qui concernent
+      les plantes.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - (@prof)d6
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685684
+  modifiedTime: 1663923687739
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vqS8EEuuJzpFvYFp'
+

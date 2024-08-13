@@ -1,0 +1,84 @@
+name: Décharge Électrique
+type: feat
+flags: {}
+img: icons/magic/lightning/bolt-strike-blue.webp
+_id: MXmlRjCrSviR4Lt6
+system:
+  description:
+    value: >-
+      <p><strong>Décharge électrique.</strong> Un éclair de 1,50 mètre de large
+      relie soudainement deux surfaces dures (murs, sol ou plafond) de l'antre
+      distantes de 15 mètres ou moins. Toute créature prise dans le tracé de
+      l'éclair doit réussir un jet de sauvegarde de Dextérité ou subir 4d6
+      dégâts de foudre (la moitié si le jet est réussi).</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: m
+    type: line
+  range:
+    value: null
+    long: null
+    units: spec
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 4d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Bleu (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698809
+  modifiedTime: 1663923699550
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!MXmlRjCrSviR4Lt6'
+

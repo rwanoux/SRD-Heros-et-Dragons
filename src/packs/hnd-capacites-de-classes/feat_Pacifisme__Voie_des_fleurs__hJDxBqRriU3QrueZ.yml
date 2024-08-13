@@ -1,0 +1,85 @@
+name: Pacifisme [Voie des fleurs]
+type: feat
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.prTIkxaJSj8TJ3Sy
+_id: hJDxBqRriU3QrueZ
+system:
+  description:
+    value: >-
+      <p>Également au niveau 3, votre immobilité est trompeuse : car vous êtes
+      pleinement conscient de la présence de vos ennemis.</p>
+
+      <p>Si vous n'avez pas réalisé d'action offensive lors de votre tour, vous
+      pouvez utiliser votre réaction pour lancer votre dé d'arts martiaux et
+      l'ajouter à votre CA contre une attaque jusqu'à votre prochain tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685570
+  modifiedTime: 1663923687312
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.prTIkxaJSj8TJ3Sy
+  duplicateSource: null
+_key: '!items!hJDxBqRriU3QrueZ'
+

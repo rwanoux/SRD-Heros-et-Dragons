@@ -1,0 +1,98 @@
+name: Connaître l'âme
+type: feat
+img: icons/magic/life/heart-hand-gold-green-light.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.jC2xPyqbZAQNtiCb
+_id: alYHjhdYfyBqEEYH
+system:
+  description:
+    value: >-
+      <p>Vous êtes capable de percevoir les auras qui entourent les êtres
+      vivants intelligents.</p>
+
+      <p>Quand vous êtes face à un être humanoïde, vous pouvez dépenser votre
+      action bonus afin de tenter de lire l'âme de l'humanoïde. Plus vous vous
+      concentrez longtemps, plus la lecture est précise : un round vous permet
+      de déterminer son humeur générale, trois rounds de déterminer plus
+      précisément son état d'esprit et cinq rounds de découvrir une peur ou un
+      désir caché(e).</p>
+
+      <p>Si vous poursuivez votre lecture jusqu'à cinq rounds, la cible peut
+      effectuer un jet de sauvegarde de Charisme contre une difficulté égale à 8
+      + [votre modificateur de Charisme].</p>
+
+      <p>Tant que vous maintenez ce pouvoir, vous utilisez votre
+      concentration.</p>
+
+      <p>Vous devez effectuer un repos long avant de pouvoir réutiliser cette
+      capacité.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: cha
+  type:
+    value: ''
+    subtype: ''
+  requirements: Tieffelin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698205
+  modifiedTime: 1663923698528
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.jC2xPyqbZAQNtiCb
+  duplicateSource: null
+_key: '!items!alYHjhdYfyBqEEYH'
+

@@ -1,0 +1,84 @@
+_id: CjPgDVq7M0t5k29m
+name: Dur à cuire [Brute]
+type: feat
+flags: {}
+img: icons/magic/defensive/armor-stone-skin.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="dur-a-cuire"><strong>Dur &agrave; cuire</strong></h3>
+
+      <p>&Eacute;galement au niveau 3, vous ajoutez votre modificateur de Force
+      en plus de celui de Constitution aux points de vie obtenus &agrave; ce
+      niveau. Vous ferez de m&ecirc;me au niveau 9 et au niveau 17. Si votre
+      modificateur de Force augmente par la suite, vous augmentez les points de
+      vie obtenus aux niveaux 3, 9 et 17.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685239
+  modifiedTime: 1663923686349
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!CjPgDVq7M0t5k29m'
+

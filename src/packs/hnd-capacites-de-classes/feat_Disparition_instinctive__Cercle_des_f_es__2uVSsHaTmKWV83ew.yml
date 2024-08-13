@@ -1,0 +1,100 @@
+_id: 2uVSsHaTmKWV83ew
+name: Disparition instinctive [Cercle des fées]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/control/debuff-energy-snare-brown.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="disparition-instinctive"><strong>Disparition
+      instinctive</strong></h3>
+
+      <p>Vous savez passer dans le monde invisible en un instant. &Agrave;
+      partir du niveau 6, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.erm3JdSRapDqIe7a]{Invisibilit&eacute;}
+      en utilisant une action bonus au lieu d'une action, et une r&eacute;action
+      vous suffit &agrave; partir du niveau 10. Vous pouvez utiliser cette
+      r&eacute;action d&egrave;s qu'un adversaire prend une action dans votre
+      champ de vision.</p>
+
+      <p>&Agrave; partir du niveau 10, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g6PEhEFxoKoangxJ]{Porte
+      dimensionnelle}&nbsp;en utilisant une action bonus, et une r&eacute;action
+      suffit &agrave; partir du niveau 14.</p>
+
+      <p>De plus, vous pouvez lancer ces sorts, toujours en action bonus ou en
+      r&eacute;action, m&ecirc;me lorsque vous &ecirc;tes en forme sauvage
+      (&eacute;ventuellement en utilisant votre aptitude de magie des
+      f&eacute;es).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685164
+  modifiedTime: 1663923686070
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2uVSsHaTmKWV83ew'
+

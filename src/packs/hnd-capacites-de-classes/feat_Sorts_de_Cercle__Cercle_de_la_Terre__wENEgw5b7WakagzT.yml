@@ -1,0 +1,120 @@
+_id: wENEgw5b7WakagzT
+name: Sorts de Cercle [Cercle de la Terre]
+type: feat
+flags:
+  core:
+    sourceId: Item.7p1CEXXZN1v54AEW
+img: icons/magic/earth/projectile-spiked-stone-boulder-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-de-cercle"><strong>Sorts de cercle</strong></h3>
+
+      <p>Votre connexion mystique avec la terre vous donne la capacit&eacute; de
+      lancer certains sorts. Aux niveaux 3, 5, 7 et 9, vous avez acc&egrave;s
+      &agrave; des sorts de cercles li&eacute;s au type de terrain sur lequel
+      vous &ecirc;tes devenu druide. Choisissez un terrain :</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.mOI14qB89sqWmsYs]{Sorts
+      de Cercle - Arctique [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XAFLLy4iWKvGNXSB]{Sorts
+      de Cercle - Littoral [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ipqAvGzLiDuRHL07]{Sorts
+      de Cercle - D&eacute;sert [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VNlEdBXnT4yNMa1T]{Sorts
+      de Cercle - For&ecirc;t [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.MMHznKwCCuboXHCQ]{Sorts
+      de Cercle - Plaine [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zsEZJDreMh5Wr8kY]{Sorts
+      de Cercle - Montagne [Cercle de la Terre]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0ehMvMgWLm0FaoET]{Sorts
+      de Cercle - Marais [Cercle de la Terre]}</li>
+
+      </ul>
+
+      <p>&nbsp;</p>
+
+      <p>Une fois que vous avez appris un sort de cercle, il est toujours
+      consid&eacute;r&eacute; comme pr&eacute;par&eacute; et il n'est pas
+      comptabilis&eacute; dans le nombre de sorts que vous pouvez
+      pr&eacute;parer chaque jour. Si vous apprenez un sort qui n'appara&icirc;t
+      pas dans la liste de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/?classes=Druide">sorts de druide</a>,
+      consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cercle de la Terre
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685687
+  modifiedTime: 1663923687753
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.7p1CEXXZN1v54AEW
+  duplicateSource: null
+_key: '!items!wENEgw5b7WakagzT'
+

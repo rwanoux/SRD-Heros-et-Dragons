@@ -1,0 +1,514 @@
+_id: 8nWeZk1RD2oeNxok
+name: Sorts de saison [Cercle des Saisons]
+type: feat
+flags: {}
+img: icons/magic/light/beam-rays-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-de-saison"><strong>Sorts de saison</strong></h3>
+
+      <p>Votre connexion mystique avec les saisons vous permet de lancer
+      certains sorts en rapport avec la saison actuelle. Du niveau 2 au niveau
+      9, vous obtenez acc&egrave;s &agrave; des sorts particuliers selon la
+      saison. La liste de sorts &agrave; laquelle vous avez acc&egrave;s change
+      durant une c&eacute;r&eacute;monie d'1 heure que vous devez effectuer aux
+      solstices ou aux &eacute;quinoxes. Tant que vous n'effectuez pas cette
+      c&eacute;r&eacute;monie, vous ne gagnez pas acc&egrave;s aux sorts de la
+      nouvelle saison, mais vous perdez malgr&eacute; tout l'acc&egrave;s
+      &agrave; ceux de la saison pass&eacute;e. Vous en obtenez l'acc&egrave;s
+      d&egrave;s que la c&eacute;r&eacute;monie est r&eacute;alis&eacute;e. Ces
+      sorts sont toujours pr&eacute;par&eacute;s et ils ne comptent pas dans le
+      nombre maximum de sorts que vous pouvez pr&eacute;parer. Si vous apprenez
+      un sort qui n'appara&icirc;t pas dans la liste de sorts de druide,
+      consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>
+
+      <div>
+
+      <h4 id="printemps"><strong>Printemps</strong></h4>
+
+      <table style="width: 367px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 123px;">Niv. de druide</th>
+
+      <th style="width: 241px;">Sorts de saison</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 123px;">2</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.J3piNZiWQ528JorV]{Baies
+      nourrici&egrave;res}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">3</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Eur22TaqT9YD0rEV]{Aide}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">4</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.6KPbqosOjwrNiKMf]{Am&eacute;lioration
+      de caract&eacute;ristique}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">5</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l7g3xemfsw17CxcH]{Revigorer}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">6</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.z3FLlKNK0xBlc2Lw]{Croissance
+      v&eacute;g&eacute;tale}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">7</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AxRxwMQ5LB45shbD]{Protection
+      contre la mort}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">8</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.qNxiIeN25lq57xHz]{Liane
+      chasseresse}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 123px;">9</td>
+
+      <td style="width:
+      241px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.8pUO04Dfaxfb29Bf]{R&eacute;incarnation}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <div>
+
+      <h4 id="ete"><strong>&Eacute;t&eacute;</strong></h4>
+
+      <table style="width: 381px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 131px;">Niv. de druide</th>
+
+      <th style="width: 247px;">Sorts de saison</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 131px;">2</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ko1XJNhBwiRJohtp]{Lueurs
+      f&eacute;&eacute;riques}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">3</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.zPbxePIKWx4zAUxv]{Rayon
+      ardent}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">4</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nMz2W7iB8PfAnWFp]{Chauffer
+      le m&eacute;tal}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">5</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.n7wTybVTlPlePUt2]{Vol}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">6</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.XZzgZLepwTwmQGrs]{Lumi&egrave;re
+      du jour}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">7</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.5lPYVb5h8rYXeFgw]{Bouclier
+      de feu Chaud}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.uEYy6RPn3eaVXon5]{Bouclier
+      de feu froid}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">8</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.1thHuynVkvtrkNPN]{Mur
+      de feu Mur}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.o2SqL5ynYUuLeu2d]{Mur
+      de feu Cercle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131px;">9</td>
+
+      <td style="width:
+      247px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.oE6gSp6l5nACXV0T]{Fl&eacute;au
+      d'insectes}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <div>
+
+      <h4 id="automne"><strong>Automne</strong></h4>
+
+      <table style="width: 382px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 130.5px;">Niv. de druide</th>
+
+      <th style="width: 248.5px;">Sorts de saison</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 130.5px;">2</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g8jRZr5Q44ugR8fB]{L&eacute;ger
+      comme une plume}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">3</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kacV1wm5AlQ7B6fh]{Rayon
+      de lune}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">4</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wMkmtc8SvWv4xF6E]{Peau
+      d'&eacute;corce}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">5</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.w6n5kXoXp8GRjtsG]{Lenteur}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">6</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.8l7Y79aTsNILt5PU]{Mur
+      de vent}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">7</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VkcPoqLVzdtm0kxc]{M&eacute;tamorphose}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">8</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.XfPLgaMusOnrw38q]{Peau
+      de pierre}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 130.5px;">9</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BErylURWrsPQ39cE]{Passage
+      par les arbres}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <div>
+
+      <h4 id="hiver"><strong>Hiver</strong></h4>
+
+      <table style="width: 383px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 131.5px;">Niv. de druide</th>
+
+      <th style="width: 248.5px;">Sorts de saison</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 131.5px;">2</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.DuuPeHavEjF5642F]{Nappe
+      de brouillard}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">3</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.j4SID6OYMGVYKY06]{Rayon
+      affaiblissant}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">4</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc]{Vision
+      dans le noir}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">5</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t]{Communication
+      avec les morts}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">6</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.0ilE917g6NLkKuqT]{Temp&ecirc;te
+      de neige}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">7</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.53DyB3eKGneRfxf7]{Temp&ecirc;te
+      de gr&ecirc;le}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">8</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.EPBp6z2DP5yRO4J4]{Fl&eacute;trissement}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 131.5px;">9</td>
+
+      <td style="width:
+      248.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.C8yaeDi60V5N67xh]{Coquille
+      antivie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685209
+  modifiedTime: 1663923686240
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!8nWeZk1RD2oeNxok'
+

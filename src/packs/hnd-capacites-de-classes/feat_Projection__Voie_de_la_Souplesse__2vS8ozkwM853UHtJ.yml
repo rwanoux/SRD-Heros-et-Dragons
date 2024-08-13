@@ -1,0 +1,93 @@
+_id: 2vS8ozkwM853UHtJ
+name: Projection [Voie de la Souplesse]
+type: feat
+flags: {}
+img: icons/skills/melee/unarmed-punch-fist-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="projection"><strong>Projection</strong></h3>
+
+      <p>Au niveau 6, vous apprenez des techniques de projection vous permettant
+      de retourner sa propre force contre votre adversaire. Lorsqu'une
+      cr&eacute;ature vous attaque au corps-&agrave;-corps et vous rate, vous
+      pouvez d&eacute;penser 1 point de ki et votre r&eacute;action afin de
+      l'obliger &agrave; effectuer un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Dext&eacute;rit&eacute;. Si la valeur de Force
+      de la cr&eacute;ature est sup&eacute;rieure &agrave; la v&ocirc;tre, elle
+      subit un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>.
+      En cas d'&eacute;chec, la cr&eacute;ature se retrouve&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#a-terre">&agrave;
+      terre</a> et vous pouvez en profiter pour lui infliger vos
+      d&eacute;g&acirc;ts &agrave; mains nues.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685165
+  modifiedTime: 1663923686073
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!2vS8ozkwM853UHtJ'
+

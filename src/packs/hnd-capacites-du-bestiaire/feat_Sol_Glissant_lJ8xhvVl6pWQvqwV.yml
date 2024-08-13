@@ -1,0 +1,84 @@
+name: Sol Glissant
+type: feat
+flags: {}
+img: icons/magic/water/barrier-ice-crystal-wall-faceted.webp
+_id: lJ8xhvVl6pWQvqwV
+system:
+  description:
+    value: >-
+      <p><strong>Sol glissant.</strong> Rochers, graviers et autres galets
+      rendent toute progression difficile sur une zone de 6 mètres de côté
+      située à portée de vue du dragon et à 36 mètres ou moins de lui. Toute
+      créature qui commence son tour dans cette zone, hormis le dragon et ses
+      alliés, doit réussir un jet de sauvegarde de Dextérité ou tomber à terre.
+      Le sol redevient normal si le dragon meurt ou utilise une action
+      d'antre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: cube
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: int
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon de Cuivre (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698959
+  modifiedTime: 1663923700167
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!lJ8xhvVl6pWQvqwV'
+

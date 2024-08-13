@@ -1,0 +1,93 @@
+name: Saut collectif [Passeur]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/fire/projectile-meteor-salvo-light-blue.webp
+effects: []
+_id: 0sJt9xIDsSVowHco
+system:
+  description:
+    value: >-
+      <p>Au niveau 7, lorsque vous utilisez
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD]{Pas
+      brumeux}, vous pouvez emmener avec vous un nombre de personnes &eacute;gal
+      &agrave; votre <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#bonus-de-maitrise">bonus
+      de ma&icirc;trise</a>.</p>
+
+      <p>Elles doivent se trouver dans un rayon de 1,5 m&egrave;tre autour de
+      vous</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #5'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rodeur Passeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685147
+  modifiedTime: 1678413505538
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!0sJt9xIDsSVowHco'
+

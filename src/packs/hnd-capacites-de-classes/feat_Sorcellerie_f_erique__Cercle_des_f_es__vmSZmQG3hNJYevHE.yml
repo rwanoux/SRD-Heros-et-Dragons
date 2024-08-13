@@ -1,0 +1,97 @@
+_id: vmSZmQG3hNJYevHE
+name: Sorcellerie féerique [Cercle des fées]
+type: feat
+flags: {}
+img: icons/magic/fire/explosion-fireball-large-purple-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorcellerie-feerique"><strong>Sorcellerie
+      f&eacute;erique</strong></h3>
+
+      <p>Vous ma&icirc;trisez &agrave; pr&eacute;sent la plus puissante magie
+      des f&eacute;es. &Agrave; partir du niveau 14, vous devenez capable de
+      lancer les sorts
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.mxeWHfFCXAr5RjCQ]{Mauvais
+      &oelig;il} et
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.j6LOCRMxcqbpRJWX]{Vision
+      supr&ecirc;me}&nbsp;chacun une fois par jour en plus de vos sorts
+      habituels. Vous devez terminer un repos long avant de pouvoir de nouveau
+      lancer chacun d'eux.</p>
+
+      <p>&Eacute;galement au niveau 14, vous devenez capable de prendre la forme
+      d'un
+      @UUID[Compendium.srd-heros-et-dragons.HnD-bestaire.DS4ohJ6lB0hX9S0B]{Arbre
+      &eacute;veill&eacute;} en sacrifiant deux utilisations de votre aptitude
+      de
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qribBuHAI1PBTu9I]{Forme
+      sauvage [Druide]}.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685683
+  modifiedTime: 1663923687737
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vmSZmQG3hNJYevHE'
+

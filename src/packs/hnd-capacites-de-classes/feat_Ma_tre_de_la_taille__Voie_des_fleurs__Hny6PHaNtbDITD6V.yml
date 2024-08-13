@@ -1,0 +1,92 @@
+name: Maître de la taille [Voie des fleurs]
+type: feat
+img: icons/magic/nature/plant-sproud-hands-dirt-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.YQFSVWPH0mFsXR7D
+_id: Hny6PHaNtbDITD6V
+system:
+  description:
+    value: >-
+      <p>Le bonsaï peut être aussi vieux que le chêne majestueux. Vous avez
+      appris des plantes que la force intérieure n'est pas liée à la taille et
+      que l'espace occupé par un être vivant peut être plié par la volonté.</p>
+
+      <p>À partir du niveau 11, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ycHIDbtjahrXQLcx]{Agrandir/Rétrécir}
+      sur vous-même en dépensant 2 points de Ki.</p>
+
+      <p>Lorsque vous lancez ce sort via cette aptitude, il ne nécessite pas de
+      concentration.</p>
+
+      <p>Lorsque vous utilisez la possibilité de rétrécissement du sort, vous
+      gagnez +1 en CA et obtenez un avantage à tous les tests de Dextérité.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685275
+  modifiedTime: 1663923686505
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.YQFSVWPH0mFsXR7D
+  duplicateSource: null
+_key: '!items!Hny6PHaNtbDITD6V'
+

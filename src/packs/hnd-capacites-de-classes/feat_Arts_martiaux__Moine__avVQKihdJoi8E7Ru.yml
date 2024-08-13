@@ -1,0 +1,139 @@
+_id: avVQKihdJoi8E7Ru
+name: Arts martiaux [Moine]
+type: feat
+img: icons/skills/melee/hand-grip-staff-yellow-brown.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="arts-martiaux"><strong>Arts martiaux</strong></h3>
+
+      <p>Dès le niveau 1, votre pratique des arts martiaux vous permet de
+      maîtriser différents styles de combat à mains nues ou avec des armes de
+      moine, comme les épées courtes ou toutes les armes courantes qui n'ont pas
+      la propriété à deux mains ou lourde.</p>
+
+      <p>Tant que vous ne portez ni armure ni bouclier et que vous combattez à
+      mains nues ou avec des armes de moine, vous obtenez les bénéfices suivants
+      :</p>
+
+      <ul>
+
+      <li>Vous pouvez utiliser votre Dextérité au lieu de votre Force pour vos
+      jets d'attaque et de dégâts.</li>
+
+      <li>Vous pouvez lancer un d4 au lieu des dégâts normaux à mains nues ou
+      avec une arme de moine. Ce dé change en fonction de votre niveau de moine,
+      ainsi que vous pouvez le voir dans la colonne arts martiaux du tableau
+      d'évolution du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.doKdvMxZr8YJSEr4]{Moine}.</li>
+
+      <li>Quand vous utilisez l'action attaquer pour porter un coup à mains nues
+      ou avec une arme de moine pendant votre tour, vous pouvez porter une
+      attaque à mains nues en action bonus. Par exemple, si vous attaquez avec
+      un bâton pendant votre action, vous pouvez aussi faire une attaque à mains
+      nues en action bonus, si vous n'avez pas déjà utilisé d'action bonus lors
+      de ce tour.</li>
+
+      </ul>
+
+      <p>Certains monastères utilisent des versions particulières d'armes de
+      moines. Par exemple, vous pouvez utiliser un gourdin qui se présente sous
+      la forme de deux morceaux de bois connectés par une chaîne (appelé un
+      nunchaku) ou une serpe avec une lame plus petite et plus droite (appelée
+      un kama). Quel que soit le nom que vous donnez à votre arme de moine, vous
+      pouvez utiliser les statistiques données dans le jeu pour cette arme.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685458
+  modifiedTime: 1678409503503
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!avVQKihdJoi8E7Ru'
+

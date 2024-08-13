@@ -1,0 +1,91 @@
+_id: wNIjzpY8XnNABEqy
+name: '[Druide] Cercle de la Terre'
+type: subclass
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h1 id=\"cercles-druidiques\"><strong>Cercles druidiques</strong></h1>\n<h2 id=\"cercle-de-la-terre\"><strong>Cercle de la terre</strong></h2>\n<h3>\_</h3>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1fw44VkbSv8pycQj]{Tour de magie bonus [Cercle de la Terre]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YrRVAnsAw20XAm3i]{Récupération naturelle [Cercle de la Terre]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wENEgw5b7WakagzT]{Sorts de Cercle [Cercle de la Terre]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wn0sYsBRMmgfoqs5]{Traversée des terrains [Cercle de la Terre]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fL0zYqsCeLlmKWqj]{Enfant de la nature [Cercle de la Terre]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.genLZykjKNTd58r0]{Sanctuaire de la nature [Cercle de la Terre]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: cercle-de-la-terre
+  classIdentifier: druide
+  advancement:
+    - _id: xdookdx5l0exix41
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.genLZykjKNTd58r0
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: k8nllu3fsefo924x
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fL0zYqsCeLlmKWqj
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: 6b6uwi6ezcuzbsj4
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wn0sYsBRMmgfoqs5
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: zo83mda9eshwzq7i
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wENEgw5b7WakagzT
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: vrxobd4upcrqbgsv
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1fw44VkbSv8pycQj
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YrRVAnsAw20XAm3i
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703437
+  modifiedTime: 1663923703687
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!wNIjzpY8XnNABEqy'
+

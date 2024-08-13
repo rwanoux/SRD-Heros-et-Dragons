@@ -1,0 +1,119 @@
+name: '[Roublard] Aubelame'
+type: subclass
+img: icons/skills/melee/strike-sword-stabbed-brown.webp
+system:
+  description:
+    value: "<h3>\_</h3><p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.D1iseVgiZ7GqvUcw]{Incantations [Aubelame]}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L6NO2ZYRogLPEoij]{Yeux de l'aube}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3QgH9w9Ywd3m4EHQ]{Frappe de l'aube}</p><p id=\"le-secret-de-l-acier\">Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OoJUXpdm7nYIvGcK]{Renfort de la lumière}</p><p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KVRk8vXfmfOyX6ZO]{Illumination soudaine}</p><p id=\"rage-froide\">Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YIlRxJsGsq4w76Ae]{Aube ardente}</p>"
+    chat: ''
+    unidentified: ''
+  source: Warlock Grimoire - Kobold Press
+  identifier: aubelame
+  classIdentifier: roublard
+  advancement:
+    - _id: IX6FQQY5N2pqH4H7
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.Y2RqdNOa7WAGAIVU
+        optional: false
+        spell:
+          ability: wis
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Tours de magie
+    - _id: 81JFA3GGeYoZVOER
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.D1iseVgiZ7GqvUcw
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L6NO2ZYRogLPEoij
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3QgH9w9Ywd3m4EHQ
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: ''
+    - _id: UOuX6eRR2HhMOoSK
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OoJUXpdm7nYIvGcK
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 9
+      title: ''
+    - _id: A8INrcVQClE06g0m
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KVRk8vXfmfOyX6ZO
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 13
+      title: ''
+    - _id: fIV5og6ArzfjT9AP
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YIlRxJsGsq4w76Ae
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: ''
+  spellcasting:
+    progression: third
+    ability: wis
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.IKGo3GDXldDKF0nf
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678362088781
+  modifiedTime: 1678364914467
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.IKGo3GDXldDKF0nf
+  duplicateSource: null
+folder: null
+sort: 0
+_id: Sn3qIbl2Nd38Jcfu
+_key: '!items!Sn3qIbl2Nd38Jcfu'
+

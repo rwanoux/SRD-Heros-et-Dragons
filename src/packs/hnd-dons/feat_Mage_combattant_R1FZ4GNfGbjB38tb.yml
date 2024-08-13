@@ -1,0 +1,123 @@
+_id: R1FZ4GNfGbjB38tb
+name: Mage combattant
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/mage-combattant.PNG
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <p>Vous &ecirc;tes une exception, votre talent est le fruit d'un
+      entra&icirc;nement tr&egrave;s particulier qui vous permet d'allier la
+      puissance des armes &agrave; celle de la magie.</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Vous pouvez ex&eacute;cuter une composante somatique avec la main qui
+      tient une arme.</li>
+
+      <li>Lorsque vous utilisez l'action <a
+      href="https://5e-drs.fr/combattre#attaquer"><em>attaquer</em></a>, vous
+      pouvez utiliser une action bonus pour lancer un tour de magie.</li>
+
+      <li>Vous pouvez augmenter le niveau d'emplacement d'un sort que vous
+      lancez en sacrifiant 1d6 points de vie par niveau suppl&eacute;mentaire.
+      Vous ne pouvez pas utiliser cette aptitude pour obtenir des emplacements
+      de sorts sup&eacute;rieurs &agrave; votre niveau de sort maximum ou pour
+      des sorts dont l'effet inclut la restauration de points de vie.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685006
+  modifiedTime: 1663923685006
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!R1FZ4GNfGbjB38tb'
+

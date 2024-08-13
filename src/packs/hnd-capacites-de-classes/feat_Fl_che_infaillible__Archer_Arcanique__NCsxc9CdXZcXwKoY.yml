@@ -1,0 +1,110 @@
+_id: NCsxc9CdXZcXwKoY
+name: Flèche infaillible [Archer Arcanique]
+type: feat
+img: icons/skills/targeting/target-strike-gray.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="fleche-infaillible"><strong>Fl&egrave;che
+      infaillible</strong></h3>
+
+      <p>&Agrave; partir du niveau 7, vous pouvez murmurer &agrave; votre
+      fl&egrave;che pour lui indiquer sa cible. Vous la d&eacute;cochez en l'air
+      et elle se dirige sur son objectif sans que vous ayez besoin de le voir.
+      Vous utilisez une action bonus pour indiquer votre cible, puis vous devez
+      tirer dans le m&ecirc;me round. Vous ne pouvez tirer une fl&egrave;che de
+      cette fa&ccedil;on que sur une cr&eacute;ature que vous avez vue depuis
+      moins d'une minute et qui est &agrave; port&eacute;e. La fl&egrave;che
+      fonce sur sa cible et contourne tous les obstacles pour l'atteindre (par
+      exemple, en tournant &agrave; l'angle des couloirs ou en passant par une
+      ouverture &eacute;troite, etc.). Seuls les obstacles infranchissables
+      peuvent stopper la fl&egrave;che. Votre attaque est un succ&egrave;s
+      automatique et inflige ses d&eacute;g&acirc;ts habituels. Vous pouvez
+      utiliser cette aptitude un nombre de fois &eacute;gal &agrave; votre bonus
+      de ma&icirc;trise, puis vous devez terminer un repos long pour
+      r&eacute;cup&eacute;rer cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: Avoir vu la cible dans la minute précédente, tirer dans le même round
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685372
+  modifiedTime: 1663923686710
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NCsxc9CdXZcXwKoY'
+

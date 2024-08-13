@@ -1,0 +1,93 @@
+name: Aura de contrôle [Serment de Justice]
+type: feat
+img: icons/magic/light/explosion-glow-spiral-teal.webp
+system:
+  description:
+    value: >-
+      <h3><strong>Aura de contrôle</strong></h3><p>Au niveau 7, toutes les
+      créatures situées à moins de 3 mètres de vous doivent dépenser 1 mètre de
+      déplacement supplémentaire pour chaque mètre qu'elles parcourent. Si une
+      créature termine son tour dans la zone d'effet de l'aura, elle doit
+      réussir un jet de sauvegarde de Sagesse ou tomber à terre. Les créatures
+      qui sont immunisées contre l'état terrorisé sont immunisées contre cette
+      aura.</p><p>Au niveau 18, la portée de cette aura s'étend à 9 mètres.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.XL3DxntlEjzEISBs
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678366351636
+  modifiedTime: 1678424351686
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.XL3DxntlEjzEISBs
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 7ATllKeBkcr7PvEw
+_key: '!items!7ATllKeBkcr7PvEw'
+

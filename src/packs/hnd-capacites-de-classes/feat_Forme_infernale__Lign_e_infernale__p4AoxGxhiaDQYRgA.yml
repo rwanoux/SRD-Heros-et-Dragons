@@ -1,0 +1,96 @@
+_id: p4AoxGxhiaDQYRgA
+name: Forme infernale [Lignée infernale]
+type: feat
+flags: {}
+img: icons/magic/control/fear-fright-monster-grin-red-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="forme-infernale"><strong>Forme infernale</strong></h3>
+
+      <p>&Agrave; partir du niveau 18, vous pouvez d&eacute;penser des points de
+      sorcellerie et votre action pour prendre une forme infernale. Cette
+      aptitude est &eacute;quivalente au sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.mTNUbqBuOiNbtrDR]{Changement
+      de forme} (avec la n&eacute;cessit&eacute; de maintenir sa concentration),
+      mais vous ne pouvez prendre la forme que de diables ou de
+      d&eacute;mons.</p>
+
+      <p>En fonction de votre lign&eacute;e, vous devez choisir entre les
+      diables et les d&eacute;mons au moment de l'acquisition de l'aptitude.</p>
+
+      <p>La transformation vous co&ucirc;te un nombre de points de sorcellerie
+      &eacute;gal &agrave; l'indice de dangerosit&eacute; du d&eacute;mon ou du
+      diable choisi. Chaque fois que vous souhaitez changer de forme, vous devez
+      &agrave; nouveau payer le co&ucirc;t en points de sorcellerie. Vous ne
+      pouvez pas utiliser l'aptitude magie du sang lorsque vous &ecirc;tes sous
+      les effets de forme infernale.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685633
+  modifiedTime: 1663923687516
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!p4AoxGxhiaDQYRgA'
+

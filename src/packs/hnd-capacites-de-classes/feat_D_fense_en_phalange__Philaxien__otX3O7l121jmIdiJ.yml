@@ -1,0 +1,92 @@
+name: Défense en phalange [Philaxien]
+type: feat
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.FELdo08Ese8ENFW8
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: otX3O7l121jmIdiJ
+system:
+  description:
+    value: >-
+      <p>Également au niveau 3, vous avez appris à serrer les rangs et à vous
+      couvrir mutuellement avec vos compagnons d'arme.</p>
+
+      <p>Lorsque vous combattez au corps-à-corps à moins de 1,50 m d'un allié,
+      vous pouvez utiliser votre réaction à chaque tour pour donner un bonus de
+      +1 en CA à cet allié.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: ally
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685631
+  modifiedTime: 1678391767000
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.FELdo08Ese8ENFW8
+  duplicateSource: null
+_key: '!items!otX3O7l121jmIdiJ'
+

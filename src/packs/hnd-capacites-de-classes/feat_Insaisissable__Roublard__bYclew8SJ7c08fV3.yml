@@ -1,0 +1,116 @@
+_id: bYclew8SJ7c08fV3
+name: Insaisissable [Roublard]
+type: feat
+img: icons/creatures/slimes/slime-movement-swirling-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+  entityorder:
+    order: 148
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="insaisissable"><strong>Insaisissable</strong></h3>
+
+      <p>Au niveau 18, vous &ecirc;tes tellement agile que vos ennemis ont
+      rarement le dessus quand ils vous affrontent. Tant que vous n'&ecirc;tes
+      pas&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralis&eacute;</a>,
+      aucun&nbsp;<a href="https://5e-drs.fr/combattre/#jets-d-attaque">jet
+      d'attaque</a>&nbsp;qui vous cible ne peut b&eacute;n&eacute;ficier
+      d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685463
+  modifiedTime: 1678417621406
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!bYclew8SJ7c08fV3'
+

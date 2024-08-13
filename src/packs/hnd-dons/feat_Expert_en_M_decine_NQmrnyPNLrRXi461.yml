@@ -1,0 +1,130 @@
+_id: NQmrnyPNLrRXi461
+name: Expert en Médecine
+type: feat
+img: icons/magic/life/cross-worn-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+    critDamage:
+      value: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p><em>Pr&eacute;requis </em>: ma&icirc;trise de la comp&eacute;tence
+      M&eacute;decine.</p>
+
+      <p>Vous &ecirc;tes un m&eacute;decin exceptionnel. Choisissez trois
+      b&eacute;n&eacute;fices parmi les cinq pr&eacute;sent&eacute;s :</p>
+
+      <ul>
+
+      <li>vous augmentez votre valeur de Sagesse de +1 ;</li>
+
+      <li>vous gagnez l&rsquo;expertise dans cette comp&eacute;tence (votre
+      bonus de ma&icirc;trise est doubl&eacute; lorsque vous utilisez cette
+      comp&eacute;tence). Vous ne pouvez pas choisir ce b&eacute;n&eacute;fice
+      si vous avez d&eacute;j&agrave; l&rsquo;expertise ;</li>
+
+      <li>lorsque vous fa&icirc;tes un test de cette comp&eacute;tence, vous
+      pouvez choisir de remplacer le r&eacute;sultat du d20 par la valeur 10,
+      m&ecirc;me apr&egrave;s avoir vu le r&eacute;sultat du d&eacute;. Si vous
+      avez lanc&eacute; deux d&eacute;s (avantage ou d&eacute;savantage), vous
+      remplacez seulement le r&eacute;sultat d&rsquo;un d&eacute;. Vous devez
+      terminer un repos long avant de pouvoir utiliser &agrave; nouveau cet
+      effet ;</li>
+
+      <li>apr&egrave;s une minute de traitement, vous pouvez enlever un niveau
+      de fatigue ou soigner l&rsquo;&eacute;tat empoisonn&eacute; en
+      r&eacute;ussissant un test de Sagesse (M&eacute;decine) DD 15. Un patient
+      ne peut b&eacute;n&eacute;ficier d&rsquo;un de ces effets qu&rsquo;une
+      seule fois entre deux repos longs ;</li>
+
+      <li>lorsque vous r&eacute;ussissez &agrave; stabiliser une cr&eacute;ature
+      &agrave; 0 PV, vous lui rendez imm&eacute;diatement un nombre de PV
+      &eacute;gal &agrave; votre bonus de ma&icirc;trise. Une cr&eacute;ature ne
+      peut b&eacute;n&eacute;ficier de cet effet qu&rsquo;une fois entre deux
+      repos courts.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: 'Pangée 2 : l''âge du changement'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685001
+  modifiedTime: 1663923685001
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NQmrnyPNLrRXi461'
+

@@ -1,0 +1,152 @@
+_id: hpptQ7BxIrf7dxIW
+name: Châtiment divin [Paladin]
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  midi-qol:
+    effectActivation: false
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="chatiment-divin"><strong>Ch&acirc;timent divin</strong></h3>
+
+      <p>&Agrave; partir du niveau 2, quand vous touchez une cr&eacute;ature
+      avec une arme de corps-&agrave;-corps, vous pouvez utiliser un emplacement
+      de sort pour infliger des d&eacute;g&acirc;ts radiants &agrave; cette
+      cr&eacute;ature en plus des d&eacute;g&acirc;ts normaux de l'arme. Vous
+      infligez 2d8 d&eacute;g&acirc;ts suppl&eacute;mentaires si vous utilisez
+      un emplacement de sort de niveau 1, auquel vous ajoutez 1d8 par niveau de
+      sort suppl&eacute;mentaire, jusqu'&agrave; un maximum de 5d8. Les
+      d&eacute;g&acirc;ts subis sont augment&eacute;s d'1d8
+      suppl&eacute;mentaire si la cible est un mort-vivant ou un
+      fi&eacute;lon.</p>
+
+      <h3 id="chatiment-divin-ameliore"><strong>Ch&acirc;timent divin
+      am&eacute;lior&eacute;</strong></h3>
+
+      <p>Au niveau 11, vous d&eacute;bordez tellement de vertu que tous les
+      coups que vous portez avec vos armes de corps-&agrave;-corps sont
+      aliment&eacute;s par de l'&eacute;nergie divine. Quand vous touchez une
+      cr&eacute;ature avec une arme de corps-&agrave;-corps, celle-ci subit 1d8
+      d&eacute;g&acirc;ts radiants suppl&eacute;mentaires. Si vous utilisez
+      aussi votre ch&acirc;timent divin lors d'une attaque, vous additionnez ces
+      d&eacute;g&acirc;ts aux d&eacute;g&acirc;ts suppl&eacute;mentaires de
+      votre ch&acirc;timent divin.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685584
+  modifiedTime: 1678412923003
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!hpptQ7BxIrf7dxIW'
+

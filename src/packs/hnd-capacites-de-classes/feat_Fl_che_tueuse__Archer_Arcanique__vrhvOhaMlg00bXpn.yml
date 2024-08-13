@@ -1,0 +1,105 @@
+_id: vrhvOhaMlg00bXpn
+name: Flèche tueuse [Archer Arcanique]
+type: feat
+flags: {}
+img: icons/skills/ranged/arrow-strike-glowing-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="fleche-tueuse"><strong>Fl&egrave;che tueuse</strong></h3>
+
+      <p>Lorsque vous atteignez le niveau 15, vous pouvez enchanter une
+      fl&egrave;che tueuse pour une cible sp&eacute;cifique que vous avez
+      personnellement observ&eacute;e pendant au moins 1 round ou dont vous
+      poss&eacute;dez une relique (une &eacute;caille de ce dragon, une griffe
+      de ce pr&eacute;dateur, etc). Le rituel d'enchantement dure 1 heure et il
+      reste effectif jusqu'&agrave; ce que la fl&egrave;che atteigne sa cible ou
+      jusqu'&agrave; ce que vous en enchantiez une autre. Si vous atteignez la
+      cible pour laquelle vous avez enchant&eacute; cette fl&egrave;che, elle
+      subit 12d6 d&eacute;g&acirc;ts perforants et elle est&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entrav&eacute;e</a>&nbsp;jusqu'&agrave;
+      la fin de votre prochain tour. Si elle r&eacute;ussit un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution de m&ecirc;me difficult&eacute; que
+      pour vos sorts, elle subit seulement la moiti&eacute; des
+      d&eacute;g&acirc;ts et elle n'est pas&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entrav&eacute;e</a>.
+      Vous devez terminer un repos long avant de pouvoir enchanter une nouvelle
+      fl&egrave;che tueuse. Vous pouvez utiliser vos aptitudes de fl&egrave;che
+      infaillible ou de fl&egrave;che intangible lorsque vous tirez votre
+      fl&egrave;che tueuse, mais pas celle de fl&egrave;che arcanique.</p>
+
+      <p>La fl&egrave;che tueuse poss&egrave;de les propri&eacute;t&eacute;s
+      d'une fl&egrave;che ordinaire non magique si elle est utilis&eacute;e par
+      une autre cr&eacute;ature que le r&ocirc;deur qui l'a fabriqu&eacute;.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: hour
+    cost: 1
+    condition: Avoir observé la cible pendant au moins 1 round ou posséder une relique
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: Cible entravée 1 tour si elle échoue la sauvegarde
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 12d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685685
+  modifiedTime: 1663923687745
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vrhvOhaMlg00bXpn'
+

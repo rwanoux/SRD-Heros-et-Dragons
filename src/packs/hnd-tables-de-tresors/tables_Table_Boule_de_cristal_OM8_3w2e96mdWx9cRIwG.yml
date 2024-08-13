@@ -1,0 +1,81 @@
+_id: 3w2e96mdWx9cRIwG
+name: Table Boule de cristal OM8
+folder: vVTDSYsguUPXB21e
+sort: 9900000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: aOVnW5qYSaqBPVEQ
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Boule de cristal de lecture des pensées
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-air.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: KbDlyrROjeluOcvu
+    _key: '!tables.results!3w2e96mdWx9cRIwG.aOVnW5qYSaqBPVEQ'
+  - _id: 3VwjHyut1Vjsl4YM
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Boule de cristal de télépathie
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-water.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: sUdN7ZrV4VVCh30E
+    _key: '!tables.results!3w2e96mdWx9cRIwG.3VwjHyut1Vjsl4YM'
+  - _id: C8bnzcKoEzfRFVBw
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Boule de cristal de vision suprême
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/element-fire.jpg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Ket7zjRxzA4IWyJV
+    _key: '!tables.results!3w2e96mdWx9cRIwG.C8bnzcKoEzfRFVBw'
+formula: 1d6
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!3w2e96mdWx9cRIwG'
+

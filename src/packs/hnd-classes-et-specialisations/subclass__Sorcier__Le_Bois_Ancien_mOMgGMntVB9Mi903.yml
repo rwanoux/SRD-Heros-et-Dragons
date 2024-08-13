@@ -1,0 +1,121 @@
+name: '[Sorcier] Le Bois Ancien'
+type: subclass
+img: icons/weapons/swords/sword-broad-crystal-paired.webp
+effects: []
+flags:
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.KyvzVNGI7YCBfnWJ
+system:
+  description:
+    value: "<h2 id=\"protecteurs-d-outre-monde\"><strong>Protecteurs d'outre-monde</strong></h2><h3 id=\"le-fielon\"><strong>Le Bois Ancien</strong></h3><h4 id=\"liste-de-sorts-etendue\">Vous avez conclu un pacte avec l'esprit ancien d'une forêt primitive. Avant l'avènement de la civilisation humaine, avant l'ère des elfes, avant même celle des dragons, il y avait les forêts. Les empires s'élèvent et s'effondrent autour d'elles, mais les forêts restent tel le témoignage de l'endurance de la nature.</h4><p>Cependant, les temps changent et la croissance incontrôlée de la civilisation menace la nature. Les esprits qui imprègnent les forêts antédiluviennes cherchent des émissaires dans le monde qui peuvent agir au-delà de leurs frondaisons, et l'un d'entre eux a entendu votre appel au pouvoir. Vous êtes un gardien du Bois Ancien, une branche issue d'un vaste esprit latent, envoyée pour agir en son nom, peut-être même pour éliminer ces êtres inférieurs qui se masse à ses frontières.</p><p>\_</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.a5b2u0zvXK4d7YRM]{Liste de sorts étendue [Le Bois Ancien]}</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pgoknG4gNYLsfltZ]{Sève magique [Le Bois Ancien]}</p><p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8i5HaG9OM7dhcZT3]{Défenseur de la forêt [Le Bois Ancien]}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5MgrPL4qHjWUaHul]{Le Bois Ancien et votre pacte [Le Bois Ancien]}</p><p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VkJUibzwF7nwCncz]{Grâce prédatrice [Le Bois Ancien]}</p><p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gshNRXwipgOUQLah]{Endurance de la nature [Le Bois Ancien]}</p><p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Jc5eTYDPaYnTxvii]{Avatar du Bois [Le Bois Ancien]}</p>"
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  identifier: fielon
+  classIdentifier: sorcier
+  advancement:
+    - _id: P3OZxKQdbGwfejnj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.a5b2u0zvXK4d7YRM
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.pgoknG4gNYLsfltZ
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8i5HaG9OM7dhcZT3
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 1
+    - _id: 10DKInGwKhDKH9Yk
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5MgrPL4qHjWUaHul
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: ''
+    - _id: n4iByjjCeFikSbX4
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VkJUibzwF7nwCncz
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 6
+      title: ''
+    - _id: rbNO1l77hvDkQJfN
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gshNRXwipgOUQLah
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 10
+      title: ''
+    - _id: U2aiKqvV8WA6LGUx
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Jc5eTYDPaYnTxvii
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 14
+      title: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923703404
+  modifiedTime: 1679678448187
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.KyvzVNGI7YCBfnWJ
+  duplicateSource: null
+folder: null
+sort: 0
+_id: mOMgGMntVB9Mi903
+_key: '!items!mOMgGMntVB9Mi903'
+

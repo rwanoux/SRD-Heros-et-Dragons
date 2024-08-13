@@ -1,0 +1,102 @@
+_id: AvNSYLwUjSUqxRUR
+name: Cuir clouté glamour
+type: equipment
+img: icons/equipment/chest/breastplate-rivited-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Tant que vous portez cette armure, vous gagnez un bonus de +1 à la
+      CA. Vous pouvez également dépenser une action bonus pour prononcer son mot
+      de commande et lui donner l'apparence d'habits normaux ou d'une autre
+      armure. À vous de décider à quoi elle ressemble, aussi bien au niveau de
+      la couleur, du style que des accessoires. Cependant, elle conserve son
+      poids et son volume. L'illusion persiste jusqu'à ce que vous utilisiez de
+      nouveau ce pouvoir ou que vous ôtiez l'armure.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 6.5
+  price: 2000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: bonus
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 13
+    type: light
+    dex: null
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: studded
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701061
+  modifiedTime: 1663923701974
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!AvNSYLwUjSUqxRUR'
+

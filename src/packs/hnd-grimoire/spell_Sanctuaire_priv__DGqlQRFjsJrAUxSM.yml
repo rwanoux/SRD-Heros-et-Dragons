@@ -1,0 +1,150 @@
+_id: DGqlQRFjsJrAUxSM
+name: Sanctuaire privé
+type: spell
+flags: {}
+img: icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp
+system:
+  description:
+    value: >-
+      <p>Vous sécurisez par magie une zone à portée. Il s'agit d'un cube de 1,50
+      mètre à 30 mètres d'arête. Le sort persiste pendant toute sa durée ou
+      jusqu'à ce que vous utilisiez une action pour le révoquer.</p>
+
+      <p>Vous décidez de la sécurité offerte par le sort au moment de
+      l'incantation en choisissant une ou plusieurs propriétés parmi les
+      suivantes.</p>
+
+      <ul>
+
+      <li>Les sons ne peuvent pas franchir la barrière qui délimite la zone
+      protégée.</li>
+
+      <li>La barrière délimitant la zone protégée est sombre et brumeuse, ce qui
+      empêche de voir au travers (même avec la vision dans le noir).</li>
+
+      <li>Les organes sensoriels créés via un sort de divination ne peuvent pas
+      apparaître au sein de la zone protégée ni traverser la barrière qui
+      délimite son périmètre.</li>
+
+      <li>Les sorts de divination ne peuvent pas prendre les créatures de la
+      zone pour cible.</li>
+
+      <li>Rien ne peut se téléporter à l'intérieur ou à l'extérieur de la zone
+      protégée.</li>
+
+      <li>Les voyages planaires sont bloqués au sein de la zone protégée.</li>
+
+      </ul>
+
+      <p>Si on lance ce sort tous les jours au même endroit pendant un an, ses
+      effets deviennent permanents.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 5 ou supérieur, vous pouvez augmenter
+      la taille du cube de 30 mètres par niveau au-delà du niveau 4. Ainsi, avec
+      un emplacement de niveau 5, vous pouvez protéger une zone de 60 mètres de
+      côté.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: 24
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 30
+    width: null
+    units: m
+    type: cube
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: >-
+      Une mince feuille de plomb, un morceau de verre opaque, un bout de coton
+      ou de tissu et de la chrysolite en poudre
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687983
+  modifiedTime: 1663923688721
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!DGqlQRFjsJrAUxSM'
+

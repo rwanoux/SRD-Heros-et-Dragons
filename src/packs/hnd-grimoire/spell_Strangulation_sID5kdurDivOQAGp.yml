@@ -1,0 +1,132 @@
+_id: sID5kdurDivOQAGp
+name: Strangulation
+type: spell
+flags: {}
+img: icons/skills/melee/unarmed-punch-fist.webp
+system:
+  description:
+    value: >-
+      <p>Vous tendez le bras en direction de votre cible et, de votre main, vous
+      mimez son étranglement. Faites une attaque de sort à distance. En cas de
+      réussite, la cible subit 1d6 points de dégâts contondants et elle doit
+      faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Force ou être <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#entravé"><em>entravée</em></a>.
+      Si le <a href="https://5e-drs.fr/combattre#jets-dattaque">jet
+      d'attaque</a> initial était un succès, à chacun de vos tours pendant la
+      durée du sort, vous pouvez utiliser votre action pour lui infliger
+      automatiquement les mêmes dégâts et l'obliger à faire un nouveau <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Force. Si vous faites quoi que ce soit d'autre (vous
+      pouvez toutefois parler), le sort prend fin. Le sort prend aussi fin si la
+      cible passe hors de portée ou en dehors de votre champ de vision.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 3, vous infligez 2d6 points de dégât
+      par round. Vous augmentez les dégâts de 1d6 supplémentaires par tranche de
+      2 niveaux de plus (jusqu'à 5d6 au niveau 9).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688209
+  modifiedTime: 1663923689453
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sID5kdurDivOQAGp'
+

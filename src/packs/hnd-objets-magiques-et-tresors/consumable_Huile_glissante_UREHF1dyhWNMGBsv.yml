@@ -1,0 +1,98 @@
+_id: UREHF1dyhWNMGBsv
+name: Huile glissante
+type: consumable
+img: icons/consumables/potions/bottle-circular-corked-labeled-green.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Cet épais onguent noir est dense et lourd tant qu'il reste dans son
+      récipient, mais il coule avec fluidité dès qu'on le verse. Il permet de
+      recouvrir une créature de taille M ou inférieure (il faut verser une fiole
+      de plus pour chaque catégorie de taille au-dessus de M). Il faut 10
+      minutes pour appliquer l'huile. La créature affectée bénéficie alors des
+      effets du sort&nbsp;<a
+      href="https://5e-drs.fr/grimoire/liberte-de-mouvement/">liberté de
+      mouvement</a>&nbsp;pendant 8 heures.</p>
+
+      <p>Sinon, vous pouvez verser l'huile à terre par une action. Elle recouvre
+      une zone de 3 mètres de côté et produit les mêmes effets que le
+      sort&nbsp;<a href="https://5e-drs.fr/grimoire/graisse/">graisse</a>.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 480
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Créature de taille M ou inférieure. 10 minutes d'application.
+  duration:
+    value: 8
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701236
+  modifiedTime: 1663923702479
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!UREHF1dyhWNMGBsv'
+

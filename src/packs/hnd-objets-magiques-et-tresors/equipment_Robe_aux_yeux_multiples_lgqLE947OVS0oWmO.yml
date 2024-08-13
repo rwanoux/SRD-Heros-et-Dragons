@@ -1,0 +1,138 @@
+_id: lgqLE947OVS0oWmO
+name: Robe aux yeux multiples
+type: equipment
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Cette robe est ornée de motifs en forme d'yeux. Vous bénéficiez des
+      avantages suivants tant que vous portez cette robe :</p>
+
+      <ul>
+
+      <li>La robe vous permet de voir dans toutes les directions et vous obtenez
+      l'<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;lors
+      des tests de Sagesse (Perception) basés sur la vue.</li>
+
+      <li>Vous disposez de la vision dans le noir sur une distance de 36
+      mètres.</li>
+
+      <li>Vous pouvez voir les créatures et les objets&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#invisible">invisibles</a>.
+      Vous pouvez également voir dans le plan Éthéré sur une distance de 36
+      mètres.</li>
+
+      </ul>
+
+      <p>Il est impossible de fermer ou de couvrir les yeux sur la robe. Même si
+      vous pouvez fermer ou couvrir vos propres yeux, on considère que vous ne
+      le faites jamais tant que vous portez cette robe.</p>
+
+      <p>Un sort de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/lumiere/">lumière</a>&nbsp;lancé sur la
+      robe ou un sort de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/lumiere-du-jour/">lumière du
+      jour</a>&nbsp;lancé à 1,50 mètre ou moins de celle-ci provoque votre
+      cécité pendant 1 minute. À la fin de chacun de vos tours, vous pouvez
+      effectuer un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution (DD 11 contre une&nbsp;<a
+      href="https://5e-drs.fr/grimoire/lumiere/">lumière</a>&nbsp;ou DD 15
+      contre une&nbsp;<a
+      href="https://5e-drs.fr/grimoire/lumiere-du-jour/">lumière du jour</a>) et
+      mettre fin à la cécité en cas de réussite.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.5
+  price: 30000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 36
+    long: 0
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: flat
+  armor:
+    value: 0
+    type: clothing
+    dex: 0
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701352
+  modifiedTime: 1663923702953
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!lgqLE947OVS0oWmO'
+

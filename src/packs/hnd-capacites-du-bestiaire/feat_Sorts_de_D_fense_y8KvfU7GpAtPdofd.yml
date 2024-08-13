@@ -1,0 +1,87 @@
+name: Sorts de Défense
+type: feat
+flags: {}
+img: icons/skills/targeting/target-strike-triple-blue.webp
+_id: y8KvfU7GpAtPdofd
+system:
+  description:
+    value: >-
+      <p><strong>Sorts de d&eacute;fense.</strong> La liche
+      b&eacute;n&eacute;ficie des effets d'un sort de son choix parmi
+      @Item[GmkKXnkPE0rJfsnE]{Bouclier}, @Item[EFLBGob9UeqB8uFW]{Image
+      miroir},@Item[OW7CTzjObSyejpcv]{Protection contre les &eacute;nergies},
+      @Item[POAHQiJkTD1yuiLK]{Invisibilit&eacute; sup&eacute;rieure},
+      @Item[2hI1ryAWJTXC2OHh]{Globe d'invuln&eacute;rabilit&eacute;}. La
+      dur&eacute;e du sort est la dur&eacute;e habituelle. Un emplacement de
+      sort d'un niveau sup&eacute;rieur au niveau du sort doit &ecirc;tre
+      utilis&eacute;. Par exemple, un emplacement de niveau 2 ou plus pour
+      bouclier.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Liche (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923699009
+  modifiedTime: 1663923700346
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!y8KvfU7GpAtPdofd'
+

@@ -1,0 +1,106 @@
+_id: zFujtOgx3GFt44CM
+name: Talisman de la sphère
+type: consumable
+img: icons/magic/unholy/orb-beam-pink.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Lorsque vous effectuez un test d'Intelligence (Arcanes) pour
+      contrôler une&nbsp;<a
+      href="https://5e-drs.fr/liste-objets-magiques/sphere-d-annihilation/">sphère
+      d'annihilation</a>&nbsp;en tenant ce talisman en main, vous doublez votre
+      bonus de maîtrise pour ce test. En outre, lorsque vous commencez votre
+      tour en contrôlant une&nbsp;<a
+      href="https://5e-drs.fr/liste-objets-magiques/sphere-d-annihilation/">sphère
+      d'annihilation</a>, vous pouvez utiliser une action pour la faire léviter
+      sur une distance de 3 mètres plus 3 mètres supplémentaires × votre
+      modificateur d'Intelligence.</div>
+
+      <div>Harmonisation requise.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 20000
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+    autoUse: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: int
+  actionType: abil
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d20 + @mod + @attributes.prof + @attributes.prof
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+  details:
+    description: >-
+      <p><em>Wondrous item, (requires attunement)</em></p>
+
+      <p>When you make an Intelligence (Arcana) check to control a Sphere of
+      Annihilation while you are holding this talisman, you double your
+      proficiency bonus on the check. In addition, when you start your turn with
+      control over a @Compendium[dnd5e.items.2YNqk5zm9jDTvd7q]{Sphere of
+      Annihilation}, you can use an action to levitate it 10 feet plus a number
+      of additional feet equal to 10 ﾃ・your Intelligence modifier.</p>
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701482
+  modifiedTime: 1663923703323
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!zFujtOgx3GFt44CM'
+

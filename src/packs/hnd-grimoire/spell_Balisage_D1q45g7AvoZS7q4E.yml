@@ -1,0 +1,124 @@
+_id: D1q45g7AvoZS7q4E
+name: Balisage
+type: spell
+flags: {}
+img: icons/magic/light/beam-rays-yellow-blue.webp
+system:
+  description:
+    value: >-
+      <p>Un rayon de lumière frappe une créature de votre choix située à portée.
+      Faites un <a href="https://5e-drs.fr/combattre#jets-dattaque">jet
+      d'attaque</a> de sort à distance contre elle. Si vous le réussissez, elle
+      subit 4d6 dégâts radiants et scintille d'une faible lumière mystique
+      jusqu'à la fin de votre prochain tour. D'ici là et grâce à cette lueur, le
+      prochain <a href="https://5e-drs.fr/combattre#jets-dattaque">jet
+      d'attaque</a> effectué contre elle bénéficie d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 2 ou supérieur, les dégâts augmentent
+      de 1d6 par niveau au-delà du niveau 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 4d6
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687980
+  modifiedTime: 1663923688711
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!D1q45g7AvoZS7q4E'
+

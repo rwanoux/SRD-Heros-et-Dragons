@@ -1,0 +1,2411 @@
+_id: wpgSfmOyDjgB5e94
+name: Lamie
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: Z20hgmPs4luaiztq
+    name: Incantation innée
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation innée.</strong>&nbsp;La caractéristique
+          d'incantation de la lamie est le Charisme (DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 13). La lamie peut lancer les
+          sorts suivants de manière innée sans aucune composante matérielle
+          :</p>
+
+          <ul>
+
+          <li>À volonté&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/deguisement/">déguisement</a>&nbsp;(n'importe
+          quelle forme humanoïde),&nbsp;<a
+          href="https://5e-drs.fr/grimoire/image-majeure/">image
+          majeure</a></li>
+
+          <li>3/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/charme-personne/">charme-personne</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/image-miroir/">image
+          miroir</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/scrutation/">scrutation</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/suggestion/">suggestion</a></li>
+
+          <li>1/jour&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/coercition-mystique/">coercition
+          mystique</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Lamie
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.Z20hgmPs4luaiztq'
+  - _id: YJ7GoB5Is0FVl8uN
+    name: Attaques Multiples
+    type: feat
+    sort: 200000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;La lamie effectue deux
+          attaques : une avec ses griffes et une avec sa dague ou
+          son&nbsp;Contact enivrant.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Lamie
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.YJ7GoB5Is0FVl8uN'
+  - _id: gQVGd2ob2Y3VD1ov
+    name: Contact Enivrant
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/unholy/strike-hand-glow-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Contact enivrant.</strong>&nbsp;Attaque de sort au corps à
+          corps&nbsp;: +5 pour toucher, allonge 1,50 m, une créature.</p>
+
+          <p>Touché&nbsp;: La cible est victime d'une malédiction magique
+          pendant 1 heure. Jusqu'au terme de cette malédiction, elle subit
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>lors
+          des jets de sauvegarde de Sagesse et de tous les&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">tests
+          de caractéristiques</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: cha
+      actionType: msak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Lamie
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.gQVGd2ob2Y3VD1ov'
+  - _id: cVxaIACmMVQe1oPC
+    name: Griffes
+    type: weapon
+    sort: 400000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +5 pour toucher, allonge 1,50 m, une cible.</p>
+
+          <p>Touché&nbsp;: 14 (2d10+3) dégâts tranchants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d10 + @mod
+            - slashing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.cVxaIACmMVQe1oPC'
+  - _id: 6JmTcWEB4H5aIgCY
+    name: Dague
+    type: weapon
+    sort: 300000
+    flags:
+      obsidian:
+        category: simple
+        type: melee
+        mode: melee
+        tags:
+          finesse: true
+          light: true
+          thrown: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: ab1e9dd7-1827-4922-91a6-32c96802b371
+            components:
+              - type: attack
+                uuid: 28c6b855-d096-4ff5-bb96-412d620f86fa
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 1144a299-6576-4b3d-9fe8-10e0bf0674aa
+                calc: formula
+                ndice: 1
+                die: 4
+                ability: str
+                bonus: 0
+                damage: prc
+                versatile: false
+        version: 7
+    img: icons/weapons/daggers/dagger-jeweled-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une lame en métal courte montée sur une petite poignée avec une
+          guarde. La dague est éfficace en arme secondaire pour les combatants
+          aguéris ou pour en arme cachée pour les assassins et les voleurs.</p>
+
+          <p>Attaque d'arme à distance&nbsp;: +5 pour toucher, allonge 1,50 m,
+          une cible.<br>Touché&nbsp;: 5 (1d4+3) dégâts perforants.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel de Règles
+      quantity: 1
+      weight: 0.5
+      price: 2
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 0
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d4 + @mod
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: simpleM
+      baseItem: ''
+      properties:
+        fin: true
+        lgt: true
+        thr: false
+        amm: false
+        hvy: false
+        fir: false
+        foc: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        two: false
+        ver: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.6JmTcWEB4H5aIgCY'
+  - _id: IhdMxPH1V0XSKbpr
+    name: Déguisement
+    type: spell
+    sort: 600000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous faites en sorte que votre personne (y compris vos vêtements,
+          votre armure, vos armes et les autres objets en votre possession)
+          prenne une apparence différente jusqu'à la fin du sort ou jusqu'à ce
+          que vous utilisiez une action pour y mettre un terme. Vous pouvez
+          passer pour une personne de 30 centimètres de plus ou de moins,
+          sembler gros, maigre ou entre les deux. Vous ne pouvez pas changer de
+          morphologie, vous devez choisir une forme possédant la même
+          conformation que vous au niveau des membres. En dehors de cela, les
+          détails de l'illusion sont laissés à votre imagination.</p>
+
+          <p>Les changements qu'apporte le sort ne résistent pas à un examen
+          physique. Par exemple, si vous l'utilisez pour ajouter un chapeau à
+          votre tenue, les objets passent au travers et toute personne qui
+          essaie de le toucher ne sentira que de l'air, ou des cheveux et un
+          crâne. Si vous utilisez le sort pour paraître plus mince qu'en
+          réalité, la main de quelqu'un qui tente de vous toucher se heurtera à
+          vous alors que, visuellement, elle semble encore dans le vide.</p>
+
+          <p>Pour percer votre déguisement à jour, une créature peut dépenser
+          une action pour vous examiner. Elle doit alors réussir un test
+          d'Intelligence (Investigation) contre le DD du <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> du sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.IhdMxPH1V0XSKbpr'
+  - _id: AkR9TG0oNdOFIbgF
+    name: Charme-personne
+    type: spell
+    sort: 700000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/fire/explosion-fireball-medium-purple-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous tentez de charmer un humanoïde se trouvant à portée et dans
+          votre champ de vision. Il doit faire un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, pour lequel il dispose d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+          si vous ou vos compagnons êtes actuellement en train de le combattre.
+          S'il rate son test, il est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmé</em></a>
+          par vous jusqu'à la fin du sort ou jusqu'à ce que vous ou vos
+          compagnons lui fassiez du mal. La créature <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>
+          vous considère comme un ami. Quand le sort se termine, elle sait que
+          vous l'avez charmée.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 2 ou supérieur, vous pouvez charmer
+          une créature de plus par niveau au-delà du niveau 1. Toutes les cibles
+          doivent se trouver à 9 mètres ou moins les unes des autres lorsque
+          vous lancez le sort.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 1
+      school: enc
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: +1 créature
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.AkR9TG0oNdOFIbgF'
+  - _id: 45fSa2UFLAnuGqeO
+    name: Image majeure
+    type: spell
+    sort: 800000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/commodities/gems/gem-amber-insect-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez l'image d'un objet, d'une créature ou d'un phénomène
+          visible pas plus grand qu'un cube de 6 mètres d'arête. L'image
+          apparaît en un point situé à portée et dans votre champ de vision et
+          persiste pendant toute la durée du sort. Elle a l'air absolument
+          réelle et s'accompagne des sons, des odeurs et de la température
+          appropriés pour la chose qu'elle représente. En revanche, elle ne
+          dégage pas assez de chaleur ou de froid pour blesser quelqu'un, ne
+          génère pas de son assez puissant pour provoquer des dégâts de tonnerre
+          pour qu'une créature soit <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#assourdi"><em>assourdie</em></a>,
+          et n'émet pas une odeur assez puissante pour écœurer une créature
+          (comme le fait la puanteur du troglodyte).</p>
+
+          <p>Tant que vous êtes à portée de l'illusion, vous pouvez utiliser
+          votre action pour déplacer l'image vers un autre point situé à portée.
+          Quand l'image bouge, vous pouvez modifier son apparence de manière à
+          ce que ses mouvements paraissent naturels. Par exemple, si vous créez
+          l'image d'une créature et la déplacez, vous pouvez modifier l'image
+          pour donner l'impression que la créature marche. De même, vous pouvez
+          modifier les sons que l'image émet, à tel point que vous pouvez lui
+          faire tenir une conversation, par exemple.</p>
+
+          <p>Les interactions physiques avec l'image révèlent qu'elle n'est
+          qu'une illusion, car les objets la traversent. Si une créature utilise
+          son action pour examiner l'image, elle comprend que c'est une illusion
+          à condition de réussir un test d'Intelligence (Investigation) contre
+          le DD du <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de votre sort. Si une créature perce l'illusion à
+          jour, elle voit à travers l'image et ne perçoit plus que faiblement
+          ses autres propriétés sensorielles.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 6 ou supérieur, le sort persiste
+          jusqu'à dissipation, sans que vous ayez besoin de vous concentrer.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 6
+        width: null
+        units: ft
+        type: cube
+        range:
+          value: '36'
+          unit: mètres
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un morceau de toison
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.45fSa2UFLAnuGqeO'
+  - _id: vSBNYwBv59eLzaSf
+    name: Image miroir
+    type: spell
+    sort: 900000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Trois répliques illusoires de votre personne apparaissent dans
+          votre emplacement. Jusqu'à la fin du sort, ces répliques se déplacent
+          en même temps que vous et imitent toutes vos actions, changeant de
+          position de manière à ce qu'il soit impossible de savoir quelles
+          versions de vous sont des images et quelle version est réelle. Vous
+          pouvez utiliser une action pour révoquer les répliques illusoires.</p>
+
+          <p>Pendant toute la durée du sort, chaque fois qu'une créature vous
+          prend pour cible d'une attaque, vous devez lancer 1d20 pour savoir si
+          l'attaque touche votre personne ou l'un de vos doubles. Si vous avez
+          trois répliques, vous devez obtenir 6 ou plus pour que l'attaque
+          touche une réplique. Si vous n'en avez plus que deux, vous devez faire
+          8 ou plus, et si vous n'en avez plus qu'une, vous devez faire 11 ou
+          plus.</p>
+
+          <p>Chaque réplique possède une CA de 10 + votre modificateur de
+          Dextérité. Si l'attaque touche une réplique, elle la détruit. Le seul
+          moyen de détruire une réplique est de l'atteindre avec une attaque,
+          car elle ignore tous les autres effets et dégâts. Le sort se termine
+          si les trois répliques sont détruites.</p>
+
+          <p>Une créature n'est pas affectée par ce sort si elle ne voit pas, si
+          elle se sert d'un mode de perception autre que la vue (comme la vision
+          aveugle) ou encore si elle perçoit les illusions comme telles, avec
+          vision parfaite, par exemple.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: 1d20
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.vSBNYwBv59eLzaSf'
+  - _id: EzHXSlPHG3VmWU8P
+    name: Scrutation
+    type: spell
+    sort: 1000000
+    flags: {}
+    img: icons/creatures/eyes/lizard-single-slit-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous voyez et entendez une créature donnée de votre choix, à
+          condition qu'elle se trouve sur le même plan d'existence que vous. La
+          cible doit effectuer un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, modifié par le degré de connaissance que
+          vous avez d'elle et le type de lien physique que vous avez établi avec
+          elle. Si la cible sait que vous lancez ce sort, elle peut rater
+          volontairement son <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> si elle veut que vous l'observiez.</p>
+
+          <div
+          class='simple-responsive-table'><div><table><thead><tr><th>Connaissance</th><th
+          class="text-align-center">Modificateur du jet de
+          sauvegarde</th></tr></thead><tbody><tr><td><strong>Deuxième
+          main</strong> (vous avez entendu parler de la cible)</td>
+                <td class="text-align-center">+5</td>
+              </tr><tr><td><strong>Première main</strong> (vous avez rencontré la cible)</td>
+                <td class="text-align-center">0</td>
+              </tr><tr><td><strong>Familière</strong> (vous connaissez bien la cible)</td>
+                <td class="text-align-center">-5</td>
+              </tr></tbody><thead><tr><th>Lien</th><th class="text-align-center">Modificateur du jet de sauvegarde</th></tr></thead><tbody><tr><td><strong>Représentation ou portrait</strong></td>
+                <td class="text-align-center">-2</td>
+              </tr><tr><td><strong>Possession ou vêtement</strong></td>
+                <td class="text-align-center">-4</td>
+              </tr><tr><td><strong>Partie du corps, cheveux, ongles, etc.</strong></td>
+                <td class="text-align-center">-10</td>
+              </tr></tbody></table></div></div>
+          <p>Si la cible réussit son jet de sauvegarde, elle n'est pas affectée
+          et vous ne pouvez plus utiliser ce sort sur elle pendant 24
+          heures.</p>
+
+          <p>Si elle rate son jet, le sort crée un organe sensoriel <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          dans un rayon de 3 mètres autour d'elle. Vous voyez et entendez à
+          travers cet organe comme si vous vous trouviez à sa place. L'organe
+          sensoriel se déplace avec la cible et reste dans un rayon de 3 mètres
+          autour d'elle pendant toute la durée du sort. Une créature capable de
+          voir les objets invisibles perçoit l'organe sensoriel comme un orbe
+          lumineux de la taille de votre poing.</p>
+
+          <p>Au lieu de prendre une créature pour cible, vous pouvez choisir un
+          lieu que vous avez déjà vu. L'organe sensoriel apparaît alors à cet
+          endroit et n'en bouge pas.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 10
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 5
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: >-
+          Un focaliseur d'une valeur minimale de 1000  po comme une boule de
+          cristal, un miroir en argent ou un bénitier rempli d'eau bénite
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.EzHXSlPHG3VmWU8P'
+  - _id: 54mPf1pwUb00qLwN
+    name: Suggestion
+    type: spell
+    sort: 1100000
+    flags: {}
+    img: icons/magic/air/air-burst-spiral-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous visez une créature située à portée et dans votre champ de
+          vision et à même de vous entendre et de vous comprendre. Vous
+          l'influencez par magie de façon à ce qu'elle suive la conduite que
+          vous lui proposez (en seulement une phrase ou deux). Les créatures qui
+          ne peuvent être <em>charmées</em> sont immunisées contre ce sort. Vous
+          devez formuler votre suggestion de manière à ce que la conduite à
+          tenir semble tout à fait raisonnable. Si vous demandez à une créature
+          de se poignarder, de se laisser tomber sur une lance, de s'immoler ou
+          d'accomplir n'importe quelle action à l'évidence néfaste, le sort se
+          termine automatiquement.</p>
+
+          <p>La cible doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, sans quoi elle fait de son mieux pour
+          suivre la conduite que vous lui avez suggérée et cela peut continuer
+          pendant toute la durée du sort. Si l'action suggérée peut se finir
+          plus rapidement, le sort se termine quand la cible a accompli ce que
+          vous lui aviez demandé.</p>
+
+          <p>Vous pouvez spécifier des conditions qui déclenchent une conduite
+          spéciale pendant la durée du sort. Par exemple, vous pouvez suggérer à
+          un chevalier de donner son cheval de guerre au premier mendiant qu'il
+          rencontre. Si les conditions ne sont pas remplies avant la fin du
+          sort, la cible n'accomplit pas l'action.</p>
+
+          <p>Si vous (ou l'un de vos compagnons) blessez une créature affectée
+          par ce sort, le sort se termine.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 8
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 2
+      school: enc
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: >-
+          Une langue de serpent et soit un rayon de miel, soit une goutte
+          d'huile d'olive
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.54mPf1pwUb00qLwN'
+  - _id: oytNKZp4lU1tuSTS
+    name: Coercition mystique
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/control/energy-stream-link-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous imposez une coercition magique à une créature située à portée
+          et dans votre champ de vision, l'obligeant à vous accorder un service
+          ou l'empêchant de commettre une action ou une suite d'actions, comme
+          bon vous semble. Si la créature comprend votre langue, elle doit
+          réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse sans quoi elle est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>
+          par vous pendant toute la durée du sort. Pendant toute cette période,
+          elle subit 5d10 dégâts psychiques chaque fois qu'elle agit de manière
+          directement opposée à vos instructions, mais jamais plus d'une fois
+          par jour. Si la créature ne vous comprend pas, ce sort n'a aucun effet
+          sur elle.</p>
+
+          <p>Vous pouvez lui donner n'importe quel ordre de votre choix, en
+          dehors de ceux qui la mènent directement à la mort. Le sort se termine
+          immédiatement si jamais vous donnez un ordre suicidaire.</p>
+
+          <p>Vous pouvez mettre prématurément fin au sort en dépensant une
+          action pour le dissiper. Les sorts <em>lever une malédiction</em>,
+          <em>restauration supérieure</em> et <em>souhait</em> mettent aussi fin
+          à ce sort.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 7 ou 8, il dure 1 an. Avec un
+          emplacement de sort de niveau 9, il persiste jusqu'à ce que quelqu'un
+          le dissipe avec l'un des sorts mentionnés précédemment.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 1
+        condition: ''
+      duration:
+        value: 30
+        units: day
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 13
+        scaling: spell
+      level: 5
+      school: enc
+      components:
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: durée
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wpgSfmOyDjgB5e94.oytNKZp4lU1tuSTS'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 2
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 2
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 2
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+    dex:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 1
+      save: 1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    con:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    int:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    wis:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 12
+    cha:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 13
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 97
+      max: 97
+      temp: 0
+      tempmax: 0
+      formula: 13d10+26
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 1
+      prof: 0
+      total: 1
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 9
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 18
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 12
+    spellcasting: cha
+    prof: 2
+    spelldc: 13
+    encumbrance:
+      value: 0.5
+      max: 240
+      pct: 0.20833333333333334
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Incantation innée</em></strong>. La caractéristique
+        d'incantation de la lamie est le Charisme (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 13). La lamie peut lancer les sorts
+        suivants de manière innée sans aucune composante matérielle :</p>
+
+        <ul>
+
+        <li><strong><em>À volonté</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/deguisement"><em>déguisement</em></a>
+        (n'importe quelle forme humanoïde), <a
+        href="https://5e-drs.fr/grimoire/image-majeure"><em>image
+        majeure</em></a></li>
+
+        <li><strong><em>3/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/charme-personne"><em>charme-personne</em></a>,
+        <a href="https://5e-drs.fr/grimoire/image-miroir"><em>image
+        miroir</em></a>, <a
+        href="https://5e-drs.fr/grimoire/scrutation"><em>scrutation</em></a>, <a
+        href="https://5e-drs.fr/grimoire/suggestion"><em>suggestion</em></a></li>
+
+        <li><strong><em>1/jour</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/coercition-mystique"><em>coercition
+        mystique</em></a></li>
+
+        </ul>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. La lamie effectue deux
+        attaques : une avec ses griffes et une avec sa dague ou son <em>Contact
+        enivrant</em>.</p>
+
+        <p><strong><em>Contact enivrant</em></strong>. <em>Attaque de sort au
+        corps à corps</em> : +5 pour toucher, allonge 1,50 m, une
+        créature.<br><em>Touché</em> : La cible est victime d'une malédiction
+        magique pendant 1 heure. Jusqu'au terme de cette malédiction, elle subit
+        un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+        lors des jets de sauvegarde de Sagesse et de tous les tests de
+        caractéristiques.</p>
+
+        <p><strong><em>Dague</em></strong>. <em>Attaque d'arme à distance</em> :
+        +5 pour toucher, allonge 1,50 m, une cible.<br><em>Touché</em> : 5
+        (1d4+3) dégâts perforants.</p>
+
+        <p><strong><em>Griffes</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +5 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 14 (2d10+3) dégâts tranchants.</p>
+      public: ''
+    alignment: Chaotique Mauvais
+    race: ''
+    type:
+      value: monstrosity
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Désert chaud
+    cr: 4
+    spellLevel: 4
+    source: Créatures & Oppositions
+    xp:
+      value: 1100
+  traits:
+    size: lg
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - abyssal
+        - common
+      custom: ''
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    dec:
+      value: 2
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 4
+      total: 7
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 2
+      total: 4
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 3
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 0
+      total: 3
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 11
+      prof: 0
+      total: 1
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 1
+      label: ' '
+      bonus: 0
+      passive: 13
+      prof: 2
+      total: 3
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 0
+    spell4:
+      value: 0
+      override: null
+      max: 0
+    spell5:
+      value: 0
+      override: null
+      max: 0
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Lamie
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923691070
+  modifiedTime: 1663923697675
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!wpgSfmOyDjgB5e94'
+

@@ -1,0 +1,113 @@
+_id: F62Dlap18WWDNBbc
+name: Talisman du mal ultime
+type: consumable
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Ce talisman est un puissant symbole du mal. Une créature dont
+      l'alignement n'est ni bon ni mauvais subit 6d6 dégâts nécrotiques quand
+      elle le touche. Une créature d'alignement bon subit 8d6 dégâts nécrotiques
+      quand elle le touche. Quand elles tiennent en main ou portent le talisman
+      sur elles, ces deux types de créature subissent une nouvelle fois les
+      dégâts à la fin de chacun de leurs tours.</p>
+
+      <p>Si vous êtes un clerc ou un paladin d'alignement mauvais, le talisman
+      peut faire office de symbole sacré et vous bénéficiez d'un bonus de +2 aux
+      jets d'attaque des sorts tant que vous le portez sur vous ou le tenez en
+      main.</p>
+
+      <p>Le talisman contient 6 charges. Si vous le portez sur vous ou le tenez
+      en main, vous pouvez utiliser une action pour dépenser 1 charge et choisir
+      une créature située à 36 mètres de vous, en contact avec le sol et dans
+      votre champ de vision. Si l'alignement de la cible est bon, une fissure de
+      flammes rugissantes s'ouvre sous elle. Elle doit réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Dextérité DD 20 pour ne pas trébucher dans la
+      fissure, ce qui aboutirait à sa destruction définitive, sans aucun reste à
+      récupérer. La fissure se referme ensuite en ne laissant aucune trace. Le
+      talisman est détruit et se désagrège en bave à l'odeur nauséabonde lorsque
+      vous dépensez la dernière charge.</p>
+
+      <p>Harmonisation avec une créature d'alignement mauvais exigée.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 61440
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 6
+    max: '6'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 6d6
+        - necrotic
+    versatile: 8d6
+  formula: ''
+  save:
+    ability: dex
+    dc: 20
+    scaling: flat
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701085
+  modifiedTime: 1663923702068
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!F62Dlap18WWDNBbc'
+

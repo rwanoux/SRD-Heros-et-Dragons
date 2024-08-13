@@ -1,0 +1,97 @@
+_id: ieAqJ3ZzJaZOYJO8
+name: Mémoire parfaite [Maître d'étude]
+type: feat
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.vTz2CCgwCaiSwWdk
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p>Au niveau 14, vous connaissez si bien vos sorts et votre grimoire que
+      vous pourriez presque vous en passer. Si vous perdez votre grimoire, ou si
+      ce dernier a été détruit, vous êtes toujours capable de préparer vos sorts
+      après un repos long, et ce pendant un nombre de jours égal à deux fois
+      votre bonus de maîtrise. Pendant ce temps, vous pouvez, si vous en avez le
+      temps, recopier vos sorts dans un nouveau grimoire. Faite un test
+      d'Arcanes pour chaque sort que vous recopiez, d'une difficulté de 8 + le
+      niveau du sort. Si le test est réussi, le sort est recopié de mémoire dans
+      votre nouveau grimoire. Si le test échoue, vous perdez le sort à jamais,
+      ou jusqu'à ce que vous le retrouviez dans un autre grimoire ou sur un
+      parchemin magique.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #6'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685590
+  modifiedTime: 1678408684551
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.vTz2CCgwCaiSwWdk
+  duplicateSource: null
+_key: '!items!ieAqJ3ZzJaZOYJO8'
+

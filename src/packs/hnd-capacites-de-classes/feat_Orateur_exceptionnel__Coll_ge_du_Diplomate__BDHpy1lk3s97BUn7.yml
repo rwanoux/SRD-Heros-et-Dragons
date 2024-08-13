@@ -1,0 +1,91 @@
+_id: BDHpy1lk3s97BUn7
+name: Orateur exceptionnel [Collège du Diplomate]
+type: feat
+flags:
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/tools/instruments/horn-red-brown.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="orateur-exceptionnel"><strong>Orateur exceptionnel</strong></h3>
+
+      <p>&Eacute;galement au niveau 3, vous pouvez d&eacute;penser une
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations
+      Bardique [Barde]} et ajouter le r&eacute;sultat du d&eacute; d'inspiration
+      bardique &agrave; tous vos tests de Sagesse (Perspicacit&eacute;), de
+      Charisme (Persuasion) et Charisme (Supercherie).</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685227
+  modifiedTime: 1678398939348
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!BDHpy1lk3s97BUn7'
+

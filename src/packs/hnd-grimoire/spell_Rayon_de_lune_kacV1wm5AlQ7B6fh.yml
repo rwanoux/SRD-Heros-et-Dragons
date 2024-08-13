@@ -1,0 +1,139 @@
+_id: kacV1wm5AlQ7B6fh
+name: Rayon de lune
+type: spell
+flags: {}
+img: icons/magic/light/beam-rays-teal-purple.webp
+system:
+  description:
+    value: >-
+      <p>Un pâle rayon de lune brille dans un cylindre de 1,50 mètre de rayon
+      pour 12 mètres de haut centré sur un point à portée. Une faible lumière
+      emplit le cylindre jusqu'à la fin du sort.</p>
+
+      <p>Quand une créature entre dans la zone du sort pour la première fois de
+      son tour ou qu'elle y commence son tour, elle est enveloppée de flammes
+      fantomatiques qui provoquent de violentes douleurs, et doit effectuer un
+      <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution. Si elle échoue, elle subit 2d10 dégâts
+      radiants, la moitié seulement si elle réussit.</p>
+
+      <p>Les métamorphes subissent un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+      lors de ce jet. Si l'un d'eux le rate, il reprend aussitôt son apparence
+      d'origine et ne peut plus changer de forme tant qu'il n'a pas quitté la
+      zone de lumière du sort.</p>
+
+      <p>Une fois que vous avez lancé ce sort, à chacun de vos tours, vous
+      pouvez utiliser une action pour déplacer le rayon de lumière de 18 mètres
+      au maximum dans la direction de votre choix.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 3 ou supérieur, les dégâts augmentent
+      de 1d10 par niveau au-delà du niveau 2.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: cylinder
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d10
+        - radiant
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 2
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      Quelques graines de lierre, peu importe l'espèce, et un éclat de feldspath
+      opalescent
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d10
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688173
+  modifiedTime: 1663923689317
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kacV1wm5AlQ7B6fh'
+

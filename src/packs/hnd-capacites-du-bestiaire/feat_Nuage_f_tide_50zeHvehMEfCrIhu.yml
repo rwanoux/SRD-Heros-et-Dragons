@@ -1,0 +1,112 @@
+name: Nuage fétide
+type: feat
+flags:
+  _sheetTab: ''
+img: icons/magic/acid/projectile-glowing-bubbles.webp
+_id: 50zeHvehMEfCrIhu
+system:
+  description:
+    value: >-
+      <p><strong>Nuage fétide.</strong> Un gaz vert répugnant de 3 mètres de
+      rayon s'étend autour de la créature. Les cibles qui commencent leur tour
+      dans cette zone doivent chacune réussir un jet de sauvegarde pour ne pas
+      être empoisonnées.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: 1
+    per: day
+    recovery: ''
+    type: day
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: con
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: flat
+    value: con
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698748
+  modifiedTime: 1663923699290
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!50zeHvehMEfCrIhu'
+

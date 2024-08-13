@@ -1,0 +1,91 @@
+name: Donner faim
+type: feat
+img: icons/consumables/meat/hock-leg-red-brown.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify">Au niveau 17, vous pouvez transformer
+      l'énergie de votre faim rassasiée en une faim vorace qui afflige une
+      créature qui ose vous frapper.</p><p style="text-align:justify">Lorsqu'une
+      créature vous touche avec une attaque au corps-à-corps, vous pouvez
+      utiliser votre réaction pour provoquer la faim chez l'attaquant. </p><p
+      style="text-align:justify">Si vous le faites, l'attaquant subit des dégâts
+      nécrotiques égaux à votre modificateur de Sagesse, et il doit réussir un
+      jet de sauvegarde de Constitution ou être neutralisé par une faim
+      accablante jusqu'à la fin de son prochain tour. </p><p
+      style="text-align:justify">Vous ne pouvez pas utiliser cette capacité sur
+      les créatures qui n'ont pas besoin de manger, comme les créatires
+      artificielles, les élémentaires et de nombreux morts-vivants.</p>
+    chat: ''
+    unidentified: ''
+  source: Underworld Player's Guide - Kobold Press
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Voie de la faim rassasiée
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.wWBPoXbnGzOr7PKI
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680511526939
+  modifiedTime: 1680511610893
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.wWBPoXbnGzOr7PKI
+  duplicateSource: null
+folder: null
+sort: 0
+_id: TkzDZMxkxp3bSouA
+_key: '!items!TkzDZMxkxp3bSouA'
+

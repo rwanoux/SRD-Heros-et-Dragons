@@ -1,0 +1,102 @@
+name: Lame de givre [Voie des glaces]
+type: feat
+img: icons/magic/water/projectile-ice-chunk-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.67QHJ3BvptA1OLnw
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: 5ywGscTy0ZzSm0j8
+system:
+  description:
+    value: >-
+      <h3><strong>Lame de givre</strong></h3><p>À partir du niveau 6, lorsque
+      vous entrez en rage, vous pouvez faire givrer une arme de corps à corps
+      que vous tenez en main.</p><p>Elle inflige 1d6 dégâts de froid par attaque
+      durant tout le temps où vous êtes en rage. Le dé de dégât passe à 1d8 au
+      niveau 10, puis à 1d10 au niveau 14.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685186
+  modifiedTime: 1678423461723
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.67QHJ3BvptA1OLnw
+  duplicateSource: null
+_key: '!items!5ywGscTy0ZzSm0j8'
+

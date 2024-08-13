@@ -1,0 +1,81 @@
+name: Pluies Verglaçantes
+type: feat
+flags: {}
+img: icons/magic/water/projectile-ice-chunks-salvo.webp
+_id: arqNautWAWbbNU9U
+system:
+  description:
+    value: >-
+      <p><strong>Pluies verglaçantes.</strong> Des pluies verglaçantes
+      régulières couvrent la végétation et le terrain d'une pellicule de glace
+      extrêmement glissante. Toute la région dans le rayon d'effet est
+      considérée comme terrain difficile.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Blanc (Effets Régionaux)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698875
+  modifiedTime: 1663923699807
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!arqNautWAWbbNU9U'
+

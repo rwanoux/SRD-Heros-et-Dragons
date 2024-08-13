@@ -1,0 +1,111 @@
+_id: HjHeJtMSSNcWAwQU
+name: Figurine merveilleuse Chien d'onyx
+type: consumable
+img: icons/sundries/misc/pet-collar-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Une&nbsp;figurine merveilleuse&nbsp;est une statuette
+      repr&eacute;sentant un animal et assez petite pour tenir dans une poche.
+      Si vous utilisez une action pour prononcer le mot de commande et lancez la
+      figurine au sol dans un rayon de 18 m&egrave;tres autour de vous, elle se
+      change en cr&eacute;ature vivante. Si l'emplacement qu'elle devrait
+      occuper accueille d&eacute;j&agrave; d'autres cr&eacute;atures ou objets,
+      ou s'il n'y a pas assez de place pour l'animal, la figurine ne se
+      m&eacute;tamorphose pas.</p>
+
+      <p>La cr&eacute;ature issue de la figurine existe pendant une dur&eacute;e
+      d&eacute;pendant de sa statuette. Ensuite, elle se change de nouveau en
+      bibelot. Elle reprend sa forme de figurine avant cela si elle tombe
+      &agrave; 0 point de vie ou si vous utilisez une action pour prononcer de
+      nouveau le mot de commande en la touchant. Une fois la cr&eacute;ature
+      redevenue bibelot, il faut attendre un certain temps avant qu'elle puisse
+      se transformer de nouveau, comme indiqu&eacute; dans sa description.</p>
+
+      <p>Cette statuette de <strong>chien en onyx</strong> peut se changer
+      en&nbsp;<a
+      href="https://5e-drs.fr/bestiaire/mastiff/">mastiff</a>&nbsp;pendant un
+      maximum de 6 heures. Le mastiff a une intelligence de 8 et parle le
+      commun. Il dispose aussi de la vision dans le noir &agrave; 18
+      m&egrave;tres et discerne les cr&eacute;atures et objets invisibles
+      pr&eacute;sents dans ce p&eacute;rim&egrave;tre. Une fois utilis&eacute;,
+      on ne peut plus s'en servir avant 7 jours.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 3000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 6
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: m
+    type: space
+  range:
+    value: 18
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701104
+  modifiedTime: 1663923702134
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!HjHeJtMSSNcWAwQU'
+

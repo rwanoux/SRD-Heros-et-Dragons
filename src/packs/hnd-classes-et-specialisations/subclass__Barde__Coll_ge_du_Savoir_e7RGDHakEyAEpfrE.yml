@@ -1,0 +1,69 @@
+_id: e7RGDHakEyAEpfrE
+name: '[Barde] Collège du Savoir'
+type: subclass
+img: icons/tools/instruments/lute-gold-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2>Collège du savoir</h2>\n<h3 id=\"maitrises-supplementaires\"></h3>\n<p><strong>Niveau 3 :</strong>\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YdtPZbHMmiAq6l8I]{Maîtrises supplémentaires [Collège du Savoir]}</p>\n<p><strong>Niveau 3 :\_</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CdvbauIcKegO8ML4]{Mots cinglants [Collège du savoir]}</p>\n<p><strong>Niveau 6 :</strong>\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.w96a1KwKm8nrI1lE]{Secrets magiques supplémentaires [Collège du savoir]}</p>\n<p><strong>Niveau 14 :\_</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0HwCqSXlgqK1WarN]{Compétence hors pair [collège du savoir]}</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: college-du-savoir
+  classIdentifier: barde
+  advancement:
+    - _id: 5kcywv5znsf8ahds
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0HwCqSXlgqK1WarN
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: 219eaw9kolclmx0p
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.w96a1KwKm8nrI1lE
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: g6xpo8mcy2545u5m
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YdtPZbHMmiAq6l8I
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CdvbauIcKegO8ML4
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703419
+  modifiedTime: 1663923703626
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!e7RGDHakEyAEpfrE'
+

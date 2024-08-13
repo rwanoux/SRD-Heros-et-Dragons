@@ -1,0 +1,122 @@
+_id: XqoOQksdRLYzcSkb
+name: Carreau tueur
+type: consumable
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: false
+      altValue: false
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: false
+      altValue: false
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p>Une carreau tueur est une arme magique conçue pour tuer un type précis
+      de créature. Certains sont plus spécialisées que d'autres : il existe par
+      exemple des carreaux tueurs de dragons et des carreaux tueurs de dragons
+      bleus. Si une créature appartient au type, à la race ou au groupe associé
+      au carreau, elle subit les dégâts normaux et doit faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Constitution DD 17. Si elle le rate, elle reçoit
+      6d10 dégâts perforants supplémentaires, la moitié seulement si elle
+      réussit.</p>
+
+      <p>Dès que le carreau tueur a infligé des dégâts supplémentaires à une
+      créature, elle redevient un simple carreau ordinaire.</p>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.075
+  price: 600
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 6d10
+  save:
+    ability: con
+    dc: 17
+    scaling: flat
+  consumableType: ammo
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701258
+  modifiedTime: 1663923702570
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!XqoOQksdRLYzcSkb'
+

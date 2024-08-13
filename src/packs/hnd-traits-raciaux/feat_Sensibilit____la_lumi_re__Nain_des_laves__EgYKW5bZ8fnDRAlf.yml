@@ -1,0 +1,96 @@
+_id: EgYKW5bZ8fnDRAlf
+name: Sensibilité à la lumière (Nain des laves)
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/light/beam-red-orange.webp
+system:
+  description:
+    value: >-
+      <p><strong>Sensibilité à la lumière.</strong> Vous supportez mal les
+      changements de luminosité. Lorsque la lumière augmente soudainement
+      d'intensité (de lumière faible à lumière vive, ou d'obscurité à lumière
+      vive), vous subissez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>&nbsp;à
+      tous vos&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">tests
+      de caractéristique</a>&nbsp;nécessitant votre vue (dont les tests physique
+      pour se précipiter, grimper ou autres). Il en va de même pour tous vos
+      jets d'attaque, et les ennemis bénéficient d'un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+      s'ils vous attaquent au corps à corps. L'effet dure 3 rounds.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Nain des laves
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698171
+  modifiedTime: 1663923698401
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EgYKW5bZ8fnDRAlf'
+

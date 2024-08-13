@@ -1,0 +1,111 @@
+name: Ponction de Force
+type: weapon
+flags: {}
+img: icons/commodities/tech/smoke-bomb-red-yellow.webp
+_id: AMmZBgsZMRyLyyPC
+system:
+  description:
+    value: >-
+      <p><strong>Ponction de force.</strong> Attaque d'arme au corps à corps sur
+      une cible. Allonge 1,50 m. Dégâts nécrotiques et la valeur de Force de la
+      cible est réduite de 1d4 points. La cible meurt si cet effet réduit sa
+      valeur de Force à 0. Sinon, la réduction persiste jusqu'à la fin d'une
+      période de repos long ou court. Si un humanoïde non-mauvais meurt à cause
+      de cette attaque, une nouvelle ombre surgit de son cadavre après 1d4
+      heures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: dex
+  actionType: mwak
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6+@mod
+        - necrotic
+    versatile: ''
+  formula: 1d4
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    two: false
+    rch: false
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698766
+  modifiedTime: 1663923699367
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!AMmZBgsZMRyLyyPC'
+

@@ -1,0 +1,109 @@
+_id: eO8Qj6fSO3jZtmqM
+name: Impitoyable
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/impitoyable.PNG
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous &ecirc;tes un sp&eacute;cialiste des m&ecirc;l&eacute;es confuses
+      et vous savez tirer profit des erreurs de vos adversaires.</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Lorsqu'un adversaire &agrave; moins de 1,50 m&egrave;tre de vous est
+      bless&eacute; par un alli&eacute;, vous pouvez profiter de ce moment de
+      distraction et utiliser votre r&eacute;action pour faire une attaque
+      d'opportunit&eacute; sur cet adversaire.</li>
+
+      <li>Lorsqu'un adversaire rate une attaque de corps-&agrave;-corps contre
+      vous, vous pouvez utiliser votre r&eacute;action pour faire porter cette
+      attaque contre un autre adversaire &agrave; moins de 1,50 m&egrave;tres de
+      vous. Cet adversaire doit effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dext&eacute;rit&eacute; (DD &eacute;gal &agrave; la
+      CA atteinte par l'attaque). En cas d'&eacute;chec, il subit la
+      moiti&eacute; des d&eacute;g&acirc;ts habituels de l'attaque
+      initiale.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685015
+  modifiedTime: 1663923685015
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!eO8Qj6fSO3jZtmqM'
+

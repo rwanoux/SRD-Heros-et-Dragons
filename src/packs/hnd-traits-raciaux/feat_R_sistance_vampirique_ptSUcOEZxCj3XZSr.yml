@@ -1,0 +1,95 @@
+name: Résistance vampirique
+type: feat
+flags:
+  dynamiceffects:
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.traits.dr.value
+        value: fire
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: zLoRDCUkPDiS3qLU
+        active: false
+        _targets: []
+    equipActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.UlODZ7aCfgriMCSV
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  description:
+    value: >-
+      <p><strong>Résistance vampirique. </strong>Vous avez l'avantage sur les
+      jets de sauvegarde contre les maladies et vous êtes résistant aux dégâts
+      nécrotiques.</p>
+    chat: ''
+    unidentified: ''
+  source: Midgard Heroes Handbook - Kobold Press
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dhapyr
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  52HofoNc1le7TcnZ: 3
+  MB7dftOsMOjK5aEw: 3
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923698193
+  modifiedTime: 1680507224982
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-traits-raciaux.UlODZ7aCfgriMCSV
+  duplicateSource: null
+folder: null
+sort: 0
+_id: ptSUcOEZxCj3XZSr
+_key: '!items!ptSUcOEZxCj3XZSr'
+

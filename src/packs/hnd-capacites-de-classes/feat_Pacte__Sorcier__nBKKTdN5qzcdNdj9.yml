@@ -1,0 +1,119 @@
+_id: nBKKTdN5qzcdNdj9
+name: Pacte [Sorcier]
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-watch.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.PDWU806vCVULzIDL
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3><strong>Pacte</strong></h3>
+
+      <p>Au niveau 3, votre protecteur d'outre-monde vous accorde un cadeau en
+      r&eacute;compense de vos loyaux services. Vous gagnez au choix l'une des
+      trois aptitudes suivantes :</p>
+
+      <ul>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0MDQECEw4J23bJ68]{Pacte
+      de la cha&icirc;ne [Sorcier]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6EFoOWdNmf2wVZOe]{Pacte
+      de la lame [Sorcier]}</li>
+
+      <li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.J4EfynrXxvloxkDd]{Pacte
+      du grimoire [Sorcier]}</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685618
+  modifiedTime: 1678417782938
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.PDWU806vCVULzIDL
+  duplicateSource: null
+_key: '!items!nBKKTdN5qzcdNdj9'
+

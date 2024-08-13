@@ -1,0 +1,106 @@
+_id: 1ZnFOTpPeUVpnQOY
+name: La puissance de la bête [Voie des Steppes]
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.AnOUDafHW2hg653z
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3><strong>La puissance de la bête</strong></h3><p>Au niveau 14, lorsque
+      vous entrez en rage, vous êtes entouré d'une aura de puissance ayant
+      l'apparence fantomatique de votre animal totem. Lorsque vous attaquez,
+      vous obtenez désormais une réussite critique sur un score de 18, 19 ou 20
+      sur le d20.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #8'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare / voie des steppes
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685154
+  modifiedTime: 1678422628996
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.AnOUDafHW2hg653z
+  duplicateSource: null
+_key: '!items!1ZnFOTpPeUVpnQOY'
+

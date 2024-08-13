@@ -1,0 +1,89 @@
+name: Entraver [Mistheos]
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.BMMLTxtkR9Gfxh1M
+_id: MrobimF8RGeYD3n4
+system:
+  description:
+    value: >-
+      <p>Également au niveau 3, vous pouvez tenter d'entraver une créature
+      lorsque vous infligez une attaque sournoise.</p>
+
+      <p>Au lieu d'occasionner des dégâts supplémentaires, la victime doit faire
+      un<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">
+      jet de sauvegarde</a> de Constitution de difficulté 8 + votre bonus de
+      maîtrise + votre Mod. de Dextérité. En cas d'échec, elle est <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entravée</a>
+      pendant 1 round.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: dex
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685370
+  modifiedTime: 1663923686701
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.BMMLTxtkR9Gfxh1M
+  duplicateSource: null
+_key: '!items!MrobimF8RGeYD3n4'
+

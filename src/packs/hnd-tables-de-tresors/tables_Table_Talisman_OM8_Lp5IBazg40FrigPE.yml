@@ -1,0 +1,81 @@
+_id: Lp5IBazg40FrigPE
+name: Table Talisman OM8
+folder: vVTDSYsguUPXB21e
+sort: 10100000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: cNAeeroJBeH461Z7
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Talisman de la sphère
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/violet_05.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: zFujtOgx3GFt44CM
+    _key: '!tables.results!Lp5IBazg40FrigPE.cNAeeroJBeH461Z7'
+  - _id: QV09wO0gP5GVgT8Q
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Talisman du bien ultime
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/light_04.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: eexvMJ73DGordXvR
+    _key: '!tables.results!Lp5IBazg40FrigPE.QV09wO0gP5GVgT8Q'
+  - _id: EcQkv1V26zdvpQJj
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Talisman du mal ultime
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/blood_10.jpg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: F62Dlap18WWDNBbc
+    _key: '!tables.results!Lp5IBazg40FrigPE.EcQkv1V26zdvpQJj'
+formula: 1d6
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!Lp5IBazg40FrigPE'
+

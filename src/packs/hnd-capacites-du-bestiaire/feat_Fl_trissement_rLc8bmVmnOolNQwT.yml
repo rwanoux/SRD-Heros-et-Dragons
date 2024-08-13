@@ -1,0 +1,83 @@
+name: Flétrissement
+type: feat
+flags: {}
+img: icons/magic/nature/vines-thorned-curled-glow-green.webp
+_id: rLc8bmVmnOolNQwT
+system:
+  description:
+    value: >-
+      <p><strong>Flétrissement.</strong> Même si elle est luxuriante, la
+      végétation croît de manière anormale. Racines et branches sont tordues et
+      déformées, le feuillage prend des teintes grisées, les arbres semblent
+      malades et torturés. Les animaux qui vivent dans le rayon d'effet sont
+      eux-aussi affectés : ils s'amaigrissent et deviennent beaucoup plus
+      agressifs.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Vert (Effets Régionaux)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698980
+  modifiedTime: 1663923700246
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rLc8bmVmnOolNQwT'
+

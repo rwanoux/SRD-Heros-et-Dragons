@@ -1,0 +1,89 @@
+_id: uX61q1op1Q1k8XPn
+name: Garde du corps [Défenseur]
+type: feat
+flags: {}
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="garde-du-corps"><strong>Garde du corps</strong></h3>
+
+      <p>Au niveau 7, lorsqu'une cr&eacute;ature attaque un alli&eacute;
+      situ&eacute; &agrave; moins de 1,50 m&egrave;tre de vous, vous pouvez
+      utiliser votre r&eacute;action pour devenir la cible de l'attaque &agrave;
+      sa place. Cette aptitude fonctionne pour tout type d'attaque qui
+      n&eacute;cessite un&nbsp;<a
+      href="https://5e-drs.fr/combattre/#jets-d-attaque">jet d'attaque</a> (au
+      corps-&agrave;-corps, &agrave; distance ou par sort). Vous devez annoncer
+      votre intention avant que le r&eacute;sultat de l'attaque soit connu. Si
+      l'attaque vous inflige des d&eacute;g&acirc;ts, vous obtenez la
+      r&eacute;sistance &agrave; ces d&eacute;g&acirc;ts.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: reaction
+    cost: 1
+    condition: allié à moins de 1m50
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685677
+  modifiedTime: 1663923687707
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uX61q1op1Q1k8XPn'
+

@@ -1,0 +1,117 @@
+_id: Yfxcp44pQuqsFuK9
+name: Camouflage naturel [Rôdeur]
+type: feat
+img: icons/magic/nature/stealth-hide-eyes-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="camouflage-naturel"><strong>Camouflage naturel</strong></h3>
+
+      <p>&Agrave; partir du niveau 10, vous pouvez passer une minute &agrave;
+      cr&eacute;er de quoi vous camoufler. Vous devez pour cela avoir
+      acc&egrave;s &agrave; de la boue, de la terre, des plantes, de la suie et
+      d'autres mat&eacute;riaux naturels avec lesquels cr&eacute;er votre
+      camouflage.</p>
+
+      <p>Une fois grim&eacute;, vous pouvez tenter de vous cacher en vous
+      plaquant contre une surface solide, comme un arbre ou un mur, qui est au
+      moins aussi grande et large que vous. Vous gagnez un bonus de +10 aux
+      tests de Dext&eacute;rit&eacute; (Discr&eacute;tion) tant que vous vous
+      restez immobile et ne faites pas d'action. D&egrave;s que vous bougez ou
+      choisissez d'effectuer une action ou une r&eacute;action, vous devez vous
+      camoufler de nouveau pour regagner ce bonus.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685442
+  modifiedTime: 1678414106963
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Yfxcp44pQuqsFuK9'
+

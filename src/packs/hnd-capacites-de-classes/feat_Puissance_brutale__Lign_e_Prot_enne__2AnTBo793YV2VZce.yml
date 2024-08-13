@@ -1,0 +1,145 @@
+_id: 2AnTBo793YV2VZce
+name: Puissance brutale [Lignée Protéenne]
+type: feat
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: false
+      altValue:
+        use: true
+        resource: true
+        charge: false
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.xfybkWT2GBrCei7Q
+img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Puissance brutale</strong></h3>
+
+      <p>&Eacute;galement au niveau 18, vous pouvez utiliser une action bonus
+      pour augmenter les d&eacute;g&acirc;ts d&rsquo;un tour de magie sans
+      sacrifier de PV ou de point(s) de sorcellerie. Vous obtenez un d&eacute;
+      de d&eacute;g&acirc;t suppl&eacute;mentaire du m&ecirc;me type que celui
+      utilis&eacute; pour ce tour de magie (1d10 pour
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.9mglrGyUpA4EeqHA]{Trait
+      de feu} ou 1d8 pour
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ZmLNOt7mWVmBnC8x]{Rayon
+      de givre} par exemple).</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée l'âge des héros
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685158
+  modifiedTime: 1663923686052
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.xfybkWT2GBrCei7Q
+  duplicateSource: null
+_key: '!items!2AnTBo793YV2VZce'
+

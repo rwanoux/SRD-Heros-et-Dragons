@@ -1,0 +1,157 @@
+_id: Mr0xKNEwr2sIM6fH
+name: 'Plume magique : Éventail'
+type: consumable
+img: icons/commodities/materials/feather-colored-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">Ce petit bibelot ressemble à une plume. Il
+      existe plusieurs types de plume, chacune produisant un effet différent à
+      usage unique. C'est au MJ de décider du type ou de le déterminer au
+      hasard.<br>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th class="center">d100</th>
+
+      <th>Plume magique</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">01-20</td>
+
+      <td>Ancre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">21-35</td>
+
+      <td>Oiseau</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">36-50</td>
+
+      <td>Éventail</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">51-65</td>
+
+      <td>Bateau cygne</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">66-90</td>
+
+      <td>Arbre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">91-00</td>
+
+      <td>Fouet</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br><strong>Éventail</strong>. Si vous vous trouvez sur un navire, vous
+      pouvez utiliser une action pour lancer ce bibelot à 3 mètres de haut. Il
+      disparaît pour faire place à un éventail géant qui flotte et s'agite pour
+      générer un vent assez puissant pour gonfler les voiles du bateau et
+      augmenter sa vitesse de 7,5 kilomètres pendant 8 heures. Vous pouvez
+      révoquer l'éventail par une action.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 250
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 8
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 3
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701138
+  modifiedTime: 1663923702242
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Mr0xKNEwr2sIM6fH'
+

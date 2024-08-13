@@ -1,0 +1,90 @@
+_id: agSPT0asQEl2fOk7
+name: Magie du sang [Lignée infernale]
+type: feat
+flags: {}
+img: icons/magic/fire/dagger-rune-enchant-red.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="magie-du-sang"><strong>Magie du sang&nbsp;</strong></h3>
+
+      <p>&Agrave; partir du niveau 6, vous avez d&eacute;couvert que votre
+      propre sang avait des propri&eacute;t&eacute;s magiques et que vous pouvez
+      le sacrifier pour augmenter votre pouvoir. Vous pouvez utiliser une action
+      bonus pour faire couler votre sang &agrave; l'aide d'une arme tranchante
+      ou perforante, vous perdez 1d6 points de vie et vous gagnez
+      imm&eacute;diatement 1 point de sorcellerie que vous devez utiliser dans
+      le m&ecirc;me round. Vous pouvez sacrifier 1d6 points de vie
+      suppl&eacute;mentaires pour chaque point de sorcellerie
+      suppl&eacute;mentaire que vous souhaitez obtenir. Vous pouvez sacrifier de
+      cette fa&ccedil;on un nombre total de d6 &eacute;gal au maximum &agrave;
+      votre bonus de ma&icirc;trise entre deux repos courts ou longs.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685455
+  modifiedTime: 1663923687064
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!agSPT0asQEl2fOk7'
+

@@ -1,0 +1,131 @@
+_id: m1p1Gy5aYdQXU5ke
+name: Résurrection suprême
+type: spell
+flags:
+  rsr5e:
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/light/explosion-star-large-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p>Vous touchez une créature décédée depuis 200 ans au maximum, de
+      n'importe quelle cause sauf de vieillesse. Si son âme est libre et
+      consentante, elle revient à la vie avec tous ses points de vie.</p>
+
+      <p>Le sort referme toutes les plaies, neutralise tous les poisons, guérit
+      toutes les maladies et lève toutes les malédictions qui affectaient
+      éventuellement la cible à sa mort. Il remplace les organes et les membres
+      abîmés ou manquants. Il peut même fournir un nouveau corps à la cible si
+      l'original n'existe plus, mais dans ce cas, vous devez prononcer le nom de
+      la créature à ressusciter. Elle apparaît alors dans un emplacement
+      inoccupé de votre choix dans un rayon de 3 mètres autour de vous.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 9
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: >-
+      Un peu d'eau bénite à asperger et des diamants d'une valeur minimale de
+      25000 po, que le sort consume
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923688181
+  modifiedTime: 1678415815682
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!m1p1Gy5aYdQXU5ke'
+

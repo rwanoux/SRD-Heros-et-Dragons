@@ -1,0 +1,114 @@
+_id: Zrn59PQxbKBeWf4p
+name: Figurine merveilleuse Chèvres d'ivoire de voyage
+type: consumable
+img: icons/commodities/bones/hooves-cloven-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Une&nbsp;figurine merveilleuse&nbsp;est une statuette représentant un
+      animal et assez petite pour tenir dans une poche. Si vous utilisez une
+      action pour prononcer le mot de commande et lancez la figurine au sol dans
+      un rayon de 18 mètres autour de vous, elle se change en créature vivante.
+      Si l'emplacement qu'elle devrait occuper accueille déjà d'autres créatures
+      ou objets, ou s'il n'y a pas assez de place pour l'animal, la figurine ne
+      se métamorphose pas.</p>
+
+      <p>La créature issue de la figurine existe pendant une durée dépendant de
+      sa statuette. Ensuite, elle se change de nouveau en bibelot. Elle reprend
+      sa forme de figurine avant cela si elle tombe à 0 point de vie ou si vous
+      utilisez une action pour prononcer de nouveau le mot de commande en la
+      touchant. Une fois la créature redevenue bibelot, il faut attendre un
+      certain temps avant qu'elle puisse se transformer de nouveau, comme
+      indiqué dans sa description.</p>
+
+      <p>Ces statuettes de chèvre en ivoire sont toujours créées par trois.
+      Elles possèdent toutes une apparence unique et fonctionnent différemment
+      les unes des autres. Voici leurs propriétés :</p>
+
+      <p>La&nbsp;<strong>chèvre de voyage</strong>&nbsp;peut se changer en
+      chèvre de taille G, dotée des mêmes statistiques qu'un&nbsp;<a
+      href="https://5e-drs.fr/bestiaire/cheval-de-selle/">cheval de selle</a>.
+      Elle a 24 charges et chaque heure passée ou entamée sous forme de bête en
+      consomme une. Vous pouvez utiliser cette chèvre aussi souvent que vous le
+      voulez tant qu'il lui reste des charges, ensuite, elle reprend sa forme de
+      figurine et ne peut plus servir jusqu'à ce que 7 jours se soient écoulés.
+      Elle récupère alors toutes ses charges.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 1000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: m
+    type: space
+  range:
+    value: 18
+    long: 0
+    units: m
+  uses:
+    value: 24
+    max: '24'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701271
+  modifiedTime: 1663923702617
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Zrn59PQxbKBeWf4p'
+

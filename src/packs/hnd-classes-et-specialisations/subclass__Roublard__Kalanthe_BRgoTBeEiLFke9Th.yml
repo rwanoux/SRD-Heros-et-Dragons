@@ -1,0 +1,82 @@
+_id: BRgoTBeEiLFke9Th
+name: '[Roublard] Kalanthe'
+type: subclass
+img: icons/skills/melee/strike-sword-stabbed-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Kalanthe</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Cltspym3oOfketff]{Compétences supplémentaires [Kalanthe]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cj1EfNeB2P35USt7]{Attaque par surprise [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TMSHEbEbvhV8W9iR]{Faire taire [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.S9hHTC7e8wuCvkJD]{Impitoyable [Kalanthe]}</p>\n<p>Niveau 13 :\_ @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7Zb6foFmN6HRyZMu]{Guerrier du silence [Kalanthe]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yz9DYYzRicyIUf2c]{Assassinat [Kalanthe]}</p>\n<h4 id=\"specialiste\"></h4>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: kalanthe
+  classIdentifier: roublard
+  advancement:
+    - _id: 9amsa4sjw66i0k2m
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yz9DYYzRicyIUf2c
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+    - _id: oagl3zcaeaobhwgw
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7Zb6foFmN6HRyZMu
+        optional: false
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+    - _id: bsylpplzz7hm5777
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TMSHEbEbvhV8W9iR
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.S9hHTC7e8wuCvkJD
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+    - _id: vcopn93upsm1m33d
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Cltspym3oOfketff
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cj1EfNeB2P35USt7
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703394
+  modifiedTime: 1663923703530
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!BRgoTBeEiLFke9Th'
+

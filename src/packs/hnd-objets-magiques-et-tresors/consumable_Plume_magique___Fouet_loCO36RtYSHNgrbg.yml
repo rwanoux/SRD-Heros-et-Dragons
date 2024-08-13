@@ -1,0 +1,172 @@
+_id: loCO36RtYSHNgrbg
+name: 'Plume magique : Fouet'
+type: consumable
+img: icons/commodities/materials/feather-colored-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Ce petit bibelot ressemble à une plume. Il existe plusieurs types de
+      plume, chacune produisant un effet différent à usage unique. C'est au MJ
+      de décider du type ou de le déterminer au hasard.</p>
+
+      <div class="description ">
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th class="center">d100</th>
+
+      <th>Plume magique</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">01-20</td>
+
+      <td>Ancre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">21-35</td>
+
+      <td>Oiseau</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">36-50</td>
+
+      <td>Éventail</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">51-65</td>
+
+      <td>Bateau cygne</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">66-90</td>
+
+      <td>Arbre</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">91-00</td>
+
+      <td>Fouet</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br>
+
+      <p><strong>Fouet</strong>. Vous pouvez utiliser une action pour lancer le
+      bibelot à une distance maximale de 3 mètres. Il se mue en fouet flottant
+      dans les airs. Vous pouvez dépenser une action bonus pour faire une
+      attaque de sort au corps à corps contre une créature située dans un rayon
+      de 3 mètres autour du fouet, avec un bonus d'attaque de +9. Si vous
+      touchez la cible, elle subit 1d6+5 dégâts de force.</p>
+
+      <p>À votre tour et par une action bonus, vous pouvez ordonner au fouet de
+      s'envoler à une distance maximale de 6 mètres et répéter l'attaque contre
+      une créature située dans un rayon de 3 mètres autour d'elle. Le fouet
+      disparaît au bout d'une heure, quand vous utilisez une action pour le
+      révoquer ou si vous êtes&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralisé</a>&nbsp;ou
+      mort.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0
+  price: 250
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Une action bonus permet de contrôler le fouet.
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: m
+    type: space
+  range:
+    value: 3
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '9'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + 5
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701353
+  modifiedTime: 1663923702956
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!loCO36RtYSHNgrbg'
+

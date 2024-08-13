@@ -1,0 +1,104 @@
+_id: lvwlO7hOeFVTsPGa
+name: Cercle Druidique [Druide]
+type: feat
+img: icons/magic/nature/root-vine-thorned-coil-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Item.O6G6RtGeNlTkMd2b
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: "<h3 id=\"cercle-druidique\">Cercle druidique</h3><p>Quand vous atteignez le niveau 2, vous décidez d'adopter les valeurs d'un\_cercle druidique\_:</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.wNIjzpY8XnNABEqy]{[Druide] Cercle de la Terre}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.nPNmJnUKHMgv9lOL]{[Druide] Cercle de la Vie}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.KnoZ2wP2DgvAWMTY]{[Druide] Cercle des Châtiments}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.1wTmgBzQH8QdFh2l]{[Druide] Cercle des Fées}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.ygKVT2g8VnwxcjUg]{[Druide] Cercle des Profondeurs}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.21SeaqQQ5GUp2U7t]{[Druide] Cercle des Saisons}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.FUVslyZm85ysB5Vw]{[Druide] Cercle sans nom}</li></ul><p>En fonction de votre choix, vous avez accès à différentes aptitudes aux niveaux 2, 6, 10 et 14.</p>"
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685612
+  modifiedTime: 1678425915570
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.O6G6RtGeNlTkMd2b
+  duplicateSource: null
+_key: '!items!lvwlO7hOeFVTsPGa'
+

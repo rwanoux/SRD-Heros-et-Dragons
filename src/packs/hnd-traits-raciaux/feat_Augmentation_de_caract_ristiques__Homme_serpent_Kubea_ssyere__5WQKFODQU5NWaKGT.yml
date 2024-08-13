@@ -1,0 +1,159 @@
+_id: 5WQKFODQU5NWaKGT
+name: Augmentation de caractéristiques (Homme serpent Kubea ssyere)
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: true
+    effects:
+      - modSpecKey: data.abilities.cha.value
+        value: '1'
+        mode: +
+        targetSpecific: false
+        id: 1
+        itemId: QjvdwjsPudJyhgwN
+        active: false
+        _targets: []
+        label: Abilities Charisma
+      - modSpecKey: data.abilities.wis.value
+        value: '2'
+        mode: +
+        targetSpecific: false
+        id: 2
+        itemId: QjvdwjsPudJyhgwN
+        active: false
+        _targets: []
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: false
+      altValue:
+        use: true
+        resource: true
+        charge: false
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.JXpfNbZCrIr8w98J
+img: icons/magic/life/cross-worn-green.webp
+effects: []
+system:
+  description:
+    value: >-
+      <p><strong>Augmentation de caract&eacute;ristiques</strong>. Votre valeur
+      de Sagesse augmente de 2 et votre valeur de Constitution de 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée l'âge du changement
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Homme serpent Kubea ssyere
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698160
+  modifiedTime: 1663923698355
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.JXpfNbZCrIr8w98J
+  duplicateSource: null
+_key: '!items!5WQKFODQU5NWaKGT'
+

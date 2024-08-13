@@ -1,0 +1,126 @@
+name: Chant captivant
+type: feat
+flags:
+  _sheetTab: description
+img: icons/magic/air/wind-vortex-swirl-purple.webp
+_id: WUscdASW5A840BAM
+system:
+  description:
+    value: >-
+      <p>La harpie entonne une mélodie magique. Tout humanoïde ou géant à 90
+      mètres maximum de la harpie et qui peut entendre le chant doit réussir un
+      jet de sauvegarde de Sagesse DD 11 ou bien se retrouver charmé jusqu'à ce
+      que le chant prenne fin. La harpie doit utiliser une action bonus lors de
+      ses tours suivants pour prolonger le chant. Elle peut interrompre le chant
+      à tout moment. Le chant s'interrompt si la harpie est incapable d'agir.
+      Tant qu'elle est sous l'effet du charme, la cible est incapable d'agir et
+      n'est pas affectée par le chant d'autres harpies. Si la cible charmée se
+      trouve à plus de 1,50 mètre de la harpie, cette cible doit durant son tour
+      se diriger vers la harpie par le chemin le plus direct. Elle ne peut
+      éviter les attaques d'opportunité, mais peut refaire un jet de sauvegarde
+      dès qu'elle pénètre une zone pouvant créer des dégâts (de la lave ou une
+      fosse par exemple) ou dès qu'elle subit des dégâts provenant d'une autre
+      source que la harpie. Une créature peut aussi relancer son jet de
+      sauvegarde à la fin de chacun de ses tours. Lorsque le jet de sauvegarde
+      est réussi, l'effet du charme prend fin. Une cible ayant réussi son jet de
+      sauvegarde est immunisée contre le chant de cette harpie pour les
+      prochaines 24 heures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 90
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 11
+    scaling: flat
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698858
+  modifiedTime: 1663923699748
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!WUscdASW5A840BAM'
+

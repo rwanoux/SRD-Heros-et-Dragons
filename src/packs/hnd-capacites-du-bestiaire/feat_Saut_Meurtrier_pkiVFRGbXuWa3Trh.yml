@@ -1,0 +1,115 @@
+name: Saut Meurtrier
+type: feat
+flags:
+  _sheetTab: details
+img: icons/magic/fire/projectile-wave-arrow.webp
+_id: pkiVFRGbXuWa3Trh
+system:
+  description:
+    value: >-
+      <p><strong>Saut meurtrier.</strong> Si la créature peut sauter pour
+      retomber sur ses pattes dans un emplacement qui contient une ou plusieurs
+      autres créatures. Chacune de ces cibles doit réussir un jet de, sans quoi
+      elle se retrouve à terre et subit des dégâts contondants plus des dégâts
+      tranchants.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: space
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: str
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6+@mod
+        - bludgeoning
+      - - 3d6+@mod
+        - slashing
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: str
+    dc: 16
+    scaling: flat
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698972
+  modifiedTime: 1663923700222
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!pkiVFRGbXuWa3Trh'
+

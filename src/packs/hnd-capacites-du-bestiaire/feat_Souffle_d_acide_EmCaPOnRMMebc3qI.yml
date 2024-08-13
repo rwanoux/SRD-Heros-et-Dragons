@@ -1,0 +1,114 @@
+name: Souffle d'acide
+type: feat
+flags:
+  _sheetTab: description
+img: icons/magic/acid/projectile-smoke-glowing.webp
+_id: EmCaPOnRMMebc3qI
+system:
+  description:
+    value: >-
+      <p><strong>Souffle d'acide(Recharge 5-6).</strong> Le dragon crache un jet
+      d'acide sur une ligne de 9 m&egrave;tres de long et de 1,50 m&egrave;tre
+      de large. Chaque cr&eacute;ature sur cette ligne doit effectuer un jet de
+      sauvegarde de Dext&eacute;rit&eacute; DD 14, subissant 49 (11d8)
+      d&eacute;g&acirc;ts d'acide en cas d'&eacute;chec, ou la moiti&eacute; de
+      ces d&eacute;g&acirc;ts en cas de r&eacute;ussite.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: line
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: null
+    per: ''
+    recovery: ''
+    type: sr
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: con
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 11d8
+        - acid
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 18
+    scaling: flat
+    value: dex
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Noir
+  recharge:
+    value: 5
+    charged: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698779
+  modifiedTime: 1663923699419
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!EmCaPOnRMMebc3qI'
+

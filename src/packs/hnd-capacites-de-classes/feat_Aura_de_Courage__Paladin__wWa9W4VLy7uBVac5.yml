@@ -1,0 +1,103 @@
+_id: wWa9W4VLy7uBVac5
+name: Aura de Courage [Paladin]
+type: feat
+img: icons/magic/light/explosion-star-glow-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="aura-de-courage"><strong>Aura de courage</strong></h3>
+
+      <p>&Agrave; partir du niveau 10, vous, ainsi que toute cr&eacute;ature
+      amicale qui se trouve &agrave; 3 m&egrave;tres de vous, ne pouvez
+      &ecirc;tre&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terroris&eacute;s</a>.
+      Cette aura persiste tant que vous n'&ecirc;tes pas&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient">inconscient</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ft
+    type: ally
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: di.value.terrorisé
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685688
+  modifiedTime: 1663923687760
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!wWa9W4VLy7uBVac5'
+

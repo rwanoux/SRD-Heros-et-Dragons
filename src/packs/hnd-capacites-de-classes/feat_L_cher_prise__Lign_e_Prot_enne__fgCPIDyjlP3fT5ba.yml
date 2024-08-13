@@ -1,0 +1,190 @@
+_id: fgCPIDyjlP3fT5ba
+name: Lâcher prise [Lignée Protéenne]
+type: feat
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: false
+      altValue:
+        use: true
+        resource: true
+        charge: false
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.zEo2GJpCfyOnFqp5
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>L&acirc;cher prise</strong></h3>
+
+      <p>&Eacute;galement au niveau 6, Vous pouvez d&eacute;cider de
+      lib&eacute;rer l&rsquo;&eacute;nergie qui sommeille en vous&hellip; avec
+      le risque d&rsquo;en perdre le contr&ocirc;le. Lorsque vous lancez un
+      sort, vous pouvez choisir de b&eacute;n&eacute;ficier d&rsquo;un nombre de
+      points de sorcellerie de votre choix dans la mesure o&ugrave; il reste
+      inf&eacute;rieur &agrave; votre bonus de ma&icirc;trise. Ces points de
+      sorcellerie doivent &ecirc;tre imm&eacute;diatement d&eacute;pens&eacute;s
+      par une action bonus.</p>
+
+      <p>Lancez un d6 : si le r&eacute;sultat est inf&eacute;rieur ou
+      &eacute;gal au nombre de points de sorcellerie d&eacute;pens&eacute;s,
+      vous subissez un effet n&eacute;faste &agrave; d&eacute;terminer sur la
+      table ci-dessous (lancez 2d6) :</p>
+
+      <ul>
+
+      <li>2. Vous devenez aveugle.</li>
+
+      <li>3. Vos cheveux blanchissent d&rsquo;un coup.</li>
+
+      <li>4. Votre peau devient froide ou au contraire br&ucirc;lante (au
+      choix). Vous obtenez une vuln&eacute;rabilit&eacute; aux DM de feu ou de
+      froid et une r&eacute;sistance &agrave; son oppos&eacute;.</li>
+
+      <li>5. Vous perdez conscience pour 1d6 minutes.</li>
+
+      <li>6. &Eacute;puis&eacute; : Vous subissez un niveau
+      d&rsquo;&eacute;puisement.</li>
+
+      <li>7. Vous ne pouvez plus lancer ce sort pendant 24 heures.</li>
+
+      <li>8. Affaibli : vous subissez un d&eacute;savantage &agrave; toutes vos
+      actions jusqu&rsquo;&agrave; ce que vous preniez un repos court.</li>
+
+      <li>9. Retour de flammes. Vous subissez 1d10 DM par point de sorcellerie
+      utilis&eacute; pour lancer ce sort.</li>
+
+      <li>10. D&eacute;r&egrave;glement : vous d&eacute;veloppez au choix un tic
+      facial, une phobie ou une allergie.</li>
+
+      <li>11. Vos yeux deviennent rouges, l&eacute;g&egrave;rement
+      phosphorescents dans le noir.</li>
+
+      <li>12. Votre peau devient transparente, vos veines sont visibles &agrave;
+      travers elle et deviennent lumineuses lorsque vous faites appel &agrave;
+      vos points de sorcellerie ou si vous sacrifiez des PV. Vous
+      d&eacute;veloppez une vuln&eacute;rabilit&eacute; aux d&eacute;g&acirc;ts
+      contondants.</li>
+
+      </ul>
+
+      <p>La premi&egrave;re fois que vous obtenez les r&eacute;sultats 2
+      &agrave; 4 ou 10 &agrave; 12, l&rsquo;effet dure 24 heures. Cochez-le pour
+      en garder la trace. La seconde fois, l&rsquo;effet devient permanent.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée l'âge des héros
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685492
+  modifiedTime: 1663923687210
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.zEo2GJpCfyOnFqp5
+  duplicateSource: null
+_key: '!items!fgCPIDyjlP3fT5ba'
+

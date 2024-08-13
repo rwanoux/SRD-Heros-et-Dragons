@@ -1,0 +1,108 @@
+_id: UhKCDf0G39WkHSLe
+name: Haute maîtrise [Académicien]
+type: feat
+flags: {}
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="haute-maitrise"><strong>Haute ma&icirc;trise</strong></h3>
+
+      <p>Au niveau 14, vous obtenez les aptitudes suivantes :</p>
+
+      <p><strong>Sans effort :</strong>&nbsp;Le magicien peut maintenir actif un
+      sort de son &eacute;cole de magie n&eacute;cessitant une concentration en
+      d&eacute;pensant une action bonus &agrave; chaque tour. Ce sort ne
+      n&eacute;cessite aucune concentration tant que vous d&eacute;pensez une
+      action bonus &agrave; chaque round sans interruption. Il ne cesse que
+      lorsqu'il arrive &agrave; terme, si vous le d&eacute;cidez ou si vous
+      &ecirc;tes&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient">inconscient</a>&nbsp;ou
+      mort. Vous pouvez maintenir la concentration d'un autre sort normalement
+      en parall&egrave;le.</p>
+
+      <p><strong>Incantation rapide :</strong>&nbsp;&Agrave; votre tour, vous
+      pouvez d&eacute;penser une action bonus pour lancer un sort de votre
+      &eacute;cole ayant un temps d'incantation d'une action. Ce sort utilise un
+      emplacement de sort d'un niveau sup&eacute;rieur &agrave; son niveau
+      normal. Vous ne pouvez toujours lancer qu'un seul sort par round, &agrave;
+      moins que vous n'utilisiez votre action pour lancer un sort mineur comme
+      cela est pr&eacute;cis&eacute; dans le chapitre&nbsp;<a
+      href="https://5e-drs.fr/lancer-des-sorts/#lancer-un-sort">Lancer des
+      sorts</a>.</p>
+
+      <p><strong>Sorts sup&eacute;rieurs :</strong>&nbsp;Lorsque vous lancez un
+      sort de votre &eacute;cole qui utilise un emplacement de sort de niveau 3
+      ou inf&eacute;rieur, vous imposez un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;au&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a> des cibles.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685414
+  modifiedTime: 1663923686891
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!UhKCDf0G39WkHSLe'
+

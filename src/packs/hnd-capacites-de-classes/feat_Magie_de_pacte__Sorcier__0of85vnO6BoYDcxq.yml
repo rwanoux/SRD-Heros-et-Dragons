@@ -1,0 +1,99 @@
+_id: 0of85vnO6BoYDcxq
+name: Magie de pacte [Sorcier]
+type: feat
+img: icons/magic/light/projectiles-star-purple.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: "<h3 id=\"magie-de-pacte\"><strong>Magie de pacte</strong></h3><p>Vos recherches ésotériques ainsi que la magie dont vous a fait don votre protecteur vous permettent de lancer des sorts avec facilité.</p><h3 id=\"tours-de-magie\"><strong>Tours de magie</strong></h3><p>Au niveau 1, vous connaissez deux tours de magie de votre choix parmi la liste de sorts de sorcier. Vous pouvez apprendre d'autres tours de magie de sorcier à des niveaux supérieurs, comme indiqué dans la colonne tours de magie connus du tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.g2JGAWGzWL7KNTEQ]{Sorcier}</p><h3 id=\"emplacements-de-sorts\"><strong>Emplacements de sorts</strong></h3><p>Vous trouverez dans le tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.g2JGAWGzWL7KNTEQ]{Sorcier} le nombre d'emplacements de sorts à votre disposition. Tous vos emplacements de sort sont de même niveau. Pour lancer un de vos sorts de sorcier de niveau 1 ou supérieur, vous devez utiliser un emplacement de sort. Vous regagnez tous les emplacements de sort que vous avez utilisés après un repos court ou un repos long.</p><p>Par exemple, si vous êtes au niveau 5, vous avez deux emplacements de sort de niveau 3. Pour lancer le sort de niveau 1 @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.caB6HvhWaE7s0yUM]{Vague tonnante}, vous devez utiliser un de ces emplacements de sort, et vous le lancez comme un sort de niveau 3.</p><h3 id=\"sorts-connus-de-niveau-1-et-superieur\"><strong>Sorts connus de niveau 1 et supérieur</strong></h3><p>Au niveau 1, vous connaissez deux sorts de niveau 1 choisis dans la liste de\_<a href=\"https://5e-drs.fr/grimoire/?classes=Sorcier\">sorts de sorcier</a>.</p><p>La colonne sorts connus du tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.g2JGAWGzWL7KNTEQ]{Sorcier} vous indique à quels niveaux vous pouvez apprendre de nouveaux sorts de sorcier de votre choix de niveau 1 et supérieur. Vous ne pouvez par contre apprendre que des sorts que vous êtes en mesure de lancer grâce à vos emplacements de sorts, vous ne pouvez donc pas dépasser le niveau indiqué dans la colonne niveau des emplacements. Quand vous atteignez le niveau 6, par exemple, vous apprenez un nouveau sort de sorcier qui peut être de niveau 1, 2 ou 3.</p><p>De plus, quand vous gagnez un niveau dans cette classe, vous pouvez choisir un sort de sorcier que vous connaissez et le remplacer avec un autre sort de la liste de\_<a href=\"https://5e-drs.fr/grimoire/?classes=Sorcier\">sorts de sorcier</a>. Il doit aussi s'agir d'un sort que vous êtes en mesure de lancer.</p><h3 id=\"caracteristique-d-incantation\"><strong>Caractéristique d'incantation</strong></h3><p>La caractéristique d'incantation que vous utilisez pour les sorts de sorcier est le Charisme. Vous utilisez votre Charisme dès qu'un sort fait appel à votre caractéristique d'incantation. De plus, vous utilisez votre modificateur de Charisme afin de définir le DD du\_<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>\_d'un sort de sorcier que vous avez lancé et quand vous faites une attaque avec un sort de sorcier.</p><p>DD d'un\_<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>\_= 8 + votre bonus de maîtrise + votre modificateur de Charisme</p><p>Modificateur d'attaque de sort = votre bonus de maîtrise + votre modificateur de Charisme</p><h3 id=\"focaliseur-d-incantation\"><strong>Focaliseur d'incantation</strong></h3><p>Vous pouvez utiliser un focaliseur arcanique comme focaliseur d'incantation pour vos sorts de sorcier.</p><div><table style=\"width:467px\"><thead><tr><th style=\"width:44px\">Niveau</th><th style=\"width:90px\">Tours de magie connus</th><th style=\"width:52px\">Sorts connus</th><th style=\"width:93px\">Emplacements de sorts</th><th style=\"width:104px\">Niveau des emplacements</th><th style=\"width:84px\">Invocations occultes</th></tr></thead><tbody><tr><td style=\"width:44px\">1</td><td style=\"width:90px\">2</td><td style=\"width:52px\">2</td><td style=\"width:93px\">1</td><td style=\"width:104px\">1</td><td style=\"width:84px\">-</td></tr><tr><td style=\"width:44px\">2</td><td style=\"width:90px\">2</td><td style=\"width:52px\">3</td><td style=\"width:93px\">2</td><td style=\"width:104px\">1</td><td style=\"width:84px\">2</td></tr><tr><td style=\"width:44px\">3</td><td style=\"width:90px\">3</td><td style=\"width:52px\">4</td><td style=\"width:93px\">2</td><td style=\"width:104px\">2</td><td style=\"width:84px\">2</td></tr><tr><td style=\"width:44px\">4</td><td style=\"width:90px\">3</td><td style=\"width:52px\">5</td><td style=\"width:93px\">2</td><td style=\"width:104px\">2</td><td style=\"width:84px\">2</td></tr><tr><td style=\"width:44px\">5</td><td style=\"width:90px\">3</td><td style=\"width:52px\">6</td><td style=\"width:93px\">2</td><td style=\"width:104px\">3</td><td style=\"width:84px\">3</td></tr><tr><td style=\"width:44px\">6</td><td style=\"width:90px\">3</td><td style=\"width:52px\">7</td><td style=\"width:93px\">2</td><td style=\"width:104px\">3</td><td style=\"width:84px\">3</td></tr><tr><td style=\"width:44px\">7</td><td style=\"width:90px\">3</td><td style=\"width:52px\">8</td><td style=\"width:93px\">2</td><td style=\"width:104px\">4</td><td style=\"width:84px\">4</td></tr><tr><td style=\"width:44px\">8</td><td style=\"width:90px\">3</td><td style=\"width:52px\">9</td><td style=\"width:93px\">2</td><td style=\"width:104px\">4</td><td style=\"width:84px\">4</td></tr><tr><td style=\"width:44px\">9</td><td style=\"width:90px\">3</td><td style=\"width:52px\">10</td><td style=\"width:93px\">2</td><td style=\"width:104px\">5</td><td style=\"width:84px\">5</td></tr><tr><td style=\"width:44px\">10</td><td style=\"width:90px\">4</td><td style=\"width:52px\">10</td><td style=\"width:93px\">2</td><td style=\"width:104px\">5</td><td style=\"width:84px\">5</td></tr><tr><td style=\"width:44px\">11</td><td style=\"width:90px\">4</td><td style=\"width:52px\">11</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">5</td></tr><tr><td style=\"width:44px\">12</td><td style=\"width:90px\">4</td><td style=\"width:52px\">11</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">6</td></tr><tr><td style=\"width:44px\">13</td><td style=\"width:90px\">4</td><td style=\"width:52px\">12</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">6</td></tr><tr><td style=\"width:44px\">14</td><td style=\"width:90px\">4</td><td style=\"width:52px\">12</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">6</td></tr><tr><td style=\"width:44px\">15</td><td style=\"width:90px\">4</td><td style=\"width:52px\">13</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">7</td></tr><tr><td style=\"width:44px\">16</td><td style=\"width:90px\">4</td><td style=\"width:52px\">13</td><td style=\"width:93px\">3</td><td style=\"width:104px\">5</td><td style=\"width:84px\">7</td></tr><tr><td style=\"width:44px\">17</td><td style=\"width:90px\">4</td><td style=\"width:52px\">14</td><td style=\"width:93px\">4</td><td style=\"width:104px\">5</td><td style=\"width:84px\">7</td></tr><tr><td style=\"width:44px\">18</td><td style=\"width:90px\">4</td><td style=\"width:52px\">14</td><td style=\"width:93px\">4</td><td style=\"width:104px\">5</td><td style=\"width:84px\">8</td></tr><tr><td style=\"width:44px\">19</td><td style=\"width:90px\">4</td><td style=\"width:52px\">15</td><td style=\"width:93px\">4</td><td style=\"width:104px\">5</td><td style=\"width:84px\">8</td></tr><tr><td style=\"width:44px\">20</td><td style=\"width:90px\">4</td><td style=\"width:52px\">15</td><td style=\"width:93px\">4</td><td style=\"width:104px\">5</td><td style=\"width:84px\">8</td></tr></tbody></table></div>"
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685146
+  modifiedTime: 1678418274795
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!0of85vnO6BoYDcxq'
+

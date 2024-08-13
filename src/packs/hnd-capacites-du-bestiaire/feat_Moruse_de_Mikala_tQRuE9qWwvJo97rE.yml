@@ -1,0 +1,83 @@
+name: Moruse de Mikala
+type: feat
+flags: {}
+img: icons/magic/life/heart-shadow-red.webp
+_id: tQRuE9qWwvJo97rE
+system:
+  description:
+    value: >-
+      <p><strong>Morsure de Mikala.</strong> Par une action bonus, la créature
+      peut dépenser un emplacement de sort pour que ses attaques au corps à
+      corps infligent par magie des dégâts radiants supplémentaires à une cible
+      qu'elle parvient à toucher. Cet avantage dure jusqu'à la fin du tour. Si
+      la créature dépense un emplacement de sort de niveau 2 ou plus, les dégâts
+      supplémentaires augmentent de 1d6 par niveau au-dessus du 1er.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions.
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698988
+  modifiedTime: 1663923700278
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!tQRuE9qWwvJo97rE'
+

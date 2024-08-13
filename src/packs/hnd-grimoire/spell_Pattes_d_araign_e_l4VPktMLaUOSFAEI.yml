@@ -1,0 +1,165 @@
+_id: l4VPktMLaUOSFAEI
+name: Pattes d'araignée
+type: spell
+img: icons/creatures/invertebrates/spider-beetle-runed-green.webp
+effects:
+  - _id: mJ7cQctNi1IH3ash
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Compendium.srd-heros-et-dragons.HnD-grimoire.l4VPktMLaUOSFAEI
+    transfer: false
+    flags:
+      core:
+        statusId: ''
+      dae:
+        stackable: count
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        transfer: false
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.330'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Pattes d'araignée
+    img: icons/creatures/invertebrates/spider-beetle-runed-green.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!l4VPktMLaUOSFAEI.mJ7cQctNi1IH3ash'
+folder: null
+sort: 0
+flags:
+  midi-qol:
+    effectActivation: false
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+system:
+  description:
+    value: >-
+      <p>Jusqu'à la fin du sort, une créature consentante que vous touchez
+      devient capable de se déplacer sur les surfaces verticales, et même au
+      plafond la tête en bas, tout en gardant les mains libres. La cible
+      bénéficie aussi d'une vitesse d'escalade égale à sa vitesse de marche.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: contact
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Une goutte de bitume et une araignée
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688175
+  modifiedTime: 1663923689326
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!l4VPktMLaUOSFAEI'
+

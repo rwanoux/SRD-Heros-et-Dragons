@@ -1,0 +1,104 @@
+_id: uH25c0tf1snTZsTS
+name: 'Canalisation d''énergie divine : Marque de dévotion [Guide Spirituel]'
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/light/beam-rays-yellow-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3
+      id="canalisation-d-energie-divine-marque-de-devotion"><strong>Canalisation
+      d'&eacute;nergie divine : Marque de d&eacute;votion</strong></h3>
+
+      <p>&Agrave; partir du niveau 2, &agrave; la suite d'une
+      c&eacute;r&eacute;monie durant laquelle tous les
+      b&eacute;n&eacute;ficiaires sont tenus de prier en votre compagnie et de
+      r&eacute;citer les pr&eacute;ceptes de votre religion pendant 1 minute,
+      vous pouvez d&eacute;penser votre canalisation d'&eacute;nergie divine
+      pour apposer une marque de d&eacute;votion sur tous vos alli&eacute;s et
+      vous-m&ecirc;me dans un rayon de 3 m&egrave;tres. Lancez un d20 et notez
+      le r&eacute;sultat obtenu.</p>
+
+      <p>&Agrave; tout moment pendant les prochaines 24 heures, le
+      b&eacute;n&eacute;ficiaire peut d&eacute;penser sa marque de
+      d&eacute;votion en utilisant une r&eacute;action pour remplacer le
+      r&eacute;sultat d'un d20 qu'il vient de lancer par le r&eacute;sultat que
+      vous avez obtenu. Alternativement, il peut d&eacute;penser sa marque de
+      d&eacute;votion pour remplacer le r&eacute;sultat de son adversaire : par
+      exemple, pour le&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a> d'un sort ou pour le jet d'une attaque dirig&eacute;e
+      contre lui. Aucun b&eacute;n&eacute;ficiaire ne peut obtenir plus d'une
+      marque de d&eacute;votion &agrave; la fois.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: minute
+    cost: 1
+    condition: Tous les bénéficiaires doivent prier aussi
+  duration:
+    value: 24
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ally
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d20
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685673
+  modifiedTime: 1663923687690
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!uH25c0tf1snTZsTS'
+

@@ -1,0 +1,153 @@
+_id: fJCuQRQjDexfSkO4
+name: Invocations occultes - Vision de sorcier [Sorcier]
+type: feat
+flags:
+  core:
+    sourceId: Item.OlOAUsU0c63008sR
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="vision-de-sorcier" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"><strong>Vision de
+      sorcier</strong></h3>
+
+      <p style="box-sizing: border-box; user-select: text; font-size:
+      13px;"><em><strong>Pr&eacute;requis</strong>&nbsp;: niveau 15</em></p>
+
+      <p style="box-sizing: border-box; user-select: text; font-size: 13px;"><br
+      style="box-sizing: border-box; user-select: text;" />Vous pouvez voir la
+      v&eacute;ritable forme de n'importe quel m&eacute;tamorphe ou
+      cr&eacute;ature dont l'apparence a &eacute;t&eacute; modifi&eacute;e par
+      une illusion ou un sort de magie de transmutation si cette cr&eacute;ature
+      se trouve dans un rayon de 9 m&egrave;tres autour de vous et dans votre
+      champ de vision.</p>
+
+      <h3 id="vision-du-diable" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="vigueur-fielonne" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="livre-des-secrets-anciens" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="seduction" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="saut-d-outre-monde" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="regard-de-deux-esprits" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="pas-aerien" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="onde-de-choc" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="oeil-du-gardien-des-runes" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="murmures-d-outre-tombe" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="mot-d-effroi" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="masque-des-mille-visages" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="maitre-des-mille-formes" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="lenteur-de-l-esprit" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="lance-occulte" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="lame-assoiffee" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="explosion-insoutenable" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="chaines-de-carceres" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="buveuse-de-vie" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+
+      <h3 id="armure-des-ombres" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif;"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685488
+  modifiedTime: 1663923687198
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.OlOAUsU0c63008sR
+  duplicateSource: null
+_key: '!items!fJCuQRQjDexfSkO4'
+

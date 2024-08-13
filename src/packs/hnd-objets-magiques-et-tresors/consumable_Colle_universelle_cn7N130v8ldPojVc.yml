@@ -1,0 +1,120 @@
+_id: cn7N130v8ldPojVc
+name: Colle universelle
+type: consumable
+img: icons/consumables/drinks/tea-jug-gourd-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Cette substance visqueuse et aussi blanche que le lait peut coller deux
+      objets de manière définitive. Elle doit être conservée dans un pot dont la
+      surface intérieure a été badigeonnée d'<a
+      href="https://5e-drs.fr/liste-objets-magiques/huile-glissante/">huile
+      glissante</a>. Un récipient nouvellement découvert contient 1d6+1 doses de
+      cette colle, de 30 grammes chacune.</p>
+
+      <p>30 grammes de colle sont suffisants pour recouvrir une surface de 30
+      centimètres de côté. Il faut une minute pour que la colle se solidifie.
+      Une fois solidifiée, il est impossible de la détruire, à moins d'utiliser
+      un&nbsp;<a
+      href="https://5e-drs.fr/liste-objets-magiques/solvant-universel/">solvant
+      universel</a>&nbsp;ou une&nbsp;<a
+      href="https://5e-drs.fr/liste-objets-magiques/huile-etheree/">huile
+      éthérée</a>, ou à l'aide d'un sort de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/souhait/">souhait</a>.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.25
+  price: 400
+  attunement: 0
+  equipped: false
+  rarity: legendary
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: 1 minute pour que la colle se solidifie.
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0.3
+    width: null
+    units: m
+    type: square
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 7
+    max: '7'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+  details:
+    description: >-
+      <p><em>Wondrous item</em></p>
+
+      <p>This viscous, milky-white substance can form a permanent adhesive bond
+      between any two objects. It must be stored in a jar or flask that has been
+      coated inside with @Compendium[dnd5e.items.FIDyR0kZnxGy7bj8]{Oil of
+      Slipperiness}. When found, a container contains 1d6 + 1 ounces.</p>
+
+      <p>One ounce of the glue can cover a 1-foot square surface. The glue takes
+      1 minute to set. Once it has done so, the bond it creates can be broken
+      only by the application of
+      @Compendium[dnd5e.items.MAwoj2suj6cvb9Ti]{Universal Solvent} or
+      @Compendium[dnd5e.items.Xbq8CyXSRV358SfP]{Oil of Etherealness}, or with a
+      @Compendium[dnd5e.spells.3okM6Gn63zzEULkz]{Wish} spell.</p>
+
+      <p><em>Foundry note: the 7 charges reflect the maximum amount a character
+      can find. Please adjust as required.</em></p>
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701293
+  modifiedTime: 1663923702713
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!cn7N130v8ldPojVc'
+

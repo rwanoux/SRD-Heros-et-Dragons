@@ -1,0 +1,81 @@
+_id: jE2OZnJWWXdwaDVl
+name: Table Tranchant
+folder: vVTDSYsguUPXB21e
+sort: 8100000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: l6aMgHGRMTKOF6jj
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Cimeterre tranchant
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_03.jpg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Zyw2iLoNJBJZ5r0v
+    _key: '!tables.results!jE2OZnJWWXdwaDVl.l6aMgHGRMTKOF6jj'
+  - _id: XozaNFswYdc6hlv9
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Épée à 2 mains tranchante
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_03.jpg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: O401YDL9kO7PKD3e
+    _key: '!tables.results!jE2OZnJWWXdwaDVl.XozaNFswYdc6hlv9'
+  - _id: LsE2ULtVaKsBHTuV
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Épée longue tranchante
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/skills/yellow_03.jpg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: ipaYqdQ8zZDd7bOA
+    _key: '!tables.results!jE2OZnJWWXdwaDVl.LsE2ULtVaKsBHTuV'
+formula: 1d3
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!jE2OZnJWWXdwaDVl'
+

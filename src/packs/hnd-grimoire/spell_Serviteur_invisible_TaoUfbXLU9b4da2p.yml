@@ -1,0 +1,127 @@
+_id: TaoUfbXLU9b4da2p
+name: Serviteur invisible
+type: spell
+flags: {}
+img: icons/magic/control/encase-creature-humanoid-hold.webp
+system:
+  description:
+    value: >-
+      <p>Ce sort crée une force invisible, dépourvue de forme et d'intellect,
+      mais capable d'accomplir des tâches simples sur votre ordre jusqu'à la fin
+      du sort. Le serviteur se matérialise au sol, dans un emplacement inoccupé
+      situé à portée. Il a une CA de 10, 1 pv, une Force de 2 et il est
+      incapable d'attaquer. S'il tombe à 0 point de vie, le sort se termine.</p>
+
+      <p>Une fois à chacun de vos tours, vous pouvez utiliser une action bonus
+      pour ordonner mentalement à votre serviteur de se déplacer d'un maximum de
+      4,50 mètres et d'interagir avec un objet. Le serviteur peut accomplir des
+      tâches simples à la portée d'un domestique humain, comme aller chercher
+      des affaires, faire le ménage, repriser, plier les habits, allumer la
+      cheminée, servir les plats et la boisson, etc. Une fois que vous avez
+      donné votre ordre, il fait de son mieux pour y obéir jusqu'à ce qu'il ait
+      terminé. Il attend alors l'ordre suivant.</p>
+
+      <p>Si vous ordonnez à votre serviteur d'accomplir une tâche qui l'éloigne
+      à plus de 18 mètres de vous, le sort se termine.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: space
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: false
+    value: ''
+  materials:
+    value: Un bout de ficelle et un morceau de bois
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688046
+  modifiedTime: 1663923688951
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TaoUfbXLU9b4da2p'
+

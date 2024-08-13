@@ -1,0 +1,117 @@
+_id: Yb0SBe7VQifGXWAd
+name: Argot des voleurs [Roublard]
+type: feat
+img: icons/sundries/documents/document-torn-diagram-tan.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+  entityorder:
+    order: 140
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="argot-des-voleurs"><strong>Argot des voleurs</strong></h3>
+
+      <p>Pendant votre entra&icirc;nement de roublard, vous avez appris l'argot
+      des voleurs, un m&eacute;lange secret de dialecte, de jargon et de codes
+      qui vous permet de dissimuler des messages dans des conversations en
+      apparence anodines. Seule une autre cr&eacute;ature qui conna&icirc;t
+      l'argot des voleurs peut comprendre de tels messages. Transmettre un
+      message de cette mani&egrave;re prend quatre fois plus de temps que si
+      vous l'aviez exprim&eacute; clairement.</p>
+
+      <p>De plus, vous comprenez un ensemble de signes et de symboles qui
+      permettent de transmettre des messages courts et simples, comme par
+      exemple indiquer si une zone est dangereuse, si vous entrez sur le
+      territoire d'une guilde des voleurs, si un tr&eacute;sor se trouve
+      &agrave; proximit&eacute;, si des personnes qui habitent dans le coin sont
+      des proies faciles ou si elles accepteront de cacher des voleurs en
+      fuite.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: ''
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685439
+  modifiedTime: 1663923686999
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Yb0SBe7VQifGXWAd'
+

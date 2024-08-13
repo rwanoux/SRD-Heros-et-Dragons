@@ -1,0 +1,128 @@
+_id: caB6HvhWaE7s0yUM
+name: Vague tonnante
+type: spell
+flags: {}
+img: icons/magic/lightning/bolt-forked-blue-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Une vague de force tonnante émane de vous. Chaque créature située dans
+      un cube de 4,50 mètres d'arête partant de vous doit faire un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution. Les créatures qui échouent subissent
+      2d8 dégâts de tonnerre et sont bousculées de 3 mètres en face de vous. Les
+      autres subissent seulement la moitié des dégâts et ne sont pas
+      bousculées.</p>
+
+      <p>De plus, les objets qui ne sont pas arrimés et se trouvent entièrement
+      englobés dans la zone affectée sont automatiquement éloignés de 3 mètres à
+      l'opposé de vous. Le sort émet un grondement de tonnerre qui s'entend dans
+      un rayon de 90 mètres.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 2 ou supérieur, les dégâts augmentent
+      de 1d8 par niveau au-delà du premier.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 4.5
+    width: null
+    units: m
+    type: cube
+    range:
+      value: personnelle
+      unit: (cube
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688125
+  modifiedTime: 1663923689157
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!caB6HvhWaE7s0yUM'
+

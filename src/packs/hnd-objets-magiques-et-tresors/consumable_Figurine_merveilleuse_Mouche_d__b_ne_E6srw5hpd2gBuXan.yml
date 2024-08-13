@@ -1,0 +1,108 @@
+_id: E6srw5hpd2gBuXan
+name: Figurine merveilleuse Mouche d'ébène
+type: consumable
+img: icons/commodities/biological/legs-insect-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Une&nbsp;figurine merveilleuse&nbsp;est une statuette représentant un
+      animal et assez petite pour tenir dans une poche. Si vous utilisez une
+      action pour prononcer le mot de commande et lancez la figurine au sol dans
+      un rayon de 18 mètres autour de vous, elle se change en créature vivante.
+      Si l'emplacement qu'elle devrait occuper accueille déjà d'autres créatures
+      ou objets, ou s'il n'y a pas assez de place pour l'animal, la figurine ne
+      se métamorphose pas.</p>
+
+      <p>La créature issue de la figurine existe pendant une durée dépendant de
+      sa statuette. Ensuite, elle se change de nouveau en bibelot. Elle reprend
+      sa forme de figurine avant cela si elle tombe à 0 point de vie ou si vous
+      utilisez une action pour prononcer de nouveau le mot de commande en la
+      touchant. Une fois la créature redevenue bibelot, il faut attendre un
+      certain temps avant qu'elle puisse se transformer de nouveau, comme
+      indiqué dans sa description.</p>
+
+      <p>Cette statuette en ébène représente un <strong>taon</strong>. Elle se
+      change en&nbsp;<a
+      href="https://5e-drs.fr/bestiaire/mouche-d-ebene/">mouche
+      géante</a>&nbsp;pendant 12 heures et peut alors servir de monture. Une
+      fois ce pouvoir utilisé, il faut attendre 2 jours avant de pouvoir s'en
+      servir à nouveau.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 6000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 12
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: m
+    type: space
+  range:
+    value: 18
+    long: 0
+    units: m
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701077
+  modifiedTime: 1663923702038
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!E6srw5hpd2gBuXan'
+

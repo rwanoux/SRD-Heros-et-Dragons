@@ -1,0 +1,103 @@
+_id: atU758FWdTHA7xVM
+name: Métamagie - Sort subtil [Ensorceleur]
+type: feat
+flags:
+  core:
+    sourceId: Item.lM9CNF6vcPnC8ymb
+img: icons/magic/light/projectile-beams-salvo-white.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sort-subtil" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;"><strong
+      style="box-sizing: border-box; user-select: text;">Sort
+      subtil</strong></h3>
+
+      <p style="box-sizing: border-box; user-select: text;">Quand vous lancez un
+      sort, vous pouvez d&eacute;penser 1 point de sorcellerie pour le lancer
+      sans utiliser de composante verbale ni somatique.</p>
+
+      <h3 id="sort-accelere" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;"></h3>
+
+      <h3 id="sort-intense" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;"></h3>
+
+      <h3 id="sort-etendu" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;"></h3>
+
+      <h3 id="sort-puissant" style="box-sizing: border-box; user-select: text;
+      color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;"></h3>
+
+      <h3 id="invocation-prudente" style="box-sizing: border-box; user-select:
+      text; color: #2e1f49; font-family: Friz, sans-serif; font-size:
+      13px;"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Ensorceleur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685456
+  modifiedTime: 1663923687069
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.lM9CNF6vcPnC8ymb
+  duplicateSource: null
+_key: '!items!atU758FWdTHA7xVM'
+

@@ -1,0 +1,137 @@
+_id: rbF3DiQFbRWFxsAE
+name: Aura de Feu
+type: feat
+flags:
+  _sheetTab: ''
+  obsidian:
+    source:
+      type: other
+    effects:
+      - name: ''
+        uuid: 357dd97e-3ed7-4d34-a9ef-647383b77133
+        components:
+          - type: resource
+            name: Uses
+            uuid: 8dbef3d6-58f6-47f9-85a7-0c21ab457f93
+            recharge:
+              time: long
+              calc: all
+              ndice: 0
+              die: 2
+              bonus: 0
+              roll: null
+            bonus: 0
+            operator: plus
+            key: abl
+            min: 0
+            calc: fixed
+            fixed: 1
+            remaining: 0
+    version: 7
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
+system:
+  description:
+    value: >-
+      <p>Aura de feu. Les cibles situ&eacute;es &agrave; 1,50 m&egrave;tre ou
+      moins de la cr&eacute;ature subissent des d&eacute;g&acirc;ts de feu et
+      les objets inflammables dans l'aura qui ne sont &eacute;quip&eacute;s ou
+      transport&eacute;s par une personne prennent feu.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: lair
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: 1
+    per: ''
+    recovery: ''
+    type: day
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698981
+  modifiedTime: 1663923700251
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rbF3DiQFbRWFxsAE'
+

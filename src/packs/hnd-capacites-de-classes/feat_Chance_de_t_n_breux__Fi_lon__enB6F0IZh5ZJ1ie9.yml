@@ -1,0 +1,95 @@
+_id: enB6F0IZh5ZJ1ie9
+name: Chance de ténébreux [Fiélon]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/magic/light/projectiles-star-purple.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="chance-du-tenebreux"><strong>Chance du
+      t&eacute;n&eacute;breux</strong></h3>
+
+      <p>&Agrave; partir du niveau 6, vous pouvez faire appel &agrave; votre
+      protecteur pour qu'il alt&egrave;re le destin en votre faveur. Quand vous
+      faites un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique">test
+      de caract&eacute;ristique</a>&nbsp;ou un jet de sauvegarde, vous pouvez
+      utiliser cette aptitude pour ajouter 1d10 au r&eacute;sultat. Vous pouvez
+      utiliser cette aptitude apr&egrave;s avoir vu le r&eacute;sultat initial,
+      mais vous devez le faire avant que les effets soient appliqu&eacute;s.</p>
+
+      <p>Une fois que vous avez utilis&eacute; cette aptitude une fois, vous
+      devez attendre de finir un repos court ou un repos long avant de pouvoir
+      l'utiliser de nouveau.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d10
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685485
+  modifiedTime: 1663923687187
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!enB6F0IZh5ZJ1ie9'
+

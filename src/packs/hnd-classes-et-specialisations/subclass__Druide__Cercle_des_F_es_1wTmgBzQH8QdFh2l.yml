@@ -1,0 +1,84 @@
+_id: 1wTmgBzQH8QdFh2l
+name: '[Druide] Cercle des Fées'
+type: subclass
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h1 id=\"cercles-druidiques\"><strong>Cercles druidiques</strong></h1>\n<h2 id=\"cercle-des-fees\"><strong>Cercle des fées</strong></h2>\n<h3>\_</h3>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8BSkebRe8zJY8I2b]{Amis des fées [Cercle des fées]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fXVT9x48eSQarz1C]{Magie des fées [Cercle des fées]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iNosEWgqHUMZZxdV]{Sorts féeriques [Cercle des fées]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2uVSsHaTmKWV83ew]{Disparition instinctive [Cercle des fées]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vVEFqKQ8Anwol2EO]{Voir l'invisible [Cercle des fées]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9CGdDMbhxNdhmgWd]{Forme féerique [Cercle des fées]} :\_</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vmSZmQG3hNJYevHE]{Sorcellerie féerique [Cercle des fées]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: cercle-des-fees
+  classIdentifier: druide
+  advancement:
+    - _id: 4l9iocog10lgw1lo
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vmSZmQG3hNJYevHE
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: einh83sr0erx1l1u
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9CGdDMbhxNdhmgWd
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: v7i74es323r7sfh4
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2uVSsHaTmKWV83ew
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.vVEFqKQ8Anwol2EO
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: mjdg9l777884exot
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8BSkebRe8zJY8I2b
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fXVT9x48eSQarz1C
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.iNosEWgqHUMZZxdV
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703386
+  modifiedTime: 1663923703504
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!1wTmgBzQH8QdFh2l'
+

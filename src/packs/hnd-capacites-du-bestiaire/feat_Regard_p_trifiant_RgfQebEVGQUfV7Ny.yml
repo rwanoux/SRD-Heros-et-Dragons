@@ -1,0 +1,126 @@
+name: Regard pétrifiant
+type: feat
+flags:
+  _sheetTab: description
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+_id: RgfQebEVGQUfV7Ny
+system:
+  description:
+    value: >-
+      <p><strong>Regard pétrifiant. </strong>Quand une cible qui peut voir les
+      yeux de la créature commence son tour à 9 mètres ou moins d'elle, la
+      créature, si elle n'est pas neutralisée et si la créature est dans son
+      champ de vision, peut la forcer à effectuer un jet de sauvegarde de
+      Constitution. Une cible qui rate le jet de sauvegarde commence à se
+      transformer en pierre et devient entravée. La cible entravée doit retenter
+      le jet de sauvegarde à la fin de son prochain tour. En cas d'échec, elle
+      est complètement pétrifiée ; l'effet prend fin en cas de réussite. La
+      pétrification persiste tant que la créature n'est pas libérée par un sort
+      de restauration supérieure ou une magie similaire. Un adversaire qui n'est
+      pas surpris peut détourner le regard au début de son tour pour ne pas
+      avoir à effectuer le jet de sauvegarde. S’il agit de la sorte, il ne peut
+      pas voir la méduse jusqu'au début de son prochain tour, moment où il peut
+      détourner le regard à nouveau. Elle doit effectuer le jet de sauvegarde
+      immédiatement si elle regarde la méduse entre-temps. Si la créature voit
+      son reflet sur une surface réfléchissante, sous une lumière vive et à une
+      distance maximale de 9 mètres, elle est affectée par son propre regard. Le
+      pouvoir est plus ou moins important en fonction des créatures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: con
+    dc: 12
+    scaling: flat
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698831
+  modifiedTime: 1663923699645
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!RgfQebEVGQUfV7Ny'
+

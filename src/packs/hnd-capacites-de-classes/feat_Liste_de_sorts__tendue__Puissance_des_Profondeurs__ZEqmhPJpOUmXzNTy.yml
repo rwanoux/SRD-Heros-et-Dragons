@@ -1,0 +1,162 @@
+_id: ZEqmhPJpOUmXzNTy
+name: Liste de sorts étendue [Puissance des Profondeurs]
+type: feat
+flags: {}
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="liste-de-sorts-etendue-3"><strong>Liste de sorts
+      &eacute;tendue</strong></h3>
+
+      <p>La puissance des profondeurs vous permet de choisir des sorts dans une
+      liste de sorts &eacute;tendue quand vous devez apprendre un sort de
+      sorcier. Les sorts suivants sont ajout&eacute;s dans votre liste de sorts
+      de sorcier.</p>
+
+      <table style="width: 384px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 106.5px;">Niv. de sort</th>
+
+      <th style="width: 274.5px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 106.5px;">1</td>
+
+      <td style="width:
+      274.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.DuuPeHavEjF5642F]{Nappe
+      de brouillard}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kEHtYXCZeiLyrkI3]{Sommeil}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 106.5px;">2</td>
+
+      <td style="width:
+      274.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.hWx1WpU8i13ajzlh]{Modifier
+      son apparence}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc]{Vision
+      dans le noir}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 106.5px;">3</td>
+
+      <td style="width:
+      274.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.90WtGczGbhwAZDUC]{Fusion
+      dans la pierre}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kNpSusSUUmpWHeyM]{Respiration
+      aquatique}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 106.5px;">4</td>
+
+      <td style="width:
+      274.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.qNxiIeN25lq57xHz]{Liane
+      chasseresse}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.mVaxRT19p7l07CfX]{Insecte
+      g&eacute;ant}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 106.5px;">5</td>
+
+      <td style="width:
+      274.5px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.oE6gSp6l5nACXV0T]{Fl&eacute;au
+      d'insectes}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.W9aG8rY14JN9Qpn3]{Passe-muraille}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685448
+  modifiedTime: 1663923687029
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ZEqmhPJpOUmXzNTy'
+

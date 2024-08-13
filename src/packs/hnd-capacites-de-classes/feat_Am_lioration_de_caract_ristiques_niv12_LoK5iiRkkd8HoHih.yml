@@ -1,0 +1,110 @@
+_id: LoK5iiRkkd8HoHih
+name: Amélioration de caractéristiques niv12
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  exportSource:
+    srd-heros-et-dragons: srd-rules
+    system: dnd5e
+    coreVersion: 0.6.5
+    systemVersion: 0.94
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Item.BRHHK975FPlC5Mo1
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="amelioration-de-caracteristiques"><strong>Am&eacute;lioration de
+      caract&eacute;ristiques</strong></h3>
+
+      <p>Quand vous atteignez les niveaux 12, vous pouvez augmenter de 2 la
+      valeur d'une caract&eacute;ristique de votre choix ou augmenter de 1 la
+      valeur de deux caract&eacute;ristiques de votre choix. Cette aptitude ne
+      vous permet pas de d&eacute;passer 20 dans une valeur de
+      caract&eacute;ristique.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  9b9vbkZ7O0dxNhho: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685361
+  modifiedTime: 1663923686668
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.BRHHK975FPlC5Mo1
+  duplicateSource: null
+_key: '!items!LoK5iiRkkd8HoHih'
+

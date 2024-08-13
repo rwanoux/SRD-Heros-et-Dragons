@@ -1,0 +1,86 @@
+name: Chair à canon [Mage de guerre]
+type: feat
+img: icons/skills/targeting/crosshair-triple-strike-orange.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.bHZrxMVT36eLRTYm
+_id: QWHgt0jEAfz4fih5
+system:
+  description:
+    value: >-
+      <p>Au niveau 14, lorsqu'un adversaire vous attaque au corps-à corps, si
+      vous êtes à moins de 1,50 mètre d'un allié, vous pouvez utiliser votre
+      réaction pour que ce soit votre allié qui subisse l'attaque à votre
+      place.</p>
+
+      <p>Vous devez annoncer que vous utilisez cette aptitude avant de connaître
+      le résultat de l'attaque</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685389
+  modifiedTime: 1663923686774
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.bHZrxMVT36eLRTYm
+  duplicateSource: null
+_key: '!items!QWHgt0jEAfz4fih5'
+

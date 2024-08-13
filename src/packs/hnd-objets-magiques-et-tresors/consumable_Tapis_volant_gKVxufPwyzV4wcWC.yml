@@ -1,0 +1,162 @@
+_id: gKVxufPwyzV4wcWC
+name: Tapis volant
+type: consumable
+img: icons/equipment/back/cloak-hooded-pink.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Quand vous prononcez le mot de commande de ce tapis par une action, il
+      flotte dans les airs. Il se déplace en volant selon vos indications
+      vocales tant que vous vous trouvez à 9 mètres ou moins de lui.</p>
+
+      <p>Il existe quatre tailles de tapis. C'est au MJ de choisir celle de
+      chaque tapis ou de la déterminer au hasard.</p>
+
+      <table>
+
+      <tbody>
+
+      <tr>
+
+      <th class="center">d100</th>
+
+      <th>Dimension</th>
+
+      <th>Capacité</th>
+
+      <th>Vitesse<br>de vol</th>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">01-20</td>
+
+      <td>0,90 m x 1,50 m</td>
+
+      <td>100 kilos</td>
+
+      <td>24 mètres</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">21-55</td>
+
+      <td>1,20 m x 1,80 m</td>
+
+      <td>200 kilos</td>
+
+      <td>18 mètres</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">56-80</td>
+
+      <td>1,50 m x 2,10 m</td>
+
+      <td>300 kilos</td>
+
+      <td>12 mètres</td>
+
+      </tr>
+
+      <tr>
+
+      <td class="center">81-100</td>
+
+      <td>1,80 m x 2,70 m</td>
+
+      <td>400 kilos</td>
+
+      <td>9 mètres</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br>Un tapis peut porter deux fois le poids indiqué dans la table mais,
+      s'il porte plus que sa capacité normale, il se déplace à la moitié de la
+      vitesse indiquée.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 5
+  price: 12000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+    autoUse: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701320
+  modifiedTime: 1663923702830
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!gKVxufPwyzV4wcWC'
+

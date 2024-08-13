@@ -1,0 +1,111 @@
+name: Souffle de givre [Voie des glace]
+type: feat
+img: icons/creatures/abilities/dragon-ice-breath-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.WaV6D3pXdmRACLrS
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickOther:
+      context: ''
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+_id: 5QeW0J8gHvZTYjSm
+system:
+  description:
+    value: >-
+      <h3><strong>Souffle de givre</strong></h3><p>Au niveau 14, vous pouvez
+      mettre fin prématurément à votre rage pour produire un souffle glacial.
+      Toutes les créatures présentes dans un cône de 18 mètres doivent effectuer
+      un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution. Celles qui le ratent subissent 8d8
+      dégâts de froid, les autres la moitié seulement.</p><p>À partir du niveau
+      18, vous infligez 8d10 dégâts de froid au lieu de 8d8.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: special
+    cost: 0
+    condition: Mettre prématurément fin à sa rage
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 18
+    width: null
+    units: m
+    type: cone
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 8d8
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685181
+  modifiedTime: 1678423323809
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.WaV6D3pXdmRACLrS
+  duplicateSource: null
+_key: '!items!5QeW0J8gHvZTYjSm'
+

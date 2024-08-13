@@ -1,0 +1,160 @@
+_id: UYCrdfFZ6vvjzm7X
+name: Sorts de serment [Serment de Piété]
+type: feat
+flags: {}
+img: icons/magic/light/beam-rays-yellow-blue-small.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-de-serment-5"><strong>Sorts de serment&nbsp;</strong></h3>
+
+      <p>Vous gagnez des sorts de serment aux niveaux de paladin
+      indiqu&eacute;s.</p>
+
+      <div>
+
+      <table style="width: 363px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 116px;">Niv. de paladin</th>
+
+      <th style="width: 244px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 114px;">3</td>
+
+      <td style="width:
+      242px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.GMQ7uhT4gQKD6ZSx]{B&eacute;n&eacute;diction}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.PN7ncM2wxoYIL8Ur]{Sanctuaire}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 114px;">5</td>
+
+      <td style="width:
+      242px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH]{Augure}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.zOHt9ucevU9YJgXx]{Pri&egrave;re
+      de soins}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 114px;">9</td>
+
+      <td style="width:
+      242px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.kQ8CoIa3QIiB17qH]{Esprits
+      gardiens}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jXic56MYGyQVvGnt]{Lever
+      une mal&eacute;diction}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 114px;">13</td>
+
+      <td style="width:
+      242px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M]{Divination}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.WjUqiOkhbUN16Jiq]{Gardien
+      de la foi}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 114px;">17</td>
+
+      <td style="width:
+      242px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.5bDjnKXUiY5VqSe5]{Communion}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6]{Rappel
+      &agrave; la vie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685413
+  modifiedTime: 1663923686886
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!UYCrdfFZ6vvjzm7X'
+

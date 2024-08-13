@@ -1,0 +1,100 @@
+_id: 39OPSkIbhSIfCL1d
+name: ni noble ni homme du peuple (Sang-bleu -batard)
+type: feat
+img: icons/creatures/eyes/human-single-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  HD: aptitudeHistorique
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <p>Vous êtes à l'aise auprès des gens du peuple, et savez comment vous
+      faire passer pour l'un d'entre eux. Mais vous pouvez aussi vous faire
+      passer pour un homme de noble lignage si nécessaire. Les gardes, soldats,
+      miliciens et sous-fifres vous considèrent toujours comme un noble si vous
+      le désirez. Mais vous savez aussi toujours où trouver une personne à qui
+      parler parmi les serviteurs afin de découvrir l'information de votre choix
+      (avec l'aval du MJ).</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: sang-bleu
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  jeEWpAXhNr8a02gW: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703905
+  modifiedTime: 1663923703945
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!39OPSkIbhSIfCL1d'
+

@@ -1,0 +1,143 @@
+_id: zHcHKHlQekhth0nH
+name: Arbalète de poing
+type: weapon
+img: icons/weapons/crossbows/crossbow-simple-brown.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  obsidian:
+    category: martial
+    type: ranged
+    mode: melee
+    tags:
+      light: true
+      loading: true
+    magical: false
+    effects:
+      - name: ''
+        uuid: 47d82ac2-7dfe-4e3a-ba6c-11d6c8cc8ae9
+        components:
+          - type: attack
+            uuid: 03598b1a-0b7f-43e6-a740-e751eb7cbde4
+            attack: ranged
+            category: weapon
+            ability: ''
+            bonus: 0
+            crit: 20
+            proficient: false
+            reach: null
+            range1: null
+            range2: null
+            target: ''
+          - type: damage
+            uuid: 09ff627b-33c0-4212-83bd-1c9a3d2dc73a
+            calc: formula
+            ndice: 1
+            die: 6
+            ability: str
+            bonus: 0
+            damage: prc
+            versatile: false
+    version: 7
+system:
+  description:
+    value: >-
+      <p>Une arbalète légère conçue pour être tenue dans une main ou attachée au
+      poignet pour tirer des carreaux.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 1
+  weight: 1.5
+  price: 75
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 9
+    long: 36
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialR
+  baseItem: handcrossbow
+  properties:
+    amm: true
+    lgt: true
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+    lod: true
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700689
+  modifiedTime: 1663923700689
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!zHcHKHlQekhth0nH'
+

@@ -1,0 +1,93 @@
+name: Défenseur de la forêt [Le Bois Ancien]
+type: feat
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7OaJ3DGMFD8ox0Bx
+img: icons/magic/nature/barrier-shield-wood-vines.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="benediction-du-tenebreux"><strong>Défenseur de la
+      forêt</strong></h3><p>Au niveau 1, votre protecteur vous offre les
+      compétences nécessaires pour le défendre. </p><p>Vous gagnez la maîtrise
+      des boucliers et vous apprenez le tour de
+      magie@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.OIUJrZVZ8nqLLqiv]{
+      gourdin magique}. </p><p>Gourdin magique est considéré comme un tour de
+      magie de sorcier, mais ne compte pas dans le nombre de tours de magie que
+      vous connaissez.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: cha
+  actionType: heal
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '@classes.sorcier.levels + @abilities.cha.mod'
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Sorcier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685200
+  modifiedTime: 1679677108455
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7OaJ3DGMFD8ox0Bx
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 8i5HaG9OM7dhcZT3
+_key: '!items!8i5HaG9OM7dhcZT3'
+

@@ -1,0 +1,88 @@
+name: Prémonition [Oracle]
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.9QnImnln0nhpsHL3
+_id: eJNhduLiSS6f7ZuZ
+system:
+  description:
+    value: >-
+      <p>La prémonition d'un événement qui risque de vous affecter vous permet
+      d'augmenter vos chances d'y échapper.</p>
+
+      <p>À partir du niveau 6, vous pouvez utiliser les dés acquis par
+      l'aptitude
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.UfYvhk2jijQ0cosZ]{Champs
+      des possibles [Oracle]}, pour imposer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>
+      sur un test d'attaque réalisé contre vous par le MJ</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685483
+  modifiedTime: 1663923687175
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.9QnImnln0nhpsHL3
+  duplicateSource: null
+_key: '!items!eJNhduLiSS6f7ZuZ'
+

@@ -1,0 +1,85 @@
+name: Masochisme
+type: feat
+img: icons/weapons/misc/whip-red-yellow.webp
+system:
+  description:
+    value: >-
+      <p style="text-align:justify">À partir du niveau 14, vous pouvez utiliser
+      votre réaction pour échouer intentionnellement à un jet de sauvegarde
+      contre un sort qui vous inflige des dégâts et qui a été lancé par une
+      créature hostile. </p><p style="text-align:justify">Si vous le faites,
+      vous regagnez un nombre de points de sorcellerie dépensés égal à la moitié
+      de votre modificateur de Charisme (minimum de 1).</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes - Kobold Press
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Affamé
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.LtptuNrGj29KUIbA
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1680510109662
+  modifiedTime: 1680510171201
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.LtptuNrGj29KUIbA
+  duplicateSource: null
+folder: null
+sort: 0
+_id: q51w3j7LxRocjhg8
+_key: '!items!q51w3j7LxRocjhg8'
+

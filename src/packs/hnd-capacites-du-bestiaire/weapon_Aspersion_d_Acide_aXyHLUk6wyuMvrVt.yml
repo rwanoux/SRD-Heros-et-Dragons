@@ -1,0 +1,110 @@
+name: Aspersion d'Acide
+type: weapon
+flags: {}
+img: icons/magic/acid/projectile-glowing-bubbles.webp
+_id: aXyHLUk6wyuMvrVt
+system:
+  description:
+    value: >-
+      <p><strong>Aspersion acide.</strong> La créature crache de l'acide sur une
+      ligne de 9 mètres de long et de 1,50 mètre de large, à condition qu'il
+      n'empoigne aucune créature. Les cibles sur cette ligne doivent chacune
+      effectuer un jet de sauvegarde de Dextérité ; elles subissent des dégâts
+      d'acide en cas de jet de sauvegarde raté ou la moitié de ces dégâts
+      seulement en cas de réussite.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: true
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: m
+    type: line
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: flat
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    two: false
+    rch: false
+    lod: false
+    fir: false
+    fin: false
+    foc: false
+    thr: false
+    lgt: false
+    hvy: false
+    amm: false
+    ver: false
+    rel: false
+    ret: false
+    spc: false
+  proficient: true
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698873
+  modifiedTime: 1663923699799
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!aXyHLUk6wyuMvrVt'
+

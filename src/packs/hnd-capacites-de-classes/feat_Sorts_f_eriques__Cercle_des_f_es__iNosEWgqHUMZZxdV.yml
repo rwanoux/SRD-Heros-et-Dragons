@@ -1,0 +1,187 @@
+_id: iNosEWgqHUMZZxdV
+name: Sorts féeriques [Cercle des fées]
+type: feat
+flags: {}
+img: icons/magic/air/air-burst-spiral-large-yellow.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sorts-feeriques"><strong>Sorts f&eacute;eriques</strong></h3>
+
+      <p>Vous avez appris la magie secr&egrave;te du peuple des f&eacute;es. Du
+      niveau 2 au niveau 9, vous obtenez acc&egrave;s aux sorts suivants. Ces
+      sorts sont toujours pr&eacute;par&eacute;s et ils ne comptent pas dans le
+      nombre maximum de sorts que vous pouvez pr&eacute;parer. Si vous apprenez
+      un sort qui n'appara&icirc;t pas dans la liste de&nbsp;<a
+      href="https://5e-drs.fr/grimoire/?classes=Druide">sorts de druide</a>,
+      consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>
+
+      <div>
+
+      <table style="width: 367px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 91px;">Niv. de druide</th>
+
+      <th style="width: 272px;">Sorts f&eacute;&eacute;riques</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 91px;">2</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.1IokCw1kdUBTdLBw]{Appel
+      de familier}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">3</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.erm3JdSRapDqIe7a]{Invisibilit&eacute;}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">4</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD]{Pas
+      brumeux}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">5</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.A0CLNbvrSJt91EK6]{Confusion}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">6</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.GvN5vk3gT6KsDPfK]{Nuage
+      puant}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">7</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g6PEhEFxoKoangxJ]{Porte
+      dimensionnelle}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">8</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1]{Terrain
+      hallucinatoire}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 91px;">9</td>
+
+      <td style="width:
+      272px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.3O9ay2RHO37HnHr2]{Tromperie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685589
+  modifiedTime: 1663923687344
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!iNosEWgqHUMZZxdV'
+

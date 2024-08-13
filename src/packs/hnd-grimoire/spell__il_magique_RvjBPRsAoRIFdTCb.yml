@@ -1,0 +1,121 @@
+_id: RvjBPRsAoRIFdTCb
+name: Œil magique
+type: spell
+flags: {}
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+system:
+  description:
+    value: >-
+      <p>Vous créez un œil magique invisible à portée, qui flotte dans les airs
+      pendant toute la durée du sort. Il vous envoie mentalement des
+      informations visuelles grâce à sa vision normale et dans le noir dans un
+      rayon de 9 mètres. Il peut regarder dans toutes les directions.</p>
+
+      <p>Par une action, vous pouvez déplacer l'œil d'un maximum de 9 mètres
+      dans la direction de votre choix. Il peut s'éloigner de vous sur une
+      distance illimitée, mais il ne peut pas entrer dans un autre plan
+      d'existence. Une barrière solide l'empêche de passer, mais il peut se
+      glisser à travers une ouverture d'au minimum 2,5 centimètres de
+      diamètre.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Des poils de chauve-souris
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688037
+  modifiedTime: 1663923688922
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!RvjBPRsAoRIFdTCb'
+

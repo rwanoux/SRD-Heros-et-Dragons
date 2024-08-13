@@ -1,0 +1,91 @@
+name: Frappe de l'aube
+type: feat
+img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 3, lorsque vous infligez des dégâts avec votre
+      attaque sournoise, vous pouvez transformer par magie les dégâts
+      supplémentaires infligés en dégâts radiants.</p><p>Lorsque vous infligez
+      une attaque sournoise radiante à un mort-vivant ou à une créature de
+      l'ombre, vous infligez 1d6 dégâts radiants supplémentaires.</p>
+    chat: ''
+    unidentified: ''
+  source: Warlock Grimoire - Kobold Press
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aubelame
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.vOsh15qKCUonTLTq
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678364178385
+  modifiedTime: 1678415042751
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.vOsh15qKCUonTLTq
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 3QgH9w9Ywd3m4EHQ
+_key: '!items!3QgH9w9Ywd3m4EHQ'
+

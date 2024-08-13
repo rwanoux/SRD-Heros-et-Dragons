@@ -1,0 +1,83 @@
+_id: xvrjTRH55qQxzxwV
+name: Monture Magique
+type: feat
+flags: {}
+img: icons/tools/smithing/horseshoe-steel-blue.webp
+system:
+  description:
+    value: >-
+      <p><strong>Monture magique.</strong> La créature étend sa résistance aux
+      dégâts nécrotique à toute personne qui le monte De plus il peut utiliser,
+      sur lui-même uniquement, le sort marche sur l'eau. Il doit terminer un
+      repos court avant de pouvoir à nouveau utiliser cette capacité. La
+      créature n'accepte de servir de monture que pour des créatures
+      d'alignement Loyal Bon, Neutre Bon ou Loyal Neutre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions.
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923699008
+  modifiedTime: 1663923700342
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!xvrjTRH55qQxzxwV'
+

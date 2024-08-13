@@ -1,0 +1,163 @@
+_id: a4BJg7IX7C9hdX0N
+name: Domaine Protection [Prêtre]
+type: feat
+flags:
+  core:
+    sourceId: Item.ajdr3lK4ARsBpEWO
+img: icons/magic/light/beam-rays-orange-small.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="nuit-tenebres"><strong>Protection</strong></h3>
+
+      <div>
+
+      <table style="width: 369px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 81px;">Niveau de Clerc</th>
+
+      <th style="width: 285px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">1</td>
+
+      <td style="width: 285px;">
+
+      <h4
+      id="canalisation-d-energie-divine-aptitude-de-domaine">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.66IkCOSiLUKg3UiL]{Alarme}</h4>
+
+      </td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">3</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l8ovgCzZX50c8OYI]{Flou}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">5</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.tU25dAh8zVou3ylf]{Cercle
+      magique}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">7</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fSsJkOL76GujF8xV]{Chien
+      de garde}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 81px; text-align: center;">9</td>
+
+      <td style="width:
+      285px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.C8yaeDi60V5N67xh]{Coquille
+      antivie}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+
+      <p>&nbsp;</p>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L56IgpldhmDwjfBH]{Canalisation
+      divine : Protection - R&eacute;sistance [Pr&ecirc;tre]}</p>
+
+      <h3 id="air"></h3>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685450
+  modifiedTime: 1663923687040
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.ajdr3lK4ARsBpEWO
+  duplicateSource: null
+_key: '!items!a4BJg7IX7C9hdX0N'
+

@@ -1,0 +1,88 @@
+name: Sacrifice ultime [Mage de guerre]
+type: feat
+img: icons/magic/death/skull-fire-white-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.Yiy3oWLHXZMmqysT
+_id: Bgys0yxczgoimiWd
+system:
+  description:
+    value: >-
+      <p>Également à partir du niveau 14, lorsque vous tombez à 0 PV, vous
+      pouvez utiliser votre réaction pour lancer un dernier sort de votre
+      choix.</p>
+
+      <p>Vous bénéficiez d'un bonus de deux niveaux d'emplacement de sort pour
+      augmenter la puissance de ce sort.</p>
+
+      <p>Vous devez prendre un repos long avant de pouvoir à nouveau utiliser
+      cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685230
+  modifiedTime: 1663923686319
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Yiy3oWLHXZMmqysT
+  duplicateSource: null
+_key: '!items!Bgys0yxczgoimiWd'
+

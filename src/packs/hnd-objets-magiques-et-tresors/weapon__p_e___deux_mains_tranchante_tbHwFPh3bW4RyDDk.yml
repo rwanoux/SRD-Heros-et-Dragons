@@ -1,0 +1,134 @@
+_id: tbHwFPh3bW4RyDDk
+name: Épée à deux mains tranchante
+type: weapon
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: >-
+      Compendium.srd-heros-et-dragons.HnD-objets-magiques-et-trésors.O401YDL9kO7PKD3e
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Quand vous réussissez une attaque contre un objet avec cette arme
+      magique, considérez que le(s) dé(s) de dégâts de l'arme obtient le plus
+      haut résultat contre la cible.</p>
+
+      <p>Quand vous attaquez une créature avec cette arme et obtenez un 20 au
+      jet d'attaque, la cible subit 4d6 dégâts tranchants supplémentaires.
+      Lancez ensuite un autre d20. Si vous obtenez un 20, vous lui tranchez un
+      de ses membres et l'effet de cette perte est laissé à l'appréciation du
+      MJ. Si la créature ne possède aucun membre à trancher, vous tranchez une
+      partie de son corps à la place.</p>
+
+      <p>En outre, vous pouvez prononcer le mot de commande de l'épée pour que
+      la lame diffuse une lumière vive sur un rayon de 3 mètres et une lumière
+      faible 3 mètres au-delà. La lumière s'éteint si le mot de commande est
+      prononcé une deuxième fois ou si l'épée est rengainée.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 3
+  price: 1700
+  attunement: 1
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: Mot de commande.
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 3
+    long: 6
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - slashing
+    versatile: ''
+  formula: 4d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: greatsword
+  properties:
+    amm: false
+    hvy: true
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: true
+    ver: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  U1d1Ul3JPm288fi5: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701442
+  modifiedTime: 1663923703189
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: >-
+    Compendium.srd-heros-et-dragons.HnD-objets-magiques-et-trésors.O401YDL9kO7PKD3e
+  duplicateSource: null
+_key: '!items!tbHwFPh3bW4RyDDk'
+

@@ -1,0 +1,112 @@
+name: Création de spectre
+type: feat
+flags:
+  _sheetTab: description
+img: icons/creatures/abilities/dragon-breath-purple.webp
+_id: TfxIYvE1ueoagQ9W
+system:
+  description:
+    value: >-
+      <p><strong>Création de spectre. </strong>L'âme-en-peine cible un humanoïde
+      mort depuis moins d'une minute d'une mort violente et situé à 3 mètres ou
+      moins d'elle. L'esprit de la cible s'élève alors sous forme de spectre
+      dans l'emplacement occupé par son cadavre ou dans l'emplacement inoccupé
+      le plus proche. Le spectre est contrôlé par l'âme-en-peine qui ne peut
+      contrôler de la sorte plus de sept spectres en même temps.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698845
+  modifiedTime: 1663923699700
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TfxIYvE1ueoagQ9W'
+

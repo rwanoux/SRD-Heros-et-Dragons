@@ -1,0 +1,92 @@
+_id: aIINJSqkCV8D4R1o
+name: Maîtrise - Invocation [Académicien]
+type: feat
+flags:
+  core:
+    sourceId: Item.pU9B82Nr8eySjHDW
+img: icons/magic/symbols/runes-star-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong><span style="color: #2e1f49; font-family: Friz, sans-serif;
+      font-size: 13px;">Invocation</span></strong></h3>
+
+      <p><span style="color: #2e1f49; font-family: Friz, sans-serif; font-size:
+      13px;"><strong>Invocation tenace :</strong>&nbsp;Vos sorts d'invocation
+      sont plus difficiles &agrave; dissiper, ils n&eacute;cessitent un test
+      d'Intelligence r&eacute;ussi quel que soit leur niveau. Ceux de niveau 4
+      et sup&eacute;rieur imposent un </span><a style="box-sizing: border-box;
+      user-select: text; font-family: Friz, sans-serif; font-size: 13px;"
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a><span
+      style="color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;">
+      au test. De plus, les cr&eacute;atures que vous invoquez obtiennent 2
+      points de vie temporaires par niveau du sort</span></p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Magicien
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685452
+  modifiedTime: 1663923687053
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.pU9B82Nr8eySjHDW
+  duplicateSource: null
+_key: '!items!aIINJSqkCV8D4R1o'
+

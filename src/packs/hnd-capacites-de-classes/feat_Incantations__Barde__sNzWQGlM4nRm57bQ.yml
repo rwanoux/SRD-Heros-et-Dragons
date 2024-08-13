@@ -1,0 +1,92 @@
+_id: sNzWQGlM4nRm57bQ
+name: Incantations [Barde]
+type: feat
+img: icons/magic/water/water-hand.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: "<h3><strong>Incantations</strong></h3>\n<p style=\"font-size:14px\">Vous avez appris à remodeler la trame de la réalité en harmonie avec vos souhaits et votre musique. Vos sorts sont une partie intégrante de votre vaste répertoire, une magie que vous pouvez adapter en fonction de la situation.</p>\n<h3 id=\"incantations\"></h3>\n<h3 id=\"tours-de-magie\"><strong>Tours de magie</strong></h3>\n<p style=\"font-size:14px\">Vous connaissez deux tours de magie de votre choix parmi la liste de\_<a href=\"https://5e-drs.fr/grimoire/?classes=Barde\">sorts de barde</a>. Vous pouvez apprendre d'autres tours de magie de barde à des niveaux supérieurs, comme indiqué dans la colonne tours de magie connus du tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Sju9jEDMiQHssRaj]{Barde}.</p>\n<h3 id=\"emplacements-de-sorts\"><strong>Emplacements de sorts</strong></h3>\n<p style=\"font-size:14px\">Vous trouverez dans le tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Sju9jEDMiQHssRaj]{Barde} le nombre d'emplacements de sorts que vous avez et qui vous permettent de lancer des sorts de niveau 1 ou supérieur. Pour lancer l'un de ces sorts, vous devez utiliser un emplacement de sort d'un niveau équivalent ou supérieur au sort que vous voulez lancer. Vous regagnez tous les emplacements de sort que vous avez utilisés après un repos long.</p>\n<p style=\"font-size:14px\">Par exemple, si vous connaissez le sort de niveau 1 @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I]{Soin des blessures}\_et que vous avez un emplacement de sort de niveau 1 et un emplacement de sort de niveau 2 disponibles, vous pouvez utiliser au choix l'un de ces deux emplacements pour lancer ce sort.</p>\n<h3 id=\"sorts-connus-de-niveau-1-et-superieur\"><strong>Sorts connus de niveau 1 et supérieur</strong></h3>\n<p style=\"font-size:14px\">Vous connaissez quatre sorts de niveau 1 choisis dans la liste de\_<a href=\"https://5e-drs.fr/grimoire/?classes=Barde\">sorts de barde</a>.</p>\n<p style=\"font-size:14px\">La colonne sorts connus du tableau d'évolution du @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Sju9jEDMiQHssRaj]{Barde} vous indique à quels niveaux et combien de nouveaux sorts vous pouvez apprendre. Vous ne pouvez par contre apprendre que des sorts que vous êtes en mesure de lancer grâce à vos emplacements de sorts. Par exemple, quand vous atteignez le niveau 3 de cette classe, vous pouvez apprendre des sorts de niveau 1 ou 2.</p>\n<p style=\"font-size:14px\">De plus, quand vous gagnez un niveau dans cette classe, vous pouvez choisir un sort de barde que vous connaissez et le remplacer par un autre sort de la liste de\_<a href=\"https://5e-drs.fr/grimoire/?classes=Barde\">sorts de barde</a>. Il doit aussi s'agir d'un sort que vous êtes en mesure de lancer.</p>\n<h3 id=\"caracteristique-d-incantation\"><strong>Caractéristique d'incantation</strong></h3>\n<p style=\"font-size:14px\">La caractéristique d'incantation que vous utilisez pour les sorts de barde est le Charisme. Votre magie est issue de votre cœur et de votre âme, de tout ce que vous insufflez dans votre musique ou vos oraisons. Vous utilisez votre Charisme dès qu'un sort fait appel à votre caractéristique d'incantation. De plus, vous utilisez votre modificateur de Charisme afin de définir le DD du\_<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>\_d'un sort de barde que vous avez lancé et quand vous faites une attaque avec un sort de barde.</p>\n<p style=\"font-size:14px\">DD d'un\_<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>\_= 8 + votre bonus de maîtrise + votre modificateur de Charisme</p>\n<p style=\"font-size:14px\">Modificateur d'attaque de sort = votre bonus de maîtrise + votre modificateur de Charisme</p>\n<h3 id=\"incantation-rituelle\"><strong>Incantation rituelle</strong></h3>\n<p style=\"font-size:14px\">Vous pouvez lancer tous les sorts de barde que vous connaissez sous la forme d'un rituel dans la mesure où ceux-ci possèdent le sous-type rituel.</p>\n<h3 id=\"focaliseur-d-incantation\"><strong>Focaliseur d'incantation</strong></h3>\n<p style=\"font-size:14px\">Vous pouvez utiliser un instrument de musique (voir le chapitre\_<a href=\"https://5e-drs.fr/equipement-d-aventurier/\">Équipement</a>) comme focaliseur d'incantation pour vos sorts de barde.</p>\n<p>\_</p>\n<div>\n<table style=\"width:380px;height:467px\">\n<thead>\n<tr>\n<th style=\"width:53px\" rowspan=\"2\">Niveau</th>\n<th style=\"width:60px\" rowspan=\"2\">Tours de magie connus</th>\n<th style=\"width:55px\" rowspan=\"2\">Sorts connus</th>\n<th style=\"width:207px\" colspan=\"9\">Emplacements de sorts par niveau de sort</th>\n</tr>\n<tr>\n<th style=\"width:27px\">1er</th>\n<th style=\"width:21px\">2e</th>\n<th style=\"width:21px\">3e</th>\n<th style=\"width:21px\">4e</th>\n<th style=\"width:21px\">5e</th>\n<th style=\"width:22px\">6e</th>\n<th style=\"width:22px\">7e</th>\n<th style=\"width:22px\">8e</th>\n<th style=\"width:22px\">9e</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width:51px\">1</td>\n<td style=\"width:58px\">2</td>\n<td style=\"width:53px\">4</td>\n<td style=\"width:25px\">2</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">2</td>\n<td style=\"width:58px\">2</td>\n<td style=\"width:53px\">5</td>\n<td style=\"width:25px\">3</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">3</td>\n<td style=\"width:58px\">2</td>\n<td style=\"width:53px\">6</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">4</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">7</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">5</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">8</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">6</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">9</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">7</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">10</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">1</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">8</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">11</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:19px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">9</td>\n<td style=\"width:58px\">3</td>\n<td style=\"width:53px\">12</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">1</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">10</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">14</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">11</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">15</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">12</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">15</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">13</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">16</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">14</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">18</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">15</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">19</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">16</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">19</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">-</td>\n</tr>\n<tr>\n<td style=\"width:51px\">17</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">20</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n</tr>\n<tr>\n<td style=\"width:51px\">18</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">22</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n</tr>\n<tr>\n<td style=\"width:51px\">19</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">22</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:20px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n</tr>\n<tr>\n<td style=\"width:51px\">20</td>\n<td style=\"width:58px\">4</td>\n<td style=\"width:53px\">22</td>\n<td style=\"width:25px\">4</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:19px\">3</td>\n<td style=\"width:20px\">2</td>\n<td style=\"width:20px\">2</td>\n<td style=\"width:20px\">1</td>\n<td style=\"width:20px\">1</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h2 id=\"aptitudes-de-classe\"></h2>"
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barde
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685656
+  modifiedTime: 1663923687613
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sNzWQGlM4nRm57bQ'
+

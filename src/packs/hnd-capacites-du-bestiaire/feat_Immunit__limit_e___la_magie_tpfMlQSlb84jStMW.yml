@@ -1,0 +1,82 @@
+name: Immunité limitée à la magie
+type: feat
+flags: {}
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+_id: tpfMlQSlb84jStMW
+system:
+  description:
+    value: >-
+      <p><strong>Immunit&eacute; limit&eacute;e &agrave; la magie.</strong> La
+      cr&eacute;ature ne peut pas &ecirc;tre affect&eacute; ou
+      d&eacute;tect&eacute; par des sorts de niveau 6 ou moins, &agrave; moins
+      qu'elle ne le souhaite. Elle obtient un avantage lors des jets de
+      sauvegarde contre tous les autres sorts et effets magiques.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698990
+  modifiedTime: 1663923700283
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!tpfMlQSlb84jStMW'
+

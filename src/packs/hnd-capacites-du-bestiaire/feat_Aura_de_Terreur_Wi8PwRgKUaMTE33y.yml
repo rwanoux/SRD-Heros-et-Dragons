@@ -1,0 +1,84 @@
+_id: Wi8PwRgKUaMTE33y
+name: Aura de Terreur
+type: feat
+flags: {}
+img: icons/magic/control/fear-fright-shadow-monster-green.webp
+system:
+  description:
+    value: >-
+      <p><strong>Aura de terreur. </strong>Toutes les créatures hostiles envers
+      le diantrefosse qui commencent leur tour à 6 mètres ou moins de lui
+      doivent chacune effectuer un jet de sauvegarde de Sagesse DD 21, sauf si
+      le diantrefosse est neutralisé. Les créatures qui ratent leur jet de
+      sauvegarde sont terrorisées jusqu'au début de leur prochain tour. Celles
+      qui réussissent leur jet de sauvegarde sont immunisées contre l'aura de
+      terreur du diantrefosse pendant 24 heures.&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: lair
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 21
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698859
+  modifiedTime: 1663923699751
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Wi8PwRgKUaMTE33y'
+

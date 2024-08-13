@@ -1,0 +1,153 @@
+_id: 5W8vZlsmliSD0o1t
+name: Sorts de domaine [Gardien des Traditions]
+type: feat
+flags: {}
+img: icons/magic/life/ankh-gold-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <div>
+
+      <h3 id="sorts-de-domaine-2"><strong>Sorts de domaine</strong></h3>
+
+      <p>Vous obtenez les sorts suivants au niveau de clerc indiqu&eacute;
+      ci-dessous.</p>
+
+      <table style="width: 369px;">
+
+      <thead>
+
+      <tr>
+
+      <th style="width: 90px;">Niveau de clerc</th>
+
+      <th style="width: 276px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr>
+
+      <td style="width: 90px;">1</td>
+
+      <td style="width:
+      276px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.e2HCAPfFpgKKdsrI]{Protection
+      contre le mal et le bien}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 90px;">3</td>
+
+      <td style="width:
+      276px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH]{Augure}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 90px;">5</td>
+
+      <td style="width:
+      276px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t]{Communication
+      avec les morts}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 90px;">7</td>
+
+      <td style="width:
+      276px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M]{Divination}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width: 90px;">9</td>
+
+      <td style="width:
+      276px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.K5tUTgzlyvyjbwGh]{Coercition
+      mystique}<br /><br /></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685183
+  modifiedTime: 1663923686146
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!5W8vZlsmliSD0o1t'
+

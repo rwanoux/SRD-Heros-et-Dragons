@@ -1,0 +1,156 @@
+_id: s2tGrmxfOCAeghIr
+name: Sphère de feu
+type: spell
+flags:
+  rsr5e:
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickOther:
+      context: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+img: icons/magic/light/explosion-star-large-orange.webp
+system:
+  description:
+    value: >-
+      <p>Une sphère de feu de 1,50 mètre de diamètre apparaît dans un espace
+      inoccupé de votre choix situé à portée et subsiste pendant toute la durée
+      du sort. Chaque créature qui termine son tour dans un rayon de 1,50 mètre
+      autour de la sphère doit effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. Celles qui échouent subissent 2d6 dégâts
+      de feu, les autres la moitié seulement.</p>
+
+      <p>Vous pouvez déplacer la sphère sur un maximum de 9 mètres par une
+      action bonus. Si vous lui faites heurter une créature, cette dernière doit
+      réussir un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> ou subir les dégâts de la sphère, qui arrête de se
+      déplacer pour ce tour.</p>
+
+      <p>Quand vous déplacez la sphère, vous pouvez lui faire franchir des
+      obstacles de 1,50 mètre de haut et la faire sauter par-dessus des fosses
+      de 3 mètres de large. Elle embrase les objets inflammables qui ne sont ni
+      portés ni transportés. Elle émet une lumière vive dans un rayon de 6
+      mètres et une lumière faible dans un rayon de 6 mètres
+      supplémentaires.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 3 ou supérieur, les dégâts augmentent
+      de 1d6 par niveau au-delà du niveau 2.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1.5
+    width: null
+    units: m
+    type: sphere
+    range:
+      value: '18'
+      unit: mètres
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 2
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un bout de suif, une pincée de soufre et un peu de poudre de fer
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923688207
+  modifiedTime: 1678417535377
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!s2tGrmxfOCAeghIr'
+

@@ -1,0 +1,118 @@
+name: Regard effroyable
+type: feat
+flags:
+  _sheetTab: ''
+img: icons/magic/death/undead-ghost-scream-teal.webp
+_id: TCjzcrGgibnc1bLi
+system:
+  description:
+    value: >-
+      <p><strong>Regard effroyable. </strong>La cr&eacute;ature cible une autre
+      cr&eacute;ature situ&eacute;e &agrave; 18 m&egrave;tres ou moins dans son
+      champ de vision. Si la cible peut voir la cr&eacute;ature, elle doit
+      r&eacute;ussir un jet de sauvegarde de Sagesse contre cette magie pour ne
+      pas &ecirc;tre terroris&eacute;e jusqu'&agrave; la fin du prochain tour de
+      la momie. Si la cible rate le jet de sauvegarde de 5 points ou plus, elle
+      est &eacute;galement paralys&eacute;e pendant la m&ecirc;me dur&eacute;e.
+      Une cible qui r&eacute;ussit le jet de sauvegarde est immunis&eacute;e
+      contre le regard effroyable de toutes les cr&eacute;atures du m&ecirc;me
+      type pendant 24 heures.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: flat
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  time:
+    value: ''
+    _deprecated: null
+  damageType:
+    value: ''
+    _deprecated: null
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698840
+  modifiedTime: 1663923699683
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TCjzcrGgibnc1bLi'
+

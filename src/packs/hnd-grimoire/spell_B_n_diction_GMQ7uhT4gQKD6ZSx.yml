@@ -1,0 +1,123 @@
+_id: GMQ7uhT4gQKD6ZSx
+name: Bénédiction
+type: spell
+flags: {}
+img: icons/magic/control/buff-flight-wings-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous bénissez jusqu'à trois créatures de votre choix situées à portée.
+      Quand une cible fait un <a
+      href="https://5e-drs.fr/combattre#jets-dattaque">jet d'attaque</a> ou <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">de
+      sauvegarde</a> avant la fin du sort, elle lance 1d4 et ajoute le résultat
+      obtenu au <a href="https://5e-drs.fr/combattre#jets-dattaque">jet
+      d'attaque</a> ou <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">de
+      sauvegarde</a>.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 2 ou supérieur, vous pouvez affecter
+      une créature de plus par niveau au-delà du niveau 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ''
+    type: creature
+    range:
+      value: '9'
+      unit: mètres
+  range:
+    value: 9
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d4
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un peu d'eau bénite à asperger
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923687997
+  modifiedTime: 1663923688764
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!GMQ7uhT4gQKD6ZSx'
+

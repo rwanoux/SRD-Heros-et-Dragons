@@ -1,0 +1,110 @@
+_id: tVqIzh2hMeTKZM7o
+name: Canalisation d'énergie divine [Serment de Rédemption] Défenseur
+type: feat
+flags:
+  core:
+    sourceId: Item.gVsvCO0oZ8rJCnHd
+img: icons/magic/light/beam-rays-yellow-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h4 id="canalisation-d-energie-divine-6" style="box-sizing: border-box;
+      user-select: text; color: #2e1f49; font-family: Friz, sans-serif;
+      font-size: 13px;"><strong style="box-sizing: border-box; user-select:
+      text;">Canalisation d'&eacute;nergie divine</strong></h4>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;">Le serment de
+      r&eacute;demption n'est accessible qu'&agrave; des paladins de niveau 3 ou
+      plus. Un paladin de niveau 1 ou 2 qui faillit &agrave; son devoir et qui
+      persiste dans l'erreur deviendra g&eacute;n&eacute;ralement un guerrier.
+      &Agrave; partir du niveau 3, un paladin qui fait serment de
+      r&eacute;demption remplace ses options de canalisation d'&eacute;nergie
+      divine par les options suivantes.</p>
+
+      <p style="box-sizing: border-box; user-select: text; color: #2e1f49;
+      font-family: Friz, sans-serif; font-size: 13px;"><strong
+      style="box-sizing: border-box; user-select:
+      text;">D&eacute;fenseur</strong>. En utilisant votre canalisation
+      d'&eacute;nergie divine, vous pouvez d&eacute;signer un de vos
+      alli&eacute;s dans un rayon de 6 m&egrave;tres autour de vous. &Agrave;
+      partir de ce moment et pendant 1 minute, lorsque cet alli&eacute; est
+      touch&eacute; par une attaque, vous pouvez utiliser une r&eacute;action
+      pour subir tous les d&eacute;g&acirc;ts dont il est victime &agrave; sa
+      place (hors d&eacute;g&acirc;ts de zone). Vous &ecirc;tes
+      consid&eacute;r&eacute; comme r&eacute;sistant &agrave; ces
+      d&eacute;g&acirc;ts. Vous pouvez interrompre cet effet &agrave; tout
+      moment. L'effet s'interrompt automatiquement si vous &ecirc;tes&nbsp;<a
+      style="box-sizing: border-box; user-select: text;"
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient">inconscient</a>&nbsp;ou&nbsp;<a
+      style="box-sizing: border-box; user-select: text;"
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#neutralise">neutralis&eacute;</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: none
+    cost: 0
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: any
+    type: ally
+  range:
+    value: null
+    long: 6
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: attribute
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685667
+  modifiedTime: 1663923687666
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.gVsvCO0oZ8rJCnHd
+  duplicateSource: null
+_key: '!items!tVqIzh2hMeTKZM7o'
+

@@ -1,0 +1,116 @@
+_id: ckMdRz2DR3BIxEBn
+name: Pièges [Traqueur]
+type: feat
+flags: {}
+img: icons/environment/traps/trap-jaw-steel.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="pieges"><strong>Pi&egrave;ges&nbsp;</strong></h3>
+
+      <p>&Eacute;galement au niveau 3, lorsque vous &ecirc;tes sur votre terrain
+      de pr&eacute;dilection, vous &ecirc;tes capable de pi&eacute;ger une zone
+      de 3 m&egrave;tres de c&ocirc;t&eacute; en seulement 5 minutes. Toute
+      cr&eacute;ature qui s'appr&ecirc;te &agrave; entrer dans la zone
+      pi&eacute;g&eacute;e doit faire un test de Sagesse (Perception) pour
+      d&eacute;tecter le pi&egrave;ge (difficult&eacute; &eacute;quivalente
+      &agrave; un sort). Vous pouvez choisir l'effet du pi&egrave;ge parmi deux
+      variantes :</p>
+
+      <p><strong>Pi&egrave;ge l&eacute;tal</strong>&nbsp;(projectile, fosse,
+      chausse-trappe, etc.). Inflige 1d6 d&eacute;g&acirc;ts par point de bonus
+      de ma&icirc;trise. Si la victime r&eacute;ussit un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Dext&eacute;rit&eacute;, elle ne subit que la
+      moiti&eacute; des d&eacute;g&acirc;ts.</p>
+
+      <p><strong>Pi&egrave;ge immobilisant</strong>&nbsp;(filet, collet, liane,
+      etc.). La victime est&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#entrave">entrav&eacute;e</a>&nbsp;pendant
+      2d6 rounds. &Agrave; son tour, elle peut utiliser son action pour se
+      d&eacute;livrer en r&eacute;ussissant une sauvegarde de Force ou de
+      Dext&eacute;rit&eacute; au choix.</p>
+
+      <p>Le DD est de 8 + votre modificateur de Dext&eacute;rit&eacute; + votre
+      bonus de ma&icirc;trise. Vous pouvez poser un pi&egrave;ge en seulement
+      1d6 rounds, mais la victime obtient un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>&nbsp;&agrave;
+      son test de comp&eacute;tence pour le d&eacute;tecter. Si vous passez 1
+      heure &agrave; poser un pi&egrave;ge, la victime subit un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;&agrave;
+      son test pour le d&eacute;tecter et pour en r&eacute;duire l'effet.</p>
+
+      <p>Un pi&egrave;ge qui a affect&eacute; une cr&eacute;ature n'est plus
+      actif. Il peut &ecirc;tre r&eacute;amorc&eacute; en seulement 1d6
+      rounds.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: minute
+    cost: 5
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 3
+    width: null
+    units: ft
+    type: square
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: abil
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - (@prof)d6
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685471
+  modifiedTime: 1663923687132
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!ckMdRz2DR3BIxEBn'
+

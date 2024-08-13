@@ -1,0 +1,110 @@
+_id: kmFgq8w71QxAJLIn
+name: Lutteur
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/lutteur.png
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p><strong>Pr&eacute;requis</strong> : Force 13 ou plus</p>
+
+      <p>Vous avez d&eacute;velopp&eacute; des comp&eacute;tences qui vous
+      permettent de bien vous d&eacute;brouiller quand vous luttez au
+      corps-&agrave;-corps. Vous obtenez les b&eacute;n&eacute;fices suivants
+      :</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Vous disposez d'un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-d%C3%A9savantage"><em>avantage</em></a>
+      sur vos attaques contre une cr&eacute;ature <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#empoign%C3%A9"><em>empoign&eacute;e</em></a>
+      par vous.</li>
+
+      <li>Vous pouvez utiliser votre action pour tenter d'immobiliser une
+      cr&eacute;ature que vous avez empoign&eacute;e. Vous devez d'abord faire
+      un autre test d'empoignade. Si vous r&eacute;ussissez, vous et la
+      cr&eacute;ature en question &ecirc;tes tous les deux
+      <em>entrav&eacute;s</em>.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ' Force 13 ou plus'
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685020
+  modifiedTime: 1663923685020
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!kmFgq8w71QxAJLIn'
+

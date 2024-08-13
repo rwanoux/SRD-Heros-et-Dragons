@@ -1,0 +1,128 @@
+_id: 1tKqUMeYwLyEP2mi
+name: Serment d'Obédience [Paladin]
+type: feat
+flags:
+  core:
+    sourceId: Item.lnbbFVqnvyBSMFCa
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+img: icons/magic/symbols/cog-shield-white-blue.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3><strong>Serment d'Ob&eacute;dience</strong></h3>
+
+      <p>Quand vous atteignez le niveau 3, vous pr&ecirc;tez un serment qui vous
+      engage &agrave; tout jamais. Jusqu'&agrave; ce moment-l&agrave;, vous
+      &eacute;tiez encore &agrave; un stade pr&eacute;paratoire, engag&eacute;
+      dans la voie, mais sans vous y &ecirc;tre enti&egrave;rement
+      d&eacute;vou&eacute;.&nbsp;</p>
+
+      <p>Votre choix vous permet d'avoir acc&egrave;s &agrave; des aptitudes
+      particuli&egrave;res aux niveaux 3, 7, 15 et 20. Parmi ces aptitudes se
+      trouvent les sorts de serment et la canalisation d'&eacute;nergie
+      divine.</p>
+
+      <p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KFmbT4ZTufmoDEZb]{Pr&eacute;ceptes
+      d'ob&eacute;dience [Serment d'Ob&eacute;dience]}</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>Niveau 3 :
+      </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KWz8TVQ6QulQrKQS]{Sorts
+      de serment [Serment d'Ob&eacute;dience]}</p>
+
+      <p><strong>Niveau 3 :
+      </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IgBj0bMjSEwiWRek]{Canalisation
+      d'&eacute;nergie divine [Serment d'Ob&eacute;dience]
+      Porte-&eacute;tendard}
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hQxW6q6iI30bJZ1l]{Canalisation
+      d'&eacute;nergie divine [Serment d'Ob&eacute;dience] Tacticien}</p>
+
+      <p><strong>Niveau 7 :</strong>
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6QUbP3zHUfyNHh4G]{Cri
+      de ralliement [Serment d'Ob&eacute;dience]}</p>
+
+      <p><strong>Niveau 15 :</strong>
+      @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WX2Fmh3H0y0Ianq8]{Charge
+      h&eacute;ro&iuml;que [Serment d'Ob&eacute;dience]}</p>
+
+      <p><strong>Niveau 20 :
+      </strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CnIYOXfad2SYzbXT]{H&eacute;ros
+      de Guerre [Serment d'Ob&eacute;dience]}</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685157
+  modifiedTime: 1678413010273
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.lnbbFVqnvyBSMFCa
+  duplicateSource: null
+_key: '!items!1tKqUMeYwLyEP2mi'
+

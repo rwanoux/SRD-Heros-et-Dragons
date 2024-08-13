@@ -1,0 +1,3576 @@
+_id: wo7vFzU8grudxVtx
+name: Gynosphinx
+type: npc
+img: icons/svg/cowled.svg
+items:
+  - _id: gU9XUjpEAPKND4XI
+    name: Armes Magiques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/weapons/swords/sword-runed-glowing.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes magiques.&nbsp;</strong>Les attaques d'arme du sphinx
+          sont magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.gU9XUjpEAPKND4XI'
+  - _id: xvpBaCJQE2L9o2yz
+    name: Incantation
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: ''
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation.</strong> Le sphinx est un lanceur de sorts de
+          niveau 9. Sa caractéristique d'incantation est l'Intelligence (DD
+          du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>contre les sorts 16, +8 pour toucher avec les
+          attaques de sort). Aucune composante matérielle n'est nécessaire pour
+          lancer ses sorts. Voici les sorts de magicien préparés par le sphinx
+          :</p>
+
+          <ul>
+
+          <li>Tours de magie (à volonté)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/illusion-mineure/">illusion
+          mineure</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/main-du-mage/">main du
+          mage</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/prestidigitation/">prestidigitation</a></li>
+
+          <li>1er niveau (4 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/bouclier/">bouclier</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/detection-de-la-magie/">détection de
+          la magie</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/identification/">identification</a></li>
+
+          <li>2e niveau (3 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/localiser-un-objet/">localiser un
+          objet</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/suggestion/">suggestion</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/tenebres/">ténèbres</a></li>
+
+          <li>3e niveau (3 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-de-la-magie/">dissipation
+          de la magie</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/langues/">langues</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/lever-une-malediction/">lever une
+          malédiction</a></li>
+
+          <li>4e niveau (3 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/bannissement/">bannissement</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/invisibilite-superieure/">invisibilité
+          supérieure</a></li>
+
+          <li>5e niveau (2 emplacements)&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/legende/">légende</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.xvpBaCJQE2L9o2yz'
+  - _id: uOdqiCeWdFikewsp
+    name: Insondable
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/perception/third-eye-blue-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Insondable. </strong>Le sphinx est immunisé contre les
+          effets susceptibles de percevoir ses émotions ou de lire ses pensées,
+          ainsi qu'aux sorts de divination qu'il refuse. Les tests de Sagesse
+          (Perspicacité) effectués pour déterminer les intentions ou la
+          sincérité du sphinx subissent un <a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.uOdqiCeWdFikewsp'
+  - _id: 1Jt50tMFqH1gA8CP
+    name: Attaques Multiples
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le sphinx effectue deux
+          attaques de griffe.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.1Jt50tMFqH1gA8CP'
+  - _id: NNykOY6gXXnRg6R3
+    name: Griffe
+    type: weapon
+    sort: 500000
+    flags:
+      _sheetTab: ''
+    img: icons/skills/melee/strike-slashes-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Griffes.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +8 pour toucher, allonge 1,50 m, une
+          cible.<br>Touché&nbsp;: 13 (2d8+4) dégâts tranchants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8 + @mod
+            - slashing
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.NNykOY6gXXnRg6R3'
+  - _id: 5nPo16508MsLdyss
+    name: Attaque de Griffe
+    type: feat
+    sort: 600000
+    flags: {}
+    img: icons/creatures/claws/claw-talons-glowing-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaque de griffe. </strong>La créature effectue une
+          attaque de griffe.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8+@mod
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.5nPo16508MsLdyss'
+  - _id: zcIo4oROF6D9bBye
+    name: Lance un sort
+    type: feat
+    sort: 700000
+    flags: {}
+    img: icons/magic/water/water-hand.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Lancer un sort.</strong>&nbsp;Le sphinx lance un sort
+          choisi parmi ceux de sa liste de sorts préparés, en utilisant un
+          emplacement de sort comme à l'accoutumée.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 3
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.zcIo4oROF6D9bBye'
+  - _id: 7StXxCNtlpO3oOEI
+    name: Téléportation
+    type: feat
+    sort: 800000
+    flags: {}
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Téléportation.&nbsp;</strong>Le sphinx se téléporte par
+          magie, avec tous ses objets équipés ou transportés, vers un
+          emplacement inoccupé situé dans son champ de vision à une distance
+          maximale de 36 mètres.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 2
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Gynosphinx
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.7StXxCNtlpO3oOEI'
+  - _id: avhea6FukK3T8IKS
+    name: Légende
+    type: spell
+    sort: 900000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/sundries/books/book-embossed-steel-brown.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Nommez ou décrivez une personne, un lieu ou un objet. Le sort porte
+          à votre connaissance un bref résumé des connaissances essentielles se
+          rapportant à la chose nommée. Ces connaissances peuvent se présenter
+          sous la forme d'histoires actuelles, de contes oubliés ou même d'un
+          savoir secret qui n'a jamais été révélé. Si la chose que vous nommez
+          n'est pas digne de figurer dans une légende, vous n'obtenez aucune
+          information. Plus vous possédez d'informations sur cette chose, plus
+          celles que vous recevez via le sort sont précises et détaillées.</p>
+
+          <p>Les informations obtenues sont exactes, mais susceptibles de se
+          présenter dans un langage figuré. Par exemple, si vous avez une
+          mystérieuse hache en main, le sort peut vous donner les renseignements
+          suivants : « <em>Malheur au malfaisant qui pose la main sur cette
+          hache, car même son manche peut entailler la main des mécréants. Seul
+          un véritable enfant de la pierre, un être qui aime Gorom et en est
+          aimé en retour, pourra éveiller la véritable puissance de cette hache,
+          à condition de prononcer le mot sacré Rudnogg.</em> »</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 10
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: >-
+          De l'encens d'une valeur minimale de 250 po que le sort consume et
+          quatre bandelettes d'ivoire valant au moins 50 po chaque
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.avhea6FukK3T8IKS'
+  - _id: MeRsOOeCfpfXgbXH
+    name: Bannissement
+    type: spell
+    sort: 1000000
+    flags: {}
+    img: icons/magic/control/energy-stream-link-spiral-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous tentez d'envoyer une créature située dans votre champ de
+          vision dans un autre plan d'existence. Elle doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Charisme ou être bannie.</p>
+
+          <p>Si la cible est native du plan d'existence sur lequel vous vous
+          trouvez, vous l'exilez dans un demi-plan inoffensif. Elle est <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#neutralisé"><em>neutralisée</em></a>
+          tant qu'elle se trouve là-bas et y reste jusqu'à la fin du sort. À ce
+          moment, elle réapparaît à l'endroit qu'elle a quitté, ou dans
+          l'emplacement inoccupé le plus proche si son emplacement de départ est
+          occupé.</p>
+
+          <p>Si la cible est originaire d'un plan d'existence autre que celui
+          sur lequel vous vous trouvez, une légère détonation accompagne son
+          retour contraint sur son plan d'origine. Si le sort se termine avant
+          que 1 minute ne se soit écoulée, la cible réapparaît à l'endroit
+          qu'elle a quitté, ou dans l'emplacement inoccupé le plus proche si son
+          emplacement de départ est occupé. Sinon, elle ne revient pas.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 5 ou supérieur, vous pouvez viser
+          une créature de plus par niveau au-delà du niveau 4.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: 16
+        scaling: spell
+      level: 4
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un objet qui répugne à la cible
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.MeRsOOeCfpfXgbXH'
+  - _id: RyAQ5OfZSeSf49bX
+    name: Invisibilité supérieure
+    type: spell
+    sort: 1100000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/air/fog-gas-smoke-dense-white.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous devenez <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          jusqu'à ce que le sort se termine, ou vous pouvez accorder cet effet à
+          une créature consentante que vous touchez. Tout ce que porte la cible
+          devient <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          tant que les objets restent sur sa personne.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 4
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.RyAQ5OfZSeSf49bX'
+  - _id: EIsaMyS8iDOipxqC
+    name: Dissipation de la magie
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/skills/melee/strike-blade-knife-orange-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Choisissez une créature, un objet ou un effet magique à portée.
+          Tout sort de niveau 3 ou inférieur qui l'affecte se termine. Si la
+          cible est affectée par un sort de niveau 4 ou plus, faites un test de
+          caractéristique en utilisant votre caractéristique d'incantation. Le
+          DD est de 10 + niveau du sort. Ce dernier se termine si vous
+          réussissez votre test.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 4 ou supérieur, vous mettez
+          automatiquement un terme à un sort affectant la cible quand le niveau
+          de ce sort est égal ou inférieur au niveau de l'emplacement de sort
+          que vous utilisez.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+        range:
+          value: '36'
+          unit: mètres
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.EIsaMyS8iDOipxqC'
+  - _id: jfnjtiasI1b9yadk
+    name: Langues
+    type: spell
+    sort: 1300000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/commodities/biological/tongue-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Ce sort permet à la créature que vous touchez de comprendre toutes
+          les langues parlées qu'elle entend. De plus, quand elle parle, toute
+          créature qui maîtrise au moins une langue et l'entend comprend ce
+          qu'elle dit.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: div
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Un modèle réduit de ziggourat en argile
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.jfnjtiasI1b9yadk'
+  - _id: QK1M52b7heYnJ95x
+    name: Lever une malédiction
+    type: spell
+    sort: 1400000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/sundries/lights/candles-lit-red-evil.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>À votre contact, toutes les malédictions qui affectent une créature
+          ou un objet disparaissent. Si l'objet est un objet magique maudit, la
+          malédiction persiste, mais le sort rompt l'harmonisation entre l'objet
+          et son détenteur, ce qui permet à ce dernier de l'ôter ou de s'en
+          débarrasser.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.QK1M52b7heYnJ95x'
+  - _id: QxxHpgVyTBLASWuC
+    name: Localiser un objet
+    type: spell
+    sort: 1500000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/equipment/neck/necklace-runed-white-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Décrivez ou nommez un objet qui vous est familier. Vous sentez dans
+          quelle direction il se trouve, à condition qu'il soit dans un rayon de
+          300 mètres. S'il se déplace, vous savez dans quelle direction.</p>
+
+          <p>Le sort permet de localiser un objet spécifique de votre
+          connaissance à condition que vous l'ayez vu de près, c'est-à-dire vous
+          être trouvé à moins de 9 mètres de lui une fois dans votre vie. Sinon,
+          le sort peut localiser l'objet d'un type donné le plus proche, comme
+          un type d'appareil, de bijou, de meuble, d'outil ou d'arme.</p>
+
+          <p>Le sort ne parvient pas à localiser l'objet si une couche de plomb,
+          aussi mince soit-elle, bloque une trajectoire directe entre vous et
+          l'objet.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Une branche fourchue
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.QxxHpgVyTBLASWuC'
+  - _id: viUrx1bhyhXEtlv4
+    name: Suggestion
+    type: spell
+    sort: 1600000
+    flags: {}
+    img: icons/magic/air/air-burst-spiral-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous visez une créature située à portée et dans votre champ de
+          vision et à même de vous entendre et de vous comprendre. Vous
+          l'influencez par magie de façon à ce qu'elle suive la conduite que
+          vous lui proposez (en seulement une phrase ou deux). Les créatures qui
+          ne peuvent être <em>charmées</em> sont immunisées contre ce sort. Vous
+          devez formuler votre suggestion de manière à ce que la conduite à
+          tenir semble tout à fait raisonnable. Si vous demandez à une créature
+          de se poignarder, de se laisser tomber sur une lance, de s'immoler ou
+          d'accomplir n'importe quelle action à l'évidence néfaste, le sort se
+          termine automatiquement.</p>
+
+          <p>La cible doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Sagesse, sans quoi elle fait de son mieux pour
+          suivre la conduite que vous lui avez suggérée et cela peut continuer
+          pendant toute la durée du sort. Si l'action suggérée peut se finir
+          plus rapidement, le sort se termine quand la cible a accompli ce que
+          vous lui aviez demandé.</p>
+
+          <p>Vous pouvez spécifier des conditions qui déclenchent une conduite
+          spéciale pendant la durée du sort. Par exemple, vous pouvez suggérer à
+          un chevalier de donner son cheval de guerre au premier mendiant qu'il
+          rencontre. Si les conditions ne sont pas remplies avant la fin du
+          sort, la cible n'accomplit pas l'action.</p>
+
+          <p>Si vous (ou l'un de vos compagnons) blessez une créature affectée
+          par ce sort, le sort se termine.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 8
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 16
+        scaling: spell
+      level: 2
+      school: enc
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: >-
+          Une langue de serpent et soit un rayon de miel, soit une goutte
+          d'huile d'olive
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.viUrx1bhyhXEtlv4'
+  - _id: 8uiUyxw2oYdNNv5h
+    name: Ténèbres
+    type: spell
+    sort: 1700000
+    flags: {}
+    img: icons/magic/unholy/orb-glowing-yellow-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Des ténèbres magiques se répandent depuis un point de votre choix
+          situé à portée, jusqu'à englober une sphère de 4,50 mètres de rayon.
+          Les ténèbres s'étendent en franchissant tout angle éventuel. La vision
+          dans le noir d'une créature ne suffit pas à percer ces ténèbres et les
+          lumières non-magiques se révèlent incapables de les éclairer.</p>
+
+          <p>Si le point que vous avez choisi est un objet en votre possession
+          ou un objet qui n'est ni porté ni transporté par autrui, les ténèbres
+          émanent de l'objet et se déplacent avec lui. Il suffit de recouvrir
+          complètement l'objet affecté avec un objet opaque, comme un bol ou un
+          heaume, pour bloquer les ténèbres.</p>
+
+          <p>Si une partie de la zone affectée par ce sort chevauche une zone de
+          lumière issue d'un sort de niveau 2 ou moins, elle dissipe le sort de
+          lumière.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 4.5
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: '18'
+          unit: mètres
+      range:
+        value: 18
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: evo
+      components:
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Des poils de chauve-souris et une goutte de poix ou un bout de charbon
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.8uiUyxw2oYdNNv5h'
+  - _id: IrofxD8MkIFMqz1A
+    name: Bouclier
+    type: spell
+    sort: 1800000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une barrière invisible faite de force magique apparaît autour de
+          vous et vous protège. Jusqu'au début de votre prochain tour, vous
+          obtenez un bonus de +5 à la CA, y compris contre l'attaque qui a
+          déclenché l'incantation du sort, et vous ne subissez aucun dégât de la
+          part du sort <em>projectile magique</em>.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: reaction
+        cost: 1
+        condition: >-
+          Lorsque vous êtes touché par une attaque ou un sort de projectile
+          magique
+      duration:
+        value: 1
+        units: round
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.IrofxD8MkIFMqz1A'
+  - _id: ZDPb01McUAWiH1XE
+    name: Détection de la magie
+    type: spell
+    sort: 1900000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/light/explosion-star-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Pendant toute la durée du sort, vous percevez la présence de magie
+          dans un rayon de 9 mètres autour de vous. Si vous percevez ainsi la
+          magie, vous pouvez utiliser votre action pour discerner une faible
+          aura autour d'une créature ou d'un objet visible dans la zone et
+          imprégné de magie. Vous découvrez aussi à quelle école appartient
+          cette magie, le cas échéant.</p>
+
+          <p>Le sort ignore la plupart des obstacles, mais il ne peut pas
+          franchir 30 centimètres de pierre, 2,5 centimètres de métal ordinaire,
+          une mince feuille de plomb, ni 1 mètre de bois ou de terre.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: radius
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: true
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.ZDPb01McUAWiH1XE'
+  - _id: ZwaKEIPzCUiQ6BPS
+    name: Identification
+    type: spell
+    sort: 2000000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/sundries/scrolls/scroll-plain-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous choisissez un objet avec lequel vous devez rester en contact
+          pendant toute l'incantation du sort. Si c'est un objet magique ou un
+          objet imprégné de magie, vous apprenez immédiatement quelles sont ses
+          propriétés et comment vous en servir. Vous savez aussi s'il faut
+          s'harmoniser avec lui pour l'utiliser et combien de charges il
+          possède, le cas échéant. Vous savez si des sorts affectent l'objet et
+          quel est leur nom. Si l'objet a été créé grâce à un sort, vous
+          apprenez quel sort lui a donné naissance.</p>
+
+          <p>Si, à la place, vous touchez une créature pendant toute
+          l'incantation, vous découvrez quels sorts l'affectent présentement, le
+          cas échéant.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: object
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: true
+        concentration: false
+        value: ''
+      materials:
+        value: Une perle d'une valeur minimale de 100 po et une plume de hibou
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.ZwaKEIPzCUiQ6BPS'
+  - _id: AjMIgS2koQegG999
+    name: Illusion mineure
+    type: spell
+    sort: 2100000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/commodities/stone/ore-pile-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez à portée un son ou une image représentant un objet.
+          L'illusion persiste pendant toute la durée du sort, et se dissipe si
+          vous révoquez le sort par une action ou si vous lancez de nouveau ce
+          sort.</p>
+
+          <p>Si vous créez un son, son volume peut aller du simple murmure au
+          hurlement. Ce peut être votre voix, celle de quelqu'un d'autre, le
+          rugissement d'un lion, un battement de tambours ou tout autre son de
+          votre choix. Ce bruit persiste sans faiblir pendant toute la durée du
+          sort, à moins que vous ne préfériez émettre des sons distincts à
+          différents moments pendant la durée du sort.</p>
+
+          <p>Si vous créez une image (comme une chaise, des empreintes boueuses
+          ou un petit coffre), elle doit tenir dans un cube de 1,50 mètre
+          d'arête. L'image ne s'accompagne pas de son, de lumière, d'odeur, ni
+          d'autre effet sensoriel. Une interaction physique avec l'image révèle
+          immédiatement qu'elle n'est qu'une illusion, car les objets la
+          traversent.</p>
+
+          <p>Si une créature utilise son action pour examiner le son ou l'image,
+          elle comprend qu'il s'agit d'une illusion si elle réussit un test
+          d'Intelligence (Investigation) opposé au DD du <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de votre sort. Si une créature perce l'illusion à
+          jour, celle-ci perd toute substance pour elle.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1.5
+        width: null
+        units: ft
+        type: cube
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      school: ill
+      components:
+        vocal: false
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Un morceau de toison
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.AjMIgS2koQegG999'
+  - _id: UTp4jGm5gUnC5ja4
+    name: Main du mage
+    type: spell
+    sort: 2200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/skills/melee/unarmed-punch-fist.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une main spectrale flottante apparaît à portée, en un point de
+          votre choix. Elle persiste pendant toute la durée du sort ou jusqu'à
+          ce que vous révoquiez le sort par une action. La main disparaît si
+          elle s'éloigne à plus de 9 mètres de vous ou si vous relancez le
+          sort.</p>
+
+          <p>Vous pouvez utiliser votre action pour contrôler la main et vous en
+          servir pour manipuler un objet, ouvrir une porte ou un récipient qui
+          ne sont pas verrouillés, placer un objet dans un récipient ouvert ou
+          l'en sortir, ou bien verser le contenu d'une flasque. Vous pouvez
+          déplacer la main d'un maximum de 9 mètres à chaque fois que vous
+          l'utilisez.</p>
+
+          <p>La main ne peut pas attaquer, activer un objet magique, ni
+          transporter plus de 5 kilogrammes.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+        range:
+          value: '9'
+          unit: mètres
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      school: con
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.UTp4jGm5gUnC5ja4'
+  - _id: 6TtysomW2tSzo5nW
+    name: Prestidigitation
+    type: spell
+    sort: 2300000
+    flags: {}
+    img: icons/weapons/wands/wand-star-gold.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Ce sort est un tour de magie basique que les novices utilisent pour
+          s'entraîner. Vous l'utilisez pour créer à portée l'un des effets
+          magiques suivants :</p>
+
+          <ul>
+
+          <li>Vous créez un effet sensoriel immédiat et inoffensif, comme une
+          pluie d'étincelles, un coup de vent, de faibles notes de musique ou
+          une odeur étrange.</li>
+
+          <li>Vous allumez ou éteignez instantanément une chandelle, une torche
+          ou un petit feu de camp.</li>
+
+          <li>Vous nettoyez ou salissez instantanément un objet ne faisant pas
+          plus de 30 décimètres cubes.</li>
+
+          <li>Vous refroidissez, réchauffez ou aromatisez jusqu'à 30 décimètres
+          cubes de matière non vivante pendant 1 heure.</li>
+
+          <li>Vous faites apparaître une couleur, une petite marque ou un
+          symbole sur un objet ou une surface pendant 1 heure.</li>
+
+          <li>Vous créez un colifichet non magique ou une image illusoire tenant
+          dans votre main, qui persiste jusqu'à la fin de votre prochain
+          tour.</li>
+
+          </ul>
+
+          <p>Si vous lancez le sort à plusieurs reprises, vous ne pouvez pas
+          avoir plus de trois effets non instantanés actifs à la fois. Vous
+          pouvez révoquer un tel effet par une action.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        range:
+          value: '3'
+          unit: mètres
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      school: trs
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!wo7vFzU8grudxVtx.6TtysomW2tSzo5nW'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 3
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 2
+      save: 2
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 3
+      save: 3
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 15
+    int:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    wis:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    cha:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 136
+      max: 136
+      temp: 0
+      tempmax: 0
+      formula: 16d10+48
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 2
+      prof: 0
+      total: 2
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 18
+      swim: 0
+      walk: 12
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 36
+      truesight: 0
+      units: m
+      special: Perception passive 18
+    spellcasting: int
+    prof: 4
+    spelldc: 16
+    encumbrance:
+      value: 0
+      max: 270
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Armes magiques</em></strong>. Les attaques d'arme du
+        sphinx sont magiques.</p>
+
+        <p><strong><em>Incantation</em></strong>. Le sphinx est un lanceur de
+        sorts de niveau 9. Sa caractéristique d'incantation est l'Intelligence
+        (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 16, +8 pour toucher avec les attaques
+        de sort). Aucune composante matérielle n'est nécessaire pour lancer ses
+        sorts. Voici les sorts de magicien préparés par le sphinx :</p>
+
+        <ul>
+
+        <li><strong><em>Tours de magie (à volonté)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/illusion-mineure"><em>illusion
+        mineure</em></a>, <a
+        href="https://5e-drs.fr/grimoire/main-du-mage"><em>main du
+        mage</em></a>, <a
+        href="https://5e-drs.fr/grimoire/prestidigitation"><em>prestidigitation</em></a></li>
+
+        <li><strong><em>1er niveau (4 emplacements)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/bouclier"><em>bouclier</em></a>, <a
+        href="https://5e-drs.fr/grimoire/detection-de-la-magie"><em>détection de
+        la magie</em></a>, <a
+        href="https://5e-drs.fr/grimoire/identification"><em>identification</em></a></li>
+
+        <li><strong><em>2e niveau (3 emplacements)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/localiser-un-objet"><em>localiser un
+        objet</em></a>, <a
+        href="https://5e-drs.fr/grimoire/suggestion"><em>suggestion</em></a>, <a
+        href="https://5e-drs.fr/grimoire/tenebres"><em>ténèbres</em></a></li>
+
+        <li><strong><em>3e niveau (3 emplacements)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/dissipation-de-la-magie"><em>dissipation
+        de la magie</em></a>, <a
+        href="https://5e-drs.fr/grimoire/langues"><em>langues</em></a>, <a
+        href="https://5e-drs.fr/grimoire/lever-une-malediction"><em>lever une
+        malédiction</em></a></li>
+
+        <li><strong><em>4e niveau (3 emplacements)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/bannissement"><em>bannissement</em></a>,
+        <a
+        href="https://5e-drs.fr/grimoire/invisibilite-superieure"><em>invisibilité
+        supérieure</em></a></li>
+
+        <li><strong><em>5e niveau (2 emplacements)</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/legende"><em>légende</em></a></li>
+
+        </ul>
+
+        <p><strong><em>Insondable</em></strong>. Le sphinx est immunisé contre
+        les effets susceptibles de percevoir ses émotions ou de lire ses
+        pensées, ainsi qu'aux sorts de divination qu'il refuse. Les tests de
+        Sagesse (Perspicacité) effectués pour déterminer les intentions ou la
+        sincérité du sphinx subissent un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le sphinx effectue deux
+        attaques de griffe.</p>
+
+        <p><strong><em>Griffe</em></strong>. <em>Attaque d'arme au corps à
+        corps</em> : +8 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 13 (2d8+4) dégâts tranchants.</p>
+
+        <hr>
+
+        <h2 id="actions-legendaires">Actions légendaires</h2>
+
+        <p>Le sphinx peut effectuer 3 actions légendaires qu'il choisit parmi
+        celles décrites ici. Une seule action légendaire peut être choisie à la
+        fois, et uniquement à la fin du tour d'une autre créature. Le sphinx
+        récupère au début de son tour l'utilisation des actions légendaires déjà
+        effectuées.</p>
+
+        <p><strong><em>Attaque de griffe</em></strong>. Le sphinx effectue une
+        attaque de griffe.</p>
+
+        <p><strong><em>Lancer un sort (coûte 3 actions)</em></strong>. Le sphinx
+        lance un sort choisi parmi ceux de sa liste de sorts préparés, en
+        utilisant un emplacement de sort comme à l'accoutumée.</p>
+
+        <p><strong><em>Téléportation (coûte 2 actions)</em></strong> . Le sphinx
+        se téléporte par magie, avec tous ses objets équipés ou transportés,
+        vers un emplacement inoccupé situé dans son champ de vision à une
+        distance maximale de 36 mètres.</p>
+      public: ''
+    alignment: Loyal Neutre
+    race: ''
+    type:
+      value: monstrosity
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Arctique / Subarctique,Désert chaud,Montagnes
+    cr: 11
+    spellLevel: 9
+    source: Créatures & Oppositions
+    xp:
+      value: 7200
+  traits:
+    size: lg
+    di:
+      value:
+        - psychic
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
+      bypasses: []
+      custom: Infligés par des attaques non-magiques
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - frightened
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: Sphinx
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    arc:
+      value: 2
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 22
+      prof: 8
+      total: 12
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    his:
+      value: 2
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 22
+      prof: 8
+      total: 12
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 4
+      total: 8
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    rel:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 4
+      total: 8
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 1
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Gynosphinx
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/cowled.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923691065
+  modifiedTime: 1663923697661
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!wo7vFzU8grudxVtx'
+

@@ -1,0 +1,87 @@
+name: Chant revigorant [Voie du héraut]
+type: feat
+flags:
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QlGTuNgAe3WGci4s
+img: icons/skills/social/diplomacy-peace-alliance.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="sens-de-la-magie"><strong>Chant revigorant</strong></h3><p>Au
+      niveau 10, quand vous utilisez votre action bonus pour mettre fin à votre
+      rage, vous regagnez un nombre de points de vie égal à votre niveau de
+      barbare × 3. Si vous utilisez votre action bonus pour mettre fin à votre
+      ferveur au combat, vous regagnez un nombre de points de vie égal à votre
+      niveau de barbare + votre modificateur de Charisme pour vous-même et
+      toutes les créatures affectées par cette ferveur.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Warlock #13 - War & Battle - Kobold Press'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+  MB7dftOsMOjK5aEw: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685390
+  modifiedTime: 1679678937731
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.QlGTuNgAe3WGci4s
+  duplicateSource: null
+folder: null
+sort: 0
+_id: jJ8PY2qFBu58IRdn
+_key: '!items!jJ8PY2qFBu58IRdn'
+

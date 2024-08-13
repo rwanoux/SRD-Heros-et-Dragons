@@ -1,0 +1,110 @@
+name: Téléportation
+type: feat
+flags:
+  _sheetTab: ''
+img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+_id: 4V0F2GZBDHoAAA2R
+system:
+  description:
+    value: >-
+      <p><strong>Téléportation (Recharge 4-6)</strong>. La créature se téléporte
+      par magie, emportant avec lui l'équipement qu'il porte ou transporte,
+      jusqu'à un espace inoccupé qu'il peut voir se situant à x mètres
+      maximum.&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: space
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: null
+    max: null
+    per: ''
+    recovery: ''
+    type: sr
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: 4
+    charged: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  properties:
+    value: ''
+    amm: null
+    fin: null
+    fir: null
+    foc: null
+    hvy: null
+    lgt: null
+    lod: null
+    rch: null
+    rel: null
+    ret: null
+    spc: null
+    thr: null
+    two: null
+    ver: null
+  featType:
+    value: ''
+    _deprecated: null
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698743
+  modifiedTime: 1663923699269
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!4V0F2GZBDHoAAA2R'
+

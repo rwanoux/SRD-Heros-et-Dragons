@@ -1,0 +1,140 @@
+_id: LYddeSqp8coGvN3O
+name: Mur de glace
+type: spell
+flags: {}
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+system:
+  description:
+    value: >-
+      <p>Vous créez un mur de glace sur une surface solide à portée. Vous pouvez
+      lui donner une forme de dôme hémisphérique ou de sphère d'un rayon maximal
+      de 3 mètres ou en faire une surface plane composée de dix panneaux de 3
+      mètres d'arête. Chaque panneau doit être contigu à un autre. Quelle que
+      soit sa forme, le mur fait 30 centimètres d'épaisseur et persiste pendant
+      toute la durée du sort. Si le mur passe par l'emplacement d'une créature
+      lorsqu'il apparaît, il l'expulse d'un côté ou de l'autre et elle doit
+      effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Dextérité. Si elle échoue, elle subit 10d6 dégâts de
+      froid, la moitié seulement si elle réussit.</p>
+
+      <p>Le mur est un objet que l'on peut endommager, et on peut donc y ouvrir
+      des brèches. Il a une CA de 12 et 30 points de vie par section de 3 mètres
+      de côté. Il est vulnérable aux dégâts de feu. Si une section de 3 mètres
+      de côté tombe à 0 point de vie, elle est détruite et laisse juste une zone
+      d'air glacé à l'emplacement où se trouvait le pan de mur. Quand une
+      créature se déplace dans cette zone frigorifique pour la première fois de
+      son tour, elle doit effectuer un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Constitution. Si elle échoue, elle subit 5d6 dégâts
+      de froid, la moitié seulement si elle réussit.</p>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 7 ou supérieur, les dégâts que le mur
+      inflige en apparaissant augmentent de 2d6 et les dégâts provoqués par un
+      passage dans la zone d'air glacé augmentent de 1d6 par niveau au-delà du
+      niveau 6.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    range:
+      value: '36'
+      unit: mètres
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 10d6
+        - cold
+    versatile: 5d6
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 6
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: Un éclat de quartz
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 2d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688017
+  modifiedTime: 1663923688844
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!LYddeSqp8coGvN3O'
+

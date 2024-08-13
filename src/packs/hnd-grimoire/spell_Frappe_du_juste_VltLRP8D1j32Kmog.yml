@@ -1,0 +1,145 @@
+_id: VltLRP8D1j32Kmog
+name: Frappe du juste
+type: spell
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+img: icons/skills/melee/weapons-crossed-swords-white-blue.webp
+system:
+  description:
+    value: >-
+      <p>La prochaine fois que vous réussissez une attaque de corps-à-corps
+      pendant la durée du sort, votre arme frappe votre cible avec l'énergie de
+      la justice sacrée. La cible subit 2d6 dégâts supplémentaires et un effet
+      secondaire. Le type de dégâts supplémentaires infligés et la nature de
+      l'effet dépendent du type de dégâts infligés par votre arme (par exemple,
+      tranchant pour une épée, contondant pour un marteau) :</p>
+
+      <ul>
+
+      <li><strong>Contondant</strong> : dégâts de tonnerre et <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Force ou <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#assourdi"><em>assourdi</em></a>
+      pendant 1 round et <a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage#à-terre"><em>à
+      terre</em></a>.</li>
+
+      <li><strong>Perçant</strong> : dégâts psychiques et <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Sagesse ou <em>effrayé</em> pendant 1 round.</li>
+
+      <li><strong>Tranchant</strong> : dégâts radiants et <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+      de sauvegarde</a> de Charisme ou aveuglé pendant 1 round.</li>
+
+      </ul>
+
+      <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+      utilisant un emplacement de niveau 2 ou supérieur, vous infligez 1d6
+      points de dégât par niveau d'emplacement de sort au-dessus du niveau
+      1.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    range:
+      value: personnelle
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 2d6
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: evo
+  components:
+    vocal: true
+    somatic: false
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: ''
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+  spellType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+  concentration:
+    value: null
+    _deprecated: true
+  ritual:
+    value: null
+    _deprecated: true
+  prepared:
+    value: null
+    _deprecated: true
+ownership:
+  default: 0
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923688050
+  modifiedTime: 1663923688969
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!VltLRP8D1j32Kmog'
+

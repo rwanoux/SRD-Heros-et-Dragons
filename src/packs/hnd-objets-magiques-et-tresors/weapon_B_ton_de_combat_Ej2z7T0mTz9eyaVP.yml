@@ -1,0 +1,124 @@
+_id: Ej2z7T0mTz9eyaVP
+name: Bâton de combat
+type: weapon
+img: icons/weapons/staves/staff-simple-brown.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Ce bâton peut être manié comme une arme magique qui confère un bonus de
+      +3 à l'attaque et aux jets de dégâts effectués par son biais.</p>
+
+      <p>Le bâton contient 10 charges. Quand vous réussissez une attaque au
+      corps à corps en l'utilisant, vous pouvez dépenser jusqu'à 3 charges. Pour
+      chaque charge dépensée, la cible subit 1d6 dégâts de force
+      supplémentaires. Le bâton récupère 1d6+4 charges dépensées chaque jour, à
+      l'aube. Si vous dépensez la dernière charge, lancez un d20. La magie du
+      bâton disparaît sur un résultat de 1.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 2
+  price: 21000
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 10
+    max: '10'
+    per: charges
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '3'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod +3
+        - bludgeoning
+    versatile: 1d8 + @mod +3
+  formula: 1d6
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: quarterstaff
+  properties:
+    amm: false
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: true
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701081
+  modifiedTime: 1663923702051
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!Ej2z7T0mTz9eyaVP'
+

@@ -1,0 +1,137 @@
+_id: sSyqGYV0h8ucR78I
+name: '[Clerc] Domaine de la Vie'
+type: subclass
+img: icons/magic/life/ankh-gold-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"domaine-de-la-vie\"><strong>Domaine de la Vie</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx]{Sorts de domaine [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.AWNw82r8IAkDMnUF]{Maîtrise supplémentaire [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b]{Disciple de la vie [Domaine de la vie]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz]{Canalisation d'énergie divine : préserver la vie [Domaine de la vie]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eXQ6Ntb5Fhu3ls20]{Guérisseur béni [Domaine de la vie]}</p>\n<p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8ASYAke3c8IbeBDT]{Frappe divine [Domaine de la vie]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kAJgQpE6WlaxwuTP]{Guérison suprême [Domaine de la vie]}</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: domaine-de-la-vie
+  classIdentifier: clerc
+  advancement:
+    - _id: ub60w2nllzk4jric
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eXQ6Ntb5Fhu3ls20
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: w7wmvseadeb58zom
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.D8iw7BYbghdoLDNr
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.l7g3xemfsw17CxcH
+        optional: false
+      value: {}
+      level: 5
+      title: ''
+      icon: ''
+    - _id: xt48j6w7ujnzgnnc
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.5k7aaBi3jJ0FeXos
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.jCVWEIQQCT6EloEQ
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: dxc6i9mi0yxcv3fb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+    - _id: 2tsapccx84u9upkf
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.GMQ7uhT4gQKD6ZSx
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.AWNw82r8IAkDMnUF
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b
+        optional: false
+      value: {}
+      level: 1
+    - _id: 1onpjbi3v6e3qf79
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kAJgQpE6WlaxwuTP
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+    - _id: 66enr320ulhqyq8c
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+    - _id: i1z925u00r8kkqx9
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8ASYAke3c8IbeBDT
+        optional: false
+      value: {}
+      level: 8
+      title: ''
+      icon: ''
+    - _id: fyntvlc7s470hmqq
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.WjUqiOkhbUN16Jiq
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.AxRxwMQ5LB45shbD
+        optional: false
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703433
+  modifiedTime: 1663923703676
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sSyqGYV0h8ucR78I'
+

@@ -1,0 +1,84 @@
+name: Absorption Psychique
+type: feat
+flags: {}
+img: icons/magic/control/silhouette-hold-change-blue.webp
+_id: verrYWvRmjr36yfX
+system:
+  description:
+    value: >-
+      <p><strong>Absorption psychique.</strong> La créature peut se nourrir du
+      psychisme d'une cible asservie située à 18 mètres ou moins pour récupérer
+      des points de vie. Elle occasionne ainsi 10 (3d6) points de dégâts
+      psychiques à sa cible et récupère un nombre de points de vie équivalent.
+      Cette aptitude utilise toutes les actions de la créature à ce tour.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 18
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698998
+  modifiedTime: 1663923700311
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!verrYWvRmjr36yfX'
+

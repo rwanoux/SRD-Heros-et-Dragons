@@ -1,0 +1,132 @@
+_id: flYI4qjcgnnQ7lOS
+name: Expert en Escamotage
+type: feat
+img: icons/tools/hand/lockpicks-steel-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+    critDamage:
+      value: ''
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p><em>Pr&eacute;requis</em> : ma&icirc;trise de la comp&eacute;tence
+      Escamotage.</p>
+
+      <p>Vous &ecirc;tes un ma&icirc;tre de l&rsquo;escamotage. Choisissez trois
+      b&eacute;n&eacute;fices parmi les cinq pr&eacute;sent&eacute;s :</p>
+
+      <ul>
+
+      <li>vous augmentez votre valeur de Dext&eacute;rit&eacute; de +1 ;</li>
+
+      <li>vous gagnez l&rsquo;expertise dans cette comp&eacute;tence (votre
+      bonus de ma&icirc;trise est doubl&eacute; lorsque vous utilisez cette
+      comp&eacute;tence). Vous ne pouvez pas choisir ce b&eacute;n&eacute;fice
+      si vous avez d&eacute;j&agrave; l&rsquo;expertise ;</li>
+
+      <li>lorsque vous fa&icirc;tes un test de cette comp&eacute;tence, vous
+      pouvez choisir de remplacer le r&eacute;sultat du d20 par la valeur 10
+      m&ecirc;me apr&egrave;s avoir vu le r&eacute;sultat du d&eacute;. Si vous
+      avez lanc&eacute; deux d&eacute;s (avantage ou d&eacute;savantage), vous
+      remplacez seulement le r&eacute;sultat d&rsquo;un d&eacute;. Vous devez
+      terminer un repos long avant de pouvoir utiliser &agrave; nouveau cet
+      effet ;</li>
+
+      <li>vous pouvez utiliser une action bonus pour saisir d&rsquo;une seule
+      main deux fl&eacute;chettes ou deux dagues. Vous pouvez alors utiliser
+      votre action pour faire un test d&rsquo;attaque &agrave; distance et
+      lancer les deux armes sur la m&ecirc;me cible. Si elle touche, votre
+      attaque inflige 2d4 d&eacute;g&acirc;ts au lieu de 1d4 (plus tous les
+      bonus habituels) ;</li>
+
+      <li>lorsqu&rsquo;une cr&eacute;ature vous attaque au corps &agrave; corps,
+      vous pouvez utiliser votre r&eacute;action pour faire un test de
+      Dext&eacute;rit&eacute; (Escamotage) contre un DD &eacute;gal &agrave; (8
+      + son bonus de ma&icirc;trise + son modificateur de Sagesse) et
+      r&eacute;ussir &agrave; voler un petit objet qu&rsquo;elle porte sur elle
+      sans vous faire remarquer.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: 'Pangée 2 : l''âge du changement'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  MIsNaVxms6cvWfks: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685017
+  modifiedTime: 1663923685017
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!flYI4qjcgnnQ7lOS'
+

@@ -1,0 +1,219 @@
+_id: rINfbvV5qzAEiF5v
+name: Sac à malices (Gris)
+type: consumable
+img: icons/containers/bags/coinpouch-simple-tan.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <div class="description ">
+
+      <p>Ce banal sac gris, rouille ou brun semble vide. Cependant, si l'on
+      plonge la main à l'intérieur, on sent un petit objet duveteux. Le sac pèse
+      250 grammes.</p>
+
+      <p>Vous pouvez dépenser une action pour sortir l'objet duveteux du sac et
+      le lancer à une distance maximale de 6 mètres. Quand il atterrit, il se
+      transforme en une créature que vous déterminez en lançant un d8 dans la
+      table correspondant à la couleur du sac.</p>
+
+      <p>La créature se montre amicale envers vous et vos compagnons et agit à
+      votre tour. Vous pouvez utiliser une action bonus pour gérer ses
+      déplacements et son action lors de son prochain tour ou pour lui donner
+      des ordres génériques, comme d'attaquer vos ennemis. En l'absence d'ordre,
+      la créature se comporte en accord avec sa nature.</p>
+
+      <p>Une fois que vous avez sorti trois objets duveteux du sac, il devient
+      inutile jusqu'à l'aube suivante.</p>
+
+      <br><strong>Sac à malices (gris)</strong> <br>
+
+      <table style="height: 153px;">
+
+      <tbody>
+
+      <tr style="height: 17px;">
+
+      <th class="center" style="height: 17px; width: 52px;">d8</th>
+
+      <th style="height: 17px; width: 321px;">Créature</th>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">1</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/belette/">Belette</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">2</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/rat-geant/">Rat géant</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">3</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/blaireau/">Blaireau</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">4</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/sanglier/">Sanglier</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">5</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/panthere/">Panthère</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">6</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/blaireau-geant/">Blaireau géant</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">7</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/loup-sanguinaire/">Loup
+      sanguinaire</a></td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td class="center" style="height: 17px; width: 52px;">8</td>
+
+      <td style="height: 17px; width: 321px;"><a
+      href="https://5e-drs.fr/bestiaire/elan-geant/">Élan géant</a></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <br><br></div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.5
+  price: 4000
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: m
+    type: space
+  range:
+    value: 6
+    long: 0
+    units: m
+  uses:
+    value: 3
+    max: '3'
+    per: day
+    recovery: ''
+    autoDestroy: false
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: trinket
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701427
+  modifiedTime: 1663923703125
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rINfbvV5qzAEiF5v'
+

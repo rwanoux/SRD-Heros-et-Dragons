@@ -1,0 +1,97 @@
+name: Repose en paix [Cercle sans nom]
+type: feat
+img: icons/magic/death/grave-tombstone-glow-tan.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.T2P6JKXMcH9vPqw1
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+    consumeUses:
+      value: true
+      altValue: true
+_id: GeltWo2OnR3E9rDJ
+system:
+  description:
+    value: >-
+      <p>À partir du niveau 10, tous les morts-vivants subissent un <a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">désavantage</a>
+      lorsqu'ils vous attaquent.</p>
+
+      <p>De plus, vous pouvez lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.erm3JdSRapDqIe7a]{Invisibilité}
+      une fois entre deux repos courts, mais il n'affecte que les morts-vivants.
+      Les autres créatures vous voient normalement.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685267
+  modifiedTime: 1678425829416
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.T2P6JKXMcH9vPqw1
+  duplicateSource: null
+_key: '!items!GeltWo2OnR3E9rDJ'
+

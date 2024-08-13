@@ -1,0 +1,127 @@
+_id: 8qXcgH1plMNn0nVK
+name: '[Moine] Voie des Fleurs'
+type: subclass
+img: icons/skills/melee/hand-grip-staff-blue.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: "<h2 id=\"traditions-monacales\"><strong>Traditions monacales</strong></h2>\n<h3 id=\"voie-de-la-souplesse\"><strong>Voie des Fleurs</strong></h3>\n<h4>\_</h4>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Mb9pvR1Luu9ORnaa]{Magie des plantes [Voie des fleurs]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hJDxBqRriU3QrueZ]{Pacifisme [Voie des fleurs]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.M6KdJlQVNAYR8hC6]{Enraciné [Voie des fleurs]}</p>\n<p>Niveau 11 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Hny6PHaNtbDITD6V]{Maître de la taille [Voie des fleurs]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.W7iuXqe9KNmCdech]{Régénération [Voie des fleurs]}</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: voie-des-fleurs
+  classIdentifier: moine
+  advancement:
+    - _id: eor89cas3gvb9ko0
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.W7iuXqe9KNmCdech
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+    - _id: 9tcow8dng441r8zd
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Hny6PHaNtbDITD6V
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+    - _id: gt94rjkujbbd8qkw
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.M6KdJlQVNAYR8hC6
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.y3pBoDsl2gNSw7tW
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.alsZ9TShmdnYYGlu
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.9Ckgv0SFKprIunJb
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: s7kt9ww9zo0p23cb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.H3CMVcsZmbakqp2C
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.BErylURWrsPQ39cE
+        optional: false
+      value: {}
+      level: 5
+      title: ''
+      icon: ''
+    - _id: lrkgfjfk7avdvi0r
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.qNxiIeN25lq57xHz
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1
+        optional: false
+      value: {}
+      level: 4
+      title: ''
+      icon: ''
+    - _id: 1dgeclnq9wg7nroh
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.KVqhCgoiO9fuXQqx
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.z3FLlKNK0xBlc2Lw
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Mb9pvR1Luu9ORnaa
+          - >-
+            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hJDxBqRriU3QrueZ
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: jf4sa8jn3nfmx13z
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.YaWoeglObosAR0vd
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.wMkmtc8SvWv4xF6E
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+    - _id: lzks7n30hd0my76w
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.J3piNZiWQ528JorV
+          - Compendium.srd-heros-et-dragons.HnD-grimoire.n5qkanxSmyx8s72l
+        optional: false
+      value: {}
+      level: 1
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  2S4mUni1bpR7blef: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923703393
+  modifiedTime: 1663923703526
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!8qXcgH1plMNn0nVK'
+

@@ -1,0 +1,200 @@
+_id: NB9lxiHigcHyh1hN
+name: Sorts de domaine [Guide Spirituel]
+type: feat
+flags: {}
+img: icons/magic/air/air-burst-spiral-blue-gray.webp
+effects: []
+system:
+  description:
+    value: >-
+      <div>
+
+      <h3 id="sorts-de-domaine-3"><strong>Sorts de domaine</strong></h3>
+
+      <p>Vous obtenez les sorts suivants au niveau de clerc indiqu&eacute;
+      ci-dessous.</p>
+
+      <table style="width: 370px; height: 184px;">
+
+      <thead>
+
+      <tr style="height: 16px;">
+
+      <th style="height: 16px; width: 111px;">Niveau de clerc</th>
+
+      <th style="height: 16px; width: 256px;">Sorts</th>
+
+      </tr>
+
+      </thead>
+
+      <tbody>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">1</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u]{Charme-personne}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">2</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Eur22TaqT9YD0rEV]{Aide}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">3</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.aqM9MEQauxglCV9n]{D&eacute;tection
+      des pens&eacute;es}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">4</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.iFrSzDKFeD4eGeRb]{H&eacute;ro&iuml;sme}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">5</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.D8iw7BYbghdoLDNr]{Lueur
+      d'espoir}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">6</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ecnd8mNETs2THvJX]{Langues}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">7</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.LRQxZSW8sVghdEGS]{Nimbe
+      de bienfaisance}</td>
+
+      </tr>
+
+      <tr style="height: 17px;">
+
+      <td style="height: 17px; width: 109px;">8</td>
+
+      <td style="height: 17px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.A0CLNbvrSJt91EK6]{Confusion}</td>
+
+      </tr>
+
+      <tr style="height: 18px;">
+
+      <td style="height: 18px; width: 109px;">9</td>
+
+      <td style="height: 18px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.s02MyVMbQ1AFNnYL]{Modification
+      de m&eacute;moire}</td>
+
+      </tr>
+
+      <tr style="height: 14px;">
+
+      <td style="height: 14px; width: 109px;">10</td>
+
+      <td style="height: 14px; width:
+      254px;">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.xt4KzXge8Yu8LFDJ]{Dominer
+      un humano&iuml;de}<br /><br /></td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685372
+  modifiedTime: 1663923686707
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!NB9lxiHigcHyh1hN'
+

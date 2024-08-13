@@ -1,0 +1,89 @@
+name: Énergie de vie
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.Xz61mmZSXhabaDsR
+_id: viDid6w7ESb1dE3U
+system:
+  description:
+    value: >-
+      <p>Vous connaissez le tour de
+      magie@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.cp90m51PmZofavuP]{Épargner
+      les mourants}.</p>
+
+      <p>Vous êtes capable de le lancer un nombre de fois égal à votre bonus de
+      maîtrise entre deux repos longs.</p>
+
+      <p>Si votre classe vous permet normalement de lancer ces tours de magie,
+      ils rejoignent votre liste de sorts et ne comptent pas dans le nombre
+      maximal de tours de magie que vous maîtrisez.</p>
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Aasimar
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698229
+  modifiedTime: 1663923698624
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.Xz61mmZSXhabaDsR
+  duplicateSource: null
+_key: '!items!viDid6w7ESb1dE3U'
+

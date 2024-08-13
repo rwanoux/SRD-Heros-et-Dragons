@@ -1,0 +1,86 @@
+_id: sWROtvhxWJLzvxsC
+name: Soutien puissant [Guide Spirituel]
+type: feat
+flags: {}
+img: icons/magic/control/energy-stream-link-spiral-white.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="soutien-puissant"><strong>Soutien puissant</strong></h3>
+
+      <p>Au niveau 8, si vous utilisez une action pour lancer
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ET8WtXuEifdjbtp8]{Assistance}&nbsp;ou
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.djoMzjTA610GQAv4]{R&eacute;sistance},
+      votre cible obtient un bonus d'1d6 au lieu d'1d4. Le bonus passe &agrave;
+      1d8 au niveau 14 et 1d10 au niveau 17. D&eacute;sormais, lorsque vous
+      maintenez votre concentration sur l'un de ces sorts, vous ne pouvez plus
+      &ecirc;tre involontairement d&eacute;concentr&eacute;.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Clerc
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685657
+  modifiedTime: 1663923687620
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!sWROtvhxWJLzvxsC'
+

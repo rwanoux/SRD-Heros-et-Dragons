@@ -1,0 +1,89 @@
+name: Meneur d'hommes [Officier]
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Item.W26F6MdFRdBCAizR
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+_id: nsxeJfivn7RxSfGN
+system:
+  description:
+    value: >-
+      <p>Au niveau 3, toujours, vous obtenez la maîtrise d'une compétence entre
+      Persuasion et Intimidation. Si vous en avez déjà la maîtrise, vous doublez
+      le bonus de maîtrise quand vous l'utilisez.</p>
+    chat: ''
+    unidentified: ''
+  source: 'Gazette Role''n Play #7'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Guerrier / Officier
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685623
+  modifiedTime: 1678391793684
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: Item.W26F6MdFRdBCAizR
+  duplicateSource: null
+_key: '!items!nsxeJfivn7RxSfGN'
+

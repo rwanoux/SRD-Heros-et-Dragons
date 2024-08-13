@@ -1,0 +1,88 @@
+_id: rLFB4YoejZv40nUW
+name: Huile d'affûtage
+type: consumable
+img: icons/consumables/potions/potion-tube-corked-bat-gold-red.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>Cette huile claire et gélatineuse est constellée de minuscules
+      paillettes d'argent. On peut s'en servir pour enduire une arme tranchante
+      ou perforante ou bien 5 munitions tranchantes ou perforantes au maximum.
+      Il faut 1 minute pour appliquer l'huile, ensuite, l'objet enduit devient
+      magique et doté d'un bonus de +3 aux jets d'attaque et de dégâts pendant 1
+      heure.</div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 0.1
+  price: 3200
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: 1 minute d'application.
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: charges
+    recovery: ''
+    autoDestroy: true
+    autoUse: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701428
+  modifiedTime: 1663923703127
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!rLFB4YoejZv40nUW'
+

@@ -1,0 +1,91 @@
+_id: brlg3zVcWsTfwth9
+name: Billes de fronde
+type: consumable
+img: icons/skills/ranged/bullets-triple-ball-yellow.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+system:
+  description:
+    value: >-
+      <p>Un galet de pierre, d'os ou de métal durci qui peut être lancé à grande
+      vitesse à l'aide d'une fronde.</p>
+
+      <p><em>**Note FVTT : Il sera généralement impossible d'acheter une balle
+      de fronde car elle vaut moins qu'une pièce de cuivre (5 balles = 1
+      cp).</em></p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  quantity: 20
+  weight: 0.75
+  price: 0.04
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 0
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 1.5
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - ''
+        - piercing
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: ammo
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923700626
+  modifiedTime: 1663923700626
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!brlg3zVcWsTfwth9'
+

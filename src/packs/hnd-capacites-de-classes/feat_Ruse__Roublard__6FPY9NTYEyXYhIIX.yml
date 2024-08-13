@@ -1,0 +1,117 @@
+_id: 6FPY9NTYEyXYhIIX
+name: Ruse [Roublard]
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-watch.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  _sheetTab: description
+  entityorder:
+    order: 149
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="ruse"><strong>Ruse</strong></h3>
+
+      <p>&Agrave; partir du niveau 2, votre vivacit&eacute; d'esprit et votre
+      agilit&eacute; vous permettent de vous d&eacute;placer et d'agir
+      rapidement. Vous pouvez faire une action bonus &agrave; chacun de vos
+      tours de combat. Par contre, cette action ne peut &ecirc;tre
+      utilis&eacute;e que pour accomplir les actions&nbsp;<a
+      href="https://5e-drs.fr/combattre/#se-precipiter">se
+      pr&eacute;cipiter</a>,&nbsp;<a
+      href="https://5e-drs.fr/combattre/#se-desengager">se
+      d&eacute;sengager</a>&nbsp;ou&nbsp;<a
+      href="https://5e-drs.fr/combattre/#se-cacher">se cacher</a>.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+    type: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+    value: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+    value: ''
+  type:
+    value: ''
+    subtype: ''
+  requirements: Roublard
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685189
+  modifiedTime: 1678414371519
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!6FPY9NTYEyXYhIIX'
+

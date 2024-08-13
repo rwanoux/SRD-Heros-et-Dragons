@@ -1,0 +1,86 @@
+_id: 70PXQEgtGHZalHvh
+name: Table Sac à malice
+folder: vVTDSYsguUPXB21e
+sort: 2900000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+  exportSource:
+    world: donjon
+    system: dnd5e
+    coreVersion: 0.7.9
+    systemVersion: 1.2.4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: rOYrNvJqo4N7pdo6
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sac à malices (Brun)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/pouch-sealed.jpg
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: Y5QLiqqGsN9b0ZQG
+    _key: '!tables.results!70PXQEgtGHZalHvh.rOYrNvJqo4N7pdo6'
+  - _id: ibTNbZycCgAiEebY
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sac à malices (Gris)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/pouch.jpg
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: rINfbvV5qzAEiF5v
+    _key: '!tables.results!70PXQEgtGHZalHvh.ibTNbZycCgAiEebY'
+  - _id: ehwYsu1Ga2yHjG3k
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Sac à malices (Rouille)
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/inventory/sack.jpg
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: EgczyVs1Ep5slgYN
+    _key: '!tables.results!70PXQEgtGHZalHvh.ehwYsu1Ga2yHjG3k'
+formula: 1d3
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!70PXQEgtGHZalHvh'
+

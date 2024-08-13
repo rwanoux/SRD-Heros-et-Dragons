@@ -1,0 +1,103 @@
+_id: oFnfqV2bZJikqIvv
+name: Maître du terrain [Traqueur]
+type: feat
+flags: {}
+img: icons/magic/time/day-night-sunset-sunrise.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="maitre-du-terrain"><strong>Ma&icirc;tre du terrain</strong></h3>
+
+      <p>Au niveau 15, vous obtenez un terrain de pr&eacute;dilection
+      suppl&eacute;mentaire. De plus, d&eacute;sormais, lorsque vous &ecirc;tes
+      sur un terrain de pr&eacute;dilection, vous obtenez les
+      b&eacute;n&eacute;fices suivants :</p>
+
+      <ul>
+
+      <li>En combat, vous pouvez effectuer une action bonus &agrave; chacun de
+      vos tours. Cette action ne peut &ecirc;tre utilis&eacute;e que pour faire
+      une unique attaque au corps-&agrave;-corps ou &agrave; distance,&nbsp;<a
+      href="https://5e-drs.fr/combattre/#se-desengager">se
+      d&eacute;sengager</a>&nbsp;ou&nbsp;<a
+      href="https://5e-drs.fr/combattre/#se-precipiter">se
+      pr&eacute;cipiter</a>. Si vous utilisez une arme dans chaque main,
+      exceptionnellement, cette action bonus vous permet de faire une attaque
+      depuis chacune de vos mains (en utilisant les limitations habituelles en
+      ce qui concerne la seconde arme).</li>
+
+      <li>Lorsque vous prenez un repos court, vous r&eacute;cup&eacute;rez un
+      nombre de points de vie &eacute;gal &agrave; 1d8 + votre modificateur de
+      Constitution s'il ne vous reste pas plus de la moiti&eacute; de vos points
+      de vie.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8 + @abilities.con.mod
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685625
+  modifiedTime: 1663923687485
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!oFnfqV2bZJikqIvv'
+

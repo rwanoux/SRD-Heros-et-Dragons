@@ -1,0 +1,109 @@
+_id: yekBU058nadmXUA1
+name: Expert en armes longues
+type: feat
+img: modules/srd-heros-et-dragons/assets/icons/expert-armes-longues.PNG
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <p>Vous &ecirc;tes pass&eacute; ma&icirc;tre dans l'art d'attaquer vos
+      ennemis de plus loin avec les armes pourvues d'un long manche. Lorsque
+      vous utilisez une arme qui dispose de la propri&eacute;t&eacute; allonge,
+      vous obtenez les b&eacute;n&eacute;fices suivants :</p>
+
+      <p>&nbsp;</p>
+
+      <ul>
+
+      <li>Vos adversaires provoquent une attaque d'opportunit&eacute; lorsqu'ils
+      entrent &agrave; la port&eacute;e de votre allonge.</li>
+
+      <li>Lorsque vous attaquez une cr&eacute;ature &agrave; port&eacute;e, vous
+      ignorez l'abri partiel procur&eacute; par un obstacle situ&eacute; entre
+      vous et votre cible (que ce soit un alli&eacute;, un adversaire ou un
+      obstacle fixe).</li>
+
+      <li>Lorsque vous utilisez une lance, un trident ou un b&acirc;ton &agrave;
+      deux mains, vous pouvez utiliser une action bonus pour ajouter la
+      propri&eacute;t&eacute; allonge &agrave; cette arme jusqu'&agrave; votre
+      prochain tour.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  featType:
+    value: ''
+    _deprecated: true
+  time:
+    value: ''
+    _deprecated: true
+  damageType:
+    value: ''
+    _deprecated: true
+ownership:
+  default: 0
+  Yuxcl9CkCsyz68AJ: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685029
+  modifiedTime: 1663923685029
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!yekBU058nadmXUA1'
+

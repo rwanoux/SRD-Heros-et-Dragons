@@ -1,0 +1,85 @@
+_id: vVEFqKQ8Anwol2EO
+name: Voir l'invisible [Cercle des fées]
+type: feat
+flags: {}
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="voir-l-invisible"><strong>Voir l'invisible</strong></h3>
+
+      <p>Toujours au niveau 6, votre habitude des tours de magie des f&eacute;es
+      vous permet de lancer le sort
+      @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VDiUTdRBbERIvQV0]{Voir
+      l'invisible}&nbsp;en d&eacute;pensant une action bonus et sans utiliser
+      d'emplacement de sort, m&ecirc;me en forme sauvage. Vous devez terminer un
+      repos court avant de pouvoir utiliser &agrave; nouveau cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Druide
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685681
+  modifiedTime: 1663923687724
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!vVEFqKQ8Anwol2EO'
+

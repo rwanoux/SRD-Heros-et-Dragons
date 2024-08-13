@@ -1,0 +1,1895 @@
+_id: qvVQ9uQeTe6QsyGo
+name: Aboleth
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: U0rDEcYzmiEHVlCJ
+    name: Amphibie
+    type: feat
+    sort: 650000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+      betternpcsheet5e:
+        showItemSummary: true
+    img: icons/environment/creatures/frog-spotted-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><span style="text-decoration: underline;">Amphibie.</span>
+          L'aboleth peut respirer à l'air libre et sous l'eau.&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.U0rDEcYzmiEHVlCJ'
+  - _id: JGJohYDC86lqZYzf
+    name: Nuage Muqueux
+    type: feat
+    sort: 400001
+    flags:
+      _sheetTab: details
+      betternpcsheet5e:
+        showItemSummary: true
+      adnd5e:
+        itemInfo:
+          type: reaction
+    img: icons/magic/unholy/orb-swirling-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Nuage muqueux.&nbsp;</strong>Sous l'eau, l'aboleth est
+          entouré de mucosités aux propriétés transformatives. Les créatures qui
+          touchent l'aboleth ou qui réussissent une attaque au corps à corps
+          contre lui à une distance maximale de 1,50 mètre doivent effectuer
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Constitution DD 14. En cas d'échec, la créature
+          est malade pendant 1d4 heures. Une créature victime de cette maladie
+          peut respirer uniquement sous l'eau.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: special
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: self
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 1
+        max: 1
+        per: ''
+        recovery: ''
+        type: sr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: 1d4 heures de maladie
+      save:
+        ability: con
+        dc: 14
+        scaling: flat
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.JGJohYDC86lqZYzf'
+  - _id: 7SiJHPfepcPoapXD
+    name: Télépathie Inquisitrice
+    type: feat
+    sort: 14500000
+    flags:
+      _sheetTab: description
+      betternpcsheet5e:
+        showItemSummary: false
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Télépathie inquisitrice.</strong>&nbsp;Si une créature
+          communique par télépathie avec l'aboleth, celui-ci prend connaissance
+          des plus grands désirs de la créature, à condition qu'elle soit dans
+          son champ de vision.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.7SiJHPfepcPoapXD'
+  - _id: LKFFIc7xLKINRwMe
+    name: Attaques Multiples
+    type: feat
+    sort: 14700000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong> L'aboleth effectue trois
+          attaques de tentacule.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.LKFFIc7xLKINRwMe'
+  - _id: 631MEWSN3lb9735o
+    name: Tentacules
+    type: weapon
+    sort: 10900000
+    flags: {}
+    img: icons/creatures/tentacles/tentacles-thing-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Tentacule.</strong>&nbsp;Attaque d'arme au corps à
+          corps&nbsp;: +9 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 12 (2d6+5) dégâts contondants. Si la cible est une
+          créature, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 14 pour ne pas tomber
+          malade. La maladie ne produit aucun effet pendant 1 minute et peut
+          être soignée par tout effet magique qui soigne les maladies. Au bout
+          d'une minute, la peau de la créature malade devient translucide et
+          visqueuse, la victime ne peut récupérer de points de vie que
+          lorsqu'elle est sous l'eau et la maladie ne peut être soignée qu'avec
+          une guérison ou un autre sort de niveau 6 ou plus qui soigne les
+          maladies. Quand la créature n'est pas dans l'eau, elle subit 6 (1d12)
+          dégâts d'acide toutes les 10 minutes, à moins que sa peau ne soit
+          humidifiée toutes les dix minutes.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d6+@mod
+            - bludgeoning
+        versatile: ''
+      formula: 1d12 acide
+      save:
+        ability: con
+        dc: 14
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        two: false
+        rch: true
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.631MEWSN3lb9735o'
+  - _id: 0ZomvYNLl1wg0QHh
+    name: Queue
+    type: weapon
+    sort: 10800000
+    flags:
+      _sheetTab: ''
+    img: icons/commodities/biological/tail-puff-grey.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Queue.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;:
+          +9 pour toucher, allonge 3 m, une cible.</p>
+
+          <p>Touché&nbsp;: 15 (3d6+5) dégâts contondants.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: null
+      weight: null
+      price: null
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d6+@mod
+            - bludgeoning
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        value: ''
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        rch: true
+        rel: false
+        ret: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+      recharge:
+        value: null
+        charged: null
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.0ZomvYNLl1wg0QHh'
+  - _id: wLkvChaQehiay5p8
+    name: Balayage de Queue
+    type: feat
+    sort: 14737500
+    flags: {}
+    img: icons/skills/melee/strike-dagger-arcane-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Balayage de la queue.</strong>&nbsp;L'aboleth effectue une
+          attaque de queue.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 3
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d6+@mod
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.wLkvChaQehiay5p8'
+  - _id: UtWUr2DgWiyC2bPK
+    name: Détecter
+    type: feat
+    sort: 14756250
+    flags: {}
+    img: icons/skills/targeting/target-strike-triple-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Détecter.</strong>&nbsp;L'aboleth effectue un test de
+          Sagesse (Perception).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: wis
+      actionType: abil
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.UtWUr2DgWiyC2bPK'
+  - _id: Sgqg7SkOQ9TyUp1l
+    name: Asservir
+    type: feat
+    sort: 450001
+    flags: {}
+    img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Asservir (3/jour).</strong>&nbsp;L'aboleth cible une
+          créature située à 9 mètres ou moins et dans son champ de vision. La
+          cible doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Sagesse DD 14 pour ne pas être magiquement
+          charmée par l'aboleth. Le charme disparaît quand l'aboleth meurt ou
+          s'il se trouve sur un plan d'existence différent de celui de la cible.
+          La cible charmée est sous le contrôle de l'aboleth et ne peut
+          entreprendre aucune réaction. L'aboleth et la cible peuvent
+          communiquer par télépathie, quelle que soit la distance qui les
+          sépare. Chaque fois que la cible charmée subit des dégâts, elle peut
+          retenter le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>. En cas de réussite, l'effet prend fin. La cible
+          peut retenter le&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a> dès que l'aboleth s'éloigne de plus de 1,5 kilomètre
+          d'elle, mais pas plus d'une fois toutes les 24 heures.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 24
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 9
+        long: null
+        units: ft
+      uses:
+        value: 3
+        max: 3
+        per: day
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: cha
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 14
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.Sgqg7SkOQ9TyUp1l'
+  - _id: nPV1K8LbLnrJYeZE
+    name: Succion Psychique
+    type: feat
+    sort: 14775000
+    flags: {}
+    img: icons/magic/life/heart-glowing-red.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Succion psychique.</strong>&nbsp;Une créature charmée par
+          l'aboleth subit 10 (3d6) dégâts psychiques et l'aboleth récupère un
+          nombre de points de vie égal aux dégâts subis par la créature.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 2
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: ''
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: none
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 3d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Aboleth
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!qvVQ9uQeTe6QsyGo.nPV1K8LbLnrJYeZE'
+effects: []
+folder: null
+sort: 100001
+flags:
+  betterNpcSheet:
+    sheet:
+      height: 939
+      width: 1136
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 4
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 5
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 4
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: -1
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 2
+            name: Wis
+          - mod: 0
+            name: Bonus
+  core:
+    sheetClass: ''
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 21
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 5
+      save: 5
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 17
+    dex:
+      value: 9
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: -1
+      save: -1
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 11
+    con:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 2
+      save: 6
+      prof: 4
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    int:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 4
+      save: 8
+      prof: 4
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+    wis:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 2
+      save: 6
+      prof: 4
+      saveBonus: 0
+      checkBonus: 0
+      dc: 14
+    cha:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 4
+      save: 4
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 16
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 135
+      max: 135
+      temp: null
+      tempmax: null
+      formula: 18d10+36
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: -1
+      prof: 0
+      total: -1
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 12
+      walk: 3
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 36
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: m
+      special: Perception passive 20
+    spellcasting: ''
+    prof: 4
+    spelldc: 16
+    encumbrance:
+      value: 0
+      max: 315
+      pct: 0
+      encumbered: false
+  details:
+    biography:
+      value: >-
+        <h2>Capacités&nbsp;</h2>
+
+        <p>Amphibie. L'aboleth peut respirer à l'air libre et sous l'eau.</p>
+
+        <p>Nuage muqueux. Sous l'eau, l'aboleth est entouré de mucosités aux
+        propriétés transformatives. Les créatures qui touchent l'aboleth ou qui
+        réussissent une attaque au corps à corps contre lui à une distance
+        maximale de 1,50 mètre doivent effectuer un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Constitution DD 14. En cas d'échec, la
+        créature est malade pendant 1d4 heures. Une créature victime de cette
+        maladie peut respirer uniquement sous l'eau.</p>
+
+        <p>Télépathie inquisitrice. Si une créature communique par télépathie
+        avec l'aboleth, celui-ci prend connaissance des plus grands désirs de la
+        créature, à condition qu'elle soit dans son champ de vision.</p>
+
+        <hr>
+
+        <h2>Actions</h2>
+
+        <p>Asservir (3/jour). L'aboleth cible une créature située à 9 mètres ou
+        moins et dans son champ de vision. La cible doit réussir un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Sagesse DD 14 pour ne pas être magiquement
+        charmée par l'aboleth. Le charme disparaît quand l'aboleth meurt ou s'il
+        se trouve sur un plan d'existence différent de celui de la cible. La
+        cible charmée est sous le contrôle de l'aboleth et ne peut entreprendre
+        aucune réaction. L'aboleth et la cible peuvent communiquer par
+        télépathie, quelle que soit la distance qui les sépare. Chaque fois que
+        la cible charmée subit des dégâts, elle peut retenter le&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>. En cas de réussite, l'effet prend fin. La cible peut
+        retenter le&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;dès que l'aboleth s'éloigne de plus de 1,5
+        kilomètre d'elle, mais pas plus d'une fois toutes les 24 heures.</p>
+
+        <p>Attaques multiples. L'aboleth effectue trois attaques de
+        tentacule.</p>
+
+        <p>Queue.&nbsp;Attaque d'arme au corps à corps&nbsp;: +9 pour toucher,
+        allonge 3 m, une cible.<br>Touché&nbsp;: 15 (3d6+5) dégâts
+        contondants.</p>
+
+        <p>Tentacule.&nbsp;Attaque d'arme au corps à corps&nbsp;: +9 pour
+        toucher, allonge 3 m, une cible.<br>Touché&nbsp;: 12 (2d6+5) dégâts
+        contondants. Si la cible est une créature, elle doit réussir un&nbsp;<a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+        de sauvegarde</a>&nbsp;de Constitution DD 14 pour ne pas tomber malade.
+        La maladie ne produit aucun effet pendant 1 minute et peut être soignée
+        par tout effet magique qui soigne les maladies. Au bout d'une minute, la
+        peau de la créature malade devient translucide et visqueuse, la victime
+        ne peut récupérer de points de vie que lorsqu'elle est sous l'eau et la
+        maladie ne peut être soignée qu'avec une guérison ou un autre sort de
+        niveau 6 ou plus qui soigne les maladies. Quand la créature n'est pas
+        dans l'eau, elle subit 6 (1d12) dégâts d'acide toutes les 10 minutes, à
+        moins que sa peau ne soit humidifiée toutes les dix minutes.</p>
+
+        <hr>
+
+        <h2>Actions légendaires</h2>
+
+        <p>L'aboleth peut effectuer 3 actions légendaires qu'il choisit parmi
+        celles décrites ici. Il ne peut en choisir qu'une seule à la fois et
+        uniquement à la fin du tour d'une autre créature. L'aboleth récupère au
+        début de son tour l'utilisation des actions légendaires déjà
+        effectuées.</p>
+
+        <p>Balayage de la queue. L'aboleth effectue une attaque de queue.</p>
+
+        <p>Détecter. L'aboleth effectue un test de Sagesse (Perception).</p>
+
+        <p>Succion psychique (coûte 2 actions). Une créature charmée par
+        l'aboleth subit 10 (3d6) dégâts psychiques et l'aboleth récupère un
+        nombre de points de vie égal aux dégâts subis par la créature.</p>
+      public: ''
+    alignment: Loyal Mauvais
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: Littoral
+    cr: 10
+    spellLevel: 10
+    source: Créatures & Oppositions
+    xp:
+      value: 5900
+    gender: ''
+    age: ''
+    height: ''
+    weight: ''
+    eyes: ''
+    skin: ''
+    hair: ''
+    notes1name: ''
+    notes2name: ''
+    notes3name: ''
+    notes4name: ''
+  traits:
+    size: lg
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - deep
+      custom: Télépathie 36 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 5
+      label: ' '
+      bonus: 0
+      passive: 15
+      prof: 0
+      total: 5
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    his:
+      value: 2
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 22
+      prof: 8
+      total: 12
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: '-1'
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    prc:
+      value: 2
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 8
+      total: 10
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 4
+      label: ' '
+      bonus: 0
+      passive: 14
+      prof: 0
+      total: 4
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: -1
+      label: ' '
+      bonus: 0
+      passive: 9
+      prof: 0
+      total: -1
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 2
+      label: ' '
+      bonus: 0
+      passive: 12
+      prof: 0
+      total: 2
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 2
+    spell6:
+      value: 0
+      override: null
+      max: 0
+    spell7:
+      value: 0
+      override: null
+      max: 0
+    spell8:
+      value: 0
+      override: null
+      max: 0
+    spell9:
+      value: 0
+      override: null
+      max: 0
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 1
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Aboleth
+  displayName: 0
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  hexagonalShape: 1
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690990
+  modifiedTime: 1663923697337
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!qvVQ9uQeTe6QsyGo'
+

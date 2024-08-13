@@ -1,0 +1,137 @@
+_id: TBok602ww5e8L1Pb
+name: Masse terrifiante
+type: weapon
+img: icons/weapons/maces/mace-round-spiked-black.webp
+effects: []
+folder: null
+sort: 0
+flags: {}
+system:
+  description:
+    value: >-
+      <div>
+
+      <p>Cette arme magique dispose de 3 charges. Tant que vous la tenez en
+      main, vous pouvez dépenser une action et une charge pour émettre une vague
+      de terreur. Les créatures de votre choix se trouvant dans un rayon de 9
+      mètres autour de vous doivent réussir un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse DD 15, sans quoi elles sont&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisées</a>&nbsp;et
+      ont peur de vous pendant 1 minute. Tant qu'une créature est ainsi&nbsp;<a
+      href="https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise">terrorisée</a>,
+      elle s'efforce de s'éloigner au maximum de vous pendant tout son tour et
+      elle est incapable de s'avancer de son plein gré dans un emplacement situé
+      dans un rayon de 9 mètres autour de vous. Elle est aussi dans l'incapacité
+      d'utiliser une réaction. Au niveau de ses actions, elle est limitée
+      à&nbsp;se précipiter&nbsp;ou à tenter de se libérer de tout effet
+      l'empêchant de se déplacer. Si la créature n'a aucun endroit où aller,
+      elle peut utiliser l'action&nbsp;esquiver. Elle a droit à un
+      nouveau&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;à la fin de chacun de ses tours, la terreur se
+      terminant si elle en réussit un.</p>
+
+      <p>Chaque matin à l'aube, la masse récupère 1d3 charges dépensées.</p>
+
+      <p>Harmonisation requise.</p>
+
+      </div>
+    chat: ''
+    unidentified: ''
+  source: Cadre de campagne
+  quantity: 1
+  weight: 2
+  price: 8000
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 0
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 9
+    long: 0
+    units: m
+  uses:
+    value: 3
+    max: '3'
+    per: charges
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '1'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: 15
+    scaling: flat
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: mace
+  properties:
+    amm: false
+    hvy: false
+    fin: false
+    fir: false
+    foc: false
+    lgt: false
+    lod: false
+    rch: false
+    rel: false
+    ret: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+    ada: false
+    sil: false
+    mgc: false
+  proficient: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923701227
+  modifiedTime: 1663923702433
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!TBok602ww5e8L1Pb'
+

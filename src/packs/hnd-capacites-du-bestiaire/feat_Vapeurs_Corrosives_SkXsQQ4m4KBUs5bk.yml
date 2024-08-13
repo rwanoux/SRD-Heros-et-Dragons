@@ -1,0 +1,86 @@
+name: Vapeurs Corrosives
+type: feat
+flags: {}
+img: icons/magic/acid/projectile-glowing-bubbles.webp
+_id: SkXsQQ4m4KBUs5bk
+system:
+  description:
+    value: >-
+      <p><strong>Vapeurs corrosives.</strong> Un nuage de 6 mètres de rayon
+      baigne une zone située à portée de vue de la créature et à 36 mètres ou
+      moins d’elle. Le nuage se répand en contournant les angles. Chaque
+      créature entièrement englobée dans le nuage au début de son tour doit
+      réussir un jet de sauvegarde de Constitution ou subir 3d6 dégâts acide.
+      L'effet s'arrête lorsque la créature meurt ou utilise à nouveau une action
+      d'antre.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 6
+    width: null
+    units: m
+    type: radius
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 3d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Noir (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698837
+  modifiedTime: 1663923699671
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!SkXsQQ4m4KBUs5bk'
+

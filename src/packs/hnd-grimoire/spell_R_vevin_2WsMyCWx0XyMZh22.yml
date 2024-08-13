@@ -1,0 +1,100 @@
+name: Rêvevin
+type: spell
+img: icons/consumables/drinks/wine-amphora-clay-gray.webp
+system:
+  description:
+    value: >-
+      <p>Vous imprégnez une bouteille de vin de magie féerique. Pendant que vous
+      lancez ce sort, vous et jusqu'à sept autres créatures pouvez boire le vin
+      imprégné. A la fin de l'incantation, chaque créature qui a bu le vin peut
+      voir les créatures et objets invisibles comme s'ils étaient visibles, peut
+      voir dans le plan éthéré, et a l'avantage sur les tests de Charisme et les
+      jets de sauvegarde pour la durée de l'incantation. Les créatures et objets
+      éthérés apparaissent fantomatiques et translucides.</p>
+    chat: ''
+    unidentified: ''
+  source: Tome of Heroes
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 8
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: div
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: true
+    concentration: false
+  materials:
+    value: >-
+      une bouteille de vin elfique d'une valeur de 25 po minimum, que le sort
+      consume
+    consumed: true
+    cost: 25
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: true
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MB7dftOsMOjK5aEw: 3
+flags:
+  core:
+    sourceId: Item.SnScTbu9sxYMuanF
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1678986082364
+  modifiedTime: 1678990001739
+  lastModifiedBy: MB7dftOsMOjK5aEw
+  compendiumSource: Item.SnScTbu9sxYMuanF
+  duplicateSource: null
+folder: null
+sort: 0
+_id: 2WsMyCWx0XyMZh22
+_key: '!items!2WsMyCWx0XyMZh22'
+

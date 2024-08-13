@@ -1,0 +1,86 @@
+name: Sables Mouvants
+type: feat
+flags: {}
+img: icons/magic/water/water-iceberg-bubbles.webp
+_id: hAs0eXNpDl1NydKx
+system:
+  description:
+    value: >-
+      <p><strong>Sables mouvants.</strong> Le sol cède sous les pas d'une cible
+      à portée de vue et distante de moins de 36 mètres du dragon. À moins de
+      réussir un jet de sauvegarde de Dextérité, la cible est entravée par les
+      sables mouvants. Pour se libérer, elle doit réussir un test de Force
+      (Athlétisme) dont le DD est le même que le jet de sauvegarde. D'autres
+      créatures situées à 1,50 mètre qui ne sont pas elles-mêmes entravées
+      peuvent coopérer avec la cible afin de la libérer. L'effet disparaît si le
+      dragon meurt ou utilise à nouveau le même effet. Toute créature encore
+      entravée subit alors 2d6 dégâts contondants.</p>
+    chat: ''
+    unidentified: ''
+  source: Créatures et Oppositions
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: perm
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: space
+  range:
+    value: 36
+    long: null
+    units: m
+  uses:
+    value: 0
+    max: 0
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: 2d6
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Dragon Bleu (Antre)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+effects: []
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923698940
+  modifiedTime: 1663923700091
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!hAs0eXNpDl1NydKx'
+

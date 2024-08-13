@@ -1,0 +1,92 @@
+_id: 96013tw5CgKMTIni
+name: Tactiques défensives - Défense contre les attaques multiples [Chasseur]
+type: feat
+flags:
+  core:
+    sourceId: Item.DCbx4dlwR1Hgrgqy
+img: icons/skills/melee/weapons-crossed-daggers-orange.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="tactiques-defensives"><strong>Tactiques
+      d&eacute;fensives</strong>&nbsp;</h3>
+
+      <p>Au niveau 7 :</p>
+
+      <p>&nbsp;</p>
+
+      <p><strong>D&eacute;fense contre les attaques multiples
+      :</strong>&nbsp;Quand une cr&eacute;ature vous touche avec une attaque,
+      vous gagnez un bonus de CA de +4 contre toutes les autres attaques que
+      peut faire cette cr&eacute;ature pour le reste du tour.</p>
+
+      <p>&nbsp;</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Rôdeur
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  qfQAJ4nuEz9djwAx: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685213
+  modifiedTime: 1663923686251
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Item.DCbx4dlwR1Hgrgqy
+  duplicateSource: null
+_key: '!items!96013tw5CgKMTIni'
+

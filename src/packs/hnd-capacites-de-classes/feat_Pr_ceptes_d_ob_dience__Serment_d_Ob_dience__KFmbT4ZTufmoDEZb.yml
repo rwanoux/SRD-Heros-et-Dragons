@@ -1,0 +1,115 @@
+_id: KFmbT4ZTufmoDEZb
+name: Préceptes d'obédience [Serment d'Obédience]
+type: feat
+img: icons/skills/melee/strike-hammer-destructive-blue.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+system:
+  description:
+    value: >-
+      <h3 id="preceptes-d-obedience"><strong>Pr&eacute;ceptes
+      d'ob&eacute;dience</strong></h3>
+
+      <p>Bien que les termes exacts et les limites impos&eacute;es par le
+      serment d'ob&eacute;dience varient, les paladins qui ont
+      pr&ecirc;t&eacute; ce serment en partagent tous les pr&eacute;ceptes
+      fondamentaux.</p>
+
+      <p><strong>Loyaut&eacute;</strong>. Restez fid&egrave;les &agrave; votre
+      patrie et &agrave; votre seigneur l&eacute;gitime.</p>
+
+      <p><strong>Devoir</strong>. Prot&eacute;gez les terres et les sujets de
+      votre seigneur. Terre et peuple ne font qu'un.</p>
+
+      <p><strong>Loi</strong>. D&eacute;fendez la loi et l'ordre contre le chaos
+      et l'anarchie.</p>
+
+      <p><strong>Temp&eacute;rance</strong>. Lorsque vous rendez la justice,
+      soyez justes et &eacute;quitables, que ce soit en jugement ou en
+      sentence.</p>
+
+      <p><strong>Droiture</strong>. Ne vous abaissez pas &agrave; vous
+      compromettre dans les jeux politiques.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Paladin
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685349
+  modifiedTime: 1663923686630
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!KFmbT4ZTufmoDEZb'
+

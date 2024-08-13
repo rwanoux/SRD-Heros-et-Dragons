@@ -1,0 +1,113 @@
+_id: auqHEfFaOZTfWGt0
+name: Déplacement sans armure [Moine]
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: >-
+      a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe
+      en poussière.
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  rsr5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickFooter:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <h3 id="deplacement-sans-armure"><strong>Déplacement sans
+      armure</strong></h3>
+
+      <p>À partir du niveau 2, votre vitesse augmente de 3 mètres tant que vous
+      ne portez pas d'armure ni de bouclier. Ce bonus s'accroît en même temps
+      que vos niveaux, comme indiqué dans le tableau du
+      @UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.doKdvMxZr8YJSEr4]{Moine}.</p>
+
+      <p>Au niveau 9, vous gagnez la capacité de vous déplacer sans chuter sur
+      des surfaces verticales ou sur des liquides pendant votre tour, tant que
+      vous finissez votre mouvement sur une surface plane et solide.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel de Règles
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Moine
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.1.5
+  coreVersion: '12.330'
+  createdTime: 1663923685457
+  modifiedTime: 1678410742404
+  lastModifiedBy: MIsNaVxms6cvWfks
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!auqHEfFaOZTfWGt0'
+

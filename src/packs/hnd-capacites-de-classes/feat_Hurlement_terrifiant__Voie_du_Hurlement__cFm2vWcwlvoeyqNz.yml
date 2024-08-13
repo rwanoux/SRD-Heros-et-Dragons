@@ -1,0 +1,93 @@
+_id: cFm2vWcwlvoeyqNz
+name: Hurlement terrifiant [Voie du Hurlement]
+type: feat
+flags: {}
+img: icons/creatures/abilities/mouth-teeth-human.webp
+effects: []
+system:
+  description:
+    value: >-
+      <h3 id="hurlement-terrifiant"><strong>Hurlement terrifiant</strong></h3>
+
+      <p>&Agrave; partir du niveau 14, vous pouvez pousser un terrible hurlement
+      qui effraye vos ennemis. Vous utilisez votre action &agrave; ce round, et
+      tous vos adversaires dans un rayon de 9 m&egrave;tres autour de vous
+      doivent r&eacute;ussir un&nbsp;<a style="text-shadow: red 0px 0px 8px;"
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>&nbsp;de Sagesse ou de Force au choix (difficult&eacute;
+      8 + modificateur de Force + bonus de ma&icirc;trise) ou
+      &ecirc;tre&nbsp;terroris&eacute;s&nbsp;pendant 1 minute. Si vous
+      &ecirc;tes en rage, les cibles subissent un&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">d&eacute;savantage</a>&nbsp;&agrave;
+      leur&nbsp;<a
+      href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+      de sauvegarde</a>. Vous devez terminer un repos court avant d'utiliser
+      &agrave; nouveau cette aptitude.</p>
+    chat: ''
+    unidentified: ''
+  source: Manuel des Règles
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 9
+    width: null
+    units: ft
+    type: enemy
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: 1
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: 'JdS Echec : Cibles terrorisés pendant 1 minute si échec'
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: str
+  type:
+    value: ''
+    subtype: ''
+  requirements: Barbare
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  YXEVHqx5k2ArOvJE: 3
+folder: null
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923685467
+  modifiedTime: 1663923687113
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!items!cFm2vWcwlvoeyqNz'
+

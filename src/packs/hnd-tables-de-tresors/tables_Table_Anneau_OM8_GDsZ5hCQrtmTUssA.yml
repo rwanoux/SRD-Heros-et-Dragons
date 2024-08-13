@@ -1,0 +1,97 @@
+_id: GDsZ5hCQrtmTUssA
+name: Table Anneau OM8
+folder: vVTDSYsguUPXB21e
+sort: 9700000
+flags:
+  better-rolltables:
+    table-type: loot
+    table-currency-string: ''
+    loot-actor-name: Trésor
+    loot-amount-key: ''
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - _id: zsK0KrTLstIYrLfA
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Anneau d'invisibilité
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-ruby.jpg
+    weight: 1
+    range:
+      - 1
+      - 2
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: bx3t40aVSxzcGb4X
+    _key: '!tables.results!GDsZ5hCQrtmTUssA.zsK0KrTLstIYrLfA'
+  - _id: uqKAHC2mwXOGh2Y5
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Anneau de convocation de djinn
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-purple.jpg
+    weight: 1
+    range:
+      - 3
+      - 4
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: hFnRMqZxbspG4ehl
+    _key: '!tables.results!GDsZ5hCQrtmTUssA.uqKAHC2mwXOGh2Y5'
+  - _id: T3e4uzrfnDSODMjC
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: document
+    text: Table Maitrise élémentaire
+    img: icons/svg/d20-grey.svg
+    weight: 1
+    range:
+      - 5
+      - 6
+    drawn: false
+    documentCollection: RollTable
+    documentId: hlPXCm9sw4pXAuRU
+    _key: '!tables.results!GDsZ5hCQrtmTUssA.T3e4uzrfnDSODMjC'
+  - _id: yssUQ170MFjR72x7
+    flags:
+      better-rolltables:
+        brt-result-formula:
+          formula: ''
+    type: pack
+    text: Anneau de triple souhait
+    img: >-
+      https://assets.forge-vtt.com/bazaar/systems/dnd5e/assets/icons/items/jewelry/ring-orb.jpg
+    weight: 1
+    range:
+      - 7
+      - 8
+    drawn: false
+    documentCollection: srd-heros-et-dragons.HnD-objets-magiques-et-trésors
+    documentId: pgbwa60oSluFqxdR
+    _key: '!tables.results!GDsZ5hCQrtmTUssA.yssUQ170MFjR72x7'
+formula: 1d10
+replacement: true
+displayRoll: true
+_stats:
+  coreVersion: '12.330'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  dpzA8WMB8TWxbuiv: 3
+_key: '!tables!GDsZ5hCQrtmTUssA'
+

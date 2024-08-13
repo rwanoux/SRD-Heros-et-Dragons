@@ -1,0 +1,3156 @@
+_id: YyRcb0KbMMVVlzPz
+name: Solar
+type: npc
+img: icons/svg/mystery-man.svg
+items:
+  - _id: n8x1StUbm7yyyxlC
+    name: Armes Angéliques
+    type: feat
+    sort: 100000
+    flags:
+      _sheetTab: ''
+      obsidian:
+        source:
+          type: other
+        effects: []
+        version: 7
+    img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Armes angéliques.</strong>&nbsp;Les attaques d'arme du
+          solar sont magiques. Quand il réussit une attaque avec une arme,
+          celle-ci inflige 6d8 dégâts radiants supplémentaires (inclus dans
+          l'attaque).</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: ''
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: null
+      damageType:
+        value: ''
+        _deprecated: null
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.n8x1StUbm7yyyxlC'
+  - _id: uuVxDo6sswVbxEPQ
+    name: Incantation innée
+    type: feat
+    sort: 200000
+    flags:
+      _sheetTab: description
+    img: icons/magic/light/projectiles-star-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Incantation innée.</strong>&nbsp;La caractéristique
+          d'incantation du solar est le Charisme (DD du&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;contre les sorts 25). Le solar peut lancer les
+          sorts suivants de manière innée sans aucune composante matérielle
+          :</p>
+
+          <ul>
+
+          <li>À volonté&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien/">détection
+          du mal et du bien</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/invisibilite/">invisibilité</a>&nbsp;(soi-même
+          uniquement)</li>
+
+          <li>3/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/barriere-de-lames/">barrière de
+          lames</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien/">dissipation
+          du mal et du bien</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/resurrection/">résurrection</a></li>
+
+          <li>1/jour chacun&nbsp;:&nbsp;<a
+          href="https://5e-drs.fr/grimoire/communion/">communion</a>,&nbsp;<a
+          href="https://5e-drs.fr/grimoire/controle-du-climat/">contrôle du
+          climat</a></li>
+
+          </ul>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: ''
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+        type: ''
+      consume:
+        type: ''
+        target: ''
+        amount: ''
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      properties:
+        value: ''
+        amm: null
+        fin: null
+        fir: null
+        foc: null
+        hvy: null
+        lgt: null
+        lod: null
+        rch: null
+        rel: null
+        ret: null
+        spc: null
+        thr: null
+        two: null
+        ver: null
+      featType:
+        value: ''
+        _deprecated: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.uuVxDo6sswVbxEPQ'
+  - _id: G198W1UNBzXQwGjK
+    name: Résistance à la Magie
+    type: feat
+    sort: 300000
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Résistance à la magie.</strong>&nbsp;Le solar obtient
+          un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage">avantage</a>
+          lors des jets de sauvegarde contre les sorts et autres effets
+          magiques.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.G198W1UNBzXQwGjK'
+  - _id: dBG1TEo8fgHYnqgU
+    name: Vigilance Divine
+    type: feat
+    sort: 400000
+    flags: {}
+    img: icons/magic/symbols/cog-shield-white-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Vigilance divine.</strong>&nbsp;Le solar reconnaît un
+          mensonge lorsqu'il entend quelqu'un le prononcer.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.dBG1TEo8fgHYnqgU'
+  - _id: Nrrk5XDz73vtyvtw
+    name: Attaques Multiples
+    type: feat
+    sort: 500000
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Attaques Multiples.</strong>&nbsp;Le solar effectue deux
+          attaques à l'épée à deux mains.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 0
+        max: 0
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.Nrrk5XDz73vtyvtw'
+  - _id: tQcwZiq3PaFf5ZNg
+    name: Détection du mal et du bien
+    type: spell
+    sort: 600000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/life/ankh-gold-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Pendant toute la durée du sort, vous savez s'il y a une aberration,
+          un céleste, un élémentaire, une fée, un fiélon ou un mort-vivant dans
+          un rayon de 9 mètres autour de vous et vous savez précisément où il se
+          trouve. De même, vous savez si un lieu ou un objet situé dans un rayon
+          de 9 mètres a été consacré ou profané.</p>
+
+          <p>Le sort ignore la plupart des obstacles, mais il ne peut pas
+          franchir 30 centimètres de pierre, 2,5 centimètres de métal ordinaire,
+          une mince feuille de plomb, ni 1 mètre de bois ou de terre.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: radius
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.tQcwZiq3PaFf5ZNg'
+  - _id: EpkS60Q6i9Y1qgdh
+    name: Invisibilité
+    type: spell
+    sort: 700000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/air/fog-gas-smoke-blue-gray.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>La créature que vous touchez devient <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          jusqu'à la fin du sort. Tout ce qu'elle porte et transporte reste <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#invisible"><em>invisible</em></a>
+          tant qu'elle le garde sur elle. Le sort se termine si la cible attaque
+          ou lance un sort.</p>
+
+          <p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en
+          utilisant un emplacement de niveau 3 ou supérieur, vous pouvez viser
+          une créature de plus par niveau au-delà du niveau 2.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: ill
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Un cil enrobé de gomme arabique
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: level
+        formula: + 1 créature
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.EpkS60Q6i9Y1qgdh'
+  - _id: qKnfP0yDUNESf7ob
+    name: Barrière de lames Mur
+    type: spell
+    sort: 800000
+    flags: {}
+    img: icons/magic/light/projectile-beams-salvo-white.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous créez un mur vertical constitué de lames tournoyantes faites
+          d'énergie magique et tranchantes comme des rasoirs. Le mur apparaît à
+          portée et persiste pour toute la durée du sort. Vous pouvez créer un
+          mur droit d'un maximum de 30 mètres de long, 6 mètres de haut et 1,50
+          mètre d'épaisseur, ou un mur circulaire d'un maximum de 18  mètres de
+          diamètre, 6 mètres de haut et 1,50 mètre d'épaisseur. Le mur offre un
+          abri important aux créatures qui se trouvent derrière lui, et son
+          espace est traité comme un terrain difficile.</p>
+
+          <p>Quand une créature pénètre dans la zone du mur pour la première
+          fois au cours de son tour ou quand elle commence son tour dans cette
+          zone, elle doit faire un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Dextérité. Si elle le rate, elle subit 6d10
+          dégâts tranchants ; si elle le réussit, elle en subit seulement la
+          moitié.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 30
+        width: null
+        units: ft
+        type: wall
+        range:
+          value: '27'
+          unit: mètres
+      range:
+        value: 27
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 6d10
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 25
+        scaling: spell
+      level: 6
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.qKnfP0yDUNESf7ob'
+  - _id: EQnTlFaglayROeRt
+    name: Barrière de lames Sphère
+    type: spell
+    sort: 900000
+    flags: {}
+    img: icons/magic/light/projectile-beams-salvo-white.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <div class="description ">
+
+          <p>Vous créez un mur vertical constitué de lames tournoyantes faites
+          d'énergie magique et tranchantes comme des rasoirs. Le mur apparaît à
+          portée et persiste pour toute la durée du sort. Vous pouvez créer un
+          mur droit d'un maximum de 30 mètres de long, 6 mètres de haut et 1,50
+          mètre d'épaisseur, ou un mur circulaire d'un maximum de 18 mètres de
+          diamètre, 6 mètres de haut et 1,50 mètre d'épaisseur. Le mur offre un
+          abri important aux créatures qui se trouvent derrière lui, et son
+          espace est traité comme un terrain difficile.</p>
+
+          <p>Quand une créature pénètre dans la zone du mur pour la première
+          fois au cours de son tour ou quand elle commence son tour dans cette
+          zone, elle doit faire un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Dextérité. Si elle le rate, elle subit 6d10
+          dégâts tranchants ; si elle le réussit, elle en subit seulement la
+          moitié.</p>
+
+          </div>
+        chat: ''
+        unidentified: ''
+      source: manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: sphere
+      range:
+        value: 27
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 6d10
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 25
+        scaling: spell
+      level: 6
+      school: evo
+      components:
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.EQnTlFaglayROeRt'
+  - _id: 7Mk8FH0mkzBr7w5W
+    name: Dissipation du mal et du bien
+    type: spell
+    sort: 1000000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/light/orbs-hand-gray.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une énergie scintillante vous entoure et vous protège contre les
+          fées, les morts-vivants et les créatures originaires d'un autre plan
+          que le plan matériel. Pendant toute la durée du sort, les célestes,
+          les élémentaires, les fées, les fiélons et les morts-vivants subissent
+          un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+          lors de leurs attaques contre vous.</p>
+
+          <p>Vous pouvez terminer le sort plus tôt en utilisant l'une des
+          fonctions spéciales suivantes.</p>
+
+          <p><strong>Annulation d'enchantement</strong>. Vous utilisez votre
+          action pour toucher une créature à votre portée qui se trouve <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#terrorisé"><em>terrorisée</em></a>
+          ou possédée par un céleste, un élémentaire, une fée, un fiélon ou un
+          mort-vivant. Cette créature n'est alors plus <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#charmé"><em>charmée</em></a>,
+          <a
+          href="https://5e-drs.fr//gerer-la-sante-du-personnage#terrorisé"><em>terrorisée</em></a>
+          ni possédée par ces créatures.</p>
+
+          <p><strong>Renvoi</strong>. Vous utilisez votre action pour faire une
+          attaque de sort au corps-à-corps contre un céleste, un élémentaire,
+          une fée, un fiélon ou un mort-vivant situé à une distance inférieure
+          ou égale à votre allonge. Si vous touchez la créature, vous tentez de
+          la renvoyer sur son plan natal. Elle doit réussir un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Charisme ou retourner sur son plan natal (si elle
+          ne s'y trouve pas déjà). Si un mort-vivant ne se trouve pas sur son
+          plan natal, il est renvoyé dans les plans inférieurs, tandis qu'une
+          fée sera expulsée sur son plan d'origine.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      school: abj
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: Eau bénite ou poudre d'argent et de fer
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.7Mk8FH0mkzBr7w5W'
+  - _id: uuMNYyJbiQOvMy8Q
+    name: Résurrection
+    type: spell
+    sort: 1100000
+    flags: {}
+    img: icons/magic/light/explosion-star-orange-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous touchez le cadavre d'une créature décédée depuis 100 ans au
+          maximum, qui n'est pas morte de vieillesse et qui n'est pas un
+          mort-vivant. Si son âme est libre et consentante, la cible ressuscite
+          avec tous ses points de vie.</p>
+
+          <p>Ce sort neutralise les poisons et maladies ordinaires qui
+          affectaient éventuellement la cible à sa mort, mais il ne guérit pas
+          les maladies magiques, les malédictions et autres effets de même type.
+          Il faut en débarrasser la cible avant de la ressusciter, sans quoi ils
+          l'affligent de nouveau dès qu'elle revient à la vie.</p>
+
+          <p>Ce sort referme les blessures mortelles et restaure les parties de
+          corps éventuellement manquantes.</p>
+
+          <p>Le retour d'entre les morts est une rude épreuve qui se traduit par
+          un malus de -4 aux jets d'attaque et de sauvegarde ainsi qu'aux tests
+          de caractéristique. À chaque fois que la cible termine un repos long,
+          ce malus se réduit de 1 jusqu'à disparaître.</p>
+
+          <p>Si ce sort est destiné à une créature décédée depuis un an ou plus,
+          son incantation est extrêmement éprouvante. Après cela, vous ne pouvez
+          plus lancer de sort et vous souffrez d'un <a
+          href="https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage"><em>désavantage</em></a>
+          lors des jets d'attaque et de sauvegarde et des tests de
+          caractéristique jusqu'à ce que vous ayez terminé un repos long.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: hour
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: spec
+        type: creature
+        range:
+          value: contact
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 7
+      school: nec
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+        value: ''
+      materials:
+        value: Un diamant d'une valeur minimale de 1000 po, que le sort consume
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.uuMNYyJbiQOvMy8Q'
+  - _id: JeeMhj8fzu2sOw3T
+    name: Communion
+    type: spell
+    sort: 1200000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous entrez en contact avec votre divinité ou l'un de ses
+          représentants et lui posez jusqu'à trois questions fermées auxquelles
+          la réponse est soit oui, soit non. Vous devez les poser avant la fin
+          du sort et vous recevez une réponse correcte à chacune d'entre
+          elles.</p>
+
+          <p>Les êtres divins ne sont pas forcément omniscients, il se peut donc
+          que vous obteniez « <em>incertain</em> » comme réponse si votre
+          question porte sur des informations sortant du champ des connaissances
+          de votre divinité. Si une réponse d'un seul mot risque de se révéler
+          trompeuse ou contraire aux intérêts de la divinité, le MJ peut lui
+          substituer une courte phrase.</p>
+
+          <p>Si vous lancez ce sort à deux reprises ou plus avant un long repos,
+          il y a 25 % de chances (cumulables) que chaque incantation en sus de
+          la première ne reçoive pas de réponse. Le MJ effectue ce jet en
+          secret.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: null
+        type: self
+        range:
+          value: personnelle
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      school: div
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: true
+        concentration: false
+        value: ''
+      materials:
+        value: De l'encens et une fiole d'eau bénite ou maudite
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.JeeMhj8fzu2sOw3T'
+  - _id: GqVV5Dtu2DQ2LH50
+    name: Contrôle du climat
+    type: spell
+    sort: 1300000
+    flags:
+      dynamiceffects:
+        equipActive: false
+        alwaysActive: false
+    img: icons/magic/air/wind-tornado-cyclone-white.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Vous prenez le contrôle de la météo dans un rayon de 7,5 
+          kilomètres autour de vous pendant toute la durée du sort. Vous devez
+          être en extérieur au moment de l'incantation. Si vous vous rendez dans
+          un endroit d'où vous ne voyez pas directement le ciel, le sort se
+          termine prématurément.</p>
+
+          <p>Au moment de l'incantation, vous changez les conditions
+          météorologiques actuelles déterminées par le MJ en fonction du climat
+          et de la saison. Vous pouvez modifier les précipitations, la
+          température et le vent. Il faut 1d4×10 minutes pour que les nouvelles
+          conditions s'installent. Vous pouvez ensuite les modifier à nouveau.
+          Le temps retourne progressivement à la normale une fois le sort
+          terminé.</p>
+
+          <p>Quand vous modifiez les conditions météorologiques, cherchez les
+          conditions actuelles dans les tables suivantes : vous pouvez les
+          décaler d'un cran vers le haut ou le bas. Quand vous modifiez le vent,
+          vous pouvez changer sa direction.</p>
+
+          <h2 id="precipitations">Précipitations</h2>
+
+          <div class='simple-responsive-table'><div><table><thead><tr><th
+          class="text-align-center">Étape</th><th>Condition</th></tr></thead><tbody><tr><td
+          class="text-align-center"><strong>1</strong></td><td>Ciel
+          dégagé</td></tr><tr><td
+          class="text-align-center"><strong>2</strong></td><td>Quelques
+          nuages</td></tr><tr><td
+          class="text-align-center"><strong>3</strong></td><td>Ciel couvert ou
+          brume au sol</td></tr><tr><td
+          class="text-align-center"><strong>4</strong></td><td>Pluie, grêle ou
+          neige</td></tr><tr><td
+          class="text-align-center"><strong>5</strong></td><td>Pluies
+          torrentielles, forte grêle ou
+          blizzard</td></tr></tbody></table></div></div>
+
+          <h2 id="temperature">Température</h2>
+
+          <div class='simple-responsive-table'><div><table><thead><tr><th
+          class="text-align-center">Étape</th><th>Condition</th></tr></thead><tbody><tr><td
+          class="text-align-center"><strong>1</strong></td><td>Chaleur
+          insoutenable</td></tr><tr><td
+          class="text-align-center"><strong>2</strong></td><td>Forte
+          chaleur</td></tr><tr><td
+          class="text-align-center"><strong>3</strong></td><td>Tiède</td></tr><tr><td
+          class="text-align-center"><strong>4</strong></td><td>Frais</td></tr><tr><td
+          class="text-align-center"><strong>5</strong></td><td>Grand
+          froid</td></tr><tr><td
+          class="text-align-center"><strong>6</strong></td><td>Froid
+          polaire</td></tr></tbody></table></div></div>
+
+          <h2 id="vent">Vent</h2>
+
+          <div class='simple-responsive-table'><div><table><thead><tr><th
+          class="text-align-center">Étape</th><th>Condition</th></tr></thead><tbody><tr><td
+          class="text-align-center"><strong>1</strong></td><td>Temps
+          calme</td></tr><tr><td
+          class="text-align-center"><strong>2</strong></td><td>Vent
+          modéré</td></tr><tr><td
+          class="text-align-center"><strong>3</strong></td><td>Vent
+          fort</td></tr><tr><td
+          class="text-align-center"><strong>4</strong></td><td>Grand
+          vent</td></tr><tr><td
+          class="text-align-center"><strong>5</strong></td><td>Tempête</td></tr></tbody></table></div></div>
+        chat: ''
+        unidentified: ''
+      source: Manuel des règles
+      activation:
+        type: minute
+        cost: 10
+        condition: ''
+      duration:
+        value: 8
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 7.5
+        width: null
+        units: mi
+        type: radius
+        range:
+          value: personnelle
+          unit: (rayon
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 8
+      school: trs
+      components:
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+        value: ''
+      materials:
+        value: >-
+          Encens incandescent et un peu de bois et de terre mélangés dans de
+          l'eau
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: prepared
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      spellType:
+        value: ''
+        _deprecated: true
+      time:
+        value: ''
+        _deprecated: true
+      damageType:
+        value: ''
+        _deprecated: true
+      concentration:
+        value: null
+        _deprecated: true
+      ritual:
+        value: null
+        _deprecated: true
+      prepared:
+        value: null
+        _deprecated: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.GqVV5Dtu2DQ2LH50'
+  - _id: GKWudh34yrobEgFh
+    name: Contact Curatif
+    type: feat
+    sort: 1475000
+    flags: {}
+    img: icons/magic/nature/beam-hand-leaves-green.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Contact curatif (4/jour).</strong>&nbsp;Le solar touche une
+          autre créature. La cible récupère 40 (8d8+4) points de vie par magie
+          et guérit de la totalité des malédictions, maladies, poisons dont elle
+          était victime, ainsi que des états spéciaux&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle">aveuglé</a>&nbsp;et&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#assourdi">assourdi</a>.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 4
+        max: 4
+        per: day
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 8d8+4
+            - healing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.GKWudh34yrobEgFh'
+  - _id: 45lBaKFXBZUgqBij
+    name: Épée à deux mains
+    type: weapon
+    sort: 1900000
+    flags:
+      obsidian:
+        category: martial
+        type: melee
+        mode: melee
+        tags:
+          heavy: true
+          twohanded: true
+        magical: false
+        effects:
+          - name: ''
+            uuid: 98405d29-3f20-491a-968c-adace980663d
+            components:
+              - type: attack
+                uuid: 338cc2a1-da99-435c-9b12-9592832802e1
+                attack: melee
+                category: weapon
+                ability: ''
+                bonus: 0
+                crit: 20
+                proficient: false
+                reach: null
+                range1: null
+                range2: null
+                target: ''
+              - type: damage
+                uuid: 5095a18d-dd7d-4383-abe6-a254e4367799
+                calc: formula
+                ndice: 2
+                die: 6
+                ability: str
+                bonus: 0
+                damage: slh
+                versatile: false
+        version: 7
+    img: icons/weapons/swords/greatsword-guard-gem-blue.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p>Une puissante lame à deux mains mesure plus d'un mètre de long et
+          presque cinq pouces de large. Cette arme nécessite un entraînement
+          martial intensif, mais ceux qui savent s'en servir sont de redoutables
+          guerriers.</p>
+
+          <p>Attaque d'arme au corps à corps&nbsp;: +15 pour toucher, allonge
+          1,50 m, une cible.<br>Touché&nbsp;: 22 (4d6+8) dégâts tranchants plus
+          27 (6d8) dégâts radiants.</p>
+        chat: ''
+        unidentified: ''
+      source: Manuel des Règles
+      quantity: 1
+      weight: 3
+      price: 50
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 1.5
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6 + @mod
+            - slashing
+          - - 6d8
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        hvy: true
+        two: true
+        rch: false
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.45lBaKFXBZUgqBij'
+  - _id: HK6DCDepx1SFwFFK
+    name: Épée Volante
+    type: weapon
+    sort: 2000000
+    flags: {}
+    img: icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Épée volante.</strong>&nbsp;Le solar lâche son épée à deux
+          mains pour qu'elle s'envole par magie vers un emplacement inoccupé
+          situé à 1,50 mètre ou moins de lui. Si l'épée est dans son champ de
+          vision, le solar peut mentalement lui ordonner, par une action bonus,
+          de voler sur une distance maximale de 15 mètres et soit d'effectuer
+          une attaque contre une cible, soit de revenir dans ses mains. Si
+          l'épée en vol est la cible d'un quelconque effet, on considère que le
+          solar la tient en main. L'épée en vol tombe inerte dès que le solar
+          meurt.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 1.5
+        long: 15
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: str
+      actionType: mwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6+@mod
+            - slashing
+          - - 6d8
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: martialM
+      baseItem: ''
+      properties:
+        two: true
+        rch: false
+        lod: false
+        fir: false
+        fin: false
+        foc: false
+        thr: false
+        lgt: false
+        hvy: true
+        amm: false
+        ver: false
+        rel: false
+        ret: false
+        spc: false
+      proficient: true
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.HK6DCDepx1SFwFFK'
+  - _id: ixMIiu8rw8I7lEQ1
+    name: Explosion Brûlante
+    type: feat
+    sort: 2000000
+    flags: {}
+    img: icons/magic/fire/barrier-wall-explosion-orange.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Explosion brûlante.</strong>&nbsp;Le solar produit de
+          l'énergie magique de nature divine. Chaque créature de son choix
+          située dans un rayon de 3 mètres doit effectuer un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a> de Dextérité DD 23. Celles qui échouent subissent 14
+          (4d6) dégâts de feu plus 14 (4d6) dégâts radiants, les autres la
+          moitié de ces dégâts seulement.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 2
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 3
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: any
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6
+            - fire
+          - - 4d6
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 23
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: 'Solar '
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.ixMIiu8rw8I7lEQ1'
+  - _id: uBTfM0PXQBopPKRK
+    name: Regard Aveuglant
+    type: feat
+    sort: 2025000
+    flags: {}
+    img: icons/magic/light/explosion-star-glow-blue-purple.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Regard aveuglant.</strong> Le solar cible une créature
+          située à 9 mètres ou moins de lui et dans son champ de vision. Si la
+          cible peut le voir, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 15 pour ne pas être&nbsp;<a
+          href="https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle">aveuglée</a>&nbsp;jusqu'à
+          ce qu'un effet magique, tel que celui produit par un sort de&nbsp;<a
+          href="https://5e-drs.fr/grimoire/restauration-inferieure/">restauration
+          inférieure</a>, dissipe l'aveuglement.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 3
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 9
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: 15
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.uBTfM0PXQBopPKRK'
+  - _id: BbbRfcecTUyCAhqz
+    name: Téléportation
+    type: feat
+    sort: 2050000
+    flags: {}
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Téléportation.&nbsp;</strong>Le solar se téléporte par
+          magie, avec tous ses objets portés ou transportés, vers un emplacement
+          inoccupé situé dans son champ de vision à une distance maximale de 36
+          mètres.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 36
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.BbbRfcecTUyCAhqz'
+  - _id: udwOEMPGEjyKxgK1
+    name: Arc Long Tueur
+    type: feat
+    sort: 950000
+    flags: {}
+    img: icons/weapons/bows/longbow-gold-pink.webp
+    effects: []
+    folder: null
+    system:
+      description:
+        value: >-
+          <p><strong>Arc long tueur.</strong>&nbsp;Attaque d'arme à
+          distance&nbsp;: +13 pour toucher, portée 45/180 m, une
+          cible.<br>Touché&nbsp;: 15 (2d8+6) dégâts perforants plus 27 (6d8)
+          dégâts radiants. Si la cible est une créature avec 100 points de vie
+          ou moins, elle doit réussir un&nbsp;<a
+          href="https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde">jet
+          de sauvegarde</a>&nbsp;de Constitution DD 15 pour ne pas mourir.</p>
+        chat: ''
+        unidentified: ''
+      source: Créatures et Oppositions
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: any
+        type: ''
+      range:
+        value: 45
+        long: 180
+        units: ft
+      uses:
+        value: 0
+        max: 0
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: dex
+      actionType: rwak
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8+@mod
+            - piercing
+          - - 6d8
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: 15
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      requirements: Solar
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '12.330'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!YyRcb0KbMMVVlzPz.udwOEMPGEjyKxgK1'
+effects: []
+folder: null
+sort: 100001
+flags:
+  obsidian:
+    saves:
+      str:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dex:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Dex
+          - mod: 0
+            name: Bonus
+      con:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Con
+          - mod: 0
+            name: Bonus
+      int:
+        rollParts:
+          - mod: 7
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      wis:
+        rollParts:
+          - mod: 7
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+      cha:
+        rollParts:
+          - mod: 7
+            name: Prof
+            proficiency: true
+            value: 1
+          - mod: 10
+            name: Cha
+          - mod: 0
+            name: Bonus
+    skills:
+      acr:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ani:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+      arc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      ath:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 8
+            name: Str
+          - mod: 0
+            name: Bonus
+      dec:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 10
+            name: Cha
+          - mod: 0
+            name: Bonus
+      his:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      ins:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+      itm:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 10
+            name: Cha
+          - mod: 0
+            name: Bonus
+      inv:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      med:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+      nat:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      prc:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+      prf:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 10
+            name: Cha
+          - mod: 0
+            name: Bonus
+      per:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 10
+            name: Cha
+          - mod: 0
+            name: Bonus
+      rel:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Int
+          - mod: 0
+            name: Bonus
+      slt:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Dex
+          - mod: 0
+            name: Bonus
+      ste:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 6
+            name: Dex
+          - mod: 0
+            name: Bonus
+      sur:
+        rollParts:
+          - mod: 0
+            name: Prof
+            proficiency: true
+            value: 0
+          - mod: 7
+            name: Wis
+          - mod: 0
+            name: Bonus
+  betterNpcSheet:
+    sheet:
+      height: 600
+      width: 600
+  tidy5e-sheet: {}
+system:
+  abilities:
+    str:
+      value: 26
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: strength
+      mod: 8
+      save: 8
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 23
+    dex:
+      value: 22
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: dexterity
+      mod: 6
+      save: 6
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 21
+    con:
+      value: 26
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: constitution
+      mod: 8
+      save: 8
+      prof: 0
+      saveBonus: 0
+      checkBonus: 0
+      dc: 23
+    int:
+      value: 25
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: inteligence
+      mod: 7
+      save: 14
+      prof: 7
+      saveBonus: 0
+      checkBonus: 0
+      dc: 22
+    wis:
+      value: 25
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: wisdom
+      mod: 7
+      save: 14
+      prof: 7
+      saveBonus: 0
+      checkBonus: 0
+      dc: 22
+    cha:
+      value: 30
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      label: charisme
+      mod: 10
+      save: 17
+      prof: 7
+      saveBonus: 0
+      checkBonus: 0
+      dc: 25
+  attributes:
+    ac:
+      flat: 21
+      calc: natural
+      formula: ''
+      min: 0
+    hp:
+      value: 243
+      max: 243
+      temp: 0
+      tempmax: 0
+      formula: 18d10+144
+      min: 0
+    init:
+      ability: ''
+      bonus: 0
+      value: 0
+      mod: 6
+      prof: 0
+      total: 6
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 45
+      swim: 0
+      walk: 15
+      units: m
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 36
+      truesight: 0
+      units: m
+      special: Perception passive 24
+    spellcasting: cha
+    prof: 7
+    spelldc: 25
+    encumbrance:
+      value: 3
+      max: 390
+      pct: 0.7692307692307693
+      encumbered: true
+  details:
+    biography:
+      value: >-
+        <h2 id="capacites">Capacités</h2>
+
+        <p><strong><em>Armes angéliques</em></strong>. Les attaques d'arme du
+        solar sont magiques. Quand il réussit une attaque avec une arme,
+        celle-ci inflige 6d8 dégâts radiants supplémentaires (inclus dans
+        l'attaque).</p>
+
+        <p><strong><em>Incantation innée</em></strong>. La caractéristique
+        d'incantation du solar est le Charisme (DD du <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> contre les sorts 25). Le solar peut lancer les sorts
+        suivants de manière innée sans aucune composante matérielle :</p>
+
+        <ul>
+
+        <li><strong><em>À volonté</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/detection-du-mal-et-du-bien"><em>détection
+        du mal et du bien</em></a>, <a
+        href="https://5e-drs.fr/grimoire/invisibilite"><em>invisibilité</em></a>
+        (soi-même uniquement)</li>
+
+        <li><strong><em>3/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/barriere-de-lames"><em>barrière de
+        lames</em></a>, <a
+        href="https://5e-drs.fr/grimoire/dissipation-du-mal-et-du-bien"><em>dissipation
+        du mal et du bien</em></a>, <a
+        href="https://5e-drs.fr/grimoire/resurrection"><em>résurrection</em></a></li>
+
+        <li><strong><em>1/jour chacun</em></strong> : <a
+        href="https://5e-drs.fr/grimoire/communion"><em>communion</em></a>, <a
+        href="https://5e-drs.fr/grimoire/controle-du-climat"><em>contrôle du
+        climat</em></a></li>
+
+        </ul>
+
+        <p><strong><em>Résistance à la magie</em></strong>. Le solar obtient un
+        <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage"><em>avantage</em></a>
+        lors des jets de sauvegarde contre les sorts et autres effets
+        magiques.</p>
+
+        <p><strong><em>Vigilance divine</em></strong>. Le solar reconnaît un
+        mensonge lorsqu'il entend quelqu'un le prononcer.</p>
+
+        <hr>
+
+        <h2 id="actions">Actions</h2>
+
+        <p><strong><em>Attaques multiples</em></strong>. Le solar effectue deux
+        attaques à l'épée à deux mains.</p>
+
+        <p><strong><em>Arc long tueur</em></strong>. <em>Attaque d'arme à
+        distance</em> : +13 pour toucher, portée 45/180 m, une
+        cible.<br><em>Touché</em> : 15 (2d8+6) dégâts perforants plus 27 (6d8)
+        dégâts radiants. Si la cible est une créature avec 100 points de vie ou
+        moins, elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 15 pour ne pas mourir.</p>
+
+        <p><strong><em>Contact curatif (4/jour)</em></strong>. Le solar touche
+        une autre créature. La cible récupère 40 (8d8+4) points de vie par magie
+        et guérit de la totalité des malédictions, maladies, poisons dont elle
+        était victime, ainsi que des états spéciaux <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#aveuglé"><em>aveuglé</em></a>
+        et <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#assourdi"><em>assourdi</em></a>.</p>
+
+        <p><strong><em>Épée à deux mains</em></strong>. <em>Attaque d'arme au
+        corps à corps</em> : +15 pour toucher, allonge 1,50 m, une
+        cible.<br><em>Touché</em> : 22 (4d6+8) dégâts tranchants plus 27 (6d8)
+        dégâts radiants.</p>
+
+        <p><strong><em>Épée volante</em></strong>. Le solar lâche son épée à
+        deux mains pour qu'elle s'envole par magie vers un emplacement inoccupé
+        situé à 1,50 mètre ou moins de lui. Si l'épée est dans son champ de
+        vision, le solar peut mentalement lui ordonner, par une action bonus, de
+        voler sur une distance maximale de 15 mètres et soit d'effectuer une
+        attaque contre une cible, soit de revenir dans ses mains. Si l'épée en
+        vol est la cible d'un quelconque effet, on considère que le solar la
+        tient en main. L'épée en vol tombe inerte dès que le solar meurt.</p>
+
+        <hr>
+
+        <h2 id="actions-legendaires">Actions légendaires</h2>
+
+        <p>Le solar peut effectuer 3 actions légendaires qu'il choisit parmi
+        celles décrites ici. Il ne peut en choisir qu'un seule à la fois et
+        uniquement à la fin du tour d'une autre créature. Le solar récupère au
+        début de son tour l'utilisation des actions légendaires déjà
+        effectuées.</p>
+
+        <p><strong><em>Explosion brûlante (coûte 2 actions)</em></strong>. Le
+        solar produit de l'énergie magique de nature divine. Chaque créature de
+        son choix située dans un rayon de 3 mètres doit effectuer un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Dextérité DD 23. Celles qui échouent subissent 14
+        (4d6) dégâts de feu plus 14 (4d6) dégâts radiants, les autres la moitié
+        de ces dégâts seulement.</p>
+
+        <p><strong><em>Regard aveuglant (coûte 3 actions)</em></strong>. Le
+        solar cible une créature située à 9 mètres ou moins de lui et dans son
+        champ de vision. Si la cible peut le voir, elle doit réussir un <a
+        href="https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde">jet
+        de sauvegarde</a> de Constitution DD 15 pour ne pas être <a
+        href="https://5e-drs.fr/gerer-la-sante-du-personnage#aveuglé"><em>aveuglée</em></a>
+        jusqu'à ce qu'un effet magique, tel que celui produit par un sort de <a
+        href="https://5e-drs.fr/grimoire/restauration-inferieure"><em>restauration
+        inférieure</em></a>, dissipe l'aveuglement.</p>
+
+        <p><strong><em>Téléportation</em></strong>. Le solar se téléporte par
+        magie, avec tous ses objets portés ou transportés, vers un emplacement
+        inoccupé situé dans son champ de vision à une distance maximale de 36
+        mètres.</p>
+      public: ''
+    alignment: Loyal Bon
+    race: ''
+    type:
+      value: celestial
+      subtype: Ange
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 21
+    spellLevel: 21
+    source: Créatures & Oppositions
+    xp:
+      value: 33000
+  traits:
+    size: lg
+    di:
+      value:
+        - necrotic
+        - poison
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - radiant
+        - slashing
+      bypasses: []
+      custom: infligés par des attaques non-magiques
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - poisoned
+        - exhaustion
+        - frightened
+      custom: ' '
+    languages:
+      value: []
+      custom: Toutes, Télépathie 36 m
+    perception:
+      _deprecated: true
+      value: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 8
+      label: ' '
+      bonus: 0
+      passive: 18
+      prof: 0
+      total: 8
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 10
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 0
+      total: 10
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 10
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 0
+      total: 10
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 24
+      prof: 7
+      total: 14
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 10
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 0
+      total: 10
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 10
+      label: ' '
+      bonus: 0
+      passive: 20
+      prof: 0
+      total: 10
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 6
+      label: ' '
+      bonus: 0
+      passive: 16
+      prof: 0
+      total: 6
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+      mod: 7
+      label: ' '
+      bonus: 0
+      passive: 17
+      prof: 0
+      total: 7
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+      max: 4
+    spell2:
+      value: 0
+      override: null
+      max: 3
+    spell3:
+      value: 0
+      override: null
+      max: 3
+    spell4:
+      value: 0
+      override: null
+      max: 3
+    spell5:
+      value: 0
+      override: null
+      max: 3
+    spell6:
+      value: 0
+      override: null
+      max: 2
+    spell7:
+      value: 0
+      override: null
+      max: 2
+    spell8:
+      value: 0
+      override: null
+      max: 1
+    spell9:
+      value: 0
+      override: null
+      max: 1
+    pact:
+      value: 0
+      override: null
+      max: 0
+      level: 0
+    spell0:
+      _deprecated: true
+      max: 0
+      value: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  VobEYRz2xbJuSR5e: 3
+prototypeToken:
+  flags: {}
+  name: Solar
+  displayName: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  actorLink: false
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  alpha: 1
+  light:
+    alpha: 1
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      type: null
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  texture:
+    src: icons/svg/mystery-man.svg
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923690494
+  modifiedTime: 1663923695937
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: null
+  duplicateSource: null
+_key: '!actors!YyRcb0KbMMVVlzPz'
+

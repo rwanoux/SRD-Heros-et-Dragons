@@ -1,0 +1,130 @@
+name: Demi-ogre Delchin
+type: feat
+img: icons/svg/mystery-man.svg
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: ''
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value: true
+      altValue: true
+    quickTemplate:
+      type: Boolean
+      value: false
+      altValue: false
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+  dynamiceffects:
+    equipActive: false
+    alwaysActive: false
+    effects: []
+  core:
+    sourceId: Compendium.srd-heros-et-dragons.HnD-races.hr7gNG5LnKW1mkhp
+_id: IpX3OQid3fvSBZ7e
+system:
+  description:
+    value: "<h2 id=\"traits-des-demi-ogres\">Traits des demi-ogres</h2>\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Constitution augmente de 2</p>\n<hr />\n<p><strong>Âge.</strong> Les demi-ogres arrivent rapidement à l'âge adulte, à l'âge de 10 ans. Cependant, une fois leur maturité atteinte, ils vieillissent légèrement plus lentement que les êtres humains. Ainsi, un demi-ogre peut vivre jusqu'à un âge de 125 ans, voire plus, pour peu qu'il ait l'incroyable (et rare) chance de ne pas être mort de manière violente auparavant.</p>\n<hr />\n<p><strong>Alignement.</strong> Les demi-ogres sont des êtres imprévisibles. Ils tendent souvent vers un alignement Chaotique, même si de rares clans demi-ogres ont appris à se civiliser et sont plus enclins à un alignement Loyal. Les plus sauvages d'entre eux, et ceux élevés au sein de clans ogres, sont souvent mauvais.</p>\n<hr />\n<p><strong>Taille.</strong> Les demi-ogres sont de véritables colosses. Les plus petits d'entre eux mesurent 1,80 mètre, mais ils atteignent généralement les 2 mètres de haut, voire plus. Les plus grands peuvent mesurer jusqu'à 2,40 mètres.</p>\n<hr />\n<p><strong>Vitesse</strong>. Votre vitesse au sol de base est de 9 mètres.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.ewyCjsfzwHBAzgij]{Vision dans le noir (Demi-ogre)}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.HWTPBu3qsMg9P0Pm]{Effrayant (Demi-ogre)}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.CDCcmeqAw7EUU2oi]{Problème de taille (Demi-ogre)}</p>\n<p>\_</p>\n<hr />\n<p><strong>Langues</strong>. Vous pouvez lire, écrire et parler le commun ainsi que le géant.</p>\n<p>\_</p>\n<h3 id=\"elfe-d-aether\"><strong>Demi-ogre Delchin</strong></h3>\n<hr />\n<p><strong>Augmentation de caractéristiques</strong>. Votre valeur de Force augmente de 1.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.6PL3tkSEeNGWS9pQ]{Chasseur émérite}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.wGZzRAuZv86154H1]{Artisan (demi-ogre Sulchin)}</p>"
+    chat: ''
+    unidentified: ''
+  source: Pangée
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 0
+    max: 0
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+  attributes:
+    spelldc: 10
+ownership:
+  default: 0
+  yGhpLZcgKkBfBfgm: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '12.330'
+  createdTime: 1663923697907
+  modifiedTime: 1663923698014
+  lastModifiedBy: jxF0Pjz3E2EU23q5
+  compendiumSource: Compendium.srd-heros-et-dragons.HnD-races.hr7gNG5LnKW1mkhp
+  duplicateSource: null
+_key: '!items!IpX3OQid3fvSBZ7e'
+
