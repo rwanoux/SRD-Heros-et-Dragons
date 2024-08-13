@@ -1,0 +1,237 @@
+{
+	"id": "srd-heros-et-dragons",
+	"title": "srd-heros-et-dragons",
+	"description": "<p>intègre le srd de héros et dragons, s'utilise avec le system DnD5e<p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
+	"authors": [
+		{
+			"name": "Rwanoux"
+		}
+	],
+	"version": "10",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.282",
+		"maximum": "11"
+	},
+	"esmodules": [
+		"srd-heros-et-dragons.js"
+	],
+	"packs": [
+		{
+			"name": "HnD-tables-de-tresors",
+			"label": "HnD. Tables de trésors",
+			"path": "packs/HnD-tables-de-tresors.db",
+			"type": "RollTable",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-conditions",
+			"label": "HnD. Conditions",
+			"path": "packs/HnD-conditions.db",
+			"type": "JournalEntry",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-dons",
+			"label": "HnD. Dons",
+			"path": "packs/HnD-dons.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-capacites-de-classes",
+			"label": "HnD. Capacités de Classes",
+			"path": "packs/HnD-capacites-de-classes.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-grimoire",
+			"label": "HnD. Grimoire",
+			"path": "packs/HnD-grimoire.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-bestaire",
+			"label": "HnD. Bestaire",
+			"path": "packs/HnD-bestiaire.db",
+			"type": "Actor",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-races",
+			"label": "HnD. Races",
+			"path": "packs/HnD-races.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-traits-raciaux",
+			"label": "HnD. Traits raciaux",
+			"path": "packs/HnD-traits-raciaux.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-capacités-du-bestiaire",
+			"label": "HnD. Capacités du bestiaire",
+			"path": "packs/HnD-capacites-du-bestiaire.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-historiques",
+			"label": "HnD. Historiques",
+			"path": "packs/HnD-historiques.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-équipement-aventurier",
+			"label": "HnD. Equipement d'aventurier",
+			"path": "packs/HnD-equipement-aventurier.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-objets-magiques-et-trésors",
+			"label": "HnD. Objets magiques et trésors",
+			"path": "packs/HnD-objets-magiques-et-tresors.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-Classes-spécialisations",
+			"label": "HnD. Classes et spécialisations",
+			"path": "packs/HnD-classes-et-specialisations.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-tables-de-rencontres-aleatoires",
+			"label": "HnD. Tables-de-rencontres-aleatoires",
+			"path": "packs/HnD-tables-de-rencontres-aleatoires.db",
+			"type": "RollTable",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-tables-d'evenements-aleatoires",
+			"label": "HnD. Tables-d'évènements-aleatoires",
+			"path": "packs/HnD-tables-d'evenements-aleatoires.db",
+			"type": "RollTable",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-poisons-et-maladies",
+			"label": "HnD. Poisons et maladies",
+			"path": "packs/HnD-poisons-et-maladies.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-folies",
+			"label": "HnD. Folies",
+			"path": "packs/HnD-folies.db",
+			"type": "RollTable",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-pieges",
+			"label": "HnD. Pièges",
+			"path": "packs/HnD-pieges.db",
+			"type": "Actor",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		},
+		{
+			"name": "HnD-aptitudes-historiques",
+			"label": "HnD. Aptitudes d'historiques",
+			"path": "packs/HnD-aptitudes-historiques.db",
+			"type": "Item",
+			"module": "srd-heros-et-dragons",
+			"system": "dnd5e"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "HnD",
+			"sorting": "m",
+			"color": "#3C8633",
+			"packs": [
+			],
+			"folders": [
+				{
+					"name": "Personnages",
+					"sorting": "m",
+					"color": "#377C2E",
+					"packs": [
+						"HnD-dons",
+						"HnD-capacites-de-classes",
+						"HnD-grimoire",
+						"HnD-races",
+						"HnD-traits-raciaux",
+						"HnD-équipement-aventurier",
+						"HnD-historiques",
+						"HnD-Classes-spécialisations",
+						"HnD-aptitudes-historiques"
+					]
+				},
+				{
+					"name": "Regles",
+					"sorting": "m",
+					"color": "#306C29",
+					"packs": [
+						"HnD-tables-de-tresors",
+						"HnD-conditions",
+						"HnD-bestaire",
+						"HnD-capacités-du-bestiaire",
+						"HnD-objets-magiques-et-trésors",
+						"HnD-tables-de-rencontres-aleatoires",
+						"HnD-tables-d'evenements-aleatoires",
+						"HnD-poisons-et-maladies",
+						"HnD-folies",
+						"HnD-pieges"
+					]
+				}
+			]
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"minimum": "2.0.1",
+					"verified": "2.0.1",
+					"maximum": "3.1.0"
+				}
+			}
+		]
+	},
+	"socket": false,
+	"url": "replace at release",
+	"manifest": "replace at release",
+	"download": "replace at release",
+	"protected": false,
+	"coreTranslation": false,
+	"library": false
+}
