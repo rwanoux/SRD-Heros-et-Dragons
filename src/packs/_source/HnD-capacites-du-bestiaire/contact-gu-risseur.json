@@ -1,0 +1,123 @@
+{
+  "_id": "PWrL6oRPYMMmfT0I",
+  "name": "Contact Guérisseur",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Contact guérisseur.</strong> La créature touche une autre créature avec sa corne. La cible récupère des points de vie par magie. En outre, le contact soigne toutes les maladies et neutralise tous les poisons dont est victime la cible.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "per": "",
+      "recovery": "",
+      "type": "day"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8 + 2",
+          "healing"
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698823,
+    "modifiedTime": 1663923699610,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PWrL6oRPYMMmfT0I"
+}

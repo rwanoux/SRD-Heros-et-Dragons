@@ -1,0 +1,144 @@
+{
+  "_id": "Opu2BwnJvMUYZkDE",
+  "name": "[Paladin] Serment d'Obédience",
+  "type": "subclass",
+  "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2><h3 id=\"serment-d-obedience\"><strong>Serment d'obédience</strong></h3><h4> </h4><h4>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KFmbT4ZTufmoDEZb]{Préceptes d'obédience [Serment d'Obédience]}</h4><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KWz8TVQ6QulQrKQS]{Sorts de serment [Serment d'Obédience]}</p><p>Niveau 3 : </p><ul><li style=\"list-style-type:none\"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IgBj0bMjSEwiWRek]{Canalisation d'énergie divine [Serment d'Obédience] Porte-étendard}</p><ol><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hQxW6q6iI30bJZ1l]{Canalisation d'énergie divine [Serment d'Obédience] Tacticien}</li></ol></li></ul><p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6QUbP3zHUfyNHh4G]{Cri de ralliement [Serment d'Obédience]}</p><p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WX2Fmh3H0y0Ianq8]{Charge héroïque [Serment d'Obédience]}</p><p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CnIYOXfad2SYzbXT]{Héros de Guerre [Serment d'Obédience]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "serment-dobedience",
+    "classIdentifier": "paladin",
+    "advancement": [
+      {
+        "_id": "qc5i6zmlhepty0fo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CnIYOXfad2SYzbXT"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "gdowe2dsdf31hjdf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.H3CMVcsZmbakqp2C",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "o89hyb4xkgqao7vk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WX2Fmh3H0y0Ianq8"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "c1b3ty0ybibhsnts",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "cgxubh7l43dhsr78",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6QUbP3zHUfyNHh4G"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "exuwoseyhlv7nzbt",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.Eur22TaqT9YD0rEV",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.CKZsRfEpG4YIyft4"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "xigsgrxj1dfd614e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KFmbT4ZTufmoDEZb",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.66IkCOSiLUKg3UiL",
+            "Compendium.srd-heros-et-dragons.HnD-grimoire.iFrSzDKFeD4eGeRb",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KWz8TVQ6QulQrKQS",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IgBj0bMjSEwiWRek",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hQxW6q6iI30bJZ1l"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923703408,
+    "modifiedTime": 1678365254775,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Opu2BwnJvMUYZkDE"
+}

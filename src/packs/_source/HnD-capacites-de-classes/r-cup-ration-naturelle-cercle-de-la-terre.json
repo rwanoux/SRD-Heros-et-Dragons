@@ -1,0 +1,84 @@
+{
+  "_id": "YrRVAnsAw20XAm3i",
+  "name": "Récupération naturelle [Cercle de la Terre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"recuperation-naturelle\"><strong>R&eacute;cup&eacute;ration naturelle&nbsp;</strong></h3>\n<p>&Agrave; partir du niveau 2, vous pouvez regagner une partie de votre &eacute;nergie magique en m&eacute;ditant et en communiant avec la nature. Pendant un repos court, vous pouvez choisir de r&eacute;cup&eacute;rer certains emplacements de sorts. Ces emplacements de sorts doivent avoir un niveau combin&eacute; inf&eacute;rieur ou &eacute;gal &agrave; la moiti&eacute; de votre niveau de druide (arrondi &agrave; l'entier sup&eacute;rieur), mais vous ne pouvez pas r&eacute;cup&eacute;rer des emplacements d'un niveau sup&eacute;rieur ou &eacute;gal au niveau 6. Vous ne pouvez pas utiliser cette aptitude de nouveau tant que vous n'avez pas termin&eacute; un repos long.</p>\n<p>Par exemple, si vous &ecirc;tes un druide de niveau 4, vous pouvez r&eacute;cup&eacute;rer un &eacute;quivalent de deux niveaux d'emplacements de sorts, donc soit un emplacement de niveau 2, soit deux emplacements de niveau 1.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685444,
+    "modifiedTime": 1663923687016,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!YrRVAnsAw20XAm3i"
+}

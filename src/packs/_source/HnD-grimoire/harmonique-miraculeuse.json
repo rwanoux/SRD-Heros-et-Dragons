@@ -1,0 +1,141 @@
+{
+  "_id": "dMEvHwDk0t1NjsYi",
+  "name": "Harmonique miraculeuse",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/containers/kitchenware/goblet-worn-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous effleurez le bord d'un verre, et le corps de vos alliés à portée et capables entendre le son produit se met à résonner avec l'énergie positive. Vous-même et chaque créature affectée récupérez 10 points de vie et annulez un niveau d'épuisement au début de chacun de vos tours. Enfin, le sort met un terme aux effets de réduction des points de vie maximum provoqué par certaines créatures (momie, spectre, vampire, etc.) ainsi qu'aux états <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#charmé\"><em>charmé</em></a> et <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#pétrifié\"><em>pétrifié</em></a>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "12",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 12,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "10",
+          "healing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 9,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un verre en cristal d'une valeur de 500 po",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688130,
+    "modifiedTime": 1663923689172,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!dMEvHwDk0t1NjsYi"
+}

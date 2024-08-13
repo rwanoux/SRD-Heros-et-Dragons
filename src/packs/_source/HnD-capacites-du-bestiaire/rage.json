@@ -1,0 +1,91 @@
+{
+  "name": "Rage",
+  "type": "feat",
+  "flags": {
+    "entityorder": {
+      "order": 204
+    }
+  },
+  "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+  "_id": "B25RftHuR3kCic67",
+  "system": {
+    "description": {
+      "value": "<p><strong>Rage. </strong>Lors de son tour, la cr&eacute;ature peut utiliser une action bonus pour &ecirc;tre pris de rage. Elle obtient ainsi des bonus de d&eacute;g&acirc;ts, une r&eacute;sistance aux d&eacute;g&acirc;ts et un avantage sur des tests de caract&eacute;ristiques et des sauvegardes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": null,
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": null,
+      "per": "",
+      "recovery": "",
+      "type": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698770,
+    "modifiedTime": 1663923699383,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!B25RftHuR3kCic67"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "bKvKX5C7KtyEvECT",
+  "name": "Défense Impénétrable [Kal'Thori]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/equipment/shield/heater-stone-orange.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>D&eacute;fense Imp&eacute;n&eacute;trable</strong></h3>\n<p>Au niveau 7, vous avez optimis&eacute; votre d&eacute;fense au bouclier de telle mani&egrave;re qu&rsquo;il devient tr&egrave;s difficile de vous toucher.</p>\n<p>Lorsque vous tenez votre bouclier et que vous portez une armure l&eacute;g&egrave;re, interm&eacute;diaire ou aucune armure, votre CA est augment&eacute;e de la moiti&eacute; de votre bonus de ma&icirc;trise, arrondi &agrave; l&rsquo;inf&eacute;rieur.</p>\n<p>De plus, lorsque vous &ecirc;tes au corps &agrave; corps avec une cr&eacute;ature, tant que vous portez votre bouclier et que vous portez une armure l&eacute;g&egrave;re, interm&eacute;diaire ou aucune armure, vous pouvez utiliser votre action bonus afin d&rsquo;effectuer l&rsquo;action <a href=\"https://5e-drs.fr/combattre/#se-precipiter\">se d&eacute;sengager</a> en vous prot&eacute;geant des attaques adverses</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette R'n P #2",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685460,
+    "modifiedTime": 1663923687085,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!bKvKX5C7KtyEvECT"
+}

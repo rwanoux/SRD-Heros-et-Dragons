@@ -1,0 +1,84 @@
+{
+  "name": "Transport",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "_id": "L6kqb9SyEl7LVUMK",
+  "system": {
+    "description": {
+      "value": "<p><strong>Transport.</strong>&nbsp; Le dragon cible une créature de son choix qu'il peut voir et qui se trouve à 36 mètres ou moins. Si elle rate un jet de sauvegarde de Charisme, celle-ci est instantanément téléportée aux limites de son territoire (voir le rayon d'effet des effets régionaux), dans un endroit choisi par le dragon.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "wis",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Dragon d'Or (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698799,
+    "modifiedTime": 1663923699506,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!L6kqb9SyEl7LVUMK"
+}

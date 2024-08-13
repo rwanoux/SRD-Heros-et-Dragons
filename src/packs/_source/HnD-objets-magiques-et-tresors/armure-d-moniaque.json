@@ -1,0 +1,150 @@
+{
+  "_id": "tcFMOMy6VwQmr02k",
+  "name": "Armure démoniaque",
+  "type": "equipment",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [
+          true
+        ],
+        "altValue": [
+          true
+        ],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p style=\"font-style: normal; font-weight: normal; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\">Tant que vous portez cette armure, vous gagnez un bonus de +1 à la CA et vous comprenez et parlez l'abyssal. De plus, les gantelets de l'armure sont équipés de griffes qui transforment les attaques à mains nues portées avec eux en attaques portées avec une arme magique infligeant des dégâts tranchants, dotée d'un bonus de +1 aux jets d'attaque et de dégâts et infligeant 1d8 de dégâts.</span></span></p>\n<p style=\"margin-bottom: 0cm; border: none; padding: 0cm; widows: 2; orphans: 2;\"><strong><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><strong>Malédiction</strong></span></span></span></strong><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">. Une fois que vous avez enfilé cette armure maudite, vous ne pouvez plus la retirer, à moins de bénéficier du sort&nbsp;</span></span></span></span><a href=\"https://5e-drs.fr/grimoire/lever-une-malediction/\"><span style=\"text-decoration: none;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\"><span style=\"background: transparent;\">lever une malédiction</span></span></span></span></span></span></a><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">&nbsp;ou d'une magie similaire. Tant que vous portez l'armure, vous subissez un&nbsp;</span></span></span></span><em><a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\"><span style=\"text-decoration: none;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\"><span style=\"background: transparent;\">désavantage</span></span></span></span></span></span></a></em><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">&nbsp;lors de vos jets d'attaque contre les démons et de vos jets de sauvegarde contre leurs sorts et de leurs pouvoirs spéciaux.</span></span></span></span></p>\n<p style=\"margin-bottom: 0cm; border: none; padding: 0cm; widows: 2; orphans: 2;\"><span style=\"font-family: Roboto, sans-serif;\"><span style=\"font-size: small;\"><span style=\"font-style: normal;\"><span style=\"font-weight: normal;\">Harmonisation requise.</span></span></span></span></p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 32.5,
+    "price": 8000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod +1",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 19,
+      "type": "heavy",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "plate",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 15,
+    "stealth": true,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701443,
+    "modifiedTime": 1663923703194,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!tcFMOMy6VwQmr02k"
+}

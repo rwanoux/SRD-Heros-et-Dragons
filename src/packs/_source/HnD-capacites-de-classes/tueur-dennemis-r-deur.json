@@ -1,0 +1,99 @@
+{
+  "_id": "zGdMkRc0yBr8jkMh",
+  "name": "Tueur d'ennemis [Rôdeur]",
+  "type": "feat",
+  "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"tueur-d-ennemis\"><strong>Tueur d'ennemis</strong></h3>\n<p>Au niveau 20, vous avez d&eacute;velopp&eacute; un talent exceptionnel pour &eacute;liminer vos ennemis. Une fois par tour, vous pouvez utiliser cette aptitude pour ajouter votre modificateur de Sagesse au&nbsp;<a href=\"https://5e-drs.fr/combattre/#jets-d-attaque\">jet d'attaque</a>&nbsp;ou de d&eacute;g&acirc;ts d'une attaque port&eacute;e contre un de vos ennemis jur&eacute;s. Vous pouvez choisir d'utiliser cette aptitude avant ou apr&egrave;s avoir jet&eacute; les d&eacute;s, mais vous devez vous &ecirc;tre d&eacute;cid&eacute; avant que les effets de ce jet aient &eacute;t&eacute; appliqu&eacute;s.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685707,
+    "modifiedTime": 1663923687835,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!zGdMkRc0yBr8jkMh"
+}

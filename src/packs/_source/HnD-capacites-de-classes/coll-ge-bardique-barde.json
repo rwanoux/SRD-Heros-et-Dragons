@@ -1,0 +1,114 @@
+{
+  "_id": "qQ5qZDSbf05q9nFk",
+  "name": "Collège Bardique [Barde]",
+  "type": "feat",
+  "img": "icons/sundries/books/book-backed-blue-gold.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"college-bardique\"><strong>Collège bardique</strong></h3>\n<p>Au niveau 3, vous vous penchez sur les techniques avancées d'un collège bardique de votre choix :</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.xwZ59SOdOjQGJWzX]{[Barde] Collège des Diplomates}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.PJkVK0kvk1VS3XoC]{[Barde] Collège des Hérauts}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.4lSEIUV9jbGWqz95]{[Barde] Collège des Rêves}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.asLq0CzF21WuJ1GO]{[Barde] Collège des Saltimbanques}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.ptCAJbf6VPJAhI7R]{[Barde] Collège des taromanciens}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.e7RGDHakEyAEpfrE]{[Barde] Collège du Savoir}</li>\n</ul>\n<p> L'enseignement dispensé dans ces collèges est détaillé à la fin de la section consacrée à cette classe. Votre choix vous donne accès à des aptitudes particulières aux niveaux 3, 6 et 14.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685639,
+    "modifiedTime": 1678412970684,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!qQ5qZDSbf05q9nFk"
+}

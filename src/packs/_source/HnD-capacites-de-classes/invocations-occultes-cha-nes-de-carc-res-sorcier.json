@@ -1,0 +1,84 @@
+{
+  "_id": "pIoBqUQupymbdHrq",
+  "name": "Invocations occultes - Chaînes de Carcères [Sorcier]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"chaines-de-carceres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><strong>Cha&icirc;nes de Carc&egrave;res</strong></h3>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><em><strong>Pr&eacute;requis&nbsp;</strong>: niveau 15, pacte de la cha&icirc;ne</em></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><br style=\"box-sizing: border-box; user-select: text;\" />Vous pouvez lancer le sort @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.INZgzEYqz4hmkT60]{Immobiliser un monstre}&nbsp;&agrave; volont&eacute; sans utiliser d'emplacement de sort ni de composante mat&eacute;rielle quand votre cible est un c&eacute;leste, un fi&eacute;lon ou un &eacute;l&eacute;mentaire. N&eacute;anmoins, vous devez terminer un repos long avant de pouvoir utiliser cette invocation une seconde fois sur une cr&eacute;ature donn&eacute;e.</p>\n<h3 id=\"buveuse-de-vie\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>\n<h3 id=\"armure-des-ombres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685634,
+    "modifiedTime": 1663923687520,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pIoBqUQupymbdHrq"
+}

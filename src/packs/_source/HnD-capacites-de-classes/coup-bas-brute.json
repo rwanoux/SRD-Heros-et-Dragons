@@ -1,0 +1,94 @@
+{
+  "_id": "3W8ENx867PtawvUQ",
+  "name": "Coup bas [Brute]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"coup-bas\"><strong>Coup bas</strong></h3>\n<p>&Agrave; partir du niveau 9, lorsque vous utilisez l'action&nbsp;<a href=\"https://5e-drs.fr/combattre/#attaquer\">attaquer</a>, vous pouvez effectuer en plus de votre attaque habituelle une attaque &agrave; mains nues ou &agrave; l'aide d'une arme improvis&eacute;e (coup de t&ecirc;te, coup de genou ou du pommeau de l'arme, chope de bi&egrave;re, etc.) qui inflige 1d4 + votre modificateur de Force points de d&eacute;g&acirc;ts contondants (ou du type appropri&eacute; dans le cas d'une arme improvis&eacute;e). Le d&eacute; de d&eacute;g&acirc;t passe &agrave; 1d6 au niveau 13 et 1d8 au niveau 17.</p>\n<p>Lorsque vous r&eacute;alisez une attaque &agrave; mains nues ou avec une arme improvis&eacute;e normale, vous utilisez le m&ecirc;me d&eacute; que pour cette aptitude pour d&eacute;terminer vos d&eacute;g&acirc;ts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @abilities.str.mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685167,
+    "modifiedTime": 1663923686085,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!3W8ENx867PtawvUQ"
+}

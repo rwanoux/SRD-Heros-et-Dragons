@@ -1,0 +1,108 @@
+{
+  "_id": "hQxW6q6iI30bJZ1l",
+  "name": "Canalisation d'énergie divine [Serment d'Obédience] Tacticien",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/light/beam-rays-yellow-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4 id=\"canalisation-d-energie-divine-3\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Canalisation d'&eacute;nergie divine</strong></h4>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Quand vous pr&ecirc;tez votre serment au niveau 3, vous acc&eacute;dez aux deux options de canalisation d'&eacute;nergie divine suivantes.</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Tacticien</strong>. Au prix d'une action bonus, vous procurez &agrave; tous vos alli&eacute;s situ&eacute;s dans un rayon de 9 m&egrave;tres autour de vous ainsi qu'&agrave; vous-m&ecirc;me, un&nbsp;<a style=\"box-sizing: border-box; user-select: text;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;sur la prochaine attaque r&eacute;alis&eacute;e avant le d&eacute;but de votre prochain tour. Toutes les attaques r&eacute;ussies b&eacute;n&eacute;ficient d'un bonus aux d&eacute;g&acirc;ts &eacute;gal &agrave; votre modificateur de Charisme.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "turn"
+    },
+    "cover": null,
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685577,
+    "modifiedTime": 1678413004025,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hQxW6q6iI30bJZ1l"
+}

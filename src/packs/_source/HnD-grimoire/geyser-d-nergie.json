@@ -1,0 +1,141 @@
+{
+  "_id": "B1bohXlQ6UTwEGdS",
+  "name": "Geyser d'énergie",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/earth/explosion-lava-stone-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>Un geyser d'énergie jaillit du sol d'un endroit que vous spécifiez dans la portée du sort. Vous choisissez acide, foudre, feu, froid, poison ou tonnerre comme type d'énergie pour le geyser. Chaque créature située dans le cylindre de 1,50 mètre de diamètre et de 6 mètres de haut doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité, sans quoi elle subit 3d8 dégâts du type préalablement déterminé. Si le jet est réussi, les dégâts sont réduits de moitié.</p>\n<p><strong>À plus haut niveau</strong>. Lorsque vous lancez ce sort en utilisant un emplacement de sort de niveau 2 ou supérieur, les dégâts sont augmentés de 1d8 par niveau au-delà du niveau 1.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 0.75,
+      "width": null,
+      "units": "m",
+      "type": "cylinder",
+      "range": {
+        "value": "27",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 27,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Une petite poire remplie d'air",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687974,
+    "modifiedTime": 1663923688686,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!B1bohXlQ6UTwEGdS"
+}

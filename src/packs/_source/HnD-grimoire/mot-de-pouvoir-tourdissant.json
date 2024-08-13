@@ -1,0 +1,131 @@
+{
+  "_id": "KLDM7ygvrPYwxydO",
+  "name": "Mot de pouvoir étourdissant",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p>Vous prononcez un mot de pouvoir capable de submerger l'esprit d'une créature située à portée et dans votre champ de vision. Elle en est abasourdie. Si elle possède 150 points de vie ou moins, elle est <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#étourdi\"><em>étourdie</em></a>, sinon le sort est sans effet.</p>\n<p>Une cible <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#étourdi\"><em>étourdie</em></a> a droit à un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution à la fin de chacun de ses tours. L'effet d'étourdissement se termine dès qu'elle en réussit un.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "enc",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688012,
+    "modifiedTime": 1663923688820,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!KLDM7ygvrPYwxydO"
+}

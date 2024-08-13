@@ -1,0 +1,84 @@
+{
+  "name": "Général [Philaxien]",
+  "type": "feat",
+  "img": "icons/environment/people/cavalry-heavy.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "JqStHk4gDFsLvsp7",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 18, vous êtes un général reconnu et respecté parmi les combattants du monde entier.</p>\n<p>Tous les alliés situés dans un rayon de 12 mètres autour de vous bénéficient d'un bonus de +1d6 aux dégâts de leurs attaques de corps-à-corps.</p>\n<p>De plus, vous pouvez une fois par round accorder l'<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> à un allié à portée sur un jet d'attaque au contact.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685291,
+    "modifiedTime": 1663923686576,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!JqStHk4gDFsLvsp7"
+}

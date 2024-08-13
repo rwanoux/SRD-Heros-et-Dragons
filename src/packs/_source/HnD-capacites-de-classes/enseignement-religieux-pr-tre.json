@@ -1,0 +1,84 @@
+{
+  "_id": "wOWKYfcEMz3yUEuR",
+  "name": "Enseignement religieux [Prêtre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/ankh-gold-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"enseignement-religieux\"><strong>Enseignement religieux</strong></h3>\n<p>Au niveau 1, le clerc peut choisir le type d'enseignement qu'il a re&ccedil;u dans son ordre en accord avec le MJ :</p>\n<p><strong>Enseignement th&eacute;orique : </strong>Vous d&eacute;veloppez une comp&eacute;tence en accord avec les principes religieux de votre divinit&eacute;. Vous obtenez la ma&icirc;trise de cette comp&eacute;tence. Si vous ma&icirc;trisiez d&eacute;j&agrave; cette comp&eacute;tence, le bonus est doubl&eacute;. Le MJ d&eacute;termine cette comp&eacute;tence en s'inspirant du domaine religieux de votre divinit&eacute; (par exemple, Nature pour une divinit&eacute; de la for&ecirc;t). Si aucune comp&eacute;tence ne semble pas &eacute;vidente, vous obtenez la ma&icirc;trise de la comp&eacute;tence M&eacute;decine.</p>\n<p><strong>Enseignement martial :</strong> Cette variante est adapt&eacute;e &agrave; un dieu de la guerre, du m&eacute;tal, de la force, de la justice ou de la noblesse, par exemple. Vous gagnez au choix la ma&icirc;trise des armes martiales ou des armures lourdes. Si votre divinit&eacute; ne vous donne acc&egrave;s qu'&agrave; un seul domaine, vous gagnez la ma&icirc;trise &agrave; la fois des armes martiales et des armures lourdes. En revanche vous ne b&eacute;n&eacute;ficiez pas de canalisation d'&eacute;nergie divine suppl&eacute;mentaire aux niveaux 4 et 8.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685688,
+    "modifiedTime": 1663923687758,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!wOWKYfcEMz3yUEuR"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "DwRkZdfRWkXK7zE5",
+  "name": "Pourriture occulaire",
+  "type": "feat",
+  "img": "icons/magic/perception/hand-eye-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Cette douloureuse infection provoque des saignements au niveau des yeux et finit par entra&icirc;ner la c&eacute;cit&eacute;.</p>\n<p>Une b&ecirc;te ou un humano&iuml;de qui boit une eau contamin&eacute;e par la pourriture oculaire doit faire un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 15. Si elle &eacute;choue, elle contracte la maladie. Un jour apr&egrave;s l'infection, la vision du malade se trouble. Il subit un malus de &ndash;1 aux jets d'attaque et aux&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">tests de caract&eacute;ristique</a>&nbsp;bas&eacute;s sur la vue. &Agrave; la fin de chaque p&eacute;riode de long repos pass&eacute;e apr&egrave;s l'apparition des sympt&ocirc;mes, le malus s'accentue de 1. Quand il atteint &ndash;5, le malade est&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#aveugle\">aveugle</a>&nbsp;jusqu'&agrave; ce que quelqu'un le soigne par magie avec&nbsp;<a href=\"https://5e-drs.fr/grimoire/restauration-inferieure/\">restauration inf&eacute;rieure</a>&nbsp;ou&nbsp;<a href=\"https://5e-drs.fr/grimoire/guerison/\">gu&eacute;rison</a>.</p>\n<p>On peut soigner la pourriture oculaire &agrave; l'aide d'une fleur tr&egrave;s rare appel&eacute;e l'&oelig;il vif, qui pousse dans certains mar&eacute;cages. En une heure, un personnage ma&icirc;trisant l'utilisation d'une trousse d'herboriste peut transformer la fleur en une dose d'onguent. Si le malade l'applique sur ses yeux avant un long repos, la dose emp&ecirc;che la maladie de s'aggraver &agrave; l'issue de ce repos. Il faut appliquer trois doses de cette mani&egrave;re pour soigner compl&egrave;tement la maladie.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703736,
+    "modifiedTime": 1663923703736,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!DwRkZdfRWkXK7zE5"
+}

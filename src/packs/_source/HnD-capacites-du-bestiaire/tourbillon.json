@@ -1,0 +1,89 @@
+{
+  "name": "Tourbillon",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/water/vortex-water-whirlpool.webp",
+  "_id": "fHhllnvccUtNiaW4",
+  "system": {
+    "description": {
+      "value": "<p><strong>Tourbillon.</strong> Les cibles dans l'emplacement occupé par la créature doivent effectuer un jet de sauvegarde de Force. Celles qui ratent sont repoussées par le tourbillon et subissent des dégâts contondants.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8+2",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "1d6 ",
+    "save": {
+      "ability": "str",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698929,
+    "modifiedTime": 1663923700043,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!fHhllnvccUtNiaW4"
+}

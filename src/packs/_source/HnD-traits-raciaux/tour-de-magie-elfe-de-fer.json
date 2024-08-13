@@ -1,0 +1,93 @@
+{
+  "_id": "vbR6aXokqfUonUMe",
+  "name": "Tour de magie (Elfe de Fer)",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "img": "icons/magic/nature/tree-spirit-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h4><strong>Tour de magie</strong>. Vous connaissez un tour de magie de votre choix parmi la liste de sorts de barde. Votre caractéristique d'incantation pour ce tour de magie est le Charisme</h4>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Elfe de Fer",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698228,
+    "modifiedTime": 1663923698622,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!vbR6aXokqfUonUMe"
+}

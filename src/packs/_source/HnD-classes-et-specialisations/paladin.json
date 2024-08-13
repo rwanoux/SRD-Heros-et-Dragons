@@ -1,0 +1,284 @@
+{
+  "name": "Paladin",
+  "type": "class",
+  "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "HD": {
+      "compendium": "classes"
+    }
+  },
+  "_id": "28l1dD1KIBe5CagB",
+  "system": {
+    "description": {
+      "value": "<h1 id=\"evolution-du-paladin\"><strong>Évolution du paladin</strong></h1><div><table style=\"width:551px\"><thead><tr><th style=\"width:47.5px\" rowspan=\"2\">Niveau</th><th style=\"width:83.5px\" rowspan=\"2\">Bonus de maîtrise</th><th style=\"width:207.5px\" rowspan=\"2\">Aptitudes</th><th style=\"width:203.5px\" colspan=\"5\">Emplacements de sorts par niveau de sort</th></tr><tr><th style=\"width:48.5px\">1er</th><th style=\"width:38.5px\">2e</th><th style=\"width:38.5px\">3e</th><th style=\"width:38.5px\">4e</th><th style=\"width:39.5px\">5e</th></tr></thead><tbody><tr><td style=\"width:47.5px\">1</td><td style=\"width:83.5px\">+2</td><td style=\"width:207.5px\"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jEJMmbYkQeTUggZx]{Sens divin [Paladin]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zPDuqUUpAs1qnir6]{Imposition des mains [Paladin]}</p></td><td style=\"width:48.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">2</td><td style=\"width:83.5px\">+2</td><td style=\"width:207.5px\"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1qSAZIxvGDxR0C8L]{Style de Combat [Paladin]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZyA1KL41cdnuVRSL]{Incantations [Paladin]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hpptQ7BxIrf7dxIW]{Châtiment divin [Paladin]}</p></td><td style=\"width:48.5px\">2</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">3</td><td style=\"width:83.5px\">+2</td><td style=\"width:207.5px\"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.bQO8OAU14Wg6Yqz7]{Santé Divine [Paladin]}<br />@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OJRLTIkyr7B11lfo]{Serment sacré [Paladin]}</p></td><td style=\"width:48.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">4</td><td style=\"width:83.5px\">+2</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv]{Amélioration de caractéristiques niv4}</td><td style=\"width:48.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">5</td><td style=\"width:83.5px\">+3</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FwD5GPhC2SCiZ2xF]{Attaque supplémentaire [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">2</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">6</td><td style=\"width:83.5px\">+3</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9JDOggMrjpefyfrY]{Aura de Protection [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">2</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">7</td><td style=\"width:83.5px\">+3</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CPTitZMMLEduDbwN]{Aptitude de Serment sacré [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">8</td><td style=\"width:83.5px\">+3</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni]{Amélioration de caractéristiques niv8}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">9</td><td style=\"width:83.5px\">+4</td><td style=\"width:207.5px\">-</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">2</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">10</td><td style=\"width:83.5px\">+4</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wWa9W4VLy7uBVac5]{Aura de Courage [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">2</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">11</td><td style=\"width:83.5px\">+4</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hpptQ7BxIrf7dxIW]{Châtiment divin [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">12</td><td style=\"width:83.5px\">+4</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih]{Amélioration de caractéristiques niv12}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">-</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">13</td><td style=\"width:83.5px\">+5</td><td style=\"width:207.5px\">-</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">1</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">14</td><td style=\"width:83.5px\">+5</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.GgfiGP8CIEfkTjnC]{Contact purifiant [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">1</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">15</td><td style=\"width:83.5px\">+5</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CPTitZMMLEduDbwN]{Aptitude de Serment sacré [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">2</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">16</td><td style=\"width:83.5px\">+5</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF]{Amélioration de caractéristiques niv16}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">2</td><td style=\"width:39.5px\">-</td></tr><tr><td style=\"width:47.5px\">17</td><td style=\"width:83.5px\">+6</td><td style=\"width:207.5px\">-</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:39.5px\">1</td></tr><tr><td style=\"width:47.5px\">18</td><td style=\"width:83.5px\">+6</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9JDOggMrjpefyfrY]{Aura de Protection [Paladin]}</td><td style=\"width:48.5px\"> </td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:39.5px\">1</td></tr><tr><td style=\"width:47.5px\">19</td><td style=\"width:83.5px\">+6</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma]{Amélioration de caractéristiques niv19}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:39.5px\">2</td></tr><tr><td style=\"width:47.5px\">20</td><td style=\"width:83.5px\">+6</td><td style=\"width:207.5px\">@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CPTitZMMLEduDbwN]{Aptitude de Serment sacré [Paladin]}</td><td style=\"width:48.5px\">4</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:38.5px\">3</td><td style=\"width:39.5px\">2</td></tr></tbody></table></div><h2 id=\"aptitudes-de-classe\"><strong>Aptitudes de classe</strong></h2><p>En tant que paladin, vous bénéficiez des aptitudes de classe suivantes.</p><h3 id=\"points-de-vie\"><strong>Points de vie</strong></h3><p>Dés de vie : 1d10 par niveau de paladin<br />Points de vie au niveau 1 : 10 + votre modificateur de Constitution<br />Points de vie aux niveaux supérieurs : 1d10 (ou 6) + votre modificateur de Constitution par niveau de paladin après le niveau 1</p><h3 id=\"maitrises\"><strong>Maîtrises</strong></h3><p>Armures : toutes les armures, boucliers<br />Armes : armes courantes, armes de guerre<br />Outils : aucun<br />Jets de sauvegarde : Sagesse, Charisme<br />Compétences : choisissez deux compétences parmi les suivantes : Athlétisme, Intimidation, Médecine, Perspicacité, Persuasion et Religion</p><h3 id=\"equipement\"><strong>Équipement</strong></h3><p>Vous commencez avec l'équipement suivant, en plus de l'équipement accordé par votre historique :</p><ul><li>(a) une arme de guerre et un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.O2P5Y0pyROoFP9Zk]{Bouclier} ou (b) deux armes de guerre</li><li>(a) cinq @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.kNA1dNO09pHCSSr8]{Javeline} ou (b) n'importe quelle arme de corps-à-corps courante</li><li>(a) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.FApxvcGbG3UtdBDD]{Paquetage d'écclésiastique} ou (b) un @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.vQSNZN00haalnn7U]{Paquetage d'explorateur}</li><li>une @UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.CuFjx1rNCXvvjs4s]{Cotte de mailles} et un symbole sacré</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "identifier": "paladin",
+    "levels": 1,
+    "hitDice": "d10",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "xgo0qe4kzm7njjyt",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "jlx7xi1sx9cpf1xy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jEJMmbYkQeTUggZx",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zPDuqUUpAs1qnir6"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "755dhqvrhmd1bczd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.1qSAZIxvGDxR0C8L",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ZyA1KL41cdnuVRSL",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hpptQ7BxIrf7dxIW"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "ww7rb2chufqhj9sw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.bQO8OAU14Wg6Yqz7",
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OJRLTIkyr7B11lfo"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "o6l87q530wid29d0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2QWMhWELibuStdbv"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 4,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "boqrb3bnhrz8acq4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FwD5GPhC2SCiZ2xF"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "ucin9h44k5m0iesy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9JDOggMrjpefyfrY"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "dbxj8k7mra5b0lwy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hNLoehbEJ6wwj9Ni"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "zsk0wl99ys8vxkd7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wWa9W4VLy7uBVac5"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "wi51nnsw6gwjvktd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hpptQ7BxIrf7dxIW"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "m9zztv4oo2r3wuny",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LoK5iiRkkd8HoHih"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 12,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "84k56u1dmxsuf2mh",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.GgfiGP8CIEfkTjnC"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "vgry9d4yp6qe4wl6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.aBv67TM2Pj93RgDF"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 16,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "qhgjv94kdm9dsej3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.9JDOggMrjpefyfrY"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "s78htexf7ju67emu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4RWJmIdNYumTcgma"
+          ],
+          "optional": true
+        },
+        "value": {},
+        "level": 19,
+        "title": "",
+        "icon": "",
+        "classRestriction": "primary"
+      }
+    ],
+    "saves": [
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "ath",
+        "itm",
+        "ins",
+        "med",
+        "per",
+        "rel"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "half",
+      "ability": "cha"
+    },
+    "subclass": ""
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923703388,
+    "modifiedTime": 1678362808839,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!28l1dD1KIBe5CagB"
+}

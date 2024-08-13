@@ -1,0 +1,92 @@
+{
+  "_id": "gKa1eSzguZpQALBs",
+  "name": "Plume magique : Bateau-cygne",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-blue-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">Ce petit bibelot ressemble à une plume. Il existe plusieurs types de plume, chacune produisant un effet différent à usage unique. C'est au MJ de décider du type ou de le déterminer au hasard.<br>\n<table>\n<tbody>\n<tr>\n<th class=\"center\">d100</th>\n<th>Plume magique</th>\n</tr>\n<tr>\n<td class=\"center\">01-20</td>\n<td>Ancre</td>\n</tr>\n<tr>\n<td class=\"center\">21-35</td>\n<td>Oiseau</td>\n</tr>\n<tr>\n<td class=\"center\">36-50</td>\n<td>Éventail</td>\n</tr>\n<tr>\n<td class=\"center\">51-65</td>\n<td>Bateau cygne</td>\n</tr>\n<tr>\n<td class=\"center\">66-90</td>\n<td>Arbre</td>\n</tr>\n<tr>\n<td class=\"center\">91-00</td>\n<td>Fouet</td>\n</tr>\n</tbody>\n</table>\n<br><strong>Bateau-cygne</strong>. Vous pouvez utiliser une action pour mettre le bibelot en contact avec une étendue aqueuse d'au moins 18 mètres de diamètre. Il se mue alors en bateau en forme de cygne, de 15 mètres de long pour 6 mètres de large. Le bateau dispose de son propre système de propulsion et vogue sur l'eau à une vitesse de 9 km/h. Tant que vous êtes à bord, vous pouvez utiliser une action pour ordonner au bateau de se déplacer ou de tourner, au maximum à 90 degrés. Le bateau peut transporter un maximum de trente-deux créatures de taille M ou inférieure. Une créature de taille G compte comme quatre créatures de taille M tandis qu'une créature TG compte comme neuf créatures de taille M. Le bateau existe pendant 24 heures puis disparaît. Vous pouvez révoquer le bateau par une action.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701321,
+    "modifiedTime": 1663923702833,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!gKa1eSzguZpQALBs"
+}

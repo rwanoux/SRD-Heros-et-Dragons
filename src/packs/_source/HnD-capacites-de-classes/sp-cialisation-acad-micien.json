@@ -1,0 +1,100 @@
+{
+  "_id": "JGzjbBTucngqVKUw",
+  "name": "Spécialisation [Académicien]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/light/beam-rays-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"specialisation\"><strong>Sp&eacute;cialisation</strong></h3>\n<p>D&egrave;s le niveau 2, vous obtenez une aptitude qui d&eacute;pend de votre &eacute;cole :&nbsp;</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8k8nndxryTgQA7jP]{Sp&eacute;cialisation - Abjuration [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.XBfZ70iR7coDAQqb]{Sp&eacute;cialisation - Divination [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.GWhpcr7e0b1AoWOH]{Sp&eacute;cialisation - Enchantement [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.LFIJVxXEOFfDlBle]{Sp&eacute;cialisation - &Eacute;vocation [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Coq3HCORusc2pdpN]{Sp&eacute;cialisation - Illusion [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.GSY7YXFVq3kwiUH9]{Sp&eacute;cialisation - Invocation [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JagTbN9tJPl48Eeh]{Sp&eacute;cialisation - N&eacute;cromancie [Acad&eacute;micien]}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WBW6zsjJ8RFKPTBn]{Sp&eacute;cialisation - Transmutation [Acad&eacute;micien]}</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685285,
+    "modifiedTime": 1678407746824,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!JGzjbBTucngqVKUw"
+}

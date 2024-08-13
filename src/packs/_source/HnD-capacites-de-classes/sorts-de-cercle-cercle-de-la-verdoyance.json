@@ -1,0 +1,89 @@
+{
+  "name": "Sorts de Cercle [Cercle de la Verdoyance]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/earth/projectile-spiked-stone-boulder-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sorts-de-cercle\"><strong>Sorts de cercle</strong></h3><p>Lorsque vous rejoignez ce cercle au niveau 2, vous formez un lien avec un esprit végétal, une créature de la Verdoyance. Votre lien avec cet esprit vous donne accès à certains sorts lorsque vous atteignez certains niveaux dans cette classe, comme indiqué dans le tableau ci-dessous.</p><p>Une fois que vous avez accès à l'un de ces sorts, il est toujours préparé et il ne compte pas dans le nombre de sorts que vous pouvez préparer chaque jour. Si vous avez accès à un sort qui ne figure pas dans la liste des sorts de druide, considérez-le quand même comme un sort de druide.</p><p></p><table style=\"width:98.533%;height:153px\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">Niv du Druide</td><td style=\"width:62.4732%;height:17px;text-align:center\">Sort de Cercle</td></tr><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">2</td><td style=\"width:62.4732%;height:17px;text-align:center\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.J3piNZiWQ528JorV]{Baies nourricières} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.n5qkanxSmyx8s72l]{Enchevêtrement}</td></tr><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">3</td><td style=\"width:62.4732%;height:17px;text-align:center\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.YaWoeglObosAR0vd]{Croissance d'épines} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wMkmtc8SvWv4xF6E]{Peau d'écorce}</td></tr><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">5</td><td style=\"width:62.4732%;height:17px;text-align:center\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.KVqhCgoiO9fuXQqx]{Communication avec les plantes} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fe64XpSzKKQ8acBL]{Tapis de lianes}</td></tr><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">7</td><td style=\"width:62.4732%;height:17px;text-align:center\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.2WsMyCWx0XyMZh22]{Rêvevin} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1]{Terrain hallucinatoire}</td></tr><tr style=\"height:17px\"><td style=\"width:36.2861%;height:17px;text-align:center\">9</td><td style=\"width:62.4732%;height:17px;text-align:center\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.g0k1tFGNIg54vMUE]{Floraison enchantée} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BErylURWrsPQ39cE]{Passage par les arbres}</td></tr></tbody></table><p> </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cercle de la verdoyance",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685687,
+    "modifiedTime": 1678987359010,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "ALqS9BcwwjJ24sFE",
+  "_key": "!items!ALqS9BcwwjJ24sFE"
+}

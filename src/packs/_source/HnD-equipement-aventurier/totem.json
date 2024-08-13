@@ -1,0 +1,162 @@
+{
+  "_id": "NDczA3aNJqNdokLQ",
+  "name": "Totem",
+  "type": "weapon",
+  "img": "icons/equipment/neck/collar-carved-bone-teeth-ring.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "unarmed",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "ec12dde4-c09a-4a12-8d16-506f4f40a4e5",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "c4025f54-d08a-4ebb-aafd-16fd2000f348",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": true,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "65326f98-d67f-4510-9b39-d5911409f4fc",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 4,
+              "ability": "",
+              "bonus": 0,
+              "damage": "",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Focalisateur Druidique. </strong>Un totem incorporant des plumes, de la fourrure, des os et des dents d'un animal sacré pour l'utilisateur. Ceux qui répondent à l'appel de la nature sont capables de l'exploiter pour faire appel à l'incroyable puissance de la nature. Focaliseur druidique. Un focaliseur druidique peut être un brin de gui ou de houx, une baguette ou un sceptre en bois d'if ou autre bois spécial, un bâton pris d'un arbre vivant, ou bien encore un objet totem qui intègre des plumes, de la fourrure, des os ou des dents d'animaux sacrés. Un druide peut utiliser ce type d'objet comme focaliseur pour ses sorts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "quantity": 1,
+    "weight": 0,
+    "price": 1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "natural",
+    "baseItem": "",
+    "properties": {
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": true,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700592,
+    "modifiedTime": 1663923700592,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!NDczA3aNJqNdokLQ"
+}

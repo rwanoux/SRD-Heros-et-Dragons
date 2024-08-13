@@ -1,0 +1,89 @@
+{
+  "name": "Absorption de Vie",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/life/heart-glowing-red.webp",
+  "_id": "UXYNBG3rjz1sqxMd",
+  "system": {
+    "description": {
+      "value": "<p><strong>Absorption de vie.</strong> Attaque d'arme au corps à corps sur une cible. Allonge 1,50 m. Dégâts nécrotiques. La cible doit réussir un jet de sauvegarde de Constitution pour ne pas voir son total maximum de points de vie réduit d'un montant égal aux dégâts subis. Cette réduction persiste jusqu'au moment où la cible termine une période de repos long. La cible meurt si cet effet réduit à 0 son total maximum de points de vie. D'autres effets peuvent s'appliquer en fonction de la créature.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "any",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698848,
+    "modifiedTime": 1663923699717,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!UXYNBG3rjz1sqxMd"
+}

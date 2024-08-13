@@ -1,0 +1,84 @@
+{
+  "_id": "jt3mexv3lGgoy8o6",
+  "name": "Canalisation divine : Arts : Inspiration divine [Prêtre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-orange-small.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<p><strong>Canalisation d'&eacute;nergie divine : Arts - Inspiration divine</strong></p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Vous chantez pendant un nombre de round &eacute;gal &agrave; votre bonus de ma&icirc;trise. Pendant cette dur&eacute;e, vous pouvez utiliser une r&eacute;action &agrave; chacun de vos tours pour permettre &agrave; un alli&eacute; situ&eacute; &agrave; moins de 18 m&egrave;tres et capable de vous entendre de relancer un d&eacute; de son choix (</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">test de caract&eacute;ristique</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">,&nbsp;</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/combattre/#jets-d-attaque\">jet d'attaque</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">,&nbsp;</span><a style=\"box-sizing: border-box; user-select: text; font-family: Friz, sans-serif; font-size: 13px;\" href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">de sauvegarde</a><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"> ou de d&eacute;g&acirc;ts). Votre modificateur de Charisme est ajout&eacute; au r&eacute;sultat du nouveau jet.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "ally"
+    },
+    "range": {
+      "value": null,
+      "long": 18,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685599,
+    "modifiedTime": 1663923687383,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jt3mexv3lGgoy8o6"
+}

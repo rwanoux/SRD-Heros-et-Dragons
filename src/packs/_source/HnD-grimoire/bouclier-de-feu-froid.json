@@ -1,0 +1,109 @@
+{
+  "_id": "uEYy6RPn3eaVXon5",
+  "name": "Bouclier de feu froid",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>De fines volutes de flammes enveloppent votre corps pendant toute la dur&eacute;e du sort, &eacute;mettant une lumi&egrave;re vive dans un rayon de 3 m&egrave;tres et une lumi&egrave;re faible dans un rayon additionnel de 3 m&egrave;tres. Vous pouvez mettre pr&eacute;matur&eacute;ment un terme au sort en utilisant une action.</p>\n<p>Les flammes vous offrent un bouclier chaud ou froid, comme bon vous semble. Le bouclier chaud vous apporte une r&eacute;sistance contre les d&eacute;g&acirc;ts de froid, le bouclier froid une r&eacute;sistance contre les d&eacute;g&acirc;ts de feu.</p>\n<p>De plus, quand une cr&eacute;ature situ&eacute;e dans un rayon de 1,50 m&egrave;tre autour de vous vous touche avec une attaque au corps-&agrave;-corps, le bouclier g&eacute;n&egrave;re une gerbe de flammes. Si le bouclier est chaud, il inflige 2d8 d&eacute;g&acirc;ts de feu &agrave; l'assaillant, s'il est froid, il lui inflige 2d8 d&eacute;g&acirc;ts de froid.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 4,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Un morceau de phosphore ou une luciole",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688214,
+    "modifiedTime": 1663923689472,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!uEYy6RPn3eaVXon5"
+}

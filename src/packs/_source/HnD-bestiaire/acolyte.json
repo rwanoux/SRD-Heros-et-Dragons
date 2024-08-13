@@ -1,0 +1,2168 @@
+{
+  "_id": "VuGuxG4xjmmZeBsH",
+  "name": "Acolyte",
+  "type": "npc",
+  "img": "systems/dnd5e/tokens/humanoid/Acolyte.webp",
+  "items": [
+    {
+      "_id": "SYesdYT3B05alCxt",
+      "name": "Incantation",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {},
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Incantation.&nbsp;Incantation. L'acolyte est un lanceur de sorts de niveau 1. Sa caractéristique d'incantation est la Sagesse (DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre les sorts 12, +4 pour toucher avec les attaques de sort). Voici les sorts de clerc préparés par l'acolyte :</p>\n<ul>\n<li>Tours de magie (à volonté)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/flamme-sacree/\">flamme sacrée</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/lumiere/\">lumière</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/thaumaturgie/\">thaumaturgie</a></li>\n<li>1er niveau (3 emplacements):&nbsp;<a href=\"https://5e-drs.fr/grimoire/benediction/\">bénédiction</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/sanctuaire/\">sanctuaire</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/soin-des-blessures/\">soin des blessures</a></li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "",
+          "value": ""
+        },
+        "requirements": "Acolyte",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.SYesdYT3B05alCxt"
+    },
+    {
+      "_id": "TZC6EnAjnxE6Crqa",
+      "name": "Gourdin",
+      "type": "weapon",
+      "sort": 200000,
+      "flags": {
+        "obsidian": {
+          "category": "simple",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "light": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "ceba09fb-9d44-44e7-a6b4-bbb1dacaad3b",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "087f6427-5a76-428a-b0e1-201071026886",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": false,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "446f538a-d982-423b-aee4-69359f02eee2",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 4,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "blg",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "icons/weapons/clubs/club-simple-barbed.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Attaque d'arme au corps à corps&nbsp;: +2 pour toucher, allonge 1,50 m, une cible.<br>Touché&nbsp;: 2 (1d4) dégâts contondants.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel de Règles",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0.1,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "any",
+          "type": ""
+        },
+        "range": {
+          "value": 1.5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "",
+        "properties": {
+          "lgt": true,
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.TZC6EnAjnxE6Crqa"
+    },
+    {
+      "_id": "SPkeA3DYwmCWgbQl",
+      "name": "Flamme sacrée",
+      "type": "spell",
+      "sort": 300000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Une lumière flamboyante s'abat sur une créature située à portée et dans votre champ de vision. La cible doit réussir un jet de Dextérité ou subir 1d8 dégâts radiants. Même si elle se trouve derrière un abri, la cible ne bénéficie pas d'un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a>.</p>\n<p>Les dégâts du sort augmentent de 1d8 quand vous atteignez le niveau 5 (2d8), 11 (3d8) et 17 (4d8).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "wis",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 12,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.SPkeA3DYwmCWgbQl"
+    },
+    {
+      "_id": "utaCQAHfevShyDxl",
+      "name": "Lumière",
+      "type": "spell",
+      "sort": 400000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/light/explosion-star-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous touchez un objet qui ne fait pas plus de 3 mètres dans chaque dimension. Jusqu'à la fin du sort, il émet une vive lumière dans un rayon de 6 mètres et une faible lumière dans un rayon additionnel de 6 mètres. Vous pouvez colorer cette lumière comme vous le souhaitez. Il suffit de recouvrir complètement l'objet avec quelque chose d'opaque pour bloquer la lumière. Le sort se termine si vous le lancez de nouveau ou si vous le révoquez en dépensant une action.</p>\n<p>Si vous visez un objet porté ou transporté par une créature hostile, cette dernière doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité pour éviter les effets du sort.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 12,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Une luciole ou de la mousse phosphorescente",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.utaCQAHfevShyDxl"
+    },
+    {
+      "_id": "IAC7i0OG42KpFWbA",
+      "name": "Thaumaturgie",
+      "type": "spell",
+      "sort": 500000,
+      "flags": {},
+      "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous créez une manifestation merveilleuse mineure ou un signe de puissance surnaturelle à portée, ce qui génère l'un des effets magiques suivants à portée.</p>\n<ul>\n<li>Votre voix retentit jusqu'à trois fois plus fort que la normale pendant 1 minute.</li>\n<li>Les flammes vacillent, se ravivent, se réduisent ou changent de couleur pendant une minute.</li>\n<li>Vous provoquez des secousses inoffensives qui agitent le sol pendant 1 minute.</li>\n<li>Vous émettez un son instantané qui émane d'un point de votre choix situé à portée, comme un roulement de tonnerre, le croassement d'un corbeau ou des murmures inquiétants.</li>\n<li>Vous provoquez la fermeture ou l'ouverture violente et immédiate d'une porte ou d'une fenêtre non verrouillée.</li>\n<li>Vous modifiez l'apparence de vos yeux pendant 1 minute.</li>\n</ul>\n<p>Si vous lancez ce sort à plusieurs reprises, vous ne pouvez avoir que trois effets d'une minute actifs à la fois. Vous pouvez révoquer un tel effet par une action.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.IAC7i0OG42KpFWbA"
+    },
+    {
+      "_id": "py1DNZ8QM3dQZomg",
+      "name": "Bénédiction",
+      "type": "spell",
+      "sort": 600000,
+      "flags": {},
+      "img": "icons/magic/control/buff-flight-wings-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous bénissez jusqu'à trois créatures de votre choix situées à portée. Quand une cible fait un <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> ou <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">de sauvegarde</a> avant la fin du sort, elle lance 1d4 et ajoute le résultat obtenu au <a href=\"https://5e-drs.fr//combattre#jets-dattaque\">jet d'attaque</a> ou <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">de sauvegarde</a>.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, vous pouvez affecter une créature de plus par niveau au-delà du niveau 1.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "minute"
+        },
+        "target": {
+          "value": 3,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "0",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1d4",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un peu d'eau bénite à asperger",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.py1DNZ8QM3dQZomg"
+    },
+    {
+      "_id": "FSo5LDGNBRraYySx",
+      "name": "Sanctuaire",
+      "type": "spell",
+      "sort": 700000,
+      "flags": {},
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous protégez une créature à portée contre les attaques. Jusqu'à la fin du sort, toute créature qui vise la cible avec une attaque ou un sort néfaste doit d'abord effectuer un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse. Si elle le rate, elle doit choisir une nouvelle cible, sans quoi l'attaque ou le sort est perdu. Ce sort ne protège pas la cible contre les effets de zone, comme l'explosion d'une <em>boule de feu</em>.</p>\n<p>Ce sort se termine si la créature protégée attaque ou lance un sort affectant une créature ennemie.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "0",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 12,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "abj",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Un petit miroir en argent",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.FSo5LDGNBRraYySx"
+    },
+    {
+      "_id": "jYoLLA3BjslOLtPm",
+      "name": "Soin des blessures",
+      "type": "spell",
+      "sort": 800000,
+      "flags": {},
+      "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>La créature que vous touchez récupère un nombre de points de vie égal à 1d8 + votre modificateur de caractéristique d'incantation. Ce sort n'a aucun effet sur les morts-vivants et les créatures artificielles.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, les soins augmentent de 1d8 par niveau au-delà du niveau 1.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "wis",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!VuGuxG4xjmmZeBsH.jYoLLA3BjslOLtPm"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "constitution",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "wisdom",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 12
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "charisme",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 9,
+        "min": 0,
+        "max": 9,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "2d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": "Perception passive 12"
+      },
+      "spellcasting": "wis",
+      "prof": 2,
+      "spelldc": 12,
+      "encumbrance": {
+        "value": 1,
+        "max": 75,
+        "pct": 1.3333333333333333,
+        "encumbered": true
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Capacités</h2>\n<p>Incantation. L'acolyte est un lanceur de sorts de niveau 1. Sa caractéristique d'incantation est la Sagesse (DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre les sorts 12, +4 pour toucher avec les attaques de sort). Voici les sorts de clerc préparés par l'acolyte :</p>\n<ul>\n<li>Tours de magie (à volonté)&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/flamme-sacree/\">flamme sacrée</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/lumiere/\">lumière</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/thaumaturgie/\">thaumaturgie</a></li>\n<li>1er niveau (3 emplacements):&nbsp;<a href=\"https://5e-drs.fr/grimoire/benediction/\">bénédiction</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/sanctuaire/\">sanctuaire</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/soin-des-blessures/\">soin des blessures</a></li>\n</ul>\n<hr>\n<h2>Actions</h2>\n<p>Gourdin.&nbsp;Attaque d'arme au corps à corps&nbsp;: +2 pour toucher, allonge 1,50 m, une cible.<br>Touché&nbsp;: 2 (1d4) dégâts contondants.</p>",
+        "public": ""
+      },
+      "alignment": "-",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.25,
+      "spellLevel": 1,
+      "xp": {
+        "value": 50
+      },
+      "source": "Créatures & Oppositions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "une langue au choix (commun le plus souvent)"
+      },
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "med": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 14,
+        "prof": 2,
+        "total": 4
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 2,
+        "total": 2
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": 3,
+        "max": 2
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Acolyte",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "systems/dnd5e/tokens/humanoid/Acolyte.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923690459,
+    "modifiedTime": 1663923695769,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!VuGuxG4xjmmZeBsH"
+}

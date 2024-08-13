@@ -1,0 +1,92 @@
+{
+  "_id": "avnKBrOxd4lMM0I1",
+  "name": "Plume magique : Arbre",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-colored-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">Ce petit bibelot ressemble à une plume. Il existe plusieurs types de plume, chacune produisant un effet différent à usage unique. C'est au MJ de décider du type ou de le déterminer au hasard.<br>\n<table>\n<tbody>\n<tr>\n<th class=\"center\">d100</th>\n<th>Plume magique</th>\n</tr>\n<tr>\n<td class=\"center\">01-20</td>\n<td>Ancre</td>\n</tr>\n<tr>\n<td class=\"center\">21-35</td>\n<td>Oiseau</td>\n</tr>\n<tr>\n<td class=\"center\">36-50</td>\n<td>Éventail</td>\n</tr>\n<tr>\n<td class=\"center\">51-65</td>\n<td>Bateau cygne</td>\n</tr>\n<tr>\n<td class=\"center\">66-90</td>\n<td>Arbre</td>\n</tr>\n<tr>\n<td class=\"center\">91-00</td>\n<td>Fouet</td>\n</tr>\n</tbody>\n</table>\n<br><strong>Arbre</strong>. Vous devez vous trouver en extérieur pour utiliser ce bibelot et dépenser une action pour le mettre en contact avec le sol dans un emplacement inoccupé. Le bibelot disparaît pour faire place à un chêne non-magique au tronc de 1,50 mètre de diamètre. Au sommet, ses branches se déploient sur un rayon de 6 mètres.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 250,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "m",
+      "type": "space"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701280,
+    "modifiedTime": 1663923702654,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!avnKBrOxd4lMM0I1"
+}

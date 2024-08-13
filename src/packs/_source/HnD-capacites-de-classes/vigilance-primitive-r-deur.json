@@ -1,0 +1,114 @@
+{
+  "_id": "ge5HuHFYXg7tqoqV",
+  "name": "Vigilance primitive [Rôdeur]",
+  "type": "feat",
+  "img": "icons/magic/perception/hand-eye-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"vigilance-primitive\"><strong>Vigilance primitive</strong></h3>\n<p>&Agrave; partir du niveau 3, vous pouvez utiliser une action et d&eacute;penser un emplacement de sort de r&ocirc;deur pour exacerber votre vigilance et ouvrir vos sens &agrave; la r&eacute;gion qui vous entoure. Pendant un nombre de minutes &eacute;quivalent au niveau de l'emplacement de sort que vous avez d&eacute;pens&eacute;, vous pouvez d&eacute;terminer si les cr&eacute;atures des types suivants se trouvent dans un rayon de 1,5 kilom&egrave;tre de vous (si vous &ecirc;tes sur votre terrain de pr&eacute;dilection, ce rayon est de 9 kilom&egrave;tres) : aberrations, c&eacute;lestes, dragons, &eacute;l&eacute;mentaires, f&eacute;es, fi&eacute;lons et morts-vivants. Cette aptitude ne vous permet pas de savoir o&ugrave; se trouvent ces cr&eacute;atures, ni leur nombre.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685561,
+    "modifiedTime": 1678413972524,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ge5HuHFYXg7tqoqV"
+}

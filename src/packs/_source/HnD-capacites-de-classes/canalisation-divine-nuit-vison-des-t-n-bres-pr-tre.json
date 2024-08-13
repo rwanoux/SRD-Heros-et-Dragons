@@ -1,0 +1,84 @@
+{
+  "_id": "j118SmDC1ADKi03c",
+  "name": "Canalisation divine : Nuit - Vison des ténèbres [Prêtre]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/beam-rays-orange-small.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Canalisation d'&eacute;nergie divine : Nuit [Pr&ecirc;tre] Vison des t&eacute;n&egrave;bres</strong></h3>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Vous obtenez l'aptitude vision aveugle et vous &ecirc;tes immunis&eacute; &agrave; l'&eacute;tat sp&eacute;cial aveugl&eacute; pendant un nombre de rounds &eacute;gal &agrave; votre bonus de ma&icirc;trise</span></p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "turn"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Clerc",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685594,
+    "modifiedTime": 1663923687365,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!j118SmDC1ADKi03c"
+}

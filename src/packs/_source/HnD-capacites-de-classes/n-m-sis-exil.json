@@ -1,0 +1,84 @@
+{
+  "_id": "AZDk3kHSFYpOL9PR",
+  "name": "Némésis [Exilé]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"nemesis\"><strong>N&eacute;m&eacute;sis</strong></h3>\n<p>Lorsque vous atteignez le niveau 7, une longue lutte ou une longue ranc&oelig;ur vous rendent d'une efficacit&eacute; redoutable contre vos ennemis ancestraux. Vous ajoutez 1d6 aux d&eacute;g&acirc;ts de chaque attaque au corps-&agrave;-corps ou &agrave; distance que vous infligez &agrave; vos ennemis jur&eacute;s.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685226,
+    "modifiedTime": 1663923686299,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!AZDk3kHSFYpOL9PR"
+}

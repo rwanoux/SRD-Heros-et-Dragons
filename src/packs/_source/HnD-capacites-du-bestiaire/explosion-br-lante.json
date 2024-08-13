@@ -1,0 +1,93 @@
+{
+  "name": "Explosion Brûlante",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
+  "_id": "xMdyaUaLC9jycbbF",
+  "system": {
+    "description": {
+      "value": "<p><strong>Explosion brûlante.</strong> La créature produit de l'énergie magique. Chaque cible de son choix située dans son rayon doit effectuer un jet de sauvegarde ou subir des dégâts de feu plus des dégâts radiants.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 2,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 3,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "any"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d6",
+          "fire"
+        ],
+        [
+          "4d6",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 23,
+      "scaling": "flat"
+    },
+    "requirements": "Ange (Solar) ",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923699004,
+    "modifiedTime": 1663923700332,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!xMdyaUaLC9jycbbF"
+}

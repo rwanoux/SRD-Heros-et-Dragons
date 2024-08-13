@@ -1,0 +1,165 @@
+{
+  "_id": "fh7IUsXvGeCoIPZt",
+  "name": "Masse d'armes",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "simple",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "5ddb5120-c7d0-4827-8c29-db4b468bd0ae",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "7bb28ed7-2b3d-4398-beda-6ed43f1d8fa6",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "6a701152-b6dd-4445-b558-f72b5606a3fd",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 6,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "blg",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Une lourde boule de métal montée au bout d'une massue également de métal. La tête est munie de pointes et de lames conçues pour perforer l'armure et briser les os situés en dessous.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 2,
+    "price": 5,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleM",
+    "baseItem": "mace",
+    "properties": {
+      "value": "",
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700638,
+    "modifiedTime": 1663923700638,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!fh7IUsXvGeCoIPZt"
+}

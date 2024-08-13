@@ -1,0 +1,131 @@
+{
+  "_id": "dy1O0MFAyGk90kdQ",
+  "name": "Télékinésie",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous devenez capable de déplacer ou de manipuler des créatures ou des objets par la pensée. Lorsque vous lancez ce sort, puis en tant qu'action à chaque round pendant toute la durée du sort, vous pouvez exercer votre force de volonté sur une créature ou un objet situés à portée et dans votre champ de vision, ce qui provoque l'effet approprié indiqué plus bas. Vous pouvez affecter la même cible, round après round, ou en choisir une nouvelle quand vous le désirez. Si vous changez de cible, la précédente n'est plus affectée.</p>\n<p><strong>Créatures</strong>. Vous pouvez essayer de déplacer une créature de taille TG ou inférieure. Faites un test de caractéristique avec votre caractéristique d'incantation, opposé à un test de Force de la cible. Si vous l'emportez, vous déplacez la créature d'un maximum de 9 mètres dans la direction de votre choix, y compris en hauteur, mais pas hors de portée du sort. Jusqu'à la fin de votre prochain tour, la créature est entravée dans votre étreinte télékinétique. Une créature soulevée dans les airs reste suspendue dans le vide.</p>\n<p>Lors des rounds suivants, vous pouvez utiliser votre action pour maintenir votre prise télékinétique sur la cible en répétant les tests opposés.</p>\n<p><strong>Objets</strong>. Vous pouvez essayer de déplacer un objet pesant au maximum 500 kilogrammes. Si cet objet n'est ni porté ni transporté, vous le déplacez automatiquement d'un maximum de 9 mètres dans la direction de votre choix, mais pas hors de portée du sort.</p>\n<p>Si l'objet est porté ou transporté par une créature, faites un test de caractéristique avec votre caractéristique d'incantation, opposé à un test de Force de cette créature. Si vous l'emportez, vous éloignez l'objet de cette créature sur un maximum de 9 mètres dans la direction de votre choix, mais pas hors de portée du sort.</p>\n<p>Vous exercez un contrôle précis sur les objets pris dans votre étreinte télékinétique, vous pouvez donc manipuler un outil basique, ouvrir une porte ou un récipient, déposer un objet dans un récipient ou en retirer un, ou encore verser le contenu d'une fiole.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 10,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 5,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688132,
+    "modifiedTime": 1663923689181,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!dy1O0MFAyGk90kdQ"
+}

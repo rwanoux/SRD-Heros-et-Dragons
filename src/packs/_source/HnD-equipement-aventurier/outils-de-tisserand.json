@@ -1,0 +1,55 @@
+{
+  "_id": "s6ukv73LGPFAq0tm",
+  "name": "Outils de tisserand",
+  "type": "tool",
+  "img": "icons/equipment/back/cloak-hooded-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "effects": [],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Ces outils spéciaux comprennent les éléments nécessaires à l'exercice d'un métier ou d'un commerce. La table montre des exemples des types d'outils les plus communs, chacun offrant des objets liés à un seul métier. La maîtrise d'un type d'outil d'artisan vous permet d'ajouter votre bonus de maîtrise à tous les jets de caractéristique que vous faites en utilisant les outils de votre travail. Chaque type d'outil d'artisan nécessite une maîtrise distincte.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 154",
+    "quantity": 1,
+    "weight": 2.5,
+    "price": 1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "toolType": "art",
+    "baseItem": "weaver",
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": "",
+    "damage": {
+      "parts": []
+    },
+    "critical": {
+      "threshold": null,
+      "damage": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700659,
+    "modifiedTime": 1663923700659,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!s6ukv73LGPFAq0tm"
+}

@@ -1,0 +1,141 @@
+{
+  "_id": "L9pWoGutjW5Akyew",
+  "name": "Flèche acide",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/fire/projectile-arrow-fire-red-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une flèche d'un vert chatoyant file vers une cible située à portée et explose en une gerbe d'acide. Faites une attaque de sort à distance contre la cible. Si vous touchez, la cible reçoit 4d4 dégâts d'acide immédiatement et 2d4 dégâts d'acide à la fin de son prochain tour. Si vous ne touchez pas, l'acide éclabousse la cible et lui inflige la moitié des dégâts initiaux, mais aucun à la fin de son prochain tour.</p>\n<p><strong>À plus haut niveau</strong>. Quand vous utilisez ce sort via un emplacement de niveau 3 ou supérieur, les dégâts initiaux et secondaires augmentent de 1d4 par niveau au-delà du niveau 2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "range": {
+        "value": "27",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 27,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rsak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d4",
+          "acid"
+        ]
+      ],
+      "versatile": "2d4"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Poudre de feuille de rhubarbe et estomac de vipère",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d4"
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688016,
+    "modifiedTime": 1663923688838,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!L9pWoGutjW5Akyew"
+}

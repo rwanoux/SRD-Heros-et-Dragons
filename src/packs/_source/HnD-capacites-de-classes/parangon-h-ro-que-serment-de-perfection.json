@@ -1,0 +1,84 @@
+{
+  "_id": "nzY82Aoocnc4U3lm",
+  "name": "Parangon héroïque [Serment de Perfection]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"parangon-heroique\"><strong>Parangon h&eacute;ro&iuml;que</strong></h3>\n<p>Au niveau 20, au prix d'une action, vous pouvez devenir un parangon d'h&eacute;ro&iuml;sme. Pendant 1 minute, votre peau prend la teinte de l'or pur et &eacute;met une faible lumi&egrave;re dor&eacute;e dans un rayon de 6 m&egrave;tres autour de vous. De plus, vous devenez r&eacute;sistant &agrave; tous les d&eacute;g&acirc;ts subis et vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> &agrave; toutes vos attaques au corps-&agrave;-corps, ainsi que vos tests de Force, de Constitution, de Sagesse et de Charisme (jets de sauvegarde et tests de comp&eacute;tence). Vous devez terminer un repos long avant de pouvoir de nouveau utiliser cette aptitude.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685624,
+    "modifiedTime": 1663923687477,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!nzY82Aoocnc4U3lm"
+}

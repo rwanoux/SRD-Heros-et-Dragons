@@ -1,0 +1,104 @@
+{
+  "_id": "ny7cz9SNx4flEDfE",
+  "name": "Communion [Voie des esprits]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"communion\"><strong>Communion</strong></h3><p>À partir du niveau 10, vous bénéficiez d'un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> sur les tests d'une compétence selon l'esprit auquel vous êtes lié. Ours : Force (Athlétisme). Renard : Charisme (Supercherie). Loup : Dextérité (Discrétion). Taureau : Intelligence (Nature). Aigle : Charisme (Persuasion). Chouette : Sagesse (Perspicacité). Lynx : Dextérité (Acrobaties).</p><p>En dépensant un point de @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.F1p7hz1HrSWkiuPv]{Lien spirituel}, vous pouvez utiliser un sort de votre choix parmi :</p><ul><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.32R5IVaBFQJwqx2m]{Compagnon animal}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wAu7X5XbyaIxSaE0]{Messager animal}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Tge76MEpqUQSqYid]{Poison naturel}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.nfeUJGDc7Dh37Mqn]{Protection contre le poison}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jCVWEIQQCT6EloEQ]{Restauration inférieure}</li><li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc]{Vision dans le noir}</li></ul><p>Désormais, vous ajoutez la moitié de votre modificateur de Sagesse, s'il est positif (arrondi à l'inférieur) à votre valeur de lien spirituel.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685623,
+    "modifiedTime": 1678422258227,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ny7cz9SNx4flEDfE"
+}

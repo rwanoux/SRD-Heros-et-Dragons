@@ -1,0 +1,100 @@
+{
+  "_id": "Ln4xF2JrOLiloO8v",
+  "name": "Liste de sorts étendue [Seigneur Immortel]",
+  "type": "feat",
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/magic/air/air-burst-spiral-large-pink.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"liste-de-sorts-etendue-2\"><strong>Liste de sorts &eacute;tendue</strong></h3>\n<p>Le seigneur immortel vous permet de choisir des sorts dans une liste de sorts &eacute;tendue quand vous devez apprendre un sort de sorcier. Les sorts suivants sont ajout&eacute;s dans votre liste de sorts de sorcier.</p>\n<table style=\"width: 390px;\">\n<thead>\n<tr>\n<th style=\"width: 76px;\">Niv. de sort</th>\n<th style=\"width: 309px;\">Sorts</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 76px;\">1</td>\n<td style=\"width: 309px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NAvGwByTJdJAx5Tz]{Fl&eacute;au} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.c4mQpfdz2aPgHcSN]{Simulacre de vie}</td>\n</tr>\n<tr>\n<td style=\"width: 76px;\">2</td>\n<td style=\"width: 309px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH]{Augure} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ERUTy5xranppdaSf]{Doux repos}</td>\n</tr>\n<tr>\n<td style=\"width: 76px;\">3</td>\n<td style=\"width: 309px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.OCUj2zEYDrEftQjy]{Animation des morts} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t]{Communication avec les morts}</td>\n</tr>\n<tr>\n<td style=\"width: 76px;\">4</td>\n<td style=\"width: 309px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB]{Libert&eacute; de mouvement} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.AxRxwMQ5LB45shbD]{Protection contre la mort}</td>\n</tr>\n<tr>\n<td style=\"width: 76px;\">5</td>\n<td style=\"width: 309px;\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fu4fbKurX9Q8skJE]{L&eacute;gende} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6]{Rappel &agrave; la vie}</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685361,
+    "modifiedTime": 1678418015862,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!Ln4xF2JrOLiloO8v"
+}

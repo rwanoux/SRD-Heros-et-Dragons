@@ -1,0 +1,89 @@
+{
+  "_id": "UFEljDB6h0T1P9el",
+  "name": "Déplacement élémentaire Terre [Élémentaliste]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/earth/volcano-explosion-lava-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"deplacement-elementaire\"><strong>D&eacute;placement &eacute;l&eacute;mentaire</strong></h3>\n<p>Au niveau 10 vous gagnez l'aptitude suivante li&eacute;e &agrave; votre &eacute;l&eacute;ment de pr&eacute;dilection.</p>\n<p><strong>Terre :</strong>&nbsp;Tel un animal fouisseur, vous pouvez vous d&eacute;placer dans la terre d'un sol naturel &agrave; la moiti&eacute; de votre vitesse de d&eacute;placement. De plus, vous gagnez le sens <a href=\"https://5e-drs.fr/comprendre-le-profil-technique-des-monstres/#perception-des-vibrations\" target=\"_blank\" rel=\"noopener\">perception des vibrations</a>&nbsp;(9 m&egrave;tres) lorsque vous vous d&eacute;placez de cette fa&ccedil;on. Vous devez terminer votre d&eacute;placement &agrave; l'air libre ou subir 4d6 d&eacute;g&acirc;ts contondants.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685409,
+    "modifiedTime": 1663923686865,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!UFEljDB6h0T1P9el"
+}

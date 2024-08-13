@@ -1,0 +1,94 @@
+{
+  "_id": "pJryLHLHWRJz7IvK",
+  "name": "Antitoxine (fiole)",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "system": {
+    "description": {
+      "value": "<p>Une créature qui boit cette fiole de liquide obtient un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;sur les jets de sauvegarde contre le poison pendant 1 heure. Cet objet n'a aucun effet sur les morts-vivants et les créatures artificielles.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 0.1,
+    "price": 50,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "potion",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700655,
+    "modifiedTime": 1663923700655,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pJryLHLHWRJz7IvK"
+}

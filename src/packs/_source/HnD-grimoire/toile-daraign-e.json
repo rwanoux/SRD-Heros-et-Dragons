@@ -1,0 +1,136 @@
+{
+  "_id": "c7SLoLNSd46DcyJf",
+  "name": "Toile d'araignée",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/commodities/materials/material-webbing.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous invoquez une masse de toiles d'araignées épaisses et collantes en un point de votre choix situé à portée. Pendant toute la durée du sort, les toiles occupent un cube de 6 mètres d'arête centré sur le point choisi. Elles forment un terrain difficile à la visibilité réduite.</p>\n<p>Si les toiles ne sont pas ancrées entre deux éléments solides, comme des murs ou des arbres, ou disposées en couches sur le sol, le plafond ou un mur, elles s'effondrent sur elles-mêmes et le sort se termine au début de votre prochain tour. Des toiles disposées en couches superposées sur une surface plane s'accumulent sur une épaisseur de 1,50 mètre.</p>\n<p>Chaque créature qui commence son tour dans les toiles ou qui y pénètre lors de son tour doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité, ou être <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a> tant qu'elle reste dans les toiles ou jusqu'à ce qu'elle se libère.</p>\n<p>Une créature <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a> par les toiles peut utiliser son action pour effectuer un test de Force contre le DD du <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de votre sort. Si elle le réussit, elle n'est plus <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage#entravé\"><em>entravée</em></a>.</p>\n<p>Les toiles sont inflammables. Un cube de toiles de 1,50 mètre d'arête exposé au feu brûle en 1 round, infligeant 2d4 dégâts de feu à toute créature qui commence son tour dans les flammes.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 6,
+      "width": null,
+      "units": "m",
+      "type": "cube",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "2d4 dégats de feu si toiles enflammées",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un bout de toile d'araignée",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688121,
+    "modifiedTime": 1663923689146,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!c7SLoLNSd46DcyJf"
+}

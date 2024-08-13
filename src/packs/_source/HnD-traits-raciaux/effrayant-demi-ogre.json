@@ -1,0 +1,92 @@
+{
+  "_id": "HWTPBu3qsMg9P0Pm",
+  "name": "Effrayant (Demi-ogre)",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Effrayant</strong>. Vous utilisez votre action et vous adoptez une posture agressive, hurlez ou lancez un regard noir suivi d'un grognement effrayant à un adversaire. Ce dernier doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Charisme contre une difficulté égale à 8 + votre modificateur de Force + votre bonus de maîtrise. S'il échoue, il est&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#terrorise\">terrorisé</a>&nbsp;pour un nombre de rounds égal à votre bonus de maîtrise. Vous devez effectuer un repos long avant de pouvoir utiliser cette capacité de nouveau.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Demi-ogre",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698174,
+    "modifiedTime": 1663923698415,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!HWTPBu3qsMg9P0Pm"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "G0L8Z69AGpBhfyWQ",
+  "name": "Carapace Rélféchissante",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/commodities/gems/gem-rough-navette-yellow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Carapace réfléchissante.</strong> Lancez un d6 chaque fois que la tarasque est la cible d'un sort de projectile magique, d'un sort dont la zone d'effet est une ligne ou d'un sort qui nécessite un jet d'attaque à distance. Sur un résultat de 1 à 5, la tarasque n'est pas affectée. Sur un résultat de 6, elle n'est pas affectée et l'effet est renvoyé vers le lanceur du sort, comme s'il provenait de la tarasque, et le lanceur du sort en devient la cible.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698783,
+    "modifiedTime": 1663923699436,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!G0L8Z69AGpBhfyWQ"
+}

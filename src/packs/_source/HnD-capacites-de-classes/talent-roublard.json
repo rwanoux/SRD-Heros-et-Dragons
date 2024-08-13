@@ -1,0 +1,105 @@
+{
+  "_id": "gR2PectJYOBkwZhL",
+  "name": "Talent [Roublard]",
+  "type": "feat",
+  "img": "icons/skills/ranged/target-bullseye-arrow-glowing.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "entityorder": {
+      "order": 145
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"talent\"><strong>Talent</strong></h3>\n<p>Au niveau 11, vous avez affin&eacute; vos comp&eacute;tences &agrave; un point proche de la perfection. &Agrave; chaque fois que vous faites un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#tests-de-caracteristique\">test de caract&eacute;ristique</a> qui vous permet d'ajouter votre bonus de ma&icirc;trise, si le r&eacute;sultat de votre jet de d20 est inf&eacute;rieur ou &eacute;gal &agrave; 9, vous le transformez en 10.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685497,
+    "modifiedTime": 1663923687288,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!gR2PectJYOBkwZhL"
+}

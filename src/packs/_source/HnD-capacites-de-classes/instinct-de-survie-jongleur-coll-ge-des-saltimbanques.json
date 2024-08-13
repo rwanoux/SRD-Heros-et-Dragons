@@ -1,0 +1,109 @@
+{
+  "_id": "SbAkGmhHjI2Sp0yB",
+  "name": "Instinct de Survie - Jongleur [Collège des Saltimbanques]",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Instinct de Survie -&nbsp;Jongleur</strong><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">&nbsp;</span></h3>\n<p>&nbsp;</p>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Esquive acrobatique. Vos sauts et vos roul&eacute;s-boul&eacute;s vous mettent hors de port&eacute;e de la plupart des attaques. Lorsque vous &ecirc;tes attaqu&eacute;, vous pouvez d&eacute;penser votre r&eacute;action pour utiliser une &nbsp;@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.VXRpFFtML2YSlPTA]{Inspirations Bardique [Barde]} et ajouter le r&eacute;sultat du d&eacute; &agrave; votre CA jusqu'&agrave; votre prochain tour.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Barde",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685401,
+    "modifiedTime": 1663923686821,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!SbAkGmhHjI2Sp0yB"
+}

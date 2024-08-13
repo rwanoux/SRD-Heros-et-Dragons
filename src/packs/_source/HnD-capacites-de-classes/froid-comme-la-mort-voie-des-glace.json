@@ -1,0 +1,100 @@
+{
+  "_id": "lRWhSvQ7H42g5e6Q",
+  "name": "Froid comme la mort [Voie des glace]",
+  "type": "feat",
+  "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3><strong>Froid comme la mort</strong></h3><p>Au niveau 10, votre corps devient si résilient qu'il est capable d'endurer le froid glacial de la mort. Votre résistance au froid (voir @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.957MxwWr1DT64y6e]{Rage froide [Voie des glaces]}) s'étend aux dégâts nécrotiques.</p><p>De plus, les morts-vivants ont des difficultés à vous distinguer des morts et subissent un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a> pour vous attaquer.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685608,
+    "modifiedTime": 1678423479466,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lRWhSvQ7H42g5e6Q"
+}

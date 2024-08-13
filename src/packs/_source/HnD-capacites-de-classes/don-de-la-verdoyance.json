@@ -1,0 +1,89 @@
+{
+  "name": "Don de la Verdoyance",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-elm-sparkle-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Au niveau 6, le lien avec votre esprit verdoyant améliore vos sorts de restauration et vous donne le pouvoir de lancer des sorts supplémentaires. </p><p>Une fois avant la fin de la durée de l'esprit, vous pouvez lancer l'un des sorts suivants sans dépenser d'emplacement de sort ou de composante matérielle : @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.KVqhCgoiO9fuXQqx]{communication avec les plantes}, @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.z3FLlKNK0xBlc2Lw]{ croissance végétale}, @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wlFxYAJZSp06Yecl]{ localiser des animaux ou des plantes} ou @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.umjT52qAQfy7iUPw]{passage sans trace} (uniquement dans les environnements où la vie végétale est abondante). </p><p>Vous ne pouvez plus lancer l'un de ces sorts de cette façon jusqu'à la prochaine fois que vous invoquez votre esprit verdoyant.</p><p>Chaque fois que vous lancez un sort qui redonne des points de vie pendant que votre esprit verdoyant est invoqué, lancez un d8 et ajoutez le résultat au total des points de vie restaurés.</p><p>De plus, lorsque vous lancez un sort avec une portée autre que personnelle, le sort peut provenir de vous ou de votre esprit verdoyant.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cercle de la Verdoyance",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678988855602,
+    "modifiedTime": 1678989089005,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "L9zMTV6Ao9umpQ0b",
+  "_key": "!items!L9zMTV6Ao9umpQ0b"
+}

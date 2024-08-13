@@ -1,0 +1,3269 @@
+{
+  "_id": "NEz8FcMW34SJClZh",
+  "name": "Rakshasa",
+  "type": "npc",
+  "img": "",
+  "items": [
+    {
+      "_id": "QVVuaYdf95LOJHR2",
+      "name": "Immunité limitée à la magie",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {},
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Immunité limitée à la magie.</strong>&nbsp;Le rakshasa ne peut pas être affecté ou détecté par des sorts de niveau 6 ou moins, à moins qu'il ne le souhaite. Il obtient un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;lors des jets de sauvegarde contre tous les autres sorts et effets magiques.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Rakshasa",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.QVVuaYdf95LOJHR2"
+    },
+    {
+      "_id": "tCJwOeKZArLDQPqR",
+      "name": "Incantation innée",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "icons/magic/light/projectiles-star-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Incantation innée.</strong>&nbsp;La caractéristique d'incantation du rakshasa est le Charisme (DD du&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;contre les sorts 18, +10 pour toucher avec des attaques de sort). Le rakshasa peut lancer les sorts suivants de manière innée sans aucune composante matérielle :</p>\n<ul>\n<li>À volonté&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/deguisement/\">déguisement</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-des-pensees/\">détection des pensées</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/illusion-mineure/\">illusion mineure</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/main-du-mage/\">main du mage</a></li>\n<li>3/jour chacun&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/charme-personne/\">charme-personne</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/detection-de-la-magie/\">détection de la magie</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/invisibilite/\">invisibilité</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/image-majeure/\">image majeure</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/suggestion/\">suggestion</a></li>\n<li>1/jour chacun&nbsp;:&nbsp;<a href=\"https://5e-drs.fr/grimoire/changement-de-plan/\">changement de plan</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/dominer-un-humanoide/\">dominer un humanoïde</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/vision-supreme/\">vision suprême</a>,&nbsp;<a href=\"https://5e-drs.fr/grimoire/vol/\">vol</a></li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Rakshasa",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.tCJwOeKZArLDQPqR"
+    },
+    {
+      "_id": "6ASSquLmveYKBfT8",
+      "name": "Attaques Multiples",
+      "type": "feat",
+      "sort": 300000,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Attaques Multiples.</strong>&nbsp;Le rakshasa effectue deux attaques de griffe.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Rakshasa",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.6ASSquLmveYKBfT8"
+    },
+    {
+      "_id": "UrSUKMoUJFrcIoSJ",
+      "name": "Griffes",
+      "type": "weapon",
+      "sort": 400000,
+      "flags": {},
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Griffe.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;: +7 pour toucher, allonge 1,50 m, une cible.<br>Touché&nbsp;: 9 (2d6+2) dégâts tranchants et la cible est maudite si c'est une créature. La malédiction magique prend effet chaque fois que la cible prend un repos court ou long en envahissant ses pensées d'images horribles et de cauchemars. Le repos long ou court ne permet plus à la cible maudite de récupérer quoi que ce soit. La malédiction persiste tant qu'elle n'est pas levée par le sort&nbsp;<a href=\"https://5e-drs.fr/grimoire/lever-une-malediction/\">lever une malédiction</a>&nbsp;ou une magie similaire.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 1.5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "value": "",
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": true,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "recharge": {
+          "value": null,
+          "charged": null
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.UrSUKMoUJFrcIoSJ"
+    },
+    {
+      "_id": "ngcwhFrdgkDeBFKN",
+      "name": "Déguisement",
+      "type": "spell",
+      "sort": 500000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous faites en sorte que votre personne (y compris vos vêtements, votre armure, vos armes et les autres objets en votre possession) prenne une apparence différente jusqu'à la fin du sort ou jusqu'à ce que vous utilisiez une action pour y mettre un terme. Vous pouvez passer pour une personne de 30 centimètres de plus ou de moins, sembler gros, maigre ou entre les deux. Vous ne pouvez pas changer de morphologie, vous devez choisir une forme possédant la même conformation que vous au niveau des membres. En dehors de cela, les détails de l'illusion sont laissés à votre imagination.</p>\n<p>Les changements qu'apporte le sort ne résistent pas à un examen physique. Par exemple, si vous l'utilisez pour ajouter un chapeau à votre tenue, les objets passent au travers et toute personne qui essaie de le toucher ne sentira que de l'air, ou des cheveux et un crâne. Si vous utilisez le sort pour paraître plus mince qu'en réalité, la main de quelqu'un qui tente de vous toucher se heurtera à vous alors que, visuellement, elle semble encore dans le vide.</p>\n<p>Pour percer votre déguisement à jour, une créature peut dépenser une action pour vous examiner. Elle doit alors réussir un test d'Intelligence (Investigation) contre le DD du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> du sort.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self",
+          "range": {
+            "value": "personnelle"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.ngcwhFrdgkDeBFKN"
+    },
+    {
+      "_id": "gIJLbJNfGYwxiZMg",
+      "name": "Détection des pensées",
+      "type": "spell",
+      "sort": 600000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/perception/eye-slit-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Pendant toute la durée du sort, vous parvenez à lire les pensées de certaines créatures. Quand vous lancez ce sort, puis en tant qu'action à votre tour jusqu'à la fin du sort, vous pouvez focaliser vos pensées sur une créature située à moins de 9 mètres dans votre champ de vision. Si elle dispose d'une Intelligence de 3 ou moins ou ne parle aucune langue, elle n'est pas affectée.</p>\n<p>Au départ, vous découvrez les pensées superficielles de la créature, c'est-à-dire ce qu'elle a à l'esprit à ce moment-là. Par une action, vous pouvez porter votre attention sur les pensées d'une autre créature ou tenter de vous enfoncer plus profondément dans l'esprit de celle que vous sondez actuellement. Dans ce cas, cette créature doit effectuer un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse. Si elle réussit, le sort se termine. Sinon, vous avez un aperçu de son mode de raisonnement (le cas échéant), de son état émotionnel ou de ce qui occupe une place importante dans son esprit (par exemple, quelque chose qui l'inquiète fortement, qu'elle aime, qu'elle déteste...). Dans les deux cas, la cible sait que vous sondez son esprit et, à moins que vous ne tourniez votre attention vers une autre créature, votre cible peut utiliser son action à son tour pour faire un test d'Intelligence opposé au vôtre. Si elle réussit, le sort se termine.</p>\n<p>Les questions directement posées à l'oral à une cible orientent naturellement le cours de ses pensées, ce sort est donc particulièrement utile lors d'un interrogatoire.</p>\n<p>Vous pouvez aussi utiliser ce sort pour détecter la présence de créatures intelligentes que vous ne voyez pas. Vous pouvez chercher les pensées qui se trouvent dans un rayon de 9 mètres autour de vous au moment où vous lancez ce sort ou bien par une action tandis que le sort est actif. Le sort peut franchir des obstacles, mais il est arrêté par 60 centimètres de roche, 2,5 centimètres de métal autre que le plomb ou une mince feuille de plomb. Vous ne pouvez pas repérer les créatures dotées d'une Intelligence de 3 ou moins, ni celles qui ne parlent aucune langue.</p>\n<p>Une fois que vous avez ainsi détecté la présence d'une créature, vous pouvez lire ses pensées pendant le reste de la durée du sort, comme expliqué plus haut, même si vous ne la voyez pas, mais elle doit tout de même se trouver à portée.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 9,
+          "width": null,
+          "units": "ft",
+          "type": "radius",
+          "range": {
+            "value": "personnelle"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 18,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Une pièce de cuivre",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.gIJLbJNfGYwxiZMg"
+    },
+    {
+      "_id": "7Y7oF9BkhlMnEC7f",
+      "name": "Illusion mineure",
+      "type": "spell",
+      "sort": 700000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/commodities/stone/ore-pile-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous créez à portée un son ou une image représentant un objet. L'illusion persiste pendant toute la durée du sort, et se dissipe si vous révoquez le sort par une action ou si vous lancez de nouveau ce sort.</p>\n<p>Si vous créez un son, son volume peut aller du simple murmure au hurlement. Ce peut être votre voix, celle de quelqu'un d'autre, le rugissement d'un lion, un battement de tambours ou tout autre son de votre choix. Ce bruit persiste sans faiblir pendant toute la durée du sort, à moins que vous ne préfériez émettre des sons distincts à différents moments pendant la durée du sort.</p>\n<p>Si vous créez une image (comme une chaise, des empreintes boueuses ou un petit coffre), elle doit tenir dans un cube de 1,50 mètre d'arête. L'image ne s'accompagne pas de son, de lumière, d'odeur, ni d'autre effet sensoriel. Une interaction physique avec l'image révèle immédiatement qu'elle n'est qu'une illusion, car les objets la traversent.</p>\n<p>Si une créature utilise son action pour examiner le son ou l'image, elle comprend qu'il s'agit d'une illusion si elle réussit un test d'Intelligence (Investigation) opposé au DD du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de votre sort. Si une créature perce l'illusion à jour, celle-ci perd toute substance pour elle.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1.5,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Un morceau de toison",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.7Y7oF9BkhlMnEC7f"
+    },
+    {
+      "_id": "Y0hSGtGK8A4XLwQR",
+      "name": "Main du mage",
+      "type": "spell",
+      "sort": 800000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Une main spectrale flottante apparaît à portée, en un point de votre choix. Elle persiste pendant toute la durée du sort ou jusqu'à ce que vous révoquiez le sort par une action. La main disparaît si elle s'éloigne à plus de 9 mètres de vous ou si vous relancez le sort.</p>\n<p>Vous pouvez utiliser votre action pour contrôler la main et vous en servir pour manipuler un objet, ouvrir une porte ou un récipient qui ne sont pas verrouillés, placer un objet dans un récipient ouvert ou l'en sortir, ou bien verser le contenu d'une flasque. Vous pouvez déplacer la main d'un maximum de 9 mètres à chaque fois que vous l'utilisez.</p>\n<p>La main ne peut pas attaquer, activer un objet magique, ni transporter plus de 5 kilogrammes.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "space",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.Y0hSGtGK8A4XLwQR"
+    },
+    {
+      "_id": "YzWqXR4nO2k8NRjP",
+      "name": "Charme-personne",
+      "type": "spell",
+      "sort": 900000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous tentez de charmer un humanoïde se trouvant à portée et dans votre champ de vision. Il doit faire un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse, pour lequel il dispose d'un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> si vous ou vos compagnons êtes actuellement en train de le combattre. S'il rate son test, il est <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#charmé\"><em>charmé</em></a> par vous jusqu'à la fin du sort ou jusqu'à ce que vous ou vos compagnons lui fassiez du mal. La créature <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#charmé\"><em>charmée</em></a> vous considère comme un ami. Quand le sort se termine, elle sait que vous l'avez charmée.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 2 ou supérieur, vous pouvez charmer une créature de plus par niveau au-delà du niveau 1. Toutes les cibles doivent se trouver à 9 mètres ou moins les unes des autres lorsque vous lancez le sort.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 18,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "+1 créature"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.YzWqXR4nO2k8NRjP"
+    },
+    {
+      "_id": "IqKSTQ7wDX86hPAk",
+      "name": "Détection de la magie",
+      "type": "spell",
+      "sort": 1000000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/light/explosion-star-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Pendant toute la durée du sort, vous percevez la présence de magie dans un rayon de 9 mètres autour de vous. Si vous percevez ainsi la magie, vous pouvez utiliser votre action pour discerner une faible aura autour d'une créature ou d'un objet visible dans la zone et imprégné de magie. Vous découvrez aussi à quelle école appartient cette magie, le cas échéant.</p>\n<p>Le sort ignore la plupart des obstacles, mais il ne peut pas franchir 30 centimètres de pierre, 2,5 centimètres de métal ordinaire, une mince feuille de plomb, ni 1 mètre de bois ou de terre.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "radius",
+          "range": {
+            "value": "personnelle"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": true,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.IqKSTQ7wDX86hPAk"
+    },
+    {
+      "_id": "9AqNKkwwRwYS5xIC",
+      "name": "Invisibilité",
+      "type": "spell",
+      "sort": 1100000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>La créature que vous touchez devient <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#invisible\"><em>invisible</em></a> jusqu'à la fin du sort. Tout ce qu'elle porte et transporte reste <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#invisible\"><em>invisible</em></a> tant qu'elle le garde sur elle. Le sort se termine si la cible attaque ou lance un sort.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 3 ou supérieur, vous pouvez viser une créature de plus par niveau au-delà du niveau 2.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un cil enrobé de gomme arabique",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "+ 1 créature"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.9AqNKkwwRwYS5xIC"
+    },
+    {
+      "_id": "GohqQET08tPYFvmU",
+      "name": "Image majeure",
+      "type": "spell",
+      "sort": 1200000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/commodities/gems/gem-amber-insect-orange.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous créez l'image d'un objet, d'une créature ou d'un phénomène visible pas plus grand qu'un cube de 6 mètres d'arête. L'image apparaît en un point situé à portée et dans votre champ de vision et persiste pendant toute la durée du sort. Elle a l'air absolument réelle et s'accompagne des sons, des odeurs et de la température appropriés pour la chose qu'elle représente. En revanche, elle ne dégage pas assez de chaleur ou de froid pour blesser quelqu'un, ne génère pas de son assez puissant pour provoquer des dégâts de tonnerre pour qu'une créature soit <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#assourdi\"><em>assourdie</em></a>, et n'émet pas une odeur assez puissante pour écœurer une créature (comme le fait la puanteur du troglodyte).</p>\n<p>Tant que vous êtes à portée de l'illusion, vous pouvez utiliser votre action pour déplacer l'image vers un autre point situé à portée. Quand l'image bouge, vous pouvez modifier son apparence de manière à ce que ses mouvements paraissent naturels. Par exemple, si vous créez l'image d'une créature et la déplacez, vous pouvez modifier l'image pour donner l'impression que la créature marche. De même, vous pouvez modifier les sons que l'image émet, à tel point que vous pouvez lui faire tenir une conversation, par exemple.</p>\n<p>Les interactions physiques avec l'image révèlent qu'elle n'est qu'une illusion, car les objets la traversent. Si une créature utilise son action pour examiner l'image, elle comprend que c'est une illusion à condition de réussir un test d'Intelligence (Investigation) contre le DD du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de votre sort. Si une créature perce l'illusion à jour, elle voit à travers l'image et ne perçoit plus que faiblement ses autres propriétés sensorielles.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 6 ou supérieur, le sort persiste jusqu'à dissipation, sans que vous ayez besoin de vous concentrer.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 6,
+          "width": null,
+          "units": "ft",
+          "type": "cube",
+          "range": {
+            "value": "36",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 36,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Un morceau de toison",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.GohqQET08tPYFvmU"
+    },
+    {
+      "_id": "aXYuIZJVMs8t6J0k",
+      "name": "Suggestion",
+      "type": "spell",
+      "sort": 1300000,
+      "flags": {},
+      "img": "icons/magic/air/air-burst-spiral-pink.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous visez une créature située à portée et dans votre champ de vision et à même de vous entendre et de vous comprendre. Vous l'influencez par magie de façon à ce qu'elle suive la conduite que vous lui proposez (en seulement une phrase ou deux). Les créatures qui ne peuvent être <em>charmées</em> sont immunisées contre ce sort. Vous devez formuler votre suggestion de manière à ce que la conduite à tenir semble tout à fait raisonnable. Si vous demandez à une créature de se poignarder, de se laisser tomber sur une lance, de s'immoler ou d'accomplir n'importe quelle action à l'évidence néfaste, le sort se termine automatiquement.</p>\n<p>La cible doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse, sans quoi elle fait de son mieux pour suivre la conduite que vous lui avez suggérée et cela peut continuer pendant toute la durée du sort. Si l'action suggérée peut se finir plus rapidement, le sort se termine quand la cible a accompli ce que vous lui aviez demandé.</p>\n<p>Vous pouvez spécifier des conditions qui déclenchent une conduite spéciale pendant la durée du sort. Par exemple, vous pouvez suggérer à un chevalier de donner son cheval de guerre au premier mendiant qu'il rencontre. Si les conditions ne sont pas remplies avant la fin du sort, la cible n'accomplit pas l'action.</p>\n<p>Si vous (ou l'un de vos compagnons) blessez une créature affectée par ce sort, le sort se termine.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "9",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 18,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "Une langue de serpent et soit un rayon de miel, soit une goutte d'huile d'olive",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.aXYuIZJVMs8t6J0k"
+    },
+    {
+      "_id": "X1epQ6PCkxZjxZk1",
+      "name": "Changement de plan",
+      "type": "spell",
+      "sort": 1400000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous et un maximum de huit autres créatures consentantes vous donnez la main pour former un cercle, et êtes transportés sur un autre plan d'existence. Vous pouvez spécifier une destination en termes génériques, comme le nom d'une cité, d'une région ou d'un endroit spécifique dans l'un des plans. Vous apparaissez alors à cet endroit ou à proximité. C'est au MJ de décider l'endroit exact de votre arrivée.</p>\n<p>Sinon, si vous connaissez la séquence de glyphes magiques d'un cercle de téléportation présent sur un autre plan d'existence, ce sort peut vous conduire dans ce cercle. S'il est trop étroit pour accueillir toutes les créatures qui voyagent avec vous, les créatures en trop apparaissent dans les emplacements inoccupés les plus proches du cercle.</p>\n<p>Vous pouvez aussi utiliser ce sort pour bannir une créature non consentante sur un autre plan. Choisissez une créature à votre portée et faites une attaque de sort au corps-à-corps contre elle. Si vous touchez, elle doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Charisme ou être transporté en un endroit aléatoire du plan d'existence que vous nommez. Une fois à cet endroit, c'est à elle de trouver un moyen de rentrer sur son plan d'origine.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 8,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 7,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Un diapason de métal valant au moins 250 po, harmonisé avec un plan d'existence donné",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.X1epQ6PCkxZjxZk1"
+    },
+    {
+      "_id": "yQXWmFpcZSVarlbO",
+      "name": "Dominer un humanoïde",
+      "type": "spell",
+      "sort": 1500000,
+      "flags": {
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false
+        }
+      },
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous tentez d'envoûter un humanoïde situé à portée et dans votre champ de vision. Il doit réussir un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse, sans quoi il est <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#charmé\"><em>charmé</em></a> par vous pendant toute la durée du sort. Il dispose d'un <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors du <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> si vous ou des créatures amicales envers vous êtes en train de le combattre.</p>\n<p>Tant que l'humanoïde est <a href=\"https://5e-drs.fr//gerer-la-sante-du-personnage#charmé\"><em>charmé</em></a>, vous entretenez un lien télépathique avec lui qui persiste tant que vous vous trouvez sur le même plan d'existence. Vous pouvez utiliser ce lien télépathique pour donner des ordres à cette créature tant que vous êtes conscient (ce qui ne vous demande pas d'action). Elle fait de son mieux pour vous obéir. Vous pouvez lui donner un ordre simple et générique, comme «  <em>attaque cette créature</em>  », «  <em>cours jusque là-bas</em>  » ou «  <em>va chercher cet objet</em>  ». Si elle ne reçoit pas de nouvelle instruction de votre part une fois l'ordre exécuté, elle se contente de se défendre et de se préserver au mieux.</p>\n<p>Vous pouvez utiliser votre action pour prendre le contrôle total de votre cible et la diriger de façon précise. Jusqu'à la fin de votre prochain tour, elle exécute seulement les actions que vous choisissez et ne fait rien que vous ne lui ayez autorisé. Pendant cette période, vous pouvez aussi lui faire exécuter une réaction, mais vous devez pour cela également dépenser votre propre réaction.</p>\n<p>À chaque fois que la cible subit des dégâts, elle a droit à un nouveau <a href=\"https://5e-drs.fr//utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Sagesse contre le sort. Si elle le réussit, le sort prend fin.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 6, la durée devient « <em>concentration, jusqu'à 10 minutes</em> ». Si vous lancez ce sort en utilisant un emplacement de niveau 7, la durée devient « <em>concentration, jusqu'à 1 heure</em>  ». Si vous lancez ce sort en utilisant un emplacement de niveau 8, la durée devient « <em>concentration, jusqu'à 8 heures</em> ».</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "18",
+            "unit": "mètres"
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 18,
+          "scaling": "spell"
+        },
+        "level": 5,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "durée"
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.yQXWmFpcZSVarlbO"
+    },
+    {
+      "_id": "S50lv1vftTmyBRNF",
+      "name": "Vision suprême",
+      "type": "spell",
+      "sort": 1600000,
+      "flags": {},
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Grâce à ce sort, la créature consentante que vous touchez est capable de voir les choses telles qu'elles sont réellement. Pendant toute la durée du sort, la cible bénéficie de vision parfaite, repère les portes dérobées cachées par magie et voit le plan éthéré, tout cela dans un rayon de 36 mètres.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 6,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "Un collyre coûtant 25 po, fait de poudre de champignon, de safran et de graisse, que le sort consume",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.S50lv1vftTmyBRNF"
+    },
+    {
+      "_id": "rvNJUkWxL4r2u8gW",
+      "name": "Vol",
+      "type": "spell",
+      "sort": 1700000,
+      "flags": {},
+      "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Vous touchez une créature consentante et lui conférez la capacité de voler à une vitesse de 18 mètres pendant toute la durée du sort. Si la cible se trouve dans les airs quand le sort se termine, elle tombe, à moins de pouvoir arrêter sa chute.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 4 ou supérieur, vous pouvez viser une créature de plus par niveau au-delà du niveau 3.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des règles",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature",
+          "range": {
+            "value": "contact"
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "une rémige",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "spellType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "concentration": {
+          "value": null,
+          "_deprecated": true
+        },
+        "ritual": {
+          "value": null,
+          "_deprecated": true
+        },
+        "prepared": {
+          "value": null,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!NEz8FcMW34SJClZh.rvNJUkWxL4r2u8gW"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 4,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 5,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 5,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 5,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 5,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 5,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 5,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    },
+    "betterNpcSheet": {
+      "sheet": {
+        "height": 600,
+        "width": 600
+      }
+    }
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 15
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 16
+      },
+      "con": {
+        "value": 18,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "constitution",
+        "mod": 4,
+        "save": 4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 17
+      },
+      "int": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 14
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "wisdom",
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 16
+      },
+      "cha": {
+        "value": 20,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "charisme",
+        "mod": 5,
+        "save": 5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "natural",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 110,
+        "min": 0,
+        "max": 110,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "13d8+52"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 3,
+        "prof": 0,
+        "total": 3
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 12,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 18,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": "Perception passive 13"
+      },
+      "spellcasting": "cha",
+      "prof": 5,
+      "spelldc": 18,
+      "encumbrance": {
+        "value": 0,
+        "max": 105,
+        "pct": 0,
+        "encumbered": false
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"capacites\">Capacités</h2>\n<p><strong><em>Immunité limitée à la magie</em></strong>. Le rakshasa ne peut pas être affecté ou détecté par des sorts de niveau 6 ou moins, à moins qu'il ne le souhaite. Il obtient un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>avantage</em></a> lors des jets de sauvegarde contre tous les autres sorts et effets magiques.</p>\n<p><strong><em>Incantation innée</em></strong>. La caractéristique d'incantation du rakshasa est le Charisme (DD du <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> contre les sorts 18, +10 pour toucher avec des attaques de sort). Le rakshasa peut lancer les sorts suivants de manière innée sans aucune composante matérielle :</p>\n<ul>\n<li><strong><em>À volonté</em></strong> : <a href=\"https://5e-drs.fr/grimoire/deguisement\"><em>déguisement</em></a>, <a href=\"https://5e-drs.fr/grimoire/detection-des-pensees\"><em>détection des pensées</em></a>, <a href=\"https://5e-drs.fr/grimoire/illusion-mineure\"><em>illusion mineure</em></a>, <a href=\"https://5e-drs.fr/grimoire/main-du-mage\"><em>main du mage</em></a></li>\n<li><strong><em>3/jour chacun</em></strong> : <a href=\"https://5e-drs.fr/grimoire/charme-personne\"><em>charme-personne</em></a>, <a href=\"https://5e-drs.fr/grimoire/detection-de-la-magie\"><em>détection de la magie</em></a>, <a href=\"https://5e-drs.fr/grimoire/invisibilite\"><em>invisibilité</em></a>, <a href=\"https://5e-drs.fr/grimoire/image-majeure\"><em>image majeure</em></a>, <a href=\"https://5e-drs.fr/grimoire/suggestion\"><em>suggestion</em></a></li>\n<li><strong><em>1/jour chacun</em></strong> : <a href=\"https://5e-drs.fr/grimoire/changement-de-plan\"><em>changement de plan</em></a>, <a href=\"https://5e-drs.fr/grimoire/dominer-un-humanoide\"><em>dominer un humanoïde</em></a>, <a href=\"https://5e-drs.fr/grimoire/vision-supreme\"><em>vision suprême</em></a>, <a href=\"https://5e-drs.fr/grimoire/vol\"><em>vol</em></a></li>\n</ul>\n<hr>\n<h2 id=\"actions\">Actions</h2>\n<p><strong><em>Attaques multiples</em></strong>. Le rakshasa effectue deux attaques de griffe.</p>\n<p><strong><em>Griffe</em></strong>. <em>Attaque d'arme au corps à corps</em> : +7 pour toucher, allonge 1,50 m, une cible.<br><em>Touché</em> : 9 (2d6+2) dégâts tranchants et la cible est maudite si c'est une créature. La malédiction magique prend effet chaque fois que la cible prend un repos court ou long en envahissant ses pensées d'images horribles et de cauchemars. Le repos long ou court ne permet plus à la cible maudite de récupérer quoi que ce soit. La malédiction persiste tant qu'elle n'est pas levée par le sort <a href=\"https://5e-drs.fr/grimoire/lever-une-malediction\">lever une malédiction</a> ou une magie similaire.</p>",
+        "public": ""
+      },
+      "alignment": "Loyal Mauvais",
+      "race": "",
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 13,
+      "spellLevel": 13,
+      "xp": {
+        "value": 10000
+      },
+      "source": "Créatures & Oppositions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [],
+        "custom": "infligés par des attaques non-magiques"
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "piercing"
+        ],
+        "bypasses": [],
+        "custom": "infligés par des armes magiques maniées par des créatures Bonnes.  "
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "infernal"
+        ],
+        "custom": ""
+      },
+      "perception": {
+        "_deprecated": true,
+        "value": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 5,
+        "label": " ",
+        "bonus": 0,
+        "passive": 20,
+        "prof": 5,
+        "total": 10
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 18,
+        "prof": 5,
+        "total": 8
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 5,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 5,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 5,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 3
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 2
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 1
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 1
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Rakshasa",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923690352,
+    "modifiedTime": 1663923695342,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!NEz8FcMW34SJClZh"
+}

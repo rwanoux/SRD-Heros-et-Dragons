@@ -1,0 +1,100 @@
+{
+  "name": "Combat à la lance",
+  "type": "feat",
+  "img": "icons/weapons/polearms/spear-flared-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">À partir du niveau 3, lorsque vous maniez une lance, ses dégâts passent à 1d8, et ses dégâts polyvalents passent à 1d10.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Warlock Grimoire - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lancier du crépuscule",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1678360838729,
+    "modifiedTime": 1678424802221,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "v1gGk1CyjbbcLZor",
+  "_key": "!items!v1gGk1CyjbbcLZor"
+}

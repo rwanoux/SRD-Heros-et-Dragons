@@ -1,0 +1,108 @@
+{
+  "_id": "lv9KklSXrSI7mx2C",
+  "name": "[Guerrier] Champion",
+  "type": "subclass",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h2 id=\"champion\"><strong>Champion</strong></h2>\n<h3> </h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.roVyttmKfVbxbfLW]{Critique amélioré [Champion]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FSYJQI7xY1kugpPy]{Athlète remarquable [Champion]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.srIXFySix4xxjMAo]{Style de combat supplémentaire [Champion]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CCXDCzOvK1OYDWza]{Critique supérieur [Champion]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2IQx8fnaiOIxJWj0]{Survivant [Champion]}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "champion",
+    "classIdentifier": "guerrier",
+    "advancement": [
+      {
+        "_id": "ys3svikxo49dvw2e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.2IQx8fnaiOIxJWj0"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "u4p5t9raiqqr9jv5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CCXDCzOvK1OYDWza"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "hsybimhtrtsqt0wi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.srIXFySix4xxjMAo"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "nvyzq7r96kqpq9bn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FSYJQI7xY1kugpPy"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": ""
+      },
+      {
+        "_id": "u8zlk8suontuq7pa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.roVyttmKfVbxbfLW"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923703425,
+    "modifiedTime": 1663923703647,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!lv9KklSXrSI7mx2C"
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "r9iX8uXXbELR9eCd",
+  "name": "Plume magique : Ancre",
+  "type": "consumable",
+  "img": "icons/commodities/materials/feather-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">Ce petit bibelot ressemble à une plume. Il existe plusieurs types de plume, chacune produisant un effet différent à usage unique. C'est au MJ de décider du type ou de le déterminer au hasard.<br>\n<table>\n<tbody>\n<tr>\n<th class=\"center\">d100</th>\n<th>Plume magique</th>\n</tr>\n<tr>\n<td class=\"center\">01-20</td>\n<td>Ancre</td>\n</tr>\n<tr>\n<td class=\"center\">21-35</td>\n<td>Oiseau</td>\n</tr>\n<tr>\n<td class=\"center\">36-50</td>\n<td>Éventail</td>\n</tr>\n<tr>\n<td class=\"center\">51-65</td>\n<td>Bateau cygne</td>\n</tr>\n<tr>\n<td class=\"center\">66-90</td>\n<td>Arbre</td>\n</tr>\n<tr>\n<td class=\"center\">91-00</td>\n<td>Fouet</td>\n</tr>\n</tbody>\n</table>\n<br><strong>Ancre</strong>. Vous pouvez utiliser une action pour mettre le bibelot en contact avec un bateau. Pendant les 24 heures qui suivent, il est impossible de déplacer ce navire, par quelque moyen que ce soit. Il suffit de mettre de nouveau le bibelot en contact avec le bateau pour mettre un terme à l'effet. Le bibelot disparaît dès que l'effet se termine.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 24,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": false,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701426,
+    "modifiedTime": 1663923703120,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!r9iX8uXXbELR9eCd"
+}

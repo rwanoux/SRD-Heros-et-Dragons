@@ -1,0 +1,84 @@
+{
+  "name": "Corps et âme",
+  "type": "feat",
+  "img": "icons/magic/control/energy-stream-link-spiral-white.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "PoHgF9baygBd7ljY",
+  "system": {
+    "description": {
+      "value": "<p>Vous connaissez les tours de magie @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.78eTj8Dwc6Z1HRUS]{Bouffée de poison} et @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.PU9BgKG9Yqk1rj98]{Illusion mineure}.</p>\n<p>Vous pouvez les lancer chacun un nombre de fois égal à votre bonus de maîtrise entre deux repos longs. Pour pouvoir lancer de nouveau ces sorts, vous devez avoir pris un repos long.</p>\n<p>Votre caractéristique d'incantation pour lancer ces sorts est le Charisme. Si vous choisissez une classe de lanceur de sorts incluant l'un de ces tours de magie (ou les deux) dans sa liste, ils intègrent votre liste de sorts et ne comptent pas dans le nombre maximal de tours de magie que vous pouvez connaître. La caractéristique d'incantation de ces sorts devient alors celle de votre classe.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Tieffelin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698186,
+    "modifiedTime": 1663923698456,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!PoHgF9baygBd7ljY"
+}

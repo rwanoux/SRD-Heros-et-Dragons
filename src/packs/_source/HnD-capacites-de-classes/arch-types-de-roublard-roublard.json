@@ -1,0 +1,118 @@
+{
+  "_id": "hAmjmH0B7s2vqdKd",
+  "name": "Archétypes de Roublard [Roublard]",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"archetype-de-roublard\"><strong>Archétype de roublard</strong></h3>\n<p>Au niveau 3, vous choisissez un <a href=\"https://5e-drs.fr/classes/roublard/#archetypes-de-roublard\">archétype</a> auquel vous vous efforcer d'adhérer :</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.nE9MjEaAh4wx8c75]{[Roublard] Brute}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.GglWXuuzty7cL1Bt]{[Roublard] Espion}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.BRgoTBeEiLFke9Th]{[Roublard] Kalanthe}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.JkfWfPIduYL5sXNU]{[Roublard] Mistheos}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.GlXheWdGISIYgblX]{[Roublard] Ombrelame}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.MWBv1BVcP8Z7ZaKN]{[Roublard] Voleur}</li>\n</ul>\n<p> Votre choix vous permet d'accéder à certaines aptitudes particulières aux niveaux 3, 9, 13 et 17.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685568,
+    "modifiedTime": 1678414398745,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!hAmjmH0B7s2vqdKd"
+}

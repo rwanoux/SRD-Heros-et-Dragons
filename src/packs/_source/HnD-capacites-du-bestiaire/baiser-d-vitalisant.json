@@ -1,0 +1,89 @@
+{
+  "name": "Baiser Dévitalisant",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/commodities/currency/coin-engraved-sun-smile-copper.webp",
+  "_id": "0nBICSCNeZ2LpV8H",
+  "system": {
+    "description": {
+      "value": "<p><strong>Baiser dévitalisant. </strong>La créature embrasse une cible consentante ou qu'elle a préalablement charmée. La cible doit effectuer un jet de sauvegarde de Constitution contre cette magie. Elle subit des dégâts psychiques en cas de jet de sauvegarde raté ou la moitié de ces dégâts seulement en cas de réussite. Le total maximum de points de vie de la cible est réduit d'un montant égal aux dégâts subis. Cette réduction persiste jusqu'au moment où la cible termine une période de repos long. La cible meurt si cet effet réduit à 0 son total maximum de points de vie.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          "psychic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698725,
+    "modifiedTime": 1663923699185,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!0nBICSCNeZ2LpV8H"
+}

@@ -1,0 +1,141 @@
+{
+  "_id": "nMz2W7iB8PfAnWFp",
+  "name": "Chauffer le métal",
+  "type": "spell",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choisissez un objet manufacturé en métal, comme une arme métallique ou une armure métallique lourde ou intermédiaire. Il doit être situé à portée et dans votre champ de vision et se met alors à luire d'un rouge incandescent. Une créature en contact physique avec l'objet reçoit 2d8 dégâts de feu lorsque vous lancez le sort. Vous pouvez utiliser une action bonus à chacun de vos tours suivants jusqu'à la fin du sort pour infliger de nouveau ces dégâts.</p>\n<p>Si une créature tient l'objet qui lui inflige des dégâts ou le porte sur elle, elle doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution, sans quoi elle le lâche, si elle le peut. Si elle le conserve, elle est affectée par un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors des jets d'attaque et des tests de caractéristique jusqu'au début de votre prochain tour.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 3 ou supérieur, les dégâts augmentent de 1d8 par niveau au-delà du niveau 2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object",
+      "range": {
+        "value": "18",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "msak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "Un bout de fer et une flamme",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688189,
+    "modifiedTime": 1663923689382,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!nMz2W7iB8PfAnWFp"
+}

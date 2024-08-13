@@ -1,0 +1,84 @@
+{
+  "name": "Liste Magicien niv 8",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "effects": [],
+  "_id": "wDNlhdZXAQXqgJLW",
+  "system": {
+    "description": {
+      "value": "<h3><strong>Liste de sort de Magicien niveau 8</strong></h3>\n<p>&nbsp;</p>\n<ul>\n<li>Abjuration\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Go8EkMF6C7If20FA]{Champ antimagie}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.fCwsdkqlhKxohtaS]{Esprit imp&eacute;n&eacute;trable}</li>\n</ul>\n</li>\n<li>Enchantement\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.rcyLqBx5jQ9iBnHG]{Dominer un monstre}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.yrjPHajHoyj1KrS3]{Esprit faible}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.KLDM7ygvrPYwxydO]{Mot de pouvoir &eacute;tourdissant}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.qK0pDY9EkoWNfooQ]{R&eacute;pulsion/attirance}</li>\n</ul>\n</li>\n<li>&Eacute;vocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.63em3ksq9VSaYmuS]{&Eacute;clat du soleil}</li>\n</ul>\n</li>\n<li>Invocation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jgZGWDTr9IjklxBj]{Demi-plan}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.I53q101fWj8gPb5O]{Labyrinthe}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.ZT727xaMZnzSzG3P]{Nuage incendiaire}</li>\n</ul>\n</li>\n<li>N&eacute;cromancie\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.pNu5lszzs9A9o8BB]{Clone}</li>\n</ul>\n</li>\n<li>&nbsp;Transmutation\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.5bqfvWLemOhZtNvi]{Contr&ocirc;le du climat}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.e8rjI0HlcEUPilgm]{Excavation}</li>\n</ul>\n</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923688226,
+    "modifiedTime": 1663923689516,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!wDNlhdZXAQXqgJLW"
+}

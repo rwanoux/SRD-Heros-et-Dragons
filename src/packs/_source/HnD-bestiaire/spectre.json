@@ -1,0 +1,1407 @@
+{
+  "_id": "nV8RcStUM81IYVcN",
+  "name": "Spectre",
+  "type": "npc",
+  "img": "systems/dnd5e/tokens/undead/Specter.webp",
+  "items": [
+    {
+      "_id": "FJaH9qzL4QdiaSE5",
+      "name": "Absorption de Vie",
+      "type": "feat",
+      "sort": 200001,
+      "flags": {},
+      "img": "icons/magic/life/heart-glowing-red.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Absorption de vie.</strong>&nbsp;Attaque d'arme au corps à corps&nbsp;: +4 pour toucher, allonge 1,50 m, une créature.</p>\n<p>Touché&nbsp;: 10 (3d6) dégâts nécrotiques. La cible doit réussir un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a>&nbsp;de Constitution DD 10 pour ne pas voir son total maximum de points de vie réduit d'un montant égal aux dégâts subis. Cette réduction persiste jusqu'au moment où la créature termine une période de repos long. La cible meurt si cet effet réduit à 0 son total maximum de points de vie.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "any",
+          "type": ""
+        },
+        "range": {
+          "value": 1.5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 10,
+          "scaling": "flat"
+        },
+        "requirements": "Spectre",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!nV8RcStUM81IYVcN.FJaH9qzL4QdiaSE5"
+    },
+    {
+      "_id": "Uxb7yewny3OZ36dm",
+      "name": "Déplacement Intangible",
+      "type": "feat",
+      "sort": 300001,
+      "flags": {},
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Déplacement intangible.</strong>&nbsp;Le spectre peut traverser créatures et objets en les considérant comme un terrain difficile. Il subit 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "1d10",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Spectre",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!nV8RcStUM81IYVcN.Uxb7yewny3OZ36dm"
+    },
+    {
+      "_id": "MtUcz22B3yvNzpR0",
+      "name": "Sensibilité à la lumière du soleil",
+      "type": "feat",
+      "sort": 400001,
+      "flags": {
+        "obsidian": {
+          "source": {
+            "type": "other"
+          },
+          "effects": [],
+          "version": 7
+        }
+      },
+      "img": "icons/magic/time/day-night-sunset-sunrise.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Sensibilité à la lumière du soleil.</strong> Le spectre subit un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">désavantage</a> lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Spectre",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!nV8RcStUM81IYVcN.MtUcz22B3yvNzpR0"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": -5,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": -5,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    },
+    "betterNpcSheet": {
+      "sheet": {
+        "height": 600,
+        "width": 600
+      }
+    }
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": -5,
+        "save": -5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 5
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 12
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "constitution",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "wisdom",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "charisme",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 22,
+        "min": 0,
+        "max": 22,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "5d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 15,
+        "swim": 0,
+        "walk": 0,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 18,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": "Perception passive 10"
+      },
+      "spellcasting": "int",
+      "prof": 2,
+      "spelldc": 10,
+      "encumbrance": {
+        "value": 0,
+        "max": 7.5,
+        "pct": 0,
+        "encumbered": false
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"capacites\">Capacités</h2>\n<p><strong><em>Déplacement intangible</em></strong>. Le spectre peut traverser créatures et objets en les considérant comme un terrain difficile. Il subit 5 (1d10) dégâts de force s'il termine son tour à l'intérieur d'un objet.</p>\n<p><strong><em>Sensibilité à la lumière du soleil</em></strong>. Le spectre subit un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#avantage-et-désavantage\"><em>désavantage</em></a> lors des jets d'attaque et des tests de Sagesse (Perception) basés sur la vue lorsqu'il est exposé à la lumière du soleil.</p>\n<hr>\n<h2 id=\"actions\">Actions</h2>\n<p><strong><em>Absorption de vie</em></strong>. <em>Attaque d'arme au corps à corps</em> : +4 pour toucher, allonge 1,50 m, une créature.<br><em>Touché</em> : 10 (3d6) dégâts nécrotiques. La cible doit réussir un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Constitution DD 10 pour ne pas voir son total maximum de points de vie réduit d'un montant égal aux dégâts subis. Cette réduction persiste jusqu'au moment où la créature termine une période de repos long. La cible meurt si cet effet réduit à 0 son total maximum de points de vie.</p>",
+        "public": ""
+      },
+      "alignment": "Chaotique Mauvais",
+      "race": "",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 1,
+      "xp": {
+        "value": 200
+      },
+      "source": "Créatures & Oppositions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "necrotic",
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "acid",
+          "bludgeoning",
+          "fire",
+          "lightning",
+          "cold",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [],
+        "custom": "Infligés par des attaques non-magiques"
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "prone",
+          "charmed",
+          "grappled",
+          "poisoned",
+          "restrained",
+          "exhaustion",
+          "unconscious",
+          "paralyzed",
+          "petrified"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "comprend toutes les langues qu'il connaissait de son vivant mais ne peut pas parler"
+      },
+      "perception": {
+        "_deprecated": true,
+        "value": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": -5,
+        "label": " ",
+        "bonus": 0,
+        "passive": 5,
+        "prof": 0,
+        "total": -5
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 2
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Spectre",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "systems/dnd5e/tokens/undead/Specter.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923690940,
+    "modifiedTime": 1663923690940,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!nV8RcStUM81IYVcN"
+}

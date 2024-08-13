@@ -1,0 +1,48 @@
+{
+  "_id": "BFg3caSWQp7oBF2q",
+  "name": "Manouvrier",
+  "type": "background",
+  "img": "icons/environment/settlement/stone-stairs.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<h3 id=\"aptitude-communaute\">Aptitude : @UUID[Compendium.srd-heros-et-dragons.HnD-aptitudes-historiques.5ElInC5cIXmhLcAL]{communauté (manouvrier)}</h3>\n<p> </p>\n<p><strong>Compétences :</strong> Athlétisme, Escamotage.<br /><strong>Outils maîtrisés :</strong> Un type de jeu au choix, un ensemble d'outils au choix parmi : outils de charpentier, outils de cordonnier, outils de tanneur, outils de maçon, matériel de peintre, outils de potier, outils de forgeron, outils de menuisier.<br /><strong>Équipement :</strong> </p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Otx50NNmnAnSmeCO]{Habits courants}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Btwo7jh9xQwmsu3W]{Outre} de vin</li>\n<li>ensemble d'outils dépendant de son métier</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.VvKXcitAwfh5s2Rx]{Pot en fer}</li>\n<li>lettres de recommandation d'anciens employeurs</li>\n<li>Bourse contenant 10 po.</li>\n</ul>\n<h2 id=\"signe-du-destin\">Signe du destin</h2>\n<p>Un événement est survenu dans votre vie, qui a radicalement altéré votre destin. Choisissez ou déterminez aléatoirement ce signe parmi les événements suivants. Précisez ensuite avec votre MJ les détails correspondant.</p>\n<table style=\"width:392.222px\">\n<thead>\n<tr>\n<th>D6</th>\n<th>Signe du destin</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Vous êtes persuadé d'avoir été choisi par l'une des divinités du panthéon afin d'être le récipiendaire d'une vision prophétique.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Vous avez été enrôlé de force dans une armée, et y avez fait la preuve de vos capacités.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Votre communauté a subi une épidémie ou une invasion, que vous avez aidé à combattre.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Vous avez participé à une révolte paysanne, et vous vous êtes retrouvé propulsé parmi les meneurs du soulèvement.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Vous êtes parvenu à sauver des villageois d'une mort certaine en bravant les éléments.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Vous avez trouvé une arme ou un symbole qui vous a mené sur votre nouvelle voie.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"aptitude-communaute\"></h3>\n<h2 id=\"personnalites-suggerees\">Personnalités suggérées</h2>\n<table style=\"width:392.222px\">\n<thead>\n<tr>\n<th>D8</th>\n<th>Trait de personnalité</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Je ne supporte pas le travail bâclé ou inachevé.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Je ne refuse jamais d'apporter mon aide lorsqu'on me la demande.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Je n'aime pas perdre de temps en vaines réflexions.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Je méprise ouvertement ceux qui ne savent pas se salir les mains.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Je ris fort, et souvent. La vie est trop courte pour ne pas rire de tout.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Je n'ai jamais été à l'aise avec les mots.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Je m'emporte facilement, et je pardonne encore plus facilement.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Je m'arrange toujours pour travailler moins que les autres.</td>\n</tr>\n</tbody>\n</table>\n<table style=\"width:392.222px\">\n<thead>\n<tr>\n<th>D6</th>\n<th>Idéal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Entraide. Les patrons divisent pour mieux régner. Les travailleurs doivent se serrer les coudes et présenter un front uni pour se défendre. (Loyal)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Honnêteté. Travailler pour gagner sa vie vaut mieux que de voler ou profiter. (Neutre)</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Revanche. Je compte bien faire payer à tous les chefs de chantier, les officiers et les puissants l'injustice de ma situation passée. (Mauvais)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Responsabilité. Des gens comptent sur mon travail pour vivre et je dois penser à eux avant tout. (Bon)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Indépendance. Le travail devrait être un moyen de gagner sa liberté. (Chaotique)</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Ambition. Les événements m'ont prouvé que je valais mieux que ce que je pensais. (Tous)</td>\n</tr>\n</tbody>\n</table>\n<table style=\"width:392.222px\">\n<thead>\n<tr>\n<th>D6</th>\n<th>Lien</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Un ancien collègue a subi un grave accident en me sauvant d'une mort certaine, et je fais mon possible pour subvenir à ses besoins.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>J'ai une famille et des bouches à nourrir, même si elles sont loin de moi.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>J'ai juré de me venger d'un chef de chantier particulièrement cruel.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>J'ai participé à une bagarre générale qui a causé de gros dégâts, et je dois depuis de l'argent au patron de la taverne.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>J'ai été déclaré hérétique par les prêtres d'un temple qui n'étaient pas satisfaits de mes services.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Brièvement engagé de force dans une armée, j'ai déserté et suis depuis recherché.</td>\n</tr>\n</tbody>\n</table>\n<table style=\"width:392.222px\">\n<thead>\n<tr>\n<th>D6</th>\n<th>Défaut</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>J'ai pris goût au jeu, et notamment au jeu d'argent, pour meubler les journées sans travail.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Je ne termine jamais une journée sans une ou plusieurs bonnes pintes.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>J'ai aisément recours à la violence lorsque les choses ne se passent pas comme je l'espère.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Je me plains des agissements des chefs de chantier et des puissants, mais je serais sans doute pire encore si j'étais à leur place.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Je suis extrêmement crédule, pour peu qu'on me témoigne du respect.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Je ne supporte pas de rester enfermé.</td>\n</tr>\n</tbody>\n</table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "advancement": [
+      {
+        "_id": "ar8mwcefdkbu1ka4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.srd-heros-et-dragons.HnD-aptitudes-historiques.5ElInC5cIXmhLcAL",
+            "Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Otx50NNmnAnSmeCO",
+            "Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.Btwo7jh9xQwmsu3W",
+            "Compendium.srd-heros-et-dragons.HnD-équipement-aventurier.VvKXcitAwfh5s2Rx"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "classIdentifier": ""
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700414,
+    "modifiedTime": 1663923700414,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!BFg3caSWQp7oBF2q"
+}

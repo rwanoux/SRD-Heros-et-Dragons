@@ -1,0 +1,113 @@
+{
+  "_id": "JNrsJmz6LAWwXIUs",
+  "name": "Amulette",
+  "type": "equipment",
+  "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "subtype": "gear",
+      "magical": false,
+      "effects": [],
+      "version": 7,
+      "addDex": true
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Symole Sacré.</strong> Cela peut être une amulette avec un symbole représentant une divinité, ce même symbole gravé ou incrusté tel un emblème sur un bouclier, ou une toute petite boîte renfermant le fragment d'une relique sacrée. Un clerc ou paladin peut utiliser un symbole sacré comme focaliseur magique. Pour utiliser le symbole de cette manière, le lanceur doit le porter visiblement, en main ou sur un bouclier.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 5,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "Afin de l'utiliser ainsi, le symbole sacré doit être tenu en main par le lanceur de sorts et être visible, ou se trouver sur son bouclier.  Tente"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "trinket",
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700587,
+    "modifiedTime": 1663923700587,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!JNrsJmz6LAWwXIUs"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Fantasmagories",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description"
+  },
+  "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+  "_id": "INnUhb6cI8qVTg06",
+  "system": {
+    "description": {
+      "value": "<p><strong>Fantasmagories.</strong> La créature crée par magie trois répliques illusoires d'elle-même s'il n'est pas dans une zone vivement éclairée. Les répliques se déplacent avec elle et reproduisent ses actions en changeant de position pour qu'il soit impossible de savoir quelle est la vraie créature. Les répliques disparaissent dès que la créature se retrouve dans une zone vivement éclairée. Chaque fois qu'un adversaire cible la créature avec une attaque ou un sort offensif alors qu'il reste encore une réplique au moins, il lance un dé pour déterminer s'il cible la créature ou une réplique. N'est pas affectée par cet effet magique les êtres incapables de voir ou disposant de sens particuliers ne reposant pas sur la vue. Une réplique possède la CA de la créature et utilise ses jets de sauvegarde. Elle disparaît si on réussit une attaque contre elle ou si elle rate un jet de sauvegarde contre un effet qui lui inflige des dégâts.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698790,
+    "modifiedTime": 1663923699468,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!INnUhb6cI8qVTg06"
+}

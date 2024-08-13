@@ -1,0 +1,140 @@
+{
+  "_id": "53DyB3eKGneRfxf7",
+  "name": "Tempête de grêle",
+  "type": "spell",
+  "flags": {},
+  "img": "icons/magic/water/projectile-ice-teardrops-salvo.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des grêlons durs comme de la pierre s'abattent dans un cylindre de 6 mètres de rayon pour 12 mètres de haut, centré sur un point de votre choix à portée. Chaque créature présente dans le cylindre doit effectuer un <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques#jets-de-sauvegarde\">jet de sauvegarde</a> de Dextérité. Celles qui échouent subissent 2d8 dégâts contondants et 4d6 dégâts de froid tandis que les autres en subissent la moitié seulement.</p>\n<p>Les grêlons transforment la zone en terrain difficile jusqu'à la fin de votre prochain tour.</p>\n<p><strong>À plus haut niveau</strong>. Si vous lancez ce sort en utilisant un emplacement de niveau 5 ou supérieur, les dégâts contondants augmentent de 1d8 par niveau au-delà du niveau 4.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 6,
+      "width": null,
+      "units": "m",
+      "type": "cylinder",
+      "range": {
+        "value": "90",
+        "unit": "mètres"
+      }
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d8",
+          "bludgeoning"
+        ],
+        [
+          "4d6",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "evo",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "Une pincée de poussière et quelques gouttes d'eau",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    },
+    "spellType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "concentration": {
+      "value": null,
+      "_deprecated": true
+    },
+    "ritual": {
+      "value": null,
+      "_deprecated": true
+    },
+    "prepared": {
+      "value": null,
+      "_deprecated": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923687937,
+    "modifiedTime": 1663923688542,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!53DyB3eKGneRfxf7"
+}

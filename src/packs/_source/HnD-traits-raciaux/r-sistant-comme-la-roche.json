@@ -1,0 +1,84 @@
+{
+  "name": "Résistant comme la roche",
+  "type": "feat",
+  "img": "icons/equipment/shield/round-wooden-axe-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "ChmKA7vPKCmCqo8r",
+  "system": {
+    "description": {
+      "value": "<p>Vous êtes résistant aux dégâts contondants et aux dégâts d'acide.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Elfe des Roches",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698169,
+    "modifiedTime": 1663923698393,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ChmKA7vPKCmCqo8r"
+}

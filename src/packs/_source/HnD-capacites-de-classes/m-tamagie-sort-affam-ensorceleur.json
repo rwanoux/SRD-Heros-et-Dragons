@@ -1,0 +1,89 @@
+{
+  "name": "Métamagie - Sort affamé [Ensorceleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/light/projectile-beams-salvo-white.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"sort-distant\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"><span style=\"font-family:Friz, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text\">Sort affamé</strong></span></h3><p style=\"box-sizing:border-box;user-select:text;text-align:justify\">Quand vous lancez un sort qui inflige des dégâts à une cible unique, vous pouvez dépenser 1 point de sorcellerie pour ajouter votre modificateur de Charisme au jet de dégâts du sort. </p><p style=\"box-sizing:border-box;user-select:text;text-align:justify\">Si vous réduisez une créature à 0 point de vie avec un sort affamé, vous regagnez un nombre de points de vie égal à votre modificateur de Charisme (minimum de 1).</p><h3 id=\"invocation-prudente\" style=\"box-sizing:border-box;user-select:text;color:#2e1f49;font-family:Friz, sans-serif;font-size:13px\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Tome of Heroes - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ensorceleur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685208,
+    "modifiedTime": 1680511797565,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "sFFa2XmicDYluenl",
+  "_key": "!items!sFFa2XmicDYluenl"
+}

@@ -1,0 +1,167 @@
+{
+  "_id": "ESsmMkJi2FYMuVXG",
+  "name": "Arc long",
+  "type": "weapon",
+  "img": "icons/weapons/bows/longbow-leather-green.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "ranged",
+      "mode": "melee",
+      "tags": {
+        "heavy": true,
+        "twohanded": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "d1e08f62-fe55-4e25-8494-c2ff82c15cc3",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "af879ebf-69eb-4850-abc7-0bc2693586eb",
+              "attack": "ranged",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "bf73ba41-d0e2-44de-896d-b71455201b01",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 8,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "prc",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un épais morceau de bois lamellé est courbé par une corde tendue capable de lancer des flèches mortelles à longue distance.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 1,
+    "price": 50,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 45,
+      "long": 180,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "baseItem": "longbow",
+    "properties": {
+      "amm": true,
+      "hvy": true,
+      "two": true,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700571,
+    "modifiedTime": 1663923700571,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ESsmMkJi2FYMuVXG"
+}

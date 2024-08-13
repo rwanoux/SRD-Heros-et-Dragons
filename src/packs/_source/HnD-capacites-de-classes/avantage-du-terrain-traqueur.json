@@ -1,0 +1,89 @@
+{
+  "_id": "rimFulmr3u6HBCdW",
+  "name": "Avantage du terrain [Traqueur]",
+  "type": "feat",
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    }
+  },
+  "img": "icons/magic/earth/volcano-explosion-lava-yellow.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"avantage-du-terrain\"><strong>Avantage du terrain</strong></h3>\n<p>Au niveau 7 et par la suite, lorsque vous &ecirc;tes sur un terrain de pr&eacute;dilection, vous obtenez les b&eacute;n&eacute;fices suppl&eacute;mentaires suivants :</p>\n<ul>\n<li>Votre groupe ne peut plus &ecirc;tre&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#surpris\">surpris</a>&nbsp;(sauf si vous en d&eacute;cidez autrement).</li>\n<li>Vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a>&nbsp;en initiative.</li>\n<li>Vous obtenez un&nbsp;<a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#avantage-et-desavantage\">avantage</a> &agrave; tous vos tests de Force (Athl&eacute;tisme) et de Dext&eacute;rit&eacute; (Discr&eacute;tion).</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Rôdeur",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685647,
+    "modifiedTime": 1663923687574,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!rimFulmr3u6HBCdW"
+}

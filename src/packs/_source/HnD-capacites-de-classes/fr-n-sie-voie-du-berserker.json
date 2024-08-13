@@ -1,0 +1,106 @@
+{
+  "_id": "yJDgYCU2WriZpZlw",
+  "name": "Frénésie [Voie du Berserker]",
+  "type": "feat",
+  "flags": {
+    "entityorder": {
+      "order": 136
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "icons/skills/wounds/anatomy-organ-heart-red.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"frenesie\"><strong>Fr&eacute;n&eacute;sie</strong></h3>\n<p>Quand vous choisissez cette voie au niveau 3, vous avez la possibilit&eacute; de devenir fr&eacute;n&eacute;tique pendant que vous &ecirc;tes sous le coup de la rage.</p>\n<p>Si vous devenez fr&eacute;n&eacute;tique, pendant la dur&eacute;e de votre rage, vous pouvez porter une unique attaque suppl&eacute;mentaire avec une arme de corps-&agrave;-corps en action bonus &agrave; la fin de chacun des tours suivant celui pendant lequel vous &ecirc;tes devenu fr&eacute;n&eacute;tique.</p>\n<p>Quand votre rage prend fin, vous gagnez un niveau d'&eacute;puisement. Voir le chapitre&nbsp;<a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/\">G&eacute;rer la sant&eacute; du personnage</a> pour plus d'information sur les r&egrave;gles de fatigue.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbare",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685700,
+    "modifiedTime": 1678419832583,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!yJDgYCU2WriZpZlw"
+}

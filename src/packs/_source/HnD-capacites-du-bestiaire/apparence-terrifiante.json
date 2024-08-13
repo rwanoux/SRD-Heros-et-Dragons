@@ -1,0 +1,149 @@
+{
+  "name": "Apparence Terrifiante",
+  "type": "feat",
+  "flags": {
+    "_sheetTab": "description",
+    "obsidian": {
+      "source": {
+        "type": "other"
+      },
+      "effects": [
+        {
+          "name": "",
+          "uuid": "ab99da61-8e37-459f-ab38-ef6577d07899",
+          "components": [
+            {
+              "type": "save",
+              "uuid": "d88848a9-9c4a-4295-828a-613756caff40",
+              "calc": "fixed",
+              "fixed": 11,
+              "bonus": 0,
+              "prof": 1,
+              "ability": "",
+              "target": "wis",
+              "effect": "",
+              "save": "half"
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "img": "icons/creatures/unholy/demon-winged-cyclops-drooling.webp",
+  "_id": "P37JEs151TBI0Hrt",
+  "system": {
+    "description": {
+      "value": "<p><strong>Apparence terrifiante. </strong>Les humanoïdes qui commencent leur tour à 9 mètres ou moins de la créature et qui peuvent voir sa véritable apparence doivent chacune effectuer un jet de sauvegarde de Sagesse DD 11. En cas de jet de sauvegarde raté, la cible est terrorisée pendant 1 minute. Une cible peut retenter le jet de sauvegarde à la fin de chacun de ses tours (elle subit un désavantage si la créature se trouve encore dans son champ de vision) et mettre fin à l'effet dont elle est victime en cas de réussite. Si son jet de sauvegarde est réussi ou si l'effet dont elle est victime prend fin, la créature est immunisée contre l'apparence terrifiante de la créature pendant 24 heures. À moins que la cible ne soit surprise ou que l'apparence terrifiante de la créature ne lui soit brusquement révélée, la cible peut détourner</p>\n<p>le regard et éviter de faire le jet de sauvegarde initial. Jusqu'au début de son prochain tour, une cible qui détourne le regard subit un désavantage lors des jets d'attaque contre la créature. : Guenaude</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "lair",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 9,
+      "width": null,
+      "units": "m",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": "",
+      "type": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": 11,
+      "scaling": "flat",
+      "value": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "time": {
+      "value": "",
+      "_deprecated": true
+    },
+    "damageType": {
+      "value": "",
+      "_deprecated": true
+    },
+    "properties": {
+      "value": "",
+      "amm": null,
+      "fin": null,
+      "fir": null,
+      "foc": null,
+      "hvy": null,
+      "lgt": null,
+      "lod": null,
+      "rch": null,
+      "rel": null,
+      "ret": null,
+      "spc": null,
+      "thr": null,
+      "two": null,
+      "ver": null
+    },
+    "featType": {
+      "value": "",
+      "_deprecated": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698820,
+    "modifiedTime": 1663923699599,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!P37JEs151TBI0Hrt"
+}

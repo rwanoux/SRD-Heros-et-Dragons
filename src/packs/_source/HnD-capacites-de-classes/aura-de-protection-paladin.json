@@ -1,0 +1,121 @@
+{
+  "_id": "9JDOggMrjpefyfrY",
+  "name": "Aura de Protection [Paladin]",
+  "type": "feat",
+  "img": "icons/skills/targeting/target-glowing-yellow.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "context": ""
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3 id=\"aura-de-protection\">Aura de protection</h3>\n<p>À partir du niveau 6, quand vous ou une créature amicale qui se trouve dans un rayon de 3 mètres doit faire un jet de sauvegarde, cette créature gagne un bonus à son <a href=\"https://5e-drs.fr/utiliser-les-caracteristiques/#jets-de-sauvegarde\">jet de sauvegarde</a> égal à votre modificateur de Charisme (avec un bonus minimum de +1). Vous ne devez pas être <a href=\"https://5e-drs.fr/gerer-la-sante-du-personnage/#inconscient\">inconscient</a> pour que ce bonus soit pris en compte.</p>\n<p>Au niveau 18, le rayon de cette aura atteint 9 mètres.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685215,
+    "modifiedTime": 1678413088639,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!9JDOggMrjpefyfrY"
+}

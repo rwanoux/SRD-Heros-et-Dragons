@@ -1,0 +1,84 @@
+{
+  "_id": "pMI5AeWYoQQH1hjR",
+  "name": "Invocations occultes - Buveuse de vie [Sorcier]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"buveuse-de-vie\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"><strong>Buveuse de vie</strong></h3>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><em><strong>Pr&eacute;requis&nbsp;</strong>: niveau 12, pacte de la lame</em></p>\n<p style=\"box-sizing: border-box; user-select: text; font-size: 13px;\"><br style=\"box-sizing: border-box; user-select: text;\" />Quand vous frappez une cr&eacute;ature avec votre arme de pacte, votre cible subit une quantit&eacute; de d&eacute;g&acirc;ts n&eacute;crotiques suppl&eacute;mentaires &eacute;gale &agrave; votre modificateur de Charisme (avec un minimum de 1).</p>\n<h3 id=\"armure-des-ombres\" style=\"box-sizing: border-box; user-select: text; color: #2e1f49; font-family: Friz, sans-serif;\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Sorcier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685635,
+    "modifiedTime": 1663923687523,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!pMI5AeWYoQQH1hjR"
+}

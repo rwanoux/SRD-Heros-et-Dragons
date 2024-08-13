@@ -1,0 +1,84 @@
+{
+  "_id": "OOmZNOwtKrX0WtWw",
+  "name": "Cercle de la Terre- Forêt [Druide]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/nature/root-vine-thorned-coil-green.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"tonnerre-tempete\"><strong>For&ecirc;t</strong></h3>\n<p>&nbsp;</p>\n<p><strong>Tour de magie Bonus :&nbsp;<br /></strong>Quand vous choisissez ce cercle au niveau 2, vous pouvez apprendre un tour de magie de Druide suppl&eacute;mentaire de votre choix</p>\n<p>&nbsp;</p>\n<p><strong>Niveau 2 :</strong>&nbsp;@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YrRVAnsAw20XAm3i]{R&eacute;cup&eacute;ration naturelle [Cercle de la Terre]}</p>\n<p><strong>Niveau 6 :&nbsp;</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wn0sYsBRMmgfoqs5]{Travers&eacute;e des terrains [Cercle de la Terre]}</p>\n<p><strong>Niveau 10 :</strong>&nbsp;@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.fL0zYqsCeLlmKWqj]{Enfant de la nature [Cercle de la Terre]}</p>\n<p><strong>Niveau 14 :&nbsp;</strong>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.genLZykjKNTd58r0]{Sanctuaire de la nature [Cercle de la Terre]}</p>\n<p>&nbsp;</p>\n<p><strong>Sorts de Cercle :<br /></strong>Une fois que vous avez appris un sort de cercle, il est toujours consid&eacute;r&eacute; comme pr&eacute;par&eacute; et il n'est pas comptabilis&eacute; dans le nombre de sorts que vous pouvez pr&eacute;parer chaque jour. Si vous apprenez un sort qui n'appara&icirc;t pas dans la liste de sorts de druide, consid&eacute;rez-le quand m&ecirc;me comme un sort de druide.</p>\n<table style=\"width: 381px; height: 96px;\">\n<thead>\n<tr style=\"height: 16px;\">\n<th style=\"width: 86px; height: 16px;\">Niv. de Duide</th>\n<th style=\"width: 292px; height: 16px;\">Sorts</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 30px; text-align: center;\">\n<td style=\"width: 86px; height: 16px;\">3</td>\n<td style=\"width: 292px; height: 16px;\"><span style=\"text-align: start; background-color: rgba(255, 255, 255, 0.2);\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.wMkmtc8SvWv4xF6E]{Peau d'&eacute;corce} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.l4VPktMLaUOSFAEI]{Pattes d'araign&eacute;e}</span></td>\n</tr>\n<tr style=\"height: 30px; text-align: center;\">\n<td style=\"width: 86px; height: 16px;\">5</td>\n<td style=\"width: 292px; height: 16px;\"><span style=\"text-align: start; background-color: rgba(0, 0, 0, 0.05);\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.QHNBFRpqIXYm7D03]{Appel de la foudre} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.z3FLlKNK0xBlc2Lw]{Croissance v&eacute;g&eacute;tale}</span></td>\n</tr>\n<tr style=\"height: 30px; text-align: center;\">\n<td style=\"width: 86px; height: 16px;\">7</td>\n<td style=\"width: 292px; height: 16px;\"><span style=\"text-align: start; background-color: rgba(255, 255, 255, 0.2);\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M]{Divination} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB]{Libert&eacute; de mouvement}</span></td>\n</tr>\n<tr style=\"height: 30px; text-align: center;\">\n<td style=\"width: 86px; height: 16px;\">9</td>\n<td style=\"width: 292px; height: 16px;\"><span style=\"text-align: start; background-color: rgba(0, 0, 0, 0.05);\">@UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.H3CMVcsZmbakqp2C]{Communion avec la nature} @UUID[Compendium.srd-heros-et-dragons.HnD-grimoire.BErylURWrsPQ39cE]{Passage par les arbres}</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h3 id=\"air\"></h3>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druide",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685379,
+    "modifiedTime": 1663923686737,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!OOmZNOwtKrX0WtWw"
+}

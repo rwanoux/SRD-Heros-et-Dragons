@@ -1,0 +1,84 @@
+{
+  "_id": "y4ABxQonpespGSJU",
+  "name": "Maîtrise - Illusion [Académicien]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\">Illusion</span></strong></h3>\n<p><span style=\"color: #2e1f49; font-family: Friz, sans-serif; font-size: 13px;\"><strong>Sort illusoire</strong> : Vous pouvez lancer un sort de l'&eacute;cole d'&eacute;vocation ou d'invocation que vous connaissez sous forme d'illusion (mais il garde son &eacute;cole d'origine). Les d&eacute;g&acirc;ts inflig&eacute;s sont de type psychique, mais les cibles pensent qu'il s'agit du type de d&eacute;g&acirc;ts appropri&eacute; au sort imit&eacute;. Un alli&eacute; ou une cr&eacute;ature pr&eacute;venue de la nature de l'illusion obtient une r&eacute;sistance aux d&eacute;g&acirc;ts du sort.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuels de Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Magicien",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685698,
+    "modifiedTime": 1663923687799,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!y4ABxQonpespGSJU"
+}

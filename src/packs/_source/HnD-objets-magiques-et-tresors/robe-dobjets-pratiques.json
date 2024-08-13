@@ -1,0 +1,111 @@
+{
+  "_id": "EnCgjeIgdOpJzZLe",
+  "name": "Robe d'objets pratiques",
+  "type": "equipment",
+  "img": "icons/equipment/back/mantle-collared-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">\n<p>Cette robe est couverte de pièces de tissu de formes et de couleurs diverses. Tant que vous portez ce vêtement, vous pouvez effectuer une action pour détacher une des pièces et provoquer sa transformation en l'objet ou la créature qu'elle représente. Dès que la dernière pièce est détachée, la robe devient un vêtement ordinaire.</p>\n<p>Deux pièces de chacun des éléments suivants sont cousues sur la robe :</p>\n<ul>\n<li>Dague</li>\n<li>Lanterne sourde (remplie et allumée)</li>\n<li>Miroir en acier</li>\n<li>Perche de 3 mètres</li>\n<li>Corde de chanvre (15 mètres, enroulée)</li>\n<li>Sac</li>\n</ul>\n<p>En outre, la robe se compose de 4d4 autres pièces. Le MJ choisit ces pièces ou les détermine au hasard.</p>\n<table style=\"width: 372px;\">\n<tbody>\n<tr>\n<th class=\"center\" style=\"width: 39px;\">d100</th>\n<th style=\"width: 326px;\">Pièce de tissu</th>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">01-08</td>\n<td style=\"width: 326px;\">100 po dans un sac</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">09-15</td>\n<td style=\"width: 326px;\">Coffre en argent (30 centimètres de long, 15 centimètres de large et de profondeur) d'une valeur de 500 po</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">16-22</td>\n<td style=\"width: 326px;\">Porte en fer (d'une largeur et d'une hauteur maximales de 3 mètres, barrée du côté de votre choix) que vous pouvez placer dans une ouverture à votre portée ; la taille s'adapte aux dimensions de l'ouverture et s'y fixe d'elle-même</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">23-30</td>\n<td style=\"width: 326px;\">10 pierres précieuses d'une valeur de 100 po chacune</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">31-44</td>\n<td style=\"width: 326px;\">Échelle en bois de 7,30 mètres de long</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">45-51</td>\n<td style=\"width: 326px;\">Cheval de selle avec fontes</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">52-59</td>\n<td style=\"width: 326px;\">Fosse (cube de 3 mètres d'arête) que vous pouvez placer dans le sol à 3 mètres ou moins de vous</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">60-68</td>\n<td style=\"width: 326px;\">4 potions de soins</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">69-75</td>\n<td style=\"width: 326px;\">Barque (3,60 mètres de long)</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">76-83</td>\n<td style=\"width: 326px;\">Parchemin magique contenant un sort de niveau 1 à 3</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">84-90</td>\n<td style=\"width: 326px;\">2&nbsp;<a href=\"https://5e-drs.fr/bestiaire/mastiff/\">molosses</a></td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">91-96</td>\n<td style=\"width: 326px;\">Fenêtre (60 centimètres sur 1,20 mètre et jusqu'à 60 centimètres d'épaisseur) que vous pouvez placer sur une surface verticale à votre portée</td>\n</tr>\n<tr>\n<td class=\"center\" style=\"width: 39px;\">97-00</td>\n<td style=\"width: 326px;\">Bélier portable</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 140,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "4d4",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "type": "clothing",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    },
+    "details": {
+      "description": "<p><em>Wondrous item</em></p>\n<p>This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</p>\n<p>The robe has the following patches:</p>\n<ul>\n<li>x2 @Compendium[dnd5e.items.0E565kQUBmndJ1a2]{Dagger} patches</li>\n<li>x2 @Compendium[dnd5e.items.UkWdyJYQTfVX2cJW]{Bullseye Lantern} (filled and lit) patches</li>\n<li>x2 @Compendium[dnd5e.items.HZsvDPmvysQKGzGy]{Steel Mirror} patches</li>\n<li>x2 10-foot @Compendium[dnd5e.items.tut1jbW3UCsrUjCG]{Pole} patches</li>\n<li>x2 @Compendium[dnd5e.items.QXmaarJ4X8P0C1HV]{Hempen Rope} (50 feet, coiled) patches</li>\n<li>x2 @Compendium[dnd5e.items.CNdDj8dsXVpRVpXt]{Sack} patches</li>\n</ul>\n<p>In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly.</p>\n<table>\n<tbody>\n<tr>\n<td><strong>d100</strong></td>\n<td><strong>Patch</strong></td>\n</tr>\n<tr>\n<td>01-08</td>\n<td>Bag of 100 gp</td>\n</tr>\n<tr>\n<td>09-15</td>\n<td>Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp</td>\n</tr>\n<tr>\n<td>16-22</td>\n<td>Iron door (up to 10 feet wide and high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself.</td>\n</tr>\n<tr>\n<td>23-30</td>\n<td>10 gems worth 100 gp each</td>\n</tr>\n<tr>\n<td>31-44</td>\n<td>Wooden ladder (24 feet long)</td>\n</tr>\n<tr>\n<td>45-51</td>\n<td>A @Compendium[dnd5e.monsters.rz8UTUnFT87BsAFR]{Riding Horse} with saddle bags</td>\n</tr>\n<tr>\n<td>52-59</td>\n<td>Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you</td>\n</tr>\n<tr>\n<td>60-68</td>\n<td>4 @Compendium[dnd5e.items.ytlsBjYsZ7OBSEBs]{Potions of Healing}</td>\n</tr>\n<tr>\n<td>69-75</td>\n<td>Rowboat (12 feet long)</td>\n</tr>\n<tr>\n<td>76-83</td>\n<td>Spell scroll containing one spell of 1st to 3rd level</td>\n</tr>\n<tr>\n<td>84-90</td>\n<td>2 @Compendium[dnd5e.monsters.YTpL2c3NO4sOn2UA]{Mastiffs}</td>\n</tr>\n<tr>\n<td>91-96</td>\n<td>Window (2 feet by 4 feet, up to 2 feet deep) which you can place on a vertical surface you can reach</td>\n</tr>\n<tr>\n<td>97-00</td>\n<td>Portable ram</td>\n</tr>\n</tbody>\n</table>\n<p><em>Foundry note: the Other Formula has been set to calculate the 4d4 patches if required.</em></p>\n<p><em>Additionally, it is recommended to delete items here as necessary to track patches left.</em></p>\n<p><em>The price guide has been calculated at 5*item for the maximum number of items possible.&nbsp; Please adjust as necessary to reflect the number of patches and the DM's world economy.</em></p>\n<p>&nbsp;</p>"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701082,
+    "modifiedTime": 1663923702054,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!EnCgjeIgdOpJzZLe"
+}

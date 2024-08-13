@@ -1,0 +1,166 @@
+{
+  "_id": "oOj2xPmUCedeNT5R",
+  "name": "Morgenstern",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "_sheetTab": "description",
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {},
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "22f136f6-a04b-4ef6-9caa-ea576ee4e034",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "71913a8d-0d8b-4bf6-90fd-8c935a16f290",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "bb9e4c0b-2be1-40ad-b2bb-9d7f99729d2e",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 8,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "prc",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Un globe de métal vicieusement pointu, monté au bout d'un manche robuste, constitue une arme mortelle qui peut perforer aussi bien l'armure que la chair.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 2,
+    "price": 15,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 1.5,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8+@mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "morningstar",
+    "properties": {
+      "value": "",
+      "amm": false,
+      "hvy": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "lgt": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700653,
+    "modifiedTime": 1663923700653,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!oOj2xPmUCedeNT5R"
+}

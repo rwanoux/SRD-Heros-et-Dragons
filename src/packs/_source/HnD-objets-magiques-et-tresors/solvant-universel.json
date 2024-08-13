@@ -1,0 +1,95 @@
+{
+  "_id": "CLUJoEwZoZ7GcTjT",
+  "name": "Solvant universel",
+  "type": "consumable",
+  "img": "icons/commodities/materials/liquid-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<div class=\"description \">Ce tube contient un liquide laiteux qui sent fort l'alcool. Vous pouvez utiliser une action pour déverser le contenu du tube sur une surface à portée. Le liquide dissout instantanément jusqu'à 30 centimètres carrés de colle avec laquelle il entre en contact, y compris de la&nbsp;<a href=\"https://5e-drs.fr/liste-objets-magiques/colle-universelle/\">colle universelle</a>.</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 0.1,
+    "price": 300,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "legendary",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "m",
+      "type": "square"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": "",
+      "autoDestroy": true,
+      "autoUse": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "consumableType": "trinket",
+    "attributes": {
+      "spelldc": 10
+    },
+    "details": {
+      "description": "<p><em>Wondrous item</em></p>\n<p>This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including @Compendium[dnd5e.items.zJ5LhDvTxYKzPIx4]{Sovereign Glue}.</p>"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701070,
+    "modifiedTime": 1663923702013,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!CLUJoEwZoZ7GcTjT"
+}

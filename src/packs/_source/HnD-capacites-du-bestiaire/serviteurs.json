@@ -1,0 +1,84 @@
+{
+  "name": "Serviteurs",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/creatures/unholy/demon-horned-black-yellow.webp",
+  "_id": "jcYNxkp7Xa86wxX2",
+  "system": {
+    "description": {
+      "value": "<p><strong>Serviteurs.</strong> La liche d&eacute;signe l'un de ses serviteurs &agrave; port&eacute;e de vue et dans un rayon de 36 m&egrave;tres autour de sa position. Pendant la dur&eacute;e du round ou jusqu'&agrave; la mort de la cible, tous les d&eacute;g&acirc;ts (hors d&eacute;g&acirc;ts de zone) que devraient subir la liche (en tenant compte de ses r&eacute;sistances et immunit&eacute;s) affectent son serviteur plut&ocirc;t qu'elle.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "ally"
+    },
+    "range": {
+      "value": 36,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Liche (Antre)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698953,
+    "modifiedTime": 1663923700144,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jcYNxkp7Xa86wxX2"
+}

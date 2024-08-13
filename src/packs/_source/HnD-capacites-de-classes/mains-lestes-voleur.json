@@ -1,0 +1,84 @@
+{
+  "_id": "btvI77mLKG6sajRL",
+  "name": "Mains lestes [Voleur]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3 id=\"mains-lestes\"><strong>Mains lestes</strong></h3>\n<p>&Agrave; partir du niveau 3, vous pouvez utiliser l'action bonus que vous permet votre aptitude ruse pour faire un test de Dext&eacute;rit&eacute; (Escamotage), utiliser vos outils de voleurs pour d&eacute;samorcer un pi&egrave;ge ou crocheter une serrure, ou encore r&eacute;aliser l'action&nbsp;<a href=\"https://5e-drs.fr/combattre/#utiliser-un-objet\">utiliser un objet</a>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Roublard",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685464,
+    "modifiedTime": 1663923687101,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!btvI77mLKG6sajRL"
+}

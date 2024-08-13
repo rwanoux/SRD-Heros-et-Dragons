@@ -1,0 +1,141 @@
+{
+  "_id": "teybNk78CJaoJp56",
+  "name": "Cape de l'arachnide",
+  "type": "equipment",
+  "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<div>\n<p>Ce bel habit est fait de soie noire mêlée de discrets filaments d'argent. Tant que vous le portez, vous bénéficiez des avantages suivants.</p>\n<ul>\n<li>Vous êtes résistant aux dégâts de poison.</li>\n<li>Votre vitesse d'escalade est égale à votre vitesse au sol.</li>\n<li>Vous pouvez vous déplacer de haut en bas sur une surface verticale et la tête en bas au plafond tout en gardant les mains libres.</li>\n<li>Vous ne pouvez pas rester coincé dans une toile, quel que soit son type, et vous pouvez vous déplacer à travers ses filaments comme si c'était simplement un terrain difficile.</li>\n<li>Vous pouvez utiliser une action pour lancer le sort de&nbsp;<a href=\"https://5e-drs.fr/grimoire/toile-d-araignee/\">toile d'araignée</a>&nbsp;(DD 13). La toile créée occupe le double de l'espace habituel. Une fois que vous avez utilisé la cape ainsi, vous ne pouvez pas recommencer avant l'aube suivante.</li>\n</ul>\n<p>Harmonisation requise.</p>\n</div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Cadre de campagne",
+    "quantity": 1,
+    "weight": 1.5,
+    "price": 5000,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": 40,
+      "width": null,
+      "units": "m",
+      "type": "cube"
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "day",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 5,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "type": "clothing",
+      "dex": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": false,
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923701444,
+    "modifiedTime": 1663923703196,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!teybNk78CJaoJp56"
+}

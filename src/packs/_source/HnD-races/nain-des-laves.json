@@ -1,0 +1,150 @@
+{
+  "_id": "UjR9fNPJUldImutG",
+  "name": "Nain des laves",
+  "type": "feat",
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": null
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": []
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    },
+    "dynamiceffects": {
+      "equipActive": false,
+      "alwaysActive": false,
+      "effects": []
+    }
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h2 id=\"traits-des-nains\">Traits des nains</h2>\n<p><strong>Augmentation de caract&eacute;ristiques</strong>. Votre valeur de Constitution augmente de 2.</p>\n<hr />\n<p><strong>&Acirc;ge.</strong> Les nains deviennent matures au m&ecirc;me rythme que les humains, mais ils se consid&egrave;rent encore jeunes jusqu'&agrave; l'&acirc;ge de 50 ans. Ils vivent en moyenne 350 ans.</p>\n<hr />\n<p><strong>Alignement</strong>. La majorit&eacute; des nains est d'alignement Loyal et croit profond&eacute;ment aux bienfaits d'une soci&eacute;t&eacute; organis&eacute;e. Les nains sont plut&ocirc;t attir&eacute;s vers le bien, ont un sens inn&eacute; de ce qui est juste et sont convaincus que tout le monde m&eacute;rite de partager les bienfaits de l'ordre et de la justice.</p>\n<hr />\n<p><strong>Taille</strong>. Les nains mesurent entre 1,10 et 1,50 m&egrave;tre et p&egrave;sent en moyenne 75 kilos. Ils sont de taille moyenne.</p>\n<hr />\n<p><strong>Vitesse</strong>. Votre vitesse au sol de base est de 7,50 m&egrave;tres. Vous pouvez porter une armure lourde sans que cela r&eacute;duise votre vitesse.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.UTFvos40FMRTLa25]{Vision dans le noir (Nain)}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.5PqHpN95UNVLJml7]{R&eacute;sistance naine (Nain)}</p>\n<hr />\n<p><strong>Entra&icirc;nement aux armes naines.</strong> Vous ma&icirc;trisez les haches de guerre, les hachettes, les marteaux l&eacute;gers et es marteaux de guerre.</p>\n<hr />\n<p><strong>Ma&icirc;trise des outils</strong>. Vous obtenez la ma&icirc;trise des outils d'un artisanat de votre choix parmi cette liste : outils de forgeron, mat&eacute;riel de brasseur, outils de ma&ccedil;on.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.nvSn2n3a3tqxr0sC]{Connaissance de la pierre (Nain)}</p>\n<hr />\n<p><strong>Langues</strong>. Vous pouvez parler et &eacute;crire en commun et en nain. Le nain est une langue aux consonnes dures et aux sons gutturaux, des sp&eacute;cificit&eacute;s qui se retrouvent dans l'accent qu'ont les nains en parlant un autre langage.</p>\n<p>&nbsp;</p>\n<h3 id=\"nain-des-laves\"><strong>Nain des laves</strong></h3>\n<hr />\n<p><strong>Augmentation de caract&eacute;ristiques.</strong> Votre valeur de Force augmente de 1.</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.XjaVUpA7H1dFPIgk]{Vision dans le noir am&eacute;lior&eacute;e (Nain des laves)}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.EgYKW5bZ8fnDRAlf]{Sensibilit&eacute; &agrave; la lumi&egrave;re (Nain des laves)}</p>\n<hr />\n<p>@UUID[Compendium.srd-heros-et-dragons.HnD-traits-raciaux.x6daxEyVPlRu5uHc]{R&eacute;sistance &agrave; la chaleur (Nain des laves)}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "attributes": {
+      "spelldc": 10
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923697916,
+    "modifiedTime": 1663923698043,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!UjR9fNPJUldImutG"
+}

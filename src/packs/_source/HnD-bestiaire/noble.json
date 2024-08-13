@@ -1,0 +1,1478 @@
+{
+  "_id": "1A8wj3tDpRTrbDwD",
+  "name": "Noble",
+  "type": "npc",
+  "img": "systems/dnd5e/tokens/humanoid/Noble.webp",
+  "items": [
+    {
+      "_id": "f8eZRpMq0QB4g9MD",
+      "name": "Parade",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {},
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Parade.</strong>&nbsp;Le noble ajoute 2 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer de cette façon.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "reaction",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Noble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1A8wj3tDpRTrbDwD.f8eZRpMq0QB4g9MD"
+    },
+    {
+      "_id": "uzNfQQuPoIGLNqlE",
+      "name": "Rapière",
+      "type": "weapon",
+      "sort": 200000,
+      "flags": {
+        "obsidian": {
+          "category": "martial",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "finesse": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "1662086b-2ad5-4acc-97fe-3ed2bffefc3f",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "ae267442-f954-4fd9-8679-937d3ba73fb9",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": false,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "9b6911bd-d5e7-451b-989c-af8eb252fd21",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "prc",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        }
+      },
+      "img": "icons/weapons/swords/sword-guard-brown.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Une lame métallique mince et résistante, légère mais de longue portée, conçue pour des attaques rapides afin de cibler les points faibles des défenses ennemies avec une rapidité fulgurante.</p>\n<p>Attaque d'arme au corps à corps&nbsp;: +3 pour toucher, allonge 1,50 m, une cible.<br>Touché&nbsp;: 5 (1d8+1) dégâts perforants.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des Règles",
+        "quantity": 1,
+        "weight": 1,
+        "price": 25,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 1.5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "",
+        "properties": {
+          "fin": true,
+          "two": false,
+          "rch": false,
+          "lod": false,
+          "fir": false,
+          "foc": false,
+          "thr": false,
+          "lgt": false,
+          "hvy": false,
+          "amm": false,
+          "ver": false,
+          "rel": false,
+          "ret": false,
+          "spc": false
+        },
+        "proficient": true
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1A8wj3tDpRTrbDwD.uzNfQQuPoIGLNqlE"
+    },
+    {
+      "_id": "8ys7Er6L9RagtLd9",
+      "name": "Cuirasse",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "obsidian": {
+          "subtype": "armour",
+          "magical": false,
+          "effects": [],
+          "version": 7,
+          "armour": true,
+          "addDex": true
+        },
+        "core": {
+          "sourceId": "Compendium.srd-heros-et-dragons.h-d-équipement-aventurier.XgpKSbozU3m5j4Bm"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette armure se compose d'une pièce principale de métal maintenue avec du cuir souple sur la poitrine. Bien qu'elle laisse les jambes et les bras relativement à découvert, cette armure offre une bonne protection pour les organes vitaux tout en ne gênant pas trop son porteur.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des Règles",
+        "quantity": 1,
+        "weight": 10,
+        "price": 400,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 14,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "breastplate",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1A8wj3tDpRTrbDwD.8ys7Er6L9RagtLd9"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 100001,
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 11
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "constitution",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 11
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "wisdom",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 12
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "charisme",
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 13
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "default",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 9,
+        "min": 0,
+        "max": 9,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "2d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 1,
+        "prof": 0,
+        "total": 1
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 9,
+        "units": "m",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": "Perception passive 12"
+      },
+      "spellcasting": "int",
+      "prof": 2,
+      "spelldc": 11,
+      "encumbrance": {
+        "value": 1,
+        "max": 82.5,
+        "pct": 1.2121212121212122,
+        "encumbered": true
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"actions\">Actions</h2>\n<p><strong><em>Rapière</em></strong>. <em>Attaque d'arme au corps à corps</em> : +3 pour toucher, allonge 1,50 m, une cible.<br><em>Touché</em> : 5 (1d8+1) dégâts perforants.</p>\n<hr>\n<h2 id=\"reactions\">Réactions</h2>\n<p><strong><em>Parade</em></strong>. Le noble ajoute 2 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer de cette façon.</p>",
+        "public": ""
+      },
+      "alignment": "n'importe quel alignement",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.125,
+      "spellLevel": 1,
+      "xp": {
+        "value": 25
+      },
+      "source": "Créatures & Oppositions"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "deux langues au choix"
+      },
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 2,
+        "total": 5
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 14,
+        "prof": 2,
+        "total": 4
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 2,
+        "total": 5
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 2
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Noble",
+    "displayName": 0,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5
+    },
+    "texture": {
+      "src": "systems/dnd5e/tokens/humanoid/Noble.webp",
+      "tint": null,
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923690053,
+    "modifiedTime": 1663923694153,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!actors!1A8wj3tDpRTrbDwD"
+}

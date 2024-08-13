@@ -1,0 +1,56 @@
+{
+  "_id": "nFBDobpDyKDM5AQD",
+  "name": "Sacoche",
+  "type": "backpack",
+  "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "description": {
+      "value": "<p>Une sacoche en tissu ou en cuir peut contenir jusqu'à 20 billes de fronde ou 50 aiguilles de sarbacane, entre autres choses. Une sacoche compartimentée pour abriter des composantes de sorts est appelée une sacoche à composantes (voir la description ci-dessous).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel de Règles",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 0.5,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "capacity": {
+      "type": "weight",
+      "value": 6,
+      "weightless": false
+    },
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "damage": {
+      "parts": []
+    },
+    "critical": {
+      "threshold": null,
+      "damage": null
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700651,
+    "modifiedTime": 1663923700651,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!nFBDobpDyKDM5AQD"
+}

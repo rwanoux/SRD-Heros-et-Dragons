@@ -1,0 +1,168 @@
+{
+  "_id": "ATxQY3UUscBaEfsJ",
+  "name": "Hallebarde",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-crescent-glowing.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "obsidian": {
+      "category": "martial",
+      "type": "melee",
+      "mode": "melee",
+      "tags": {
+        "heavy": true,
+        "twohanded": true,
+        "reach": true
+      },
+      "magical": false,
+      "effects": [
+        {
+          "name": "",
+          "uuid": "9c42a3ab-fa86-49db-afa5-a5c6dc281f19",
+          "components": [
+            {
+              "type": "attack",
+              "uuid": "9f0a05bf-57ec-4d0e-b1c1-0ce79cd3107e",
+              "attack": "melee",
+              "category": "weapon",
+              "ability": "",
+              "bonus": 0,
+              "crit": 20,
+              "proficient": false,
+              "reach": null,
+              "range1": null,
+              "range2": null,
+              "target": ""
+            },
+            {
+              "type": "damage",
+              "uuid": "1022f8f1-60d7-4f09-b8c2-ac339f6d5714",
+              "calc": "formula",
+              "ndice": 1,
+              "die": 10,
+              "ability": "str",
+              "bonus": 0,
+              "damage": "slh",
+              "versatile": false
+            }
+          ]
+        }
+      ],
+      "version": 7
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>La hallebarde est une arme défensive puissante qui permet à un guerrier de repousser ses ennemis en utilisant la longue portée du manche et ainsi attaquer à distance de sécurité.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "quantity": 1,
+    "weight": 3,
+    "price": 20,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 3,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "baseItem": "halberd",
+    "properties": {
+      "hvy": true,
+      "two": true,
+      "rch": true,
+      "lod": false,
+      "fir": false,
+      "fin": false,
+      "foc": false,
+      "thr": false,
+      "lgt": false,
+      "amm": false,
+      "ver": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "ada": false,
+      "sil": false,
+      "mgc": false
+    },
+    "proficient": false
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923700560,
+    "modifiedTime": 1663923700560,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!ATxQY3UUscBaEfsJ"
+}

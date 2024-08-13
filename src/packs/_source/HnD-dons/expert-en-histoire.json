@@ -1,0 +1,109 @@
+{
+  "_id": "zoR8abfuroHZQfzt",
+  "name": "Expert en Histoire",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-link-brown.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Pr&eacute;requis </em>: ma&icirc;trise de la comp&eacute;tence Histoire.</p>\n<p>Vous &ecirc;tes une sommit&eacute; en histoire. Choisissez trois b&eacute;n&eacute;fices parmi les cinq pr&eacute;sent&eacute;s :</p>\n<ul>\n<li>vous augmentez votre valeur d&rsquo;Intelligence de +1 ;</li>\n<li>vous gagnez l&rsquo;expertise dans cette comp&eacute;tence (votre bonus de ma&icirc;trise est doubl&eacute; lorsque vous utilisez cette comp&eacute;tence). Vous ne pouvez pas choisir ce b&eacute;n&eacute;fice si vous avez d&eacute;j&agrave; l&rsquo;expertise ;</li>\n<li>lorsque vous fa&icirc;tes un test de cette comp&eacute;tence, vous pouvez choisir de remplacer le r&eacute;sultat du d20 par la valeur 10, m&ecirc;me apr&egrave;s avoir vu le r&eacute;sultat du d&eacute;. Si vous avez lanc&eacute; deux d&eacute;s (avantage ou d&eacute;savantage), vous remplacez seulement le r&eacute;sultat d&rsquo;un d&eacute;. Vous devez terminer un repos long avant de pouvoir utiliser &agrave; nouveau cet effet ;</li>\n<li>lorsque vous interagissez avec un personnage qui marque l&rsquo;histoire (leader, roi, chef de guilde), vous obtenez un avantage &agrave; tous vos tests de Charisme ;</li>\n<li>votre connaissance de l&rsquo;histoire des conflits du pass&eacute; vous permet d&rsquo;obtenir un avantage &agrave; vos tests d&rsquo;Intelligence ou de Charisme destin&eacute;s &agrave; &eacute;tablir un plan de de bataille ou d&rsquo;invasion, &agrave; battre en retraite ou encore n&eacute;gocier une tr&ecirc;ve ou un trait&eacute; de paix.</li>\n</ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Pangée 2 : l'âge du changement",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685031,
+    "modifiedTime": 1663923685031,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!zoR8abfuroHZQfzt"
+}

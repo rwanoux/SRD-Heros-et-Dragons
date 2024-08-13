@@ -1,0 +1,89 @@
+{
+  "name": "La faim est une arme",
+  "type": "feat",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align:justify\">Au niveau 3, vous avez appris à utiliser votre morsure avec une grande efficacité. </p><p style=\"text-align:justify\">Une fois par tour, lorsque vous touchez une créature avec votre morsure, vous pouvez dépenser 1 point de ki pour infliger des dégâts nécrotiques supplémentaires égaux à un jet de votre dé d'arts martiaux. </p><p style=\"text-align:justify\">Si le jet d'attaque est un coup critique, vous gagnez un nombre de points de vie temporaires égal aux dégâts nécrotiques infligés pendant 1 heure.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Underworld Player's Guide - Kobold Press",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Voie de la faim rassasiée",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1680510647967,
+    "modifiedTime": 1680510702763,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "QPe1UrSqlKn4Qvkx",
+  "_key": "!items!QPe1UrSqlKn4Qvkx"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Tourbillon de Sable",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/magic/air/fog-gas-smoke-swirling-yellow.webp",
+  "_id": "f4hSzg8zlg0BuOZY",
+  "system": {
+    "description": {
+      "value": "<p><strong>Tourbillon de sable.</strong> La créature se transforme par magie en un tourbillon de sable, se déplace d'une distance maximale de 18 mètres, puis reprend sa forme normale. Sous forme de tourbillon, la créature est immunisée contre tous les dégâts et elle ne peut pas être empoignée, pétrifiée, jetée à terre, entravée ni étourdie. Ses objets équipés ou transportés restent en sa possession.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Créatures et Oppositions",
+    "activation": {
+      "type": "legendary",
+      "cost": 2,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 18,
+      "long": null,
+      "units": "m"
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Momie Auguste",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923698928,
+    "modifiedTime": 1663923700038,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!f4hSzg8zlg0BuOZY"
+}

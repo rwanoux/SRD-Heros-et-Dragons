@@ -1,0 +1,84 @@
+{
+  "_id": "E8WAO0WmdkgdootW",
+  "name": "Riposte inattendue [Kal'Thori]",
+  "type": "feat",
+  "flags": {},
+  "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+  "effects": [],
+  "system": {
+    "description": {
+      "value": "<h3><strong>Riposte inattendue</strong></h3>\n<p>Au niveau 18, lorsqu&rsquo;une attaque devrait vous toucher, vous pouvez utiliser votre r&eacute;action afin d&rsquo;obtenir la r&eacute;sistance contre les d&eacute;g&acirc;ts de l&rsquo;attaque.</p>\n<p>De plus, s&rsquo;il s&rsquo;agit d&rsquo;une attaque de corps &agrave; corps, vous parvenez &agrave; d&eacute;vier la puissance du coup pour la retourner contre votre adversaire en d&eacute;portant son coup afin qu&rsquo;il heurte le d&eacute;cor. Il subit la moiti&eacute; des points de d&eacute;g&acirc;ts que vous avez subis.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Gazette R'n P #2",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": 1663923685246,
+    "modifiedTime": 1663923686382,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!E8WAO0WmdkgdootW"
+}

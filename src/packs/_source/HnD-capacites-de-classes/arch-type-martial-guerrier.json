@@ -1,0 +1,114 @@
+{
+  "_id": "jgeNLXm03sNvWaBG",
+  "name": "Archétype Martial [Guerrier]",
+  "type": "feat",
+  "img": "icons/skills/melee/weapons-crossed-daggers-orange.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "a atteint 0 charges : les mots sur le parchemin disparaissent, et il tombe en poussière.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "rsr5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFooter": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3><strong>Archétype martial</strong></h3>\n<p>Au niveau 3, vous choisissez un archétype qui reflète votre style et vos techniques de combat :</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.Pzqt5A4OS7bDgWtE]{[Guerrier] Bretteur}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.lv9KklSXrSI7mx2C]{[Guerrier] Champion}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.CrycrgbSCnMUvLB7]{[Guerrier] Défenseur}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.OpDeR3tL2bv2pjdo]{[Guerrier] Kal'Thori}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.YklUwmVK1dZSYph1]{[Guerrier] Officier}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.IM10cIO5vlmHyIBN]{[Guerrier] Philaxien}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-Classes-spécialisations.pXaEHeiW5ctevy8d]{[Guerrier] Sorcelame}</li>\n</ul>\n<p>En fonction de votre archétype, vous aurez accès à différentes aptitudes aux niveaux 3, 7, 10, 15 et 18.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Manuel des Règles",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "cover": null,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Guerrier",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.1.5",
+    "coreVersion": "10.291",
+    "createdTime": 1663923685597,
+    "modifiedTime": 1678405202215,
+    "lastModifiedBy": "packsebuilder0000"
+  },
+  "_key": "!items!jgeNLXm03sNvWaBG"
+}
