@@ -680,14 +680,16 @@
     "compatibility": {
         "minimum": 11,
         "verified": 11,
-        "maximum": 12
+        "maximum": 11
     },
+    "manifestPlusVersion": "1.2.1",
     "url": "https://github.com/rwanoux/SRD-Heros-et-Dragons",
     "manifest": "https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/4.2.0/module.json",
     "download": "https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/4.2.0/module.zip",
     "readme": "https://github.com/rwanoux/SRD-Heros-et-Dragons/blob/master/README.md",
     "changelog": "https://github.com/rwanoux/SRD-Heros-et-Dragons/blob/master/CHANGELOG.md",
     "bugs": "https://github.com/rwanoux/SRD-Heros-et-Dragons/issues",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "allowBugReporter": true,
 <<<<<<< HEAD
@@ -696,15 +698,18 @@
 >>>>>>> 031f10a (Rewrite and upgrade the code for LevelDB and v11, also ecported the packs for better maintance (checkou the README))
 =======
 >>>>>>> 8b93edd (update for dnd5e 3.2.0 and modify the manifest to install on v12)
+=======
+    "allowBugReporter": true,
+>>>>>>> e4f2500 (Revert "Merge branch 'main' of https://github.com/rwanoux/SRD-Heros-et-Dragons")
     "relationships": {
         "systems": [
             {
                 "id": "dnd5e",
-                "type": "system",
                 "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
                 "compatibility": {
-                    "minimum": "3.2.0",
-                    "verified": "3.2.0"
+                    "minimum": "2.0.1",
+                    "verified": "2.0.1",
+                    "maximum": "3.1.1"
                 }
             }
         ],
