@@ -15,7 +15,10 @@
     },
     "source": "Manuel de Rèlges",
     "quantity": 1,
-    "weight": 0.5,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
     "price": 0.01,
     "attunement": 0,
     "equipped": false,
@@ -38,7 +41,7 @@
     "coreVersion": "10.286",
     "createdTime": 1663923700649,
     "modifiedTime": 1663923700649,
-    "lastModifiedBy": "packsebuilder0000"
+    "lastModifiedBy": "packsbuilder0000"
   },
   "_key": "!items!mXGKAgrImpniJdCe"
 }

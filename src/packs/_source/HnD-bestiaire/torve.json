@@ -393,7 +393,10 @@
         },
         "source": "Manuel de Règles",
         "quantity": 1,
-        "weight": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
         "price": 0.1,
         "attunement": 0,
         "equipped": true,
@@ -1585,7 +1588,7 @@
     "coreVersion": "10.286",
     "createdTime": 1663923690907,
     "modifiedTime": 1663923696955,
-    "lastModifiedBy": "packsebuilder0000"
+    "lastModifiedBy": "packsbuilder0000"
   },
   "_key": "!actors!l4iqEpiyOxpCV42R"
 }
