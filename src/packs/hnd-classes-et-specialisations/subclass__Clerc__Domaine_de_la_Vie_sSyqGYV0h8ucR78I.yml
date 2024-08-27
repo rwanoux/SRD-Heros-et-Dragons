@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"domaine-de-la-vie\"><strong>Domaine de la Vie</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx]{Sorts de domaine [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.AWNw82r8IAkDMnUF]{Maîtrise supplémentaire [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b]{Disciple de la vie [Domaine de la vie]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz]{Canalisation d'énergie divine : préserver la vie [Domaine de la vie]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eXQ6Ntb5Fhu3ls20]{Guérisseur béni [Domaine de la vie]}</p>\n<p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8ASYAke3c8IbeBDT]{Frappe divine [Domaine de la vie]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kAJgQpE6WlaxwuTP]{Guérison suprême [Domaine de la vie]}</p>\n<p>\_</p>"
+    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"domaine-de-la-vie\"><strong>Domaine de la Vie</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Khsy9eE5KAMC97qx]{Sorts de domaine [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.AWNw82r8IAkDMnUF]{Maîtrise supplémentaire [Domaine de la vie]}</p>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ylLQsTQx43JkG38b]{Disciple de la vie [Domaine de la vie]}</p>\n<p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sr3K0hdKbmOlm7Xz]{Canalisation d'énergie divine : préserver la vie [Domaine de la vie]}</p>\n<p>Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.eXQ6Ntb5Fhu3ls20]{Guérisseur béni [Domaine de la vie]}</p>\n<p>Niveau 8 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.8ASYAke3c8IbeBDT]{Frappe divine [Domaine de la vie]}</p>\n<p>Niveau 17 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.kAJgQpE6WlaxwuTP]{Guérison suprême [Domaine de la vie]}</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.eXQ6Ntb5Fhu3ls20
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.eXQ6Ntb5Fhu3ls20
         optional: false
       value: {}
       level: 6
@@ -30,8 +30,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.D8iw7BYbghdoLDNr
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.l7g3xemfsw17CxcH
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.D8iw7BYbghdoLDNr
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.l7g3xemfsw17CxcH
         optional: false
       value: {}
       level: 5
@@ -41,8 +41,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.5k7aaBi3jJ0FeXos
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.jCVWEIQQCT6EloEQ
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.5k7aaBi3jJ0FeXos
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.jCVWEIQQCT6EloEQ
         optional: false
       value: {}
       level: 3
@@ -53,7 +53,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sr3K0hdKbmOlm7Xz
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sr3K0hdKbmOlm7Xz
         optional: false
       value: {}
       level: 2
@@ -64,13 +64,13 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Khsy9eE5KAMC97qx
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.GMQ7uhT4gQKD6ZSx
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.k2lRJF0cIp0fJn5I
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Khsy9eE5KAMC97qx
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.GMQ7uhT4gQKD6ZSx
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.k2lRJF0cIp0fJn5I
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.AWNw82r8IAkDMnUF
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.AWNw82r8IAkDMnUF
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ylLQsTQx43JkG38b
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ylLQsTQx43JkG38b
         optional: false
       value: {}
       level: 1
@@ -79,7 +79,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.kAJgQpE6WlaxwuTP
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.kAJgQpE6WlaxwuTP
         optional: false
       value: {}
       level: 17
@@ -89,8 +89,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.VyAHhou4lIw96hb6
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.VyAHhou4lIw96hb6
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.AbpUeHdRgmQyzsK1
         optional: false
       value: {}
       level: 9
@@ -101,7 +101,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8ASYAke3c8IbeBDT
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.8ASYAke3c8IbeBDT
         optional: false
       value: {}
       level: 8
@@ -111,8 +111,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.WjUqiOkhbUN16Jiq
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.AxRxwMQ5LB45shbD
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.WjUqiOkhbUN16Jiq
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.AxRxwMQ5LB45shbD
         optional: false
       value: {}
       level: 7

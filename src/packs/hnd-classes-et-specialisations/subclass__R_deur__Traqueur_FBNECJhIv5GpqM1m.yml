@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"traqueur\"><strong>Traqueur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PYNBwYPDtlwbPB8G]{Terrain de prédilection [Traqueur]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ckMdRz2DR3BIxEBn]{Pièges [Traqueur]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rimFulmr3u6HBCdW]{Avantage du terrain [Traqueur]}</p>\n<p>Niveau 11 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.79O6rH1myMhGFxkT]{Terrain favorable [Traqueur]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.oFnfqV2bZJikqIvv]{Maître du terrain [Traqueur]}</p>\n<h4 id=\"terrain-de-predilection\"></h4>"
+    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"traqueur\"><strong>Traqueur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.PYNBwYPDtlwbPB8G]{Terrain de prédilection [Traqueur]}</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ckMdRz2DR3BIxEBn]{Pièges [Traqueur]}</p>\n<p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rimFulmr3u6HBCdW]{Avantage du terrain [Traqueur]}</p>\n<p>Niveau 11 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.79O6rH1myMhGFxkT]{Terrain favorable [Traqueur]}</p>\n<p>Niveau 15 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.oFnfqV2bZJikqIvv]{Maître du terrain [Traqueur]}</p>\n<h4 id=\"terrain-de-predilection\"></h4>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.oFnfqV2bZJikqIvv
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.oFnfqV2bZJikqIvv
         optional: false
       value: {}
       level: 15
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.79O6rH1myMhGFxkT
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.79O6rH1myMhGFxkT
         optional: false
       value: {}
       level: 11
@@ -42,7 +42,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rimFulmr3u6HBCdW
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rimFulmr3u6HBCdW
         optional: false
       value: {}
       level: 7
@@ -53,9 +53,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.PYNBwYPDtlwbPB8G
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.PYNBwYPDtlwbPB8G
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ckMdRz2DR3BIxEBn
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ckMdRz2DR3BIxEBn
         optional: false
       value: {}
       level: 3

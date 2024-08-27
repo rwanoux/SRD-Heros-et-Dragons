@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"traditions-monacales\"><strong>Traditions monacales</strong></h2>\n<h3 id=\"voie-de-l-illumination\"><strong>Voie de l'illumination</strong></h3>\n<h4>\_</h4>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JcQbW67Sghc13Ha1]{Prières [Voie de l'illumination]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DlRVYqGi6KNojL2q]{Magie universelle [Voie de l'illumination]}</p>"
+    value: "<h2 id=\"traditions-monacales\"><strong>Traditions monacales</strong></h2>\n<h3 id=\"voie-de-l-illumination\"><strong>Voie de l'illumination</strong></h3>\n<h4>\_</h4>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.JcQbW67Sghc13Ha1]{Prières [Voie de l'illumination]}</p>\n<p>Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.DlRVYqGi6KNojL2q]{Magie universelle [Voie de l'illumination]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.JcQbW67Sghc13Ha1
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.JcQbW67Sghc13Ha1
         optional: false
       value: {}
       level: 3
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.DlRVYqGi6KNojL2q
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.DlRVYqGi6KNojL2q
         optional: false
       value: {}
       level: 6
@@ -41,12 +41,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.WulW9U4Lf5rh1nJN
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.g6PEhEFxoKoangxJ
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.13hegp2WlfHG1VMS
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.vXZM48IjWmFSVcjl
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.kNpSusSUUmpWHeyM
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.XfPLgaMusOnrw38q
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.WulW9U4Lf5rh1nJN
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.g6PEhEFxoKoangxJ
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.13hegp2WlfHG1VMS
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.vXZM48IjWmFSVcjl
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.kNpSusSUUmpWHeyM
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.XfPLgaMusOnrw38q
         optional: true
       value: {}
       level: 17
@@ -56,12 +56,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.AUOvsEgah8FAEGTc
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.aqM9MEQauxglCV9n
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.ynTJBCm8B99LOqq4
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.jXWVXxb1HJkKDpuD
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.VDiUTdRBbERIvQV0
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.l4VPktMLaUOSFAEI
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.AUOvsEgah8FAEGTc
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.aqM9MEQauxglCV9n
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.ynTJBCm8B99LOqq4
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.jXWVXxb1HJkKDpuD
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.VDiUTdRBbERIvQV0
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.l4VPktMLaUOSFAEI
         optional: true
       value: {}
       level: 11
@@ -71,11 +71,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.ySkKyl3Z09OU9Dvk
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.D9TLfuZWAffFIK2u
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.CarbMJ73FtMTsJZw
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.kEHtYXCZeiLyrkI3
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.caB6HvhWaE7s0yUM
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.ySkKyl3Z09OU9Dvk
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.D9TLfuZWAffFIK2u
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.CarbMJ73FtMTsJZw
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.kEHtYXCZeiLyrkI3
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.caB6HvhWaE7s0yUM
         optional: true
       value: {}
       level: 6

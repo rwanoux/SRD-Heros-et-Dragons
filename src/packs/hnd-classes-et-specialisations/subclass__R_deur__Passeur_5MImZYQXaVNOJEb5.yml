@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"chasseur\"><strong>Passeur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 :</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gSiJGCF8uoDEvuhO]{Saut de brume}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rQZwm6LzLAJSOt4f]{Attaque réflexe}</li>\n</ul>\n<p>Niveau 7 :\_</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0sJt9xIDsSVowHco]{Saut collectif}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.d7MMbJGmPfNVZM9o]{La tête en bas}</li>\n</ul>\n<p>Niveau 11 :\_</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YfUmytCouk0MQfzx]{Maître du déplacement}</li>\n</ul>\n<p>Niveau 15 :\_</p>\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qysbPKK03NhRgEHc]{Zone de repli}</li>\n</ul>\n<h4 id=\"la-proie-du-chasseur\"></h4>"
+    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"chasseur\"><strong>Passeur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 :</p>\n<ul>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.gSiJGCF8uoDEvuhO]{Saut de brume}</li>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rQZwm6LzLAJSOt4f]{Attaque réflexe}</li>\n</ul>\n<p>Niveau 7 :\_</p>\n<ul>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.0sJt9xIDsSVowHco]{Saut collectif}</li>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.d7MMbJGmPfNVZM9o]{La tête en bas}</li>\n</ul>\n<p>Niveau 11 :\_</p>\n<ul>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.YfUmytCouk0MQfzx]{Maître du déplacement}</li>\n</ul>\n<p>Niveau 15 :\_</p>\n<ul>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.qysbPKK03NhRgEHc]{Zone de repli}</li>\n</ul>\n<h4 id=\"la-proie-du-chasseur\"></h4>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qysbPKK03NhRgEHc
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.qysbPKK03NhRgEHc
         optional: false
       value: {}
       level: 15
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YfUmytCouk0MQfzx
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.YfUmytCouk0MQfzx
         optional: false
       value: {}
       level: 11
@@ -42,9 +42,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.d7MMbJGmPfNVZM9o
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.d7MMbJGmPfNVZM9o
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.0sJt9xIDsSVowHco
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.0sJt9xIDsSVowHco
         optional: false
       value: {}
       level: 7
@@ -55,9 +55,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.gSiJGCF8uoDEvuhO
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.gSiJGCF8uoDEvuhO
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rQZwm6LzLAJSOt4f
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rQZwm6LzLAJSOt4f
         optional: false
       value: {}
       level: 3

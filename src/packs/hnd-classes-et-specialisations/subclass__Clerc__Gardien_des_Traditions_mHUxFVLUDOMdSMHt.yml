@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"gardien-des-traditions\"><strong>Gardien des traditions</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dnbBOyuJBmaUC96O]{Tradition Orale [Gardien des Traditions]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WbjwRMB32frtu812]{Foi élargie [Gardien des Traditions]}</p>\n<p>Niveau 1 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5W8vZlsmliSD0o1t]{Sorts de domaine [Gardien des Traditions]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3EUIE5X0S2DwHP5T]{Canalisation d'énergie divine : Pouvoir des anciens [Gardien des Traditions]}</p>\n<p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V8a5IRF2DAVPJnKl]{Magie ancestrale [Gardien des Traditions]}</p>\n<p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jzsC98E7hyUmLgf5]{Guérisseur [Gardien des Traditions]}</p>\n<p>Niveau 8 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tUZfnLOawK6ZJtX5]{Esprit protecteurs - Esprits gardiens [Gardien des Traditions]}</p>\n<p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.513IAw3iKqREtJVb]{Esprit protecteurs - Forme éthérée [Gardien des Traditions]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sBxgQeGbLHt7Nm8u]{Maître des traditions [Gardien des Traditions]}</p>"
+    value: "<h1 id=\"domaines-divins\"><strong>Domaines divins</strong></h1>\n<h2 id=\"gardien-des-traditions\"><strong>Gardien des traditions</strong></h2>\n<h3>\_</h3>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dnbBOyuJBmaUC96O]{Tradition Orale [Gardien des Traditions]}</p>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WbjwRMB32frtu812]{Foi élargie [Gardien des Traditions]}</p>\n<p>Niveau 1 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.5W8vZlsmliSD0o1t]{Sorts de domaine [Gardien des Traditions]}</p>\n<p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.3EUIE5X0S2DwHP5T]{Canalisation d'énergie divine : Pouvoir des anciens [Gardien des Traditions]}</p>\n<p>Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.V8a5IRF2DAVPJnKl]{Magie ancestrale [Gardien des Traditions]}</p>\n<p>Niveau 8 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jzsC98E7hyUmLgf5]{Guérisseur [Gardien des Traditions]}</p>\n<p>Niveau 8 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.tUZfnLOawK6ZJtX5]{Esprit protecteurs - Esprits gardiens [Gardien des Traditions]}</p>\n<p>Niveau 14 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.513IAw3iKqREtJVb]{Esprit protecteurs - Forme éthérée [Gardien des Traditions]}</p>\n<p>Niveau 17 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sBxgQeGbLHt7Nm8u]{Maître des traditions [Gardien des Traditions]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sBxgQeGbLHt7Nm8u
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sBxgQeGbLHt7Nm8u
         optional: false
       value: {}
       level: 17
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.513IAw3iKqREtJVb
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.513IAw3iKqREtJVb
         optional: false
       value: {}
       level: 14
@@ -41,7 +41,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.K5tUTgzlyvyjbwGh
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.K5tUTgzlyvyjbwGh
         optional: false
       value: {}
       level: 9
@@ -52,9 +52,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jzsC98E7hyUmLgf5
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jzsC98E7hyUmLgf5
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tUZfnLOawK6ZJtX5
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.tUZfnLOawK6ZJtX5
         optional: false
       value: {}
       level: 8
@@ -64,7 +64,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.jspiyeXqeTsPva4M
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.jspiyeXqeTsPva4M
         optional: false
       value: {}
       level: 7
@@ -75,7 +75,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.V8a5IRF2DAVPJnKl
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.V8a5IRF2DAVPJnKl
         optional: false
       value: {}
       level: 6
@@ -85,7 +85,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.NMtWiZnZaer0dg4t
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.NMtWiZnZaer0dg4t
         optional: false
       value: {}
       level: 5
@@ -95,7 +95,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.4ax3ljw11qtVshRH
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.4ax3ljw11qtVshRH
         optional: false
       value: {}
       level: 3
@@ -106,7 +106,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3EUIE5X0S2DwHP5T
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.3EUIE5X0S2DwHP5T
         optional: false
       value: {}
       level: 2
@@ -117,12 +117,12 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dnbBOyuJBmaUC96O
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dnbBOyuJBmaUC96O
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WbjwRMB32frtu812
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WbjwRMB32frtu812
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.5W8vZlsmliSD0o1t
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.e2HCAPfFpgKKdsrI
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.5W8vZlsmliSD0o1t
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.e2HCAPfFpgKKdsrI
         optional: false
       value: {}
       level: 1

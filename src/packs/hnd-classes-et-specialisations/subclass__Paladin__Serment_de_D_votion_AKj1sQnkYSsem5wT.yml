@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2>\n<h3 id=\"serment-de-devotion\"><strong>Serment de dévotion</strong></h3>\n<h4>\_</h4>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.j7n1IX8jFzsXTSRC]{Préceptes de dévotion [Serment de Dévotion]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p0CBPluBukUKTdKn]{Sorts de serment [Serment de Dévotion]}</p>\n<p>Niveau 3 :\_</p>\n<ul>\n<li style=\"list-style-type:none\">\n<ul>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.H3SesHqf0nN1P6g3]{Canalisation d'énergie divine [Serment de Dévotion] Arme sacrée}</li>\n<li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s9dpRQgRyfDuXycV]{Canalisation d'énergie divine [Serment de Dévotion] Renvoi des impies}</li>\n</ul>\n</li>\n</ul>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Srs63LSxcKxjlouB]{Aura de dévotion [Serment de Dévotion]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xpicqm5IrtAQpcOe]{Pureté de l'esprit [Serment de Dévotion]}</p>\n<p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sHA7eF6Geia4lz21]{Halo sacré [Serment de Dévotion]}</p>"
+    value: "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2>\n<h3 id=\"serment-de-devotion\"><strong>Serment de dévotion</strong></h3>\n<h4>\_</h4>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.j7n1IX8jFzsXTSRC]{Préceptes de dévotion [Serment de Dévotion]}</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.p0CBPluBukUKTdKn]{Sorts de serment [Serment de Dévotion]}</p>\n<p>Niveau 3 :\_</p>\n<ul>\n<li style=\"list-style-type:none\">\n<ul>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.H3SesHqf0nN1P6g3]{Canalisation d'énergie divine [Serment de Dévotion] Arme sacrée}</li>\n<li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.s9dpRQgRyfDuXycV]{Canalisation d'énergie divine [Serment de Dévotion] Renvoi des impies}</li>\n</ul>\n</li>\n</ul>\n<p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Srs63LSxcKxjlouB]{Aura de dévotion [Serment de Dévotion]}</p>\n<p>Niveau 15 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.xpicqm5IrtAQpcOe]{Pureté de l'esprit [Serment de Dévotion]}</p>\n<p>Niveau 20 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sHA7eF6Geia4lz21]{Halo sacré [Serment de Dévotion]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -19,8 +19,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.5bDjnKXUiY5VqSe5
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.aQTX6iECIzN34VI2
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.5bDjnKXUiY5VqSe5
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.aQTX6iECIzN34VI2
         optional: false
       value: {}
       level: 17
@@ -30,8 +30,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.WjUqiOkhbUN16Jiq
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.Bkz8upR3keOCOAwB
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.WjUqiOkhbUN16Jiq
         optional: false
       value: {}
       level: 13
@@ -41,8 +41,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.D8iw7BYbghdoLDNr
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.9Oc54jfPUHQMj07q
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.D8iw7BYbghdoLDNr
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.9Oc54jfPUHQMj07q
         optional: false
       value: {}
       level: 9
@@ -53,7 +53,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Srs63LSxcKxjlouB
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Srs63LSxcKxjlouB
         optional: false
       value: {}
       level: 7
@@ -63,8 +63,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.jCVWEIQQCT6EloEQ
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.4SAWhWheyyFWwS2H
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.jCVWEIQQCT6EloEQ
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.4SAWhWheyyFWwS2H
         optional: false
       value: {}
       level: 5
@@ -75,15 +75,15 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.j7n1IX8jFzsXTSRC
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.j7n1IX8jFzsXTSRC
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.p0CBPluBukUKTdKn
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.p0CBPluBukUKTdKn
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.H3SesHqf0nN1P6g3
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.H3SesHqf0nN1P6g3
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.s9dpRQgRyfDuXycV
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.e2HCAPfFpgKKdsrI
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.PN7ncM2wxoYIL8Ur
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.s9dpRQgRyfDuXycV
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.e2HCAPfFpgKKdsrI
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.PN7ncM2wxoYIL8Ur
         optional: false
       value: {}
       level: 3
@@ -94,7 +94,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.sHA7eF6Geia4lz21
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.sHA7eF6Geia4lz21
         optional: false
       value: {}
       level: 20
@@ -105,7 +105,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xpicqm5IrtAQpcOe
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.xpicqm5IrtAQpcOe
         optional: false
       value: {}
       level: 15

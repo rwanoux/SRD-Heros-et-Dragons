@@ -3,7 +3,7 @@ type: subclass
 img: icons/creatures/mammals/elk-moose-marked-green.webp
 system:
   description:
-    value: "<h2 id=\"cercle-de-la-terre\"><strong>Cercle de la verdoyance</strong></h2><h3>\_</h3><p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ALqS9BcwwjJ24sFE]{Sorts de Cercle [Cercle de la Verdoyance]}</p><p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Q2HUMz08FTcTvVJt]{Invocation d'esprit verdoyant}</p><p>Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L9zMTV6Ao9umpQ0b]{Don de la Verdoyance}</p><p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tEM8n5J9dktpyGLA]{Interférence verdoyante}</p><p>Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.emYxBYQxBbb7aRDv]{Symbiose spirituelle}</p>"
+    value: "<h2 id=\"cercle-de-la-terre\"><strong>Cercle de la verdoyance</strong></h2><h3>\_</h3><p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ALqS9BcwwjJ24sFE]{Sorts de Cercle [Cercle de la Verdoyance]}</p><p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Q2HUMz08FTcTvVJt]{Invocation d'esprit verdoyant}</p><p>Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.L9zMTV6Ao9umpQ0b]{Don de la Verdoyance}</p><p>Niveau 10 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.tEM8n5J9dktpyGLA]{Interférence verdoyante}</p><p>Niveau 14 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.emYxBYQxBbb7aRDv]{Symbiose spirituelle}</p>"
     chat: ''
     unidentified: ''
   source: Tome of Heroes - Kobold Press
@@ -15,9 +15,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.ALqS9BcwwjJ24sFE
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.ALqS9BcwwjJ24sFE
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Q2HUMz08FTcTvVJt
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Q2HUMz08FTcTvVJt
         optional: false
         spell:
           ability: ''
@@ -33,7 +33,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L9zMTV6Ao9umpQ0b
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.L9zMTV6Ao9umpQ0b
         optional: false
         spell:
           ability: ''
@@ -49,7 +49,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.tEM8n5J9dktpyGLA
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.tEM8n5J9dktpyGLA
         optional: false
         spell:
           ability: ''
@@ -65,7 +65,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.emYxBYQxBbb7aRDv
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.emYxBYQxBbb7aRDv
         optional: false
         spell:
           ability: ''

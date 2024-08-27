@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"pisteur-un-rodeur-alternatif\"><strong>Pisteur : un rôdeur alternatif</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dCrq65lj7lU3be6L]{Rustique [Pisteur]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.meNJ3rXC39IBFf1f]{Expert en survie [Pisteur]}</p>\n<p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RWlXCaX3W6hYLmtJ]{Style de combat supplémentaire [Pisteur]}</p>\n<p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.u4U2GXPaKdlRB9sl]{Attaque supplémentaire [Pisteur]}</p>"
+    value: "<h2 id=\"archetypes-de-rodeur\"><strong>Archétypes de rôdeur</strong></h2>\n<h3 id=\"pisteur-un-rodeur-alternatif\"><strong>Pisteur : un rôdeur alternatif</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dCrq65lj7lU3be6L]{Rustique [Pisteur]}</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.meNJ3rXC39IBFf1f]{Expert en survie [Pisteur]}</p>\n<p>Niveau 13 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.RWlXCaX3W6hYLmtJ]{Style de combat supplémentaire [Pisteur]}</p>\n<p>Niveau 20 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.u4U2GXPaKdlRB9sl]{Attaque supplémentaire [Pisteur]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.u4U2GXPaKdlRB9sl
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.u4U2GXPaKdlRB9sl
         optional: false
       value: {}
       level: 20
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RWlXCaX3W6hYLmtJ
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.RWlXCaX3W6hYLmtJ
         optional: false
       value: {}
       level: 13
@@ -42,9 +42,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dCrq65lj7lU3be6L
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dCrq65lj7lU3be6L
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.meNJ3rXC39IBFf1f
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.meNJ3rXC39IBFf1f
         optional: false
       value: {}
       level: 3

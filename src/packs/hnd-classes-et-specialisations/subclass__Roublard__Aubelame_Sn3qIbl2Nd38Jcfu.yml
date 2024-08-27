@@ -3,7 +3,7 @@ type: subclass
 img: icons/skills/melee/strike-sword-stabbed-brown.webp
 system:
   description:
-    value: "<h3>\_</h3><p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.D1iseVgiZ7GqvUcw]{Incantations [Aubelame]}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L6NO2ZYRogLPEoij]{Yeux de l'aube}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3QgH9w9Ywd3m4EHQ]{Frappe de l'aube}</p><p id=\"le-secret-de-l-acier\">Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OoJUXpdm7nYIvGcK]{Renfort de la lumière}</p><p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KVRk8vXfmfOyX6ZO]{Illumination soudaine}</p><p id=\"rage-froide\">Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YIlRxJsGsq4w76Ae]{Aube ardente}</p>"
+    value: "<h3>\_</h3><p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.D1iseVgiZ7GqvUcw]{Incantations [Aubelame]}</p><p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.L6NO2ZYRogLPEoij]{Yeux de l'aube}</p><p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.3QgH9w9Ywd3m4EHQ]{Frappe de l'aube}</p><p id=\"le-secret-de-l-acier\">Niveau 9 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.OoJUXpdm7nYIvGcK]{Renfort de la lumière}</p><p>Niveau 13 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KVRk8vXfmfOyX6ZO]{Illumination soudaine}</p><p id=\"rage-froide\">Niveau 17 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.YIlRxJsGsq4w76Ae]{Aube ardente}</p>"
     chat: ''
     unidentified: ''
   source: Warlock Grimoire - Kobold Press
@@ -14,7 +14,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.Y2RqdNOa7WAGAIVU
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.Y2RqdNOa7WAGAIVU
         optional: false
         spell:
           ability: wis
@@ -30,11 +30,11 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.D1iseVgiZ7GqvUcw
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.D1iseVgiZ7GqvUcw
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.L6NO2ZYRogLPEoij
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.L6NO2ZYRogLPEoij
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.3QgH9w9Ywd3m4EHQ
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.3QgH9w9Ywd3m4EHQ
         optional: false
         spell:
           ability: ''
@@ -50,7 +50,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OoJUXpdm7nYIvGcK
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.OoJUXpdm7nYIvGcK
         optional: false
         spell:
           ability: ''
@@ -66,7 +66,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KVRk8vXfmfOyX6ZO
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KVRk8vXfmfOyX6ZO
         optional: false
         spell:
           ability: ''
@@ -82,7 +82,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.YIlRxJsGsq4w76Ae
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.YIlRxJsGsq4w76Ae
         optional: false
         spell:
           ability: ''

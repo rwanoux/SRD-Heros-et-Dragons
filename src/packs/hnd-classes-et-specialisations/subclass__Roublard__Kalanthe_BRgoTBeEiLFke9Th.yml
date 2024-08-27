@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Kalanthe</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Cltspym3oOfketff]{Compétences supplémentaires [Kalanthe]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cj1EfNeB2P35USt7]{Attaque par surprise [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TMSHEbEbvhV8W9iR]{Faire taire [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.S9hHTC7e8wuCvkJD]{Impitoyable [Kalanthe]}</p>\n<p>Niveau 13 :\_ @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7Zb6foFmN6HRyZMu]{Guerrier du silence [Kalanthe]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yz9DYYzRicyIUf2c]{Assassinat [Kalanthe]}</p>\n<h4 id=\"specialiste\"></h4>"
+    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Kalanthe</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Cltspym3oOfketff]{Compétences supplémentaires [Kalanthe]}</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.cj1EfNeB2P35USt7]{Attaque par surprise [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.TMSHEbEbvhV8W9iR]{Faire taire [Kalanthe]}</p>\n<p>Niveau 9 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.S9hHTC7e8wuCvkJD]{Impitoyable [Kalanthe]}</p>\n<p>Niveau 13 :\_ @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.7Zb6foFmN6HRyZMu]{Guerrier du silence [Kalanthe]}</p>\n<p>Niveau 17 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Yz9DYYzRicyIUf2c]{Assassinat [Kalanthe]}</p>\n<h4 id=\"specialiste\"></h4>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Yz9DYYzRicyIUf2c
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Yz9DYYzRicyIUf2c
         optional: false
       value: {}
       level: 17
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7Zb6foFmN6HRyZMu
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.7Zb6foFmN6HRyZMu
         optional: false
       value: {}
       level: 13
@@ -42,9 +42,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TMSHEbEbvhV8W9iR
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.TMSHEbEbvhV8W9iR
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.S9hHTC7e8wuCvkJD
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.S9hHTC7e8wuCvkJD
         optional: false
       value: {}
       level: 9
@@ -55,9 +55,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Cltspym3oOfketff
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Cltspym3oOfketff
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.cj1EfNeB2P35USt7
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.cj1EfNeB2P35USt7
         optional: false
       value: {}
       level: 3

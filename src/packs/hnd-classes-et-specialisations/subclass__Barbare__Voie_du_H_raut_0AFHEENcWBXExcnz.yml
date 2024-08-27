@@ -7,7 +7,7 @@ flags:
     sourceId: Item.hbFSboY2Hmm1VfHE
 system:
   description:
-    value: "<h2 id=\"voie-de-l-acier\" style=\"border-bottom:1px solid var(--color-underline-header)\"><strong>Voie du héraut</strong></h2><p>Dans les contrées nordiques, les guerriers sauvages se lancent dans la bataille derrière les chantres guerriers-poètes. Ces hommes et ces femmes sages recueillent l'histoire, les traditions et les connaissances accumulées par le peuple afin de les préserver et de les transmettre. Les barbares qui suivent la voie du héraut, parfois appelés skaldes, mènent leur peuple au combat en chantant les sagas de leurs tribus, les encourageant à remporter de nouvelles victoires tout en honorant la gloire du passé.</p><p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4jWVQkgy5QOLObnZ]{Tradition orale [Voie du héraut]}</p><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IN7x8jiwVXXf8wqw]{Ferveur au combat [Voie du héraut]}</p><p id=\"le-secret-de-l-acier\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Xm2rq652mspGY7T0]{Gardien du savoir [Voie du héraut]}</p><p id=\"briseur-de-sort\"><span style=\"font-size:14px\">Niveau 10\_</span>:<span style=\"font-size:1.125em\">\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jJ8PY2qFBu58IRdn]{Chant revigorant [Voie du héraut]}</span></p><p id=\"rage-froide\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RIxvQsQZzhr0MquC]{Orateur tonitruant [Voie du héraut]}</p><p>\_</p>"
+    value: "<h2 id=\"voie-de-l-acier\" style=\"border-bottom:1px solid var(--color-underline-header)\"><strong>Voie du héraut</strong></h2><p>Dans les contrées nordiques, les guerriers sauvages se lancent dans la bataille derrière les chantres guerriers-poètes. Ces hommes et ces femmes sages recueillent l'histoire, les traditions et les connaissances accumulées par le peuple afin de les préserver et de les transmettre. Les barbares qui suivent la voie du héraut, parfois appelés skaldes, mènent leur peuple au combat en chantant les sagas de leurs tribus, les encourageant à remporter de nouvelles victoires tout en honorant la gloire du passé.</p><p id=\"sens-de-la-magie\">Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.4jWVQkgy5QOLObnZ]{Tradition orale [Voie du héraut]}</p><p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.IN7x8jiwVXXf8wqw]{Ferveur au combat [Voie du héraut]}</p><p id=\"le-secret-de-l-acier\">Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Xm2rq652mspGY7T0]{Gardien du savoir [Voie du héraut]}</p><p id=\"briseur-de-sort\"><span style=\"font-size:14px\">Niveau 10\_</span>:<span style=\"font-size:1.125em\">\_@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jJ8PY2qFBu58IRdn]{Chant revigorant [Voie du héraut]}</span></p><p id=\"rage-froide\">Niveau 14 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.RIxvQsQZzhr0MquC]{Orateur tonitruant [Voie du héraut]}</p><p>\_</p>"
     chat: ''
     unidentified: ''
   source: 'Warlock #13 - War & Battle - Kobold Press'
@@ -19,9 +19,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.4jWVQkgy5QOLObnZ
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.4jWVQkgy5QOLObnZ
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IN7x8jiwVXXf8wqw
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.IN7x8jiwVXXf8wqw
         optional: false
         spell:
           ability: ''
@@ -37,7 +37,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Xm2rq652mspGY7T0
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Xm2rq652mspGY7T0
         optional: false
         spell:
           ability: ''
@@ -53,7 +53,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jJ8PY2qFBu58IRdn
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jJ8PY2qFBu58IRdn
         optional: false
         spell:
           ability: ''
@@ -69,7 +69,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.RIxvQsQZzhr0MquC
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.RIxvQsQZzhr0MquC
         optional: false
         spell:
           ability: ''

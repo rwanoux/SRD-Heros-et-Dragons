@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"defenseur\"><strong>Défenseur</strong></h2>\n<h3>\_</h3>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CKu148hXnq8Rzuv2]{Bloquer un adversaire [Défenseur]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uX61q1op1Q1k8XPn]{Garde du corps [Défenseur]}</p>\n<p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.BhNY7lUeJMIxYEDU]{Posture défensive [Défenseur]}</p>\n<p>Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xLtStJ2iS5Kr9O35]{Style de combat supplémentaire [Défenseur]}</p>\n<p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rUlgDZUMM7MthlPC]{Tête de fer [Défenseur]}</p>\n<p>Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hsvicJDLuDnEUasx]{Résistance surhumaine [Défenseur]}</p>"
+    value: "<h2 id=\"defenseur\"><strong>Défenseur</strong></h2>\n<h3>\_</h3>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.CKu148hXnq8Rzuv2]{Bloquer un adversaire [Défenseur]}</p>\n<p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.uX61q1op1Q1k8XPn]{Garde du corps [Défenseur]}</p>\n<p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.BhNY7lUeJMIxYEDU]{Posture défensive [Défenseur]}</p>\n<p>Niveau 10 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.xLtStJ2iS5Kr9O35]{Style de combat supplémentaire [Défenseur]}</p>\n<p>Niveau 15 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rUlgDZUMM7MthlPC]{Tête de fer [Défenseur]}</p>\n<p>Niveau 18 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.hsvicJDLuDnEUasx]{Résistance surhumaine [Défenseur]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hsvicJDLuDnEUasx
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.hsvicJDLuDnEUasx
         optional: false
       value: {}
       level: 18
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.rUlgDZUMM7MthlPC
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.rUlgDZUMM7MthlPC
         optional: false
       value: {}
       level: 15
@@ -42,7 +42,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.xLtStJ2iS5Kr9O35
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.xLtStJ2iS5Kr9O35
         optional: false
       value: {}
       level: 10
@@ -53,9 +53,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.uX61q1op1Q1k8XPn
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.uX61q1op1Q1k8XPn
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.BhNY7lUeJMIxYEDU
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.BhNY7lUeJMIxYEDU
         optional: false
       value: {}
       level: 7
@@ -66,7 +66,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CKu148hXnq8Rzuv2
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.CKu148hXnq8Rzuv2
         optional: false
       value: {}
       level: 3

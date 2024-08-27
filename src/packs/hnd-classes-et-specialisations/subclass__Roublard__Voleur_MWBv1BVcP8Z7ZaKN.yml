@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Voleur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.btvI77mLKG6sajRL]{Mains lestes [Voleur]}</p>\n<p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7HRfOlcJVnpKEuOZ]{Monte-en-l'air [Voleur]}</p>\n<p>Niveau 9 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jjxtTFIHqOj9meJ1]{Furtivité suprême [Voleur]}</p>\n<p>Niveau 13 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.B1dmTprCFSZDcGZi]{Utilisation d'objets magiques [Voleur]}</p>\n<p>Niveau 17 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SR9Hheap5XThQiXj]{Réflexes de voleur [Voleur]}</p>\n<h4 id=\"specialiste\"></h4>"
+    value: "<h2 id=\"archetypes-de-roublard\"><strong>Archétypes de roublard</strong></h2>\n<h3 id=\"voleur\"><strong>Voleur</strong></h3>\n<p>\_</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.btvI77mLKG6sajRL]{Mains lestes [Voleur]}</p>\n<p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.7HRfOlcJVnpKEuOZ]{Monte-en-l'air [Voleur]}</p>\n<p>Niveau 9 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jjxtTFIHqOj9meJ1]{Furtivité suprême [Voleur]}</p>\n<p>Niveau 13 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.B1dmTprCFSZDcGZi]{Utilisation d'objets magiques [Voleur]}</p>\n<p>Niveau 17 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.SR9Hheap5XThQiXj]{Réflexes de voleur [Voleur]}</p>\n<h4 id=\"specialiste\"></h4>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.SR9Hheap5XThQiXj
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.SR9Hheap5XThQiXj
         optional: false
       value: {}
       level: 17
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.B1dmTprCFSZDcGZi
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.B1dmTprCFSZDcGZi
         optional: false
       value: {}
       level: 13
@@ -42,7 +42,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.jjxtTFIHqOj9meJ1
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.jjxtTFIHqOj9meJ1
         optional: false
       value: {}
       level: 9
@@ -53,9 +53,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.btvI77mLKG6sajRL
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.btvI77mLKG6sajRL
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7HRfOlcJVnpKEuOZ
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.7HRfOlcJVnpKEuOZ
         optional: false
       value: {}
       level: 3

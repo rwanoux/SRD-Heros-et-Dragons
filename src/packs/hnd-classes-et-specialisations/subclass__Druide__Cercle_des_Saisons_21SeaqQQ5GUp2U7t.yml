@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h1 id=\"cercles-druidiques\"><strong>Cercles druidiques</strong></h1>\n<h2 id=\"cercle-des-saisons\"><strong>Cercle des saisons</strong></h2>\n<h3>\_</h3>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FhX1vIcskuQ4lhc2]{Vigueur du printemps [Cercle des Saisons]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.suheEyE4aVaNZv0S]{Tours de magie bonus [Cercle des Saisons]}</p>\n<p>Niveau 2 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8nWeZk1RD2oeNxok]{Sorts de saison [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 6 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WCXttu9PIKQFizSa]{Migration d'été [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 10 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WDwTX42JhTadugAt]{Refuge d'automne [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 14 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dastyMwwpup3GhTh]{Prédateur de l'hiver [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 18 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TDUTwzjgumtcmnBQ]{Jeunesse éternelle [Cercle des Saisons]}</p>"
+    value: "<h1 id=\"cercles-druidiques\"><strong>Cercles druidiques</strong></h1>\n<h2 id=\"cercle-des-saisons\"><strong>Cercle des saisons</strong></h2>\n<h3>\_</h3>\n<p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.FhX1vIcskuQ4lhc2]{Vigueur du printemps [Cercle des Saisons]}</p>\n<p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.suheEyE4aVaNZv0S]{Tours de magie bonus [Cercle des Saisons]}</p>\n<p>Niveau 2 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.8nWeZk1RD2oeNxok]{Sorts de saison [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 6 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WCXttu9PIKQFizSa]{Migration d'été [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 10 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WDwTX42JhTadugAt]{Refuge d'automne [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 14 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dastyMwwpup3GhTh]{Prédateur de l'hiver [Cercle des Saisons]}</p>\n<p style=\"font-size:14px\">Niveau 18 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.TDUTwzjgumtcmnBQ]{Jeunesse éternelle [Cercle des Saisons]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.TDUTwzjgumtcmnBQ
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.TDUTwzjgumtcmnBQ
         optional: false
       value: {}
       level: 18
@@ -31,7 +31,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.dastyMwwpup3GhTh
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.dastyMwwpup3GhTh
         optional: false
       value: {}
       level: 14
@@ -42,7 +42,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WDwTX42JhTadugAt
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WDwTX42JhTadugAt
         optional: false
       value: {}
       level: 10
@@ -53,7 +53,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WCXttu9PIKQFizSa
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WCXttu9PIKQFizSa
         optional: false
       value: {}
       level: 6
@@ -64,15 +64,15 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.FhX1vIcskuQ4lhc2
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.FhX1vIcskuQ4lhc2
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.suheEyE4aVaNZv0S
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.suheEyE4aVaNZv0S
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.8nWeZk1RD2oeNxok
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.ZmLNOt7mWVmBnC8x
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.djoMzjTA610GQAv4
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.9mglrGyUpA4EeqHA
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.cp90m51PmZofavuP
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.8nWeZk1RD2oeNxok
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.ZmLNOt7mWVmBnC8x
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.djoMzjTA610GQAv4
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.9mglrGyUpA4EeqHA
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.cp90m51PmZofavuP
         optional: false
       value: {}
       level: 2

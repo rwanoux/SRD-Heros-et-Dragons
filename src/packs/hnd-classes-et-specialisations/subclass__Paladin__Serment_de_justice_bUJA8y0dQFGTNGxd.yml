@@ -3,7 +3,7 @@ type: subclass
 img: icons/magic/symbols/cog-shield-white-blue.webp
 system:
   description:
-    value: "<h4>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.v6oxFo1FqaSuBHOr]{Préceptes de justice [Serment de justice]}</h4><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qc7OWCS63mzJCrp1]{Sorts de serment [Serment de Justice]}</p><p>Niveau 3 :\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zBQ5lZoZGaMYSQHL]{Canalisation d'énergie divine [Serment de Justice] Célérité de justicier}</p><p>Niveau 3 :\_@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ksj12oQFVWlI8WjX]{Canalisation d'énergie divine [Serment de Justice] Chaînes de la justice}</p><p>Niveau 7 :@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.71dDZ7gV30ztMbAt]{En vertu de la loi}</p><p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.7ATllKeBkcr7PvEw]{Aura de contrôle}</p><p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.MErXofvBxKaHgFNv]{Chaînes de lumière}</p><p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OrnfP9jvE3a9ZB8i]{Avatar de l'ordre parfait}</p>"
+    value: "<h4>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.v6oxFo1FqaSuBHOr]{Préceptes de justice [Serment de justice]}</h4><p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.qc7OWCS63mzJCrp1]{Sorts de serment [Serment de Justice]}</p><p>Niveau 3 :\_@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.zBQ5lZoZGaMYSQHL]{Canalisation d'énergie divine [Serment de Justice] Célérité de justicier}</p><p>Niveau 3 :\_@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Ksj12oQFVWlI8WjX]{Canalisation d'énergie divine [Serment de Justice] Chaînes de la justice}</p><p>Niveau 7 :@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.71dDZ7gV30ztMbAt]{En vertu de la loi}</p><p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.7ATllKeBkcr7PvEw]{Aura de contrôle}</p><p>Niveau 15 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.MErXofvBxKaHgFNv]{Chaînes de lumière}</p><p>Niveau 20 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.OrnfP9jvE3a9ZB8i]{Avatar de l'ordre parfait}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -15,13 +15,13 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.v6oxFo1FqaSuBHOr
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.v6oxFo1FqaSuBHOr
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.zBQ5lZoZGaMYSQHL
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.zBQ5lZoZGaMYSQHL
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.Ksj12oQFVWlI8WjX
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.Ksj12oQFVWlI8WjX
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.qc7OWCS63mzJCrp1
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.qc7OWCS63mzJCrp1
         optional: false
         spell:
           ability: ''
@@ -37,9 +37,9 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.71dDZ7gV30ztMbAt
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.71dDZ7gV30ztMbAt
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.wWa9W4VLy7uBVac5
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.wWa9W4VLy7uBVac5
         optional: false
         spell:
           ability: ''
@@ -55,7 +55,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.MErXofvBxKaHgFNv
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.MErXofvBxKaHgFNv
         optional: false
         spell:
           ability: ''
@@ -71,7 +71,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.OrnfP9jvE3a9ZB8i
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.OrnfP9jvE3a9ZB8i
         optional: false
         spell:
           ability: ''

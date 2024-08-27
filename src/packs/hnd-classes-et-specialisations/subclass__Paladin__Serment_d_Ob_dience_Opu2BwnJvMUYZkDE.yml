@@ -8,7 +8,7 @@ sort: 0
 flags: {}
 system:
   description:
-    value: "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2><h3 id=\"serment-d-obedience\"><strong>Serment d'obédience</strong></h3><h4>\_</h4><h4>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KFmbT4ZTufmoDEZb]{Préceptes d'obédience [Serment d'Obédience]}</h4><p>Niveau 3 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KWz8TVQ6QulQrKQS]{Sorts de serment [Serment d'Obédience]}</p><p>Niveau 3 :\_</p><ul><li style=\"list-style-type:none\"><p>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IgBj0bMjSEwiWRek]{Canalisation d'énergie divine [Serment d'Obédience] Porte-étendard}</p><ol><li>@UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hQxW6q6iI30bJZ1l]{Canalisation d'énergie divine [Serment d'Obédience] Tacticien}</li></ol></li></ul><p>Niveau 7 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6QUbP3zHUfyNHh4G]{Cri de ralliement [Serment d'Obédience]}</p><p>Niveau 15 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WX2Fmh3H0y0Ianq8]{Charge héroïque [Serment d'Obédience]}</p><p>Niveau 20 : @UUID[Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CnIYOXfad2SYzbXT]{Héros de Guerre [Serment d'Obédience]}</p>"
+    value: "<h2 id=\"serments-sacres\"><strong>Serments sacrés</strong></h2><h3 id=\"serment-d-obedience\"><strong>Serment d'obédience</strong></h3><h4>\_</h4><h4>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KFmbT4ZTufmoDEZb]{Préceptes d'obédience [Serment d'Obédience]}</h4><p>Niveau 3 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KWz8TVQ6QulQrKQS]{Sorts de serment [Serment d'Obédience]}</p><p>Niveau 3 :\_</p><ul><li style=\"list-style-type:none\"><p>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.IgBj0bMjSEwiWRek]{Canalisation d'énergie divine [Serment d'Obédience] Porte-étendard}</p><ol><li>@UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.hQxW6q6iI30bJZ1l]{Canalisation d'énergie divine [Serment d'Obédience] Tacticien}</li></ol></li></ul><p>Niveau 7 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.6QUbP3zHUfyNHh4G]{Cri de ralliement [Serment d'Obédience]}</p><p>Niveau 15 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WX2Fmh3H0y0Ianq8]{Charge héroïque [Serment d'Obédience]}</p><p>Niveau 20 : @UUID[Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.CnIYOXfad2SYzbXT]{Héros de Guerre [Serment d'Obédience]}</p>"
     chat: ''
     unidentified: ''
   source: ''
@@ -20,7 +20,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.CnIYOXfad2SYzbXT
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.CnIYOXfad2SYzbXT
         optional: false
       value: {}
       level: 20
@@ -30,8 +30,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.H3CMVcsZmbakqp2C
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.AbpUeHdRgmQyzsK1
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.H3CMVcsZmbakqp2C
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.AbpUeHdRgmQyzsK1
         optional: false
       value: {}
       level: 17
@@ -42,7 +42,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.WX2Fmh3H0y0Ianq8
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.WX2Fmh3H0y0Ianq8
         optional: false
       value: {}
       level: 15
@@ -52,8 +52,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.Bkz8upR3keOCOAwB
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.CQ0qnTBZGBIYsQp1
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.Bkz8upR3keOCOAwB
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.CQ0qnTBZGBIYsQp1
         optional: false
       value: {}
       level: 13
@@ -64,7 +64,7 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.6QUbP3zHUfyNHh4G
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.6QUbP3zHUfyNHh4G
         optional: false
       value: {}
       level: 7
@@ -74,8 +74,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.Eur22TaqT9YD0rEV
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.CKZsRfEpG4YIyft4
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.Eur22TaqT9YD0rEV
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.CKZsRfEpG4YIyft4
         optional: false
       value: {}
       level: 5
@@ -86,15 +86,15 @@ system:
       configuration:
         items:
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KFmbT4ZTufmoDEZb
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.66IkCOSiLUKg3UiL
-          - Compendium.srd-heros-et-dragons.HnD-grimoire.iFrSzDKFeD4eGeRb
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KFmbT4ZTufmoDEZb
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.66IkCOSiLUKg3UiL
+          - Compendium.SRD-Heros-et-Dragons.hnd-grimoire.iFrSzDKFeD4eGeRb
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.KWz8TVQ6QulQrKQS
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.KWz8TVQ6QulQrKQS
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.IgBj0bMjSEwiWRek
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.IgBj0bMjSEwiWRek
           - >-
-            Compendium.srd-heros-et-dragons.HnD-capacites-de-classes.hQxW6q6iI30bJZ1l
+            Compendium.SRD-Heros-et-Dragons.hnd-capacites-de-classes.hQxW6q6iI30bJZ1l
         optional: false
       value: {}
       level: 3
