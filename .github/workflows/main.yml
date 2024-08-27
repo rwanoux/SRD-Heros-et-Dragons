@@ -1,4 +1,17 @@
 name: Release Creation
+env:
+  # The URL used for the module's "Project URL" link on FoundryVTT's website.
+  project_url: "https://github.com/${{github.repository}}"
+
+  # A URL that will always point to the latest manifest.
+  # FoundryVTT uses this URL to check whether the current module version that
+  # is installed is the latest version. This URL should NOT change,
+  # otherwise FoundryVTT won't be able to perform this check.
+  latest_manifest_url: "https://github.com/${{github.repository}}/releases/latest/download/system.json"
+
+  # The URL to the module archive associated with the module release being
+  # processed by this workflow.
+  release_module_url: "https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/system.zip"
 
 on:
   release:
@@ -21,7 +34,15 @@ jobs:
           url: https://github.com/${{github.repository}}
           manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
           download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
-
+      # `npm ci` is recommended:
+      # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+      - name: Install Dependencies
+        run: npm ci
+      
+      # Pull YAML to LDB packs
+      - name: Build Packs
+        run: npm run pullYAMLtoLDB
+        
       # Create a zip file with all files required by the module to add to the release
       - run: zip -r ./module.zip module.json srd-heros-et-dragons.js assets/ modules/ packs/
 
@@ -38,3 +59,13 @@ jobs:
           artifacts: "./module.json, ./module.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
+      - name: Deploy Release
+        id: deploy_release
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://api.foundryvtt.com/_api/packages/release_version'
+          method: 'POST'
+          contentType: 'application/json'
+          customHeaders: '{"Authorization": "${{ secrets.FVTT_MODULE_KEY }}"}'
+          data: '{"id": "SRD-Heros-et-Dragons","dry-run":false,"release":{"version":"${{github.event.release.tag_name}}","manifest":"https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/${{github.event.release.tag_name}}/module.json","compatibility":{"minimum":"11","verified":"12","maximum":"12"}}}'
+      
