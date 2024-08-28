@@ -59,4 +59,13 @@ jobs:
           artifacts: "./module.json, ./module.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
+      - name: Deploy Release
+        id: deploy_release
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://api.foundryvtt.com/_api/packages/release_version'
+          method: 'POST'
+          contentType: 'application/json'
+          customHeaders: '{"Authorization": "${{ secrets.FVTT_MODULE_KEY }}"}'
+          data: '{"id": "SRD_HD","dry-run":false,"release":{"version":"${{github.event.release.tag_name}}","manifest":"https://github.com/rwanoux/SRD-Heros-et-Dragons/releases/download/${{github.event.release.tag_name}}/system.json","compatibility":{"minimum":"12","verified":"12","maximum":"12"}}}'
       
