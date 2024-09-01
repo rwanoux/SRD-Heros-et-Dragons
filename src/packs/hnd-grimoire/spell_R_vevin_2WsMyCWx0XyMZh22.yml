@@ -77,6 +77,11 @@ system:
   scaling:
     mode: none
     formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
 effects: []
 ownership:
   default: 0
@@ -86,11 +91,11 @@ flags:
     sourceId: Item.SnScTbu9sxYMuanF
 _stats:
   systemId: dnd5e
-  systemVersion: 2.1.5
-  coreVersion: '12.330'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1678986082364
-  modifiedTime: 1678990001739
-  lastModifiedBy: MB7dftOsMOjK5aEw
+  modifiedTime: 1725192436306
+  lastModifiedBy: uDOQUpuSWOR4DOOH
   compendiumSource: Item.SnScTbu9sxYMuanF
   duplicateSource: null
 folder: null

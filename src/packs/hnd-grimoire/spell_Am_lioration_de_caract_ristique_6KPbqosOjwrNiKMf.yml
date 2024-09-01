@@ -208,6 +208,11 @@ system:
   scaling:
     mode: level
     formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 ownership:
   default: 0
   nCN4ppSa9oQ2OVOw: 3
@@ -216,11 +221,11 @@ folder: null
 sort: 0
 _stats:
   systemId: dnd5e
-  systemVersion: 2.1.5
-  coreVersion: '12.330'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1663923687945
-  modifiedTime: 1678421481589
-  lastModifiedBy: MIsNaVxms6cvWfks
+  modifiedTime: 1725192436348
+  lastModifiedBy: uDOQUpuSWOR4DOOH
   compendiumSource: null
   duplicateSource: null
 _key: '!items!6KPbqosOjwrNiKMf'

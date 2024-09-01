@@ -78,6 +78,9 @@ system:
   scaling:
     mode: cantrip
     formula: ''
+  properties:
+    - vocal
+    - somatic
 effects: []
 ownership:
   default: 0
@@ -87,11 +90,11 @@ flags:
     sourceId: Item.eKAnAuLCNV1U5Mww
 _stats:
   systemId: dnd5e
-  systemVersion: 2.1.5
-  coreVersion: '12.330'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1679679369107
-  modifiedTime: 1679679538875
-  lastModifiedBy: MB7dftOsMOjK5aEw
+  modifiedTime: 1725192436707
+  lastModifiedBy: uDOQUpuSWOR4DOOH
   compendiumSource: Item.eKAnAuLCNV1U5Mww
   duplicateSource: null
 folder: null
